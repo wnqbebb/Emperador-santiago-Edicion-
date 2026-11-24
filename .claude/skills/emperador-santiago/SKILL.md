@@ -18,6 +18,7 @@ Lee y aplica `.claude/skills/crear-estilo-edicion/REGLAS_GENERALES.md` (32 regla
 
 | Santiago pide… | Usa |
 |---|---|
+| Unir varios clips y quitar silencios / muletillas | **Unión de clips y recortes de silencio**: `santi_unir_clips` (carpeta o lista en orden; se ordena por nombre) o `npm run unir -- carpeta/` |
 | Un reel rápido con subtítulos animados y efectos | Editor rápido: `santi_list_jobs` → `santi_get_brief` → `santi_submit_plan` (estilos `imperial`, `impacto`, …) |
 | Una edición premium tipo Arthur Brooks / documental / podcast | **VES**: sigue `.claude/skills/crear-estilo-edicion/system/AGENTS.md` con `santi_ves_overview`, `santi_ves_run`, `santi_ves_read`, `santi_ves_write`, `santi_ves_project` |
 | Crear / entrenar / clonar el estilo de un creador (10–20 videos) | Skill **crear-estilo-edicion** (`SKILL.md`, 9 fases con STOPs). Comandos con `santi_ves_run` script `lab` |

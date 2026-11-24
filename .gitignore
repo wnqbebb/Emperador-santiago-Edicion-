@@ -5,7 +5,8 @@ data
 *.log
 test-results
 playwright-report
-tests/fixtures
+tests/fixtures/*
+!tests/fixtures/montaje
 remotion/out
 qa
 tools/.venv

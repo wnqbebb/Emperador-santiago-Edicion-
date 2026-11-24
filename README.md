@@ -34,6 +34,26 @@ Requisitos: Node 22+, FFmpeg y Python 3.10+.
 Opcional: `bash scripts/instalar-skills.sh --lemo` instala los 99 estilos de película de
 [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar). Su licencia es **CC BY-NC 4.0 (no comercial)**.
 
+## Unión de clips y recortes de silencio
+
+Botón **"Unir clips y cortar silencios"** arriba en el editor. Sueltas tus clips (o una carpeta): se ordenan solos por
+nombre (`clip 1`, `clip 2` … `clip 10`), puedes reordenarlos arrastrando o con ↑ ↓, y **no se procesa nada** hasta que
+pulsas **Crear video completo**. Entonces:
+
+1. **Busca los silencios** de cada clip con un umbral que se adapta a su ruido de fondo (no un −42 dB fijo).
+2. **Recorta** sin cortar palabras; con "Quitar muletillas", Whisper elimina eh, mmm…
+3. **Une** todos los clips al mismo tamaño (vertical 1080×1920 o el original) y 30 fps, con fundidos de 8 ms en cada corte (sin clics).
+4. **Renderiza** el master con volumen estándar de redes (−14 LUFS) y **comprime** una versión liviana para subir.
+
+Ritmos: *Natural* (respira), *Dinámico* (reels), *Agresivo* (sin aire). Luego puedes **abrir el resultado en el editor**
+para ponerle subtítulos y estilo. También por terminal o desde tu IA (`santi_unir_clips`):
+
+```bash
+npm run unir -- carpeta-de-clips/ --ritmo dinamico --muletillas
+```
+
+Es la evolución de la V4 (`legacy/v4/`), que hacía esto mismo en el navegador con umbral fijo.
+
 ## Método profesional VES y creación de estilos (crear-estilo-edicion)
 
 La skill **crear-estilo-edicion** viene instalada en `.claude/skills/crear-estilo-edicion/` con todo su sistema (VES):

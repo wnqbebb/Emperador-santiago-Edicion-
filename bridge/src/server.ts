@@ -7,6 +7,7 @@ import { pipeline } from "node:stream/promises";
 import { DATA } from "./store.js";
 import { startRender, getRender, type Engine } from "./render.js";
 import { FX_DIR } from "./fxbake.js";
+import { startMontaje, getMontaje, MONTAJE_DIR } from "./montaje.js";
 import { searchIdeas, startMotion, getMotion, renderMotionHtml, MOTION_DIR } from "./motion.js";
 import { startAnalysis, getAnalysis, reaInstalled } from "./analyze.js";
 import { runVes, getVesJob, humanAction, confirmPhrase, listVesStyles, listProjects, projectStatus, vesPath, vesInstalled, type VesScript } from "./ves.js";
@@ -90,6 +91,22 @@ createServer(async (req, res) => {
     }
     const an = p.match(/^\/api\/analyze\/([\w-]+)$/);
     if (an) return send(res, 200, getAnalysis(an[1]) ?? { error: "No existe" });
+
+    // ---------- Unión de clips y recortes de silencio
+    if (p === "/api/montaje" && req.method === "POST") {
+      const b = await body(req);
+      const files = (b.clips ?? []).map((c: { mediaId: string; name: string }) => ({ path: join(MEDIA, basename(c.mediaId)), name: String(c.name) }));
+      if (!files.length || files.some((f: { path: string }) => !existsSync(f.path))) return send(res, 400, { error: "Faltan clips por subir" });
+      return send(res, 200, startMontaje(files, { ritmo: b.ritmo ?? "dinamico", muletillas: !!b.muletillas, formato: b.formato ?? "vertical", idioma: b.idioma ?? "es" }));
+    }
+    const mt = p.match(/^\/api\/montaje\/([\w-]+)$/);
+    if (mt) {
+      const j = getMontaje(mt[1]);
+      if (!j) return send(res, 404, { error: "No existe" });
+      return send(res, 200, { ...j, master: j.master && `/montaje/${j.id}/video-completo.mp4`, web: j.web && `/montaje/${j.id}/video-completo-redes.mp4` });
+    }
+    const mtf = p.match(/^\/montaje\/([\w-]+)\/(video-completo(?:-redes)?\.mp4)$/);
+    if (mtf && existsSync(join(MONTAJE_DIR, mtf[1], mtf[2]))) return serveFile(req, res, join(MONTAJE_DIR, mtf[1], mtf[2]), "video/mp4");
 
     // ---------- VES (crear-estilo-edicion): edición profesional por STOPs y laboratorio de estilos
     if (p === "/api/ves") return send(res, 200, { installed: vesInstalled(), styles: listVesStyles().map((v) => ({ id: v.id, name: v.name, description: v.description })), projects: listProjects() });

@@ -9,6 +9,7 @@ import { startRecording } from "./engine/exporter";
 import { Timeline } from "./ui/Timeline";
 import { Icon } from "./ui/Icon";
 import { Lab } from "./ui/Lab";
+import { Montaje } from "./ui/Montaje";
 import { PIXEL_FX_META, fxDuration } from "../../shared/fxmeta";
 import type { Motion } from "./engine/types";
 
@@ -17,6 +18,7 @@ const fmt = (s: number) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).p
 
 export default function App() {
   const [tab, setTab] = useState<Tab>("media");
+  const [mode, setMode] = useState<"editor" | "montaje">("editor");
   const [file, setFile] = useState<File | null>(null);
   const [url, setUrl] = useState<string>("");
   const [duration, setDuration] = useState(0);
@@ -234,15 +236,18 @@ export default function App() {
   const outLen = plan ? outDuration(plan.segments) : duration;
 
   return (
-    <div className="app">
+    <div className={`app ${mode === "montaje" ? "is-montaje" : ""}`}>
       <header className="topbar">
         <div className="brand"><span className="logo"><Icon name="crown" /></span><div><b>Emperador Santiago</b><em>Edición de Videos</em></div></div>
-        <div className="project">{file?.name ?? "Proyecto sin título"}</div>
+        <div className="modes">
+          <button className={mode === "editor" ? "on" : ""} onClick={() => setMode("editor")}>Editor</button>
+          <button className={mode === "montaje" ? "on" : ""} onClick={() => setMode("montaje")}>Unir clips y cortar silencios</button>
+        </div>
         <div className="top-actions">
           <span className={`chip ${providers ? "on" : ""}`}>
             <i />{providers ? "Bridge IA conectado" : "Modo offline"}
           </span>
-          <div className="export">
+          <div className="export" style={{ visibility: mode === "editor" ? "visible" : "hidden" }}>
             <button className="btn primary" disabled={!plan || exporting} onClick={() => setExportOpen(!exportOpen)}>
               <Icon name="export" /> Exportar
             </button>
@@ -258,6 +263,9 @@ export default function App() {
         </div>
       </header>
 
+      {mode === "montaje" && <Montaje online={!!providers} onOpenInEditor={(f) => { setMode("editor"); loadFile(f); setTab("ai"); }} />}
+
+      <div className="editor-view" style={{ display: mode === "editor" ? "contents" : "none" }}>
       <nav className="rail">
         {([["media", "film", "Medios"], ["styles", "crown", "Estilos de Santi"], ["ai", "spark", "Director IA"], ["motion", "shapes", "Motion"], ["lab", "flask", "Laboratorio"]] as const).map(([id, icon, label]) => (
           <button key={id} className={tab === id ? "active" : ""} onClick={() => setTab(id)} title={label}>
@@ -412,6 +420,7 @@ export default function App() {
           {render?.projectDir && render.status === "done" && <code title="Ábrelo con: npx hyperframes preview">{render.projectDir}</code>}
         </div>
       </footer>
+      </div>
     </div>
   );
 }

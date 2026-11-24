@@ -18,7 +18,8 @@
     "setup": "bash scripts/setup.sh",
     "setup:rea": "bash scripts/setup-rea.sh",
     "skills": "bash scripts/instalar-skills.sh",
-    "setup:ves": "bash scripts/setup-ves.sh"
+    "setup:ves": "bash scripts/setup-ves.sh",
+    "unir": "npm run unir -w bridge --"
   },
   "devDependencies": {
     "@playwright/test": "1.63.0"

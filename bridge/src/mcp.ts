@@ -9,6 +9,8 @@ import { PlanSchema, StyleSchema } from "./schema.js";
 import { runReaVideo, readDigest, reaInstalled, slug } from "./analyze.js";
 import { searchIdeas, motionBrief, renderMotionHtml } from "./motion.js";
 import { DATA } from "./store.js";
+import { startMontaje, getMontaje } from "./montaje.js";
+import { readdirSync } from "node:fs";
 import { runVes, waitVes, listVesStyles, listProjects, projectStatus, writeVesFile, vesPath, type VesScript } from "./ves.js";
 import { readFileSync as readF, existsSync as exists } from "node:fs";
 import { join, resolve } from "node:path";
@@ -102,6 +104,31 @@ server.registerTool(
   async ({ html, seconds }) => {
     const j = await renderMotionHtml(html, seconds);
     return text(`Listo: ${j.url}\nProyecto editable: ${j.projectDir}`);
+  },
+);
+
+server.registerTool(
+  "santi_unir_clips",
+  {
+    description: "Unión de clips y recortes de silencio: une varios clips en orden, corta silencios (umbral adaptativo, sin cortar palabras), opcionalmente quita muletillas, y entrega el video completo (master + versión comprimida para redes). Si pasas una carpeta, ordena los archivos por nombre (clip 1, clip 2, … clip 10).",
+    inputSchema: {
+      paths: z.array(z.string()).describe("Rutas de los clips en orden, o una sola carpeta"),
+      ritmo: z.enum(["natural", "dinamico", "agresivo"]).optional(),
+      muletillas: z.boolean().optional().describe("Quitar eh, mmm… (usa Whisper, más lento)"),
+      formato: z.enum(["vertical", "original"]).optional(),
+    },
+  },
+  async ({ paths, ritmo, muletillas, formato }) => {
+    let files = paths.map((p) => resolve(p));
+    if (files.length === 1 && !/\.\w{2,4}$/.test(files[0])) {
+      const coll = new Intl.Collator("es", { numeric: true, sensitivity: "base" });
+      files = readdirSync(files[0]).filter((f) => /\.(mp4|mov|m4v|webm|mkv)$/i.test(f)).sort(coll.compare).map((f) => join(paths[0], f));
+    }
+    const job = startMontaje(files.map((p) => ({ path: p, name: p.split("/").pop()! })), { ritmo: ritmo ?? "dinamico", muletillas: !!muletillas, formato: formato ?? "vertical" });
+    while (getMontaje(job.id)!.status === "running") await new Promise((r) => setTimeout(r, 1000));
+    if (job.status === "error") return text(`Error: ${job.error}`);
+    const before = job.clips.reduce((t, c) => t + c.before, 0), after = job.clips.reduce((t, c) => t + c.after, 0);
+    return text(`Listo: ${files.length} clips · ${before.toFixed(1)} s → ${after.toFixed(1)} s (−${(before - after).toFixed(1)} s)\nMaster: ${job.master} (${job.masterMB} MB)\nRedes: ${job.web} (${job.webMB} MB)\n\n${job.clips.map((c, i) => `${i + 1}. ${c.name}: ${c.before.toFixed(1)}→${c.after.toFixed(1)} s, ${c.cuts} cortes${c.fillers ? `, ${c.fillers} muletillas` : ""}`).join("\n")}`);
   },
 );
 

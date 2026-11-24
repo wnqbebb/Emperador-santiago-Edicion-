@@ -53,3 +53,12 @@ export const vesJob = (id: string) => j<VesJob>(`/api/ves/run/${id}`);
 export const vesHuman = (b: { project: string; action: string; confirm: string }) => j<VesJob>("/api/ves/human", { method: "POST", body: JSON.stringify(b) });
 export const vesConfirmPhrase = (action: string, project: string) => j<{ phrase: string }>(`/api/ves/confirm-phrase?action=${action}&project=${project}`);
 export const vesFileUrl = (rel: string) => `${BASE}/ves-files/${rel.split("/").map(encodeURIComponent).join("/")}`;
+
+// ---------- Unión de clips y recortes de silencio
+export type MontajeJob = { id: string; status: "running" | "done" | "error"; step: string; progress: number; error?: string;
+  clips: { name: string; before: number; after: number; cuts: number; fillers: number; keep: [number, number][] }[];
+  master?: string; web?: string; masterMB?: number; webMB?: number };
+export const startMontaje = (b: { clips: { mediaId: string; name: string }[]; ritmo: string; muletillas: boolean; formato: string }) =>
+  j<MontajeJob>("/api/montaje", { method: "POST", body: JSON.stringify(b) });
+export const getMontaje = (id: string) => j<MontajeJob>(`/api/montaje/${id}`);
+export const abs = (path: string) => (path.startsWith("http") ? path : BASE + path);

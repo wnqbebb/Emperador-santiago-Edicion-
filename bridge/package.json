@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "mcp": "tsx src/mcp.ts",
-    "learn": "tsx src/learn.ts"
+    "learn": "tsx src/learn.ts",
+    "unir": "tsx src/unir.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "1.13.0",
