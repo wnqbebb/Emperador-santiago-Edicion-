@@ -6,6 +6,8 @@ import { fileURLToPath } from "node:url";
 import { randomUUID } from "node:crypto";
 import { DATA } from "./store.js";
 import { buildHyperframesProject } from "./hyperframes.js";
+import { bakePlanFx, FX_DIR } from "./fxbake.js";
+import { loudnorm } from "./post.js";
 import type { Plan, Style, Word } from "../../shared/types.js";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..", "..");
@@ -33,9 +35,13 @@ async function renderRemotion(job: RenderJob, dir: string, a: { videoUrl: string
   const { bundle } = await import("@remotion/bundler");
   const { selectComposition, renderMedia } = await import("@remotion/renderer");
   job.status = "rendering";
+  job.log.push("Horneando efectos con Playwright…");
+  const baked = await bakePlanFx(a.plan.motion, a.style.caption.highlight);
+  const port = process.env.SANTI_PORT ?? 8787;
+  const fx = Object.fromEntries(Object.entries(baked).map(([k, f]) => [k, `http://localhost:${port}/fx/${f}`]));
   bundleCache ??= bundle({ entryPoint: join(ROOT, "remotion/src/index.ts") });
   const serveUrl = await bundleCache;
-  const inputProps = { videoSrc: a.videoUrl, plan: a.plan, words: a.words, style: a.style };
+  const inputProps = { videoSrc: a.videoUrl, plan: a.plan, words: a.words, style: a.style, fx };
   const browserExecutable = process.env.SANTI_CHROME || null;
   const composition = await selectComposition({ serveUrl, id: "SantiEdit", inputProps, browserExecutable });
   const output = join(dir, "santi-remotion.mp4");
@@ -43,12 +49,16 @@ async function renderRemotion(job: RenderJob, dir: string, a: { videoUrl: string
     composition, serveUrl, codec: "h264", outputLocation: output, inputProps, browserExecutable,
     onProgress: ({ progress }) => (job.progress = progress),
   });
+  loudnorm(output);
   Object.assign(job, { status: "done", progress: 1, output });
 }
 
 async function renderHyperframes(job: RenderJob, dir: string, a: { videoPath: string; plan: Plan; words: Word[]; style: Style }) {
   const projectDir = join(dir, "hyperframes");
-  buildHyperframesProject(projectDir, a);
+  const baked = await bakePlanFx(a.plan.motion, a.style.caption.highlight);
+  const fx = Object.fromEntries(Object.entries(baked).map(([k, f]) => [k, join(FX_DIR, f)]));
+  const brolls = Object.fromEntries(a.plan.motion.filter((m) => m.kind === "broll").map((m) => [m.text, localBroll(m.text)]).filter(([, p]) => p)) as Record<string, string>;
+  buildHyperframesProject(projectDir, { ...a, fx, brolls });
   job.projectDir = projectDir;
   job.status = "rendering";
   const output = join(dir, "santi-hyperframes.mp4");
@@ -69,5 +79,12 @@ async function renderHyperframes(job: RenderJob, dir: string, a: { videoPath: st
     child.on("error", reject);
     child.on("close", (code) => (code === 0 ? resolve() : reject(new Error(`hyperframes render salió con ${code}: ${job.log.slice(-5).join(" | ")}`))));
   });
+  loudnorm(output);
   Object.assign(job, { status: "done", progress: 1, output });
+}
+
+/** Un b-roll servido por el bridge (/motion/<archivo>) → su ruta local. */
+function localBroll(url: string) {
+  const m = url.match(/\/motion\/([\w.-]+)$/);
+  return m ? join(DATA, "motion", m[1]) : "";
 }

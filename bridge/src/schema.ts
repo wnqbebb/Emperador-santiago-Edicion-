@@ -2,7 +2,7 @@
 // Todos los tiempos están en segundos del clip ORIGINAL.
 import { z } from "zod";
 
-export const MotionKind = z.enum(["title", "lowerThird", "emojiPop", "highlightBox", "counter", "progress"]);
+export const MotionKind = z.enum(["title", "lowerThird", "emojiPop", "highlightBox", "counter", "progress", "pixelfx", "intro3d", "broll"]);
 
 export const PlanSchema = z.object({
   summary: z.string().describe("1-2 frases: qué decidiste y por qué"),
@@ -16,7 +16,7 @@ export const PlanSchema = z.object({
       kind: MotionKind,
       start: z.number(),
       end: z.number(),
-      text: z.string().describe("Texto del gráfico o el emoji; vacío si no aplica"),
+      text: z.string().describe("Texto del gráfico, el emoji, el id del efecto pixelfx o la URL del b-roll; vacío si no aplica"),
     }),
   ),
 });

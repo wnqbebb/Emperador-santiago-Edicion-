@@ -6,12 +6,49 @@ El editor personal de Santiago: edición automática en el navegador para clips 
 - **Con internet / IA**: Claude Fable 5.2 por API, o **tus suscripciones** (Claude, ChatGPT, Gemini) vía MCP o sus CLIs oficiales.
 - **Estilos de Santi**: el estilo firma **Imperial Santi** (negro y oro) más Impacto, Minimal Lujo, Neón y Documental. Cada estilo es un JSON (tipografía, ritmo, zooms, gráficos, color, notas). Se "entrena" con videos de referencia.
 
-## Arrancar
+## Instalar y arrancar
 
 ```bash
-npm install
+npm run setup      # todo: paquetes, navegador de Playwright, rea-video (Python) y skills para Claude Code
 npm run dev        # web en http://localhost:5173 + bridge IA en :8787
 ```
+
+Requisitos: Node 22+, FFmpeg y Python 3.10+.
+
+## Qué hay integrado
+
+| Proyecto | Para qué lo usa el Emperador |
+|---|---|
+| [rea-video](https://github.com/JuneYaooo/rea-video) | Desarma videos de referencia toma por toma (cortes, subtítulos, sonido, look) → crea Estilos de Santi |
+| [Remotion](https://github.com/remotion-dev/remotion) + [skills](https://github.com/remotion-dev/skills) | Render de máxima calidad · skills para Claude Code |
+| [HyperFrames](https://github.com/heygen-com/hyperframes) | Render + proyecto HTML editable · generador de motion graphics |
+| [GSAP](https://github.com/greensock/GSAP) | Animaciones de las composiciones HyperFrames |
+| [three.js](https://github.com/mrdoob/three.js) | Corona dorada 3D de apertura (`intro3d`) |
+| [pixelfx](https://github.com/patch-gg/pixelfx) | Efectos pixel art: monedas, confeti, fuegos artificiales, ¡POW!, rayo, resplandor |
+| [awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) | Biblioteca de 683 ideas de motion graphics (`library/`) |
+| [Playwright](https://playwright.dev) | Pruebas del editor y "horneado" de efectos a video transparente |
+| [FFmpeg](https://github.com/FFmpeg/FFmpeg) | Audio, medición de ritmo, video con transparencia y volumen estándar (-14 LUFS) |
+| [anthropics/skills](https://github.com/anthropics/skills) | Skills para Claude Code: webapp-testing, frontend-design, mcp-builder, skill-creator |
+
+Opcional: `bash scripts/instalar-skills.sh --lemo` instala los 99 estilos de película de
+[lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar). Su licencia es **CC BY-NC 4.0 (no comercial)**.
+
+## Aprender un estilo de un video (rea-video)
+
+En **Estilos de Santi → Aprender de un video**, sube una referencia. rea-video la desarma y, si tienes una IA conectada,
+esa IA convierte el desglose en un estilo completo. También por terminal:
+
+```bash
+npm run learn -- referencia.mp4 --name "Estilo Viral" --ai claude-cli
+```
+
+El desglose completo queda en `data/analysis/<nombre>/` (`report.html` para verlo, `VIDEO.md` para la IA).
+
+## Efectos y motion graphics
+
+En la pestaña **Motion**: botones de efectos (corona 3D y pixelfx) que se insertan donde está el cursor, y el
+**generador de motion graphics**: buscas una idea en la biblioteca o escribes la tuya, tu IA escribe la animación
+para HyperFrames, se renderiza y la insertas como b-roll.
 
 Flujo: soltar clip → se transcribe en local → **Edición automática (offline)** o **Dirigir con IA** → revisar en la línea de tiempo → **Exportar** (1080×1920).
 
@@ -32,6 +69,7 @@ Licencias: HyperFrames es Apache 2.0. Remotion es gratis para personas y empresa
 ```bash
 npm test                         # editor: marca, edición automática, exportación, MCP
 npx playwright test styles       # galería: una captura por estilo en qa/estilos/
+REA=1 npm test -- learn          # aprender un estilo con rea-video
 RENDER=1 npm test -- render      # renders completos con HyperFrames y Remotion
 npm run test:ui                  # modo visual
 ```
@@ -52,14 +90,16 @@ npm run test:ui                  # modo visual
 
 En Santi pulsa **Enviar a mi suscripción (MCP)** y en tu app escribe: *"edita el trabajo abc123 de Santi"*. La IA lee el brief (`santi_get_brief`), entrega el plan (`santi_submit_plan`) y el editor lo aplica solo.
 
-Herramientas MCP: `santi_list_jobs`, `santi_get_brief`, `santi_submit_plan`, `santi_list_styles`, `santi_save_style`.
+Herramientas MCP: `santi_list_jobs`, `santi_get_brief`, `santi_submit_plan`, `santi_list_styles`, `santi_save_style`, `santi_analyze_reference`, `santi_motion_ideas`, `santi_motion_brief`, `santi_render_motion`.
+
+En Claude Code no hace falta configurar nada: `.mcp.json` registra el servidor y `.claude/skills/emperador-santiago` le enseña a Claude el sistema.
 
 ## Entrenar un estilo
 
 ```bash
-npm run learn -- ref1.mp4 ref2.mp4 --name "Mi estilo"
+npm run learn -- referencia.mp4 --name "Mi estilo" --ai claude-cli
 ```
 
-Mide cortes por minuto y silencios con ffmpeg; si hay `ANTHROPIC_API_KEY`, Claude Fable 5.2 mira fotogramas y deduce tipografía, colores y animación. El estilo aparece al instante en la web y en el MCP. También puedes pedirle a tu IA, vía MCP, que analice referencias y guarde el estilo con `santi_save_style`.
+rea-video desarma la referencia; con `--ai` tu IA convierte el desglose en el estilo completo (sin `--ai` solo toma el ritmo medido). El estilo aparece al instante en la web y en el MCP. También puedes pedirle a tu IA, vía MCP, que analice referencias y guarde el estilo con `santi_save_style`.
 
 Más detalle en [docs/ARQUITECTURA.md](docs/ARQUITECTURA.md).

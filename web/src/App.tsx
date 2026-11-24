@@ -8,6 +8,8 @@ import * as bridge from "./engine/bridge";
 import { startRecording } from "./engine/exporter";
 import { Timeline } from "./ui/Timeline";
 import { Icon } from "./ui/Icon";
+import { PIXEL_FX_META, fxDuration } from "../../shared/fxmeta";
+import type { Motion } from "./engine/types";
 
 type Tab = "media" | "styles" | "ai" | "motion";
 const fmt = (s: number) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
@@ -33,6 +35,15 @@ export default function App() {
   const [mediaId, setMediaId] = useState<string | null>(null);
   const [exportOpen, setExportOpen] = useState(false);
   const [render, setRender] = useState<bridge.RenderJob | null>(null);
+  const [rea, setRea] = useState(false);
+  const [learnName, setLearnName] = useState("");
+  const [learnLog, setLearnLog] = useState("");
+  const [ideaQ, setIdeaQ] = useState("");
+  const [ideaCat, setIdeaCat] = useState("motion");
+  const [ideas, setIdeas] = useState<bridge.Idea[]>([]);
+  const [idea, setIdea] = useState("");
+  const [mSeconds, setMSeconds] = useState(5);
+  const [motions, setMotions] = useState<bridge.MotionJob[]>([]);
 
   const videoRef = useRef<HTMLVideoElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -46,8 +57,9 @@ export default function App() {
 
   // Bridge (opcional)
   useEffect(() => {
-    bridge.health().then((h) => {
+    bridge.healthFull().then((h) => {
       if (!h) return;
+      setRea(h.rea);
       setProviders(h.providers);
       const first = h.providers.find((p) => p.ready);
       if (first) setProvider(first.id);
@@ -182,6 +194,42 @@ export default function App() {
     }, 1500);
   }
 
+  // Insertar un gráfico en el momento actual del clip
+  function insertMotion(m: Omit<Motion, "start" | "end">, dur: number) {
+    const at = videoRef.current?.currentTime ?? 0;
+    const base: Plan = plan ?? { summary: "Edición manual", segments: [{ start: 0, end: duration }], emphasis: [], zooms: [], motion: [] };
+    setPlan({ ...base, motion: [...base.motion, { ...m, start: at, end: at + dur }] });
+    setStatus(`Insertado ${m.kind} en ${fmt(at)}`);
+  }
+
+  // Aprender un Estilo de Santi de un video de referencia (rea-video)
+  async function learnFrom(f: File) {
+    const name = learnName.trim() || f.name.replace(/\.[^.]+$/, "");
+    setLearnLog("Subiendo referencia…");
+    const { mediaId } = await bridge.uploadMedia(f);
+    const a = await bridge.startAnalysis({ mediaId, name, provider: providers?.find((p) => p.id === provider && p.ready) ? provider : undefined });
+    const poll = setInterval(async () => {
+      const r = await bridge.getAnalysis(a.id).catch(() => null);
+      if (!r) return;
+      setLearnLog(r.status === "running" ? `rea-video: ${r.log.at(-1) ?? "analizando…"}` : r.status === "error" ? `Error: ${r.error}` : `✓ Estilo “${r.style?.name}” aprendido`);
+      if (r.status === "done" && r.style) { const st = r.style; setStyles((s) => [...s.filter((x) => x.id !== st.id), st]); setStyleId(st.id); }
+      if (r.status !== "running") clearInterval(poll);
+    }, 2000);
+  }
+
+  async function findIdeas() { setIdeas(await bridge.searchIdeas(ideaQ, ideaCat).catch(() => [])); }
+
+  async function generateMotion() {
+    const job = await bridge.startMotion({ provider, idea, seconds: mSeconds, styleId });
+    setMotions((m) => [job, ...m]);
+    const poll = setInterval(async () => {
+      const j = await bridge.getMotion(job.id).catch(() => null);
+      if (!j) return;
+      setMotions((m) => m.map((x) => (x.id === j.id ? j : x)));
+      if (j.status === "done" || j.status === "error") clearInterval(poll);
+    }, 2500);
+  }
+
   const outLen = plan ? outDuration(plan.segments) : duration;
 
   return (
@@ -234,6 +282,16 @@ export default function App() {
         {tab === "styles" && (
           <>
             <h3>Estilos de Santi</h3>
+            <div className="learn">
+              <b>Aprender de un video</b>
+              <small>rea-video desarma tu referencia (cortes, subtítulos, sonido, look) y crea un estilo nuevo{providers?.some((p) => p.ready) ? " con tu IA" : ""}.</small>
+              <input placeholder="Nombre del estilo" value={learnName} onChange={(e) => setLearnName(e.target.value)} />
+              <label className={`btn wide ${!rea ? "disabled" : ""}`}>
+                <input type="file" accept="video/*" hidden disabled={!rea} onChange={(e) => e.target.files?.[0] && learnFrom(e.target.files[0])} />
+                <Icon name="upload" /> {rea ? "Subir video de referencia" : "Instala rea-video: npm run setup:rea"}
+              </label>
+              {learnLog && <p className="hint">{learnLog}</p>}
+            </div>
             <p className="hint">Cada estilo define tipografía, ritmo, zooms y gráficos. Entrena nuevos con <code>npm run learn</code> o desde tu IA vía MCP.</p>
             <div className="styles">
               {styles.map((s) => (
@@ -268,8 +326,42 @@ export default function App() {
 
         {tab === "motion" && (
           <>
-            <h3>Gráficos de movimiento</h3>
-            <p className="hint">Se generan desde el plan. Clic para saltar.</p>
+            <h3>Efectos especiales</h3>
+            <p className="hint">Se insertan en el momento actual del clip.</p>
+            <div className="fx-grid">
+              <button onClick={() => insertMotion({ kind: "intro3d", text: "" }, fxDuration("intro3d", ""))}><span>👑</span>Corona 3D</button>
+              {Object.entries(PIXEL_FX_META).map(([id, m]) => (
+                <button key={id} onClick={() => insertMotion({ kind: "pixelfx", text: id }, m.duration)} title={m.uso}><span>✦</span>{m.label}</button>
+              ))}
+            </div>
+
+            <h3 className="mt">Generar motion graphic</h3>
+            <div className="ideas-search">
+              <input placeholder="Buscar ideas (ej. chart, text, logo)" value={ideaQ} onChange={(e) => setIdeaQ(e.target.value)} onKeyDown={(e) => e.key === "Enter" && findIdeas()} />
+              <select value={ideaCat} onChange={(e) => setIdeaCat(e.target.value)}>
+                <option value="motion">Motion</option><option value="explainer">Explicativo</option><option value="3d">3D</option><option value="">Todas</option>
+              </select>
+              <button className="btn" disabled={!providers} onClick={findIdeas}>Buscar</button>
+            </div>
+            {ideas.length > 0 && (
+              <ul className="ideas">
+                {ideas.map((i) => <li key={i.id} onClick={() => setIdea(i.prompt)} title={i.prompt}><span className="tag">{i.category}</span>{i.prompt}</li>)}
+              </ul>
+            )}
+            <textarea placeholder="Describe el motion graphic o elige una idea de la biblioteca" value={idea} onChange={(e) => setIdea(e.target.value)} />
+            <div className="row">
+              <label>Duración <input type="number" min={2} max={30} value={mSeconds} onChange={(e) => setMSeconds(+e.target.value)} /> s</label>
+              <button className="btn primary" disabled={!idea || !providers?.some((p) => p.id === provider && p.ready)} onClick={generateMotion}><Icon name="spark" /> Generar</button>
+            </div>
+            {motions.map((m) => (
+              <div key={m.id} className="motion-job">
+                <span>{m.status === "done" ? "✓ Listo" : m.status === "error" ? "Error" : m.status === "writing" ? "La IA escribe la animación…" : "HyperFrames renderiza…"}</span>
+                {m.url && <button className="btn" onClick={() => insertMotion({ kind: "broll", text: m.url! }, m.seconds)}>Insertar aquí</button>}
+                {m.error && <small>{m.error.slice(0, 160)}</small>}
+              </div>
+            ))}
+
+            <h3 className="mt">En este video</h3>
             <ul className="motion-list">
               {(plan?.motion ?? []).map((m, i) => (
                 <li key={i} onClick={() => videoRef.current && (videoRef.current.currentTime = m.start)}>

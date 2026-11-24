@@ -1,6 +1,7 @@
 // El "brief" que recibe cualquier modelo (Fable vía API, o tu suscripción vía MCP/CLI).
 import { z } from "zod";
 import { PlanSchema, type Style, type Word } from "./schema.js";
+import { PIXEL_FX_META } from "../../shared/fxmeta.js";
 
 export function transcriptLines(words: Word[]) {
   // Formato compacto: [t0-t1] palabra  — ahorra tokens y conserva tiempos exactos.
@@ -17,6 +18,7 @@ Reglas:
 - Apunta a ~${style.pacing.cutsPerMinute} cortes por minuto y a un punch-in cada ~${style.pacing.zoomEvery}s en momentos de énfasis.
 - "emphasis": de 1 a 2 palabras clave por frase; usa la palabra exactamente como aparece.
 - "motion": ${style.motion.hookTitle ? "un título-gancho en los primeros 2.5s; " : ""}${style.motion.emojis ? "emojiPop en conceptos concretos (máx. 1 cada 4s); " : ""}${style.motion.lowerThird ? "un lowerThird si se presenta una persona o un dato; " : ""}${style.motion.progress ? "una barra 'progress' de principio a fin; " : ""}highlightBox/counter solo cuando aporten.
+- Efectos especiales (máx. 1 cada 6s, solo en los momentos más fuertes): "pixelfx" con text = uno de estos ids: ${Object.entries(PIXEL_FX_META).map(([id, m]) => `${id} (${m.uso})`).join("; ")}. "intro3d" (corona dorada 3D, 2.8s, text vacío) como apertura si el estilo es imperial o épico.
 - Todos los tiempos en segundos del clip ORIGINAL (duración ${duration.toFixed(2)}s).
 
 Style DNA "${style.name}": ${style.description}

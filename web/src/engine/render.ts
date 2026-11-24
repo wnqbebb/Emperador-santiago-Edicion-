@@ -2,6 +2,15 @@
 // Es lo mismo para la vista previa y para la exportación, así lo que ves es lo que se exporta.
 import type { Chunk, Motion, Plan, Style } from "./types";
 import { isEmphasis, outDuration, srcToOut } from "./plan";
+import { drawPixelFx, renderIntro3D, fxBox } from "../../../shared/fx";
+
+// B-roll (motion graphics generados): un <video> oculto por URL, sincronizado con el tiempo del plan
+const brolls = new Map<string, HTMLVideoElement>();
+function broll(url: string) {
+  let v = brolls.get(url);
+  if (!v) { v = document.createElement("video"); v.src = url; v.muted = true; v.crossOrigin = "anonymous"; v.preload = "auto"; brolls.set(url, v); }
+  return v;
+}
 
 export const OUT_W = 1080;
 export const OUT_H = 1920;
@@ -192,6 +201,28 @@ function drawMotion(ctx: CanvasRenderingContext2D, m: Motion, t: number, k: numb
       ctx.shadowColor = accent; ctx.shadowBlur = 40 * k;
       ctx.fillStyle = accent;
       ctx.fillText(`${prefix}${val.toLocaleString("es")}${suffix}`, W / 2, H * 0.32);
+      break;
+    }
+    case "pixelfx": {
+      const b = fxBox("pixelfx", m.text);
+      drawPixelFx(ctx, m.text, t - m.start, { x: b.x * k, y: b.y * k, w: b.w * k, h: b.h * k });
+      break;
+    }
+    case "intro3d": {
+      const b = fxBox("intro3d", "");
+      ctx.drawImage(renderIntro3D(t - m.start, accent), b.x * k, b.y * k, b.w * k, b.h * k);
+      break;
+    }
+    case "broll": {
+      const v = broll(m.text), lt = t - m.start;
+      if (Math.abs(v.currentTime - lt) > 0.12) v.currentTime = lt;
+      if (v.videoWidth) {
+        ctx.globalAlpha = Math.min(easeOut(lt / 0.2), easeOut((m.end - t) / 0.2));
+        const vr = v.videoWidth / v.videoHeight;
+        let dw = W, dh = W / vr;
+        if (dh < H) { dh = H; dw = H * vr; }
+        ctx.drawImage(v, (W - dw) / 2, (H - dh) / 2, dw, dh);
+      }
       break;
     }
     case "progress": {

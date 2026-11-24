@@ -7,10 +7,12 @@ import "@fontsource/inter/600.css";
 import { AbsoluteFill, Easing, interpolate, OffthreadVideo, Sequence, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import type { Motion, Plan, Style, Word } from "../../shared/types";
 import { chunkWords, isEmphasis, keptWords, outDuration, outToSrc, srcToOut } from "../../shared/plan";
+import { fxBox } from "../../shared/fxmeta";
 
-export type SantiEditProps = { videoSrc: string; plan: Plan; words: Word[]; style: Style };
+/** fx: "kind:id" → URL del efecto horneado (WebM con transparencia, lo prepara el bridge con Playwright) */
+export type SantiEditProps = { videoSrc: string; plan: Plan; words: Word[]; style: Style; fx?: Record<string, string> };
 
-export const SantiEdit = ({ videoSrc, plan, words, style }: SantiEditProps) => {
+export const SantiEdit = ({ videoSrc, plan, words, style, fx = {} }: SantiEditProps) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const tOut = frame / fps;
@@ -45,7 +47,20 @@ export const SantiEdit = ({ videoSrc, plan, words, style }: SantiEditProps) => {
           </Sequence>
         ))}
       </AbsoluteFill>
+      {plan.motion.filter((m) => m.kind === "broll").map((m, i) => (
+        <Sequence key={`b${i}`} from={Math.round(srcToOut(plan.segments, m.start) * fps)} durationInFrames={Math.max(1, Math.round((m.end - m.start) * fps))}>
+          <OffthreadVideo src={m.text} muted style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+        </Sequence>
+      ))}
       <AbsoluteFill style={{ background: "linear-gradient(180deg, transparent 55%, rgba(0,0,0,.45))" }} />
+      {plan.motion.filter((m) => (m.kind === "pixelfx" || m.kind === "intro3d") && fx[`${m.kind}:${m.kind === "intro3d" ? "" : m.text}`]).map((m, i) => {
+        const b = fxBox(m.kind, m.text);
+        return (
+          <Sequence key={`f${i}`} from={Math.round(srcToOut(plan.segments, m.start) * fps)} durationInFrames={Math.max(1, Math.round((m.end - m.start) * fps))} layout="none">
+            <OffthreadVideo src={fx[`${m.kind}:${m.kind === "intro3d" ? "" : m.text}`]} transparent muted style={{ position: "absolute", left: b.x, top: b.y, width: b.w, height: b.h, imageRendering: "pixelated" }} />
+          </Sequence>
+        );
+      })}
       {plan.motion.filter((m) => m.kind !== "emojiPop" && t >= m.start && t <= m.end).map((m, i) => (
         <MotionLayer key={i} m={m} t={t} style={style} plan={plan} fps={fps} />
       ))}
@@ -132,6 +147,10 @@ function MotionLayer({ m, t, style, plan, fps }: { m: Motion; t: number; style: 
         </AbsoluteFill>
       );
     }
+    case "pixelfx":
+    case "intro3d":
+    case "broll":
+      return null; // se dibujan como <Sequence> arriba
     case "progress": {
       const prog = srcToOut(plan.segments, t) / (outDuration(plan.segments) || 1);
       return (

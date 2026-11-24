@@ -2,6 +2,7 @@
   "name": "emperador-santiago",
   "private": true,
   "workspaces": [
+    "shared",
     "web",
     "bridge",
     "remotion"
@@ -13,7 +14,10 @@
     "learn": "npm run learn -w bridge --",
     "remotion:studio": "npm run studio -w remotion",
     "test": "playwright test",
-    "test:ui": "playwright test --ui"
+    "test:ui": "playwright test --ui",
+    "setup": "bash scripts/setup.sh",
+    "setup:rea": "bash scripts/setup-rea.sh",
+    "skills": "bash scripts/instalar-skills.sh"
   },
   "devDependencies": {
     "@playwright/test": "1.63.0"

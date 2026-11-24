@@ -9,6 +9,6 @@ export default defineConfig({
   use: { baseURL: "http://localhost:5173", viewport: { width: 1440, height: 900 }, trace: "off" },
   webServer: [
     { command: "npm run dev -w web -- --port 5173 --strictPort", url: "http://localhost:5173", reuseExistingServer: true },
-    { command: "npm run dev -w bridge", url: "http://localhost:8787/api/health", reuseExistingServer: true, env: { SANTI_DATA: "test-results/data" } },
+    { command: "npm run dev -w bridge", url: "http://localhost:8787/api/health", reuseExistingServer: true, env: { SANTI_DATA: `${process.cwd()}/test-results/data` } },
   ],
 });

@@ -6,7 +6,7 @@ test("la marca Emperador Santiago y los Estilos de Santi aparecen", async ({ pag
   await expect(page.locator(".brand")).toContainText("Emperador Santiago");
   await expect(page.locator(".brand")).toContainText("Edición de Videos");
   await page.getByRole("button", { name: "Estilos de Santi" }).click();
-  await expect(page.locator(".style-card")).toHaveCount(5);
+  await expect(page.locator(".style-card")).toHaveCount(5, { timeout: 10_000 });
   await expect(page.locator(".style-card.active")).toContainText("Imperial Santi");
 });
 

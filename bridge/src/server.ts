@@ -6,6 +6,9 @@ import { randomUUID } from "node:crypto";
 import { pipeline } from "node:stream/promises";
 import { DATA } from "./store.js";
 import { startRender, getRender, type Engine } from "./render.js";
+import { FX_DIR } from "./fxbake.js";
+import { searchIdeas, startMotion, getMotion, renderMotionHtml, MOTION_DIR } from "./motion.js";
+import { startAnalysis, getAnalysis, reaInstalled } from "./analyze.js";
 import { listStyles, getStyle, saveStyle, createJob, getJob, updateJob, listJobs } from "./store.js";
 import { availableProviders, planEdit, type ProviderId } from "./providers/index.js";
 
@@ -56,6 +59,32 @@ createServer(async (req, res) => {
       await pipeline(req, createWriteStream(join(MEDIA, file)));
       return send(res, 200, { mediaId: file, url: `http://localhost:${PORT}/media/${file}` });
     }
+    // Biblioteca de ideas + generador de motion graphics (HyperFrames)
+    if (p === "/api/library") return send(res, 200, searchIdeas(url.searchParams.get("q") ?? "", url.searchParams.get("cat") ?? ""));
+    if (p === "/api/motion" && req.method === "POST") {
+      const b = await body(req);
+      const style = getStyle(b.styleId) ?? getStyle("imperial")!;
+      if (b.html) return send(res, 200, await renderMotionHtml(b.html, b.seconds ?? 6));
+      return send(res, 200, startMotion(b.provider, b.idea, b.seconds ?? 6, style));
+    }
+    const mj = p.match(/^\/api\/motion\/([\w-]+)$/);
+    if (mj) return send(res, 200, getMotion(mj[1]) ?? { error: "No existe" });
+    const mf = p.match(/^\/motion\/([\w.-]+\.mp4)$/);
+    if (mf && existsSync(join(MOTION_DIR, mf[1]))) return serveFile(req, res, join(MOTION_DIR, mf[1]), "video/mp4");
+
+    // Aprender un estilo de un video de referencia (rea-video)
+    if (p === "/api/analyze" && req.method === "POST") {
+      const b = await body(req);
+      if (!reaInstalled()) return send(res, 400, { error: "rea-video no está instalado: npm run setup:rea" });
+      const videoPath = join(MEDIA, basename(b.mediaId ?? ""));
+      if (!existsSync(videoPath)) return send(res, 400, { error: "Sube primero el video de referencia" });
+      return send(res, 200, startAnalysis(videoPath, b.name || "Estilo aprendido", b.provider || undefined));
+    }
+    const an = p.match(/^\/api\/analyze\/([\w-]+)$/);
+    if (an) return send(res, 200, getAnalysis(an[1]) ?? { error: "No existe" });
+
+    const fxm = p.match(/^\/fx\/([\w.-]+)$/);
+    if (fxm && existsSync(join(FX_DIR, fxm[1]))) return serveFile(req, res, join(FX_DIR, fxm[1]), "video/webm");
     const media = p.match(/^\/media\/([\w.-]+)$/);
     if (media && existsSync(join(MEDIA, media[1]))) return serveFile(req, res, join(MEDIA, media[1]), "video/mp4");
 
@@ -75,7 +104,7 @@ createServer(async (req, res) => {
       return send(res, 200, job);
     }
 
-    if (p === "/api/health") return send(res, 200, { ok: true, providers: await availableProviders() });
+    if (p === "/api/health") return send(res, 200, { ok: true, providers: await availableProviders(), rea: reaInstalled() });
     if (p === "/api/styles" && req.method === "GET") return send(res, 200, listStyles());
     if (p === "/api/styles" && req.method === "POST") return send(res, 200, saveStyle(await body(req)));
 

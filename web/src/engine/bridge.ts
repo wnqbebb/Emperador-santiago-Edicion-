@@ -30,3 +30,13 @@ export const startRender = (b: { engine: string; mediaId: string; styleId: strin
   j<RenderJob>("/api/render", { method: "POST", body: JSON.stringify(b) });
 export const getRender = (id: string) => j<RenderJob>(`/api/render/${id}`);
 export const renderFileUrl = (id: string) => `${BASE}/api/render/${id}/file`;
+
+export type Idea = { id: string; category: string; tech: string[]; author: string; post: string; prompt: string };
+export const searchIdeas = (q: string, cat: string) => j<Idea[]>(`/api/library?q=${encodeURIComponent(q)}&cat=${cat}`);
+export type MotionJob = { id: string; status: string; url?: string; error?: string; seconds: number; projectDir: string };
+export const startMotion = (b: { provider: string; idea: string; seconds: number; styleId: string }) => j<MotionJob>("/api/motion", { method: "POST", body: JSON.stringify(b) });
+export const getMotion = (id: string) => j<MotionJob>(`/api/motion/${id}`);
+export type Analysis = { id: string; status: string; log: string[]; style?: Style; error?: string };
+export const startAnalysis = (b: { mediaId: string; name: string; provider?: string }) => j<Analysis>("/api/analyze", { method: "POST", body: JSON.stringify(b) });
+export const getAnalysis = (id: string) => j<Analysis>(`/api/analyze/${id}`);
+export const healthFull = () => j<{ ok: boolean; providers: Provider[]; rea: boolean }>("/api/health").catch(() => null);

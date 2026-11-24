@@ -5,6 +5,7 @@ import { basename, extname, join } from "node:path";
 import { createRequire } from "node:module";
 import type { Motion, Plan, Style, Word } from "../../shared/types.js";
 import { chunkWords, isEmphasis, keptWords, outDuration, srcToOut } from "../../shared/plan.js";
+import { fxBox } from "../../shared/fxmeta.js";
 
 const require = createRequire(import.meta.url);
 const W = 1080, H = 1920;
@@ -23,8 +24,9 @@ function copyFont(dir: string, family: string, weight: number) {
   return `@font-face { font-family: "${family}"; font-weight: ${weight}; src: url('assets/fonts/${pick}') format('woff2'); }`;
 }
 
-export function buildHyperframesProject(dir: string, opts: { videoPath: string; plan: Plan; words: Word[]; style: Style }) {
-  const { videoPath, plan, words, style } = opts;
+/** fx: "kind:id" → ruta local del WebM horneado · brolls: URL → ruta local del MP4 */
+export function buildHyperframesProject(dir: string, opts: { videoPath: string; plan: Plan; words: Word[]; style: Style; fx?: Record<string, string>; brolls?: Record<string, string> }) {
+  const { videoPath, plan, words, style, fx = {}, brolls = {} } = opts;
   const segs = plan.segments;
   const total = n(outDuration(segs));
   const o = (t: number) => n(srcToOut(segs, t));
@@ -42,6 +44,23 @@ export function buildHyperframesProject(dir: string, opts: { videoPath: string; 
     const start = n(acc); acc += s.end - s.start;
     return `        <video id="seg-${i}" class="clip" src="assets/${videoName}" data-start="${start}" data-duration="${n(s.end - s.start)}" data-media-start="${n(s.start)}" data-track-index="0" data-has-audio="true" playsinline></video>`;
   }).join("\n");
+  // Efectos horneados (pixelfx / corona 3D) y b-roll: videos encima del metraje, en su propia pista
+  const extras: string[] = [];
+  plan.motion.forEach((m, i) => {
+    const start = Math.max(0, o(m.start)), dur = Math.max(0.2, n(o(m.end) - o(m.start)));
+    if (m.kind === "broll" && brolls[m.text]) {
+      const f = `broll-${i}${extname(brolls[m.text]) || ".mp4"}`;
+      copyFileSync(brolls[m.text], join(dir, "assets", f));
+      extras.push(`      <video id="broll-${i}" class="clip" src="assets/${f}" data-start="${start}" data-duration="${dur}" data-track-index="3" muted playsinline style="position:absolute;left:0;top:0;width:${W}px;height:${H}px;object-fit:cover;z-index:5"></video>`);
+    }
+    const key = `${m.kind}:${m.kind === "intro3d" ? "" : m.text}`;
+    if ((m.kind === "pixelfx" || m.kind === "intro3d") && fx[key]) {
+      const f = basename(fx[key]);
+      if (!existsSync(join(dir, "assets", f))) copyFileSync(fx[key], join(dir, "assets", f));
+      const b = fxBox(m.kind, m.text);
+      extras.push(`      <video id="fx-${i}" class="clip" src="assets/${f}" data-start="${start}" data-duration="${dur}" data-track-index="4" muted playsinline style="position:absolute;left:${Math.round(b.x)}px;top:${Math.round(b.y)}px;width:${Math.round(b.w)}px;height:${Math.round(b.h)}px;image-rendering:pixelated;z-index:20"></video>`);
+    }
+  });
   const zoomTweens = plan.zooms.map((z) => {
     const at = o(z.at), d = n(z.dur);
     return `      tl.fromTo("#stage", { scale: 1 }, { scale: ${z.scale}, duration: ${n(d * 0.25)}, ease: "power3.out" }, ${at});\n      tl.to("#stage", { scale: 1, duration: ${n(d * 0.2)}, ease: "power2.inOut" }, ${n(at + d * 0.8)});`;
@@ -64,6 +83,7 @@ export function buildHyperframesProject(dir: string, opts: { videoPath: string; 
       <div id="stage">
 ${videos}
       </div>
+${extras.join("\n")}
       <div id="graphics" data-composition-id="graphics" data-composition-src="compositions/graphics.html" data-start="0" data-duration="${total}" data-track-index="1" data-track-kind="graphics" data-width="${W}" data-height="${H}"></div>
       <div id="captions" data-composition-id="captions" data-composition-src="compositions/captions.html" data-start="0" data-duration="${total}" data-track-index="2" data-track-kind="captions" data-width="${W}" data-height="${H}"></div>
     </div>
@@ -121,7 +141,7 @@ ${capTweens}
 
   // ---------- compositions/graphics.html: título, rótulo, emojis, cajas, contadores, progreso
   const accent = c.highlight;
-  const motion = plan.motion.map((m, i) => ({ ...m, i, s: Math.max(0, o(m.start)), d: Math.max(0.2, n(o(m.end) - o(m.start))) }));
+  const motion = plan.motion.filter((m) => !["pixelfx", "intro3d", "broll"].includes(m.kind)).map((m, i) => ({ ...m, i, s: Math.max(0, o(m.start)), d: Math.max(0.2, n(o(m.end) - o(m.start))) }));
   const gHtml = motion.map((m) => graphicHtml(m, total)).join("\n");
   const gTweens = motion.map((m) => graphicTween(m, total)).join("\n");
   writeFileSync(join(dir, "compositions/graphics.html"), `<template>
@@ -163,6 +183,7 @@ function graphicHtml(m: M, total: number) {
     case "emojiPop": return `    <div ${a}><div id="g-${m.i}-in" class="emoji">${esc(m.text)}</div></div>`;
     case "highlightBox": return `    <div ${a}><div class="hbox"><div id="g-${m.i}-in">${esc(m.text)}</div></div></div>`;
     case "counter": return `    <div ${a}><div id="g-${m.i}-in" class="counter" data-target="${esc(m.text)}">0</div></div>`;
+    default: return "";
     case "progress": return `    <div ${a}><div class="progress"><div id="g-${m.i}-in"></div></div></div>`;
   }
 }

@@ -8,3 +8,6 @@ playwright-report
 tests/fixtures
 remotion/out
 qa
+tools/.venv
+.claude/skills/*
+!.claude/skills/emperador-santiago

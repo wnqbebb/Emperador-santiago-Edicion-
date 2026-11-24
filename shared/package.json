@@ -1,1 +1,12 @@
-{ "type": "module" }
+{
+  "name": "@santi/shared",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "pixelfx": "github:patch-gg/pixelfx#5294518ce7c72e48b6100a744596e0acf57f2826",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@types/three": "0.180.0"
+  }
+}

@@ -13,7 +13,10 @@
     "zod": "4.6.7",
     "hyperframes": "0.9.91",
     "gsap": "3.15.1",
-    "@santi/remotion": "*"
+    "@santi/remotion": "*",
+    "@santi/shared": "*",
+    "esbuild": "0.25.12",
+    "@playwright/test": "1.63.0"
   },
   "devDependencies": {
     "tsx": "4.19.2",

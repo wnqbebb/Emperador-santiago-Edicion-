@@ -1,7 +1,8 @@
 // Tipos compartidos con el bridge (bridge/src/schema.ts es la fuente de verdad del plan).
 export type Word = { w: string; t0: number; t1: number };
 export type Segment = { start: number; end: number };
-export type MotionKind = "title" | "lowerThird" | "emojiPop" | "highlightBox" | "counter" | "progress";
+/** pixelfx: text = id del efecto · intro3d: corona 3D · broll: text = URL de un video (motion graphic generado) */
+export type MotionKind = "title" | "lowerThird" | "emojiPop" | "highlightBox" | "counter" | "progress" | "pixelfx" | "intro3d" | "broll";
 export type Motion = { kind: MotionKind; start: number; end: number; text: string };
 export type Zoom = { at: number; dur: number; scale: number };
 

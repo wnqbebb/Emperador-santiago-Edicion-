@@ -1,5 +1,15 @@
 // Motor de decisiones local (sin IA, sin internet) + utilidades de línea de tiempo.
 import type { Chunk, Motion, Plan, Segment, Style, Word, Zoom } from "./types";
+import { fxDuration } from "./fxmeta";
+
+// Palabra → efecto pixelfx para los momentos más fuertes
+const PIXEL: [RegExp, string][] = [
+  [/^(dinero|plata|pesos|dolares|millon|millones|ventas|ganancia|vendi)/, "coin-collect"],
+  [/^(exito|gane|ganar|ganador|logro|meta|lo logre|campeon)/, "confetti"],
+  [/^(brutal|boom|explota|bomba|impacto)/, "cartoon-pow"],
+  [/^(energia|rayo|poder|fuerza)/, "lightning-strike"],
+  [/^(imperio|epico|legendario|celebrar)/, "firework-burst"],
+];
 
 const clean = (w: string) => w.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^\w%$]/g, "");
 
@@ -46,7 +56,7 @@ export function autoPlan(words: Word[], duration: number, style: Style): Plan {
   const emphasis = new Set<string>();
   const motion: Motion[] = [];
   const zooms: Zoom[] = [];
-  let lastEmoji = -10, lastZoom = -10;
+  let lastEmoji = -10, lastZoom = -10, lastFx = -10;
 
   for (const ch of chunkWords(words, style.caption.wordsPerChunk)) {
     const best = [...ch.words].sort((a, b) => score(b.w) - score(a.w))[0];
@@ -61,6 +71,12 @@ export function autoPlan(words: Word[], duration: number, style: Style): Plan {
         if (hit) { motion.push({ kind: "emojiPop", start: w.t0, end: w.t0 + 1.2, text: hit[1] }); lastEmoji = w.t0; break; }
       }
     }
+    if (ch.start - lastFx >= 6 && !ch.words.some((w) => /\d/.test(w.w))) { // no encima de un contador
+      for (const w of ch.words) {
+        const hit = PIXEL.find(([re]) => re.test(clean(w.w)));
+        if (hit) { motion.push({ kind: "pixelfx", start: w.t0, end: w.t0 + fxDuration("pixelfx", hit[1]), text: hit[1] }); lastFx = w.t0; lastEmoji = w.t0; break; }
+      }
+    }
     for (const w of ch.words)
       if (/^\d[\d.,]*%?$/.test(w.w.replace(/[^\d.,%]/g, "")) && /\d/.test(w.w))
         motion.push({ kind: "counter", start: w.t0, end: w.t0 + 1.4, text: w.w.replace(/[^\d.,%$]/g, "") });
@@ -70,6 +86,8 @@ export function autoPlan(words: Word[], duration: number, style: Style): Plan {
     const hook = words.slice(0, 7).map((w) => w.w).join(" ").replace(/[,.]$/, "");
     motion.push({ kind: "title", start: segments[0].start, end: segments[0].start + 2.4, text: hook });
   }
+  if (style.id === "imperial" && words.length)
+    motion.push({ kind: "intro3d", start: segments[0].start, end: segments[0].start + fxDuration("intro3d", ""), text: "" });
   if (style.motion.progress) motion.push({ kind: "progress", start: 0, end: duration, text: "" });
 
   return {

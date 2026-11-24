@@ -6,6 +6,10 @@ import { z } from "zod";
 import { listStyles, getStyle, saveStyle, listJobs, getJob, updateJob } from "./store.js";
 import { buildBrief } from "./prompt.js";
 import { PlanSchema, StyleSchema } from "./schema.js";
+import { runReaVideo, readDigest, reaInstalled, slug } from "./analyze.js";
+import { searchIdeas, motionBrief, renderMotionHtml } from "./motion.js";
+import { DATA } from "./store.js";
+import { join, resolve } from "node:path";
 
 const server = new McpServer({ name: "emperador-santiago", version: "0.1.0" });
 const text = (t: string) => ({ content: [{ type: "text" as const, text: t }] });
@@ -61,6 +65,42 @@ server.registerTool(
     inputSchema: { style: StyleSchema },
   },
   async ({ style }) => text(`Estilo guardado: ${saveStyle(style).id}`),
+);
+
+server.registerTool(
+  "santi_analyze_reference",
+  {
+    description:
+      "Desarma un video de referencia con rea-video (tomas, ritmo de cortes, subtítulos, sonido, look) y devuelve el resumen VIDEO.md. Úsalo para 'entrenar' un Estilo de Santi: lee el resumen y luego llama a santi_save_style.",
+    inputSchema: { videoPath: z.string().describe("Ruta absoluta del video en este equipo"), name: z.string() },
+  },
+  async ({ videoPath, name }) => {
+    if (!reaInstalled()) return text("rea-video no está instalado. Ejecuta: npm run setup:rea");
+    const out = join(DATA, "analysis", slug(name));
+    await runReaVideo(resolve(videoPath), out);
+    return text(`Desglose completo en ${out} (abre report.html para verlo).\n\n${readDigest(out)}`);
+  },
+);
+
+server.registerTool(
+  "santi_motion_ideas",
+  { description: "Busca ideas de motion graphics en la biblioteca (683 prompts de animaciones hechas en código).", inputSchema: { query: z.string(), category: z.enum(["", "motion", "explainer", "3d", "interactive"]).optional() } },
+  async ({ query, category }) => text(JSON.stringify(searchIdeas(query, category ?? "", 15).map(({ id, category, prompt, post }) => ({ id, category, prompt, post })), null, 2)),
+);
+
+server.registerTool(
+  "santi_motion_brief",
+  { description: "Devuelve las reglas para escribir un motion graphic vertical como composición HyperFrames. Escribe el HTML y entrégalo con santi_render_motion.", inputSchema: { idea: z.string(), seconds: z.number().min(2).max(30) } },
+  async ({ idea, seconds }) => text(motionBrief(idea, seconds, getStyle("imperial")!)),
+);
+
+server.registerTool(
+  "santi_render_motion",
+  { description: "Renderiza con HyperFrames el index.html de un motion graphic y devuelve la URL del MP4 para insertarlo como b-roll.", inputSchema: { html: z.string(), seconds: z.number() } },
+  async ({ html, seconds }) => {
+    const j = await renderMotionHtml(html, seconds);
+    return text(`Listo: ${j.url}\nProyecto editable: ${j.projectDir}`);
+  },
 );
 
 await server.connect(new StdioServerTransport());
