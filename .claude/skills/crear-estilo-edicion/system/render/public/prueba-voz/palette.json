@@ -1,0 +1,17 @@
+{
+  "source": "style.fixed",
+  "colors": {
+    "vibrant_bright": "#1B54F8",
+    "vibrant_dark": "#0A2A8C",
+    "dull_white": "#FAF7FA",
+    "dull_black": "#0B0B0D"
+  },
+  "options": [
+    {
+      "vibrant_bright": "#1B54F8",
+      "vibrant_dark": "#0A2A8C",
+      "dull_white": "#FAF7FA",
+      "dull_black": "#0B0B0D"
+    }
+  ]
+}

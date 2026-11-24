@@ -17,7 +17,8 @@
     "test:ui": "playwright test --ui",
     "setup": "bash scripts/setup.sh",
     "setup:rea": "bash scripts/setup-rea.sh",
-    "skills": "bash scripts/instalar-skills.sh"
+    "skills": "bash scripts/instalar-skills.sh",
+    "setup:ves": "bash scripts/setup-ves.sh"
   },
   "devDependencies": {
     "@playwright/test": "1.63.0"

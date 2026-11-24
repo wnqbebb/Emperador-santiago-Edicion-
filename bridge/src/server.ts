@@ -9,6 +9,7 @@ import { startRender, getRender, type Engine } from "./render.js";
 import { FX_DIR } from "./fxbake.js";
 import { searchIdeas, startMotion, getMotion, renderMotionHtml, MOTION_DIR } from "./motion.js";
 import { startAnalysis, getAnalysis, reaInstalled } from "./analyze.js";
+import { runVes, getVesJob, humanAction, confirmPhrase, listVesStyles, listProjects, projectStatus, vesPath, vesInstalled, type VesScript } from "./ves.js";
 import { listStyles, getStyle, saveStyle, createJob, getJob, updateJob, listJobs } from "./store.js";
 import { availableProviders, planEdit, type ProviderId } from "./providers/index.js";
 
@@ -20,7 +21,7 @@ mkdirSync(MEDIA, { recursive: true });
 function serveFile(req: IncomingMessage, res: ServerResponse, path: string, type: string) {
   const size = statSync(path).size;
   const range = req.headers.range?.match(/bytes=(\d*)-(\d*)/);
-  const head = { "content-type": type, "accept-ranges": "bytes", "access-control-allow-origin": "*" };
+  const head = { "content-type": type, "accept-ranges": "bytes", "access-control-allow-origin": currentOrigin };
   if (range) {
     const start = range[1] ? +range[1] : 0, end = range[2] ? +range[2] : size - 1;
     res.writeHead(206, { ...head, "content-range": `bytes ${start}-${end}/${size}`, "content-length": end - start + 1 });
@@ -36,10 +37,14 @@ async function body(req: IncomingMessage) {
   for await (const c of req) s += c;
   return s ? JSON.parse(s) : {};
 }
+// Solo el propio editor puede llamar al bridge desde el navegador (otras páginas no pueden ordenar nada).
+const WEB_ORIGINS = (process.env.SANTI_WEB_ORIGIN ?? "http://localhost:5173,http://127.0.0.1:5173,http://localhost:4173").split(",");
+let currentOrigin = WEB_ORIGINS[0];
 function send(res: ServerResponse, code: number, data: unknown) {
   res.writeHead(code, {
     "content-type": "application/json",
-    "access-control-allow-origin": "*",
+    "access-control-allow-origin": currentOrigin,
+    vary: "origin",
     "access-control-allow-headers": "content-type",
     "access-control-allow-methods": "GET,POST,OPTIONS",
   });
@@ -48,6 +53,9 @@ function send(res: ServerResponse, code: number, data: unknown) {
 
 createServer(async (req, res) => {
   try {
+    const origin = req.headers.origin;
+    if (origin && !WEB_ORIGINS.includes(origin)) { res.writeHead(403); return res.end("Origen no permitido"); }
+    currentOrigin = origin ?? WEB_ORIGINS[0];
     if (req.method === "OPTIONS") return send(res, 204, null);
     const url = new URL(req.url ?? "/", "http://x");
     const p = url.pathname;
@@ -82,6 +90,35 @@ createServer(async (req, res) => {
     }
     const an = p.match(/^\/api\/analyze\/([\w-]+)$/);
     if (an) return send(res, 200, getAnalysis(an[1]) ?? { error: "No existe" });
+
+    // ---------- VES (crear-estilo-edicion): edición profesional por STOPs y laboratorio de estilos
+    if (p === "/api/ves") return send(res, 200, { installed: vesInstalled(), styles: listVesStyles().map((v) => ({ id: v.id, name: v.name, description: v.description })), projects: listProjects() });
+    if (p === "/api/ves/project" && req.method === "POST") {
+      const b = await body(req);
+      const videoPath = join(MEDIA, basename(b.mediaId ?? ""));
+      if (!existsSync(videoPath)) return send(res, 400, { error: "Sube primero el clip" });
+      return send(res, 200, runVes("ves", ["new", String(b.name), "--video", videoPath, "--style", String(b.style)]));
+    }
+    if (p === "/api/ves/run" && req.method === "POST") {
+      const b = await body(req);
+      return send(res, 200, runVes(b.script as VesScript, (b.args ?? []).map(String), b.estilo ? { VES_STYLE: String(b.estilo), VES_REFS: String(b.estilo) } : {}));
+    }
+    // STOP 3: solo con la frase de confirmación que escribe Santiago
+    if (p === "/api/ves/human" && req.method === "POST") {
+      const b = await body(req);
+      return send(res, 200, humanAction(String(b.project), b.action, String(b.confirm ?? "")));
+    }
+    if (p === "/api/ves/confirm-phrase") return send(res, 200, { phrase: confirmPhrase(url.searchParams.get("action") as "approve", url.searchParams.get("project") ?? "") });
+    const vj = p.match(/^\/api\/ves\/run\/([\w-]+)$/);
+    if (vj) return send(res, 200, getVesJob(vj[1]) ?? { error: "No existe" });
+    const vp = p.match(/^\/api\/ves\/project\/([\w.-]+)$/);
+    if (vp) return send(res, 200, projectStatus(vp[1]));
+    if (p.startsWith("/ves-files/")) {
+      const full = vesPath(decodeURIComponent(p.slice("/ves-files/".length)));
+      if (!existsSync(full) || statSync(full).isDirectory()) return send(res, 404, { error: "No existe" });
+      const type = ({ ".html": "text/html; charset=utf-8", ".png": "image/png", ".jpg": "image/jpeg", ".mp4": "video/mp4", ".json": "application/json", ".md": "text/markdown; charset=utf-8", ".zip": "application/zip" } as Record<string, string>)[extname(full)] ?? "application/octet-stream";
+      return serveFile(req, res, full, type);
+    }
 
     const fxm = p.match(/^\/fx\/([\w.-]+)$/);
     if (fxm && existsSync(join(FX_DIR, fxm[1]))) return serveFile(req, res, join(FX_DIR, fxm[1]), "video/webm");

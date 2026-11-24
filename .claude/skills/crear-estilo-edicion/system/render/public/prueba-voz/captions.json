@@ -1,0 +1,373 @@
+{
+  "phrases": [
+    {
+      "start": 0.0,
+      "end": 2.26,
+      "sentence": 0,
+      "treatment": "serif",
+      "box": false,
+      "words": [
+        {
+          "w": "Así",
+          "start": 0.0,
+          "end": 0.42
+        },
+        {
+          "w": "se",
+          "start": 0.42,
+          "end": 0.66
+        },
+        {
+          "w": "construye",
+          "start": 0.66,
+          "end": 1.4
+        },
+        {
+          "w": "un",
+          "start": 1.4,
+          "end": 1.54
+        },
+        {
+          "w": "imperio.",
+          "start": 1.54,
+          "end": 2.2
+        }
+      ],
+      "special": [
+        3,
+        4
+      ],
+      "y": 998
+    },
+    {
+      "start": 2.26,
+      "end": 3.58,
+      "sentence": 1,
+      "treatment": "sans",
+      "box": false,
+      "words": [
+        {
+          "w": "La",
+          "start": 2.26,
+          "end": 2.38
+        },
+        {
+          "w": "mayoría",
+          "start": 2.38,
+          "end": 2.82
+        },
+        {
+          "w": "de",
+          "start": 2.82,
+          "end": 3.08
+        },
+        {
+          "w": "la",
+          "start": 3.08,
+          "end": 3.2
+        },
+        {
+          "w": "gente",
+          "start": 3.2,
+          "end": 3.58
+        }
+      ],
+      "special": [
+        1
+      ],
+      "y": 998
+    },
+    {
+      "start": 3.58,
+      "end": 5.76,
+      "sentence": 1,
+      "treatment": "sans",
+      "box": false,
+      "words": [
+        {
+          "w": "nunca",
+          "start": 3.58,
+          "end": 3.92
+        },
+        {
+          "w": "empieza",
+          "start": 3.92,
+          "end": 4.5
+        },
+        {
+          "w": "porque",
+          "start": 4.5,
+          "end": 4.88
+        },
+        {
+          "w": "tiene",
+          "start": 4.88,
+          "end": 5.28
+        },
+        {
+          "w": "miedo.",
+          "start": 5.28,
+          "end": 5.7
+        }
+      ],
+      "special": [
+        4
+      ],
+      "y": 998
+    },
+    {
+      "start": 5.76,
+      "end": 7.34,
+      "sentence": 2,
+      "treatment": "serif",
+      "box": false,
+      "words": [
+        {
+          "w": "Yo",
+          "start": 5.76,
+          "end": 5.98
+        },
+        {
+          "w": "gané",
+          "start": 5.98,
+          "end": 6.36
+        },
+        {
+          "w": "10",
+          "start": 6.36,
+          "end": 6.7
+        },
+        {
+          "w": ".000",
+          "start": 6.7,
+          "end": 6.98
+        },
+        {
+          "w": "dólares",
+          "start": 6.98,
+          "end": 7.34
+        }
+      ],
+      "special": [
+        3,
+        4
+      ],
+      "y": 998
+    },
+    {
+      "start": 7.34,
+      "end": 8.54,
+      "sentence": 2,
+      "treatment": "sans",
+      "box": false,
+      "words": [
+        {
+          "w": "en",
+          "start": 7.34,
+          "end": 7.74
+        },
+        {
+          "w": "30",
+          "start": 7.74,
+          "end": 8.12
+        },
+        {
+          "w": "días",
+          "start": 8.12,
+          "end": 8.54
+        }
+      ],
+      "special": [
+        1
+      ],
+      "y": 998
+    },
+    {
+      "start": 8.54,
+      "end": 9.98,
+      "sentence": 2,
+      "treatment": "sans",
+      "box": false,
+      "words": [
+        {
+          "w": "con",
+          "start": 8.54,
+          "end": 8.86
+        },
+        {
+          "w": "una",
+          "start": 8.86,
+          "end": 9.1
+        },
+        {
+          "w": "idea",
+          "start": 9.1,
+          "end": 9.42
+        },
+        {
+          "w": "simple.",
+          "start": 9.42,
+          "end": 9.92
+        }
+      ],
+      "special": [
+        3
+      ],
+      "y": 998
+    },
+    {
+      "start": 9.98,
+      "end": 10.82,
+      "sentence": 3,
+      "treatment": "serif",
+      "box": false,
+      "words": [
+        {
+          "w": "Te",
+          "start": 9.98,
+          "end": 10.16
+        },
+        {
+          "w": "voy",
+          "start": 10.16,
+          "end": 10.36
+        },
+        {
+          "w": "a",
+          "start": 10.36,
+          "end": 10.5
+        },
+        {
+          "w": "contar",
+          "start": 10.5,
+          "end": 10.82
+        }
+      ],
+      "special": [
+        3
+      ],
+      "y": 998
+    },
+    {
+      "start": 10.82,
+      "end": 12.56,
+      "sentence": 3,
+      "treatment": "sans",
+      "box": false,
+      "words": [
+        {
+          "w": "el",
+          "start": 10.82,
+          "end": 11.08
+        },
+        {
+          "w": "secreto",
+          "start": 11.08,
+          "end": 11.7
+        },
+        {
+          "w": "paso",
+          "start": 11.7,
+          "end": 11.98
+        },
+        {
+          "w": "a",
+          "start": 11.98,
+          "end": 12.14
+        },
+        {
+          "w": "paso.",
+          "start": 12.14,
+          "end": 12.5
+        }
+      ],
+      "special": [
+        1
+      ],
+      "y": 998
+    },
+    {
+      "start": 12.56,
+      "end": 15.38,
+      "sentence": 4,
+      "treatment": "serif",
+      "box": true,
+      "words": [
+        {
+          "w": "Primero,",
+          "start": 12.56,
+          "end": 13.16
+        },
+        {
+          "w": "enfócate",
+          "start": 13.44,
+          "end": 14.16
+        },
+        {
+          "w": "en",
+          "start": 14.16,
+          "end": 14.34
+        },
+        {
+          "w": "una",
+          "start": 14.34,
+          "end": 14.54
+        },
+        {
+          "w": "sola",
+          "start": 14.54,
+          "end": 14.88
+        },
+        {
+          "w": "cosa.",
+          "start": 14.88,
+          "end": 15.32
+        }
+      ],
+      "special": [
+        3,
+        4
+      ],
+      "y": 998
+    },
+    {
+      "start": 15.38,
+      "end": 17.64,
+      "sentence": 5,
+      "treatment": "serif",
+      "box": false,
+      "words": [
+        {
+          "w": "Segundo,",
+          "start": 15.38,
+          "end": 16.12
+        },
+        {
+          "w": "publica",
+          "start": 16.18,
+          "end": 16.76
+        },
+        {
+          "w": "todos",
+          "start": 16.76,
+          "end": 16.96
+        },
+        {
+          "w": "los",
+          "start": 16.96,
+          "end": 17.34
+        },
+        {
+          "w": "días.",
+          "start": 17.34,
+          "end": 17.64
+        }
+      ],
+      "special": [
+        1,
+        2
+      ],
+      "y": 998
+    }
+  ]
+}

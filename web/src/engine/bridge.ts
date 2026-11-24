@@ -40,3 +40,16 @@ export type Analysis = { id: string; status: string; log: string[]; style?: Styl
 export const startAnalysis = (b: { mediaId: string; name: string; provider?: string }) => j<Analysis>("/api/analyze", { method: "POST", body: JSON.stringify(b) });
 export const getAnalysis = (id: string) => j<Analysis>(`/api/analyze/${id}`);
 export const healthFull = () => j<{ ok: boolean; providers: Provider[]; rea: boolean }>("/api/health").catch(() => null);
+
+// ---------- VES (crear-estilo-edicion)
+export type VesJob = { id: string; cmd: string; status: "running" | "done" | "error"; log: string[] };
+export type VesProject = { name: string; style?: string; transcript: boolean; plan: boolean; beats: boolean; approved: boolean; files: string[] };
+export type VesOverview = { installed: boolean; styles: { id: string; name: string; description: string }[]; projects: VesProject[] };
+export const vesOverview = () => j<VesOverview>("/api/ves");
+export const vesProject = (p: string) => j<VesProject>(`/api/ves/project/${p}`);
+export const vesNewProject = (b: { name: string; mediaId: string; style: string }) => j<VesJob>("/api/ves/project", { method: "POST", body: JSON.stringify(b) });
+export const vesRun = (b: { script: string; args: string[]; estilo?: string }) => j<VesJob>("/api/ves/run", { method: "POST", body: JSON.stringify(b) });
+export const vesJob = (id: string) => j<VesJob>(`/api/ves/run/${id}`);
+export const vesHuman = (b: { project: string; action: string; confirm: string }) => j<VesJob>("/api/ves/human", { method: "POST", body: JSON.stringify(b) });
+export const vesConfirmPhrase = (action: string, project: string) => j<{ phrase: string }>(`/api/ves/confirm-phrase?action=${action}&project=${project}`);
+export const vesFileUrl = (rel: string) => `${BASE}/ves-files/${rel.split("/").map(encodeURIComponent).join("/")}`;

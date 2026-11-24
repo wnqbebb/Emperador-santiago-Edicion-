@@ -1,0 +1,20 @@
+{
+  "name": "prueba-voz",
+  "style": "arthur-talking-minimal",
+  "raw": "media/raw.mp4",
+  "probe": {
+    "duration": 21.48,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "has_audio": true
+  },
+  "cut": "media/raw_cut.mp4",
+  "cut_probe": {
+    "duration": 17.733333,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "has_audio": true
+  }
+}

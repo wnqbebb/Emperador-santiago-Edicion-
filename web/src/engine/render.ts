@@ -1,7 +1,7 @@
 // Renderizador de cuadros: dibuja video + subtítulos animados + gráficos de movimiento en un <canvas>.
 // Es lo mismo para la vista previa y para la exportación, así lo que ves es lo que se exporta.
 import type { Chunk, Motion, Plan, Style } from "./types";
-import { isEmphasis, outDuration, srcToOut } from "./plan";
+import { CAPTION_LEAD, isEmphasis, outDuration, srcToOut } from "./plan";
 import { drawPixelFx, renderIntro3D, fxBox } from "../../../shared/fx";
 
 // B-roll (motion graphics generados): un <video> oculto por URL, sincronizado con el tiempo del plan
@@ -64,8 +64,9 @@ export function drawFrame({ ctx, video, plan, chunks, style, t }: FrameInput) {
   for (const m of plan?.motion ?? []) if (t >= m.start && t <= m.end && m.kind !== "emojiPop") drawMotion(ctx, m, t, k, style, plan!);
 
   // --- Subtítulos
-  const ch = chunks.find((c) => t >= c.start - 0.05 && t <= c.end + 0.12);
-  if (ch) drawCaption(ctx, ch, t, k, style, plan);
+  const tc = t + CAPTION_LEAD;
+  const ch = chunks.find((c) => tc >= c.start - 0.05 && tc <= c.end + 0.12);
+  if (ch) drawCaption(ctx, ch, tc, k, style, plan);
 
   for (const m of plan?.motion ?? []) if (t >= m.start && t <= m.end && m.kind === "emojiPop") drawMotion(ctx, m, t, k, style, plan!);
   ctx.restore();
@@ -149,7 +150,7 @@ function drawMotion(ctx: CanvasRenderingContext2D, m: Motion, t: number, k: numb
       ctx.font = `800 ${size}px "${style.caption.font}", system-ui`;
       const text = style.caption.uppercase ? m.text.toUpperCase() : m.text;
       const tw = Math.min(ctx.measureText(text).width, W * 0.8);
-      const bw = tw + 70 * k, bh = size * 1.9, x = (W - bw) / 2, y = H * 0.12 - (1 - vis) * 40 * k;
+      const bw = tw + 70 * k, bh = size * 1.9, x = (W - bw) / 2, y = H * 0.16 - (1 - vis) * 40 * k;
       ctx.globalAlpha = vis;
       ctx.fillStyle = "rgba(12,12,16,0.72)";
       roundRect(ctx, x, y, bw, bh, 26 * k); ctx.fill();
@@ -173,7 +174,7 @@ function drawMotion(ctx: CanvasRenderingContext2D, m: Motion, t: number, k: numb
     }
     case "emojiPop": {
       const s = easeOutBack((t - m.start) / 0.35) * outP;
-      ctx.translate(W * 0.78, H * 0.5 - Math.sin(p * Math.PI) * 30 * k);
+      ctx.translate(W * 0.7, H * 0.5 - Math.sin(p * Math.PI) * 30 * k);
       ctx.rotate((1 - s) * -0.6 + Math.sin(p * 6) * 0.05);
       ctx.scale(s, s);
       ctx.font = `${150 * k}px "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif`;

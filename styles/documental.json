@@ -12,7 +12,7 @@
     "uppercase": false,
     "wordsPerChunk": 6,
     "animation": "fade",
-    "position": 0.82
+    "position": 0.7
   },
   "pacing": {
     "maxSilence": 0.5,

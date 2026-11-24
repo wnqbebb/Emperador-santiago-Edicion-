@@ -8,10 +8,11 @@ import * as bridge from "./engine/bridge";
 import { startRecording } from "./engine/exporter";
 import { Timeline } from "./ui/Timeline";
 import { Icon } from "./ui/Icon";
+import { Lab } from "./ui/Lab";
 import { PIXEL_FX_META, fxDuration } from "../../shared/fxmeta";
 import type { Motion } from "./engine/types";
 
-type Tab = "media" | "styles" | "ai" | "motion";
+type Tab = "media" | "styles" | "ai" | "motion" | "lab";
 const fmt = (s: number) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
 
 export default function App() {
@@ -258,7 +259,7 @@ export default function App() {
       </header>
 
       <nav className="rail">
-        {([["media", "film", "Medios"], ["styles", "crown", "Estilos de Santi"], ["ai", "spark", "Director IA"], ["motion", "shapes", "Motion"]] as const).map(([id, icon, label]) => (
+        {([["media", "film", "Medios"], ["styles", "crown", "Estilos de Santi"], ["ai", "spark", "Director IA"], ["motion", "shapes", "Motion"], ["lab", "flask", "Laboratorio"]] as const).map(([id, icon, label]) => (
           <button key={id} className={tab === id ? "active" : ""} onClick={() => setTab(id)} title={label}>
             <Icon name={icon} /><span>{label}</span>
           </button>
@@ -323,6 +324,8 @@ export default function App() {
             {plan && <div className="summary"><b>Plan</b><p>{plan.summary}</p></div>}
           </>
         )}
+
+        {tab === "lab" && <Lab mediaId={mediaId} fileName={file?.name} />}
 
         {tab === "motion" && (
           <>

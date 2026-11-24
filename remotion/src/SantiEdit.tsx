@@ -6,7 +6,7 @@ import "@fontsource/space-grotesk/700.css";
 import "@fontsource/inter/600.css";
 import { AbsoluteFill, Easing, interpolate, OffthreadVideo, Sequence, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import type { Motion, Plan, Style, Word } from "../../shared/types";
-import { chunkWords, isEmphasis, keptWords, outDuration, outToSrc, srcToOut } from "../../shared/plan";
+import { CAPTION_LEAD, chunkWords, isEmphasis, keptWords, outDuration, outToSrc, srcToOut } from "../../shared/plan";
 import { fxBox } from "../../shared/fxmeta";
 
 /** fx: "kind:id" → URL del efecto horneado (WebM con transparencia, lo prepara el bridge con Playwright) */
@@ -36,7 +36,8 @@ export const SantiEdit = ({ videoSrc, plan, words, style, fx = {} }: SantiEditPr
   }
   const g = style.grade;
   const chunks = chunkWords(keptWords(words, plan.segments), style.caption.wordsPerChunk);
-  const chunk = chunks.find((c) => t >= c.start - 0.05 && t <= c.end + 0.12);
+  const tc = t + CAPTION_LEAD;
+  const chunk = chunks.find((c) => tc >= c.start - 0.05 && tc <= c.end + 0.12);
 
   return (
     <AbsoluteFill style={{ backgroundColor: "black" }}>
@@ -64,7 +65,7 @@ export const SantiEdit = ({ videoSrc, plan, words, style, fx = {} }: SantiEditPr
       {plan.motion.filter((m) => m.kind !== "emojiPop" && t >= m.start && t <= m.end).map((m, i) => (
         <MotionLayer key={i} m={m} t={t} style={style} plan={plan} fps={fps} />
       ))}
-      {chunk && <Caption words={chunk.words} start={chunk.start} t={t} style={style} plan={plan} />}
+      {chunk && <Caption words={chunk.words} start={chunk.start} t={tc} style={style} plan={plan} />}
       {plan.motion.filter((m) => m.kind === "emojiPop" && t >= m.start && t <= m.end).map((m, i) => (
         <MotionLayer key={`e${i}`} m={m} t={t} style={style} plan={plan} fps={fps} />
       ))}
@@ -113,7 +114,7 @@ function MotionLayer({ m, t, style, plan, fps }: { m: Motion; t: number; style: 
   switch (m.kind) {
     case "title":
       return (
-        <AbsoluteFill style={{ top: 230, height: "auto", alignItems: "center", opacity: vis, transform: `translateY(${(1 - vis) * -40}px)` }}>
+        <AbsoluteFill style={{ top: 307, height: "auto", alignItems: "center", opacity: vis, transform: `translateY(${(1 - vis) * -40}px)` }}>
           <div style={{ padding: "26px 40px", borderRadius: 26, background: "rgba(12,12,16,.72)", color: "#fff", fontFamily: font, fontWeight: 800, fontSize: 54, maxWidth: 900, textAlign: "center", textTransform: style.caption.uppercase ? "uppercase" : "none", borderBottom: `8px solid ${accent}` }}>{m.text}</div>
         </AbsoluteFill>
       );
@@ -130,7 +131,7 @@ function MotionLayer({ m, t, style, plan, fps }: { m: Motion; t: number; style: 
       );
     }
     case "emojiPop":
-      return <div style={{ position: "absolute", left: 842 - 75, top: 960 - 90 - Math.sin(p * Math.PI) * 30, fontSize: 150, transform: `scale(${pop * Math.min(1, (m.end - t) / 0.3)}) rotate(${(1 - pop) * -34}deg)` }}>{m.text}</div>;
+      return <div style={{ position: "absolute", left: 756 - 75, top: 960 - 90 - Math.sin(p * Math.PI) * 30, fontSize: 150, transform: `scale(${pop * Math.min(1, (m.end - t) / 0.3)}) rotate(${(1 - pop) * -34}deg)` }}>{m.text}</div>;
     case "highlightBox":
       return (
         <AbsoluteFill style={{ top: 520, height: "auto", alignItems: "center", opacity: vis }}>

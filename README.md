@@ -28,10 +28,30 @@ Requisitos: Node 22+, FFmpeg y Python 3.10+.
 | [awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) | Biblioteca de 683 ideas de motion graphics (`library/`) |
 | [Playwright](https://playwright.dev) | Pruebas del editor y "horneado" de efectos a video transparente |
 | [FFmpeg](https://github.com/FFmpeg/FFmpeg) | Audio, medición de ritmo, video con transparencia y volumen estándar (-14 LUFS) |
+| **crear-estilo-edicion** (tu paquete) | VES: edición por STOPs, laboratorio de 9 fases, Reglas Generales, Joseph, Katana, Edit Studio, estilos Arthur Brooks |
 | [anthropics/skills](https://github.com/anthropics/skills) | Skills para Claude Code: webapp-testing, frontend-design, mcp-builder, skill-creator |
 
 Opcional: `bash scripts/instalar-skills.sh --lemo` instala los 99 estilos de película de
 [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar). Su licencia es **CC BY-NC 4.0 (no comercial)**.
+
+## Método profesional VES y creación de estilos (crear-estilo-edicion)
+
+La skill **crear-estilo-edicion** viene instalada en `.claude/skills/crear-estilo-edicion/` con todo su sistema (VES):
+Reglas Generales (32), método Joseph, Katana, REA, rea-video, Edit Studio, estilos de Arthur Brooks y el laboratorio
+de 9 fases. En el editor, pestaña **Laboratorio**:
+
+- **Editar con método VES** — Preparar (Whisper, corte de silencios, paleta, captions bajo el mentón, `plan.html`) →
+  ⏸ STOP 1 plan por beats (tú o tu IA escriben `edit_plan.json`) → ⏸ STOP 2 validar + storyboard + hoja de captions →
+  borrador → ⏸ STOP 3 **tu aprobación**: aprobar y render final piden que escribas una frase de confirmación.
+  Ninguna IA puede aprobar ni renderizar en final por ti.
+- **Crear un estilo nuevo** — con 10–20 videos de un creador: reunir, preparar con rea-video, briefs para tu IA,
+  sonido y energía, biblioteca + tablero, empaquetar la skill del estilo (`dist/<estilo>-editing.zip`).
+
+Los estilos de VES también aparecen en los Estilos de Santi (`VES · …`) para el editor rápido.
+
+```bash
+npm run setup:ves      # Python (Whisper, Demucs, rembg…), Remotion de VES y Edit Studio
+```
 
 ## Aprender un estilo de un video (rea-video)
 

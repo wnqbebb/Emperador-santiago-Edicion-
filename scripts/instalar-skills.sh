@@ -20,6 +20,9 @@ fetch heygen-com/hyperframes 2ffa5aeaf84783aacd50d60e6e7e2548c6b3a9b8 hyperframe
 fetch JuneYaooo/rea-video fc69e194bdb4da91f72420c58debbc38eee647f5 rea
 fetch patch-gg/pixelfx 5294518ce7c72e48b6100a744596e0acf57f2826 pixelfx
 fetch anthropics/skills e4bb5d960d87126ff3b3a8af1a104b7db67560ba anthropic
+# Las que fija el skills-lock de crear-estilo-edicion
+fetch digitalsamba/claude-code-video-toolkit b3437fcd462c23b3c46cfd28f8cb61b71039269b videotoolkit
+fetch terminalskills/skills 42289059901710441bfa8081c08c3a9f36b93f9c terminalskills
 
 mkdir -p "$DEST"
 for s in "$TMP"/remotion/skills/*/; do copy "remotion/skills/$(basename "$s")" "$(basename "$s")"; done
@@ -27,6 +30,10 @@ for s in hyperframes hyperframes-cli hyperframes-registry media-use remotion-to-
 copy rea/skills/rea-video rea-video
 copy pixelfx/skills/pixelfx pixelfx
 for s in webapp-testing frontend-design mcp-builder skill-creator algorithmic-art; do copy "anthropic/skills/$s" "$s"; done
+copy videotoolkit/.claude/skills/ffmpeg ffmpeg
+copy terminalskills/skills/gallery-dl gallery-dl
+# Edit Studio (Higgsfield) viene dentro de crear-estilo-edicion; edit-gen no se instala (regla 2: nada de IA de pago)
+for s in edit-director edit-voice; do rm -rf "$DEST/$s"; cp -R .claude/skills/crear-estilo-edicion/plugins/edit-studio/skills/$s "$DEST/$s" && echo "  ✓ $s"; done
 
 if [[ "${1:-}" == "--lemo" ]]; then
   # 99 estilos de película en código. Licencia CC BY-NC 4.0: solo uso NO comercial.

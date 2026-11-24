@@ -1,0 +1,12 @@
+{
+  "name": "rea-video",
+  "owner": { "name": "June" },
+  "metadata": { "description": "拆解一条视频是怎么做出来的，给出复刻方案。" },
+  "plugins": [
+    {
+      "name": "rea-video",
+      "source": "./",
+      "description": "逆向拆解视频：逐镜头判断制作方式，拆剪辑包装、声音和真实素材，给出复刻方案。"
+    }
+  ]
+}

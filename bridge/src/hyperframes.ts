@@ -4,7 +4,7 @@ import { copyFileSync, existsSync, mkdirSync, readdirSync, writeFileSync } from 
 import { basename, extname, join } from "node:path";
 import { createRequire } from "node:module";
 import type { Motion, Plan, Style, Word } from "../../shared/types.js";
-import { chunkWords, isEmphasis, keptWords, outDuration, srcToOut } from "../../shared/plan.js";
+import { CAPTION_LEAD, chunkWords, isEmphasis, keptWords, outDuration, srcToOut } from "../../shared/plan.js";
 import { fxBox } from "../../shared/fxmeta.js";
 
 const require = createRequire(import.meta.url);
@@ -100,7 +100,7 @@ ${zoomTweens}
   const chunks = chunkWords(keptWords(words, segs), c.wordsPerChunk);
   const size = Math.round(c.size * H);
   const groups = chunks.map((ch, gi) => {
-    const s = Math.max(0.1, o(ch.start) - 0.05), e = n(o(ch.end) + 0.12);
+    const s = Math.max(0.1, o(ch.start) - 0.05 - CAPTION_LEAD), e = n(o(ch.end) + 0.12 - CAPTION_LEAD);
     const spans = ch.words.map((w, wi) => {
       const emph = isEmphasis(plan, w.w);
       return `<span id="cw-${gi}-${wi}" class="w${emph ? " em" : ""}">${esc(c.uppercase ? w.w.toUpperCase() : w.w)}</span>`;
@@ -110,7 +110,7 @@ ${zoomTweens}
   const capTweens = groups.map(({ s, e, ch, gi }) => {
     const lines = [`    tl.fromTo("#cap-${gi} .line", { opacity: 0 }, { opacity: 1, duration: ${c.animation === "fade" ? 0.18 : 0.01} }, ${n(s)});`];
     ch.words.forEach((w, wi) => {
-      const at = o(w.t0), id = `#cw-${gi}-${wi}`;
+      const at = n(Math.max(s, o(w.t0) - CAPTION_LEAD)), id = `#cw-${gi}-${wi}`;
       if (c.animation === "pop") lines.push(`    tl.fromTo("${id}", { opacity: 0, scale: 1.25 }, { opacity: 1, scale: 1, duration: 0.14, ease: "back.out(3)" }, ${at});`);
       if (c.animation === "bounce") lines.push(`    tl.fromTo("${id}", { y: ${-size * 0.12} }, { y: 0, duration: 0.25, ease: "bounce.out" }, ${at});`);
       if (c.animation === "karaoke") lines.push(`    tl.fromTo("${id}", { opacity: 0.38 }, { opacity: 1, duration: 0.06 }, ${at});`);
@@ -148,13 +148,13 @@ ${capTweens}
   <style>
     ${fontFace}
     #root { position: absolute; inset: 0; font-family: "${c.font}", sans-serif; }
-    .title { position: absolute; left: 0; right: 0; top: 230px; text-align: center; }
+    .title { position: absolute; left: 0; right: 0; top: 307px; text-align: center; }
     .title > div { display: inline-block; max-width: 880px; padding: 26px 40px; border-radius: 26px; background: rgba(12,12,16,.72); color: #fff; font-weight: 800; font-size: 54px; border-bottom: 8px solid ${accent}; ${c.uppercase ? "text-transform: uppercase;" : ""} }
     .lower { position: absolute; left: 60px; top: 1075px; display: flex; }
     .lower .bar { width: 10px; background: ${accent}; }
     .lower .box { background: rgba(10,10,14,.78); padding: 16px 30px; min-width: 480px; }
     .lower b { display: block; color: #fff; font-size: 46px; } .lower small { color: rgba(255,255,255,.7); font: 500 30px Inter, sans-serif; }
-    .emoji { position: absolute; left: 767px; top: 870px; font-size: 150px; }
+    .emoji { position: absolute; left: 681px; top: 870px; font-size: 150px; }
     .hbox { position: absolute; left: 0; right: 0; top: 520px; text-align: center; }
     .hbox > div { display: inline-block; background: ${accent}; color: #0b0b0f; font-weight: 800; font-size: 64px; padding: 18px 40px; border-radius: 18px; }
     .counter { position: absolute; left: 0; right: 0; top: 520px; text-align: center; color: ${accent}; font-weight: 900; font-size: 150px; text-shadow: 0 0 40px ${accent}; }

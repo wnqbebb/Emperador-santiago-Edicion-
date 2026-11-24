@@ -11,3 +11,9 @@ qa
 tools/.venv
 .claude/skills/*
 !.claude/skills/emperador-santiago
+!.claude/skills/crear-estilo-edicion
+.claude/skills/crear-estilo-edicion/system/projects
+.claude/skills/crear-estilo-edicion/system/refs
+.claude/skills/crear-estilo-edicion/system/dist
+.claude/skills/crear-estilo-edicion/system/render/node_modules
+.claude/skills/crear-estilo-edicion/system/styles/*/references

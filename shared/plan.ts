@@ -25,6 +25,9 @@ const EMOJI: [RegExp, string][] = [
   [/^(cerebro|pensar|mente|aprender)/, "🧠"],
 ];
 
+/** Regla 15 (Reglas Generales): los subtítulos aparecen 2 cuadros antes de la voz. */
+export const CAPTION_LEAD = 2 / 30;
+
 /** Palabras dentro de los segmentos conservados. */
 export const keptWords = (words: Word[], segs: Segment[]) =>
   words.filter((w) => segs.some((s) => w.t0 >= s.start - 0.01 && w.t1 <= s.end + 0.01));

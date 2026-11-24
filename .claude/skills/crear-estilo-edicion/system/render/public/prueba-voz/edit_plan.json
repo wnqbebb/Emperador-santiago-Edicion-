@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "style": "arthur-talking-minimal",
+  "source": { "video": "media/raw_cut.mp4", "captions": "captions.json" },
+  "palette": null,
+  "hook": { "speaker": true, "text": "Así se construye un imperio", "visual": "fullscreen_text" },
+  "scenes": [
+    { "id": "s01", "start": 0.0, "end": 2.3, "type": "aroll", "props": { "zoom": 1.0 } },
+    { "id": "s02", "start": 2.3, "end": 5.8, "type": "fullscreen_text", "props": { "text": "Nunca empiezan por miedo", "special": ["miedo"] } },
+    { "id": "s03", "start": 5.8, "end": 8.5, "type": "aroll", "props": { "zoom": 1.12 } },
+    { "id": "s04", "start": 6.4, "end": 8.5, "type": "arthur_number", "props": { "value": "$10.000", "label": "en 30 días" } },
+    { "id": "s05", "start": 8.5, "end": 12.6, "type": "quote", "props": { "text": "Una idea simple, paso a paso", "special": ["simple"], "author": "Santiago" } },
+    { "id": "s06", "start": 12.6, "end": 17.7, "type": "aroll", "props": { "zoom": 1.08 } }
+  ],
+  "captions": { "enabled": true, "special_words": ["imperio", "miedo", "secreto", "sola"], "hide_during": ["fullscreen"] },
+  "music": { "file": null, "volume": 0.18 }
+}

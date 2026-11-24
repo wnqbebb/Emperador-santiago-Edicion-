@@ -9,6 +9,8 @@ import { PlanSchema, StyleSchema } from "./schema.js";
 import { runReaVideo, readDigest, reaInstalled, slug } from "./analyze.js";
 import { searchIdeas, motionBrief, renderMotionHtml } from "./motion.js";
 import { DATA } from "./store.js";
+import { runVes, waitVes, listVesStyles, listProjects, projectStatus, writeVesFile, vesPath, type VesScript } from "./ves.js";
+import { readFileSync as readF, existsSync as exists } from "node:fs";
 import { join, resolve } from "node:path";
 
 const server = new McpServer({ name: "emperador-santiago", version: "0.1.0" });
@@ -101,6 +103,50 @@ server.registerTool(
     const j = await renderMotionHtml(html, seconds);
     return text(`Listo: ${j.url}\nProyecto editable: ${j.projectDir}`);
   },
+);
+
+// ---------- VES · crear-estilo-edicion (sigue .claude/skills/crear-estilo-edicion/SKILL.md y system/AGENTS.md)
+server.registerTool(
+  "santi_ves_overview",
+  { description: "Estado de VES: estilos (Arthur Brooks y los creados), proyectos de edición y qué falta en cada uno. Léelo antes de usar las demás herramientas santi_ves_*." },
+  async () => text(JSON.stringify({ styles: listVesStyles().map((v) => ({ id: v.id, name: v.name })), projects: listProjects() }, null, 2)),
+);
+
+server.registerTool(
+  "santi_ves_run",
+  {
+    description:
+      "Ejecuta un paso de VES y devuelve su salida. script ves (ves.py): new, all, transcribe, rawcut, palette, captions, captionsheet, plandoc, validate, storyboard, preview, fork, render --draft, sound --draft. script lab (style_lab.py): nuevo, preparar, estado, briefs, sonido, energia, biblioteca, empaquetar. También beats (panel, apply), sheets (palette, music, pick-palette, pick-music), assets, fixwords, cutout, classify. Aprobar y el render/sonido final NO están disponibles aquí: los confirma Santiago en el editor (STOP 3).",
+    inputSchema: { script: z.enum(["ves", "lab", "beats", "assets", "sheets", "fixwords", "cutout", "classify"]), args: z.array(z.string()), estilo: z.string().optional().describe("Para lab/classify: estilo en el que se trabaja") },
+  },
+  async ({ script, args, estilo }) => {
+    const job = await waitVes(runVes(script as VesScript, args, estilo ? { VES_STYLE: estilo, VES_REFS: estilo } : {}));
+    return text(`[${job.status}] ${job.cmd}\n${job.log.slice(-80).join("\n")}`);
+  },
+);
+
+server.registerTool(
+  "santi_ves_read",
+  { description: "Lee un archivo de VES (ruta relativa a system/: AGENTS.md, schemas/scenes.json, styles/<estilo>/…, projects/<p>/…).", inputSchema: { path: z.string() } },
+  async ({ path }) => {
+    const full = vesPath(path);
+    return text(exists(full) ? readF(full, "utf8").slice(0, 60_000) : "No existe");
+  },
+);
+
+server.registerTool(
+  "santi_ves_write",
+  {
+    description: "Escribe un archivo que el método VES pide al modelo: projects/<p>/edit_plan.json o beats.json; styles/<estilo>/references/vNN/scenes.json o edit_logic.json; styles/<estilo>/style.json o labels.json; styles/<estilo>/skill/SKILL.md, RULEBOOK.md, EDIT_LOGIC.md o FORMATOS.md.",
+    inputSchema: { path: z.string(), content: z.string() },
+  },
+  async ({ path, content }) => text(`Guardado: ${writeVesFile(path, content)}`),
+);
+
+server.registerTool(
+  "santi_ves_project",
+  { description: "Estado de un proyecto VES: transcripción, plan, aprobación y archivos generados (plan.html, storyboard, hoja de captions, borrador).", inputSchema: { name: z.string() } },
+  async ({ name }) => text(JSON.stringify(projectStatus(name), null, 2)),
 );
 
 await server.connect(new StdioServerTransport());

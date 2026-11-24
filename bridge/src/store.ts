@@ -4,6 +4,7 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { randomUUID } from "node:crypto";
 import { StyleSchema, type EditJob, type Style } from "./schema.js";
+import { listVesStyles, vesToSanti } from "./ves.js";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..", "..");
 export const DATA = process.env.SANTI_DATA ?? join(ROOT, "data");
@@ -23,6 +24,8 @@ export function listStyles(): Style[] {
       if (parsed.success) out.set(parsed.data.id, parsed.data);
     }
   }
+  // Los estilos de VES (crear-estilo-edicion) aparecen también como Estilos de Santi
+  try { for (const v of listVesStyles()) if (!out.has(`ves-${v.id}`)) out.set(`ves-${v.id}`, vesToSanti(v)); } catch { /* VES no instalado */ }
   return [...out.values()];
 }
 export const getStyle = (id: string) => listStyles().find((s) => s.id === id);

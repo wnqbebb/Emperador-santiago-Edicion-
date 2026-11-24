@@ -19,6 +19,13 @@ Reglas:
 - "emphasis": de 1 a 2 palabras clave por frase; usa la palabra exactamente como aparece.
 - "motion": ${style.motion.hookTitle ? "un título-gancho en los primeros 2.5s; " : ""}${style.motion.emojis ? "emojiPop en conceptos concretos (máx. 1 cada 4s); " : ""}${style.motion.lowerThird ? "un lowerThird si se presenta una persona o un dato; " : ""}${style.motion.progress ? "una barra 'progress' de principio a fin; " : ""}highlightBox/counter solo cuando aporten.
 - Efectos especiales (máx. 1 cada 6s, solo en los momentos más fuertes): "pixelfx" con text = uno de estos ids: ${Object.entries(PIXEL_FX_META).map(([id, m]) => `${id} (${m.uso})`).join("; ")}. "intro3d" (corona dorada 3D, 2.8s, text vacío) como apertura si el estilo es imperial o épico.
+- Reglas Generales del método (crear-estilo-edicion, obligatorias salvo que Santiago pida otra cosa):
+  · Abre en la cara. Si anuncia algo nuevo → su cara; si lo describe → se muestra (gráfico, efecto, b-roll).
+  · Todo sincronizado a la palabra: cada gráfico entra en la palabra que lo nombra; nunca a mitad de palabra.
+  · Subtítulos ≤ 5 palabras cortadas por sentido; 1-2 palabras clave por frase en el color de marca.
+  · Corte seco por defecto; efectos especiales escasos y separados (≥ 8 s entre efectos grandes); nada de destellos de cara < 0.6 s.
+  · Zona segura: todo centrado cerca del medio (las apps tapan arriba 14 %, abajo 26 % y la columna derecha 15 %).
+  · Energía: algo cambia cada 1–3 s (corte, zoom, gráfico o subtítulo nuevo), sin pausas muertas.
 - Todos los tiempos en segundos del clip ORIGINAL (duración ${duration.toFixed(2)}s).
 
 Style DNA "${style.name}": ${style.description}

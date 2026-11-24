@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/rea-video/capabilities/model.schema.json",
+  "title": "rea-video model capability entry",
+  "type": "object",
+  "required": ["id", "name", "vendor", "category", "status", "access", "primitives", "license", "sources", "verified", "confidence"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9.\\-]*$"},
+    "name": {"type": "string"},
+    "vendor": {"type": "string"},
+    "category": {"enum": ["video", "image", "character", "audio", "threed", "analysis", "render", "post"]},
+    "release": {"type": "string", "pattern": "^\\d{4}-\\d{2}$"},
+    "status": {"enum": ["ga", "preview", "limited", "deprecated", "shutdown"]},
+    "access": {"type": "array", "items": {"enum": ["app", "api", "api-aggregator", "open-weights"]}, "uniqueItems": true},
+    "primitives": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true},
+    "limits": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "duration_s": {"$ref": "#/$defs/range"},
+        "audio_s": {"$ref": "#/$defs/range"},
+        "resolutions": {"type": "array", "items": {"type": "string"}},
+        "refs": {
+          "type": "object", "additionalProperties": false,
+          "properties": {"image": {"type": "integer"}, "video": {"type": "integer"}, "audio": {"type": "integer"}, "total": {"type": "integer"}}
+        },
+        "ref_video_s": {"$ref": "#/$defs/range", "description": "Total length of the reference videos one request accepts"},
+        "duration_with_refs_s": {"type": "array", "items": {"type": "number"}, "description": "The only lengths a call takes when reference images or videos are sent"},
+        "keyframes": {"type": "integer"},
+        "shots_per_generation": {"type": "integer"},
+        "prompt_tokens": {"type": "integer"},
+        "exclusive_inputs": {
+          "description": "Groups of primitives that cannot be used in the same request (e.g. first/last frame vs references)",
+          "type": "array", "items": {"type": "array", "items": {"type": "string", "pattern": "^video\\."}, "minItems": 1}
+        }
+      }
+    },
+    "audio": {
+      "type": "object", "additionalProperties": false,
+      "properties": {"native": {"type": "boolean"}, "voice_ref": {"type": "boolean"}}
+    },
+    "strengths": {"type": "array", "items": {"type": "string"}},
+    "weaknesses": {"type": "array", "items": {"type": "string"}},
+    "cost": {
+      "type": "object", "additionalProperties": false,
+      "properties": {"usd_per_s": {"type": ["number", "null"]}, "note": {"type": "string"}}
+    },
+    "license": {
+      "type": "object", "required": ["commercial"], "additionalProperties": false,
+      "properties": {"commercial": {"enum": [true, false, "conditional"]}, "note": {"type": "string"}}
+    },
+    "regions_excluded": {"type": "array", "items": {"type": "string"}},
+    "sources": {"type": "array", "items": {"type": "string", "pattern": "^https?://"}, "minItems": 1},
+    "verified": {
+      "type": "object", "required": ["date", "basis"], "additionalProperties": false,
+      "properties": {
+        "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+        "basis": {"enum": ["probe", "user", "vendor", "third-party", "knowledge"]}
+      }
+    },
+    "confidence": {"enum": ["high", "medium", "low"]},
+    "planning": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "How remake plans use this model by default, when that is narrower than its limits",
+      "properties": {
+        "strategy": {"enum": ["remix", "keyframes", "frames", "text"]},
+        "images": {"type": "integer", "minimum": 1},
+        "no_real_faces": {"type": "boolean", "description": "Model rejects reference images or videos containing identifiable real human faces"},
+        "no_audio_with_ref_video": {"type": "boolean", "description": "Native audio cannot be enabled when a reference video is sent"},
+        "max_hardcut_s": {"type": "number", "minimum": 1, "description": "Maximum seconds of consecutive hard-cut shots in a non-remix multi-shot call"},
+        "api_params": {"type": "object", "description": "Model-specific API parameters to pass in remake jobs"}
+      }
+    },
+    "prompting": {"type": "object", "description": "Optional inline prompt-writing rules for user-defined model entries"},
+    "probe_scores": {"type": "object"},
+    "notes": {"type": "string"}
+  },
+  "$defs": {
+    "range": {
+      "type": "object", "additionalProperties": false,
+      "properties": {"min": {"type": "number"}, "max": {"type": "number"},
+                     "steps": {"type": "array", "items": {"type": "number"}, "description": "The only lengths a call takes, when the model does not take any length in its range"}}
+    }
+  }
+}
