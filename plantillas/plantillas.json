@@ -1,0 +1,52 @@
+[
+  {
+    "id": "arthur-talking",
+    "name": "Arthur Brooks · Talking head + minimal",
+    "description": "Tu cara como hilo conductor, intercalada con escenas minimal: gráficos, líneas, citas en papel y números que caen. Subtítulos con la regla del 75 %.",
+    "motor": "ves",
+    "skill": "arthur-brooks-editing",
+    "vesStyle": "arthur-talking-minimal",
+    "preview": ".claude/skills/arthur-brooks-editing/examples/v1/PREVIEW_v1.jpg",
+    "ideal": "Hablando a cámara, consejos, ideas, ventas",
+    "recomendada": true
+  },
+  {
+    "id": "arthur-documental",
+    "name": "Arthur Brooks · Documental",
+    "description": "Historia de vida contada a cámara: fotos de archivo, collages en papel, línea de tiempo, b-roll cálido.",
+    "motor": "ves",
+    "skill": "arthur-brooks-editing",
+    "vesStyle": "arthur-documental",
+    "preview": ".claude/skills/arthur-brooks-editing/examples/v3/PREVIEW_v3.jpg",
+    "ideal": "Tu historia, antes y después, biografías"
+  },
+  {
+    "id": "arthur-podcast",
+    "name": "Arthur Brooks · Clip de podcast",
+    "description": "Fragmento de conversación con cortes por tema, halftone y textos clave.",
+    "motor": "ves",
+    "skill": "arthur-brooks-editing",
+    "vesStyle": "arthur-podcast-clip",
+    "preview": ".claude/skills/arthur-brooks-editing/examples/v2/PREVIEW_v2.jpg",
+    "ideal": "Entrevistas, podcasts, conversaciones"
+  },
+  {
+    "id": "arthur-minimal-vo",
+    "name": "Arthur Brooks · Animación con voz en off",
+    "description": "Casi todo animación minimal sobre papel con tu voz: ideal cuando no quieres salir en cámara.",
+    "motor": "ves",
+    "skill": "arthur-brooks-editing",
+    "vesStyle": "arthur-minimal-vo",
+    "preview": "",
+    "ideal": "Explicaciones, conceptos, sin cámara"
+  },
+  {
+    "id": "imperial",
+    "name": "Imperial Santi · Rápido",
+    "description": "El estilo firma del Emperador: subtítulos dorados palabra a palabra, corona 3D, efectos y punch-ins. Sale en segundos.",
+    "motor": "rapido",
+    "styleId": "imperial",
+    "preview": "",
+    "ideal": "Reels rápidos y de alta energía"
+  }
+]

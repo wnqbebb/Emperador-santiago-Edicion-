@@ -1,20 +1,22 @@
 // Modo "suscripción": usa los CLIs oficiales, que inician sesión con tu plan
 // (Claude Pro/Max → `claude`, ChatGPT Plus/Pro → `codex`, Google AI → `gemini`).
-// No hace falta clave de API: cada CLI usa su propio login.
+// No hace falta clave de API: cada CLI usa su propio login. El prompt va por la entrada estándar
+// (los planes por beats incluyen la biblioteca de Arthur y no caben como argumento).
 import { spawn } from "node:child_process";
 
 export type CliId = "claude-cli" | "codex-cli" | "gemini-cli";
 
-const COMMANDS: Record<CliId, (prompt: string) => [string, string[]]> = {
-  "claude-cli": (p) => ["claude", ["-p", p, "--output-format", "text"]],
-  "codex-cli": (p) => ["codex", ["exec", "--skip-git-repo-check", p]],
-  "gemini-cli": (p) => ["gemini", ["-p", p]],
+const ORDER = "Sigue las instrucciones completas que recibes por la entrada estándar y responde solo lo que piden.";
+const COMMANDS: Record<CliId, [string, string[]]> = {
+  "claude-cli": ["claude", ["-p", ORDER, "--output-format", "text"]],
+  "codex-cli": ["codex", ["exec", "--skip-git-repo-check", "-"]],
+  "gemini-cli": ["gemini", ["-p", ORDER]],
 };
 
 export function runCli(id: CliId, prompt: string, timeoutMs = 10 * 60_000): Promise<string> {
-  const [cmd, args] = COMMANDS[id](prompt);
+  const [cmd, args] = COMMANDS[id];
   return new Promise((resolve, reject) => {
-    const child = spawn(cmd, args, { stdio: ["ignore", "pipe", "pipe"] });
+    const child = spawn(cmd, args, { stdio: ["pipe", "pipe", "pipe"] });
     let out = "";
     let err = "";
     const timer = setTimeout(() => child.kill("SIGTERM"), timeoutMs);
@@ -25,11 +27,12 @@ export function runCli(id: CliId, prompt: string, timeoutMs = 10 * 60_000): Prom
       clearTimeout(timer);
       code === 0 ? resolve(out) : reject(new Error(`${cmd} terminó con código ${code}: ${err.slice(-500)}`));
     });
+    child.stdin.end(prompt);
   });
 }
 
 export function cliAvailable(id: CliId): Promise<boolean> {
-  const [cmd] = COMMANDS[id]("");
+  const [cmd] = COMMANDS[id];
   return new Promise((resolve) => {
     const c = spawn(cmd, ["--version"], { stdio: "ignore" });
     c.on("error", () => resolve(false));

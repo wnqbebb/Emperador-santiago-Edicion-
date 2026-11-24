@@ -11,7 +11,11 @@ import type { Style } from "./schema.js";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..", "..");
 export const SKILL_DIR = join(ROOT, ".claude/skills/crear-estilo-edicion");
-export const VES = join(SKILL_DIR, "system");
+/** Laboratorio de estilos (crear-estilo-edicion). */
+export const LAB = join(SKILL_DIR, "system");
+/** Edición: el sistema de la skill arthur-brooks-editing (trae la biblioteca de 339 animaciones y el panel de beats). */
+export const ARTHUR_DIR = join(ROOT, ".claude/skills/arthur-brooks-editing");
+export const VES = existsSync(join(ARTHUR_DIR, "system/pipeline/ves.py")) ? join(ARTHUR_DIR, "system") : LAB;
 const VENV = join(ROOT, "tools/.venv/bin");
 export const vesInstalled = () => existsSync(join(VES, "pipeline/ves.py")) && existsSync(join(VENV, "python"));
 
@@ -57,11 +61,12 @@ export function runVes(script: VesScript, args: string[], env: Record<string, st
 
 function startJob(script: VesScript, args: string[], env: Record<string, string> = {}): VesJob {
   const id = randomUUID().slice(0, 8);
-  const file = join(VES, "pipeline", SCRIPTS[script]);
+  const root = script === "lab" || script === "classify" ? LAB : VES;
+  const file = join(root, "pipeline", SCRIPTS[script]);
   const job: VesJob = { id, cmd: `${SCRIPTS[script]} ${args.join(" ")}`, status: "running", log: [] };
   jobs.set(id, job);
   const child = spawn(join(VENV, "python"), [file, ...args], {
-    cwd: VES,
+    cwd: root,
     env: { ...process.env, ...env, PATH: `${VENV}:${process.env.PATH}`, PYTHONUNBUFFERED: "1" },
   });
   const feed = (d: Buffer) => { job.log.push(...d.toString().split("\n").filter(Boolean)); job.log = job.log.slice(-200); };
@@ -135,6 +140,7 @@ export function listProjects() {
 
 export function projectStatus(p: string) {
   const dir = join(VES, "projects", p);
+  if (!existsSync(dir)) return { name: p, style: undefined, transcript: false, plan: false, beats: false, approved: false, files: [] as string[] };
   const has = (f: string) => existsSync(join(dir, f));
   const outs = existsSync(join(dir, "out")) ? readdirSync(join(dir, "out")).filter((o) => /\.(html|png|jpg|mp4|json)$/.test(o)) : [];
   const roots = readdirSync(dir).filter((f) => /\.(html|zip|md)$/.test(f));

@@ -18,3 +18,9 @@ tools/.venv
 .claude/skills/crear-estilo-edicion/system/dist
 .claude/skills/crear-estilo-edicion/system/render/node_modules
 .claude/skills/crear-estilo-edicion/system/styles/*/references
+!.claude/skills/arthur-brooks-editing
+.claude/skills/*/system/projects
+.claude/skills/*/system/render/node_modules
+.claude/skills/*/system/render/public/*
+!.claude/skills/*/system/render/public/fonts
+!.claude/skills/*/system/render/public/textures

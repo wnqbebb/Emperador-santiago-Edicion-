@@ -4,6 +4,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import * as bridge from "../engine/bridge";
 import { Icon } from "./Icon";
+import { Plantillas } from "./Plantillas";
 
 type Item = { id: string; file: File; url: string; duration: number; w: number; h: number; thumb: string };
 type Ritmo = "natural" | "dinamico" | "agresivo";
@@ -27,7 +28,7 @@ async function describe(file: File): Promise<Item> {
   return { id: crypto.randomUUID(), file, url, duration: v.duration, w: v.videoWidth, h: v.videoHeight, thumb: c.toDataURL("image/jpeg", 0.75) };
 }
 
-export function Montaje({ online, onOpenInEditor }: { online: boolean; onOpenInEditor: (f: File) => void }) {
+export function Montaje({ online, providers, onOpenInEditor }: { online: boolean; providers: bridge.Provider[] | null; onOpenInEditor: (f: File, styleId?: string) => void }) {
   const [items, setItems] = useState<Item[]>([]);
   const [ritmo, setRitmo] = useState<Ritmo>("dinamico");
   const [muletillas, setMuletillas] = useState(false);
@@ -78,10 +79,10 @@ export function Montaje({ online, onOpenInEditor }: { online: boolean; onOpenInE
     }
   }
 
-  async function openInEditor() {
+  async function openInEditor(styleId?: string) {
     if (!job?.master) return;
     const blob = await (await fetch(bridge.abs(job.master))).blob();
-    onOpenInEditor(new File([blob], "video-completo.mp4", { type: "video/mp4" }));
+    onOpenInEditor(new File([blob], "video-completo.mp4", { type: "video/mp4" }), styleId);
   }
 
   const busy = phase === "uploading" || phase === "working";
@@ -95,8 +96,13 @@ export function Montaje({ online, onOpenInEditor }: { online: boolean; onOpenInE
       <section className="m-main">
         <header className="m-head">
           <div>
-            <h1>Unión de clips y recortes de silencio</h1>
-            <p>Sube tus clips, revisa el orden y crea el video completo: sin silencios, unido, renderizado y comprimido.</p>
+            <h1>Crear video</h1>
+            <p>Sube tus clips en bruto → se unen y se cortan los silencios → eliges la plantilla de edición → se edita solo.</p>
+            <ol className="wizard">
+              <li className={phase === "done" ? "ok" : "now"}>1 · Unir clips y cortar silencios</li>
+              <li className={phase === "done" ? "now" : ""}>2 · Plantilla de edición</li>
+              <li>3 · Edición y aprobación</li>
+            </ol>
           </div>
           {items.length > 0 && <div className="m-count"><b>{items.length}</b> clips · {fmt(total)}</div>}
         </header>
@@ -113,6 +119,8 @@ export function Montaje({ online, onOpenInEditor }: { online: boolean; onOpenInE
           <button type="button" className="btn ghost" disabled={busy} onClick={(e) => { e.preventDefault(); folderRef.current?.click(); }}>Elegir carpeta</button>
           <input ref={folderRef} type="file" hidden multiple {...({ webkitdirectory: "" } as object)} onChange={(e) => e.target.files && add(e.target.files)} />
         </label>
+
+        {phase === "done" && job && <Plantillas montajeId={job.id} providers={providers} onRapido={(styleId) => openInEditor(styleId)} />}
 
         {items.length > 0 && (
           <>
@@ -194,6 +202,7 @@ export function Montaje({ online, onOpenInEditor }: { online: boolean; onOpenInE
         {phase === "done" && job?.web && (
           <div className="m-result">
             <video src={bridge.abs(job.web)} controls playsInline />
+            <p className="hint">✓ Paso 1 listo. Elige la plantilla de edición a la izquierda.</p>
             <div className="stats">
               <div><b>{fmt(before)}</b><small>antes</small></div>
               <div><b>{fmt(after)}</b><small>después</small></div>
@@ -201,7 +210,7 @@ export function Montaje({ online, onOpenInEditor }: { online: boolean; onOpenInE
             </div>
             <a className="btn primary" href={bridge.abs(job.web)} download="video-completo-redes.mp4"><Icon name="export" /> Descargar para redes · {job.webMB} MB</a>
             <a className="btn" href={bridge.abs(job.master!)} download="video-completo.mp4">Descargar master · {job.masterMB} MB</a>
-            <button className="btn ghost" onClick={openInEditor}>Abrir en el editor (subtítulos y estilo)</button>
+            <button className="btn ghost" onClick={() => openInEditor()}>Abrir en el editor (subtítulos y estilo)</button>
           </div>
         )}
       </aside>

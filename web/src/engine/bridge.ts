@@ -62,3 +62,12 @@ export const startMontaje = (b: { clips: { mediaId: string; name: string }[]; ri
   j<MontajeJob>("/api/montaje", { method: "POST", body: JSON.stringify(b) });
 export const getMontaje = (id: string) => j<MontajeJob>(`/api/montaje/${id}`);
 export const abs = (path: string) => (path.startsWith("http") ? path : BASE + path);
+
+// ---------- Plantillas de estilo → flujo automático
+export type Plantilla = { id: string; name: string; description: string; motor: "ves" | "rapido"; vesStyle?: string; styleId?: string; preview?: string; ideal?: string; recomendada?: boolean };
+export type FlujoJob = { id: string; project: string; plantilla: string; status: "running" | "review" | "error"; step: string; steps: string[]; current: number; log: string[]; error?: string; beats?: number; scenes?: number; project_status?: VesProject };
+export type Beats = { title: string; beats: { id: string; start: number; end: number; script: string; seen: string; pick: "A" | "B" | "C"; opts: { title: string; ref?: string; type: string | null }[] }[] };
+export const plantillas = () => j<Plantilla[]>("/api/plantillas");
+export const startFlujo = (b: { montajeId: string; plantilla: string; provider: string }) => j<FlujoJob>("/api/flujo", { method: "POST", body: JSON.stringify(b) });
+export const getFlujo = (id: string) => j<FlujoJob>(`/api/flujo/${id}`);
+export const flujoPicks = (id: string, picks: string) => j<FlujoJob>(`/api/flujo/${id}/picks`, { method: "POST", body: JSON.stringify({ picks }) });

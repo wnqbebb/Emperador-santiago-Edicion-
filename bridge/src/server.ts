@@ -1,13 +1,15 @@
 // Bridge local: la web habla con él en http://localhost:8787. Sin él, la web sigue funcionando offline.
 import { createServer, type IncomingMessage, type ServerResponse } from "node:http";
 import { createReadStream, createWriteStream, existsSync, mkdirSync, statSync } from "node:fs";
-import { join, extname, basename } from "node:path";
+import { join, extname, basename, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
 import { randomUUID } from "node:crypto";
 import { pipeline } from "node:stream/promises";
 import { DATA } from "./store.js";
 import { startRender, getRender, type Engine } from "./render.js";
 import { FX_DIR } from "./fxbake.js";
 import { startMontaje, getMontaje, MONTAJE_DIR } from "./montaje.js";
+import { plantillas, startFlujo, getFlujo, applyPicks, flujoFiles } from "./flujo.js";
 import { searchIdeas, startMotion, getMotion, renderMotionHtml, MOTION_DIR } from "./motion.js";
 import { startAnalysis, getAnalysis, reaInstalled } from "./analyze.js";
 import { runVes, getVesJob, humanAction, confirmPhrase, listVesStyles, listProjects, projectStatus, vesPath, vesInstalled, type VesScript } from "./ves.js";
@@ -107,6 +109,28 @@ createServer(async (req, res) => {
     }
     const mtf = p.match(/^\/montaje\/([\w-]+)\/(video-completo(?:-redes)?\.mp4)$/);
     if (mtf && existsSync(join(MONTAJE_DIR, mtf[1], mtf[2]))) return serveFile(req, res, join(MONTAJE_DIR, mtf[1], mtf[2]), "video/mp4");
+
+    // ---------- Plantillas de estilo de edición → flujo automático
+    if (p === "/api/plantillas") return send(res, 200, plantillas());
+    if (p.startsWith("/plantilla-preview/")) {
+      const t = plantillas().find((x) => x.id === p.split("/")[2]);
+      const full = t?.preview ? join(dirname(fileURLToPath(import.meta.url)), "..", "..", t.preview) : "";
+      if (!full || !existsSync(full)) return send(res, 404, { error: "Sin vista previa" });
+      return serveFile(req, res, full, "image/jpeg");
+    }
+    if (p === "/api/flujo" && req.method === "POST") {
+      const b = await body(req);
+      // el clip puede venir de la Unión de clips (montajeId) o subido directamente (mediaId)
+      const videoPath = b.montajeId ? join(MONTAJE_DIR, basename(b.montajeId), "video-completo.mp4") : join(MEDIA, basename(b.mediaId ?? ""));
+      if (!existsSync(videoPath)) return send(res, 400, { error: "No encuentro el video" });
+      return send(res, 200, startFlujo({ videoPath, plantilla: String(b.plantilla), provider: b.provider, name: b.name }));
+    }
+    const fl = p.match(/^\/api\/flujo\/([\w-]+)(\/picks)?$/);
+    if (fl) {
+      if (fl[2] && req.method === "POST") return send(res, 200, applyPicks(fl[1], String((await body(req)).picks ?? "")));
+      const j = getFlujo(fl[1]);
+      return j ? send(res, 200, { ...j, project_status: flujoFiles(j) }) : send(res, 404, { error: "No existe" });
+    }
 
     // ---------- VES (crear-estilo-edicion): edición profesional por STOPs y laboratorio de estilos
     if (p === "/api/ves") return send(res, 200, { installed: vesInstalled(), styles: listVesStyles().map((v) => ({ id: v.id, name: v.name, description: v.description })), projects: listProjects() });

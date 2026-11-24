@@ -7,7 +7,7 @@ const files = ["clip 10.mp4", "clip 2.mp4", "clip 1.mp4"].map((f) => `${DIR}/${f
 test("Unir clips: ordena por nombre, permite reordenar y no procesa al subir", async ({ page }) => {
   test.skip(!existsSync(files[0]), "Faltan los clips de prueba");
   await page.goto("/");
-  await page.getByRole("button", { name: "Unir clips y cortar silencios" }).click();
+  await page.getByRole("button", { name: "Crear video", exact: true }).click();
   await page.locator(".m-drop input[type=file][accept]").setInputFiles(files);
   await expect(page.locator(".m-list li")).toHaveCount(3);
   await expect(page.locator(".m-info b")).toHaveText(["clip 1.mp4", "clip 2.mp4", "clip 10.mp4"]); // 1, 2, 10 (no 1, 10, 2)
@@ -22,7 +22,7 @@ test("Unir clips: un botón busca silencios, recorta, renderiza y comprime", asy
   test.skip(!existsSync(files[0]), "Faltan los clips de prueba");
   test.setTimeout(300_000);
   await page.goto("/");
-  await page.getByRole("button", { name: "Unir clips y cortar silencios" }).click();
+  await page.getByRole("button", { name: "Crear video", exact: true }).click();
   await page.locator(".m-drop input[type=file][accept]").setInputFiles(files);
   await page.getByRole("button", { name: /Crear video completo/ }).click();
   await expect(page.locator(".m-result video")).toBeVisible({ timeout: 280_000 });

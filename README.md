@@ -34,6 +34,20 @@ Requisitos: Node 22+, FFmpeg y Python 3.10+.
 Opcional: `bash scripts/instalar-skills.sh --lemo` instala los 99 estilos de película de
 [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar). Su licencia es **CC BY-NC 4.0 (no comercial)**.
 
+## Crear video: clips en bruto → plantilla de edición → video editado
+
+Botón **Crear video** arriba. Tres pasos:
+
+1. **Unir clips y cortar silencios** (abajo se explica).
+2. **Elegir la plantilla de edición**: Arthur Brooks · Talking head + minimal (recomendada), Documental, Clip de podcast,
+   Animación con voz en off, o Imperial Santi · Rápido. Las plantillas viven en `plantillas/plantillas.json`.
+3. **Se edita solo** con la skill `arthur-brooks-editing` (método Joseph): transcripción y corte a 30 ms → tu IA planifica
+   los beats eligiendo de las 339 animaciones de Arthur → subtítulos con la regla del 75 % → validación y storyboard →
+   **borrador con sonido**. Puedes cambiar escenas en el panel de beats (A/B/C) y rehacer el borrador. El **render final**
+   solo sale cuando tú lo apruebas (STOP 3, escribiendo la frase de confirmación).
+
+La IA puede ser tu suscripción (Claude Code, Codex, Gemini CLI) o una clave de API.
+
 ## Unión de clips y recortes de silencio
 
 Botón **"Unir clips y cortar silencios"** arriba en el editor. Sueltas tus clips (o una carpeta): se ordenan solos por

@@ -49,6 +49,7 @@ export default function App() {
   const [motions, setMotions] = useState<bridge.MotionJob[]>([]);
 
   const videoRef = useRef<HTMLVideoElement>(null);
+  const autoStyle = useRef<string | null>(null); // plantilla "rápida": editar sola en cuanto termine la transcripción
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const audioRef = useRef<{ ctx: AudioContext; dest: MediaStreamAudioDestinationNode } | null>(null);
 
@@ -110,6 +111,13 @@ export default function App() {
       const w = await transcribe(audio, setStatus);
       setWords(w);
       setStatus(`${w.length} palabras transcritas. Listo para editar.`);
+      if (autoStyle.current) {
+        const st = styles.find((x) => x.id === autoStyle.current) ?? style;
+        const v = videoRef.current;
+        const p = autoPlan(w, v?.duration || duration, st);
+        setPlan(p); setStatus(`Plantilla ${st.name}: ${p.summary}`);
+        autoStyle.current = null;
+      }
       setTab("ai");
     } catch (e) {
       setStatus(`Error al transcribir: ${(e as Error).message}`);
@@ -241,7 +249,7 @@ export default function App() {
         <div className="brand"><span className="logo"><Icon name="crown" /></span><div><b>Emperador Santiago</b><em>Edición de Videos</em></div></div>
         <div className="modes">
           <button className={mode === "editor" ? "on" : ""} onClick={() => setMode("editor")}>Editor</button>
-          <button className={mode === "montaje" ? "on" : ""} onClick={() => setMode("montaje")}>Unir clips y cortar silencios</button>
+          <button className={mode === "montaje" ? "on" : ""} onClick={() => setMode("montaje")}>Crear video</button>
         </div>
         <div className="top-actions">
           <span className={`chip ${providers ? "on" : ""}`}>
@@ -263,7 +271,7 @@ export default function App() {
         </div>
       </header>
 
-      {mode === "montaje" && <Montaje online={!!providers} onOpenInEditor={(f) => { setMode("editor"); loadFile(f); setTab("ai"); }} />}
+      {mode === "montaje" && <Montaje online={!!providers} providers={providers} onOpenInEditor={(f, styleId) => { setMode("editor"); if (styleId) { setStyleId(styleId); autoStyle.current = styleId; } loadFile(f); setTab("ai"); }} />}
 
       <div className="editor-view" style={{ display: mode === "editor" ? "contents" : "none" }}>
       <nav className="rail">
