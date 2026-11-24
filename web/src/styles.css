@@ -42,7 +42,7 @@ code { background: #1f1f28; padding: 1px 5px; border-radius: 5px; font-size: 12p
 .rail button:hover { color: var(--text); background: #1a1a22; }
 .rail button.active { color: var(--accent); background: #1f1a0e; }
 
-.panel, .inspector { padding: 18px; overflow: auto; }
+.panel, .inspector { padding: 18px; overflow-y: auto; overflow-x: hidden; }
 .panel { grid-area: panel; } .inspector { grid-area: insp; }
 h3 { margin: 0 0 14px; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
 .hint { color: var(--muted); font-size: 12px; margin: 0 0 14px; }
@@ -134,12 +134,14 @@ select { width: 100%; padding: 10px; border-radius: 10px; background: var(--pane
 .learn small { color: var(--muted); }
 .learn input:not([type=file]), .ideas-search input, .row input { padding: 9px 10px; border-radius: 10px; background: var(--bg); border: 1px solid var(--line); color: var(--text); outline: none; }
 .btn.disabled { opacity: .45; pointer-events: none; }
-.fx-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.fx-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
 .fx-grid button { display: flex; gap: 8px; align-items: center; padding: 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--panel); cursor: pointer; text-align: left; font-size: 12px; }
 .fx-grid button:hover { border-color: var(--accent); }
 .fx-grid span { color: var(--accent); }
 h3.mt { margin-top: 22px; }
-.ideas-search { display: grid; grid-template-columns: 1fr auto auto; gap: 6px; margin-bottom: 8px; }
+.ideas-search { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px; margin-bottom: 8px; }
+.ideas-search input { grid-column: 1 / -1; min-width: 0; }
+.ideas-search select { width: 100%; }
 .ideas-search select { width: auto; padding: 8px; }
 .ideas { list-style: none; margin: 0 0 10px; padding: 0; max-height: 220px; overflow: auto; display: grid; gap: 4px; }
 .ideas li { padding: 8px 10px; border-radius: 8px; background: var(--panel); cursor: pointer; font-size: 11.5px; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
