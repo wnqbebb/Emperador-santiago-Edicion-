@@ -3,7 +3,7 @@
 // Cámara: el mundo es más grande que la pantalla y la cámara sigue la punta de la línea / la bola (principios 4, 5 y 10).
 import React from "react";
 import { AbsoluteFill, Easing, Img, OffthreadVideo, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { BrandGrade, Texture, roles, useStyle } from "./kit";
+import { BrandGrade, Texture, roles, tex, useStyle } from "./kit";
 
 type P = { props: any; dur: number; project: string; video: string; start: number };
 const SERIF = "'Playfair Display'";
@@ -204,7 +204,7 @@ export const JIllus: React.FC<P> = ({ props, dur, start, project }) => {
         <div style={{ position: "absolute", inset: 0, background: bg === "white" ? r.accent : "#fff", mixBlendMode: bg === "white" ? "screen" : "multiply",
           WebkitMaskImage: `url(${src(project, props.media)})`, WebkitMaskSize: "contain", WebkitMaskRepeat: "no-repeat", WebkitMaskPosition: "bottom", maskImage: `url(${src(project, props.media)})`, maskSize: "contain", maskRepeat: "no-repeat", maskPosition: "bottom" }} />
       )}
-      <div style={{ position: "absolute", inset: 0, backgroundImage: `url(${staticFile("textures/cloth.png")})`, backgroundSize: "cover", mixBlendMode: "multiply", opacity: props.fill ? 0.28 : 0.55,
+      <div style={{ position: "absolute", inset: 0, backgroundImage: `url(${staticFile("textures/cloth.png")})`, backgroundSize: "cover", mixBlendMode: "multiply", opacity: (props.fill ? 0.28 : 0.55) * tex(ctx),
         WebkitMaskImage: `url(${src(project, props.media)})`, WebkitMaskSize: "contain", WebkitMaskRepeat: "no-repeat", WebkitMaskPosition: "bottom", maskImage: `url(${src(project, props.media)})`, maskSize: "contain", maskRepeat: "no-repeat", maskPosition: "bottom" }} />
     </div>
   ) : null;
@@ -247,7 +247,7 @@ export const JHalf: React.FC<P> = ({ props, dur, start }) => {
       <Paper bg={bg} />
       <RoughDefs id="roughH" scale={10} />
       <div style={{ position: "absolute", left: -700 + (1 - k) * -200, top: 960 - 500, width: 1000, height: 1000, borderRadius: 999, background: r.accent, filter: "url(#roughH)", overflow: "hidden" }}>
-        <AbsoluteFill style={{ backgroundImage: `url(${staticFile("textures/cloth.png")})`, backgroundSize: "cover", mixBlendMode: "multiply", opacity: 0.7 }} />
+        <AbsoluteFill style={{ backgroundImage: `url(${staticFile("textures/cloth.png")})`, backgroundSize: "cover", mixBlendMode: "multiply", opacity: 0.7 * tex(ctx) }} />
       </div>
       <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
         <defs><path id="ringP" d="M -200,380 A 580,580 0 0,1 -200,1540" /></defs>
@@ -274,8 +274,8 @@ export const JPainting: React.FC<P> = ({ props, dur, start, project }) => {
       <AbsoluteFill style={{ background: "#000" }}>
         <AbsoluteFill style={{ transform: `translateX(${slide}px) scale(${zoom})` }}>
           <Img src={src(project, props.media)} style={{ width: "100%", height: "100%", objectFit: "cover", filter: "contrast(1.04) saturate(0.88) sepia(0.08)" }} />
-          <AbsoluteFill style={{ backgroundImage: `url(${staticFile("textures/paint.png")})`, backgroundSize: "cover", mixBlendMode: "overlay", opacity: 0.28 }} />
-          <AbsoluteFill style={{ backgroundImage: `url(${staticFile("textures/paper.png")})`, backgroundSize: "cover", mixBlendMode: "multiply", opacity: 0.32 }} />
+          <AbsoluteFill style={{ backgroundImage: `url(${staticFile("textures/paint.png")})`, backgroundSize: "cover", mixBlendMode: "overlay", opacity: 0.28 * tex(ctx) }} />
+          <AbsoluteFill style={{ backgroundImage: `url(${staticFile("textures/paper.png")})`, backgroundSize: "cover", mixBlendMode: "multiply", opacity: 0.32 * tex(ctx) }} />
         </AbsoluteFill>
         <AbsoluteFill style={{ boxShadow: "inset 0 0 280px 90px rgba(0,0,0,.8)" }} />
         <AbsoluteFill style={{ justifyContent: props.text_pos === "bottom" ? "flex-end" : "flex-start", alignItems: "center", padding: props.text_pos === "bottom" ? "0 0 560px" : "360px 0 0" }}>

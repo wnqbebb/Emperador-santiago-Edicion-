@@ -63,11 +63,22 @@ export const startMontaje = (b: { clips: { mediaId: string; name: string }[]; ri
 export const getMontaje = (id: string) => j<MontajeJob>(`/api/montaje/${id}`);
 export const abs = (path: string) => (path.startsWith("http") ? path : BASE + path);
 
-// ---------- Plantillas de estilo → flujo automático
-export type Plantilla = { id: string; name: string; description: string; motor: "ves" | "rapido"; vesStyle?: string; styleId?: string; preview?: string; ideal?: string; recomendada?: boolean };
-export type FlujoJob = { id: string; project: string; plantilla: string; status: "running" | "review" | "error"; step: string; steps: string[]; current: number; log: string[]; error?: string; beats?: number; scenes?: number; project_status?: VesProject };
-export type Beats = { title: string; beats: { id: string; start: number; end: number; script: string; seen: string; pick: "A" | "B" | "C"; opts: { title: string; ref?: string; type: string | null }[] }[] };
-export const plantillas = () => j<Plantilla[]>("/api/plantillas");
-export const startFlujo = (b: { montajeId: string; plantilla: string; provider: string }) => j<FlujoJob>("/api/flujo", { method: "POST", body: JSON.stringify(b) });
+// ---------- Plantillas de estilo → flujo con preguntas y tablero
+export type Variante = { id: string; name: string; description: string; vesStyle?: string; styleId?: string; preview?: string; ideal?: string; recomendada?: boolean };
+export type Familia = { id: string; name: string; description: string; motor: "ves" | "rapido"; preview?: string; variantes: Variante[] };
+export type Paleta = { frame: string; options: { name: string; from: string; colors: Record<"vibrant_bright" | "vibrant_dark" | "dull_white" | "dull_black", string>; caption: string; recommended?: boolean }[] };
+export type Opt = { title: string; cats?: string; desc?: string; ref?: string; type: string | null; props?: Record<string, unknown> };
+export type Beats = { title: string; beats: { id: string; start: number; end: number; script: string; seen: string; pick: "A" | "B" | "C"; opts: Opt[] }[];
+  assets?: { id: string; name: string; kind: string; ar: string; prompt: string; for_beat?: string }[] };
+export type Tablero = { beats: Beats; thumbs: Record<string, string> };
+export type FlujoJob = { id: string; project: string; plantilla: string; status: "running" | "tablero" | "review" | "error"; step: string; steps: string[]; current: number; log: string[]; error?: string;
+  beats?: number; scenes?: number; assets?: number; originales?: number; project_status?: VesProject };
+export const familias = () => j<Familia[]>("/api/familias");
+export const paleta = (montajeId: string) => j<Paleta>("/api/paleta", { method: "POST", body: JSON.stringify({ montajeId }) });
+export const startFlujo = (b: { montajeId: string; plantilla: string; provider: string; broll: { mediaId: string; desc: string }[];
+  respuestas: { energia: string; texturas: number; palette?: Record<string, string>; originales: boolean; rapido: boolean; notas?: string } }) =>
+  j<FlujoJob>("/api/flujo", { method: "POST", body: JSON.stringify(b) });
 export const getFlujo = (id: string) => j<FlujoJob>(`/api/flujo/${id}`);
-export const flujoPicks = (id: string, picks: string) => j<FlujoJob>(`/api/flujo/${id}/picks`, { method: "POST", body: JSON.stringify({ picks }) });
+export const tablero = (id: string) => j<Tablero>(`/api/flujo/${id}/tablero`);
+export const elegir = (id: string, picks: Record<string, string>) => j<FlujoJob>(`/api/flujo/${id}/elegir`, { method: "POST", body: JSON.stringify({ picks }) });
+export const replan = (id: string, cambios: Record<string, unknown>) => j<FlujoJob>(`/api/flujo/${id}/replan`, { method: "POST", body: JSON.stringify(cambios) });

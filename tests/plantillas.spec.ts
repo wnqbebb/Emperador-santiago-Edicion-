@@ -1,24 +1,40 @@
 import { test, expect } from "@playwright/test";
 import { existsSync } from "node:fs";
 
-// Flujo completo: clip en bruto → unir y cortar silencios → plantilla Arthur Brooks → IA planifica → borrador.
-// Necesita una IA conectada (por defecto la suscripción de Claude vía Claude Code). Lento: FLUJO=1 npm test -- plantillas
-test("Crear video con la plantilla Arthur Brooks", async ({ page }) => {
-  test.skip(!process.env.FLUJO || !existsSync("tests/fixtures/voz.mp4"), "Define FLUJO=1 (usa tu IA) y pon un clip con voz en tests/fixtures/voz.mp4");
-  test.setTimeout(1_200_000);
-  await page.goto("/");
-  await page.getByRole("button", { name: "Crear video", exact: true }).click();
-  await page.locator(".m-drop input[type=file][accept]").setInputFiles("tests/fixtures/voz.mp4");
-  await page.getByRole("button", { name: /Crear video completo/ }).click();
-  await expect(page.locator(".p-card").first()).toBeVisible({ timeout: 300_000 });
-  await expect(page.locator(".p-card.on")).toContainText("Arthur Brooks · Talking head");
-  await page.getByRole("button", { name: "Editar con esta plantilla" }).click();
-  await expect(page.locator(".p-review video")).toBeVisible({ timeout: 1_100_000 });
-  await expect(page.locator(".p-beats li").first()).toBeVisible();
-  await page.screenshot({ path: "qa/plantilla-arthur.png", fullPage: true });
+const API = "http://localhost:8787";
+const WEB = { origin: "http://localhost:5173" };
+
+test("las plantillas son familias con variantes (Arthur Brooks tiene 5)", async ({ request }) => {
+  const fams = await (await request.get(`${API}/api/familias`, { headers: WEB })).json();
+  const arthur = fams.find((f: { id: string }) => f.id === "arthur");
+  expect(arthur.variantes).toHaveLength(5);
+  expect(fams.map((f: { id: string }) => f.id)).toContain("imperial");
 });
 
-test("las plantillas aparecen después de unir los clips", async ({ request }) => {
-  const list = await (await request.get("http://localhost:8787/api/plantillas", { headers: { origin: "http://localhost:5173" } })).json();
-  expect(list.map((p: { id: string }) => p.id)).toEqual(expect.arrayContaining(["arthur-talking", "arthur-documental", "arthur-podcast", "imperial"]));
+test("después de unir, la app pregunta: estilo, color del propio video, energía, texturas, creatividad y b-roll", async ({ page }) => {
+  test.skip(!existsSync("tests/fixtures/voz.mp4"), "Falta el clip de prueba con voz");
+  test.setTimeout(240_000);
+  await page.goto("/");
+  await page.getByRole("button", { name: "Crear video", exact: true }).click();
+  await page.locator(".m-drop input[type=file][accept]").first().setInputFiles("tests/fixtures/voz.mp4");
+  await page.getByRole("button", { name: /Crear video completo/ }).click();
+  await expect(page.locator(".pal-list button").first()).toBeVisible({ timeout: 200_000 });
+  await expect(page.locator(".p-card")).toHaveCount(5);
+  await expect(page.locator(".pal-list button.on")).toContainText("recomendado");
+  for (const q of ["Energía", "Texturas", "Creatividad", "b-roll", "Indicaciones"]) await expect(page.locator(".q h4", { hasText: q })).toBeVisible();
+});
+
+// Flujo completo con IA (lento): FLUJO=1 npm test -- plantillas
+test("Crear video con Arthur Brooks: tablero de preedición y borrador", async ({ page }) => {
+  test.skip(!process.env.FLUJO || !existsSync("tests/fixtures/voz.mp4"), "Define FLUJO=1 (usa tu IA)");
+  test.setTimeout(1_800_000);
+  await page.goto("/");
+  await page.getByRole("button", { name: "Crear video", exact: true }).click();
+  await page.locator(".m-drop input[type=file][accept]").first().setInputFiles("tests/fixtures/voz.mp4");
+  await page.getByRole("button", { name: /Crear video completo/ }).click();
+  await expect(page.locator(".pal-list button").first()).toBeVisible({ timeout: 200_000 });
+  await page.getByRole("button", { name: /Empezar edición/ }).click();
+  await expect(page.locator(".board .beat").first()).toBeVisible({ timeout: 900_000 });
+  await page.getByRole("button", { name: /Construir el borrador/ }).click();
+  await expect(page.locator(".p-review video")).toBeVisible({ timeout: 1_500_000 });
 });

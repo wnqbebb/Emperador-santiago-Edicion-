@@ -152,12 +152,15 @@ export const Backdrop: React.FC<{ bg?: string; children?: React.ReactNode; grid?
   );
 };
 
+/** Cantidad de textura del proyecto (Emperador Santiago: 0 = limpio, 1 = como Arthur). */
+export const tex = (ctx: { style?: { texture?: { amount?: number } } }) => ctx?.style?.texture?.amount ?? 1;
+
 export const Texture: React.FC<{ kind?: string; opacity?: number; dark?: boolean }> = ({ kind, opacity, dark }) => {
   // Texturas REALES (render/public/textures/*.png): papel rugoso, pintura, tela, halftone (principios 2, 3, 6, 7 de Arthur)
   const { style } = useStyle();
   const t = style.texture ?? {};
   const k = kind ?? t.kind;
-  const o = opacity ?? Math.max(t.opacity ?? 0, k && k !== "none" ? 0.35 : 0);
+  const o = (opacity ?? Math.max(t.opacity ?? 0, k && k !== "none" ? 0.35 : 0)) * (t.amount ?? 1);
   if (!k || k === "none" || !o) return null;
   return <AbsoluteFill style={{ opacity: o, mixBlendMode: dark ? "overlay" : "multiply", backgroundImage: `url(${staticFile(t.files?.[k] ?? `textures/${k}.png`)})`, backgroundSize: "cover", pointerEvents: "none" }} />;
 };

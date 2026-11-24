@@ -9,7 +9,7 @@ import { DATA } from "./store.js";
 import { startRender, getRender, type Engine } from "./render.js";
 import { FX_DIR } from "./fxbake.js";
 import { startMontaje, getMontaje, MONTAJE_DIR } from "./montaje.js";
-import { plantillas, startFlujo, getFlujo, applyPicks, flujoFiles } from "./flujo.js";
+import { plantillas, familias, startFlujo, getFlujo, elegir, replanificar, tablero, flujoFiles, paletaDeVideo } from "./flujo.js";
 import { searchIdeas, startMotion, getMotion, renderMotionHtml, MOTION_DIR } from "./motion.js";
 import { startAnalysis, getAnalysis, reaInstalled } from "./analyze.js";
 import { runVes, getVesJob, humanAction, confirmPhrase, listVesStyles, listProjects, projectStatus, vesPath, vesInstalled, type VesScript } from "./ves.js";
@@ -112,22 +112,40 @@ createServer(async (req, res) => {
 
     // ---------- Plantillas de estilo de edición → flujo automático
     if (p === "/api/plantillas") return send(res, 200, plantillas());
+    if (p === "/api/familias") return send(res, 200, familias());
     if (p.startsWith("/plantilla-preview/")) {
       const t = plantillas().find((x) => x.id === p.split("/")[2]);
       const full = t?.preview ? join(dirname(fileURLToPath(import.meta.url)), "..", "..", t.preview) : "";
       if (!full || !existsSync(full)) return send(res, 404, { error: "Sin vista previa" });
       return serveFile(req, res, full, "image/jpeg");
     }
+    // Paleta del propio video (para preguntarle a Santiago con vista previa)
+    if (p === "/api/paleta" && req.method === "POST") {
+      const b = await body(req);
+      const id = basename(String(b.montajeId ?? ""));
+      const video = join(MONTAJE_DIR, id, "video-completo.mp4");
+      if (!existsSync(video)) return send(res, 400, { error: "No encuentro el video" });
+      const r = paletaDeVideo(video, join(MONTAJE_DIR, id, "paleta"));
+      return send(res, 200, { ...r, frame: `/montaje/${id}/paleta/cuadro.jpg` });
+    }
+    const pf = p.match(/^\/montaje\/([\w-]+)\/paleta\/cuadro\.jpg$/);
+    if (pf && existsSync(join(MONTAJE_DIR, pf[1], "paleta/cuadro.jpg"))) return serveFile(req, res, join(MONTAJE_DIR, pf[1], "paleta/cuadro.jpg"), "image/jpeg");
+
     if (p === "/api/flujo" && req.method === "POST") {
       const b = await body(req);
       // el clip puede venir de la Unión de clips (montajeId) o subido directamente (mediaId)
       const videoPath = b.montajeId ? join(MONTAJE_DIR, basename(b.montajeId), "video-completo.mp4") : join(MEDIA, basename(b.mediaId ?? ""));
       if (!existsSync(videoPath)) return send(res, 400, { error: "No encuentro el video" });
-      return send(res, 200, startFlujo({ videoPath, plantilla: String(b.plantilla), provider: b.provider, name: b.name }));
+      const brollFiles = (b.broll ?? []).map((x: { mediaId: string; desc: string }) => ({ path: join(MEDIA, basename(x.mediaId)), desc: String(x.desc ?? "") })).filter((x: { path: string }) => existsSync(x.path));
+      const r = b.respuestas ?? {};
+      const respuestas = { energia: r.energia ?? "viral", texturas: Number(r.texturas ?? 0.4), palette: r.palette, originales: r.originales !== false, broll: [], rapido: !!r.rapido, notas: r.notas };
+      return send(res, 200, startFlujo({ videoPath, plantilla: String(b.plantilla), provider: b.provider, name: b.name, respuestas, brollFiles }));
     }
-    const fl = p.match(/^\/api\/flujo\/([\w-]+)(\/picks)?$/);
+    const fl = p.match(/^\/api\/flujo\/([\w-]+)(?:\/(elegir|tablero|replan))?$/);
     if (fl) {
-      if (fl[2] && req.method === "POST") return send(res, 200, applyPicks(fl[1], String((await body(req)).picks ?? "")));
+      if (fl[2] === "elegir" && req.method === "POST") return send(res, 200, elegir(fl[1], (await body(req)).picks ?? {}));
+      if (fl[2] === "replan" && req.method === "POST") return send(res, 200, replanificar(fl[1], await body(req)));
+      if (fl[2] === "tablero") return send(res, 200, tablero(fl[1]));
       const j = getFlujo(fl[1]);
       return j ? send(res, 200, { ...j, project_status: flujoFiles(j) }) : send(res, 404, { error: "No existe" });
     }

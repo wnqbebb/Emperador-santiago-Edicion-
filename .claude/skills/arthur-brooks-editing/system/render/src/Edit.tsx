@@ -6,6 +6,7 @@ import { REGISTRY as BASE_REG } from "./scenes";
 import { DOC_REGISTRY } from "./scenes_doc";
 import { ARTHUR_REGISTRY } from "./scenes_arthur";
 import { JOSEPH_REGISTRY } from "./scenes_joseph";
+import { EMPERADOR_REGISTRY } from "./scenes_emperador";
 import { Caption } from "./captions";
 import { Transition, TRANSITION_FRAMES } from "./transitions";
 
@@ -19,7 +20,7 @@ const Shell: React.FC<{ kind?: string; children: React.ReactNode }> = ({ kind, c
 };
 
 export type EditProps = { project: string; video: string; duration: number; style: any; palette: any; plan: any; captions: any[] };
-const REGISTRY: Record<string, React.FC<any>> = { ...BASE_REG, ...DOC_REGISTRY, ...ARTHUR_REGISTRY, ...JOSEPH_REGISTRY };
+const REGISTRY: Record<string, React.FC<any>> = { ...BASE_REG, ...DOC_REGISTRY, ...ARTHUR_REGISTRY, ...JOSEPH_REGISTRY, ...EMPERADOR_REGISTRY };
 
 const LAYER: Record<string, string> = {
   aroll: "none", split_layout: "base",
@@ -27,7 +28,7 @@ const LAYER: Record<string, string> = {
   line_graph: "fullscreen", broll_text: "fullscreen", painting: "fullscreen", line_text: "fullscreen", center_illustration: "fullscreen",
   object_callout: "fullscreen", name_card: "fullscreen", paper_collage: "fullscreen", archival_photo: "fullscreen", video_card: "fullscreen",
   kinetic_type: "fullscreen", blue_quote: "fullscreen", timeline: "fullscreen",
-  arthur_text: "fullscreen", arthur_icons: "fullscreen", arthur_orbit: "fullscreen", arthur_stripes: "fullscreen", arthur_blocks: "fullscreen", arthur_broll: "fullscreen", arthur_number: "top", j_graph: "fullscreen", j_line: "fullscreen", j_quote: "fullscreen", j_illus: "fullscreen", j_half: "fullscreen", j_painting: "fullscreen", j_broll: "fullscreen",
+  arthur_text: "fullscreen", arthur_icons: "fullscreen", arthur_orbit: "fullscreen", arthur_stripes: "fullscreen", arthur_blocks: "fullscreen", arthur_broll: "fullscreen", arthur_number: "top", j_graph: "fullscreen", j_line: "fullscreen", j_quote: "fullscreen", j_illus: "fullscreen", j_half: "fullscreen", j_painting: "fullscreen", j_broll: "fullscreen", mg_original: "fullscreen",
   listicle: "overlay", notification: "overlay", counter_ring: "overlay", list_card: "overlay", lower_third: "overlay",
 };
 export const layerOf = (s: any) => (s.type === "timeline" && s.props?.over_aroll ? "overlay" : LAYER[s.type] ?? "fullscreen");

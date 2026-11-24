@@ -470,5 +470,14 @@
    "cuts": "[seg]"
   },
   "limits": {}
+ },
+ "mg_original": {
+  "layer": "fullscreen",
+  "use_when": "Emperador Santiago: motion graphic ORIGINAL inspirado en el estilo (no copiado), creado con HyperFrames en la paleta del video para un momento clave.",
+  "props": {
+   "media": "ruta del mp4 generado (lo rellena el sistema)",
+   "brief": "string: qué debe mostrar la animación"
+  },
+  "limits": {}
  }
 }

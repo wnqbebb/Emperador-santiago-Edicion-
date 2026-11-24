@@ -29,7 +29,7 @@ export function searchIdeas(q = "", category = "", limit = 60) {
     .slice(0, limit);
 }
 
-export function motionBrief(idea: string, seconds: number, style: Style) {
+export function motionBrief(idea: string, seconds: number, style: Style, fondo = "#0b0b0f") {
   return `Escribe UNA composición HyperFrames (un solo archivo index.html) para un motion graphic vertical de la marca
 "Emperador Santiago". Idea: ${idea}
 
@@ -41,7 +41,7 @@ Reglas de HyperFrames (obligatorias):
 - Nada de Date.now(), Math.random() sin semilla, fetch, setTimeout/setInterval ni repeat: -1. Todo depende del tiempo de la línea.
 - Usa fromTo (no from). Anima transform/opacity, no left/top/width/height. No animes display/visibility de un .clip.
 - Canvas 2D y SVG están permitidos (dibuja en un onUpdate del timeline según tl.time()). Sin imágenes ni fuentes externas.
-- Fuentes: Inter, Oswald o Playfair Display por nombre. Fondo: #0b0b0f. Acento de marca: ${style.caption.highlight}. Texto en español.
+- Fuentes: Inter, Oswald o Playfair Display por nombre. Fondo: ${fondo}. Acento de marca: ${style.caption.highlight}. Texto en español.
 - Todo dentro del 90% central del cuadro. Que se lea en un teléfono: textos grandes (60px o más).
 
 Devuelve SOLO el HTML completo, sin explicaciones.`;

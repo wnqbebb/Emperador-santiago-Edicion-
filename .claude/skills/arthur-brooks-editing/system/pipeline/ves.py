@@ -682,6 +682,9 @@ def cmd_render(a):
     # texturas propias del proyecto (assets entregados) reemplazan a las genéricas del estilo
     if plan.get("textures"):
         style = dict(style, texture=dict(style.get("texture", {}), files={k: f"{a.name}/{v}" for k, v in plan["textures"].items()}))
+    # Emperador Santiago: cantidad de textura por proyecto (0 limpio … 1 como el estilo)
+    if plan.get("texture_amount") is not None:
+        style = dict(style, texture=dict(style.get("texture", {}), amount=float(plan["texture_amount"])))
     props = {"project": a.name, "video": f"{a.name}/{video}", "duration": dur, "style": style,
              "palette": pal, "plan": plan, "captions": caps["phrases"]}
     (p / "out").mkdir(exist_ok=True)
