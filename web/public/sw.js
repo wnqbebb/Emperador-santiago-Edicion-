@@ -1,5 +1,5 @@
 // Service worker: guarda la app y el modelo de transcripción para trabajar SIN internet.
-const CACHE = "kairo-v1";
+const CACHE = "santi-v1";
 self.addEventListener("install", (e) => { self.skipWaiting(); e.waitUntil(caches.open(CACHE).then((c) => c.addAll(["/", "/index.html"]))); });
 self.addEventListener("activate", (e) => e.waitUntil(self.clients.claim()));
 self.addEventListener("fetch", (e) => {

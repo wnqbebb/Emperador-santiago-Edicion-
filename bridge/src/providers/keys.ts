@@ -4,7 +4,7 @@ export async function planWithOpenAI(system: string, user: string): Promise<stri
     method: "POST",
     headers: { "content-type": "application/json", authorization: `Bearer ${process.env.OPENAI_API_KEY}` },
     body: JSON.stringify({
-      model: process.env.KAIRO_OPENAI_MODEL ?? "gpt-5",
+      model: process.env.SANTI_OPENAI_MODEL ?? "gpt-5",
       response_format: { type: "json_object" },
       messages: [
         { role: "system", content: system },
@@ -18,7 +18,7 @@ export async function planWithOpenAI(system: string, user: string): Promise<stri
 }
 
 export async function planWithGemini(system: string, user: string): Promise<string> {
-  const model = process.env.KAIRO_GEMINI_MODEL ?? "gemini-2.5-pro";
+  const model = process.env.SANTI_GEMINI_MODEL ?? "gemini-2.5-pro";
   const res = await fetch(
     `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
     {

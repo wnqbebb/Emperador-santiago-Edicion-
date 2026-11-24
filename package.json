@@ -1,11 +1,21 @@
 {
-  "name": "kairo-studio",
+  "name": "emperador-santiago",
   "private": true,
-  "workspaces": ["web", "bridge"],
+  "workspaces": [
+    "web",
+    "bridge",
+    "remotion"
+  ],
   "scripts": {
     "dev": "npm run dev -w web & npm run dev -w bridge",
     "build": "npm run build -w web",
     "mcp": "npm run mcp -w bridge",
-    "learn": "npm run learn -w bridge --"
+    "learn": "npm run learn -w bridge --",
+    "remotion:studio": "npm run studio -w remotion",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
   }
 }

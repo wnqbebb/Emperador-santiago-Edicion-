@@ -9,7 +9,7 @@ export function transcriptLines(words: Word[]) {
 
 export function buildBrief(opts: { style: Style; words: Word[]; duration: number; prompt: string }) {
   const { style, words, duration, prompt } = opts;
-  const system = `Eres el director de edición de Kairo Studio, especialista en video corto vertical (Reels, TikTok, Shorts).
+  const system = `Eres el director de edición de Emperador Santiago · Edición de Videos, especialista en video corto vertical (Reels, TikTok, Shorts).
 Recibes la transcripción con tiempos palabra por palabra y un "Style DNA". Devuelves un plan de edición JSON.
 
 Reglas:

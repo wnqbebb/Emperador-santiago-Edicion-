@@ -3,7 +3,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { betaZodOutputFormat } from "@anthropic-ai/sdk/helpers/beta/zod";
 import { PlanSchema, type Plan } from "../schema.js";
 
-export const ANTHROPIC_MODEL = process.env.KAIRO_CLAUDE_MODEL ?? "claude-fable-5-2";
+export const ANTHROPIC_MODEL = process.env.SANTI_CLAUDE_MODEL ?? "claude-fable-5-2";
 
 export async function planWithClaude(system: string, user: string): Promise<Plan> {
   const client = new Anthropic(); // lee ANTHROPIC_API_KEY o el perfil de `ant auth login`

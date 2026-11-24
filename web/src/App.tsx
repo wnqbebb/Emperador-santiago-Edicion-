@@ -20,7 +20,7 @@ export default function App() {
   const [words, setWords] = useState<Word[]>([]);
   const [plan, setPlan] = useState<Plan | null>(null);
   const [styles, setStyles] = useState<Style[]>(BUILTIN_STYLES);
-  const [styleId, setStyleId] = useState("impacto");
+  const [styleId, setStyleId] = useState("imperial");
   const [status, setStatus] = useState("Arrastra un clip para empezar");
   const [busy, setBusy] = useState(false);
   const [playing, setPlaying] = useState(false);
@@ -30,6 +30,9 @@ export default function App() {
   const [prompt, setPrompt] = useState("");
   const [job, setJob] = useState<string | null>(null);
   const [exporting, setExporting] = useState(false);
+  const [mediaId, setMediaId] = useState<string | null>(null);
+  const [exportOpen, setExportOpen] = useState(false);
+  const [render, setRender] = useState<bridge.RenderJob | null>(null);
 
   const videoRef = useRef<HTMLVideoElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -83,7 +86,8 @@ export default function App() {
   }, [job]);
 
   async function loadFile(f: File) {
-    setFile(f); setUrl(URL.createObjectURL(f)); setWords([]); setPlan(null);
+    setFile(f); setUrl(URL.createObjectURL(f)); setWords([]); setPlan(null); setMediaId(null);
+    if (providers) bridge.uploadMedia(f).then((m) => setMediaId(m.mediaId)).catch(() => null);
     setBusy(true);
     try {
       setStatus("Extrayendo audio…");
@@ -114,7 +118,7 @@ export default function App() {
   async function mcpEdit() {
     const { id } = await bridge.createJob({ styleId, words, duration, prompt });
     setJob(id);
-    setStatus(`Trabajo ${id} en cola. En Claude, ChatGPT o Gemini pide: “edita el trabajo ${id} de Kairo”.`);
+    setStatus(`Trabajo ${id} en cola. En Claude, ChatGPT o Gemini pide: “edita el trabajo ${id} de Emperador Santiago”.`);
   }
 
   function ensureAudio() {
@@ -155,33 +159,58 @@ export default function App() {
     const c = canvasRef.current!; c.width = 540; c.height = 960;
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
-    a.download = `kairo-${style.id}.${blob.type.includes("mp4") ? "mp4" : "webm"}`;
+    a.download = `emperador-santiago-${style.id}.${blob.type.includes("mp4") ? "mp4" : "webm"}`;
     a.click();
     setExporting(false); setStatus("Exportado ✓");
   }
 
   // Gancho de pruebas automatizadas (solo en desarrollo)
-  if (import.meta.env.DEV) (window as any).__kairo = { setWords, setDuration, localEdit: () => setPlan(autoPlan(words, duration, style)) };
+  if (import.meta.env.DEV) (window as any).__santi = { setWords, setDuration, localEdit: () => setPlan(autoPlan(words, duration, style)) };
+
+  // Render en el equipo con Remotion o HyperFrames (vía bridge)
+  async function renderWith(engine: "remotion" | "hyperframes") {
+    setExportOpen(false);
+    if (!plan || !mediaId) return setStatus("Necesitas el bridge encendido y un plan de edición.");
+    const job = await bridge.startRender({ engine, mediaId, styleId, plan, words });
+    setRender(job);
+    const poll = setInterval(async () => {
+      const j = await bridge.getRender(job.id).catch(() => null);
+      if (!j) return;
+      setRender(j);
+      setStatus(`${engine === "remotion" ? "Remotion" : "HyperFrames"}: ${j.status === "done" ? "listo ✓" : j.status === "error" ? j.error : `renderizando ${Math.round(j.progress * 100)}%`}`);
+      if (j.status === "done" || j.status === "error") clearInterval(poll);
+    }, 1500);
+  }
 
   const outLen = plan ? outDuration(plan.segments) : duration;
 
   return (
     <div className="app">
       <header className="topbar">
-        <div className="brand"><span className="logo">K</span>Kairo <em>Studio</em></div>
+        <div className="brand"><span className="logo"><Icon name="crown" /></span><div><b>Emperador Santiago</b><em>Edición de Videos</em></div></div>
         <div className="project">{file?.name ?? "Proyecto sin título"}</div>
         <div className="top-actions">
           <span className={`chip ${providers ? "on" : ""}`}>
             <i />{providers ? "Bridge IA conectado" : "Modo offline"}
           </span>
-          <button className="btn primary" disabled={!plan || exporting} onClick={exportVideo}>
-            <Icon name="export" /> Exportar
-          </button>
+          <div className="export">
+            <button className="btn primary" disabled={!plan || exporting} onClick={() => setExportOpen(!exportOpen)}>
+              <Icon name="export" /> Exportar
+            </button>
+            {exportOpen && (
+              <div className="menu">
+                <button onClick={() => { setExportOpen(false); exportVideo(); }}><b>Navegador</b><small>Rápido y sin internet · tiempo real</small></button>
+                <button disabled={!mediaId} onClick={() => renderWith("remotion")}><b>Remotion</b><small>Calidad máxima · cuadro a cuadro</small></button>
+                <button disabled={!mediaId} onClick={() => renderWith("hyperframes")}><b>HyperFrames</b><small>MP4 + proyecto HTML editable</small></button>
+                {!mediaId && <p>Remotion y HyperFrames necesitan el bridge (<code>npm run dev</code>).</p>}
+              </div>
+            )}
+          </div>
         </div>
       </header>
 
       <nav className="rail">
-        {([["media", "film", "Medios"], ["styles", "palette", "Estilos"], ["ai", "spark", "Director IA"], ["motion", "shapes", "Motion"]] as const).map(([id, icon, label]) => (
+        {([["media", "film", "Medios"], ["styles", "crown", "Estilos de Santi"], ["ai", "spark", "Director IA"], ["motion", "shapes", "Motion"]] as const).map(([id, icon, label]) => (
           <button key={id} className={tab === id ? "active" : ""} onClick={() => setTab(id)} title={label}>
             <Icon name={icon} /><span>{label}</span>
           </button>
@@ -204,7 +233,7 @@ export default function App() {
 
         {tab === "styles" && (
           <>
-            <h3>Style DNA</h3>
+            <h3>Estilos de Santi</h3>
             <p className="hint">Cada estilo define tipografía, ritmo, zooms y gráficos. Entrena nuevos con <code>npm run learn</code> o desde tu IA vía MCP.</p>
             <div className="styles">
               {styles.map((s) => (
@@ -222,7 +251,7 @@ export default function App() {
         {tab === "ai" && (
           <>
             <h3>Director IA</h3>
-            <textarea placeholder="Ej: hazlo de 30 segundos, gancho fuerte, resalta los números…" value={prompt} onChange={(e) => setPrompt(e.target.value)} />
+            <textarea placeholder="Ej: estilo imperial, 30 segundos, gancho fuerte, resalta los números…" value={prompt} onChange={(e) => setPrompt(e.target.value)} />
             <button className="btn primary wide" disabled={!words.length || busy} onClick={localEdit}><Icon name="bolt" /> Edición automática (offline)</button>
             <div className="divider"><span>con IA</span></div>
             <select value={provider} onChange={(e) => setProvider(e.target.value)} disabled={!providers}>
@@ -281,7 +310,12 @@ export default function App() {
 
       <footer className="timeline-area">
         <Timeline duration={duration} t={t} plan={plan} chunks={chunks} onSeek={(s) => videoRef.current && (videoRef.current.currentTime = s)} />
-        <div className="status">{busy && <span className="spinner" />}{status}</div>
+        <div className="status">
+          {busy && <span className="spinner" />}{status}
+          {render?.status === "rendering" && <span className="bar"><i style={{ width: `${render.progress * 100}%` }} /></span>}
+          {render?.status === "done" && <a className="dl" href={bridge.renderFileUrl(render.id)} download>Descargar MP4 ({render.engine})</a>}
+          {render?.projectDir && render.status === "done" && <code title="Ábrelo con: npx hyperframes preview">{render.projectDir}</code>}
+        </div>
       </footer>
     </div>
   );

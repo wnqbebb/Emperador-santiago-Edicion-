@@ -1,4 +1,4 @@
-# Arquitectura de Kairo Studio
+# Arquitectura · Emperador Santiago, Edición de Videos
 
 ```
 ┌──────────────────────── Navegador (offline) ────────────────────────┐
@@ -17,6 +17,7 @@
 │  /api/plan ─► Claude API (claude-fable-5-2, salida estructurada)    │
 │            ─► CLIs con tu suscripción: claude · codex · gemini      │
 │            ─► OpenAI / Gemini por clave (opcional)                  │
+│  /api/render ─► Remotion (remotion/) · HyperFrames (bridge/src/hyperframes.ts) │
 │  /api/jobs ◄─► servidor MCP ◄─► Claude Desktop / ChatGPT / Gemini   │
 │  data/styles, data/jobs (todo en tu disco)                          │
 └─────────────────────────────────────────────────────────────────────┘
@@ -42,7 +43,7 @@ No es fine-tuning (ni Claude, ni ChatGPT, ni Gemini permiten entrenar sus modelo
 
 ## Sobre las suscripciones
 
-Las suscripciones de consumo (Claude Pro, ChatGPT Plus, Gemini) no traen clave de API. Las formas legítimas de usarlas son las dos que implementa Kairo: (1) que la app oficial use Kairo como herramienta MCP, o (2) llamar a su CLI oficial, que inicia sesión con tu plan. Para automatización masiva o un producto con usuarios, usa claves de API.
+Las suscripciones de consumo (Claude Pro, ChatGPT Plus, Gemini) no traen clave de API. Las formas legítimas de usarlas son las dos que implementa Santi: (1) que la app oficial use Santi como herramienta MCP, o (2) llamar a su CLI oficial, que inicia sesión con tu plan. Para automatización masiva o un producto con usuarios, usa claves de API.
 
 ## REA (Reverse Engineer Anything) en este proyecto
 
@@ -56,12 +57,11 @@ Preguntas útiles a tu agente con REA conectado:
 - "Analiza cómo una app de subtítulos web sincroniza el texto con el audio y resume la técnica."
 - "Inspecciona este bundle JS de mi propia app/una app open source de edición y explícame su pipeline de render."
 
-Ten en cuenta los términos de uso de cada servicio: estudiar técnicas está bien; copiar código, marca o assets de productos como Submagic o Captions no. Kairo tiene diseño, estilos y nombre propios.
+Ten en cuenta los términos de uso de cada servicio: estudiar técnicas está bien; copiar código, marca o assets de productos como Submagic o Captions no. Santi tiene diseño, estilos y nombre propios.
 
 ## Roadmap
 
 1. Waveform y edición manual de segmentos (arrastrar bordes) en la timeline.
-2. Exportación exacta cuadro a cuadro con WebCodecs + mp4-muxer (más rápida que tiempo real).
 3. B-roll y SFX automáticos (biblioteca local + generación opcional).
 4. Few-shot: guardar planes aprobados por estilo y añadirlos al brief.
 5. Reencuadre automático de caras (MediaPipe) para clips horizontales.

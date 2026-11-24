@@ -1,6 +1,6 @@
 // Cliente del bridge local (IA + MCP). Si no responde, la app sigue en modo offline.
 import type { Plan, Style, Word } from "./types";
-const BASE = import.meta.env.VITE_KAIRO_BRIDGE ?? "http://localhost:8787";
+const BASE = import.meta.env.VITE_SANTI_BRIDGE ?? "http://localhost:8787";
 
 export type Provider = { id: string; label: string; ready: boolean };
 
@@ -20,3 +20,13 @@ export const requestPlan = (b: PlanReq) => j<{ plan: Plan }>("/api/plan", { meth
 
 export const createJob = (b: Omit<PlanReq, "provider">) => j<{ id: string }>("/api/jobs", { method: "POST", body: JSON.stringify(b) });
 export const getJob = (id: string) => j<{ id: string; plan?: Plan; plannedBy?: string }>(`/api/jobs/${id}`);
+
+export type RenderJob = { id: string; engine: "remotion" | "hyperframes"; status: string; progress: number; error?: string; projectDir?: string };
+export async function uploadMedia(f: File) {
+  const r = await fetch(`${BASE}/api/media?name=${encodeURIComponent(f.name)}`, { method: "POST", body: f });
+  return (await r.json()) as { mediaId: string; url: string };
+}
+export const startRender = (b: { engine: string; mediaId: string; styleId: string; plan: Plan; words: Word[] }) =>
+  j<RenderJob>("/api/render", { method: "POST", body: JSON.stringify(b) });
+export const getRender = (id: string) => j<RenderJob>(`/api/render/${id}`);
+export const renderFileUrl = (id: string) => `${BASE}/api/render/${id}/file`;

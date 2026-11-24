@@ -1,0 +1,10 @@
+{
+  "id": "imperial",
+  "name": "Imperial Santi",
+  "description": "El estilo firma del Emperador: negro y oro, mayúsculas condensadas, golpes de zoom y coronas en los remates.",
+  "caption": { "font": "Oswald", "weight": 700, "size": 0.062, "color": "#FFFFFF", "highlight": "#E9B949", "stroke": "#000000", "uppercase": true, "wordsPerChunk": 3, "animation": "pop", "position": 0.66 },
+  "pacing": { "maxSilence": 0.3, "zoomEvery": 3, "cutsPerMinute": 24 },
+  "motion": { "emojis": true, "hookTitle": true, "progress": true, "lowerThird": true },
+  "grade": { "contrast": 1.14, "saturate": 1.05, "brightness": 0.98 },
+  "notes": "Tono de autoridad y ambición. El gancho en mayúsculas doradas. Resalta en oro las cifras, logros y palabras de poder (imperio, ganar, dominar, nivel). Emojis de 👑 💰 🔥 con moderación. Corta toda duda y muletilla. Zoom fuerte (1.15) en cada remate. Cierra con un lowerThird 'Emperador Santiago|Sígueme para más'."
+}

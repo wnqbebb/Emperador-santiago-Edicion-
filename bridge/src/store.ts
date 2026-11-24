@@ -6,7 +6,7 @@ import { randomUUID } from "node:crypto";
 import { StyleSchema, type EditJob, type Style } from "./schema.js";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..", "..");
-export const DATA = process.env.KAIRO_DATA ?? join(ROOT, "data");
+export const DATA = process.env.SANTI_DATA ?? join(ROOT, "data");
 const STYLES_BUILTIN = join(ROOT, "styles");
 const STYLES_USER = join(DATA, "styles");
 const JOBS = join(DATA, "jobs");

@@ -40,7 +40,7 @@ for (const f of files) {
   totalDur += d;
   totalCuts += sceneCuts(f);
   longestSilence = Math.max(longestSilence, ...silences(f), 0);
-  const dir = mkdtempSync(join(tmpdir(), "kairo-"));
+  const dir = mkdtempSync(join(tmpdir(), "santi-"));
   execFileSync("ffmpeg", ["-v", "error", "-i", f, "-vf", `fps=${(4 / d).toFixed(4)},scale=540:-1`, "-q:v", "4", join(dir, "f%02d.jpg")]);
   for (const img of readdirSync(dir).slice(0, 4)) frames.push(readFileSync(join(dir, img)).toString("base64"));
 }

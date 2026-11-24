@@ -1,0 +1,23 @@
+{
+  "name": "@santi/remotion",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts SantiEdit out/santi.mp4"
+  },
+  "dependencies": {
+    "@fontsource/anton": "5.1.0",
+    "@fontsource/inter": "5.1.0",
+    "@fontsource/oswald": "5.1.0",
+    "@fontsource/playfair-display": "5.1.0",
+    "@fontsource/space-grotesk": "5.1.0",
+    "@remotion/bundler": "4.0.547",
+    "@remotion/cli": "4.0.547",
+    "@remotion/renderer": "4.0.547",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.547"
+  },
+  "devDependencies": { "@types/react": "18.3.12", "typescript": "5.6.3" }
+}

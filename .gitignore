@@ -3,3 +3,8 @@ dist
 data
 .env
 *.log
+test-results
+playwright-report
+tests/fixtures
+remotion/out
+qa
