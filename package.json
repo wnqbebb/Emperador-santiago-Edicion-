@@ -1,0 +1,11 @@
+{
+  "name": "kairo-studio",
+  "private": true,
+  "workspaces": ["web", "bridge"],
+  "scripts": {
+    "dev": "npm run dev -w web & npm run dev -w bridge",
+    "build": "npm run build -w web",
+    "mcp": "npm run mcp -w bridge",
+    "learn": "npm run learn -w bridge --"
+  }
+}

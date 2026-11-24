@@ -1,0 +1,34 @@
+{
+  "id": "lujo",
+  "name": "Minimal Lujo",
+  "description": "Serif fina, minúsculas, mucho aire. Cortes limpios y pocos gráficos.",
+  "caption": {
+    "font": "Playfair Display",
+    "weight": 500,
+    "size": 0.045,
+    "color": "#F5F1E8",
+    "highlight": "#C9A96E",
+    "stroke": "transparent",
+    "uppercase": false,
+    "wordsPerChunk": 5,
+    "animation": "fade",
+    "position": 0.78
+  },
+  "pacing": {
+    "maxSilence": 0.6,
+    "zoomEvery": 6,
+    "cutsPerMinute": 10
+  },
+  "motion": {
+    "emojis": false,
+    "hookTitle": true,
+    "progress": false,
+    "lowerThird": true
+  },
+  "grade": {
+    "contrast": 1.05,
+    "saturate": 0.85,
+    "brightness": 0.98
+  },
+  "notes": "Elegancia y calma. Deja respirar las frases. Sin emojis. Zoom lento y sutil (1.04-1.08). Resalta solo la palabra que define la frase."
+}
