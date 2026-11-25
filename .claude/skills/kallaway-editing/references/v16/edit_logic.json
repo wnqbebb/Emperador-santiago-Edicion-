@@ -1,0 +1,1515 @@
+{
+ "triggers": [
+  {
+   "t_word": 0.86,
+   "word": "data",
+   "element": "Corte interno del gancho: interior blanco de la esfera",
+   "category": "hook_banner",
+   "offset_s": 0.0,
+   "why": "montaje de gancho",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 1.38,
+   "word": "floating",
+   "element": "Corte interno: cúpula flotando al atardecer",
+   "category": "hook_banner",
+   "offset_s": 0.0,
+   "why": "literal: «floating»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 2.32,
+   "word": "the",
+   "element": "Corte interno: boya con estela desde dron",
+   "category": "hook_banner",
+   "offset_s": 0.0,
+   "why": "literal: «in the Pacific Ocean»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 3.32,
+   "word": "They're",
+   "element": "Clip + rótulo de nombre (~85 % del ancho) que entra con fundido en 3,85–4,0 s; las antenas de la cúpula parecen quedar por delante de las letras (inferred: máscara de …",
+   "category": "split_graphic",
+   "offset_s": -0.05,
+   "why": "Nombre propio difícil → rótulo grande integrado en la imagen.",
+   "scene": "v16_s02",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 3.66,
+   "word": "Pantalassa,",
+   "element": "Rótulo «PANTHALASSA» aparece con fundido",
+   "category": "split_graphic",
+   "offset_s": 0.0,
+   "why": "nombre propio → rótulo",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 4.74,
+   "word": "and",
+   "element": "Pantalla completa de su cara, 4 palabras en 0,57 s.",
+   "category": "face_full_word",
+   "offset_s": -0.04,
+   "why": "Micro punch-in para marcar la tesis («podrían estar inaugurando…»).",
+   "scene": "v16_s03",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 5.16,
+   "word": "pioneering",
+   "element": "4 clips por corte cada 0,6–1,4 s.",
+   "category": "split_broll",
+   "offset_s": 0.11,
+   "why": "Construcción → despliegue: ordena los clips como proceso.",
+   "scene": "v16_s04",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 5.8,
+   "word": "a",
+   "element": "Corte interno a astillero",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "ritmo",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 6.66,
+   "word": "category",
+   "element": "Corte interno a boya en mar abierto",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "ritmo",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 7.44,
+   "word": "data",
+   "element": "Corte interno a cúpula de cerca",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "«data center» → el objeto",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 8.74,
+   "word": "See,",
+   "element": "Clip aéreo dentro de la tarjeta redondeada, travelling lento.",
+   "category": "full_graphic",
+   "offset_s": -0.01,
+   "why": "Cambio de formato (tarjeta sobre negro) = «ahora te explico»: abre el bloque didáctico.",
+   "scene": "v16_s05",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 9.84,
+   "word": "thousands",
+   "element": "2 clips por corte dentro de la tarjeta.",
+   "category": "full_graphic",
+   "offset_s": 0.13,
+   "why": "«miles de chips» → chips literales.",
+   "scene": "v16_s06",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 10.64,
+   "word": "computer",
+   "element": "Corte interno a bandeja de chips",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "literal: «computer chips»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 11.54,
+   "word": "only",
+   "element": "Pantalla completa de su cara; «things» en dorado.",
+   "category": "face_full_word",
+   "offset_s": -0.04,
+   "why": "Plantea la lista de dos antes de mostrarla.",
+   "scene": "v16_s07",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 12.14,
+   "word": "things,",
+   "element": "«things» en dorado",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "énfasis",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 12.58,
+   "word": "electricity",
+   "element": "Clip de stock, plano general.",
+   "category": "split_broll",
+   "offset_s": -0.01,
+   "why": "Cosa 1: electricidad.",
+   "scene": "v16_s08",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 13.88,
+   "word": "water",
+   "element": "Clip de stock, primer plano.",
+   "category": "split_broll",
+   "offset_s": -0.11,
+   "why": "Cosa 2: agua.",
+   "scene": "v16_s09",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 14.92,
+   "word": "On",
+   "element": "Imagen aérea cenital.",
+   "category": "split_broll",
+   "offset_s": -0.02,
+   "why": "«En tierra» → mapa.",
+   "scene": "v16_s10",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 15.46,
+   "word": "they",
+   "element": "Plano de pantalla con mapa, leve zoom.",
+   "category": "split_broll",
+   "offset_s": 0.01,
+   "why": "«compiten con pueblos reales» → parcelas y casas vistas desde arriba.",
+   "scene": "v16_s11",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 17.3,
+   "word": "both",
+   "element": "2 tiras de ~720×320 px apiladas; la segunda entra por corte 0,5 s después.",
+   "category": "split_graphic",
+   "offset_s": -0.03,
+   "why": "«ambos recursos» → dos imágenes simultáneas.",
+   "scene": "v16_s12",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 17.78,
+   "word": "resources,",
+   "element": "Segunda tira (presa) aparece bajo la subestación",
+   "category": "split_graphic",
+   "offset_s": 0.0,
+   "why": "«both… resources» → dos imágenes",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 18.3,
+   "word": "which",
+   "element": "Pantalla completa de su cara, 3 palabras.",
+   "category": "face_full_word",
+   "offset_s": 0.03,
+   "why": "Bisagra causal.",
+   "scene": "v16_s13",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 19.18,
+   "word": "projects",
+   "element": "Rótulo centrado (~85 % del ancho) que entra con fundido/blur en 19,6–19,9 s mientras el clip vira a rojo.",
+   "category": "split_graphic",
+   "offset_s": -0.15,
+   "why": "Palabra de conflicto → sello sobre la imagen + tinte rojo de alarma.",
+   "scene": "v16_s14",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 19.54,
+   "word": "keep",
+   "element": "Rótulo «BLOCKED» + tinte rojo",
+   "category": "split_graphic",
+   "offset_s": 0.0,
+   "why": "énfasis: palabra de conflicto (el rótulo entra ~0,4 s antes de decirla)",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 20.6,
+   "word": "But",
+   "element": "Tarjeta de océano; las 3 franjas (~1/3 de la tarjeta cada una) tapan el océano de arriba abajo, cada una con su rótulo que entra con blur ~0,2 s después de la franja. …",
+   "category": "full_graphic",
+   "offset_s": 0.03,
+   "why": "Triple negación («no… no… no…») → tres franjas que se apilan al ritmo de la voz; el subtítulo se apaga para no competir.",
+   "scene": "v16_s15",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 21.64,
+   "word": "towns,",
+   "element": "Franja + rótulo «NO TOWNS»",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "literal, 1 de 3",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 22.5,
+   "word": "permits,",
+   "element": "Franja + rótulo «NO PERMITS»",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "literal, 2 de 3",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 23.22,
+   "word": "no",
+   "element": "Franja + rótulo «NO GRIDS»",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "literal, 3 de 3",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 25.0,
+   "word": "Of",
+   "element": "Pantalla completa de su cara; hay un salto de encuadre en 27,17 s (jump cut).",
+   "category": "aroll_plain",
+   "offset_s": 0.0,
+   "why": "Plantea el problema mirando a cámara: tensión antes de la solución.",
+   "scene": "v16_s16",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 27.9,
+   "word": "There",
+   "element": "3 clips por corte.",
+   "category": "split_broll",
+   "offset_s": 0.07,
+   "why": "«no hay enchufes» → enchufe literal.",
+   "scene": "v16_s17",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 29.08,
+   "word": "plug",
+   "element": "Corte interno a mano enchufando cable",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "literal: «plug in»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 29.64,
+   "word": "electricity.",
+   "element": "Corte interno a túnel de luces azules",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "metáfora: electricidad",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 30.34,
+   "word": "So",
+   "element": "3 clips por corte.",
+   "category": "split_broll",
+   "offset_s": -0.04,
+   "why": "«fue diseñado» → persona diseñando.",
+   "scene": "v16_s18",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 31.5,
+   "word": "designed",
+   "element": "Corte interno a ingeniero con planos",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "literal: «designed»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 32.14,
+   "word": "make",
+   "element": "Corte interno a estructura con escala métrica",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "ritmo",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 33.12,
+   "word": "Here's",
+   "element": "Pantalla completa de su cara; «works» en serif itálica dorada.",
+   "category": "face_full_word",
+   "offset_s": -0.05,
+   "why": "Anuncia la explicación: el clásico «así funciona».",
+   "scene": "v16_s19",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 33.54,
+   "word": "works.",
+   "element": "«works» en serif itálica dorada",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "énfasis",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 33.98,
+   "word": "Picture",
+   "element": "Render 3D continuo de 5,6 s (plano general → boya → descenso por el tubo); PiP fijo.",
+   "category": "pip_broll",
+   "offset_s": -0.01,
+   "why": "Metáfora del «chupachups gigante»: una sola toma larga para entender la forma; el PiP mantiene al narrador.",
+   "scene": "v16_s20",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 39.72,
+   "word": "Waves",
+   "element": "Clip de stock.",
+   "category": "split_broll",
+   "offset_s": -0.12,
+   "why": "Superficie movida.",
+   "scene": "v16_s21",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 41.32,
+   "word": "so",
+   "element": "Clip de stock submarino.",
+   "category": "split_broll",
+   "offset_s": -0.05,
+   "why": "Contraste arriba/abajo con dos clips opuestos.",
+   "scene": "v16_s22",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 43.1,
+   "word": "And",
+   "element": "Pantalla completa de su cara, 0,5 s.",
+   "category": "face_full_word",
+   "offset_s": -0.07,
+   "why": "Bisagra lógica.",
+   "scene": "v16_s23",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 43.46,
+   "word": "the",
+   "element": "2 clips por corte.",
+   "category": "split_broll",
+   "offset_s": 0.07,
+   "why": "La boya real moviéndose.",
+   "scene": "v16_s24",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 44.38,
+   "word": "up",
+   "element": "Corte interno a boya más cerca",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "«up and down»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 45.3,
+   "word": "the",
+   "element": "Render reutilizado (tramo inferior).",
+   "category": "split_graphic",
+   "offset_s": -0.1,
+   "why": "El tubo quieto.",
+   "scene": "v16_s25",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 46.78,
+   "word": "Every",
+   "element": "Diagrama 2D: la ola cruza de izquierda a derecha, el agua interior sube (zona azul sólida) y las flechas indican flujo; 3,2 s.",
+   "category": "full_graphic",
+   "offset_s": -0.05,
+   "why": "Mecanismo → diagrama: el momento de valor del video se visualiza con un esquema, no con metraje.",
+   "scene": "v16_s26",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 49.96,
+   "word": "Think",
+   "element": "Pantalla completa de su cara, 0,5 s.",
+   "category": "face_full_word",
+   "offset_s": 0.01,
+   "why": "Introduce la analogía.",
+   "scene": "v16_s27",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 50.58,
+   "word": "bike",
+   "element": "Animación didáctica 3D, 0,7 s.",
+   "category": "split_graphic",
+   "offset_s": -0.08,
+   "why": "Analogía «bomba de bici» → bomba.",
+   "scene": "v16_s28",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 51.12,
+   "word": "except",
+   "element": "Clip del producto.",
+   "category": "split_broll",
+   "offset_s": 0.11,
+   "why": "Vuelve al objeto real.",
+   "scene": "v16_s29",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 52.72,
+   "word": "what's",
+   "element": "Simulación CFD animada (presión de agua/aire).",
+   "category": "split_graphic",
+   "offset_s": -0.09,
+   "why": "Prueba técnica: simulación del fabricante.",
+   "scene": "v16_s30",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 54.46,
+   "word": "That",
+   "element": "Clip de stock.",
+   "category": "split_broll",
+   "offset_s": 0.04,
+   "why": "Agua de mar literal.",
+   "scene": "v16_s31",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 55.38,
+   "word": "also",
+   "element": "Clip del producto.",
+   "category": "split_broll",
+   "offset_s": 0.05,
+   "why": "Puente.",
+   "scene": "v16_s32",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 56.18,
+   "word": "cooling",
+   "element": "Clip submarino.",
+   "category": "split_broll",
+   "offset_s": 0.15,
+   "why": "Refrigeración por agua.",
+   "scene": "v16_s33",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 57.36,
+   "word": "the",
+   "element": "Captura de pantalla de una reunión, 0,7 s.",
+   "category": "split_screenrec",
+   "offset_s": -0.09,
+   "why": "Variación rápida.",
+   "scene": "v16_s34",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 58.02,
+   "word": "so",
+   "element": "Pantalla completa de su cara.",
+   "category": "aroll_plain",
+   "offset_s": -0.05,
+   "why": "Conclusión del mecanismo.",
+   "scene": "v16_s35",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 60.34,
+   "word": "That",
+   "element": "3 clips por corte dentro de la tarjeta.",
+   "category": "full_graphic",
+   "offset_s": -0.01,
+   "why": "Objeción («¿y si no hay olas?») → mar en calma; el formato tarjeta marca otra pregunta didáctica.",
+   "scene": "v16_s36",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 61.96,
+   "word": "no",
+   "element": "Corte interno a mar rojizo en calma",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "literal: «no waves»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 63.16,
+   "word": "prevent",
+   "element": "Corte interno a boya con cielo rosa",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "«this» → el objeto",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 64.24,
+   "word": "But",
+   "element": "Pantalla completa de su cara; 10 palabras, dos doradas y una itálica.",
+   "category": "face_full_word",
+   "offset_s": 0.03,
+   "why": "Respuesta-sorpresa a la objeción: máximo énfasis tipográfico.",
+   "scene": "v16_s37",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 65.88,
+   "word": "battery.",
+   "element": "«battery» en dorado",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "analogía clave",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 66.36,
+   "word": "The",
+   "element": "Diagrama de 3 pasos: paneo lateral paso a paso (66,3–69,0 s) y zoom-out final (69,0–70,0 s) que muestra la cadena completa.",
+   "category": "split_graphic",
+   "offset_s": -0.03,
+   "why": "Cadena causal de 3 eslabones → diagrama de 3 íconos que aparece al ritmo de cada frase.",
+   "scene": "v16_s38",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 67.48,
+   "word": "air",
+   "element": "Paneo al ícono de viento",
+   "category": "split_graphic",
+   "offset_s": 0.0,
+   "why": "literal: «wind»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 68.86,
+   "word": "pushes",
+   "element": "Paneo al ícono de ola y zoom-out",
+   "category": "split_graphic",
+   "offset_s": 0.0,
+   "why": "literal: «waves»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 70.06,
+   "word": "And",
+   "element": "2 clips; el scene-detect marca además cambios en 70,30 y 70,47 s cuya naturaleza no se inspeccionó (desconocido).",
+   "category": "split_broll",
+   "offset_s": -0.03,
+   "why": "Olas persistentes.",
+   "scene": "v16_s39",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 72.6,
+   "word": "So",
+   "element": "2 clips por corte; el segundo, nocturno.",
+   "category": "split_broll",
+   "offset_s": 0.03,
+   "why": "«funciona de noche» → clip nocturno.",
+   "scene": "v16_s40",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 73.74,
+   "word": "also",
+   "element": "Corte interno a boya al anochecer",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "literal: «at night»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 75.0,
+   "word": "But",
+   "element": "Pantalla completa de su cara; «problem» en dorado.",
+   "category": "face_full_word",
+   "offset_s": 0.03,
+   "why": "Segundo bucle de problema (min 1:15): re-gancho.",
+   "scene": "v16_s41",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 75.86,
+   "word": "How",
+   "element": "2 clips por corte.",
+   "category": "split_broll",
+   "offset_s": -0.03,
+   "why": "Muestra a la empresa mientras formula la pregunta.",
+   "scene": "v16_s42",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 77.26,
+   "word": "to",
+   "element": "Corte interno a foto del equipo",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "ritmo",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 78.52,
+   "word": "And",
+   "element": "Pantalla completa de su cara.",
+   "category": "aroll_plain",
+   "offset_s": 0.01,
+   "why": "Respuesta inesperada dicha a cámara, sin distracción.",
+   "scene": "v16_s43",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 79.96,
+   "word": "These",
+   "element": "3 franjas de ~650×300 px (x≈40–680), sin tarjeta contenedora; cada rótulo en sans extendida rojo/óxido entra con blur ~0,4 s después de su franja.",
+   "category": "full_graphic",
+   "offset_s": -0.03,
+   "why": "Repite el recurso de la triple negación de 20,6 s (rima estructural) con otra composición.",
+   "scene": "v16_s44",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 80.6,
+   "word": "anchor,",
+   "element": "Rótulo «NO ANCHOR»",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "literal, 1 de 3",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 81.4,
+   "word": "fuel,",
+   "element": "Franja + rótulo «NO FUEL»",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "literal, 2 de 3",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 82.32,
+   "word": "cable",
+   "element": "Franja + rótulo «NO CABLE»",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "literal, 3 de 3",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 83.5,
+   "word": "Instead,",
+   "element": "Plano de producto, fondo rojizo desenfocado.",
+   "category": "split_broll",
+   "offset_s": 0.03,
+   "why": "«tu consulta de IA» → tu móvil.",
+   "scene": "v16_s45",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 85.64,
+   "word": "straight",
+   "element": "Líneas que se dibujan hacia el satélite (85,6–87,0 s), paneo a la derecha y línea descendente al edificio (87,0–89,3 s).",
+   "category": "split_graphic",
+   "offset_s": -0.07,
+   "why": "Ruta de datos → diagrama que se traza en el orden de la frase (sube / baja).",
+   "scene": "v16_s46",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 87.18,
+   "word": "and",
+   "element": "Línea descendente hacia el centro de datos",
+   "category": "split_graphic",
+   "offset_s": 0.0,
+   "why": "literal: «straight back down»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 89.34,
+   "word": "The",
+   "element": "Pantalla completa de su cara; «problem» en serif itálica dorada.",
+   "category": "face_full_word",
+   "offset_s": -0.01,
+   "why": "Tercer problema: el riesgo real.",
+   "scene": "v16_s47",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 90.7,
+   "word": "that",
+   "element": "3 clips por corte cada ~0,75 s.",
+   "category": "split_broll",
+   "offset_s": -0.07,
+   "why": "«el océano lo destruye todo» → naufragios.",
+   "scene": "v16_s48",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 91.24,
+   "word": "typically",
+   "element": "Corte interno a buzo",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "ritmo",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 92.14,
+   "word": "everything.",
+   "element": "Corte interno a barco hundido",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "literal: «destroys everything»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 92.98,
+   "word": "The",
+   "element": "2 clips por corte.",
+   "category": "split_broll",
+   "offset_s": -0.08,
+   "why": "Sal y percebes literales.",
+   "scene": "v16_s49",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 94.08,
+   "word": "barnacles",
+   "element": "Corte interno a restos con percebes",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "literal: «barnacles»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 95.42,
+   "word": "and",
+   "element": "Clip de tormenta, cámara a bordo.",
+   "category": "split_broll",
+   "offset_s": -0.02,
+   "why": "Tormenta: el clip más violento para el remate de la lista.",
+   "scene": "v16_s50",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 96.7,
+   "word": "do.",
+   "element": "Pantalla completa de su cara; nombre de la empresa en itálica, «making» en dorado.",
+   "category": "face_full_word",
+   "offset_s": 0.17,
+   "why": "Resume la apuesta de la empresa.",
+   "scene": "v16_s51",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 99.02,
+   "word": "that",
+   "element": "3 clips por corte dentro de la tarjeta.",
+   "category": "full_graphic",
+   "offset_s": 0.01,
+   "why": "Esfuerzo humano → gente trabajando.",
+   "scene": "v16_s52",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 99.78,
+   "word": "how",
+   "element": "Corte interno a soldador",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "literal: «make this»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 100.58,
+   "word": "a",
+   "element": "Corte interno a boya cenital",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "«the ocean»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 102.18,
+   "word": "The",
+   "element": "4 clips por corte cada ~0,8 s.",
+   "category": "split_broll",
+   "offset_s": -0.01,
+   "why": "Despliegue real: prueba de que ya existe.",
+   "scene": "v16_s53",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 102.78,
+   "word": "versions",
+   "element": "Corte interno a estructura remolcada",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "ritmo",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 103.6,
+   "word": "live",
+   "element": "Corte interno a operarios en barco",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "«go live»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 104.62,
+   "word": "this",
+   "element": "Corte interno a boya remolcada",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "ritmo",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 105.28,
+   "word": "If",
+   "element": "Pantalla completa de su cara, 3 palabras.",
+   "category": "face_full_word",
+   "offset_s": 0.02,
+   "why": "Condicional dramático antes del payoff.",
+   "scene": "v16_s54",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 106.12,
+   "word": "your",
+   "element": "2 planos de pantalla por corte.",
+   "category": "split_screenrec",
+   "offset_s": -0.05,
+   "why": "Conecta con el espectador: tu uso diario.",
+   "scene": "v16_s55",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 106.86,
+   "word": "might",
+   "element": "Corte interno a ventana de Safari con ChatGPT",
+   "category": "split_screenrec",
+   "offset_s": 0.0,
+   "why": "«AI queries»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 108.2,
+   "word": "a",
+   "element": "2 clips por corte.",
+   "category": "split_broll",
+   "offset_s": -0.07,
+   "why": "Cierra con la imagen del gancho.",
+   "scene": "v16_s56",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 109.62,
+   "word": "the",
+   "element": "Corte interno a plano aéreo lejano",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "«in the ocean»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 110.12,
+   "word": "All",
+   "element": "Pantalla completa de su cara; CTA de seguir hablado, sin botón ni gráfico.",
+   "category": "title_cta",
+   "offset_s": 0.05,
+   "why": "CTA de follow por temática; la última palabra en dorado.",
+   "scene": "v16_s57",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 112.26,
+   "word": "robotics.",
+   "element": "«robotics» en dorado",
+   "category": "title_cta",
+   "offset_s": 0.0,
+   "why": "énfasis de cierre",
+   "evidence": "observed (tira de fotogramas)"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 3.27,
+   "from": "v16_s01 (hook_banner)",
+   "to": "v16_s02 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 4.7,
+   "from": "v16_s02 (split_graphic)",
+   "to": "v16_s03 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 5.27,
+   "from": "v16_s03 (face_full_word)",
+   "to": "v16_s04 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 8.73,
+   "from": "v16_s04 (split_broll)",
+   "to": "v16_s05 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 9.97,
+   "from": "v16_s05 (full_graphic)",
+   "to": "v16_s06 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 11.5,
+   "from": "v16_s06 (full_graphic)",
+   "to": "v16_s07 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 12.57,
+   "from": "v16_s07 (face_full_word)",
+   "to": "v16_s08 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 13.77,
+   "from": "v16_s08 (split_broll)",
+   "to": "v16_s09 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 14.9,
+   "from": "v16_s09 (split_broll)",
+   "to": "v16_s10 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 15.47,
+   "from": "v16_s10 (split_broll)",
+   "to": "v16_s11 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 17.27,
+   "from": "v16_s11 (split_broll)",
+   "to": "v16_s12 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 18.33,
+   "from": "v16_s12 (split_graphic)",
+   "to": "v16_s13 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 19.03,
+   "from": "v16_s13 (face_full_word)",
+   "to": "v16_s14 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 20.63,
+   "from": "v16_s14 (split_graphic)",
+   "to": "v16_s15 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 25.0,
+   "from": "v16_s15 (full_graphic)",
+   "to": "v16_s16 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 27.17,
+   "from": "v16_s16 A-roll",
+   "to": "v16_s16 A-roll",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "jump cut dentro del A-roll a pantalla completa (cambio de encuadre/pose detectado en la mitad inferior)"
+  },
+  {
+   "t": 27.97,
+   "from": "v16_s16 (aroll_plain)",
+   "to": "v16_s17 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 30.3,
+   "from": "v16_s17 (split_broll)",
+   "to": "v16_s18 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 33.07,
+   "from": "v16_s18 (split_broll)",
+   "to": "v16_s19 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 33.97,
+   "from": "v16_s19 (face_full_word)",
+   "to": "v16_s20 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 39.6,
+   "from": "v16_s20 (pip_broll)",
+   "to": "v16_s21 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 41.27,
+   "from": "v16_s21 (split_broll)",
+   "to": "v16_s22 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 43.03,
+   "from": "v16_s22 (split_broll)",
+   "to": "v16_s23 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 43.53,
+   "from": "v16_s23 (face_full_word)",
+   "to": "v16_s24 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 45.2,
+   "from": "v16_s24 (split_broll)",
+   "to": "v16_s25 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 46.73,
+   "from": "v16_s25 (split_graphic)",
+   "to": "v16_s26 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 49.97,
+   "from": "v16_s26 (full_graphic)",
+   "to": "v16_s27 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 50.5,
+   "from": "v16_s27 (face_full_word)",
+   "to": "v16_s28 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 51.23,
+   "from": "v16_s28 (split_graphic)",
+   "to": "v16_s29 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 52.63,
+   "from": "v16_s29 (split_broll)",
+   "to": "v16_s30 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 54.5,
+   "from": "v16_s30 (split_graphic)",
+   "to": "v16_s31 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 55.43,
+   "from": "v16_s31 (split_broll)",
+   "to": "v16_s32 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 56.33,
+   "from": "v16_s32 (split_broll)",
+   "to": "v16_s33 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 57.27,
+   "from": "v16_s33 (split_broll)",
+   "to": "v16_s34 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 57.97,
+   "from": "v16_s34 (split_screenrec)",
+   "to": "v16_s35 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 60.33,
+   "from": "v16_s35 (aroll_plain)",
+   "to": "v16_s36 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 64.27,
+   "from": "v16_s36 (full_graphic)",
+   "to": "v16_s37 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 66.33,
+   "from": "v16_s37 (face_full_word)",
+   "to": "v16_s38 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 69.0,
+   "from": "v16_s38 diagrama en paneo",
+   "to": "v16_s38 diagrama completo",
+   "type": "zoom-blur",
+   "frames": 30,
+   "detail": "zoom-out continuo ~1 s que revela los 3 pasos; es animación del gráfico, sin blur fuerte"
+  },
+  {
+   "t": 70.03,
+   "from": "v16_s38 (split_graphic)",
+   "to": "v16_s39 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 72.63,
+   "from": "v16_s39 (split_broll)",
+   "to": "v16_s40 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 75.03,
+   "from": "v16_s40 (split_broll)",
+   "to": "v16_s41 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 75.83,
+   "from": "v16_s41 (face_full_word)",
+   "to": "v16_s42 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 78.53,
+   "from": "v16_s42 (split_broll)",
+   "to": "v16_s43 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 79.93,
+   "from": "v16_s43 (aroll_plain)",
+   "to": "v16_s44 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 83.53,
+   "from": "v16_s44 (full_graphic)",
+   "to": "v16_s45 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 85.57,
+   "from": "v16_s45 (split_broll)",
+   "to": "v16_s46 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 89.33,
+   "from": "v16_s46 (split_graphic)",
+   "to": "v16_s47 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 90.63,
+   "from": "v16_s47 (face_full_word)",
+   "to": "v16_s48 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 92.9,
+   "from": "v16_s48 (split_broll)",
+   "to": "v16_s49 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 95.4,
+   "from": "v16_s49 (split_broll)",
+   "to": "v16_s50 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 96.87,
+   "from": "v16_s50 (split_broll)",
+   "to": "v16_s51 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 99.03,
+   "from": "v16_s51 (face_full_word)",
+   "to": "v16_s52 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 102.17,
+   "from": "v16_s52 (full_graphic)",
+   "to": "v16_s53 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 105.3,
+   "from": "v16_s53 (split_broll)",
+   "to": "v16_s54 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 106.07,
+   "from": "v16_s54 (face_full_word)",
+   "to": "v16_s55 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 108.13,
+   "from": "v16_s55 (split_screenrec)",
+   "to": "v16_s56 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 110.17,
+   "from": "v16_s56 (split_broll)",
+   "to": "v16_s57 (title_cta)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.0,
+   "fx": "máscara",
+   "detail": "título del gancho SIN caja («THE FLOATING / AI DATA CENTER», blanco + dorado) entra por slide desde la derecha 0→~1,5 s; fijo hasta 3,27 s"
+  },
+  {
+   "t": 3.85,
+   "fx": "blur-in",
+   "detail": "rótulo «PANTHALASSA» (sans extendida, verde oscuro→rojo oscuro) con fundido en ~5 fotogramas; parece pasar por detrás de las antenas"
+  },
+  {
+   "t": 19.6,
+   "fx": "blur-in",
+   "detail": "«BLOCKED» entra con fundido/blur ~8 fotogramas y el clip se tiñe de rojo"
+  },
+  {
+   "t": 21.53,
+   "fx": "blur-in",
+   "detail": "«NO TOWNS» / «NO PERMITS» (22,30) / «NO GRIDS» (23,13): cada rótulo rojo entra con blur ~0,2 s después de su franja; el subtítulo desaparece 21,5–25,0 s"
+  },
+  {
+   "t": 33.54,
+   "fx": "pop",
+   "detail": "«works» en serif itálica dorada, por corte"
+  },
+  {
+   "t": 64.27,
+   "fx": "pop",
+   "detail": "10 palabras grandes en 2,06 s; «works» y «battery» doradas, «like» en serif itálica"
+  },
+  {
+   "t": 80.5,
+   "fx": "blur-in",
+   "detail": "«NO ANCHOR» / «NO FUEL» (81,6) / «NO CABLE» (82,3): rótulos rojo-óxido con duplicado desplazado, entran ~0,4 s después de su franja"
+  },
+  {
+   "t": 85.6,
+   "fx": "write-on por palabra",
+   "detail": "no es texto: líneas del diagrama que se dibujan hacia el satélite (trazo progresivo)"
+  },
+  {
+   "t": 111.6,
+   "fx": "pop",
+   "detail": "cierre: de subtítulo pequeño a palabras grandes; «robotics» en dorado"
+  }
+ ],
+ "camera": [
+  {
+   "t": 4.7,
+   "move": "punch-in",
+   "scale_or_dir": "split → cara completa (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 33.97,
+   "move": "push-in lento",
+   "scale_or_dir": "render: general → boya (≈1→1,6) y descenso vertical por el tubo",
+   "dur_s": 5.6
+  },
+  {
+   "t": 66.33,
+   "move": "pan",
+   "scale_or_dir": "paneo a la derecha por los 3 pasos del diagrama",
+   "dur_s": 2.7
+  },
+  {
+   "t": 69.0,
+   "move": "zoom-out",
+   "scale_or_dir": "≈1,0→0,45 (se ven los 3 mosaicos)",
+   "dur_s": 1.0
+  },
+  {
+   "t": 85.57,
+   "move": "pan",
+   "scale_or_dir": "paneo a la derecha hasta el centro de datos",
+   "dur_s": 3.7
+  }
+ ],
+ "rhythm": {
+  "events_per_10s": [
+   12,
+   12,
+   9,
+   7,
+   7,
+   8,
+   9,
+   8,
+   7,
+   9,
+   10,
+   2
+  ],
+  "avg_hold_text_s": 0.52,
+  "notes": "57 escenas en 113,1 s (1,98 s/escena); 97 cortes detectados (1 cada 1,17 s). La mitad superior cambia cada ~1,2 s. Patrón didáctico: problema (cara) → metraje → diagrama → siguiente problema; tres bucles de «problema» (25,0 / 75,0 / 89,3 s). Sonido: no analizado; desconocido."
+ },
+ "typography": "Subtítulo sans bold blanca ~30 px, 1–3 palabras. Palabra grande sans bold ~110 px con glow; dorado ~#E0B24A para la clave («things», «works», «battery», «problem», «making», «robotics») y serif itálica didona para matiz («works», «like», «problem», «Panthalassa»). Rótulos sobre imagen en sans EXTENDIDA ultra-bold mayúsculas: título del gancho blanco+dorado sin caja; «PANTHALASSA» verde→rojo; «BLOCKED» turquesa-gris; «NO …» en rojo oscuro. Los diagramas no llevan texto.",
+ "textures": "Diagramas con trama de puntos/halftone azul sobre fondo hueso y curvas de nivel rosadas (46,7; 66,3; 85,6 s). Tarjetas redondeadas sobre negro puro. Tinte rojo sobre el clip de «BLOCKED». Sin grano ni papel en el A-roll.",
+ "distinct": [
+  "Título del gancho sin caja (texto blanco + dorado directamente sobre el video) en vez de la franja roja.",
+  "Formato «tarjeta vertical redondeada sobre negro» para los tramos didácticos (8,73; 20,63; 60,33; 99,03 s) y PiP sobre render 3D largo de 5,6 s (33,97 s).",
+  "Triple negación con franjas apiladas y rótulos rojos, usada dos veces: «NO TOWNS / PERMITS / GRIDS» (21,5 s) y «NO ANCHOR / FUEL / CABLE» (80 s), con el subtítulo apagado.",
+  "Tres diagramas propios de línea azul con halftone (corte de la boya 46,73 s; sol→viento→olas 66,33 s; satélite 85,57 s).",
+  "Guion en bucles de problema («one problem» 25 s, «one more problem» 75 s, «the real problem» 89 s), cada uno abierto con cara + palabra dorada."
+ ],
+ "evidence_rule": "Tiempos de corte = observed (scene-detect de ffmpeg por mitad superior/inferior + tiras de 9 fotogramas por corte). offset_s = derived. why = inferred."
+}

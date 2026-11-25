@@ -1,0 +1,34 @@
+000    0.00-   0.75 (0.8s) | This robot is
+001    0.75-   1.50 (0.8s) | the future of
+002    1.50-   3.04 (1.5s) | AI -powered farming. And
+003    3.04-   4.67 (1.6s) | what it's doing is pretty insane.
+004    4.67-  11.93 (7.3s) | As it rolls through a cotton field, it can actually think on its own and decide plant by plant exactly where to cut. The machine is called the
+005   11.93-  13.47 (1.5s) | VTM -09B. It
+006   13.47-  15.18 (1.7s) | has 108 different arms and
+007   15.18-  17.48 (2.3s) | can cut 83 plants per second. Now
+008   17.48-  22.23 (4.8s) | the job it's doing here is called topping. And the cotton industry, topping was the very last thing still
+009   22.23-  23.94 (1.7s) | done by human hands. Everything
+010   23.94-  25.65 (1.7s) | else has already been automated.
+011   25.65-  26.28 (0.6s) | Planting,
+012   26.28-  26.98 (0.7s) | spraying, picking,
+013   26.98-  27.57 (0.6s) | about
+014   27.57-  29.32 (1.8s) | 97 % of the work is
+015   29.32-  30.61 (1.3s) | done by machines today.
+016   30.61-  32.41 (1.8s) | But topping was the final holdout.
+017   32.41-  33.74 (1.3s) | And not because it's hard labor, because
+018   33.74-  35.12 (1.4s) | it's a judgment call.
+019   35.12-  35.87 (0.8s) | See, if left alone,
+020   35.87-  38.16 (2.3s) | a cotton plant would just keep growing taller and
+021   38.16-  39.25 (1.1s) | never produce cotton.
+022   39.25-  42.50 (3.3s) | When you snip the top off the plant, that's what actually gets it to produce. But
+023   42.50-  43.17 (0.7s) | the problem is every
+024   43.17-  45.30 (2.1s) | single plant is a different height and
+025   45.30-  45.92 (0.6s) | shape.
+026   45.92-  48.09 (2.2s) | So typically it would take a human to look and
+027   48.09-  49.55 (1.5s) | decide exactly where to cut.
+028   49.55-  51.09 (1.5s) | And that's where this robot comes in.
+029   51.09-  55.68 (4.6s) | As it rolls through the field, nine different cameras scan every plant in 3D. The
+030   55.68-  66.02 (10.3s) | AI finds the exact right cut point in a split second. The arms fire cutting with extreme precision. This machine can clear almost four football fields worth of cotton in a single hour.
+031   66.02-  68.11 (2.1s) | That's a full day of work for 60 people.
+032   68.11-  77.83 (9.7s) | So now one farm can run on just five employees instead of 60. This machine even has night vision so it can keep operating deep into the night. It's crazy to say, but we are now entering the era where
+033   77.83-  83.66 (5.8s) | industrial machines can think for themselves. And full end to end automation is right around the corner.

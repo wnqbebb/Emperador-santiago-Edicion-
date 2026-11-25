@@ -1,0 +1,2288 @@
+{
+  "video": "v04.mp4",
+  "duration": 39.0,
+  "derived": {
+    "shots": 38,
+    "avg_shot_len": 1.03,
+    "cuts_per_min": 58.5,
+    "hook_shots_first_3s": 3,
+    "high_motion_shots": [
+      0,
+      1,
+      2,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      24,
+      26,
+      27,
+      28,
+      29,
+      30,
+      32,
+      33
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "How",
+      "start": 0.0,
+      "end": 0.3
+    },
+    {
+      "w": "would",
+      "start": 0.3,
+      "end": 0.38
+    },
+    {
+      "w": "I",
+      "start": 0.38,
+      "end": 0.4
+    },
+    {
+      "w": "make",
+      "start": 0.4,
+      "end": 0.58
+    },
+    {
+      "w": "a",
+      "start": 0.58,
+      "end": 0.7
+    },
+    {
+      "w": "million",
+      "start": 0.7,
+      "end": 0.88
+    },
+    {
+      "w": "dollars",
+      "start": 0.88,
+      "end": 1.14
+    },
+    {
+      "w": "in",
+      "start": 1.14,
+      "end": 1.32
+    },
+    {
+      "w": "one",
+      "start": 1.32,
+      "end": 1.46
+    },
+    {
+      "w": "year",
+      "start": 1.46,
+      "end": 1.68
+    },
+    {
+      "w": "from",
+      "start": 1.68,
+      "end": 1.86
+    },
+    {
+      "w": "zero?",
+      "start": 1.86,
+      "end": 2.06
+    },
+    {
+      "w": "You",
+      "start": 2.3,
+      "end": 2.38
+    },
+    {
+      "w": "don't",
+      "start": 2.38,
+      "end": 2.62
+    },
+    {
+      "w": "have",
+      "start": 2.62,
+      "end": 2.76
+    },
+    {
+      "w": "to",
+      "start": 2.76,
+      "end": 2.84
+    },
+    {
+      "w": "get",
+      "start": 2.84,
+      "end": 2.94
+    },
+    {
+      "w": "more",
+      "start": 2.94,
+      "end": 3.1
+    },
+    {
+      "w": "than",
+      "start": 3.1,
+      "end": 3.2
+    },
+    {
+      "w": "25",
+      "start": 3.2,
+      "end": 3.5
+    },
+    {
+      "w": ",000",
+      "start": 3.5,
+      "end": 3.84
+    },
+    {
+      "w": "views",
+      "start": 3.84,
+      "end": 4.02
+    },
+    {
+      "w": "a",
+      "start": 4.02,
+      "end": 4.14
+    },
+    {
+      "w": "video.",
+      "start": 4.14,
+      "end": 4.34
+    },
+    {
+      "w": "You",
+      "start": 4.56,
+      "end": 4.66
+    },
+    {
+      "w": "don't",
+      "start": 4.66,
+      "end": 4.84
+    },
+    {
+      "w": "need",
+      "start": 4.84,
+      "end": 4.96
+    },
+    {
+      "w": "a",
+      "start": 4.96,
+      "end": 5.04
+    },
+    {
+      "w": "huge",
+      "start": 5.04,
+      "end": 5.18
+    },
+    {
+      "w": "following.",
+      "start": 5.18,
+      "end": 5.52
+    },
+    {
+      "w": "You",
+      "start": 5.8,
+      "end": 5.86
+    },
+    {
+      "w": "just",
+      "start": 5.86,
+      "end": 6.0
+    },
+    {
+      "w": "need",
+      "start": 6.0,
+      "end": 6.1
+    },
+    {
+      "w": "to",
+      "start": 6.1,
+      "end": 6.24
+    },
+    {
+      "w": "monetize",
+      "start": 6.24,
+      "end": 6.64
+    },
+    {
+      "w": "a",
+      "start": 6.64,
+      "end": 6.74
+    },
+    {
+      "w": "different",
+      "start": 6.74,
+      "end": 6.92
+    },
+    {
+      "w": "way.",
+      "start": 6.92,
+      "end": 7.14
+    },
+    {
+      "w": "Callaway",
+      "start": 7.4,
+      "end": 7.56
+    },
+    {
+      "w": "is",
+      "start": 7.56,
+      "end": 7.82
+    },
+    {
+      "w": "a",
+      "start": 7.82,
+      "end": 7.92
+    },
+    {
+      "w": "creator",
+      "start": 7.92,
+      "end": 8.22
+    },
+    {
+      "w": "with",
+      "start": 8.22,
+      "end": 8.54
+    },
+    {
+      "w": "billions",
+      "start": 8.54,
+      "end": 8.98
+    },
+    {
+      "w": "of",
+      "start": 8.98,
+      "end": 9.24
+    },
+    {
+      "w": "views",
+      "start": 9.24,
+      "end": 9.6
+    },
+    {
+      "w": "and",
+      "start": 9.6,
+      "end": 10.04
+    },
+    {
+      "w": "founder",
+      "start": 10.04,
+      "end": 10.32
+    },
+    {
+      "w": "of",
+      "start": 10.32,
+      "end": 10.44
+    },
+    {
+      "w": "Sandcastles,",
+      "start": 10.44,
+      "end": 11.3
+    },
+    {
+      "w": "a",
+      "start": 11.48,
+      "end": 11.6
+    },
+    {
+      "w": "content",
+      "start": 11.6,
+      "end": 11.88
+    },
+    {
+      "w": "strategy",
+      "start": 11.88,
+      "end": 12.26
+    },
+    {
+      "w": "tool",
+      "start": 12.26,
+      "end": 12.62
+    },
+    {
+      "w": "that",
+      "start": 12.62,
+      "end": 13.0
+    },
+    {
+      "w": "has",
+      "start": 13.0,
+      "end": 13.12
+    },
+    {
+      "w": "printed",
+      "start": 13.12,
+      "end": 13.36
+    },
+    {
+      "w": "him",
+      "start": 13.36,
+      "end": 13.54
+    },
+    {
+      "w": "millions.",
+      "start": 13.54,
+      "end": 13.86
+    },
+    {
+      "w": "The",
+      "start": 14.38,
+      "end": 14.46
+    },
+    {
+      "w": "way",
+      "start": 14.46,
+      "end": 14.62
+    },
+    {
+      "w": "to",
+      "start": 14.62,
+      "end": 14.72
+    },
+    {
+      "w": "make",
+      "start": 14.72,
+      "end": 14.86
+    },
+    {
+      "w": "money",
+      "start": 14.86,
+      "end": 15.08
+    },
+    {
+      "w": "with",
+      "start": 15.08,
+      "end": 15.22
+    },
+    {
+      "w": "content",
+      "start": 15.22,
+      "end": 15.56
+    },
+    {
+      "w": "is",
+      "start": 15.56,
+      "end": 15.84
+    },
+    {
+      "w": "to",
+      "start": 15.84,
+      "end": 16.02
+    },
+    {
+      "w": "have",
+      "start": 16.02,
+      "end": 16.4
+    },
+    {
+      "w": "expert",
+      "start": 16.4,
+      "end": 17.04
+    },
+    {
+      "w": "level",
+      "start": 17.04,
+      "end": 17.3
+    },
+    {
+      "w": "skills.",
+      "start": 17.3,
+      "end": 17.78
+    },
+    {
+      "w": "Content",
+      "start": 18.02,
+      "end": 18.26
+    },
+    {
+      "w": "is",
+      "start": 18.26,
+      "end": 18.42
+    },
+    {
+      "w": "just",
+      "start": 18.42,
+      "end": 18.48
+    },
+    {
+      "w": "a",
+      "start": 18.48,
+      "end": 18.6
+    },
+    {
+      "w": "vehicle",
+      "start": 18.6,
+      "end": 18.84
+    },
+    {
+      "w": "to",
+      "start": 18.84,
+      "end": 19.1
+    },
+    {
+      "w": "amplify",
+      "start": 19.1,
+      "end": 19.58
+    },
+    {
+      "w": "attention",
+      "start": 19.58,
+      "end": 20.02
+    },
+    {
+      "w": "on",
+      "start": 20.02,
+      "end": 20.28
+    },
+    {
+      "w": "those",
+      "start": 20.28,
+      "end": 20.4
+    },
+    {
+      "w": "skills",
+      "start": 20.4,
+      "end": 20.62
+    },
+    {
+      "w": "and",
+      "start": 20.62,
+      "end": 20.78
+    },
+    {
+      "w": "monetize",
+      "start": 20.78,
+      "end": 21.26
+    },
+    {
+      "w": "around",
+      "start": 21.26,
+      "end": 21.54
+    },
+    {
+      "w": "it.",
+      "start": 21.54,
+      "end": 21.74
+    },
+    {
+      "w": "Callaway",
+      "start": 21.82,
+      "end": 22.14
+    },
+    {
+      "w": "shares",
+      "start": 22.14,
+      "end": 22.56
+    },
+    {
+      "w": "his",
+      "start": 22.56,
+      "end": 22.8
+    },
+    {
+      "w": "screen",
+      "start": 22.8,
+      "end": 23.18
+    },
+    {
+      "w": "and",
+      "start": 23.18,
+      "end": 23.64
+    },
+    {
+      "w": "live",
+      "start": 23.64,
+      "end": 24.16
+    },
+    {
+      "w": "on",
+      "start": 24.16,
+      "end": 24.56
+    },
+    {
+      "w": "the",
+      "start": 24.56,
+      "end": 24.74
+    },
+    {
+      "w": "podcast",
+      "start": 24.74,
+      "end": 25.24
+    },
+    {
+      "w": "built",
+      "start": 25.24,
+      "end": 25.78
+    },
+    {
+      "w": "out",
+      "start": 25.78,
+      "end": 26.0
+    },
+    {
+      "w": "a",
+      "start": 26.0,
+      "end": 26.16
+    },
+    {
+      "w": "winning",
+      "start": 26.16,
+      "end": 26.5
+    },
+    {
+      "w": "content",
+      "start": 26.5,
+      "end": 26.96
+    },
+    {
+      "w": "strategy",
+      "start": 26.96,
+      "end": 27.54
+    },
+    {
+      "w": "from",
+      "start": 27.54,
+      "end": 27.88
+    },
+    {
+      "w": "scratch.",
+      "start": 27.88,
+      "end": 28.16
+    },
+    {
+      "w": "To",
+      "start": 28.16,
+      "end": 28.52
+    },
+    {
+      "w": "be",
+      "start": 28.52,
+      "end": 28.64
+    },
+    {
+      "w": "honest,",
+      "start": 28.64,
+      "end": 28.84
+    },
+    {
+      "w": "this",
+      "start": 29.24,
+      "end": 29.4
+    },
+    {
+      "w": "is",
+      "start": 29.4,
+      "end": 29.52
+    },
+    {
+      "w": "the",
+      "start": 29.52,
+      "end": 29.62
+    },
+    {
+      "w": "whole",
+      "start": 29.62,
+      "end": 29.8
+    },
+    {
+      "w": "game.",
+      "start": 29.8,
+      "end": 30.08
+    },
+    {
+      "w": "People",
+      "start": 30.2,
+      "end": 30.34
+    },
+    {
+      "w": "pay",
+      "start": 30.34,
+      "end": 30.64
+    },
+    {
+      "w": "like",
+      "start": 30.64,
+      "end": 30.82
+    },
+    {
+      "w": "10",
+      "start": 30.82,
+      "end": 31.04
+    },
+    {
+      "w": "grand",
+      "start": 31.04,
+      "end": 31.3
+    },
+    {
+      "w": "to",
+      "start": 31.3,
+      "end": 31.58
+    },
+    {
+      "w": "a",
+      "start": 31.58,
+      "end": 31.68
+    },
+    {
+      "w": "strategist",
+      "start": 31.68,
+      "end": 32.18
+    },
+    {
+      "w": "for",
+      "start": 32.18,
+      "end": 32.34
+    },
+    {
+      "w": "weeks",
+      "start": 32.34,
+      "end": 32.54
+    },
+    {
+      "w": "of",
+      "start": 32.54,
+      "end": 32.72
+    },
+    {
+      "w": "work",
+      "start": 32.72,
+      "end": 32.92
+    },
+    {
+      "w": "and",
+      "start": 32.92,
+      "end": 33.1
+    },
+    {
+      "w": "we",
+      "start": 33.1,
+      "end": 33.32
+    },
+    {
+      "w": "just",
+      "start": 33.32,
+      "end": 33.46
+    },
+    {
+      "w": "did",
+      "start": 33.46,
+      "end": 33.56
+    },
+    {
+      "w": "this",
+      "start": 33.56,
+      "end": 33.72
+    },
+    {
+      "w": "in",
+      "start": 33.72,
+      "end": 33.8
+    },
+    {
+      "w": "30",
+      "start": 33.8,
+      "end": 33.96
+    },
+    {
+      "w": "minutes.",
+      "start": 33.96,
+      "end": 34.16
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 0.25,
+      "length": 0.25,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#000000",
+            "share": 1.0
+          }
+        ],
+        "motion_energy": 22.21,
+        "script": "How"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 0.25,
+      "end": 2.294,
+      "length": 2.044,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#111012",
+            "share": 0.289
+          },
+          {
+            "hex": "#28292C",
+            "share": 0.25
+          },
+          {
+            "hex": "#4B5052",
+            "share": 0.119
+          },
+          {
+            "hex": "#686F71",
+            "share": 0.046
+          },
+          {
+            "hex": "#5A6365",
+            "share": 0.035
+          }
+        ],
+        "motion_energy": 15.21,
+        "script": "would I make a million dollars in one year from zero?"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 2.294,
+      "end": 7.174,
+      "length": 4.88,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#070709",
+            "share": 0.534
+          },
+          {
+            "hex": "#232529",
+            "share": 0.189
+          },
+          {
+            "hex": "#1E2023",
+            "share": 0.126
+          },
+          {
+            "hex": "#1B1E21",
+            "share": 0.085
+          },
+          {
+            "hex": "#2C1713",
+            "share": 0.014
+          }
+        ],
+        "motion_energy": 14.66,
+        "script": "You don't have to get more than 25 ,000 views a video. You don't need a huge following. You just need to monetize a different way."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 7.174,
+      "end": 7.216,
+      "length": 0.042,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FB0C00",
+            "share": 0.897
+          },
+          {
+            "hex": "#FB2B01",
+            "share": 0.061
+          },
+          {
+            "hex": "#FA5002",
+            "share": 0.018
+          },
+          {
+            "hex": "#F96A04",
+            "share": 0.01
+          },
+          {
+            "hex": "#DB1501",
+            "share": 0.007
+          }
+        ],
+        "motion_energy": 0.0,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 7.216,
+      "end": 7.257,
+      "length": 0.042,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FCF050",
+            "share": 0.694
+          },
+          {
+            "hex": "#FCF03D",
+            "share": 0.142
+          },
+          {
+            "hex": "#FCF367",
+            "share": 0.126
+          },
+          {
+            "hex": "#FCF58D",
+            "share": 0.019
+          },
+          {
+            "hex": "#FBF7AB",
+            "share": 0.01
+          }
+        ],
+        "motion_energy": 0.0,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 7.257,
+      "end": 7.341,
+      "length": 0.083,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FCEC33",
+            "share": 0.312
+          },
+          {
+            "hex": "#FCC836",
+            "share": 0.285
+          },
+          {
+            "hex": "#FCED49",
+            "share": 0.216
+          },
+          {
+            "hex": "#FBBC25",
+            "share": 0.055
+          },
+          {
+            "hex": "#FCCC49",
+            "share": 0.047
+          }
+        ],
+        "motion_energy": 20.78,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 7.341,
+      "end": 8.55,
+      "length": 1.21,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0B",
+            "share": 0.479
+          },
+          {
+            "hex": "#2B2A2B",
+            "share": 0.405
+          },
+          {
+            "hex": "#2A0A0A",
+            "share": 0.033
+          },
+          {
+            "hex": "#4B2D2D",
+            "share": 0.032
+          },
+          {
+            "hex": "#4A4A4D",
+            "share": 0.01
+          }
+        ],
+        "motion_energy": 7.7,
+        "script": "Callaway is a creator with billions"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 8.55,
+      "end": 8.592,
+      "length": 0.042,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FCFBFB",
+            "share": 0.224
+          },
+          {
+            "hex": "#131014",
+            "share": 0.186
+          },
+          {
+            "hex": "#312D2B",
+            "share": 0.09
+          },
+          {
+            "hex": "#E66934",
+            "share": 0.057
+          },
+          {
+            "hex": "#CE5227",
+            "share": 0.029
+          }
+        ],
+        "motion_energy": 0.0,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 8.592,
+      "end": 8.634,
+      "length": 0.042,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FCFBFB",
+            "share": 0.278
+          },
+          {
+            "hex": "#FA984E",
+            "share": 0.193
+          },
+          {
+            "hex": "#120F14",
+            "share": 0.092
+          },
+          {
+            "hex": "#FAAE69",
+            "share": 0.064
+          },
+          {
+            "hex": "#FBA458",
+            "share": 0.064
+          }
+        ],
+        "motion_energy": 0.0,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 8.634,
+      "end": 8.8,
+      "length": 0.167,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FCFCFB",
+            "share": 0.361
+          },
+          {
+            "hex": "#FCE588",
+            "share": 0.18
+          },
+          {
+            "hex": "#FCE67A",
+            "share": 0.168
+          },
+          {
+            "hex": "#FBD873",
+            "share": 0.112
+          },
+          {
+            "hex": "#FCF0AD",
+            "share": 0.099
+          }
+        ],
+        "motion_energy": 25.64,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 10,
+      "start": 8.8,
+      "end": 9.218,
+      "length": 0.417,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FCFCFC",
+            "share": 0.484
+          },
+          {
+            "hex": "#171416",
+            "share": 0.085
+          },
+          {
+            "hex": "#302D2A",
+            "share": 0.05
+          },
+          {
+            "hex": "#28211B",
+            "share": 0.038
+          },
+          {
+            "hex": "#231C19",
+            "share": 0.037
+          }
+        ],
+        "motion_energy": 39.4,
+        "script": "of"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 11,
+      "start": 9.218,
+      "end": 10.135,
+      "length": 0.918,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#E1E4E6",
+            "share": 0.51
+          },
+          {
+            "hex": "#DEE0E3",
+            "share": 0.188
+          },
+          {
+            "hex": "#D0D2D5",
+            "share": 0.106
+          },
+          {
+            "hex": "#DCDEE0",
+            "share": 0.067
+          },
+          {
+            "hex": "#ADAFB1",
+            "share": 0.038
+          }
+        ],
+        "motion_energy": 54.32,
+        "script": "views and founder"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 12,
+      "start": 10.135,
+      "end": 10.26,
+      "length": 0.125,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#263031",
+            "share": 0.524
+          },
+          {
+            "hex": "#1C2729",
+            "share": 0.102
+          },
+          {
+            "hex": "#36474E",
+            "share": 0.063
+          },
+          {
+            "hex": "#54686F",
+            "share": 0.042
+          },
+          {
+            "hex": "#CDD3D6",
+            "share": 0.029
+          }
+        ],
+        "motion_energy": 12.37,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 13,
+      "start": 10.26,
+      "end": 10.385,
+      "length": 0.125,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#39474D",
+            "share": 0.221
+          },
+          {
+            "hex": "#1B2426",
+            "share": 0.132
+          },
+          {
+            "hex": "#0E1315",
+            "share": 0.098
+          },
+          {
+            "hex": "#435158",
+            "share": 0.09
+          },
+          {
+            "hex": "#283235",
+            "share": 0.084
+          }
+        ],
+        "motion_energy": 15.65,
+        "script": "of"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 14,
+      "start": 10.385,
+      "end": 10.511,
+      "length": 0.125,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#55686B",
+            "share": 0.4
+          },
+          {
+            "hex": "#657578",
+            "share": 0.111
+          },
+          {
+            "hex": "#C7CED1",
+            "share": 0.087
+          },
+          {
+            "hex": "#47595B",
+            "share": 0.083
+          },
+          {
+            "hex": "#73868B",
+            "share": 0.075
+          }
+        ],
+        "motion_energy": 16.5,
+        "script": "Sandcastles,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 15,
+      "start": 10.511,
+      "end": 10.677,
+      "length": 0.167,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#050506",
+            "share": 0.262
+          },
+          {
+            "hex": "#2E2F2F",
+            "share": 0.192
+          },
+          {
+            "hex": "#4D4F50",
+            "share": 0.177
+          },
+          {
+            "hex": "#6B6E70",
+            "share": 0.109
+          },
+          {
+            "hex": "#8C8F92",
+            "share": 0.083
+          }
+        ],
+        "motion_energy": 44.4,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 16,
+      "start": 10.677,
+      "end": 11.511,
+      "length": 0.834,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FCFCFC",
+            "share": 0.98
+          },
+          {
+            "hex": "#6E6E6E",
+            "share": 0.003
+          },
+          {
+            "hex": "#CFCFCF",
+            "share": 0.003
+          },
+          {
+            "hex": "#909090",
+            "share": 0.003
+          },
+          {
+            "hex": "#B1B1B1",
+            "share": 0.003
+          }
+        ],
+        "motion_energy": 57.15,
+        "script": "a"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 17,
+      "start": 11.511,
+      "end": 12.596,
+      "length": 1.084,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#14274D",
+            "share": 0.732
+          },
+          {
+            "hex": "#02122F",
+            "share": 0.198
+          },
+          {
+            "hex": "#021A46",
+            "share": 0.027
+          },
+          {
+            "hex": "#455474",
+            "share": 0.005
+          },
+          {
+            "hex": "#36486C",
+            "share": 0.005
+          }
+        ],
+        "motion_energy": 10.0,
+        "script": "content strategy tool"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 18,
+      "start": 12.596,
+      "end": 13.263,
+      "length": 0.667,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#222F4B",
+            "share": 0.291
+          },
+          {
+            "hex": "#010F2A",
+            "share": 0.184
+          },
+          {
+            "hex": "#F8F8F8",
+            "share": 0.086
+          },
+          {
+            "hex": "#444F79",
+            "share": 0.072
+          },
+          {
+            "hex": "#345866",
+            "share": 0.067
+          }
+        ],
+        "motion_energy": 36.45,
+        "script": "that has printed"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 19,
+      "start": 13.263,
+      "end": 13.597,
+      "length": 0.334,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#000000",
+            "share": 0.639
+          },
+          {
+            "hex": "#3D4645",
+            "share": 0.271
+          },
+          {
+            "hex": "#414949",
+            "share": 0.07
+          },
+          {
+            "hex": "#2C3030",
+            "share": 0.012
+          },
+          {
+            "hex": "#6E6E6F",
+            "share": 0.004
+          }
+        ],
+        "motion_energy": 19.21,
+        "script": "him millions."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 20,
+      "start": 13.597,
+      "end": 14.389,
+      "length": 0.793,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0A090A",
+            "share": 0.436
+          },
+          {
+            "hex": "#2C3234",
+            "share": 0.232
+          },
+          {
+            "hex": "#3B4547",
+            "share": 0.122
+          },
+          {
+            "hex": "#434B4D",
+            "share": 0.098
+          },
+          {
+            "hex": "#1D2124",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 66.33,
+        "script": "The"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 21,
+      "start": 14.389,
+      "end": 21.688,
+      "length": 7.299,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#090A0B",
+            "share": 0.533
+          },
+          {
+            "hex": "#232628",
+            "share": 0.322
+          },
+          {
+            "hex": "#281811",
+            "share": 0.048
+          },
+          {
+            "hex": "#1A1D21",
+            "share": 0.016
+          },
+          {
+            "hex": "#342213",
+            "share": 0.014
+          }
+        ],
+        "motion_energy": 28.21,
+        "script": "way to make money with content is to have expert level skills. Content is just a vehicle to amplify attention on those skills and monetize around it."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 22,
+      "start": 21.688,
+      "end": 22.981,
+      "length": 1.293,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#08090A",
+            "share": 0.449
+          },
+          {
+            "hex": "#3B4547",
+            "share": 0.216
+          },
+          {
+            "hex": "#313738",
+            "share": 0.199
+          },
+          {
+            "hex": "#373E41",
+            "share": 0.037
+          },
+          {
+            "hex": "#1A1D21",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 16.18,
+        "script": "Callaway shares his screen"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 23,
+      "start": 22.981,
+      "end": 23.774,
+      "length": 0.793,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100F10",
+            "share": 0.306
+          },
+          {
+            "hex": "#2B2D31",
+            "share": 0.144
+          },
+          {
+            "hex": "#0F1728",
+            "share": 0.131
+          },
+          {
+            "hex": "#494E51",
+            "share": 0.09
+          },
+          {
+            "hex": "#6A7072",
+            "share": 0.046
+          }
+        ],
+        "motion_energy": 10.24,
+        "script": "and live"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 24,
+      "start": 23.774,
+      "end": 25.484,
+      "length": 1.71,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0A0B0F",
+            "share": 0.461
+          },
+          {
+            "hex": "#1E2022",
+            "share": 0.144
+          },
+          {
+            "hex": "#242528",
+            "share": 0.098
+          },
+          {
+            "hex": "#191B21",
+            "share": 0.051
+          },
+          {
+            "hex": "#2B1511",
+            "share": 0.033
+          }
+        ],
+        "motion_energy": 18.89,
+        "script": "on the podcast built"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 25,
+      "start": 25.484,
+      "end": 25.526,
+      "length": 0.042,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#EF520B",
+            "share": 0.172
+          },
+          {
+            "hex": "#F16B30",
+            "share": 0.161
+          },
+          {
+            "hex": "#E85625",
+            "share": 0.137
+          },
+          {
+            "hex": "#F98D4F",
+            "share": 0.121
+          },
+          {
+            "hex": "#D63B16",
+            "share": 0.091
+          }
+        ],
+        "motion_energy": 0.0,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 26,
+      "start": 25.526,
+      "end": 25.776,
+      "length": 0.25,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0C0C",
+            "share": 0.383
+          },
+          {
+            "hex": "#323131",
+            "share": 0.22
+          },
+          {
+            "hex": "#4E4E4E",
+            "share": 0.209
+          },
+          {
+            "hex": "#696969",
+            "share": 0.159
+          },
+          {
+            "hex": "#AEAEAE",
+            "share": 0.011
+          }
+        ],
+        "motion_energy": 30.84,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 27,
+      "start": 25.776,
+      "end": 25.859,
+      "length": 0.083,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E1214",
+            "share": 0.774
+          },
+          {
+            "hex": "#1A2124",
+            "share": 0.103
+          },
+          {
+            "hex": "#171E20",
+            "share": 0.06
+          },
+          {
+            "hex": "#282D32",
+            "share": 0.023
+          },
+          {
+            "hex": "#4A5055",
+            "share": 0.007
+          }
+        ],
+        "motion_energy": 12.66,
+        "script": "out"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 28,
+      "start": 25.859,
+      "end": 28.612,
+      "length": 2.753,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0E10",
+            "share": 0.658
+          },
+          {
+            "hex": "#292F31",
+            "share": 0.128
+          },
+          {
+            "hex": "#1C2224",
+            "share": 0.068
+          },
+          {
+            "hex": "#4D4F52",
+            "share": 0.032
+          },
+          {
+            "hex": "#181E20",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 15.71,
+        "script": "a winning content strategy from scratch. To be"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 29,
+      "start": 28.612,
+      "end": 28.737,
+      "length": 0.125,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#080607",
+            "share": 0.511
+          },
+          {
+            "hex": "#272326",
+            "share": 0.359
+          },
+          {
+            "hex": "#261E20",
+            "share": 0.041
+          },
+          {
+            "hex": "#2B1410",
+            "share": 0.021
+          },
+          {
+            "hex": "#1B1C21",
+            "share": 0.011
+          }
+        ],
+        "motion_energy": 50.36,
+        "script": "honest,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 30,
+      "start": 28.737,
+      "end": 33.283,
+      "length": 4.546,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#292B2E",
+            "share": 0.313
+          },
+          {
+            "hex": "#101012",
+            "share": 0.299
+          },
+          {
+            "hex": "#4A5052",
+            "share": 0.147
+          },
+          {
+            "hex": "#697072",
+            "share": 0.043
+          },
+          {
+            "hex": "#3C4345",
+            "share": 0.034
+          }
+        ],
+        "motion_energy": 13.13,
+        "script": "this is the whole game. People pay like 10 grand to a strategist for weeks of work and we"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 31,
+      "start": 33.283,
+      "end": 34.66,
+      "length": 1.376,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#080809",
+            "share": 0.485
+          },
+          {
+            "hex": "#232628",
+            "share": 0.318
+          },
+          {
+            "hex": "#291610",
+            "share": 0.064
+          },
+          {
+            "hex": "#1E2325",
+            "share": 0.02
+          },
+          {
+            "hex": "#1A1D21",
+            "share": 0.015
+          }
+        ],
+        "motion_energy": 6.73,
+        "script": "just did this in 30 minutes."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 32,
+      "start": 34.66,
+      "end": 34.743,
+      "length": 0.083,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#323A45",
+            "share": 0.132
+          },
+          {
+            "hex": "#7A848B",
+            "share": 0.13
+          },
+          {
+            "hex": "#484F58",
+            "share": 0.12
+          },
+          {
+            "hex": "#696F76",
+            "share": 0.118
+          },
+          {
+            "hex": "#505963",
+            "share": 0.112
+          }
+        ],
+        "motion_energy": 27.25,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 33,
+      "start": 34.743,
+      "end": 34.827,
+      "length": 0.083,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#000000",
+            "share": 0.992
+          },
+          {
+            "hex": "#2B2B2B",
+            "share": 0.003
+          },
+          {
+            "hex": "#6E6E6E",
+            "share": 0.002
+          },
+          {
+            "hex": "#898989",
+            "share": 0.002
+          },
+          {
+            "hex": "#545454",
+            "share": 0.001
+          }
+        ],
+        "motion_energy": 18.17,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 34,
+      "start": 34.827,
+      "end": 37.162,
+      "length": 2.336,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#000000",
+            "share": 0.992
+          },
+          {
+            "hex": "#2B2B2B",
+            "share": 0.003
+          },
+          {
+            "hex": "#6E6E6E",
+            "share": 0.002
+          },
+          {
+            "hex": "#898989",
+            "share": 0.002
+          },
+          {
+            "hex": "#545454",
+            "share": 0.001
+          }
+        ],
+        "motion_energy": 0.18,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 35,
+      "start": 37.162,
+      "end": 37.204,
+      "length": 0.042,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#000000",
+            "share": 0.751
+          },
+          {
+            "hex": "#FCFCFC",
+            "share": 0.23
+          },
+          {
+            "hex": "#313131",
+            "share": 0.006
+          },
+          {
+            "hex": "#D9D9D9",
+            "share": 0.006
+          },
+          {
+            "hex": "#929292",
+            "share": 0.006
+          }
+        ],
+        "motion_energy": 0.0,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 36,
+      "start": 37.204,
+      "end": 37.246,
+      "length": 0.042,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#000000",
+            "share": 1.0
+          }
+        ],
+        "motion_energy": 0.0,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 37,
+      "start": 37.246,
+      "end": 38.997,
+      "length": 1.752,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#000000",
+            "share": 1.0
+          }
+        ],
+        "motion_energy": 0.0,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+1
+00:00:00,000 --> 00:00:00,920
+This robot just got its
+
+2
+00:00:00,920 --> 00:00:02,279
+head kicked off in the
+
+3
+00:00:02,279 --> 00:00:04,580
+world's first robot UFC. This
+
+4
+00:00:04,580 --> 00:00:06,059
+is URKL. It's a new
+
+5
+00:00:06,059 --> 00:00:07,320
+fight league in China where
+
+6
+00:00:07,320 --> 00:00:09,279
+full -size humanoid robots fight
+
+7
+00:00:09,279 --> 00:00:10,880
+MMA style in a real
+
+8
+00:00:10,880 --> 00:00:12,080
+cage. Now, here's the interesting
+
+9
+00:00:12,080 --> 00:00:13,000
+part about how the league
+
+10
+00:00:13,000 --> 00:00:14,480
+works. Every fighter in the
+
+11
+00:00:14,480 --> 00:00:15,839
+league starts with the exact
+
+12
+00:00:15,839 --> 00:00:17,260
+same robot. A $40 ,000
+
+13
+00:00:17,260 --> 00:00:18,899
+humanoid called the T -800.
+
+14
+00:00:19,280 --> 00:00:20,280
+And yes, it's named after
+
+15
+00:00:20,280 --> 00:00:22,059
+Terminator. So 32 teams from
+
+16
+00:00:22,059 --> 00:00:23,320
+around the world all get
+
+17
+00:00:23,320 --> 00:00:25,440
+identical robot bodies. So the
+
+18
+00:00:25,440 --> 00:00:27,019
+fight isn't really about medal
+
+19
+00:00:27,019 --> 00:00:28,760
+versus medal. It's actually about
+
+20
+00:00:28,760 --> 00:00:30,820
+code versus code. Whoever builds
+
+21
+00:00:30,820 --> 00:00:32,340
+the better fight plan into
+
+22
+00:00:32,340 --> 00:00:33,920
+their robot wins the match.
+
+23
+00:00:34,140 --> 00:00:34,880
+And in this league, they're
+
+24
+00:00:34,880 --> 00:00:35,799
+not fighting for a trophy.
+
+25
+00:00:36,100 --> 00:00:37,039
+The champion takes home a
+
+26
+00:00:37,039 --> 00:00:38,500
+belt made of 10 kilograms
+
+27
+00:00:38,500 --> 00:00:40,280
+of solid gold, worth about
+
+28
+00:00:40,280 --> 00:00:42,219
+$1 .5 million. To be
+
+29
+00:00:42,219 --> 00:00:43,159
+fair, the fights in the
+
+30
+00:00:43,159 --> 00:00:44,600
+league are still pretty clunky.
+
+31
+00:00:44,679 --> 00:00:45,939
+It's very early. The robots
+
+32
+00:00:45,939 --> 00:00:47,460
+miss punches. They face the
+
+33
+00:00:47,460 --> 00:00:48,880
+wrong way. Sometimes the celebration
+
+34
+00:00:48,880 --> 00:00:50,119
+moves are better than the
+
+35
+00:00:50,119 --> 00:00:51,359
+actual fighting. But it's clear
+
+36
+00:00:51,359 --> 00:00:52,820
+we're watching the very beginning
+
+37
+00:00:52,820 --> 00:00:54,020
+of a brand new age
+
+38
+00:00:54,020 --> 00:00:55,899
+in robot sports. And who
+
+39
+00:00:55,899 --> 00:00:57,280
+knows, maybe one day the
+
+40
+00:00:57,280 --> 00:00:58,659
+UFC will acquire it. Fall
+
+41
+00:00:58,659 --> 00:00:59,100
+if you want to learn
+
+42
+00:00:59,100 --> 00:01:00,439
+more about tech, AI and
+
+43
+00:01:00,439 --> 00:01:00,719
+robotics.

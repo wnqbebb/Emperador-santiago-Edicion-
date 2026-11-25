@@ -1,0 +1,1271 @@
+{
+ "triggers": [
+  {
+   "t_word": 3.62,
+   "word": "Gemini",
+   "element": "Logo «Gemini Live» sobre blanco; la franja roja desaparece en el mismo corte",
+   "category": "split_graphic",
+   "offset_s": -0.28,
+   "why": "literal: dice el nombre del producto → logotipo",
+   "scene": "v13_s02",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 4.56,
+   "word": "And",
+   "element": "Pantalla completa de su cara; 7 palabras sucesivas, una por golpe de voz.",
+   "category": "face_full_word",
+   "offset_s": -0.06,
+   "why": "Giro del gancho («hay una forma de usar esto…»): quita la evidencia para que mires a la persona y leas palabra a palabra.",
+   "scene": "v13_s03",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 5.68,
+   "word": "Not",
+   "element": "Rodaje propio en exteriores (atardecer), cámara siguiéndolo; sin interfaz superpuesta. (No hay valor de enum para 'rodaje propio'; se anota como stock.)",
+   "category": "full_graphic",
+   "offset_s": -0.09,
+   "why": "Muestra el uso real (hablarle al teléfono) justo cuando dice que poca gente lo ha probado: demostración física del caso.",
+   "scene": "v13_s04",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 6.7,
+   "word": "that",
+   "element": "Pantalla completa de su cara; las dos palabras de valor en dorado ~#E0A93B.",
+   "category": "face_full_word",
+   "offset_s": 0.06,
+   "why": "Énfasis emocional del gancho: color dorado solo en las palabras que venden el beneficio.",
+   "scene": "v13_s05",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 7.06,
+   "word": "insanely",
+   "element": "Palabra «insanely» en dorado a pantalla completa",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "énfasis: color solo en palabra de valor",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 8.04,
+   "word": "for",
+   "element": "El A-roll se convierte en el contenido de un teléfono: escala 1,0→~0,72 en ~0,4 s (8,4–8,8 s) mientras aparece el marco del móvil y el degradado detrás; luego sigue un…",
+   "category": "full_graphic",
+   "offset_s": 0.16,
+   "why": "«para creadores y marketers» → se muestra a sí mismo como un Short: la audiencia se reconoce en el formato.",
+   "scene": "v13_s06",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 9.96,
+   "word": "With",
+   "element": "Texto en itálica gris-blanco apareciendo palabra a palabra (transcripción en vivo); orbe azul con brillo que pulsa. 11,6–12,3 s: zoom-out (≈1,0→0,6) que revela el degr…",
+   "category": "split_screenrec",
+   "offset_s": -0.03,
+   "why": "«control por voz» → se ve la voz convertida en texto en tiempo real: prueba literal de la función.",
+   "scene": "v13_s07",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 12.64,
+   "word": "your",
+   "element": "B-roll de exteriores + panel de interfaz compuesto que sube desde abajo (12,5→13,3 s) y aclara su texto (de atenuado a blanco).",
+   "category": "full_graphic",
+   "offset_s": -0.13,
+   "why": "«tu agente personal de IA»: une persona real + interfaz en un mismo plano; humaniza la función.",
+   "scene": "v13_s08",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 14.48,
+   "word": "It",
+   "element": "Captura de Google Docs con zoom-out/scroll rápido. Sobre la mitad inferior, bloque legal blanco diminuto de 5 líneas centrado (y≈1170–1230 px): «Available to AI Pro an…",
+   "category": "split_headline",
+   "offset_s": -0.09,
+   "why": "Enumeración: cada app nombrada = su captura. El aviso legal revela que es contenido patrocinado.",
+   "scene": "v13_s09",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 15.52,
+   "word": "drives,",
+   "element": "Animación de producto: tarjetas de archivo que caen en cascada y rotan dentro de la zona de carga; cada ~0,15 s cambia la tarjeta superior.",
+   "category": "split_graphic",
+   "offset_s": -0.13,
+   "why": "«Drive, Slides»: archivos volando = acceso a todos tus ficheros; mantiene el ritmo de lista.",
+   "scene": "v13_s10",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 15.52,
+   "word": "drives,",
+   "element": "Subtítulo «Drive,» + interfaz «Upload sources» con tarjetas cayendo",
+   "category": "split_graphic",
+   "offset_s": 0.0,
+   "why": "literal: app nombrada → interfaz de archivos",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 16.38,
+   "word": "slidesheets,",
+   "element": "Tarjeta azul de diapositiva (Slides) dentro de la misma animación",
+   "category": "split_graphic",
+   "offset_s": 0.0,
+   "why": "literal: palabra de lista → tarjeta nueva",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 16.38,
+   "word": "slidesheets,",
+   "element": "Prompt escribiéndose carácter a carácter con cursor; tarjeta gris oscuro redondeada, botón de enviar blanco.",
+   "category": "split_screenrec",
+   "offset_s": 0.39,
+   "why": "«Sheets» → un XLSX adjunto: asociación literal en medio segundo.",
+   "scene": "v13_s11",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 17.3,
+   "word": "Gmail,",
+   "element": "Correo de Gmail con perspectiva 3D y zoom-out lento; cursor negro pequeño. Cuando dice «YouTube» la imagen sigue siendo el correo (no hay visual de YouTube).",
+   "category": "split_headline",
+   "offset_s": -0.03,
+   "why": "Cierra la lista de apps; el aviso legal sigue abajo hasta el corte.",
+   "scene": "v13_s12",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 18.18,
+   "word": "YouTube.",
+   "element": "NO cambia: sigue el correo de Gmail mientras dice «YouTube»",
+   "category": "split_headline",
+   "offset_s": 0.0,
+   "why": "ausencia de visual: desconocido si es descuido o decisión",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 18.72,
+   "word": "As",
+   "element": "Pantalla completa de su cara; 3 palabras grandes blancas.",
+   "category": "face_full_word",
+   "offset_s": -0.07,
+   "why": "Cambio de bloque: pasa de las funciones a su caso personal; la cara marca el «ahora yo».",
+   "scene": "v13_s13",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 19.26,
+   "word": "I",
+   "element": "Rodaje propio en exterior de día; plano medio lateral.",
+   "category": "full_graphic",
+   "offset_s": -0.11,
+   "why": "Sitúa la historia: él usando el producto en la calle, no en el estudio.",
+   "scene": "v13_s14",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 20.84,
+   "word": "an",
+   "element": "Grabación de pantalla que entra por slide-up (20,9–21,5 s) sobre el b-roll desenfocado, y luego zoom-in continuo hasta que el texto llena la pantalla (letras de ~60 px…",
+   "category": "full_graphic",
+   "offset_s": 0.06,
+   "why": "«construí un pipeline entero» → el resultado real del agente, tan cerca que solo puedes leerlo.",
+   "scene": "v13_s15",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 23.9,
+   "word": "All",
+   "element": "Pantalla de bienvenida de Gemini Live con zoom-in lento (texto crece ~1,4× en 1,9 s).",
+   "category": "split_screenrec",
+   "offset_s": 0.0,
+   "why": "«solo tuve que abrir Gemini Live» → la pantalla exacta que verás al abrirlo; repite el primer plano del video (rima visual).",
+   "scene": "v13_s16",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 25.76,
+   "word": "and",
+   "element": "Split con prompt arriba y b-roll de él caminando abajo (sustituye al set)",
+   "category": "split_screenrec",
+   "offset_s": 0.02,
+   "why": "«describí verbalmente» → abajo se le ve hablando al móvil y arriba el texto resultante: causa y efecto en un solo encuadre.",
+   "scene": "v13_s17",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 28.6,
+   "word": "it",
+   "element": "Teléfono negro inclinado que hace zoom-in mientras el documento hace scroll rápido hacia arriba.",
+   "category": "full_graphic",
+   "offset_s": -0.11,
+   "why": "«lo construyó todo» → el entregable completo, mostrado como producto en un móvil.",
+   "scene": "v13_s18",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 30.16,
+   "word": "automatically.",
+   "element": "Pantalla completa de su cara; una sola palabra en itálica didona (~105 px) con glow.",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "Palabra-beneficio aislada: la tipografía serif itálica la separa del resto como remate de la frase.",
+   "scene": "v13_s19",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 31.04,
+   "word": "First,",
+   "element": "Lista numerada con zoom-in lento; desde ~32,0 s el punto 1 queda en blanco y el resto se atenúa a gris oscuro (foco de lectura).",
+   "category": "split_screenrec",
+   "offset_s": -0.09,
+   "why": "«Primero escanea mi correo» → la línea exacta «Scan Gmail» resaltada por atenuación del resto.",
+   "scene": "v13_s20",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 32.88,
+   "word": "looking",
+   "element": "32,74 s teléfono completo con zoom-in; 34,0 s corte interno a primer plano inclinado (rotación ~8°) con scroll hacia arriba; barra «What's next?» abajo.",
+   "category": "full_graphic",
+   "offset_s": -0.14,
+   "why": "Detalle creíble (nombres, cifras) para que el ejemplo parezca real.",
+   "scene": "v13_s21",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 33.84,
+   "word": "with",
+   "element": "Corte interno: de teléfono completo a primer plano inclinado del documento",
+   "category": "full_graphic",
+   "offset_s": 0.16,
+   "why": "acercar para leer nombres y cifras",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 36.1,
+   "word": "When",
+   "element": "Scroll vertical continuo y lento; desde 41,2 s salto de scroll y atenuación que deja en blanco los títulos de videos («How to Become A Master Storyteller…»).",
+   "category": "split_screenrec",
+   "offset_s": -0.06,
+   "why": "Explica el proceso paso a paso: el scroll acompaña la narración como un teleprompter de pruebas.",
+   "scene": "v13_s22",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 42.3,
+   "word": "to",
+   "element": "Clip propio con cifras de vistas que suben en cápsulas moradas a izquierda y derecha; líneas cian arriba y abajo del clip.",
+   "category": "split_broll",
+   "offset_s": 0.12,
+   "why": "«mi mejor contenido en YouTube» → un video suyo con el contador de vistas subiendo: prueba social.",
+   "scene": "v13_s23",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 46.06,
+   "word": "Then",
+   "element": "Pantalla completa de su cara.",
+   "category": "aroll_plain",
+   "offset_s": -0.01,
+   "why": "Respiro y conector («entonces…») antes del siguiente paso del proceso.",
+   "scene": "v13_s24",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 47.82,
+   "word": "automatically",
+   "element": "48,0 s entra la pastilla de carpeta volando con motion blur; 49,4–50,3 s se dibuja la flecha curva; 50,4 s aparece la miniatura del doc. Los elementos siguen el movimi…",
+   "category": "full_graphic",
+   "offset_s": 0.11,
+   "why": "«crea una carpeta… con un doc dentro» → carpeta → flecha → doc, apareciendo en el orden exacto de las palabras.",
+   "scene": "v13_s25",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 48.36,
+   "word": "create",
+   "element": "Pastilla de carpeta «Brand Partnerships…» entra volando con motion blur",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "literal: «create a folder» → carpeta",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 50.62,
+   "word": "doc",
+   "element": "Flecha dibujada termina y aparece miniatura del doc «Campaign Content…»",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "literal: «a doc inside» → doc",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 53.06,
+   "word": "with",
+   "element": "Pantalla completa de su cara.",
+   "category": "aroll_plain",
+   "offset_s": 0.12,
+   "why": "Lista hablada sin apoyo visual: contacto visual para dar credibilidad antes de enseñar el doc.",
+   "scene": "v13_s26",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 56.54,
+   "word": "When",
+   "element": "Tarjeta blanca redondeada que nace desde un punto central (escala 0→1 con blur, 5 fotogramas); cursor de flecha negro con borde blanco.",
+   "category": "full_graphic",
+   "offset_s": -0.06,
+   "why": "«abro ese doc» → la acción de abrirlo, con cursor: guía la mirada como una demo.",
+   "scene": "v13_s27",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 57.86,
+   "word": "that",
+   "element": "Página blanca con sombra y esquinas redondeadas, rotación 3D que oscila; scroll con motion blur entre secciones; cursor negro grande encima.",
+   "category": "full_graphic",
+   "offset_s": -0.05,
+   "why": "El payoff: el documento ya hecho. El subtítulo viaja con el cursor para que leas y mires en el mismo punto.",
+   "scene": "v13_s28",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 61.72,
+   "word": "I",
+   "element": "Pantalla completa de su cara.",
+   "category": "aroll_plain",
+   "offset_s": -0.07,
+   "why": "Anuncia que va a bautizar el concepto: cara antes del título.",
+   "scene": "v13_s29",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 62.42,
+   "word": "data",
+   "element": "Título en dos fuentes centrado en la mitad superior; tarjeta del doc entra detrás (62,7 s) y el cursor se mueve. Aquí la costura está en y≈614 px (48 %).",
+   "category": "split_graphic",
+   "offset_s": 0.15,
+   "why": "Bautiza el método: un nombre propio merece un rótulo propio (concepto memorizable).",
+   "scene": "v13_s30",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 62.9,
+   "word": "enabled",
+   "element": "Tarjeta del doc entra desenfocada detrás del título «Data-Enabled Creativity»",
+   "category": "split_graphic",
+   "offset_s": 0.0,
+   "why": "refuerzo: el concepto se ancla al entregable",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 64.1,
+   "word": "It's",
+   "element": "Pantalla completa de su cara.",
+   "category": "aroll_plain",
+   "offset_s": -0.07,
+   "why": "Explica el concepto mirando a cámara.",
+   "scene": "v13_s31",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 65.48,
+   "word": "from",
+   "element": "Motion graphic morado sobre negro con contadores que suben cada fotograma y miniaturas en mosaico.",
+   "category": "split_graphic",
+   "offset_s": 0.13,
+   "why": "«videos ganadores anteriores» → sus propios videos con números creciendo.",
+   "scene": "v13_s32",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 66.96,
+   "word": "to",
+   "element": "Clip de uno de sus videos: gancho de neón → pastilla «Text Hook» que se escribe + flecha curva; fondo negro-morado.",
+   "category": "split_graphic",
+   "offset_s": 0.15,
+   "why": "Ejemplo de «formatos que funcionaron»: reutiliza gráficos de sus propios videos como evidencia.",
+   "scene": "v13_s33",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 69.72,
+   "word": "Now",
+   "element": "Pantalla completa de su cara; una palabra por golpe, dorado en «workflow».",
+   "category": "face_full_word",
+   "offset_s": -0.02,
+   "why": "Re-gancho a mitad de video (minuto 1:10): resume y abre un bucle nuevo («hay docenas más»).",
+   "scene": "v13_s34",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 71.56,
+   "word": "workflow.",
+   "element": "Palabra «workflow» en dorado",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "énfasis: palabra clave del resumen",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 72.38,
+   "word": "dozens",
+   "element": "B-roll propio en gran angular, sujeto pequeño en el centro.",
+   "category": "split_broll",
+   "offset_s": -0.01,
+   "why": "Amplitud («docenas») → plano abierto.",
+   "scene": "v13_s35",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 73.94,
+   "word": "For",
+   "element": "Pantalla completa de su cara.",
+   "category": "aroll_plain",
+   "offset_s": -0.03,
+   "why": "Conector hacia el segundo ejemplo.",
+   "scene": "v13_s36",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 75.54,
+   "word": "build",
+   "element": "Burbuja de transcripción semitransparente en el tercio superior (aparece 75,5 s, texto palabra a palabra) sobre b-roll.",
+   "category": "full_graphic",
+   "offset_s": -0.12,
+   "why": "Lo que dice en off coincide con lo que se escribe en la burbuja: doble canal del mismo mensaje.",
+   "scene": "v13_s37",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 77.78,
+   "word": "keep",
+   "element": "Teléfono que hace zoom-in y gira en 3D hasta primer plano del log, con scroll.",
+   "category": "full_graphic",
+   "offset_s": -0.11,
+   "why": "Resultado del segundo ejemplo en el mismo lenguaje visual que el primero (consistencia).",
+   "scene": "v13_s38",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 80.36,
+   "word": "I",
+   "element": "Pantalla completa de su cara; nombre del flujo en itálica.",
+   "category": "face_full_word",
+   "offset_s": -0.02,
+   "why": "Presenta el tercer ejemplo: el nombre del flujo en serif para que se recuerde.",
+   "scene": "v13_s39",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 81.08,
+   "word": "idea",
+   "element": "Cambio de sans a serif itálica en «idea» / «repurposer»",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "nombre propio del flujo → tipografía distinta",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 82.42,
+   "word": "scans",
+   "element": "Texto de respuesta en streaming (palabras nuevas en gris que pasan a blanco); botón «Tap to interrupt»; 85,3 s scroll a la lista «Script 1…».",
+   "category": "full_graphic",
+   "offset_s": -0.16,
+   "why": "Prueba del tercer ejemplo; el texto en streaming transmite 'está pensando en vivo'.",
+   "scene": "v13_s40",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 87.26,
+   "word": "the",
+   "element": "Pantalla completa de su cara.",
+   "category": "aroll_plain",
+   "offset_s": -0.08,
+   "why": "Transición al porqué.",
+   "scene": "v13_s41",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 88.96,
+   "word": "is",
+   "element": "B-roll propio (travelling hacia atrás), el mismo sendero que en 25,8 s.",
+   "category": "split_broll",
+   "offset_s": 0.09,
+   "why": "Refuerza la idea de 'hablar en vez de teclear' con imagen ya vista.",
+   "scene": "v13_s42",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 92.26,
+   "word": "By",
+   "element": "Pantalla completa de su cara.",
+   "category": "aroll_plain",
+   "offset_s": -0.04,
+   "why": "Argumento en primera persona.",
+   "scene": "v13_s43",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 93.94,
+   "word": "exact",
+   "element": "B-roll propio, plano medio frontal.",
+   "category": "split_broll",
+   "offset_s": -0.13,
+   "why": "Ilustra «describir la visión» con él hablando.",
+   "scene": "v13_s44",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 95.78,
+   "word": "easily",
+   "element": "3 cortes internos en 2,7 s (uno por verbo), cada pantalla con scroll o texto que aparece.",
+   "category": "split_screenrec",
+   "offset_s": 0.2,
+   "why": "Tres verbos → tres pantallas: el ritmo de cortes imita 'cambiar de idea'.",
+   "scene": "v13_s45",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 97.08,
+   "word": "change",
+   "element": "Corte interno a respuesta en streaming «Running that workflow simulation…»",
+   "category": "split_screenrec",
+   "offset_s": -0.1,
+   "why": "un verbo = una pantalla",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 98.0,
+   "word": "course",
+   "element": "Corte interno a tarjeta «Automated Script Repurposing Workflow [Open]»",
+   "category": "split_screenrec",
+   "offset_s": 0.02,
+   "why": "un verbo = una pantalla",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 98.76,
+   "word": "I",
+   "element": "Pantalla completa de su cara.",
+   "category": "aroll_plain",
+   "offset_s": -0.07,
+   "why": "Conclusión personal del argumento.",
+   "scene": "v13_s46",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 100.98,
+   "word": "And",
+   "element": "Captura clara de Gmail: paneo/zoom rápido (101,8–102,0 s) del cuerpo del correo a los chips azules de Gemini en Gmail; cursor negro pulsa «Schedule».",
+   "category": "split_headline",
+   "offset_s": -0.08,
+   "why": "«conecta con toda mi suite de Google» → Gmail con acciones de IA.",
+   "scene": "v13_s47",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 103.54,
+   "word": "Google",
+   "element": "Mismo clip que en 16,8 s (reutilizado), texto escribiéndose.",
+   "category": "split_screenrec",
+   "offset_s": 0.03,
+   "why": "Golpe rápido de 0,7 s para variar la evidencia dentro de la misma frase.",
+   "scene": "v13_s48",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 104.32,
+   "word": "it",
+   "element": "Reutiliza la animación de 56,5–61,6 s pero confinada a la mitad superior (costura y≈614 px, 48 %): pop de tarjeta → apertura → scroll con cursor.",
+   "category": "split_graphic",
+   "offset_s": -0.04,
+   "why": "Recuerda el entregable mientras resume el beneficio.",
+   "scene": "v13_s49",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 105.74,
+   "word": "resources",
+   "element": "El cursor abre el doc: de tarjeta a página con scroll",
+   "category": "split_graphic",
+   "offset_s": -0.13,
+   "why": "«resources» → el documento abierto",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 108.9,
+   "word": "I'm",
+   "element": "Pantalla completa de su cara.",
+   "category": "aroll_plain",
+   "offset_s": 0.01,
+   "why": "Opinión personal/recomendación: contacto visual directo antes del cierre.",
+   "scene": "v13_s50",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 111.66,
+   "word": "huge",
+   "element": "B-roll propio, cámara orbitando ligeramente.",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "Imagen de uso real para el veredicto final.",
+   "scene": "v13_s51",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 113.46,
+   "word": "This",
+   "element": "Demo de cómo abrirlo: zoom-in al botón «Live» (113,4–114,0 s) → negro → UI de Live aparece con degradado azul punteado (114,5 s) → pantalla «Any new ideas to explore?»…",
+   "category": "split_screenrec",
+   "offset_s": -0.04,
+   "why": "Disponibilidad → enseña exactamente dónde se pulsa para empezar.",
+   "scene": "v13_s52",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 116.06,
+   "word": "Comment",
+   "element": "CTA «Comment “Gemini”» (sans + serif itálica)",
+   "category": "title_cta",
+   "offset_s": 0.0,
+   "why": "llamado a la acción literal",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 116.48,
+   "word": "Gemini",
+   "element": "Pantalla completa de su cara con el CTA tipográfico.",
+   "category": "title_cta",
+   "offset_s": -0.19,
+   "why": "CTA de comentario con palabra clave (automatización de DM): la palabra a escribir va en serif itálica y entre comillas.",
+   "scene": "v13_s53",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 1.4,
+   "from": "v13_s01 pantalla «Ask away, Kyle!»",
+   "to": "v13_s01 log de acciones",
+   "type": "crossfade",
+   "frames": 4,
+   "detail": "la mitad superior pasa de la pantalla de bienvenida al log con texto desenfocado que se enfoca (entre 1,33 y 1,50 s); duración exacta desconocida, estimada 3–4 fotogramas"
+  },
+  {
+   "t": 3.34,
+   "from": "v13_s01 (hook_banner)",
+   "to": "v13_s02 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 4.5,
+   "from": "v13_s02 (split_graphic)",
+   "to": "v13_s03 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 5.59,
+   "from": "v13_s03 (face_full_word)",
+   "to": "v13_s04 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 6.76,
+   "from": "v13_s04 (full_graphic)",
+   "to": "v13_s05 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 8.2,
+   "from": "v13_s05 (face_full_word)",
+   "to": "v13_s06 (full_graphic)",
+   "type": "match-cut (elemento compartido)",
+   "frames": 10,
+   "detail": "no hay corte: el A-roll a pantalla completa se escala hacia dentro del mockup de teléfono (8,4–8,8 s, ~10 fotogramas) y el fondo pasa a degradado"
+  },
+  {
+   "t": 9.93,
+   "from": "v13_s06 (full_graphic)",
+   "to": "v13_s07 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 11.6,
+   "from": "v13_s07 UI en primer plano",
+   "to": "v13_s07 UI como tarjeta sobre degradado",
+   "type": "zoom-blur",
+   "frames": 17,
+   "detail": "zoom-out continuo 11,6–12,3 s; sin blur fuerte, es un dolly-out digital que revela el fondo rojo/magenta"
+  },
+  {
+   "t": 12.51,
+   "from": "v13_s07 (split_screenrec)",
+   "to": "v13_s08 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 14.39,
+   "from": "v13_s08 (full_graphic)",
+   "to": "v13_s09 (split_headline)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 15.39,
+   "from": "v13_s09 (split_headline)",
+   "to": "v13_s10 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 16.77,
+   "from": "v13_s10 (split_graphic)",
+   "to": "v13_s11 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 17.27,
+   "from": "v13_s11 (split_screenrec)",
+   "to": "v13_s12 (split_headline)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 18.65,
+   "from": "v13_s12 (split_headline)",
+   "to": "v13_s13 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 19.15,
+   "from": "v13_s13 (face_full_word)",
+   "to": "v13_s14 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 20.9,
+   "from": "v13_s14 (full_graphic)",
+   "to": "v13_s15 (full_graphic)",
+   "type": "slide",
+   "frames": 15,
+   "detail": "panel negro de chat sube desde el borde inferior en ~0,6 s mientras el b-roll se desenfoca (blur progresivo)"
+  },
+  {
+   "t": 23.9,
+   "from": "v13_s15 (full_graphic)",
+   "to": "v13_s16 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 25.78,
+   "from": "v13_s16 (split_screenrec)",
+   "to": "v13_s17 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 28.49,
+   "from": "v13_s17 (split_screenrec)",
+   "to": "v13_s18 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 30.16,
+   "from": "v13_s18 (full_graphic)",
+   "to": "v13_s19 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 30.95,
+   "from": "v13_s19 (face_full_word)",
+   "to": "v13_s20 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 32.74,
+   "from": "v13_s20 (split_screenrec)",
+   "to": "v13_s21 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 34.0,
+   "from": "v13_s20 teléfono completo",
+   "to": "v13_s20 primer plano inclinado",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "corte interno dentro del mismo documento"
+  },
+  {
+   "t": 36.04,
+   "from": "v13_s21 (full_graphic)",
+   "to": "v13_s22 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 42.42,
+   "from": "v13_s22 (split_screenrec)",
+   "to": "v13_s23 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 46.05,
+   "from": "v13_s23 (split_broll)",
+   "to": "v13_s24 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 47.93,
+   "from": "v13_s24 (aroll_plain)",
+   "to": "v13_s25 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 53.18,
+   "from": "v13_s25 (full_graphic)",
+   "to": "v13_s26 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 56.48,
+   "from": "v13_s26 (aroll_plain)",
+   "to": "v13_s27 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "corte al degradado; la tarjeta hace pop desde el centro en 5 fotogramas (escala+blur)"
+  },
+  {
+   "t": 57.81,
+   "from": "v13_s27 (full_graphic)",
+   "to": "v13_s28 (full_graphic)",
+   "type": "match-cut (elemento compartido)",
+   "frames": 3,
+   "detail": "la miniatura del doc se expande a página completa en ~3 fotogramas (57,81–57,90 s) con blur de movimiento; el cursor se mantiene"
+  },
+  {
+   "t": 61.65,
+   "from": "v13_s28 (full_graphic)",
+   "to": "v13_s29 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 62.57,
+   "from": "v13_s29 (aroll_plain)",
+   "to": "v13_s30 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 64.03,
+   "from": "v13_s30 (split_graphic)",
+   "to": "v13_s31 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 65.61,
+   "from": "v13_s31 (aroll_plain)",
+   "to": "v13_s32 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 67.11,
+   "from": "v13_s32 (split_graphic)",
+   "to": "v13_s33 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 69.7,
+   "from": "v13_s33 (split_graphic)",
+   "to": "v13_s34 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 72.37,
+   "from": "v13_s34 (face_full_word)",
+   "to": "v13_s35 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 73.91,
+   "from": "v13_s35 (split_broll)",
+   "to": "v13_s36 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 75.42,
+   "from": "v13_s36 (aroll_plain)",
+   "to": "v13_s37 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 77.67,
+   "from": "v13_s37 (full_graphic)",
+   "to": "v13_s38 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 80.34,
+   "from": "v13_s38 (full_graphic)",
+   "to": "v13_s39 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 82.26,
+   "from": "v13_s39 (face_full_word)",
+   "to": "v13_s40 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 87.18,
+   "from": "v13_s40 (full_graphic)",
+   "to": "v13_s41 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 89.05,
+   "from": "v13_s41 (aroll_plain)",
+   "to": "v13_s42 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 92.22,
+   "from": "v13_s42 (split_broll)",
+   "to": "v13_s43 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 93.81,
+   "from": "v13_s43 (aroll_plain)",
+   "to": "v13_s44 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 95.98,
+   "from": "v13_s44 (split_broll)",
+   "to": "v13_s45 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 96.98,
+   "from": "v13_s44 pantalla 1",
+   "to": "v13_s44 pantalla 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "corte interno solo en la mitad superior"
+  },
+  {
+   "t": 98.02,
+   "from": "v13_s44 pantalla 2",
+   "to": "v13_s44 pantalla 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "corte interno solo en la mitad superior"
+  },
+  {
+   "t": 98.69,
+   "from": "v13_s45 (split_screenrec)",
+   "to": "v13_s46 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 100.9,
+   "from": "v13_s46 (aroll_plain)",
+   "to": "v13_s47 (split_headline)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 103.57,
+   "from": "v13_s47 (split_headline)",
+   "to": "v13_s48 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 104.28,
+   "from": "v13_s48 (split_screenrec)",
+   "to": "v13_s49 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 105.61,
+   "from": "v13_s48 tarjeta",
+   "to": "v13_s48 página abierta",
+   "type": "match-cut (elemento compartido)",
+   "frames": 3,
+   "detail": "la tarjeta se expande a página con blur de movimiento"
+  },
+  {
+   "t": 108.91,
+   "from": "v13_s49 (split_graphic)",
+   "to": "v13_s50 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 111.66,
+   "from": "v13_s50 (aroll_plain)",
+   "to": "v13_s51 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 113.42,
+   "from": "v13_s51 (split_broll)",
+   "to": "v13_s52 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 114.08,
+   "from": "v13_s51 widget Android",
+   "to": "v13_s51 UI Gemini Live",
+   "type": "crossfade",
+   "frames": 10,
+   "detail": "zoom al botón «Live», la pantalla pasa por negro (114,1–114,4 s) y aparece la UI con degradado azul punteado"
+  },
+  {
+   "t": 116.29,
+   "from": "v13_s52 (split_screenrec)",
+   "to": "v13_s53 (title_cta)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.1,
+   "fx": "máscara",
+   "detail": "franja roja del gancho entra deslizándose desde el borde derecho, 0,1→1,3 s, y queda fija hasta 3,34 s (observed)"
+  },
+  {
+   "t": 3.34,
+   "fx": "tracking",
+   "detail": "logo «Gemini Live»: «Gemini» se desplaza a la izquierda y «Live» se revela a la derecha (~0,6 s)"
+  },
+  {
+   "t": 4.5,
+   "fx": "pop",
+   "detail": "palabras grandes a pantalla completa cambian por corte, una por palabra hablada (0,1–0,5 s cada una); sin escala animada visible a 24 fps"
+  },
+  {
+   "t": 7.06,
+   "fx": "escala",
+   "detail": "«insanely» y «valuable» en dorado ~#E0A93B, mismo tamaño que las blancas"
+  },
+  {
+   "t": 10.0,
+   "fx": "write-on por palabra",
+   "detail": "transcripción de Gemini Live en itálica que se escribe palabra a palabra dentro de la UI (es material de pantalla, no rótulo añadido)"
+  },
+  {
+   "t": 30.16,
+   "fx": "pop",
+   "detail": "«automatically» en serif itálica didona, entra por corte, 0,8 s en pantalla"
+  },
+  {
+   "t": 32.0,
+   "fx": "gris→blanco",
+   "detail": "en la captura, el punto «Scan Gmail» queda blanco y el resto baja a gris oscuro"
+  },
+  {
+   "t": 57.8,
+   "fx": "tracking",
+   "detail": "subtítulo en pastilla gris oscuro (#2B2B2B aprox., esquinas redondeadas) que se coloca junto al cursor sobre la página blanca, 57,8–61,6 s"
+  },
+  {
+   "t": 62.57,
+   "fx": "pop",
+   "detail": "título «Data-Enabled / Creativity» (sans bold + serif itálica) aparece completo en el corte; 1,5 s en pantalla"
+  },
+  {
+   "t": 82.3,
+   "fx": "gris→blanco",
+   "detail": "respuesta de Gemini en streaming: frases nuevas en gris que pasan a blanco"
+  },
+  {
+   "t": 116.29,
+   "fx": "pop",
+   "detail": "CTA «Comment» + «“Gemini”», 0,67 s en pantalla, luego subtítulo pequeño"
+  }
+ ],
+ "camera": [
+  {
+   "t": 4.5,
+   "move": "punch-in",
+   "scale_or_dir": "split (cara ~22 % del alto) → cara a pantalla completa (~45 % del alto)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 8.4,
+   "move": "zoom-out",
+   "scale_or_dir": "1.0→0.72 (A-roll dentro del teléfono)",
+   "dur_s": 0.4
+  },
+  {
+   "t": 11.6,
+   "move": "zoom-out",
+   "scale_or_dir": "1.0→0.6 aprox. en la mitad superior",
+   "dur_s": 0.7
+  },
+  {
+   "t": 20.9,
+   "move": "slide",
+   "scale_or_dir": "panel de chat sube desde abajo",
+   "dur_s": 0.6
+  },
+  {
+   "t": 21.5,
+   "move": "push-in lento",
+   "scale_or_dir": "≈1.0→2.5 sobre el texto del chat",
+   "dur_s": 2.4
+  },
+  {
+   "t": 23.9,
+   "move": "push-in lento",
+   "scale_or_dir": "1.0→1.4 («Ask away, Kyle!»)",
+   "dur_s": 1.9
+  },
+  {
+   "t": 28.49,
+   "move": "push-in lento",
+   "scale_or_dir": "teléfono 3D, zoom + rotación",
+   "dur_s": 1.7
+  },
+  {
+   "t": 36.04,
+   "move": "pan",
+   "scale_or_dir": "scroll vertical continuo hacia arriba",
+   "dur_s": 6.4
+  },
+  {
+   "t": 57.81,
+   "move": "pan",
+   "scale_or_dir": "página 3D que oscila + scroll",
+   "dur_s": 3.8
+  },
+  {
+   "t": 113.42,
+   "move": "punch-in",
+   "scale_or_dir": "≈1.0→2.0 hacia el botón «Live»",
+   "dur_s": 0.6
+  }
+ ],
+ "rhythm": {
+  "events_per_10s": [
+   8,
+   11,
+   4,
+   5,
+   4,
+   4,
+   7,
+   5,
+   5,
+   6,
+   5,
+   5
+  ],
+  "avg_hold_text_s": 0.55,
+  "notes": "53 escenas en 119,4 s (2,25 s/escena). 64 cortes detectados (1 cada 1,87 s). El subtítulo cambia cada ~0,55 s de media (derived: duración / (palabras ÷ ~1,9 palabras por bloque)); en las escenas de palabra grande, cada 0,1–0,5 s. La mitad superior nunca dura más de 6,4 s y cuando dura es porque hace scroll continuo. Alterna bloques: split → cara completa → pantalla completa de evidencia; rara vez repite el mismo tipo dos veces seguidas. Sonido: no analizado por espectro; no se puede afirmar qué SFX hay (desconocido). Se intuye música de fondo continua y voz sin pausas (cortes de respiración), pero no verificado."
+ },
+ "typography": "3 familias. (1) Subtítulo: sans bold blanca ~30 px, 1–3 palabras (media 2,0), sin color de palabra clave, con sombra. (2) Palabra grande a pantalla completa: misma sans en bold ~110 px, minúsculas, glow blanco; clave en dorado ~#E0A93B. (3) Serif itálica didona de alto contraste (tipo Playfair Display Italic) para nombres/beneficios: «automatically», «idea repurposer», «Creativity», «“Gemini”». Franja del gancho: sans extendida ultra-bold mayúsculas en 2 líneas, naranja-amarillo + blanco sobre rojo oscuro.",
+ "textures": "Sin papel, grano ni halftone. Únicas 'texturas': degradado rojo→magenta→azul detrás de mockups de teléfono y tarjetas; glow blanco en palabras grandes; sombras suaves bajo tarjetas blancas; bokeh del set. Viñeta natural del set oscuro.",
+ "distinct": [
+  "La mitad inferior del split se sustituye por b-roll de él caminando (25,8–28,5 s): split de dos evidencias sin el set.",
+  "Mucho rodaje propio en exteriores (9 planos) hablándole al móvil, a veces con UI compuesta encima (panel que sube 12,5 s; burbuja de prompt 75,4 s; carpeta→flecha→doc 48–53 s).",
+  "El A-roll se convierte en un Short dentro de un teléfono (8,4–9,9 s) al decir «for creators and marketers».",
+  "El subtítulo se muda a una pastilla junto al cursor sobre la página del doc (57,8–61,6 s).",
+  "Aviso legal de patrocinio en texto diminuto sobre su pecho (14,4–18,6 s) y concepto bautizado con rótulo bitipográfico «Data-Enabled Creativity» (62,6 s)."
+ ],
+ "evidence_rule": "Tiempos de corte = observed (scene-detect de ffmpeg por mitad superior/inferior + tiras de 9 fotogramas por corte). offset_s = derived. why = inferred."
+}

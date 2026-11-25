@@ -1,0 +1,52 @@
+000    0.00-   4.70 (4.7s) | This company built a data center floating in the Pacific Ocean. They're called Pantalassa,
+001    4.70-   5.27 (0.6s) | and they might be pioneering
+002    5.27-   8.73 (3.5s) | a whole new category of data center technology.
+003    8.73-   9.97 (1.2s) | See, a data center is really just thousands
+004    9.97-  10.70 (0.7s) | of computer
+005   10.70-  11.50 (0.8s) | chips that
+006   11.50-  12.57 (1.1s) | only need two things,
+007   12.57-  18.33 (5.8s) | electricity to think and water to cool. On land, they compete with actual towns for both of those resources, which
+008   18.33-  19.03 (0.7s) | is why these
+009   19.03-  20.63 (1.6s) | projects keep getting blocked. But
+010   20.63-  25.00 (4.4s) | the ocean has no towns, no permits, and no grids to constrain.
+011   25.00-  27.97 (3.0s) | Of course, there is just one problem with an ocean -based data center. There
+012   27.97-  30.30 (2.3s) | are no plugs to plug in for electricity.
+013   30.30-  32.03 (1.7s) | So this floating data center was designed to
+014   32.03-  33.07 (1.0s) | make its own power.
+015   33.07-  33.97 (0.9s) | Here's how it works.
+016   33.97-  39.60 (5.6s) | Picture a giant floating lollipop in the sea with a round buoy on top and a long tube underneath.
+017   39.60-  43.03 (3.4s) | Waves only move at the top of the surface, so underneath it's actually very calm.
+018   43.03-  43.53 (0.5s) | And that means the
+019   43.53-  46.73 (3.2s) | buoy rides up and down while the tube stays still.
+020   46.73-  49.97 (3.2s) | Every wave that passes by squeezes seawater through its herbide. Think
+021   49.97-  50.50 (0.5s) | of it like a
+022   50.50-  52.63 (2.1s) | bike pump, except the ocean waves is
+023   52.63-  54.50 (1.9s) | what's pushing the handle up and down. That
+024   54.50-  57.27 (2.8s) | same seawater is also great for cooling the chips in
+025   57.27-  57.97 (0.7s) | the data center,
+026   57.97-  60.33 (2.4s) | so it accomplishes both tasks required.
+027   60.33-  63.10 (2.8s) | That you didn't calm weather and no waves in the ocean would
+028   63.10-  64.27 (1.2s) | prevent this from running. But
+029   64.27-  66.33 (2.1s) | it actually works a lot more like a battery.
+030   66.33-  70.03 (3.7s) | The sun heats the air, the air makes wind, and the wind pushes the waves.
+031   70.03-  71.10 (1.1s) | And those waves keep rolling long
+032   71.10-  75.03 (3.9s) | after the breeze stops. So it's solar power that also works at night. But
+033   75.03-  75.83 (0.8s) | there's just one more problem.
+034   75.83-  77.10 (1.3s) | How do they get all that power back
+035   77.10-  78.53 (1.4s) | to the land to use? And
+036   78.53-  79.93 (1.4s) | it turns out they don't.
+037   79.93-  81.20 (1.3s) | These things have no anchor,
+038   81.20-  83.53 (2.3s) | no fuel, and no cable to shore. Instead,
+039   83.53-  89.33 (5.8s) | your AI query hits them, goes straight up to a satellite, and then goes straight back down to the data center.
+040   89.33-  90.63 (1.3s) | The real problem making this tough is
+041   90.63-  97.13 (6.5s) | that the ocean typically destroys everything. The salt eats metal, the barnacles grow out everything, and storms do what storms do.
+042   97.13-  99.03 (1.9s) | And that's really the bet that Panthalass is making, that
+043   99.03-  99.77 (0.7s) | they can figure out
+044   99.77- 102.17 (2.4s) | how to make this in a way the ocean can't destroy it.
+045  102.17- 102.93 (0.8s) | The first full -size versions
+046  102.93- 105.30 (2.4s) | of this go live in the ocean later this year. If
+047  105.30- 106.07 (0.8s) | they survive,
+048  106.07- 107.07 (1.0s) | your AI queries might
+049  107.07- 108.13 (1.1s) | start being powered by
+050  108.13- 110.17 (2.0s) | a floating data center in the ocean. All
+051  110.17- 113.06 (2.9s) | for more stories like this about tech, AI, and robotics.

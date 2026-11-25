@@ -1,0 +1,3173 @@
+{
+  "video": "v01.mp4",
+  "duration": 88.63,
+  "derived": {
+    "shots": 34,
+    "avg_shot_len": 2.61,
+    "cuts_per_min": 23.0,
+    "hook_shots_first_3s": 3,
+    "high_motion_shots": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      11,
+      12,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      24,
+      25,
+      26,
+      28,
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "Claude",
+      "start": 0.0,
+      "end": 0.26
+    },
+    {
+      "w": "just",
+      "start": 0.26,
+      "end": 0.4
+    },
+    {
+      "w": "performed",
+      "start": 0.4,
+      "end": 0.72
+    },
+    {
+      "w": "brain",
+      "start": 0.72,
+      "end": 1.08
+    },
+    {
+      "w": "surgery",
+      "start": 1.08,
+      "end": 1.48
+    },
+    {
+      "w": "on",
+      "start": 1.48,
+      "end": 1.9
+    },
+    {
+      "w": "a",
+      "start": 1.9,
+      "end": 2.06
+    },
+    {
+      "w": "living",
+      "start": 2.06,
+      "end": 2.3
+    },
+    {
+      "w": "animal",
+      "start": 2.3,
+      "end": 2.84
+    },
+    {
+      "w": "for",
+      "start": 2.84,
+      "end": 3.16
+    },
+    {
+      "w": "the",
+      "start": 3.16,
+      "end": 3.24
+    },
+    {
+      "w": "first",
+      "start": 3.24,
+      "end": 3.42
+    },
+    {
+      "w": "time",
+      "start": 3.42,
+      "end": 3.66
+    },
+    {
+      "w": "ever.",
+      "start": 3.66,
+      "end": 3.84
+    },
+    {
+      "w": "If",
+      "start": 4.04,
+      "end": 4.14
+    },
+    {
+      "w": "you'd",
+      "start": 4.14,
+      "end": 4.32
+    },
+    {
+      "w": "like",
+      "start": 4.32,
+      "end": 4.36
+    },
+    {
+      "w": "technology,",
+      "start": 4.36,
+      "end": 4.72
+    },
+    {
+      "w": "this",
+      "start": 4.96,
+      "end": 5.06
+    },
+    {
+      "w": "is",
+      "start": 5.06,
+      "end": 5.18
+    },
+    {
+      "w": "one",
+      "start": 5.18,
+      "end": 5.26
+    },
+    {
+      "w": "of",
+      "start": 5.26,
+      "end": 5.32
+    },
+    {
+      "w": "the",
+      "start": 5.32,
+      "end": 5.44
+    },
+    {
+      "w": "wildest",
+      "start": 5.44,
+      "end": 5.88
+    },
+    {
+      "w": "stories",
+      "start": 5.88,
+      "end": 6.12
+    },
+    {
+      "w": "I've",
+      "start": 6.12,
+      "end": 6.5
+    },
+    {
+      "w": "heard",
+      "start": 6.5,
+      "end": 6.72
+    },
+    {
+      "w": "in",
+      "start": 6.72,
+      "end": 6.94
+    },
+    {
+      "w": "a",
+      "start": 6.94,
+      "end": 7.04
+    },
+    {
+      "w": "while.",
+      "start": 7.04,
+      "end": 7.28
+    },
+    {
+      "w": "Now",
+      "start": 7.46,
+      "end": 7.5
+    },
+    {
+      "w": "the",
+      "start": 7.5,
+      "end": 7.58
+    },
+    {
+      "w": "goal",
+      "start": 7.58,
+      "end": 7.74
+    },
+    {
+      "w": "of",
+      "start": 7.74,
+      "end": 7.88
+    },
+    {
+      "w": "the",
+      "start": 7.88,
+      "end": 7.9
+    },
+    {
+      "w": "surgery",
+      "start": 7.9,
+      "end": 8.22
+    },
+    {
+      "w": "was",
+      "start": 8.22,
+      "end": 8.58
+    },
+    {
+      "w": "very",
+      "start": 8.58,
+      "end": 8.82
+    },
+    {
+      "w": "simple.",
+      "start": 8.82,
+      "end": 9.16
+    },
+    {
+      "w": "Figure",
+      "start": 9.32,
+      "end": 9.48
+    },
+    {
+      "w": "out",
+      "start": 9.48,
+      "end": 9.68
+    },
+    {
+      "w": "how",
+      "start": 9.68,
+      "end": 9.84
+    },
+    {
+      "w": "to",
+      "start": 9.84,
+      "end": 9.9
+    },
+    {
+      "w": "reduce",
+      "start": 9.9,
+      "end": 10.28
+    },
+    {
+      "w": "seizures",
+      "start": 10.28,
+      "end": 10.78
+    },
+    {
+      "w": "in",
+      "start": 10.78,
+      "end": 11.16
+    },
+    {
+      "w": "a",
+      "start": 11.16,
+      "end": 11.26
+    },
+    {
+      "w": "mouse",
+      "start": 11.26,
+      "end": 11.6
+    },
+    {
+      "w": "that",
+      "start": 11.6,
+      "end": 11.82
+    },
+    {
+      "w": "had",
+      "start": 11.82,
+      "end": 12.12
+    },
+    {
+      "w": "epilepsy.",
+      "start": 12.12,
+      "end": 12.48
+    },
+    {
+      "w": "The",
+      "start": 12.9,
+      "end": 12.98
+    },
+    {
+      "w": "startup",
+      "start": 12.98,
+      "end": 13.16
+    },
+    {
+      "w": "behind",
+      "start": 13.16,
+      "end": 13.42
+    },
+    {
+      "w": "this",
+      "start": 13.42,
+      "end": 13.58
+    },
+    {
+      "w": "is",
+      "start": 13.58,
+      "end": 13.74
+    },
+    {
+      "w": "called",
+      "start": 13.74,
+      "end": 13.94
+    },
+    {
+      "w": "Exyn",
+      "start": 13.94,
+      "end": 14.46
+    },
+    {
+      "w": "Therapeutics.",
+      "start": 14.46,
+      "end": 15.12
+    },
+    {
+      "w": "And",
+      "start": 15.22,
+      "end": 15.3
+    },
+    {
+      "w": "what",
+      "start": 15.3,
+      "end": 15.4
+    },
+    {
+      "w": "they",
+      "start": 15.4,
+      "end": 15.54
+    },
+    {
+      "w": "did",
+      "start": 15.54,
+      "end": 15.82
+    },
+    {
+      "w": "with",
+      "start": 15.82,
+      "end": 16.0
+    },
+    {
+      "w": "Claude",
+      "start": 16.0,
+      "end": 16.44
+    },
+    {
+      "w": "was",
+      "start": 16.44,
+      "end": 16.68
+    },
+    {
+      "w": "super",
+      "start": 16.68,
+      "end": 17.04
+    },
+    {
+      "w": "interesting.",
+      "start": 17.04,
+      "end": 17.42
+    },
+    {
+      "w": "Exyn",
+      "start": 17.62,
+      "end": 17.82
+    },
+    {
+      "w": "gave",
+      "start": 17.82,
+      "end": 17.94
+    },
+    {
+      "w": "Claude",
+      "start": 17.94,
+      "end": 18.18
+    },
+    {
+      "w": "a",
+      "start": 18.18,
+      "end": 18.28
+    },
+    {
+      "w": "list",
+      "start": 18.28,
+      "end": 18.46
+    },
+    {
+      "w": "of",
+      "start": 18.46,
+      "end": 18.66
+    },
+    {
+      "w": "19",
+      "start": 18.66,
+      "end": 19.12
+    },
+    {
+      "w": "possible",
+      "start": 19.12,
+      "end": 19.54
+    },
+    {
+      "w": "gene",
+      "start": 19.54,
+      "end": 19.96
+    },
+    {
+      "w": "treatments,",
+      "start": 19.96,
+      "end": 20.36
+    },
+    {
+      "w": "as",
+      "start": 20.54,
+      "end": 20.64
+    },
+    {
+      "w": "well",
+      "start": 20.64,
+      "end": 20.8
+    },
+    {
+      "w": "as",
+      "start": 20.8,
+      "end": 20.98
+    },
+    {
+      "w": "control",
+      "start": 20.98,
+      "end": 21.44
+    },
+    {
+      "w": "over",
+      "start": 21.44,
+      "end": 21.78
+    },
+    {
+      "w": "robotic",
+      "start": 21.78,
+      "end": 22.24
+    },
+    {
+      "w": "arm",
+      "start": 22.24,
+      "end": 22.52
+    },
+    {
+      "w": "system",
+      "start": 22.52,
+      "end": 22.86
+    },
+    {
+      "w": "with",
+      "start": 22.86,
+      "end": 23.18
+    },
+    {
+      "w": "a",
+      "start": 23.18,
+      "end": 23.3
+    },
+    {
+      "w": "needle",
+      "start": 23.3,
+      "end": 23.56
+    },
+    {
+      "w": "and",
+      "start": 23.56,
+      "end": 23.86
+    },
+    {
+      "w": "a",
+      "start": 23.86,
+      "end": 23.96
+    },
+    {
+      "w": "camera.",
+      "start": 23.96,
+      "end": 24.24
+    },
+    {
+      "w": "Now",
+      "start": 24.4,
+      "end": 24.46
+    },
+    {
+      "w": "nobody",
+      "start": 24.46,
+      "end": 24.68
+    },
+    {
+      "w": "told",
+      "start": 24.68,
+      "end": 25.08
+    },
+    {
+      "w": "Claude",
+      "start": 25.08,
+      "end": 25.62
+    },
+    {
+      "w": "what",
+      "start": 25.62,
+      "end": 25.86
+    },
+    {
+      "w": "treatment",
+      "start": 25.86,
+      "end": 26.2
+    },
+    {
+      "w": "to",
+      "start": 26.2,
+      "end": 26.44
+    },
+    {
+      "w": "pick",
+      "start": 26.44,
+      "end": 26.64
+    },
+    {
+      "w": "or",
+      "start": 26.64,
+      "end": 26.88
+    },
+    {
+      "w": "how",
+      "start": 26.88,
+      "end": 27.14
+    },
+    {
+      "w": "to",
+      "start": 27.14,
+      "end": 27.22
+    },
+    {
+      "w": "execute",
+      "start": 27.22,
+      "end": 27.64
+    },
+    {
+      "w": "the",
+      "start": 27.64,
+      "end": 27.84
+    },
+    {
+      "w": "operation.",
+      "start": 27.84,
+      "end": 28.32
+    },
+    {
+      "w": "The",
+      "start": 28.48,
+      "end": 28.56
+    },
+    {
+      "w": "only",
+      "start": 28.56,
+      "end": 28.7
+    },
+    {
+      "w": "instructions",
+      "start": 28.7,
+      "end": 29.04
+    },
+    {
+      "w": "they",
+      "start": 29.04,
+      "end": 29.32
+    },
+    {
+      "w": "gave",
+      "start": 29.32,
+      "end": 29.52
+    },
+    {
+      "w": "it",
+      "start": 29.52,
+      "end": 29.7
+    },
+    {
+      "w": "were",
+      "start": 29.7,
+      "end": 29.92
+    },
+    {
+      "w": "to",
+      "start": 29.92,
+      "end": 30.14
+    },
+    {
+      "w": "reduce",
+      "start": 30.14,
+      "end": 30.72
+    },
+    {
+      "w": "the",
+      "start": 30.72,
+      "end": 30.92
+    },
+    {
+      "w": "seizures.",
+      "start": 30.92,
+      "end": 31.22
+    },
+    {
+      "w": "Epilepsy",
+      "start": 31.44,
+      "end": 31.8
+    },
+    {
+      "w": "causes",
+      "start": 31.8,
+      "end": 32.16
+    },
+    {
+      "w": "too",
+      "start": 32.16,
+      "end": 32.48
+    },
+    {
+      "w": "many",
+      "start": 32.48,
+      "end": 32.68
+    },
+    {
+      "w": "of",
+      "start": 32.68,
+      "end": 32.82
+    },
+    {
+      "w": "the",
+      "start": 32.82,
+      "end": 32.96
+    },
+    {
+      "w": "brain's",
+      "start": 32.96,
+      "end": 33.4
+    },
+    {
+      "w": "neurons",
+      "start": 33.4,
+      "end": 33.64
+    },
+    {
+      "w": "to",
+      "start": 33.64,
+      "end": 33.88
+    },
+    {
+      "w": "get",
+      "start": 33.88,
+      "end": 34.06
+    },
+    {
+      "w": "overly",
+      "start": 34.06,
+      "end": 34.44
+    },
+    {
+      "w": "excited",
+      "start": 34.44,
+      "end": 34.92
+    },
+    {
+      "w": "at",
+      "start": 34.92,
+      "end": 35.2
+    },
+    {
+      "w": "the",
+      "start": 35.2,
+      "end": 35.3
+    },
+    {
+      "w": "same",
+      "start": 35.3,
+      "end": 35.54
+    },
+    {
+      "w": "time.",
+      "start": 35.54,
+      "end": 35.84
+    },
+    {
+      "w": "So",
+      "start": 36.04,
+      "end": 36.06
+    },
+    {
+      "w": "Claude",
+      "start": 36.06,
+      "end": 36.32
+    },
+    {
+      "w": "decided",
+      "start": 36.32,
+      "end": 36.56
+    },
+    {
+      "w": "to",
+      "start": 36.56,
+      "end": 36.8
+    },
+    {
+      "w": "use",
+      "start": 36.8,
+      "end": 37.0
+    },
+    {
+      "w": "a",
+      "start": 37.0,
+      "end": 37.2
+    },
+    {
+      "w": "gene",
+      "start": 37.2,
+      "end": 37.4
+    },
+    {
+      "w": "therapy",
+      "start": 37.4,
+      "end": 37.72
+    },
+    {
+      "w": "that",
+      "start": 37.72,
+      "end": 37.96
+    },
+    {
+      "w": "would",
+      "start": 37.96,
+      "end": 38.1
+    },
+    {
+      "w": "boost",
+      "start": 38.1,
+      "end": 38.54
+    },
+    {
+      "w": "the",
+      "start": 38.54,
+      "end": 38.78
+    },
+    {
+      "w": "brain's",
+      "start": 38.78,
+      "end": 39.2
+    },
+    {
+      "w": "natural",
+      "start": 39.2,
+      "end": 39.7
+    },
+    {
+      "w": "calming",
+      "start": 39.7,
+      "end": 40.12
+    },
+    {
+      "w": "signal.",
+      "start": 40.12,
+      "end": 40.58
+    },
+    {
+      "w": "And",
+      "start": 40.68,
+      "end": 40.76
+    },
+    {
+      "w": "it",
+      "start": 40.76,
+      "end": 40.82
+    },
+    {
+      "w": "even",
+      "start": 40.82,
+      "end": 40.98
+    },
+    {
+      "w": "compared",
+      "start": 40.98,
+      "end": 41.4
+    },
+    {
+      "w": "three",
+      "start": 41.4,
+      "end": 41.7
+    },
+    {
+      "w": "different",
+      "start": 41.7,
+      "end": 41.88
+    },
+    {
+      "w": "cases",
+      "start": 41.88,
+      "end": 42.22
+    },
+    {
+      "w": "on",
+      "start": 42.22,
+      "end": 42.42
+    },
+    {
+      "w": "the",
+      "start": 42.42,
+      "end": 42.52
+    },
+    {
+      "w": "topic",
+      "start": 42.52,
+      "end": 42.82
+    },
+    {
+      "w": "to",
+      "start": 42.82,
+      "end": 42.98
+    },
+    {
+      "w": "figure",
+      "start": 42.98,
+      "end": 43.16
+    },
+    {
+      "w": "out",
+      "start": 43.16,
+      "end": 43.3
+    },
+    {
+      "w": "the",
+      "start": 43.3,
+      "end": 43.46
+    },
+    {
+      "w": "exact",
+      "start": 43.46,
+      "end": 43.94
+    },
+    {
+      "w": "right",
+      "start": 43.94,
+      "end": 44.22
+    },
+    {
+      "w": "spot",
+      "start": 44.22,
+      "end": 44.64
+    },
+    {
+      "w": "to",
+      "start": 44.64,
+      "end": 44.92
+    },
+    {
+      "w": "do",
+      "start": 44.92,
+      "end": 45.08
+    },
+    {
+      "w": "the",
+      "start": 45.08,
+      "end": 45.2
+    },
+    {
+      "w": "injection.",
+      "start": 45.2,
+      "end": 45.58
+    },
+    {
+      "w": "Now",
+      "start": 45.84,
+      "end": 45.96
+    },
+    {
+      "w": "a",
+      "start": 45.96,
+      "end": 46.1
+    },
+    {
+      "w": "real",
+      "start": 46.1,
+      "end": 46.2
+    },
+    {
+      "w": "human",
+      "start": 46.2,
+      "end": 46.44
+    },
+    {
+      "w": "vet",
+      "start": 46.44,
+      "end": 46.62
+    },
+    {
+      "w": "opened",
+      "start": 46.62,
+      "end": 47.02
+    },
+    {
+      "w": "the",
+      "start": 47.02,
+      "end": 47.26
+    },
+    {
+      "w": "skull",
+      "start": 47.26,
+      "end": 47.48
+    },
+    {
+      "w": "and",
+      "start": 47.48,
+      "end": 47.64
+    },
+    {
+      "w": "had",
+      "start": 47.64,
+      "end": 47.76
+    },
+    {
+      "w": "a",
+      "start": 47.76,
+      "end": 47.88
+    },
+    {
+      "w": "kill",
+      "start": 47.88,
+      "end": 48.04
+    },
+    {
+      "w": "switch",
+      "start": 48.04,
+      "end": 48.24
+    },
+    {
+      "w": "in",
+      "start": 48.24,
+      "end": 48.4
+    },
+    {
+      "w": "case",
+      "start": 48.4,
+      "end": 48.5
+    },
+    {
+      "w": "anything",
+      "start": 48.5,
+      "end": 48.82
+    },
+    {
+      "w": "went",
+      "start": 48.82,
+      "end": 49.08
+    },
+    {
+      "w": "wrong,",
+      "start": 49.08,
+      "end": 49.34
+    },
+    {
+      "w": "but",
+      "start": 49.42,
+      "end": 49.56
+    },
+    {
+      "w": "Claude",
+      "start": 49.56,
+      "end": 49.96
+    },
+    {
+      "w": "executed",
+      "start": 49.96,
+      "end": 50.4
+    },
+    {
+      "w": "the",
+      "start": 50.4,
+      "end": 50.6
+    },
+    {
+      "w": "operation",
+      "start": 50.6,
+      "end": 51.06
+    },
+    {
+      "w": "perfectly.",
+      "start": 51.06,
+      "end": 51.68
+    },
+    {
+      "w": "And",
+      "start": 51.9,
+      "end": 51.98
+    },
+    {
+      "w": "the",
+      "start": 51.98,
+      "end": 52.06
+    },
+    {
+      "w": "cool",
+      "start": 52.06,
+      "end": 52.14
+    },
+    {
+      "w": "part",
+      "start": 52.14,
+      "end": 52.26
+    },
+    {
+      "w": "is",
+      "start": 52.26,
+      "end": 52.42
+    },
+    {
+      "w": "it",
+      "start": 52.42,
+      "end": 52.58
+    },
+    {
+      "w": "was",
+      "start": 52.58,
+      "end": 52.68
+    },
+    {
+      "w": "extremely",
+      "start": 52.68,
+      "end": 53.08
+    },
+    {
+      "w": "careful.",
+      "start": 53.08,
+      "end": 53.64
+    },
+    {
+      "w": "It",
+      "start": 53.76,
+      "end": 53.78
+    },
+    {
+      "w": "kept",
+      "start": 53.78,
+      "end": 53.94
+    },
+    {
+      "w": "checking",
+      "start": 53.94,
+      "end": 54.32
+    },
+    {
+      "w": "the",
+      "start": 54.32,
+      "end": 54.52
+    },
+    {
+      "w": "camera",
+      "start": 54.52,
+      "end": 54.86
+    },
+    {
+      "w": "over",
+      "start": 54.86,
+      "end": 55.22
+    },
+    {
+      "w": "and",
+      "start": 55.22,
+      "end": 55.36
+    },
+    {
+      "w": "over",
+      "start": 55.36,
+      "end": 55.54
+    },
+    {
+      "w": "to",
+      "start": 55.54,
+      "end": 55.8
+    },
+    {
+      "w": "make",
+      "start": 55.8,
+      "end": 55.98
+    },
+    {
+      "w": "sure",
+      "start": 55.98,
+      "end": 56.24
+    },
+    {
+      "w": "there",
+      "start": 56.24,
+      "end": 56.38
+    },
+    {
+      "w": "wasn't",
+      "start": 56.38,
+      "end": 56.64
+    },
+    {
+      "w": "extra",
+      "start": 56.64,
+      "end": 57.02
+    },
+    {
+      "w": "bleeding",
+      "start": 57.02,
+      "end": 57.3
+    },
+    {
+      "w": "and",
+      "start": 57.3,
+      "end": 57.52
+    },
+    {
+      "w": "the",
+      "start": 57.52,
+      "end": 57.6
+    },
+    {
+      "w": "operation",
+      "start": 57.6,
+      "end": 57.96
+    },
+    {
+      "w": "went",
+      "start": 57.96,
+      "end": 58.18
+    },
+    {
+      "w": "well.",
+      "start": 58.18,
+      "end": 58.42
+    },
+    {
+      "w": "Now",
+      "start": 58.42,
+      "end": 58.66
+    },
+    {
+      "w": "this",
+      "start": 58.66,
+      "end": 58.8
+    },
+    {
+      "w": "may",
+      "start": 58.8,
+      "end": 58.96
+    },
+    {
+      "w": "seem",
+      "start": 58.96,
+      "end": 59.3
+    },
+    {
+      "w": "like",
+      "start": 59.3,
+      "end": 59.46
+    },
+    {
+      "w": "a",
+      "start": 59.46,
+      "end": 59.56
+    },
+    {
+      "w": "silly",
+      "start": 59.56,
+      "end": 59.76
+    },
+    {
+      "w": "story,",
+      "start": 59.76,
+      "end": 60.1
+    },
+    {
+      "w": "but",
+      "start": 60.24,
+      "end": 60.3
+    },
+    {
+      "w": "I",
+      "start": 60.3,
+      "end": 60.44
+    },
+    {
+      "w": "think",
+      "start": 60.44,
+      "end": 60.6
+    },
+    {
+      "w": "it",
+      "start": 60.6,
+      "end": 60.7
+    },
+    {
+      "w": "marks",
+      "start": 60.7,
+      "end": 60.92
+    },
+    {
+      "w": "an",
+      "start": 60.92,
+      "end": 61.14
+    },
+    {
+      "w": "incredible",
+      "start": 61.14,
+      "end": 61.62
+    },
+    {
+      "w": "milestone",
+      "start": 61.62,
+      "end": 62.24
+    },
+    {
+      "w": "in",
+      "start": 62.24,
+      "end": 62.54
+    },
+    {
+      "w": "the",
+      "start": 62.54,
+      "end": 62.66
+    },
+    {
+      "w": "progress",
+      "start": 62.66,
+      "end": 63.02
+    },
+    {
+      "w": "of",
+      "start": 63.02,
+      "end": 63.24
+    },
+    {
+      "w": "AI,",
+      "start": 63.24,
+      "end": 63.44
+    },
+    {
+      "w": "especially",
+      "start": 63.64,
+      "end": 64.02
+    },
+    {
+      "w": "in",
+      "start": 64.02,
+      "end": 64.36
+    },
+    {
+      "w": "the",
+      "start": 64.36,
+      "end": 64.48
+    },
+    {
+      "w": "science",
+      "start": 64.48,
+      "end": 64.88
+    },
+    {
+      "w": "and",
+      "start": 64.88,
+      "end": 65.12
+    },
+    {
+      "w": "medical",
+      "start": 65.12,
+      "end": 65.38
+    },
+    {
+      "w": "fields.",
+      "start": 65.38,
+      "end": 65.84
+    },
+    {
+      "w": "A",
+      "start": 65.98,
+      "end": 66.06
+    },
+    {
+      "w": "lot",
+      "start": 66.06,
+      "end": 66.14
+    },
+    {
+      "w": "of",
+      "start": 66.14,
+      "end": 66.24
+    },
+    {
+      "w": "us",
+      "start": 66.24,
+      "end": 66.32
+    },
+    {
+      "w": "forget,",
+      "start": 66.32,
+      "end": 66.56
+    },
+    {
+      "w": "chatGPT",
+      "start": 66.72,
+      "end": 67.16
+    },
+    {
+      "w": "came",
+      "start": 67.16,
+      "end": 67.38
+    },
+    {
+      "w": "out",
+      "start": 67.38,
+      "end": 67.58
+    },
+    {
+      "w": "less",
+      "start": 67.58,
+      "end": 67.84
+    },
+    {
+      "w": "than",
+      "start": 67.84,
+      "end": 68.06
+    },
+    {
+      "w": "four",
+      "start": 68.06,
+      "end": 68.42
+    },
+    {
+      "w": "years",
+      "start": 68.42,
+      "end": 68.68
+    },
+    {
+      "w": "ago.",
+      "start": 68.68,
+      "end": 68.96
+    },
+    {
+      "w": "And",
+      "start": 69.06,
+      "end": 69.14
+    },
+    {
+      "w": "now",
+      "start": 69.14,
+      "end": 69.32
+    },
+    {
+      "w": "we're",
+      "start": 69.32,
+      "end": 69.48
+    },
+    {
+      "w": "seeing",
+      "start": 69.48,
+      "end": 69.66
+    },
+    {
+      "w": "general",
+      "start": 69.66,
+      "end": 70.1
+    },
+    {
+      "w": "purpose",
+      "start": 70.1,
+      "end": 70.54
+    },
+    {
+      "w": "LLMs",
+      "start": 70.54,
+      "end": 71.24
+    },
+    {
+      "w": "conducting",
+      "start": 71.24,
+      "end": 71.7
+    },
+    {
+      "w": "live",
+      "start": 71.7,
+      "end": 72.26
+    },
+    {
+      "w": "surgery",
+      "start": 72.26,
+      "end": 72.78
+    },
+    {
+      "w": "on",
+      "start": 72.78,
+      "end": 73.14
+    },
+    {
+      "w": "a",
+      "start": 73.14,
+      "end": 73.28
+    },
+    {
+      "w": "real",
+      "start": 73.28,
+      "end": 73.46
+    },
+    {
+      "w": "animal.",
+      "start": 73.46,
+      "end": 73.8
+    },
+    {
+      "w": "The",
+      "start": 73.94,
+      "end": 74.0
+    },
+    {
+      "w": "pace",
+      "start": 74.0,
+      "end": 74.16
+    },
+    {
+      "w": "of",
+      "start": 74.16,
+      "end": 74.3
+    },
+    {
+      "w": "progress",
+      "start": 74.3,
+      "end": 74.54
+    },
+    {
+      "w": "in",
+      "start": 74.54,
+      "end": 74.78
+    },
+    {
+      "w": "science",
+      "start": 74.78,
+      "end": 75.12
+    },
+    {
+      "w": "and",
+      "start": 75.12,
+      "end": 75.28
+    },
+    {
+      "w": "medicine",
+      "start": 75.28,
+      "end": 75.54
+    },
+    {
+      "w": "is",
+      "start": 75.54,
+      "end": 75.74
+    },
+    {
+      "w": "absolutely",
+      "start": 75.74,
+      "end": 76.18
+    },
+    {
+      "w": "insane.",
+      "start": 76.18,
+      "end": 76.54
+    },
+    {
+      "w": "It",
+      "start": 76.78,
+      "end": 76.84
+    },
+    {
+      "w": "sounds",
+      "start": 76.84,
+      "end": 77.0
+    },
+    {
+      "w": "crazy",
+      "start": 77.0,
+      "end": 77.22
+    },
+    {
+      "w": "now,",
+      "start": 77.22,
+      "end": 77.4
+    },
+    {
+      "w": "but",
+      "start": 77.44,
+      "end": 77.54
+    },
+    {
+      "w": "there's",
+      "start": 77.54,
+      "end": 77.72
+    },
+    {
+      "w": "a",
+      "start": 77.72,
+      "end": 77.8
+    },
+    {
+      "w": "good",
+      "start": 77.8,
+      "end": 77.98
+    },
+    {
+      "w": "chance",
+      "start": 77.98,
+      "end": 78.3
+    },
+    {
+      "w": "in",
+      "start": 78.3,
+      "end": 78.54
+    },
+    {
+      "w": "the",
+      "start": 78.54,
+      "end": 78.62
+    },
+    {
+      "w": "next",
+      "start": 78.62,
+      "end": 78.82
+    },
+    {
+      "w": "10",
+      "start": 78.82,
+      "end": 79.08
+    },
+    {
+      "w": "years,",
+      "start": 79.08,
+      "end": 79.38
+    },
+    {
+      "w": "most",
+      "start": 79.56,
+      "end": 79.86
+    },
+    {
+      "w": "of",
+      "start": 79.86,
+      "end": 80.08
+    },
+    {
+      "w": "our",
+      "start": 80.08,
+      "end": 80.22
+    },
+    {
+      "w": "core",
+      "start": 80.22,
+      "end": 80.48
+    },
+    {
+      "w": "medical",
+      "start": 80.48,
+      "end": 80.8
+    },
+    {
+      "w": "procedures",
+      "start": 80.8,
+      "end": 81.34
+    },
+    {
+      "w": "will",
+      "start": 81.34,
+      "end": 81.66
+    },
+    {
+      "w": "involve",
+      "start": 81.66,
+      "end": 81.94
+    },
+    {
+      "w": "some",
+      "start": 81.94,
+      "end": 82.36
+    },
+    {
+      "w": "version",
+      "start": 82.36,
+      "end": 82.9
+    },
+    {
+      "w": "of",
+      "start": 82.9,
+      "end": 83.04
+    },
+    {
+      "w": "AI",
+      "start": 83.04,
+      "end": 83.28
+    },
+    {
+      "w": "assistance",
+      "start": 83.28,
+      "end": 83.7
+    },
+    {
+      "w": "like",
+      "start": 83.7,
+      "end": 84.28
+    },
+    {
+      "w": "this.",
+      "start": 84.28,
+      "end": 84.56
+    },
+    {
+      "w": "Fall",
+      "start": 84.84,
+      "end": 84.94
+    },
+    {
+      "w": "for",
+      "start": 84.94,
+      "end": 85.06
+    },
+    {
+      "w": "more",
+      "start": 85.06,
+      "end": 85.2
+    },
+    {
+      "w": "stories",
+      "start": 85.2,
+      "end": 85.4
+    },
+    {
+      "w": "like",
+      "start": 85.4,
+      "end": 85.6
+    },
+    {
+      "w": "this",
+      "start": 85.6,
+      "end": 85.86
+    },
+    {
+      "w": "if",
+      "start": 85.86,
+      "end": 86.04
+    },
+    {
+      "w": "you",
+      "start": 86.04,
+      "end": 86.1
+    },
+    {
+      "w": "wanna",
+      "start": 86.1,
+      "end": 86.22
+    },
+    {
+      "w": "learn",
+      "start": 86.22,
+      "end": 86.4
+    },
+    {
+      "w": "more",
+      "start": 86.4,
+      "end": 86.58
+    },
+    {
+      "w": "about",
+      "start": 86.58,
+      "end": 86.74
+    },
+    {
+      "w": "tech,",
+      "start": 86.74,
+      "end": 87.06
+    },
+    {
+      "w": "AI",
+      "start": 87.32,
+      "end": 87.58
+    },
+    {
+      "w": "and",
+      "start": 87.58,
+      "end": 87.92
+    },
+    {
+      "w": "robotics.",
+      "start": 87.92,
+      "end": 88.24
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 0.834,
+      "length": 0.834,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0D0F",
+            "share": 0.503
+          },
+          {
+            "hex": "#2B2F2E",
+            "share": 0.118
+          },
+          {
+            "hex": "#4A504C",
+            "share": 0.076
+          },
+          {
+            "hex": "#8A766D",
+            "share": 0.03
+          },
+          {
+            "hex": "#182527",
+            "share": 0.026
+          }
+        ],
+        "motion_energy": 17.6,
+        "script": "Claude just performed brain"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 0.834,
+      "end": 1.752,
+      "length": 0.918,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0E",
+            "share": 0.291
+          },
+          {
+            "hex": "#6B6973",
+            "share": 0.063
+          },
+          {
+            "hex": "#2C2D2E",
+            "share": 0.063
+          },
+          {
+            "hex": "#4E4E51",
+            "share": 0.041
+          },
+          {
+            "hex": "#1B2429",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 17.31,
+        "script": "surgery on"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 1.752,
+      "end": 4.046,
+      "length": 2.294,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0E",
+            "share": 0.307
+          },
+          {
+            "hex": "#8B8593",
+            "share": 0.124
+          },
+          {
+            "hex": "#CAC3D2",
+            "share": 0.075
+          },
+          {
+            "hex": "#C4BCCB",
+            "share": 0.059
+          },
+          {
+            "hex": "#827C8B",
+            "share": 0.042
+          }
+        ],
+        "motion_energy": 20.76,
+        "script": "a living animal for the first time ever. If"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 4.046,
+      "end": 7.424,
+      "length": 3.378,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C090C",
+            "share": 0.63
+          },
+          {
+            "hex": "#2F2829",
+            "share": 0.038
+          },
+          {
+            "hex": "#2A221B",
+            "share": 0.033
+          },
+          {
+            "hex": "#B0724C",
+            "share": 0.031
+          },
+          {
+            "hex": "#734A33",
+            "share": 0.03
+          }
+        ],
+        "motion_energy": 17.23,
+        "script": "you'd like technology, this is one of the wildest stories I've heard in a while."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 7.424,
+      "end": 7.883,
+      "length": 0.459,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FAF5F6",
+            "share": 0.152
+          },
+          {
+            "hex": "#B2A98E",
+            "share": 0.05
+          },
+          {
+            "hex": "#CDB58C",
+            "share": 0.037
+          },
+          {
+            "hex": "#E8C898",
+            "share": 0.034
+          },
+          {
+            "hex": "#CDAE72",
+            "share": 0.034
+          }
+        ],
+        "motion_energy": 28.5,
+        "script": "Now the goal of the"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 7.883,
+      "end": 9.301,
+      "length": 1.418,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#EFF8FA",
+            "share": 0.119
+          },
+          {
+            "hex": "#D5E8EF",
+            "share": 0.105
+          },
+          {
+            "hex": "#B7CCD2",
+            "share": 0.085
+          },
+          {
+            "hex": "#ACB4AF",
+            "share": 0.049
+          },
+          {
+            "hex": "#C7DAE4",
+            "share": 0.047
+          }
+        ],
+        "motion_energy": 11.92,
+        "script": "surgery was very simple."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 9.301,
+      "end": 9.968,
+      "length": 0.667,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#B1AC93",
+            "share": 0.086
+          },
+          {
+            "hex": "#EBADB1",
+            "share": 0.085
+          },
+          {
+            "hex": "#AD9272",
+            "share": 0.063
+          },
+          {
+            "hex": "#AE9788",
+            "share": 0.057
+          },
+          {
+            "hex": "#CF9492",
+            "share": 0.045
+          }
+        ],
+        "motion_energy": 16.4,
+        "script": "Figure out how to reduce"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 9.968,
+      "end": 11.178,
+      "length": 1.21,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#E2D2D9",
+            "share": 0.211
+          },
+          {
+            "hex": "#DAC9D2",
+            "share": 0.145
+          },
+          {
+            "hex": "#CAB0B7",
+            "share": 0.072
+          },
+          {
+            "hex": "#E4D7E3",
+            "share": 0.051
+          },
+          {
+            "hex": "#CEBAC4",
+            "share": 0.05
+          }
+        ],
+        "motion_energy": 7.12,
+        "script": "seizures in a"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 11.178,
+      "end": 11.637,
+      "length": 0.459,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#EFF7F7",
+            "share": 0.188
+          },
+          {
+            "hex": "#D8E8E6",
+            "share": 0.125
+          },
+          {
+            "hex": "#B2AE91",
+            "share": 0.099
+          },
+          {
+            "hex": "#CBD5D4",
+            "share": 0.093
+          },
+          {
+            "hex": "#D7E2DE",
+            "share": 0.068
+          }
+        ],
+        "motion_energy": 16.79,
+        "script": "mouse that"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 11.637,
+      "end": 12.93,
+      "length": 1.293,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F4F6F4",
+            "share": 0.893
+          },
+          {
+            "hex": "#100C0F",
+            "share": 0.029
+          },
+          {
+            "hex": "#30292D",
+            "share": 0.016
+          },
+          {
+            "hex": "#D1D0CF",
+            "share": 0.008
+          },
+          {
+            "hex": "#AFADAD",
+            "share": 0.008
+          }
+        ],
+        "motion_energy": 4.92,
+        "script": "had epilepsy. The"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 10,
+      "start": 12.93,
+      "end": 14.014,
+      "length": 1.084,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0E",
+            "share": 0.317
+          },
+          {
+            "hex": "#2B2E31",
+            "share": 0.064
+          },
+          {
+            "hex": "#B7CACA",
+            "share": 0.036
+          },
+          {
+            "hex": "#C6D5D9",
+            "share": 0.036
+          },
+          {
+            "hex": "#4D4E4F",
+            "share": 0.035
+          }
+        ],
+        "motion_energy": 6.31,
+        "script": "startup behind this is called Exyn"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 11,
+      "start": 14.014,
+      "end": 35.953,
+      "length": 21.939,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.695
+          },
+          {
+            "hex": "#704C34",
+            "share": 0.033
+          },
+          {
+            "hex": "#AF734C",
+            "share": 0.029
+          },
+          {
+            "hex": "#2F292A",
+            "share": 0.021
+          },
+          {
+            "hex": "#C49566",
+            "share": 0.019
+          }
+        ],
+        "motion_energy": 33.05,
+        "script": "Therapeutics. And what they did with Claude was super interesting. Exyn gave Claude a list of 19 possible gene treatments, as well as control over robotic arm system with a needle and a camera. Now nobody told Claude what treatment to pick or how to execute the operation. The only instructions they gave it were to reduce the seizures. Epilepsy causes too many of the brain's neurons to get overly excited at the same time."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 12,
+      "start": 35.953,
+      "end": 37.83,
+      "length": 1.877,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.653
+          },
+          {
+            "hex": "#AE724C",
+            "share": 0.05
+          },
+          {
+            "hex": "#724B34",
+            "share": 0.031
+          },
+          {
+            "hex": "#8A5638",
+            "share": 0.024
+          },
+          {
+            "hex": "#4F362A",
+            "share": 0.024
+          }
+        ],
+        "motion_energy": 13.43,
+        "script": "So Claude decided to use a gene therapy that"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 13,
+      "start": 37.83,
+      "end": 40.666,
+      "length": 2.836,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#050C0E",
+            "share": 0.399
+          },
+          {
+            "hex": "#324D4E",
+            "share": 0.101
+          },
+          {
+            "hex": "#162A2B",
+            "share": 0.075
+          },
+          {
+            "hex": "#253536",
+            "share": 0.067
+          },
+          {
+            "hex": "#496E70",
+            "share": 0.06
+          }
+        ],
+        "motion_energy": 9.21,
+        "script": "would boost the brain's natural calming signal."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 14,
+      "start": 40.666,
+      "end": 45.837,
+      "length": 5.172,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#090B0E",
+            "share": 0.521
+          },
+          {
+            "hex": "#2A2E2F",
+            "share": 0.055
+          },
+          {
+            "hex": "#17272A",
+            "share": 0.046
+          },
+          {
+            "hex": "#151A25",
+            "share": 0.028
+          },
+          {
+            "hex": "#6B9196",
+            "share": 0.024
+          }
+        ],
+        "motion_energy": 19.86,
+        "script": "And it even compared three different cases on the topic to figure out the exact right spot to do the injection."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 15,
+      "start": 45.837,
+      "end": 47.089,
+      "length": 1.251,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0D",
+            "share": 0.314
+          },
+          {
+            "hex": "#C5D3D7",
+            "share": 0.073
+          },
+          {
+            "hex": "#B8C9CD",
+            "share": 0.06
+          },
+          {
+            "hex": "#6A6973",
+            "share": 0.051
+          },
+          {
+            "hex": "#2C2E30",
+            "share": 0.048
+          }
+        ],
+        "motion_energy": 4.72,
+        "script": "Now a real human vet opened the"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 16,
+      "start": 47.089,
+      "end": 49.466,
+      "length": 2.377,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0E",
+            "share": 0.3
+          },
+          {
+            "hex": "#F2F9FB",
+            "share": 0.098
+          },
+          {
+            "hex": "#2D2E2F",
+            "share": 0.039
+          },
+          {
+            "hex": "#4B5150",
+            "share": 0.036
+          },
+          {
+            "hex": "#738A8E",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 14.9,
+        "script": "skull and had a kill switch in case anything went wrong, but"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 17,
+      "start": 49.466,
+      "end": 51.885,
+      "length": 2.419,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0A0B0E",
+            "share": 0.457
+          },
+          {
+            "hex": "#172C2E",
+            "share": 0.05
+          },
+          {
+            "hex": "#70ADAC",
+            "share": 0.045
+          },
+          {
+            "hex": "#568D8E",
+            "share": 0.044
+          },
+          {
+            "hex": "#2D2E2E",
+            "share": 0.04
+          }
+        ],
+        "motion_energy": 17.04,
+        "script": "Claude executed the operation perfectly."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 18,
+      "start": 51.885,
+      "end": 53.762,
+      "length": 1.877,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0C",
+            "share": 0.605
+          },
+          {
+            "hex": "#AE714A",
+            "share": 0.05
+          },
+          {
+            "hex": "#714B33",
+            "share": 0.031
+          },
+          {
+            "hex": "#241B18",
+            "share": 0.03
+          },
+          {
+            "hex": "#4E3429",
+            "share": 0.029
+          }
+        ],
+        "motion_energy": 14.0,
+        "script": "And the cool part is it was extremely careful. It"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 19,
+      "start": 53.762,
+      "end": 60.227,
+      "length": 6.465,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0E10",
+            "share": 0.573
+          },
+          {
+            "hex": "#2C2E2D",
+            "share": 0.097
+          },
+          {
+            "hex": "#182627",
+            "share": 0.037
+          },
+          {
+            "hex": "#514E4A",
+            "share": 0.035
+          },
+          {
+            "hex": "#89766C",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 16.92,
+        "script": "kept checking the camera over and over to make sure there wasn't extra bleeding and the operation went well. Now this may seem like a silly story,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 20,
+      "start": 60.227,
+      "end": 61.061,
+      "length": 0.834,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0D",
+            "share": 0.319
+          },
+          {
+            "hex": "#706B55",
+            "share": 0.057
+          },
+          {
+            "hex": "#EAADB0",
+            "share": 0.039
+          },
+          {
+            "hex": "#B1AA92",
+            "share": 0.034
+          },
+          {
+            "hex": "#AC926F",
+            "share": 0.034
+          }
+        ],
+        "motion_energy": 13.47,
+        "script": "but I think it marks an"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 21,
+      "start": 61.061,
+      "end": 62.354,
+      "length": 1.293,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0D",
+            "share": 0.327
+          },
+          {
+            "hex": "#D6E7ED",
+            "share": 0.09
+          },
+          {
+            "hex": "#E7F3F9",
+            "share": 0.084
+          },
+          {
+            "hex": "#2D2D2D",
+            "share": 0.035
+          },
+          {
+            "hex": "#B6C9CF",
+            "share": 0.026
+          }
+        ],
+        "motion_energy": 6.64,
+        "script": "incredible milestone in"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 22,
+      "start": 62.354,
+      "end": 65.983,
+      "length": 3.629,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0D",
+            "share": 0.311
+          },
+          {
+            "hex": "#EBF3F6",
+            "share": 0.164
+          },
+          {
+            "hex": "#CAD3D5",
+            "share": 0.074
+          },
+          {
+            "hex": "#A9B3B4",
+            "share": 0.05
+          },
+          {
+            "hex": "#DBE5E8",
+            "share": 0.043
+          }
+        ],
+        "motion_energy": 16.74,
+        "script": "the progress of AI, especially in the science and medical fields. A"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 23,
+      "start": 65.983,
+      "end": 67.234,
+      "length": 1.251,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.642
+          },
+          {
+            "hex": "#B0724B",
+            "share": 0.047
+          },
+          {
+            "hex": "#231C19",
+            "share": 0.033
+          },
+          {
+            "hex": "#2F2828",
+            "share": 0.03
+          },
+          {
+            "hex": "#704A33",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 11.04,
+        "script": "lot of us forget, chatGPT came"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 24,
+      "start": 67.234,
+      "end": 68.068,
+      "length": 0.834,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#111317",
+            "share": 0.332
+          },
+          {
+            "hex": "#282A30",
+            "share": 0.16
+          },
+          {
+            "hex": "#1C2229",
+            "share": 0.144
+          },
+          {
+            "hex": "#171C22",
+            "share": 0.112
+          },
+          {
+            "hex": "#6D6D71",
+            "share": 0.04
+          }
+        ],
+        "motion_energy": 16.19,
+        "script": "out less than four"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 25,
+      "start": 68.068,
+      "end": 69.069,
+      "length": 1.001,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E1316",
+            "share": 0.337
+          },
+          {
+            "hex": "#435A64",
+            "share": 0.174
+          },
+          {
+            "hex": "#384C55",
+            "share": 0.071
+          },
+          {
+            "hex": "#4B646E",
+            "share": 0.062
+          },
+          {
+            "hex": "#946E6A",
+            "share": 0.044
+          }
+        ],
+        "motion_energy": 29.72,
+        "script": "years ago. And"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 26,
+      "start": 69.069,
+      "end": 69.653,
+      "length": 0.584,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0B0A0D",
+            "share": 0.37
+          },
+          {
+            "hex": "#C7DBE9",
+            "share": 0.064
+          },
+          {
+            "hex": "#CDE2F2",
+            "share": 0.054
+          },
+          {
+            "hex": "#2D2E2E",
+            "share": 0.044
+          },
+          {
+            "hex": "#93AAB1",
+            "share": 0.041
+          }
+        ],
+        "motion_energy": 12.02,
+        "script": "now we're seeing"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 27,
+      "start": 69.653,
+      "end": 70.696,
+      "length": 1.043,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0E",
+            "share": 0.309
+          },
+          {
+            "hex": "#F4F5F4",
+            "share": 0.16
+          },
+          {
+            "hex": "#313332",
+            "share": 0.087
+          },
+          {
+            "hex": "#4D4E4E",
+            "share": 0.047
+          },
+          {
+            "hex": "#73736F",
+            "share": 0.038
+          }
+        ],
+        "motion_energy": 4.3,
+        "script": "general purpose LLMs"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 28,
+      "start": 70.696,
+      "end": 71.363,
+      "length": 0.667,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0E",
+            "share": 0.318
+          },
+          {
+            "hex": "#F3F8F7",
+            "share": 0.111
+          },
+          {
+            "hex": "#2C302F",
+            "share": 0.073
+          },
+          {
+            "hex": "#D0CEEE",
+            "share": 0.07
+          },
+          {
+            "hex": "#908EB1",
+            "share": 0.051
+          }
+        ],
+        "motion_energy": 18.64,
+        "script": "conducting"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 29,
+      "start": 71.363,
+      "end": 73.949,
+      "length": 2.586,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0D0F",
+            "share": 0.519
+          },
+          {
+            "hex": "#2B2F2E",
+            "share": 0.119
+          },
+          {
+            "hex": "#494F4B",
+            "share": 0.071
+          },
+          {
+            "hex": "#172628",
+            "share": 0.031
+          },
+          {
+            "hex": "#8B766C",
+            "share": 0.029
+          }
+        ],
+        "motion_energy": 4.74,
+        "script": "live surgery on a real animal. The"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 30,
+      "start": 73.949,
+      "end": 84.042,
+      "length": 10.094,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0A0C0F",
+            "share": 0.46
+          },
+          {
+            "hex": "#2B3031",
+            "share": 0.073
+          },
+          {
+            "hex": "#324D4F",
+            "share": 0.053
+          },
+          {
+            "hex": "#172829",
+            "share": 0.048
+          },
+          {
+            "hex": "#4B6E70",
+            "share": 0.034
+          }
+        ],
+        "motion_energy": 30.47,
+        "script": "pace of progress in science and medicine is absolutely insane. It sounds crazy now, but there's a good chance in the next 10 years, most of our core medical procedures will involve some version of AI assistance like"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 31,
+      "start": 84.042,
+      "end": 84.751,
+      "length": 0.709,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#090A0C",
+            "share": 0.551
+          },
+          {
+            "hex": "#182728",
+            "share": 0.08
+          },
+          {
+            "hex": "#2A2D2E",
+            "share": 0.051
+          },
+          {
+            "hex": "#4B6C6D",
+            "share": 0.037
+          },
+          {
+            "hex": "#334F51",
+            "share": 0.035
+          }
+        ],
+        "motion_energy": 27.0,
+        "script": "this."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 32,
+      "start": 84.751,
+      "end": 85.419,
+      "length": 0.667,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0E",
+            "share": 0.324
+          },
+          {
+            "hex": "#CED8D0",
+            "share": 0.123
+          },
+          {
+            "hex": "#D8E2DB",
+            "share": 0.071
+          },
+          {
+            "hex": "#E5D9A9",
+            "share": 0.058
+          },
+          {
+            "hex": "#E3EAE4",
+            "share": 0.056
+          }
+        ],
+        "motion_energy": 23.43,
+        "script": "Fall for more stories like"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 33,
+      "start": 85.419,
+      "end": 88.628,
+      "length": 3.209,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0D",
+            "share": 0.65
+          },
+          {
+            "hex": "#AE734B",
+            "share": 0.05
+          },
+          {
+            "hex": "#2E2829",
+            "share": 0.026
+          },
+          {
+            "hex": "#241B19",
+            "share": 0.025
+          },
+          {
+            "hex": "#6F4A34",
+            "share": 0.024
+          }
+        ],
+        "motion_energy": 21.54,
+        "script": "this if you wanna learn more about tech, AI and robotics."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

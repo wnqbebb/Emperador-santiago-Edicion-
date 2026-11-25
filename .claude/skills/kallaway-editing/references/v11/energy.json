@@ -1,0 +1,28 @@
+{
+ "duracion_s": 92.25,
+ "por_segundo": {
+  "corte_seco": 0.78,
+  "transicion": 0.076,
+  "texto": 0.098,
+  "camara": 0.184,
+  "disparadores": 0.986,
+  "escenas": 0.358
+ },
+ "conteo": {
+  "corte_seco": 72,
+  "transicion": 7,
+  "texto": 9,
+  "camara": 17,
+  "disparadores": 91,
+  "escenas": 33
+ },
+ "tipos_transicion": {
+  "corte seco": 68,
+  "corte seco + wipe (logo)": 1,
+  "corte seco + slide": 1,
+  "slide": 2,
+  "corte seco + zoom-in": 1,
+  "continuo (sin corte)": 5,
+  "corte seco + blur-in": 1
+ }
+}

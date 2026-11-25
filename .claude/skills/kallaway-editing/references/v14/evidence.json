@@ -1,0 +1,4515 @@
+{
+  "video": "v14.mp4",
+  "duration": 121.44,
+  "derived": {
+    "shots": 56,
+    "avg_shot_len": 2.17,
+    "cuts_per_min": 27.7,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      18,
+      19,
+      25,
+      29,
+      30,
+      31,
+      32,
+      33,
+      37,
+      38,
+      39,
+      40,
+      42,
+      43,
+      46,
+      49,
+      50
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "Meta",
+      "start": 0.0,
+      "end": 0.44
+    },
+    {
+      "w": "just",
+      "start": 0.44,
+      "end": 0.68
+    },
+    {
+      "w": "had",
+      "start": 0.68,
+      "end": 0.9
+    },
+    {
+      "w": "one",
+      "start": 0.9,
+      "end": 1.08
+    },
+    {
+      "w": "of",
+      "start": 1.08,
+      "end": 1.16
+    },
+    {
+      "w": "the",
+      "start": 1.16,
+      "end": 1.28
+    },
+    {
+      "w": "craziest",
+      "start": 1.28,
+      "end": 1.7
+    },
+    {
+      "w": "product",
+      "start": 1.7,
+      "end": 2.24
+    },
+    {
+      "w": "launch",
+      "start": 2.24,
+      "end": 2.56
+    },
+    {
+      "w": "events",
+      "start": 2.56,
+      "end": 2.88
+    },
+    {
+      "w": "I've",
+      "start": 2.88,
+      "end": 3.28
+    },
+    {
+      "w": "ever",
+      "start": 3.28,
+      "end": 3.42
+    },
+    {
+      "w": "seen.",
+      "start": 3.42,
+      "end": 3.68
+    },
+    {
+      "w": "They",
+      "start": 3.86,
+      "end": 3.98
+    },
+    {
+      "w": "just",
+      "start": 3.98,
+      "end": 4.12
+    },
+    {
+      "w": "announced",
+      "start": 4.12,
+      "end": 4.36
+    },
+    {
+      "w": "four",
+      "start": 4.36,
+      "end": 4.84
+    },
+    {
+      "w": "new",
+      "start": 4.84,
+      "end": 5.1
+    },
+    {
+      "w": "products",
+      "start": 5.1,
+      "end": 5.5
+    },
+    {
+      "w": "that",
+      "start": 5.5,
+      "end": 5.86
+    },
+    {
+      "w": "are",
+      "start": 5.86,
+      "end": 6.02
+    },
+    {
+      "w": "each",
+      "start": 6.02,
+      "end": 6.38
+    },
+    {
+      "w": "pioneering",
+      "start": 6.38,
+      "end": 7.1
+    },
+    {
+      "w": "the",
+      "start": 7.1,
+      "end": 7.34
+    },
+    {
+      "w": "future",
+      "start": 7.34,
+      "end": 7.7
+    },
+    {
+      "w": "of",
+      "start": 7.7,
+      "end": 8.06
+    },
+    {
+      "w": "their",
+      "start": 8.06,
+      "end": 8.24
+    },
+    {
+      "w": "own",
+      "start": 8.24,
+      "end": 8.5
+    },
+    {
+      "w": "categories.",
+      "start": 8.5,
+      "end": 9.0
+    },
+    {
+      "w": "And",
+      "start": 9.34,
+      "end": 9.36
+    },
+    {
+      "w": "I",
+      "start": 9.36,
+      "end": 9.42
+    },
+    {
+      "w": "don't",
+      "start": 9.42,
+      "end": 9.5
+    },
+    {
+      "w": "think",
+      "start": 9.5,
+      "end": 9.68
+    },
+    {
+      "w": "people",
+      "start": 9.68,
+      "end": 9.94
+    },
+    {
+      "w": "realize",
+      "start": 9.94,
+      "end": 10.42
+    },
+    {
+      "w": "the",
+      "start": 10.42,
+      "end": 10.66
+    },
+    {
+      "w": "strategic",
+      "start": 10.66,
+      "end": 11.24
+    },
+    {
+      "w": "level",
+      "start": 11.24,
+      "end": 11.58
+    },
+    {
+      "w": "chess",
+      "start": 11.58,
+      "end": 11.92
+    },
+    {
+      "w": "game",
+      "start": 11.92,
+      "end": 12.3
+    },
+    {
+      "w": "that",
+      "start": 12.3,
+      "end": 12.46
+    },
+    {
+      "w": "is",
+      "start": 12.46,
+      "end": 12.58
+    },
+    {
+      "w": "really",
+      "start": 12.58,
+      "end": 12.9
+    },
+    {
+      "w": "going",
+      "start": 12.9,
+      "end": 13.12
+    },
+    {
+      "w": "on",
+      "start": 13.12,
+      "end": 13.4
+    },
+    {
+      "w": "here.",
+      "start": 13.4,
+      "end": 13.6
+    },
+    {
+      "w": "Product",
+      "start": 13.72,
+      "end": 13.92
+    },
+    {
+      "w": "number",
+      "start": 13.92,
+      "end": 14.1
+    },
+    {
+      "w": "one",
+      "start": 14.1,
+      "end": 14.44
+    },
+    {
+      "w": "was",
+      "start": 14.44,
+      "end": 14.68
+    },
+    {
+      "w": "the",
+      "start": 14.68,
+      "end": 14.86
+    },
+    {
+      "w": "Meta",
+      "start": 14.86,
+      "end": 15.18
+    },
+    {
+      "w": "VR",
+      "start": 15.18,
+      "end": 15.4
+    },
+    {
+      "w": "headset.",
+      "start": 15.4,
+      "end": 15.88
+    },
+    {
+      "w": "It",
+      "start": 16.06,
+      "end": 16.16
+    },
+    {
+      "w": "has",
+      "start": 16.16,
+      "end": 16.32
+    },
+    {
+      "w": "the",
+      "start": 16.32,
+      "end": 16.48
+    },
+    {
+      "w": "VR",
+      "start": 16.48,
+      "end": 16.82
+    },
+    {
+      "w": "power",
+      "start": 16.82,
+      "end": 17.32
+    },
+    {
+      "w": "of",
+      "start": 17.32,
+      "end": 17.58
+    },
+    {
+      "w": "the",
+      "start": 17.58,
+      "end": 17.72
+    },
+    {
+      "w": "Oculus",
+      "start": 17.72,
+      "end": 18.0
+    },
+    {
+      "w": "but",
+      "start": 18.0,
+      "end": 18.44
+    },
+    {
+      "w": "sized",
+      "start": 18.44,
+      "end": 18.82
+    },
+    {
+      "w": "down",
+      "start": 18.82,
+      "end": 19.24
+    },
+    {
+      "w": "to",
+      "start": 19.24,
+      "end": 19.4
+    },
+    {
+      "w": "a",
+      "start": 19.4,
+      "end": 19.56
+    },
+    {
+      "w": "pair",
+      "start": 19.56,
+      "end": 19.74
+    },
+    {
+      "w": "of",
+      "start": 19.74,
+      "end": 19.9
+    },
+    {
+      "w": "wraparound",
+      "start": 19.9,
+      "end": 20.36
+    },
+    {
+      "w": "glasses.",
+      "start": 20.36,
+      "end": 20.76
+    },
+    {
+      "w": "This",
+      "start": 21.06,
+      "end": 21.18
+    },
+    {
+      "w": "will",
+      "start": 21.18,
+      "end": 21.32
+    },
+    {
+      "w": "literally",
+      "start": 21.32,
+      "end": 21.5
+    },
+    {
+      "w": "give",
+      "start": 21.5,
+      "end": 21.78
+    },
+    {
+      "w": "you",
+      "start": 21.78,
+      "end": 21.9
+    },
+    {
+      "w": "cinema",
+      "start": 21.9,
+      "end": 22.36
+    },
+    {
+      "w": "quality",
+      "start": 22.36,
+      "end": 22.8
+    },
+    {
+      "w": "viewing",
+      "start": 22.8,
+      "end": 23.16
+    },
+    {
+      "w": "in",
+      "start": 23.16,
+      "end": 23.56
+    },
+    {
+      "w": "your",
+      "start": 23.56,
+      "end": 23.68
+    },
+    {
+      "w": "pocket",
+      "start": 23.68,
+      "end": 24.02
+    },
+    {
+      "w": "without",
+      "start": 24.02,
+      "end": 24.36
+    },
+    {
+      "w": "the",
+      "start": 24.36,
+      "end": 24.58
+    },
+    {
+      "w": "bulk",
+      "start": 24.58,
+      "end": 24.9
+    },
+    {
+      "w": "and",
+      "start": 24.9,
+      "end": 25.14
+    },
+    {
+      "w": "weight",
+      "start": 25.14,
+      "end": 25.42
+    },
+    {
+      "w": "of",
+      "start": 25.42,
+      "end": 25.64
+    },
+    {
+      "w": "something",
+      "start": 25.64,
+      "end": 25.86
+    },
+    {
+      "w": "like",
+      "start": 25.86,
+      "end": 26.12
+    },
+    {
+      "w": "the",
+      "start": 26.12,
+      "end": 26.24
+    },
+    {
+      "w": "Vision",
+      "start": 26.24,
+      "end": 26.5
+    },
+    {
+      "w": "Pro.",
+      "start": 26.5,
+      "end": 26.82
+    },
+    {
+      "w": "Now",
+      "start": 27.06,
+      "end": 27.16
+    },
+    {
+      "w": "the",
+      "start": 27.16,
+      "end": 27.24
+    },
+    {
+      "w": "second",
+      "start": 27.24,
+      "end": 27.48
+    },
+    {
+      "w": "product",
+      "start": 27.48,
+      "end": 27.86
+    },
+    {
+      "w": "was",
+      "start": 27.86,
+      "end": 28.22
+    },
+    {
+      "w": "Muse.",
+      "start": 28.22,
+      "end": 28.5
+    },
+    {
+      "w": "Muse",
+      "start": 28.5,
+      "end": 28.98
+    },
+    {
+      "w": "has",
+      "start": 28.98,
+      "end": 29.14
+    },
+    {
+      "w": "been",
+      "start": 29.14,
+      "end": 29.28
+    },
+    {
+      "w": "out",
+      "start": 29.28,
+      "end": 29.4
+    },
+    {
+      "w": "for",
+      "start": 29.4,
+      "end": 29.5
+    },
+    {
+      "w": "a",
+      "start": 29.5,
+      "end": 29.62
+    },
+    {
+      "w": "couple",
+      "start": 29.62,
+      "end": 29.74
+    },
+    {
+      "w": "days",
+      "start": 29.74,
+      "end": 30.0
+    },
+    {
+      "w": "but",
+      "start": 30.0,
+      "end": 30.18
+    },
+    {
+      "w": "it",
+      "start": 30.18,
+      "end": 30.28
+    },
+    {
+      "w": "is",
+      "start": 30.28,
+      "end": 30.42
+    },
+    {
+      "w": "already",
+      "start": 30.42,
+      "end": 30.9
+    },
+    {
+      "w": "one",
+      "start": 30.9,
+      "end": 31.1
+    },
+    {
+      "w": "of",
+      "start": 31.1,
+      "end": 31.18
+    },
+    {
+      "w": "the",
+      "start": 31.18,
+      "end": 31.3
+    },
+    {
+      "w": "fastest",
+      "start": 31.3,
+      "end": 31.8
+    },
+    {
+      "w": "adopted",
+      "start": 31.8,
+      "end": 32.56
+    },
+    {
+      "w": "AI",
+      "start": 32.56,
+      "end": 33.0
+    },
+    {
+      "w": "personal",
+      "start": 33.0,
+      "end": 33.5
+    },
+    {
+      "w": "assistants",
+      "start": 33.5,
+      "end": 33.96
+    },
+    {
+      "w": "ever",
+      "start": 33.96,
+      "end": 34.4
+    },
+    {
+      "w": "created.",
+      "start": 34.4,
+      "end": 34.82
+    },
+    {
+      "w": "All",
+      "start": 34.98,
+      "end": 35.08
+    },
+    {
+      "w": "my",
+      "start": 35.08,
+      "end": 35.2
+    },
+    {
+      "w": "normal",
+      "start": 35.2,
+      "end": 35.32
+    },
+    {
+      "w": "friends",
+      "start": 35.32,
+      "end": 35.64
+    },
+    {
+      "w": "that",
+      "start": 35.64,
+      "end": 35.82
+    },
+    {
+      "w": "typically",
+      "start": 35.82,
+      "end": 36.12
+    },
+    {
+      "w": "ignore",
+      "start": 36.12,
+      "end": 36.56
+    },
+    {
+      "w": "everything",
+      "start": 36.56,
+      "end": 37.06
+    },
+    {
+      "w": "AI",
+      "start": 37.06,
+      "end": 37.56
+    },
+    {
+      "w": "related",
+      "start": 37.56,
+      "end": 38.06
+    },
+    {
+      "w": "immediately",
+      "start": 38.06,
+      "end": 38.48
+    },
+    {
+      "w": "downloaded",
+      "start": 38.48,
+      "end": 39.06
+    },
+    {
+      "w": "this",
+      "start": 39.06,
+      "end": 39.42
+    },
+    {
+      "w": "and",
+      "start": 39.42,
+      "end": 39.58
+    },
+    {
+      "w": "are",
+      "start": 39.58,
+      "end": 39.72
+    },
+    {
+      "w": "already",
+      "start": 39.72,
+      "end": 40.1
+    },
+    {
+      "w": "addicted",
+      "start": 40.1,
+      "end": 40.5
+    },
+    {
+      "w": "to",
+      "start": 40.5,
+      "end": 40.74
+    },
+    {
+      "w": "using",
+      "start": 40.74,
+      "end": 40.96
+    },
+    {
+      "w": "it.",
+      "start": 40.96,
+      "end": 41.12
+    },
+    {
+      "w": "So",
+      "start": 41.2,
+      "end": 41.26
+    },
+    {
+      "w": "Muse",
+      "start": 41.26,
+      "end": 41.46
+    },
+    {
+      "w": "is",
+      "start": 41.46,
+      "end": 41.7
+    },
+    {
+      "w": "now",
+      "start": 41.7,
+      "end": 41.96
+    },
+    {
+      "w": "the",
+      "start": 41.96,
+      "end": 42.16
+    },
+    {
+      "w": "front",
+      "start": 42.16,
+      "end": 42.44
+    },
+    {
+      "w": "runner",
+      "start": 42.44,
+      "end": 42.72
+    },
+    {
+      "w": "of",
+      "start": 42.72,
+      "end": 42.98
+    },
+    {
+      "w": "consumer",
+      "start": 42.98,
+      "end": 43.48
+    },
+    {
+      "w": "AI",
+      "start": 43.48,
+      "end": 43.96
+    },
+    {
+      "w": "personal",
+      "start": 43.96,
+      "end": 44.42
+    },
+    {
+      "w": "agents.",
+      "start": 44.42,
+      "end": 44.9
+    },
+    {
+      "w": "And",
+      "start": 45.12,
+      "end": 45.16
+    },
+    {
+      "w": "I",
+      "start": 45.16,
+      "end": 45.28
+    },
+    {
+      "w": "think",
+      "start": 45.28,
+      "end": 45.4
+    },
+    {
+      "w": "the",
+      "start": 45.4,
+      "end": 45.56
+    },
+    {
+      "w": "reason",
+      "start": 45.56,
+      "end": 45.84
+    },
+    {
+      "w": "is",
+      "start": 45.84,
+      "end": 46.04
+    },
+    {
+      "w": "from",
+      "start": 46.04,
+      "end": 46.2
+    },
+    {
+      "w": "all",
+      "start": 46.2,
+      "end": 46.44
+    },
+    {
+      "w": "the",
+      "start": 46.44,
+      "end": 46.6
+    },
+    {
+      "w": "unique",
+      "start": 46.6,
+      "end": 46.9
+    },
+    {
+      "w": "personalization",
+      "start": 46.9,
+      "end": 47.7
+    },
+    {
+      "w": "Meta",
+      "start": 47.7,
+      "end": 48.08
+    },
+    {
+      "w": "has",
+      "start": 48.08,
+      "end": 48.32
+    },
+    {
+      "w": "in",
+      "start": 48.32,
+      "end": 48.62
+    },
+    {
+      "w": "Instagram,",
+      "start": 48.62,
+      "end": 49.04
+    },
+    {
+      "w": "Facebook",
+      "start": 49.52,
+      "end": 49.6
+    },
+    {
+      "w": "and",
+      "start": 49.6,
+      "end": 49.86
+    },
+    {
+      "w": "WhatsApp",
+      "start": 49.86,
+      "end": 50.2
+    },
+    {
+      "w": "that",
+      "start": 50.2,
+      "end": 50.52
+    },
+    {
+      "w": "is",
+      "start": 50.52,
+      "end": 50.64
+    },
+    {
+      "w": "unique",
+      "start": 50.64,
+      "end": 51.0
+    },
+    {
+      "w": "to",
+      "start": 51.0,
+      "end": 51.2
+    },
+    {
+      "w": "them.",
+      "start": 51.2,
+      "end": 51.38
+    },
+    {
+      "w": "Now",
+      "start": 51.48,
+      "end": 51.56
+    },
+    {
+      "w": "third",
+      "start": 51.56,
+      "end": 51.84
+    },
+    {
+      "w": "and",
+      "start": 51.84,
+      "end": 52.14
+    },
+    {
+      "w": "very",
+      "start": 52.14,
+      "end": 52.44
+    },
+    {
+      "w": "under",
+      "start": 52.44,
+      "end": 52.62
+    },
+    {
+      "w": "the",
+      "start": 52.62,
+      "end": 52.72
+    },
+    {
+      "w": "radar",
+      "start": 52.72,
+      "end": 52.98
+    },
+    {
+      "w": "is",
+      "start": 52.98,
+      "end": 53.26
+    },
+    {
+      "w": "this",
+      "start": 53.26,
+      "end": 53.46
+    },
+    {
+      "w": "Muse",
+      "start": 53.46,
+      "end": 53.9
+    },
+    {
+      "w": "charm",
+      "start": 53.9,
+      "end": 54.46
+    },
+    {
+      "w": "device.",
+      "start": 54.46,
+      "end": 54.9
+    },
+    {
+      "w": "While",
+      "start": 54.9,
+      "end": 55.26
+    },
+    {
+      "w": "Muse",
+      "start": 55.26,
+      "end": 55.5
+    },
+    {
+      "w": "is",
+      "start": 55.5,
+      "end": 55.66
+    },
+    {
+      "w": "the",
+      "start": 55.66,
+      "end": 55.84
+    },
+    {
+      "w": "AI",
+      "start": 55.84,
+      "end": 56.18
+    },
+    {
+      "w": "DNA",
+      "start": 56.18,
+      "end": 56.66
+    },
+    {
+      "w": "that",
+      "start": 56.66,
+      "end": 56.98
+    },
+    {
+      "w": "will",
+      "start": 56.98,
+      "end": 57.14
+    },
+    {
+      "w": "do",
+      "start": 57.14,
+      "end": 57.3
+    },
+    {
+      "w": "work",
+      "start": 57.3,
+      "end": 57.54
+    },
+    {
+      "w": "for",
+      "start": 57.54,
+      "end": 57.76
+    },
+    {
+      "w": "you,",
+      "start": 57.76,
+      "end": 57.96
+    },
+    {
+      "w": "the",
+      "start": 58.1,
+      "end": 58.18
+    },
+    {
+      "w": "charm",
+      "start": 58.18,
+      "end": 58.54
+    },
+    {
+      "w": "device",
+      "start": 58.54,
+      "end": 58.96
+    },
+    {
+      "w": "is",
+      "start": 58.96,
+      "end": 59.34
+    },
+    {
+      "w": "this",
+      "start": 59.34,
+      "end": 59.52
+    },
+    {
+      "w": "puck",
+      "start": 59.52,
+      "end": 60.0
+    },
+    {
+      "w": "like",
+      "start": 60.0,
+      "end": 60.28
+    },
+    {
+      "w": "hardware",
+      "start": 60.28,
+      "end": 60.92
+    },
+    {
+      "w": "that",
+      "start": 60.92,
+      "end": 61.22
+    },
+    {
+      "w": "allows",
+      "start": 61.22,
+      "end": 61.5
+    },
+    {
+      "w": "you",
+      "start": 61.5,
+      "end": 61.66
+    },
+    {
+      "w": "to",
+      "start": 61.66,
+      "end": 61.76
+    },
+    {
+      "w": "access",
+      "start": 61.76,
+      "end": 62.08
+    },
+    {
+      "w": "it",
+      "start": 62.08,
+      "end": 62.34
+    },
+    {
+      "w": "without",
+      "start": 62.34,
+      "end": 62.58
+    },
+    {
+      "w": "a",
+      "start": 62.58,
+      "end": 62.74
+    },
+    {
+      "w": "screen.",
+      "start": 62.74,
+      "end": 63.02
+    },
+    {
+      "w": "It",
+      "start": 63.14,
+      "end": 63.24
+    },
+    {
+      "w": "feels",
+      "start": 63.24,
+      "end": 63.44
+    },
+    {
+      "w": "part",
+      "start": 63.44,
+      "end": 63.86
+    },
+    {
+      "w": "Tamagotchi,",
+      "start": 63.86,
+      "end": 64.74
+    },
+    {
+      "w": "part",
+      "start": 64.94,
+      "end": 65.12
+    },
+    {
+      "w": "iPod",
+      "start": 65.12,
+      "end": 65.66
+    },
+    {
+      "w": "Nano",
+      "start": 65.66,
+      "end": 66.04
+    },
+    {
+      "w": "in",
+      "start": 66.04,
+      "end": 66.26
+    },
+    {
+      "w": "a",
+      "start": 66.26,
+      "end": 66.36
+    },
+    {
+      "w": "way",
+      "start": 66.36,
+      "end": 66.46
+    },
+    {
+      "w": "that",
+      "start": 66.46,
+      "end": 66.6
+    },
+    {
+      "w": "I",
+      "start": 66.6,
+      "end": 66.72
+    },
+    {
+      "w": "could",
+      "start": 66.72,
+      "end": 66.86
+    },
+    {
+      "w": "see",
+      "start": 66.86,
+      "end": 67.08
+    },
+    {
+      "w": "really",
+      "start": 67.08,
+      "end": 67.54
+    },
+    {
+      "w": "exploding",
+      "start": 67.54,
+      "end": 68.06
+    },
+    {
+      "w": "in",
+      "start": 68.06,
+      "end": 68.26
+    },
+    {
+      "w": "culture.",
+      "start": 68.26,
+      "end": 68.62
+    },
+    {
+      "w": "And",
+      "start": 68.78,
+      "end": 68.84
+    },
+    {
+      "w": "lastly",
+      "start": 68.84,
+      "end": 69.14
+    },
+    {
+      "w": "number",
+      "start": 69.14,
+      "end": 69.36
+    },
+    {
+      "w": "four",
+      "start": 69.36,
+      "end": 69.72
+    },
+    {
+      "w": "was",
+      "start": 69.72,
+      "end": 69.94
+    },
+    {
+      "w": "their",
+      "start": 69.94,
+      "end": 70.12
+    },
+    {
+      "w": "AI",
+      "start": 70.12,
+      "end": 70.48
+    },
+    {
+      "w": "audio",
+      "start": 70.48,
+      "end": 70.82
+    },
+    {
+      "w": "glasses.",
+      "start": 70.82,
+      "end": 71.36
+    },
+    {
+      "w": "Now",
+      "start": 71.58,
+      "end": 71.68
+    },
+    {
+      "w": "anyone",
+      "start": 71.68,
+      "end": 71.96
+    },
+    {
+      "w": "that's",
+      "start": 71.96,
+      "end": 72.26
+    },
+    {
+      "w": "tried",
+      "start": 72.26,
+      "end": 72.56
+    },
+    {
+      "w": "Meta",
+      "start": 72.56,
+      "end": 72.84
+    },
+    {
+      "w": "Ray",
+      "start": 72.84,
+      "end": 73.0
+    },
+    {
+      "w": "Bands",
+      "start": 73.0,
+      "end": 73.26
+    },
+    {
+      "w": "knows",
+      "start": 73.26,
+      "end": 73.58
+    },
+    {
+      "w": "that",
+      "start": 73.58,
+      "end": 73.76
+    },
+    {
+      "w": "their",
+      "start": 73.76,
+      "end": 73.86
+    },
+    {
+      "w": "secret",
+      "start": 73.86,
+      "end": 74.14
+    },
+    {
+      "w": "feature",
+      "start": 74.14,
+      "end": 74.5
+    },
+    {
+      "w": "isn't",
+      "start": 74.5,
+      "end": 74.88
+    },
+    {
+      "w": "the",
+      "start": 74.88,
+      "end": 75.02
+    },
+    {
+      "w": "camera,",
+      "start": 75.02,
+      "end": 75.38
+    },
+    {
+      "w": "it's",
+      "start": 75.68,
+      "end": 75.84
+    },
+    {
+      "w": "the",
+      "start": 75.84,
+      "end": 75.96
+    },
+    {
+      "w": "audio.",
+      "start": 75.96,
+      "end": 76.4
+    },
+    {
+      "w": "Well",
+      "start": 76.6,
+      "end": 76.66
+    },
+    {
+      "w": "Meta",
+      "start": 76.66,
+      "end": 76.92
+    },
+    {
+      "w": "leaned",
+      "start": 76.92,
+      "end": 77.12
+    },
+    {
+      "w": "into",
+      "start": 77.12,
+      "end": 77.52
+    },
+    {
+      "w": "that",
+      "start": 77.52,
+      "end": 77.72
+    },
+    {
+      "w": "and",
+      "start": 77.72,
+      "end": 77.88
+    },
+    {
+      "w": "created",
+      "start": 77.88,
+      "end": 78.12
+    },
+    {
+      "w": "a",
+      "start": 78.12,
+      "end": 78.28
+    },
+    {
+      "w": "whole",
+      "start": 78.28,
+      "end": 78.4
+    },
+    {
+      "w": "new",
+      "start": 78.4,
+      "end": 78.56
+    },
+    {
+      "w": "category",
+      "start": 78.56,
+      "end": 78.86
+    },
+    {
+      "w": "of",
+      "start": 78.86,
+      "end": 79.18
+    },
+    {
+      "w": "audio",
+      "start": 79.18,
+      "end": 79.54
+    },
+    {
+      "w": "only",
+      "start": 79.54,
+      "end": 79.9
+    },
+    {
+      "w": "glasses",
+      "start": 79.9,
+      "end": 80.32
+    },
+    {
+      "w": "that",
+      "start": 80.32,
+      "end": 80.68
+    },
+    {
+      "w": "look",
+      "start": 80.68,
+      "end": 80.92
+    },
+    {
+      "w": "the",
+      "start": 80.92,
+      "end": 81.14
+    },
+    {
+      "w": "exact",
+      "start": 81.14,
+      "end": 81.54
+    },
+    {
+      "w": "same",
+      "start": 81.54,
+      "end": 81.86
+    },
+    {
+      "w": "as",
+      "start": 81.86,
+      "end": 82.06
+    },
+    {
+      "w": "normal",
+      "start": 82.06,
+      "end": 82.36
+    },
+    {
+      "w": "frames",
+      "start": 82.36,
+      "end": 82.8
+    },
+    {
+      "w": "you'd",
+      "start": 82.8,
+      "end": 83.04
+    },
+    {
+      "w": "wear.",
+      "start": 83.04,
+      "end": 83.24
+    },
+    {
+      "w": "So",
+      "start": 83.24,
+      "end": 83.46
+    },
+    {
+      "w": "these",
+      "start": 83.46,
+      "end": 83.7
+    },
+    {
+      "w": "are",
+      "start": 83.7,
+      "end": 83.98
+    },
+    {
+      "w": "now",
+      "start": 83.98,
+      "end": 84.16
+    },
+    {
+      "w": "also",
+      "start": 84.16,
+      "end": 84.66
+    },
+    {
+      "w": "a",
+      "start": 84.66,
+      "end": 84.9
+    },
+    {
+      "w": "category",
+      "start": 84.9,
+      "end": 85.42
+    },
+    {
+      "w": "of",
+      "start": 85.42,
+      "end": 85.74
+    },
+    {
+      "w": "one.",
+      "start": 85.74,
+      "end": 85.98
+    },
+    {
+      "w": "So",
+      "start": 86.14,
+      "end": 86.18
+    },
+    {
+      "w": "it's",
+      "start": 86.18,
+      "end": 86.42
+    },
+    {
+      "w": "Frontier",
+      "start": 86.42,
+      "end": 86.88
+    },
+    {
+      "w": "AI,",
+      "start": 86.88,
+      "end": 87.16
+    },
+    {
+      "w": "AI",
+      "start": 87.5,
+      "end": 87.74
+    },
+    {
+      "w": "personal",
+      "start": 87.74,
+      "end": 88.14
+    },
+    {
+      "w": "assistant,",
+      "start": 88.14,
+      "end": 88.54
+    },
+    {
+      "w": "AI",
+      "start": 88.84,
+      "end": 89.02
+    },
+    {
+      "w": "hardware",
+      "start": 89.02,
+      "end": 89.46
+    },
+    {
+      "w": "and",
+      "start": 89.46,
+      "end": 89.76
+    },
+    {
+      "w": "audio",
+      "start": 89.76,
+      "end": 90.12
+    },
+    {
+      "w": "glasses",
+      "start": 90.12,
+      "end": 90.58
+    },
+    {
+      "w": "all",
+      "start": 90.58,
+      "end": 91.0
+    },
+    {
+      "w": "in",
+      "start": 91.0,
+      "end": 91.26
+    },
+    {
+      "w": "the",
+      "start": 91.26,
+      "end": 91.36
+    },
+    {
+      "w": "same",
+      "start": 91.36,
+      "end": 91.6
+    },
+    {
+      "w": "event.",
+      "start": 91.6,
+      "end": 91.82
+    },
+    {
+      "w": "Like",
+      "start": 91.96,
+      "end": 92.1
+    },
+    {
+      "w": "I",
+      "start": 92.1,
+      "end": 92.22
+    },
+    {
+      "w": "said",
+      "start": 92.22,
+      "end": 92.34
+    },
+    {
+      "w": "the",
+      "start": 92.34,
+      "end": 92.46
+    },
+    {
+      "w": "most",
+      "start": 92.46,
+      "end": 92.62
+    },
+    {
+      "w": "interesting",
+      "start": 92.62,
+      "end": 93.02
+    },
+    {
+      "w": "part",
+      "start": 93.02,
+      "end": 93.34
+    },
+    {
+      "w": "is",
+      "start": 93.34,
+      "end": 93.6
+    },
+    {
+      "w": "how",
+      "start": 93.6,
+      "end": 93.94
+    },
+    {
+      "w": "the",
+      "start": 93.94,
+      "end": 94.14
+    },
+    {
+      "w": "master",
+      "start": 94.14,
+      "end": 94.6
+    },
+    {
+      "w": "plan",
+      "start": 94.6,
+      "end": 95.0
+    },
+    {
+      "w": "is",
+      "start": 95.0,
+      "end": 95.38
+    },
+    {
+      "w": "all",
+      "start": 95.38,
+      "end": 95.68
+    },
+    {
+      "w": "starting",
+      "start": 95.68,
+      "end": 96.04
+    },
+    {
+      "w": "to",
+      "start": 96.04,
+      "end": 96.2
+    },
+    {
+      "w": "come",
+      "start": 96.2,
+      "end": 96.4
+    },
+    {
+      "w": "together",
+      "start": 96.4,
+      "end": 96.78
+    },
+    {
+      "w": "for",
+      "start": 96.78,
+      "end": 97.04
+    },
+    {
+      "w": "Zuck.",
+      "start": 97.04,
+      "end": 97.34
+    },
+    {
+      "w": "See",
+      "start": 97.5,
+      "end": 97.64
+    },
+    {
+      "w": "Meta",
+      "start": 97.64,
+      "end": 97.88
+    },
+    {
+      "w": "has",
+      "start": 97.88,
+      "end": 98.0
+    },
+    {
+      "w": "had",
+      "start": 98.0,
+      "end": 98.1
+    },
+    {
+      "w": "to",
+      "start": 98.1,
+      "end": 98.18
+    },
+    {
+      "w": "deal",
+      "start": 98.18,
+      "end": 98.36
+    },
+    {
+      "w": "with",
+      "start": 98.36,
+      "end": 98.52
+    },
+    {
+      "w": "these",
+      "start": 98.52,
+      "end": 98.66
+    },
+    {
+      "w": "hardware",
+      "start": 98.66,
+      "end": 99.2
+    },
+    {
+      "w": "platform",
+      "start": 99.2,
+      "end": 100.02
+    },
+    {
+      "w": "lock",
+      "start": 100.02,
+      "end": 100.4
+    },
+    {
+      "w": "-in",
+      "start": 100.4,
+      "end": 100.58
+    },
+    {
+      "w": "issues",
+      "start": 100.58,
+      "end": 100.88
+    },
+    {
+      "w": "from",
+      "start": 100.88,
+      "end": 101.32
+    },
+    {
+      "w": "companies",
+      "start": 101.32,
+      "end": 101.64
+    },
+    {
+      "w": "like",
+      "start": 101.64,
+      "end": 101.86
+    },
+    {
+      "w": "Apple",
+      "start": 101.86,
+      "end": 102.22
+    },
+    {
+      "w": "for",
+      "start": 102.22,
+      "end": 102.64
+    },
+    {
+      "w": "the",
+      "start": 102.64,
+      "end": 102.76
+    },
+    {
+      "w": "last",
+      "start": 102.76,
+      "end": 103.0
+    },
+    {
+      "w": "decade.",
+      "start": 103.0,
+      "end": 103.34
+    },
+    {
+      "w": "Well",
+      "start": 103.48,
+      "end": 103.58
+    },
+    {
+      "w": "now",
+      "start": 103.58,
+      "end": 103.74
+    },
+    {
+      "w": "for",
+      "start": 103.74,
+      "end": 103.94
+    },
+    {
+      "w": "the",
+      "start": 103.94,
+      "end": 104.02
+    },
+    {
+      "w": "first",
+      "start": 104.02,
+      "end": 104.2
+    },
+    {
+      "w": "time",
+      "start": 104.2,
+      "end": 104.46
+    },
+    {
+      "w": "they",
+      "start": 104.46,
+      "end": 104.66
+    },
+    {
+      "w": "have",
+      "start": 104.66,
+      "end": 104.78
+    },
+    {
+      "w": "industry",
+      "start": 104.78,
+      "end": 105.2
+    },
+    {
+      "w": "leading",
+      "start": 105.2,
+      "end": 105.42
+    },
+    {
+      "w": "hardware",
+      "start": 105.42,
+      "end": 105.86
+    },
+    {
+      "w": "coming",
+      "start": 105.86,
+      "end": 106.24
+    },
+    {
+      "w": "from",
+      "start": 106.24,
+      "end": 106.46
+    },
+    {
+      "w": "two",
+      "start": 106.46,
+      "end": 106.78
+    },
+    {
+      "w": "directions.",
+      "start": 106.78,
+      "end": 107.2
+    },
+    {
+      "w": "Both",
+      "start": 107.48,
+      "end": 107.8
+    },
+    {
+      "w": "glasses",
+      "start": 107.8,
+      "end": 108.38
+    },
+    {
+      "w": "and",
+      "start": 108.38,
+      "end": 109.12
+    },
+    {
+      "w": "this",
+      "start": 109.12,
+      "end": 109.44
+    },
+    {
+      "w": "puck",
+      "start": 109.44,
+      "end": 109.76
+    },
+    {
+      "w": "handheld",
+      "start": 109.76,
+      "end": 110.16
+    },
+    {
+      "w": "device.",
+      "start": 110.16,
+      "end": 110.66
+    },
+    {
+      "w": "So",
+      "start": 110.66,
+      "end": 111.02
+    },
+    {
+      "w": "there's",
+      "start": 111.02,
+      "end": 111.22
+    },
+    {
+      "w": "a",
+      "start": 111.22,
+      "end": 111.3
+    },
+    {
+      "w": "good",
+      "start": 111.3,
+      "end": 111.4
+    },
+    {
+      "w": "chance",
+      "start": 111.4,
+      "end": 111.64
+    },
+    {
+      "w": "Meta",
+      "start": 111.64,
+      "end": 112.02
+    },
+    {
+      "w": "will",
+      "start": 112.02,
+      "end": 112.1
+    },
+    {
+      "w": "be",
+      "start": 112.1,
+      "end": 112.22
+    },
+    {
+      "w": "one",
+      "start": 112.22,
+      "end": 112.34
+    },
+    {
+      "w": "of",
+      "start": 112.34,
+      "end": 112.4
+    },
+    {
+      "w": "the",
+      "start": 112.4,
+      "end": 112.5
+    },
+    {
+      "w": "only",
+      "start": 112.5,
+      "end": 112.8
+    },
+    {
+      "w": "companies",
+      "start": 112.8,
+      "end": 113.18
+    },
+    {
+      "w": "with",
+      "start": 113.18,
+      "end": 113.44
+    },
+    {
+      "w": "frontier",
+      "start": 113.44,
+      "end": 113.84
+    },
+    {
+      "w": "level",
+      "start": 113.84,
+      "end": 114.12
+    },
+    {
+      "w": "hardware,",
+      "start": 114.12,
+      "end": 114.64
+    },
+    {
+      "w": "software,",
+      "start": 114.84,
+      "end": 115.48
+    },
+    {
+      "w": "distribution",
+      "start": 115.84,
+      "end": 116.32
+    },
+    {
+      "w": "and",
+      "start": 116.32,
+      "end": 117.0
+    },
+    {
+      "w": "super",
+      "start": 117.0,
+      "end": 117.32
+    },
+    {
+      "w": "intelligence.",
+      "start": 117.32,
+      "end": 117.76
+    },
+    {
+      "w": "And",
+      "start": 118.16,
+      "end": 118.24
+    },
+    {
+      "w": "when",
+      "start": 118.24,
+      "end": 118.28
+    },
+    {
+      "w": "they",
+      "start": 118.28,
+      "end": 118.42
+    },
+    {
+      "w": "have",
+      "start": 118.42,
+      "end": 118.6
+    },
+    {
+      "w": "all",
+      "start": 118.6,
+      "end": 118.76
+    },
+    {
+      "w": "four",
+      "start": 118.76,
+      "end": 119.0
+    },
+    {
+      "w": "they",
+      "start": 119.0,
+      "end": 119.34
+    },
+    {
+      "w": "control",
+      "start": 119.34,
+      "end": 119.66
+    },
+    {
+      "w": "the",
+      "start": 119.66,
+      "end": 119.78
+    },
+    {
+      "w": "board.",
+      "start": 119.78,
+      "end": 120.02
+    },
+    {
+      "w": "Never",
+      "start": 120.36,
+      "end": 120.48
+    },
+    {
+      "w": "bet",
+      "start": 120.48,
+      "end": 120.64
+    },
+    {
+      "w": "against",
+      "start": 120.64,
+      "end": 120.88
+    },
+    {
+      "w": "Zuck.",
+      "start": 120.88,
+      "end": 121.16
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 3.125,
+      "length": 3.125,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0D0E",
+            "share": 0.454
+          },
+          {
+            "hex": "#302D29",
+            "share": 0.073
+          },
+          {
+            "hex": "#4D352A",
+            "share": 0.038
+          },
+          {
+            "hex": "#2E241B",
+            "share": 0.036
+          },
+          {
+            "hex": "#8D7769",
+            "share": 0.034
+          }
+        ],
+        "motion_energy": 31.16,
+        "script": "Meta just had one of the craziest product launch events I've"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 3.125,
+      "end": 3.875,
+      "length": 0.75,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0D",
+            "share": 0.66
+          },
+          {
+            "hex": "#B07247",
+            "share": 0.036
+          },
+          {
+            "hex": "#2F2929",
+            "share": 0.028
+          },
+          {
+            "hex": "#704B31",
+            "share": 0.026
+          },
+          {
+            "hex": "#29231A",
+            "share": 0.026
+          }
+        ],
+        "motion_energy": 31.21,
+        "script": "ever seen. They"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 3.875,
+      "end": 4.417,
+      "length": 0.542,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#D7DBE9",
+            "share": 0.33
+          },
+          {
+            "hex": "#181619",
+            "share": 0.305
+          },
+          {
+            "hex": "#262426",
+            "share": 0.134
+          },
+          {
+            "hex": "#201E21",
+            "share": 0.05
+          },
+          {
+            "hex": "#1E1D20",
+            "share": 0.02
+          }
+        ],
+        "motion_energy": 29.86,
+        "script": "just announced four"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 4.417,
+      "end": 5.583,
+      "length": 1.167,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#000000",
+            "share": 0.526
+          },
+          {
+            "hex": "#4D3632",
+            "share": 0.081
+          },
+          {
+            "hex": "#D5D8E2",
+            "share": 0.06
+          },
+          {
+            "hex": "#675556",
+            "share": 0.039
+          },
+          {
+            "hex": "#564849",
+            "share": 0.036
+          }
+        ],
+        "motion_energy": 18.64,
+        "script": "new products that"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 5.583,
+      "end": 6.0,
+      "length": 0.417,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#D6D6DA",
+            "share": 0.142
+          },
+          {
+            "hex": "#0A0A0C",
+            "share": 0.094
+          },
+          {
+            "hex": "#D6D8E2",
+            "share": 0.093
+          },
+          {
+            "hex": "#4D3632",
+            "share": 0.082
+          },
+          {
+            "hex": "#54484A",
+            "share": 0.043
+          }
+        ],
+        "motion_energy": 22.25,
+        "script": "are"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 6.0,
+      "end": 7.208,
+      "length": 1.208,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#151518",
+            "share": 0.28
+          },
+          {
+            "hex": "#72A4D0",
+            "share": 0.248
+          },
+          {
+            "hex": "#91B6D7",
+            "share": 0.176
+          },
+          {
+            "hex": "#282628",
+            "share": 0.043
+          },
+          {
+            "hex": "#51372B",
+            "share": 0.041
+          }
+        ],
+        "motion_energy": 9.96,
+        "script": "each pioneering the"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 7.208,
+      "end": 8.208,
+      "length": 1.0,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F2F2F4",
+            "share": 0.939
+          },
+          {
+            "hex": "#D1D2D3",
+            "share": 0.006
+          },
+          {
+            "hex": "#F2D787",
+            "share": 0.004
+          },
+          {
+            "hex": "#8D8E90",
+            "share": 0.004
+          },
+          {
+            "hex": "#AAABAD",
+            "share": 0.003
+          }
+        ],
+        "motion_energy": 47.0,
+        "script": "future of their"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 8.208,
+      "end": 9.292,
+      "length": 1.083,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#6E4D31",
+            "share": 0.156
+          },
+          {
+            "hex": "#523424",
+            "share": 0.131
+          },
+          {
+            "hex": "#4B2C1A",
+            "share": 0.121
+          },
+          {
+            "hex": "#8F6C4D",
+            "share": 0.099
+          },
+          {
+            "hex": "#38241A",
+            "share": 0.071
+          }
+        ],
+        "motion_energy": 9.25,
+        "script": "own categories."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 9.292,
+      "end": 10.542,
+      "length": 1.25,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0C",
+            "share": 0.695
+          },
+          {
+            "hex": "#2F2A2B",
+            "share": 0.028
+          },
+          {
+            "hex": "#B17349",
+            "share": 0.025
+          },
+          {
+            "hex": "#724B31",
+            "share": 0.025
+          },
+          {
+            "hex": "#8B5734",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 9.54,
+        "script": "And I don't think people realize the"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 10.542,
+      "end": 13.708,
+      "length": 3.167,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#90908F",
+            "share": 0.204
+          },
+          {
+            "hex": "#73726F",
+            "share": 0.126
+          },
+          {
+            "hex": "#32302B",
+            "share": 0.11
+          },
+          {
+            "hex": "#54514B",
+            "share": 0.109
+          },
+          {
+            "hex": "#ABAAA7",
+            "share": 0.06
+          }
+        ],
+        "motion_energy": 36.64,
+        "script": "strategic level chess game that is really going on here."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 10,
+      "start": 13.708,
+      "end": 19.208,
+      "length": 5.5,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0E12",
+            "share": 0.488
+          },
+          {
+            "hex": "#0D1923",
+            "share": 0.088
+          },
+          {
+            "hex": "#2E2C2E",
+            "share": 0.061
+          },
+          {
+            "hex": "#8A7769",
+            "share": 0.037
+          },
+          {
+            "hex": "#14252E",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 29.73,
+        "script": "Product number one was the Meta VR headset. It has the VR power of the Oculus but sized down"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 11,
+      "start": 19.208,
+      "end": 21.125,
+      "length": 1.917,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0C0F",
+            "share": 0.333
+          },
+          {
+            "hex": "#4F3727",
+            "share": 0.061
+          },
+          {
+            "hex": "#332319",
+            "share": 0.058
+          },
+          {
+            "hex": "#6C4C36",
+            "share": 0.054
+          },
+          {
+            "hex": "#312D2B",
+            "share": 0.053
+          }
+        ],
+        "motion_energy": 15.21,
+        "script": "to a pair of wraparound glasses. This"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 12,
+      "start": 21.125,
+      "end": 27.083,
+      "length": 5.958,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0E0F",
+            "share": 0.487
+          },
+          {
+            "hex": "#2A1910",
+            "share": 0.064
+          },
+          {
+            "hex": "#2B2C2F",
+            "share": 0.058
+          },
+          {
+            "hex": "#342319",
+            "share": 0.041
+          },
+          {
+            "hex": "#492B19",
+            "share": 0.039
+          }
+        ],
+        "motion_energy": 22.04,
+        "script": "will literally give you cinema quality viewing in your pocket without the bulk and weight of something like the Vision Pro. Now"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 13,
+      "start": 27.083,
+      "end": 27.958,
+      "length": 0.875,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.673
+          },
+          {
+            "hex": "#28231B",
+            "share": 0.034
+          },
+          {
+            "hex": "#2D292B",
+            "share": 0.032
+          },
+          {
+            "hex": "#251B18",
+            "share": 0.026
+          },
+          {
+            "hex": "#B07349",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 37.96,
+        "script": "the second product was"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 14,
+      "start": 27.958,
+      "end": 30.917,
+      "length": 2.958,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0E",
+            "share": 0.354
+          },
+          {
+            "hex": "#D6D8E3",
+            "share": 0.203
+          },
+          {
+            "hex": "#B1C5DC",
+            "share": 0.056
+          },
+          {
+            "hex": "#717685",
+            "share": 0.034
+          },
+          {
+            "hex": "#2E2B2D",
+            "share": 0.028
+          }
+        ],
+        "motion_energy": 21.31,
+        "script": "Muse. Muse has been out for a couple days but it is already one"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 15,
+      "start": 30.917,
+      "end": 32.75,
+      "length": 1.833,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0C0E",
+            "share": 0.293
+          },
+          {
+            "hex": "#91ACB3",
+            "share": 0.056
+          },
+          {
+            "hex": "#B3CBCA",
+            "share": 0.043
+          },
+          {
+            "hex": "#8B776B",
+            "share": 0.035
+          },
+          {
+            "hex": "#312D2B",
+            "share": 0.033
+          }
+        ],
+        "motion_energy": 14.41,
+        "script": "of the fastest adopted AI"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 16,
+      "start": 32.75,
+      "end": 34.958,
+      "length": 2.208,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F3F5F6",
+            "share": 0.424
+          },
+          {
+            "hex": "#0E0B0E",
+            "share": 0.295
+          },
+          {
+            "hex": "#CAE3FB",
+            "share": 0.049
+          },
+          {
+            "hex": "#89776C",
+            "share": 0.022
+          },
+          {
+            "hex": "#2F2B2B",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 9.51,
+        "script": "personal assistants ever created."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 17,
+      "start": 34.958,
+      "end": 38.167,
+      "length": 3.208,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.677
+          },
+          {
+            "hex": "#AF7248",
+            "share": 0.048
+          },
+          {
+            "hex": "#261B17",
+            "share": 0.024
+          },
+          {
+            "hex": "#704A32",
+            "share": 0.024
+          },
+          {
+            "hex": "#2C272A",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 10.42,
+        "script": "All my normal friends that typically ignore everything AI related immediately"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 18,
+      "start": 38.167,
+      "end": 46.208,
+      "length": 8.042,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F4F5F5",
+            "share": 0.434
+          },
+          {
+            "hex": "#0E0B0D",
+            "share": 0.315
+          },
+          {
+            "hex": "#D1D1D2",
+            "share": 0.028
+          },
+          {
+            "hex": "#939294",
+            "share": 0.023
+          },
+          {
+            "hex": "#89776B",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 20.79,
+        "script": "downloaded this and are already addicted to using it. So Muse is now the front runner of consumer AI personal agents. And I think the reason is from all"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 19,
+      "start": 46.208,
+      "end": 51.458,
+      "length": 5.25,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0D",
+            "share": 0.312
+          },
+          {
+            "hex": "#F5F5F5",
+            "share": 0.113
+          },
+          {
+            "hex": "#ABD3F7",
+            "share": 0.11
+          },
+          {
+            "hex": "#CFE6FA",
+            "share": 0.102
+          },
+          {
+            "hex": "#D1D1D1",
+            "share": 0.042
+          }
+        ],
+        "motion_energy": 36.88,
+        "script": "the unique personalization Meta has in Instagram, Facebook and WhatsApp that is unique to them."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 20,
+      "start": 51.458,
+      "end": 53.125,
+      "length": 1.667,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0C",
+            "share": 0.679
+          },
+          {
+            "hex": "#B07248",
+            "share": 0.028
+          },
+          {
+            "hex": "#704A31",
+            "share": 0.026
+          },
+          {
+            "hex": "#2E2829",
+            "share": 0.026
+          },
+          {
+            "hex": "#241B17",
+            "share": 0.025
+          }
+        ],
+        "motion_energy": 9.67,
+        "script": "Now third and very under the radar is"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 21,
+      "start": 53.125,
+      "end": 55.167,
+      "length": 2.042,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0D",
+            "share": 0.318
+          },
+          {
+            "hex": "#7BADD5",
+            "share": 0.198
+          },
+          {
+            "hex": "#83B1D7",
+            "share": 0.188
+          },
+          {
+            "hex": "#8C756A",
+            "share": 0.031
+          },
+          {
+            "hex": "#302A2B",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 10.43,
+        "script": "this Muse charm device. While"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 22,
+      "start": 55.167,
+      "end": 58.042,
+      "length": 2.875,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.692
+          },
+          {
+            "hex": "#B07149",
+            "share": 0.035
+          },
+          {
+            "hex": "#714A31",
+            "share": 0.026
+          },
+          {
+            "hex": "#2E282A",
+            "share": 0.022
+          },
+          {
+            "hex": "#251B17",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 10.46,
+        "script": "Muse is the AI DNA that will do work for you,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 23,
+      "start": 58.042,
+      "end": 61.125,
+      "length": 3.083,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#77A6CE",
+            "share": 0.367
+          },
+          {
+            "hex": "#0E0B0E",
+            "share": 0.294
+          },
+          {
+            "hex": "#907468",
+            "share": 0.044
+          },
+          {
+            "hex": "#2F2A2B",
+            "share": 0.026
+          },
+          {
+            "hex": "#A87567",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 7.49,
+        "script": "the charm device is this puck like hardware that"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 24,
+      "start": 61.125,
+      "end": 63.167,
+      "length": 2.042,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0D",
+            "share": 0.43
+          },
+          {
+            "hex": "#2C282B",
+            "share": 0.048
+          },
+          {
+            "hex": "#B0C9E3",
+            "share": 0.046
+          },
+          {
+            "hex": "#131729",
+            "share": 0.043
+          },
+          {
+            "hex": "#27354E",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 6.51,
+        "script": "allows you to access it without a screen. It"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 25,
+      "start": 63.167,
+      "end": 67.25,
+      "length": 4.083,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0F",
+            "share": 0.353
+          },
+          {
+            "hex": "#B5B5B3",
+            "share": 0.074
+          },
+          {
+            "hex": "#2D2728",
+            "share": 0.048
+          },
+          {
+            "hex": "#C8C8C8",
+            "share": 0.041
+          },
+          {
+            "hex": "#8E6A53",
+            "share": 0.033
+          }
+        ],
+        "motion_energy": 21.43,
+        "script": "feels part Tamagotchi, part iPod Nano in a way that I could see really"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 26,
+      "start": 67.25,
+      "end": 68.792,
+      "length": 1.542,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100E10",
+            "share": 0.4
+          },
+          {
+            "hex": "#8FB5D8",
+            "share": 0.157
+          },
+          {
+            "hex": "#73A5D1",
+            "share": 0.155
+          },
+          {
+            "hex": "#2D282A",
+            "share": 0.035
+          },
+          {
+            "hex": "#8B756B",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 3.84,
+        "script": "exploding in culture. And"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 27,
+      "start": 68.792,
+      "end": 70.208,
+      "length": 1.417,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.665
+          },
+          {
+            "hex": "#B07348",
+            "share": 0.041
+          },
+          {
+            "hex": "#724B30",
+            "share": 0.031
+          },
+          {
+            "hex": "#8B5835",
+            "share": 0.025
+          },
+          {
+            "hex": "#2E2929",
+            "share": 0.02
+          }
+        ],
+        "motion_energy": 11.42,
+        "script": "lastly number four was their AI"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 28,
+      "start": 70.208,
+      "end": 71.583,
+      "length": 1.375,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0C0E",
+            "share": 0.331
+          },
+          {
+            "hex": "#AECAE3",
+            "share": 0.062
+          },
+          {
+            "hex": "#3089CC",
+            "share": 0.048
+          },
+          {
+            "hex": "#2D292B",
+            "share": 0.047
+          },
+          {
+            "hex": "#4C97D1",
+            "share": 0.039
+          }
+        ],
+        "motion_energy": 2.8,
+        "script": "audio glasses. Now"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 29,
+      "start": 71.583,
+      "end": 73.417,
+      "length": 1.833,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0D",
+            "share": 0.317
+          },
+          {
+            "hex": "#F9F7F7",
+            "share": 0.067
+          },
+          {
+            "hex": "#8B756D",
+            "share": 0.051
+          },
+          {
+            "hex": "#322C2A",
+            "share": 0.05
+          },
+          {
+            "hex": "#6B544F",
+            "share": 0.038
+          }
+        ],
+        "motion_energy": 18.27,
+        "script": "anyone that's tried Meta Ray Bands knows"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 30,
+      "start": 73.417,
+      "end": 75.667,
+      "length": 2.25,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C090B",
+            "share": 0.475
+          },
+          {
+            "hex": "#2C140B",
+            "share": 0.051
+          },
+          {
+            "hex": "#6E4A34",
+            "share": 0.041
+          },
+          {
+            "hex": "#2F2C2C",
+            "share": 0.035
+          },
+          {
+            "hex": "#8C776A",
+            "share": 0.033
+          }
+        ],
+        "motion_energy": 20.9,
+        "script": "that their secret feature isn't the camera,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 31,
+      "start": 75.667,
+      "end": 76.583,
+      "length": 0.917,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0E",
+            "share": 0.268
+          },
+          {
+            "hex": "#4D8DB3",
+            "share": 0.131
+          },
+          {
+            "hex": "#3478A5",
+            "share": 0.103
+          },
+          {
+            "hex": "#296B9A",
+            "share": 0.065
+          },
+          {
+            "hex": "#8B756C",
+            "share": 0.036
+          }
+        ],
+        "motion_energy": 19.49,
+        "script": "it's the audio."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 32,
+      "start": 76.583,
+      "end": 79.208,
+      "length": 2.625,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0B0C",
+            "share": 0.6
+          },
+          {
+            "hex": "#2C2928",
+            "share": 0.056
+          },
+          {
+            "hex": "#291713",
+            "share": 0.052
+          },
+          {
+            "hex": "#4F3428",
+            "share": 0.033
+          },
+          {
+            "hex": "#89776B",
+            "share": 0.025
+          }
+        ],
+        "motion_energy": 18.65,
+        "script": "Well Meta leaned into that and created a whole new category of audio"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 33,
+      "start": 79.208,
+      "end": 83.333,
+      "length": 4.125,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0D0F",
+            "share": 0.34
+          },
+          {
+            "hex": "#2B2C2B",
+            "share": 0.074
+          },
+          {
+            "hex": "#936654",
+            "share": 0.051
+          },
+          {
+            "hex": "#7A8687",
+            "share": 0.051
+          },
+          {
+            "hex": "#6C6E71",
+            "share": 0.05
+          }
+        ],
+        "motion_energy": 23.8,
+        "script": "only glasses that look the exact same as normal frames you'd wear. So"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 34,
+      "start": 83.333,
+      "end": 86.083,
+      "length": 2.75,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.692
+          },
+          {
+            "hex": "#B17248",
+            "share": 0.037
+          },
+          {
+            "hex": "#8B5735",
+            "share": 0.028
+          },
+          {
+            "hex": "#724B31",
+            "share": 0.026
+          },
+          {
+            "hex": "#2D282A",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 10.95,
+        "script": "these are now also a category of one."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 35,
+      "start": 86.083,
+      "end": 87.5,
+      "length": 1.417,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#070607",
+            "share": 0.638
+          },
+          {
+            "hex": "#A4A19B",
+            "share": 0.066
+          },
+          {
+            "hex": "#342615",
+            "share": 0.053
+          },
+          {
+            "hex": "#2F2B2B",
+            "share": 0.032
+          },
+          {
+            "hex": "#261A12",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 9.54,
+        "script": "So it's Frontier AI,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 36,
+      "start": 87.5,
+      "end": 88.792,
+      "length": 1.292,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F3F3F3",
+            "share": 0.419
+          },
+          {
+            "hex": "#0D0B0D",
+            "share": 0.302
+          },
+          {
+            "hex": "#302C2D",
+            "share": 0.027
+          },
+          {
+            "hex": "#D4D4D4",
+            "share": 0.027
+          },
+          {
+            "hex": "#89776C",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 6.55,
+        "script": "AI personal assistant,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 37,
+      "start": 88.792,
+      "end": 89.75,
+      "length": 0.958,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0D",
+            "share": 0.433
+          },
+          {
+            "hex": "#141729",
+            "share": 0.047
+          },
+          {
+            "hex": "#B0CAE3",
+            "share": 0.046
+          },
+          {
+            "hex": "#2C292C",
+            "share": 0.044
+          },
+          {
+            "hex": "#26344E",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 14.55,
+        "script": "AI hardware and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 38,
+      "start": 89.75,
+      "end": 93.458,
+      "length": 3.708,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#120E0F",
+            "share": 0.627
+          },
+          {
+            "hex": "#2C2727",
+            "share": 0.114
+          },
+          {
+            "hex": "#241B18",
+            "share": 0.044
+          },
+          {
+            "hex": "#89776C",
+            "share": 0.022
+          },
+          {
+            "hex": "#2A221C",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 31.34,
+        "script": "audio glasses all in the same event. Like I said the most interesting part is"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 39,
+      "start": 93.458,
+      "end": 96.5,
+      "length": 3.042,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0C0F",
+            "share": 0.338
+          },
+          {
+            "hex": "#2A2A2F",
+            "share": 0.178
+          },
+          {
+            "hex": "#7477AD",
+            "share": 0.048
+          },
+          {
+            "hex": "#30354B",
+            "share": 0.037
+          },
+          {
+            "hex": "#261817",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 23.42,
+        "script": "how the master plan is all starting to come together"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 40,
+      "start": 96.5,
+      "end": 97.458,
+      "length": 0.958,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0D10",
+            "share": 0.378
+          },
+          {
+            "hex": "#6BA7CC",
+            "share": 0.25
+          },
+          {
+            "hex": "#5A9BC3",
+            "share": 0.073
+          },
+          {
+            "hex": "#2E2929",
+            "share": 0.037
+          },
+          {
+            "hex": "#89776B",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 21.51,
+        "script": "for Zuck."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 41,
+      "start": 97.458,
+      "end": 98.667,
+      "length": 1.208,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0C",
+            "share": 0.664
+          },
+          {
+            "hex": "#B07348",
+            "share": 0.048
+          },
+          {
+            "hex": "#704A31",
+            "share": 0.031
+          },
+          {
+            "hex": "#2D2828",
+            "share": 0.023
+          },
+          {
+            "hex": "#C48B58",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 8.64,
+        "script": "See Meta has had to deal with these hardware"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 42,
+      "start": 98.667,
+      "end": 101.167,
+      "length": 2.5,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0D",
+            "share": 0.306
+          },
+          {
+            "hex": "#739A9D",
+            "share": 0.232
+          },
+          {
+            "hex": "#2E3233",
+            "share": 0.084
+          },
+          {
+            "hex": "#779CA0",
+            "share": 0.066
+          },
+          {
+            "hex": "#89776C",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 19.79,
+        "script": "platform lock -in issues from"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 43,
+      "start": 101.167,
+      "end": 103.458,
+      "length": 2.291,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#EFEFF2",
+            "share": 0.427
+          },
+          {
+            "hex": "#0D0B0D",
+            "share": 0.318
+          },
+          {
+            "hex": "#89776C",
+            "share": 0.022
+          },
+          {
+            "hex": "#2F2B2C",
+            "share": 0.019
+          },
+          {
+            "hex": "#161927",
+            "share": 0.015
+          }
+        ],
+        "motion_energy": 22.56,
+        "script": "companies like Apple for the last decade."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 44,
+      "start": 103.458,
+      "end": 104.875,
+      "length": 1.417,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.677
+          },
+          {
+            "hex": "#B17249",
+            "share": 0.041
+          },
+          {
+            "hex": "#704B31",
+            "share": 0.031
+          },
+          {
+            "hex": "#8C5634",
+            "share": 0.027
+          },
+          {
+            "hex": "#2E2929",
+            "share": 0.024
+          }
+        ],
+        "motion_energy": 7.95,
+        "script": "Well now for the first time they have industry"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 45,
+      "start": 104.875,
+      "end": 106.083,
+      "length": 1.208,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0B0D",
+            "share": 0.438
+          },
+          {
+            "hex": "#B0C9E2",
+            "share": 0.053
+          },
+          {
+            "hex": "#2B2729",
+            "share": 0.052
+          },
+          {
+            "hex": "#0F7AC7",
+            "share": 0.032
+          },
+          {
+            "hex": "#3086CA",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 3.77,
+        "script": "leading hardware coming"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 46,
+      "start": 106.083,
+      "end": 108.875,
+      "length": 2.792,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#070607",
+            "share": 0.714
+          },
+          {
+            "hex": "#2F2E2D",
+            "share": 0.032
+          },
+          {
+            "hex": "#89776C",
+            "share": 0.022
+          },
+          {
+            "hex": "#4E4F49",
+            "share": 0.021
+          },
+          {
+            "hex": "#251B17",
+            "share": 0.015
+          }
+        ],
+        "motion_energy": 33.3,
+        "script": "from two directions. Both glasses and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 47,
+      "start": 108.875,
+      "end": 110.958,
+      "length": 2.083,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0E",
+            "share": 0.276
+          },
+          {
+            "hex": "#7BADD5",
+            "share": 0.201
+          },
+          {
+            "hex": "#84B1D7",
+            "share": 0.191
+          },
+          {
+            "hex": "#8D756A",
+            "share": 0.033
+          },
+          {
+            "hex": "#302A2B",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 11.68,
+        "script": "this puck handheld device. So"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 48,
+      "start": 110.958,
+      "end": 113.292,
+      "length": 2.334,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.679
+          },
+          {
+            "hex": "#B17249",
+            "share": 0.037
+          },
+          {
+            "hex": "#8B5635",
+            "share": 0.028
+          },
+          {
+            "hex": "#714B32",
+            "share": 0.026
+          },
+          {
+            "hex": "#C48A58",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 9.58,
+        "script": "there's a good chance Meta will be one of the only companies with"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 49,
+      "start": 113.292,
+      "end": 114.958,
+      "length": 1.666,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#070607",
+            "share": 0.625
+          },
+          {
+            "hex": "#999793",
+            "share": 0.135
+          },
+          {
+            "hex": "#342618",
+            "share": 0.026
+          },
+          {
+            "hex": "#302B2C",
+            "share": 0.023
+          },
+          {
+            "hex": "#88776C",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 22.18,
+        "script": "frontier level hardware, software,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 50,
+      "start": 114.958,
+      "end": 115.75,
+      "length": 0.792,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0F",
+            "share": 0.345
+          },
+          {
+            "hex": "#ACAEAB",
+            "share": 0.254
+          },
+          {
+            "hex": "#312B28",
+            "share": 0.054
+          },
+          {
+            "hex": "#251B19",
+            "share": 0.031
+          },
+          {
+            "hex": "#89776A",
+            "share": 0.028
+          }
+        ],
+        "motion_energy": 17.04,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 51,
+      "start": 115.75,
+      "end": 116.792,
+      "length": 1.042,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0E",
+            "share": 0.359
+          },
+          {
+            "hex": "#BAAD95",
+            "share": 0.058
+          },
+          {
+            "hex": "#291A15",
+            "share": 0.054
+          },
+          {
+            "hex": "#744B33",
+            "share": 0.047
+          },
+          {
+            "hex": "#C3BBA6",
+            "share": 0.044
+          }
+        ],
+        "motion_energy": 8.39,
+        "script": "distribution and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 52,
+      "start": 116.792,
+      "end": 118.083,
+      "length": 1.291,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0E",
+            "share": 0.293
+          },
+          {
+            "hex": "#347BEF",
+            "share": 0.248
+          },
+          {
+            "hex": "#EAEFF0",
+            "share": 0.144
+          },
+          {
+            "hex": "#302B2B",
+            "share": 0.024
+          },
+          {
+            "hex": "#89776C",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 6.46,
+        "script": "super intelligence."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 53,
+      "start": 118.083,
+      "end": 119.25,
+      "length": 1.167,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.668
+          },
+          {
+            "hex": "#29221A",
+            "share": 0.035
+          },
+          {
+            "hex": "#714B31",
+            "share": 0.03
+          },
+          {
+            "hex": "#231B17",
+            "share": 0.028
+          },
+          {
+            "hex": "#2E2829",
+            "share": 0.028
+          }
+        ],
+        "motion_energy": 8.44,
+        "script": "And when they have all four they"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 54,
+      "start": 119.25,
+      "end": 120.292,
+      "length": 1.042,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#050809",
+            "share": 0.552
+          },
+          {
+            "hex": "#2B3031",
+            "share": 0.098
+          },
+          {
+            "hex": "#271810",
+            "share": 0.044
+          },
+          {
+            "hex": "#4D3628",
+            "share": 0.033
+          },
+          {
+            "hex": "#1B2326",
+            "share": 0.028
+          }
+        ],
+        "motion_energy": 4.85,
+        "script": "control the board."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 55,
+      "start": 120.292,
+      "end": 121.438,
+      "length": 1.146,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.681
+          },
+          {
+            "hex": "#2E2829",
+            "share": 0.031
+          },
+          {
+            "hex": "#B07248",
+            "share": 0.031
+          },
+          {
+            "hex": "#241B18",
+            "share": 0.026
+          },
+          {
+            "hex": "#29221B",
+            "share": 0.024
+          }
+        ],
+        "motion_energy": 6.49,
+        "script": "Never bet against Zuck."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

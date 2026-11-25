@@ -1,0 +1,2125 @@
+{
+  "video": "v18.mp4",
+  "duration": 61.3,
+  "derived": {
+    "shots": 24,
+    "avg_shot_len": 2.55,
+    "cuts_per_min": 23.5,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "This",
+      "start": 0.0,
+      "end": 0.18
+    },
+    {
+      "w": "robot",
+      "start": 0.18,
+      "end": 0.42
+    },
+    {
+      "w": "just",
+      "start": 0.42,
+      "end": 0.64
+    },
+    {
+      "w": "got",
+      "start": 0.64,
+      "end": 0.8
+    },
+    {
+      "w": "its",
+      "start": 0.8,
+      "end": 0.92
+    },
+    {
+      "w": "head",
+      "start": 0.92,
+      "end": 1.18
+    },
+    {
+      "w": "kicked",
+      "start": 1.18,
+      "end": 1.56
+    },
+    {
+      "w": "off",
+      "start": 1.56,
+      "end": 1.84
+    },
+    {
+      "w": "in",
+      "start": 1.84,
+      "end": 2.18
+    },
+    {
+      "w": "the",
+      "start": 2.18,
+      "end": 2.28
+    },
+    {
+      "w": "world's",
+      "start": 2.28,
+      "end": 2.68
+    },
+    {
+      "w": "first",
+      "start": 2.68,
+      "end": 2.86
+    },
+    {
+      "w": "robot",
+      "start": 2.86,
+      "end": 3.44
+    },
+    {
+      "w": "UFC.",
+      "start": 3.44,
+      "end": 4.02
+    },
+    {
+      "w": "This",
+      "start": 4.4,
+      "end": 4.58
+    },
+    {
+      "w": "is",
+      "start": 4.58,
+      "end": 4.74
+    },
+    {
+      "w": "URKL.",
+      "start": 4.74,
+      "end": 5.58
+    },
+    {
+      "w": "It's",
+      "start": 5.7,
+      "end": 5.8
+    },
+    {
+      "w": "a",
+      "start": 5.8,
+      "end": 5.88
+    },
+    {
+      "w": "new",
+      "start": 5.88,
+      "end": 6.06
+    },
+    {
+      "w": "fight",
+      "start": 6.06,
+      "end": 6.32
+    },
+    {
+      "w": "league",
+      "start": 6.32,
+      "end": 6.56
+    },
+    {
+      "w": "in",
+      "start": 6.56,
+      "end": 6.72
+    },
+    {
+      "w": "China",
+      "start": 6.72,
+      "end": 7.0
+    },
+    {
+      "w": "where",
+      "start": 7.0,
+      "end": 7.32
+    },
+    {
+      "w": "full",
+      "start": 7.32,
+      "end": 7.68
+    },
+    {
+      "w": "-size",
+      "start": 7.68,
+      "end": 7.92
+    },
+    {
+      "w": "humanoid",
+      "start": 7.92,
+      "end": 8.46
+    },
+    {
+      "w": "robots",
+      "start": 8.46,
+      "end": 8.82
+    },
+    {
+      "w": "fight",
+      "start": 8.82,
+      "end": 9.28
+    },
+    {
+      "w": "MMA",
+      "start": 9.28,
+      "end": 9.72
+    },
+    {
+      "w": "style",
+      "start": 9.72,
+      "end": 10.16
+    },
+    {
+      "w": "in",
+      "start": 10.16,
+      "end": 10.44
+    },
+    {
+      "w": "a",
+      "start": 10.44,
+      "end": 10.54
+    },
+    {
+      "w": "real",
+      "start": 10.54,
+      "end": 10.88
+    },
+    {
+      "w": "cage.",
+      "start": 10.88,
+      "end": 11.24
+    },
+    {
+      "w": "Now,",
+      "start": 11.54,
+      "end": 11.62
+    },
+    {
+      "w": "here's",
+      "start": 11.62,
+      "end": 11.84
+    },
+    {
+      "w": "the",
+      "start": 11.84,
+      "end": 11.92
+    },
+    {
+      "w": "interesting",
+      "start": 11.92,
+      "end": 12.08
+    },
+    {
+      "w": "part",
+      "start": 12.08,
+      "end": 12.32
+    },
+    {
+      "w": "about",
+      "start": 12.32,
+      "end": 12.46
+    },
+    {
+      "w": "how",
+      "start": 12.46,
+      "end": 12.72
+    },
+    {
+      "w": "the",
+      "start": 12.72,
+      "end": 12.84
+    },
+    {
+      "w": "league",
+      "start": 12.84,
+      "end": 13.0
+    },
+    {
+      "w": "works.",
+      "start": 13.0,
+      "end": 13.34
+    },
+    {
+      "w": "Every",
+      "start": 13.58,
+      "end": 13.92
+    },
+    {
+      "w": "fighter",
+      "start": 13.92,
+      "end": 14.22
+    },
+    {
+      "w": "in",
+      "start": 14.22,
+      "end": 14.38
+    },
+    {
+      "w": "the",
+      "start": 14.38,
+      "end": 14.48
+    },
+    {
+      "w": "league",
+      "start": 14.48,
+      "end": 14.7
+    },
+    {
+      "w": "starts",
+      "start": 14.7,
+      "end": 15.02
+    },
+    {
+      "w": "with",
+      "start": 15.02,
+      "end": 15.26
+    },
+    {
+      "w": "the",
+      "start": 15.26,
+      "end": 15.42
+    },
+    {
+      "w": "exact",
+      "start": 15.42,
+      "end": 15.84
+    },
+    {
+      "w": "same",
+      "start": 15.84,
+      "end": 16.18
+    },
+    {
+      "w": "robot.",
+      "start": 16.18,
+      "end": 16.5
+    },
+    {
+      "w": "A",
+      "start": 16.68,
+      "end": 16.72
+    },
+    {
+      "w": "$40",
+      "start": 16.72,
+      "end": 16.92
+    },
+    {
+      "w": ",000",
+      "start": 16.92,
+      "end": 17.26
+    },
+    {
+      "w": "humanoid",
+      "start": 17.26,
+      "end": 17.8
+    },
+    {
+      "w": "called",
+      "start": 17.8,
+      "end": 18.08
+    },
+    {
+      "w": "the",
+      "start": 18.08,
+      "end": 18.28
+    },
+    {
+      "w": "T",
+      "start": 18.28,
+      "end": 18.46
+    },
+    {
+      "w": "-800.",
+      "start": 18.46,
+      "end": 18.9
+    },
+    {
+      "w": "And",
+      "start": 19.28,
+      "end": 19.34
+    },
+    {
+      "w": "yes,",
+      "start": 19.34,
+      "end": 19.56
+    },
+    {
+      "w": "it's",
+      "start": 19.68,
+      "end": 19.88
+    },
+    {
+      "w": "named",
+      "start": 19.88,
+      "end": 20.04
+    },
+    {
+      "w": "after",
+      "start": 20.04,
+      "end": 20.28
+    },
+    {
+      "w": "Terminator.",
+      "start": 20.28,
+      "end": 20.76
+    },
+    {
+      "w": "So",
+      "start": 20.96,
+      "end": 21.04
+    },
+    {
+      "w": "32",
+      "start": 21.04,
+      "end": 21.38
+    },
+    {
+      "w": "teams",
+      "start": 21.38,
+      "end": 21.86
+    },
+    {
+      "w": "from",
+      "start": 21.86,
+      "end": 22.06
+    },
+    {
+      "w": "around",
+      "start": 22.06,
+      "end": 22.4
+    },
+    {
+      "w": "the",
+      "start": 22.4,
+      "end": 22.58
+    },
+    {
+      "w": "world",
+      "start": 22.58,
+      "end": 22.78
+    },
+    {
+      "w": "all",
+      "start": 22.78,
+      "end": 23.1
+    },
+    {
+      "w": "get",
+      "start": 23.1,
+      "end": 23.32
+    },
+    {
+      "w": "identical",
+      "start": 23.32,
+      "end": 23.98
+    },
+    {
+      "w": "robot",
+      "start": 23.98,
+      "end": 24.34
+    },
+    {
+      "w": "bodies.",
+      "start": 24.34,
+      "end": 24.82
+    },
+    {
+      "w": "So",
+      "start": 24.82,
+      "end": 25.28
+    },
+    {
+      "w": "the",
+      "start": 25.28,
+      "end": 25.44
+    },
+    {
+      "w": "fight",
+      "start": 25.44,
+      "end": 25.7
+    },
+    {
+      "w": "isn't",
+      "start": 25.7,
+      "end": 26.1
+    },
+    {
+      "w": "really",
+      "start": 26.1,
+      "end": 26.3
+    },
+    {
+      "w": "about",
+      "start": 26.3,
+      "end": 26.58
+    },
+    {
+      "w": "medal",
+      "start": 26.58,
+      "end": 27.02
+    },
+    {
+      "w": "versus",
+      "start": 27.02,
+      "end": 27.26
+    },
+    {
+      "w": "medal.",
+      "start": 27.26,
+      "end": 27.6
+    },
+    {
+      "w": "It's",
+      "start": 27.78,
+      "end": 28.08
+    },
+    {
+      "w": "actually",
+      "start": 28.08,
+      "end": 28.48
+    },
+    {
+      "w": "about",
+      "start": 28.48,
+      "end": 28.76
+    },
+    {
+      "w": "code",
+      "start": 28.76,
+      "end": 29.2
+    },
+    {
+      "w": "versus",
+      "start": 29.2,
+      "end": 29.54
+    },
+    {
+      "w": "code.",
+      "start": 29.54,
+      "end": 29.94
+    },
+    {
+      "w": "Whoever",
+      "start": 30.22,
+      "end": 30.38
+    },
+    {
+      "w": "builds",
+      "start": 30.38,
+      "end": 30.82
+    },
+    {
+      "w": "the",
+      "start": 30.82,
+      "end": 31.04
+    },
+    {
+      "w": "better",
+      "start": 31.04,
+      "end": 31.3
+    },
+    {
+      "w": "fight",
+      "start": 31.3,
+      "end": 31.62
+    },
+    {
+      "w": "plan",
+      "start": 31.62,
+      "end": 31.9
+    },
+    {
+      "w": "into",
+      "start": 31.9,
+      "end": 32.34
+    },
+    {
+      "w": "their",
+      "start": 32.34,
+      "end": 32.54
+    },
+    {
+      "w": "robot",
+      "start": 32.54,
+      "end": 32.92
+    },
+    {
+      "w": "wins",
+      "start": 32.92,
+      "end": 33.44
+    },
+    {
+      "w": "the",
+      "start": 33.44,
+      "end": 33.64
+    },
+    {
+      "w": "match.",
+      "start": 33.64,
+      "end": 33.92
+    },
+    {
+      "w": "And",
+      "start": 34.14,
+      "end": 34.22
+    },
+    {
+      "w": "in",
+      "start": 34.22,
+      "end": 34.3
+    },
+    {
+      "w": "this",
+      "start": 34.3,
+      "end": 34.44
+    },
+    {
+      "w": "league,",
+      "start": 34.44,
+      "end": 34.66
+    },
+    {
+      "w": "they're",
+      "start": 34.76,
+      "end": 34.88
+    },
+    {
+      "w": "not",
+      "start": 34.88,
+      "end": 35.0
+    },
+    {
+      "w": "fighting",
+      "start": 35.0,
+      "end": 35.24
+    },
+    {
+      "w": "for",
+      "start": 35.24,
+      "end": 35.42
+    },
+    {
+      "w": "a",
+      "start": 35.42,
+      "end": 35.54
+    },
+    {
+      "w": "trophy.",
+      "start": 35.54,
+      "end": 35.8
+    },
+    {
+      "w": "The",
+      "start": 36.1,
+      "end": 36.14
+    },
+    {
+      "w": "champion",
+      "start": 36.14,
+      "end": 36.4
+    },
+    {
+      "w": "takes",
+      "start": 36.4,
+      "end": 36.74
+    },
+    {
+      "w": "home",
+      "start": 36.74,
+      "end": 36.92
+    },
+    {
+      "w": "a",
+      "start": 36.92,
+      "end": 37.04
+    },
+    {
+      "w": "belt",
+      "start": 37.04,
+      "end": 37.3
+    },
+    {
+      "w": "made",
+      "start": 37.3,
+      "end": 37.54
+    },
+    {
+      "w": "of",
+      "start": 37.54,
+      "end": 37.72
+    },
+    {
+      "w": "10",
+      "start": 37.72,
+      "end": 38.16
+    },
+    {
+      "w": "kilograms",
+      "start": 38.16,
+      "end": 38.5
+    },
+    {
+      "w": "of",
+      "start": 38.5,
+      "end": 39.06
+    },
+    {
+      "w": "solid",
+      "start": 39.06,
+      "end": 39.42
+    },
+    {
+      "w": "gold,",
+      "start": 39.42,
+      "end": 39.76
+    },
+    {
+      "w": "worth",
+      "start": 39.84,
+      "end": 40.02
+    },
+    {
+      "w": "about",
+      "start": 40.02,
+      "end": 40.28
+    },
+    {
+      "w": "$1",
+      "start": 40.28,
+      "end": 40.56
+    },
+    {
+      "w": ".5",
+      "start": 40.56,
+      "end": 41.08
+    },
+    {
+      "w": "million.",
+      "start": 41.08,
+      "end": 41.32
+    },
+    {
+      "w": "To",
+      "start": 41.88,
+      "end": 42.08
+    },
+    {
+      "w": "be",
+      "start": 42.08,
+      "end": 42.22
+    },
+    {
+      "w": "fair,",
+      "start": 42.22,
+      "end": 42.44
+    },
+    {
+      "w": "the",
+      "start": 42.52,
+      "end": 42.62
+    },
+    {
+      "w": "fights",
+      "start": 42.62,
+      "end": 42.84
+    },
+    {
+      "w": "in",
+      "start": 42.84,
+      "end": 43.06
+    },
+    {
+      "w": "the",
+      "start": 43.06,
+      "end": 43.16
+    },
+    {
+      "w": "league",
+      "start": 43.16,
+      "end": 43.38
+    },
+    {
+      "w": "are",
+      "start": 43.38,
+      "end": 43.58
+    },
+    {
+      "w": "still",
+      "start": 43.58,
+      "end": 43.94
+    },
+    {
+      "w": "pretty",
+      "start": 43.94,
+      "end": 44.24
+    },
+    {
+      "w": "clunky.",
+      "start": 44.24,
+      "end": 44.6
+    },
+    {
+      "w": "It's",
+      "start": 44.68,
+      "end": 44.8
+    },
+    {
+      "w": "very",
+      "start": 44.8,
+      "end": 45.02
+    },
+    {
+      "w": "early.",
+      "start": 45.02,
+      "end": 45.36
+    },
+    {
+      "w": "The",
+      "start": 45.58,
+      "end": 45.66
+    },
+    {
+      "w": "robots",
+      "start": 45.66,
+      "end": 45.94
+    },
+    {
+      "w": "miss",
+      "start": 45.94,
+      "end": 46.2
+    },
+    {
+      "w": "punches.",
+      "start": 46.2,
+      "end": 46.58
+    },
+    {
+      "w": "They",
+      "start": 46.92,
+      "end": 47.0
+    },
+    {
+      "w": "face",
+      "start": 47.0,
+      "end": 47.3
+    },
+    {
+      "w": "the",
+      "start": 47.3,
+      "end": 47.46
+    },
+    {
+      "w": "wrong",
+      "start": 47.46,
+      "end": 47.6
+    },
+    {
+      "w": "way.",
+      "start": 47.6,
+      "end": 47.82
+    },
+    {
+      "w": "Sometimes",
+      "start": 47.96,
+      "end": 48.22
+    },
+    {
+      "w": "the",
+      "start": 48.22,
+      "end": 48.48
+    },
+    {
+      "w": "celebration",
+      "start": 48.48,
+      "end": 48.88
+    },
+    {
+      "w": "moves",
+      "start": 48.88,
+      "end": 49.44
+    },
+    {
+      "w": "are",
+      "start": 49.44,
+      "end": 49.6
+    },
+    {
+      "w": "better",
+      "start": 49.6,
+      "end": 49.84
+    },
+    {
+      "w": "than",
+      "start": 49.84,
+      "end": 50.0
+    },
+    {
+      "w": "the",
+      "start": 50.0,
+      "end": 50.12
+    },
+    {
+      "w": "actual",
+      "start": 50.12,
+      "end": 50.44
+    },
+    {
+      "w": "fighting.",
+      "start": 50.44,
+      "end": 50.8
+    },
+    {
+      "w": "But",
+      "start": 50.8,
+      "end": 51.04
+    },
+    {
+      "w": "it's",
+      "start": 51.04,
+      "end": 51.2
+    },
+    {
+      "w": "clear",
+      "start": 51.2,
+      "end": 51.36
+    },
+    {
+      "w": "we're",
+      "start": 51.36,
+      "end": 51.62
+    },
+    {
+      "w": "watching",
+      "start": 51.62,
+      "end": 51.9
+    },
+    {
+      "w": "the",
+      "start": 51.9,
+      "end": 52.08
+    },
+    {
+      "w": "very",
+      "start": 52.08,
+      "end": 52.46
+    },
+    {
+      "w": "beginning",
+      "start": 52.46,
+      "end": 52.82
+    },
+    {
+      "w": "of",
+      "start": 52.82,
+      "end": 53.08
+    },
+    {
+      "w": "a",
+      "start": 53.08,
+      "end": 53.22
+    },
+    {
+      "w": "brand",
+      "start": 53.22,
+      "end": 53.46
+    },
+    {
+      "w": "new",
+      "start": 53.46,
+      "end": 53.68
+    },
+    {
+      "w": "age",
+      "start": 53.68,
+      "end": 54.02
+    },
+    {
+      "w": "in",
+      "start": 54.02,
+      "end": 54.4
+    },
+    {
+      "w": "robot",
+      "start": 54.4,
+      "end": 54.84
+    },
+    {
+      "w": "sports.",
+      "start": 54.84,
+      "end": 55.28
+    },
+    {
+      "w": "And",
+      "start": 55.68,
+      "end": 55.78
+    },
+    {
+      "w": "who",
+      "start": 55.78,
+      "end": 55.9
+    },
+    {
+      "w": "knows,",
+      "start": 55.9,
+      "end": 56.14
+    },
+    {
+      "w": "maybe",
+      "start": 56.28,
+      "end": 56.44
+    },
+    {
+      "w": "one",
+      "start": 56.44,
+      "end": 56.72
+    },
+    {
+      "w": "day",
+      "start": 56.72,
+      "end": 56.92
+    },
+    {
+      "w": "the",
+      "start": 56.92,
+      "end": 57.28
+    },
+    {
+      "w": "UFC",
+      "start": 57.28,
+      "end": 57.54
+    },
+    {
+      "w": "will",
+      "start": 57.54,
+      "end": 57.86
+    },
+    {
+      "w": "acquire",
+      "start": 57.86,
+      "end": 58.22
+    },
+    {
+      "w": "it.",
+      "start": 58.22,
+      "end": 58.38
+    },
+    {
+      "w": "Fall",
+      "start": 58.56,
+      "end": 58.66
+    },
+    {
+      "w": "if",
+      "start": 58.66,
+      "end": 58.76
+    },
+    {
+      "w": "you",
+      "start": 58.76,
+      "end": 58.84
+    },
+    {
+      "w": "want",
+      "start": 58.84,
+      "end": 58.92
+    },
+    {
+      "w": "to",
+      "start": 58.92,
+      "end": 59.0
+    },
+    {
+      "w": "learn",
+      "start": 59.0,
+      "end": 59.1
+    },
+    {
+      "w": "more",
+      "start": 59.1,
+      "end": 59.32
+    },
+    {
+      "w": "about",
+      "start": 59.32,
+      "end": 59.52
+    },
+    {
+      "w": "tech,",
+      "start": 59.52,
+      "end": 59.82
+    },
+    {
+      "w": "AI",
+      "start": 60.0,
+      "end": 60.16
+    },
+    {
+      "w": "and",
+      "start": 60.16,
+      "end": 60.44
+    },
+    {
+      "w": "robotics.",
+      "start": 60.44,
+      "end": 60.72
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 5.706,
+      "length": 5.706,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0A0C",
+            "share": 0.473
+          },
+          {
+            "hex": "#322D2F",
+            "share": 0.08
+          },
+          {
+            "hex": "#4D494B",
+            "share": 0.06
+          },
+          {
+            "hex": "#281614",
+            "share": 0.032
+          },
+          {
+            "hex": "#4B362F",
+            "share": 0.029
+          }
+        ],
+        "motion_energy": 31.73,
+        "script": "This robot just got its head kicked off in the world's first robot UFC. This is URKL. It's"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 5.706,
+      "end": 7.241,
+      "length": 1.535,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#110D0E",
+            "share": 0.582
+          },
+          {
+            "hex": "#2A231B",
+            "share": 0.077
+          },
+          {
+            "hex": "#2F2827",
+            "share": 0.043
+          },
+          {
+            "hex": "#241C18",
+            "share": 0.041
+          },
+          {
+            "hex": "#AE7248",
+            "share": 0.035
+          }
+        ],
+        "motion_energy": 12.55,
+        "script": "a new fight league in China where"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 7.241,
+      "end": 13.58,
+      "length": 6.34,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0A0C",
+            "share": 0.472
+          },
+          {
+            "hex": "#302D31",
+            "share": 0.165
+          },
+          {
+            "hex": "#261817",
+            "share": 0.035
+          },
+          {
+            "hex": "#4A3630",
+            "share": 0.029
+          },
+          {
+            "hex": "#514C4E",
+            "share": 0.028
+          }
+        ],
+        "motion_energy": 26.94,
+        "script": "full -size humanoid robots fight MMA style in a real cage. Now, here's the interesting part about how the league works. Every"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 13.58,
+      "end": 16.617,
+      "length": 3.036,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#050303",
+            "share": 0.487
+          },
+          {
+            "hex": "#4B4F53",
+            "share": 0.088
+          },
+          {
+            "hex": "#2E2F31",
+            "share": 0.058
+          },
+          {
+            "hex": "#6D7071",
+            "share": 0.056
+          },
+          {
+            "hex": "#8D8F90",
+            "share": 0.038
+          }
+        ],
+        "motion_energy": 36.56,
+        "script": "fighter in the league starts with the exact same robot."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 16.617,
+      "end": 17.985,
+      "length": 1.368,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#010204",
+            "share": 0.404
+          },
+          {
+            "hex": "#8B97A6",
+            "share": 0.102
+          },
+          {
+            "hex": "#798694",
+            "share": 0.069
+          },
+          {
+            "hex": "#101725",
+            "share": 0.062
+          },
+          {
+            "hex": "#98A4B2",
+            "share": 0.052
+          }
+        ],
+        "motion_energy": 26.11,
+        "script": "A $40 ,000 humanoid called"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 17.985,
+      "end": 19.253,
+      "length": 1.268,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#060504",
+            "share": 0.453
+          },
+          {
+            "hex": "#322C28",
+            "share": 0.07
+          },
+          {
+            "hex": "#47372B",
+            "share": 0.066
+          },
+          {
+            "hex": "#4F453A",
+            "share": 0.061
+          },
+          {
+            "hex": "#241A13",
+            "share": 0.054
+          }
+        ],
+        "motion_energy": 12.43,
+        "script": "the T -800."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 19.253,
+      "end": 20.921,
+      "length": 1.668,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0F",
+            "share": 0.528
+          },
+          {
+            "hex": "#2A231C",
+            "share": 0.088
+          },
+          {
+            "hex": "#2E2727",
+            "share": 0.062
+          },
+          {
+            "hex": "#AF7249",
+            "share": 0.049
+          },
+          {
+            "hex": "#714B33",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 16.72,
+        "script": "And yes, it's named after Terminator."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 20.921,
+      "end": 21.989,
+      "length": 1.068,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0F",
+            "share": 0.264
+          },
+          {
+            "hex": "#302D2A",
+            "share": 0.045
+          },
+          {
+            "hex": "#4E502D",
+            "share": 0.044
+          },
+          {
+            "hex": "#4B4E10",
+            "share": 0.036
+          },
+          {
+            "hex": "#EBF1F6",
+            "share": 0.034
+          }
+        ],
+        "motion_energy": 10.27,
+        "script": "So 32 teams from"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 21.989,
+      "end": 23.457,
+      "length": 1.468,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100E0F",
+            "share": 0.348
+          },
+          {
+            "hex": "#ABB3B7",
+            "share": 0.082
+          },
+          {
+            "hex": "#2F2E2D",
+            "share": 0.067
+          },
+          {
+            "hex": "#4F4C4C",
+            "share": 0.057
+          },
+          {
+            "hex": "#726D6F",
+            "share": 0.035
+          }
+        ],
+        "motion_energy": 12.86,
+        "script": "around the world all get identical"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 23.457,
+      "end": 25.159,
+      "length": 1.702,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#030303",
+            "share": 0.416
+          },
+          {
+            "hex": "#4E5368",
+            "share": 0.084
+          },
+          {
+            "hex": "#4B4A56",
+            "share": 0.08
+          },
+          {
+            "hex": "#2B2C31",
+            "share": 0.052
+          },
+          {
+            "hex": "#33394A",
+            "share": 0.043
+          }
+        ],
+        "motion_energy": 9.78,
+        "script": "robot bodies. So"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 10,
+      "start": 25.159,
+      "end": 30.163,
+      "length": 5.005,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#110E0F",
+            "share": 0.565
+          },
+          {
+            "hex": "#B07349",
+            "share": 0.07
+          },
+          {
+            "hex": "#241C19",
+            "share": 0.04
+          },
+          {
+            "hex": "#2E2626",
+            "share": 0.038
+          },
+          {
+            "hex": "#29221B",
+            "share": 0.038
+          }
+        ],
+        "motion_energy": 24.15,
+        "script": "the fight isn't really about medal versus medal. It's actually about code versus code."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 11,
+      "start": 30.163,
+      "end": 34.167,
+      "length": 4.004,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D090A",
+            "share": 0.543
+          },
+          {
+            "hex": "#302A2B",
+            "share": 0.063
+          },
+          {
+            "hex": "#291512",
+            "share": 0.055
+          },
+          {
+            "hex": "#534C4B",
+            "share": 0.029
+          },
+          {
+            "hex": "#89776F",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 30.4,
+        "script": "Whoever builds the better fight plan into their robot wins the match. And"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 12,
+      "start": 34.167,
+      "end": 36.036,
+      "length": 1.869,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0E",
+            "share": 0.589
+          },
+          {
+            "hex": "#2A231B",
+            "share": 0.058
+          },
+          {
+            "hex": "#2E2828",
+            "share": 0.048
+          },
+          {
+            "hex": "#241C18",
+            "share": 0.033
+          },
+          {
+            "hex": "#AF7249",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 14.85,
+        "script": "in this league, they're not fighting for a trophy."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 13,
+      "start": 36.036,
+      "end": 37.971,
+      "length": 1.935,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#040302",
+            "share": 0.343
+          },
+          {
+            "hex": "#93908E",
+            "share": 0.083
+          },
+          {
+            "hex": "#4F3528",
+            "share": 0.081
+          },
+          {
+            "hex": "#2A180F",
+            "share": 0.066
+          },
+          {
+            "hex": "#2E2B27",
+            "share": 0.051
+          }
+        ],
+        "motion_energy": 21.16,
+        "script": "The champion takes home a belt made of 10"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 14,
+      "start": 37.971,
+      "end": 39.907,
+      "length": 1.935,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#040300",
+            "share": 0.606
+          },
+          {
+            "hex": "#2F2E05",
+            "share": 0.102
+          },
+          {
+            "hex": "#4B490C",
+            "share": 0.032
+          },
+          {
+            "hex": "#AC926D",
+            "share": 0.023
+          },
+          {
+            "hex": "#8E7550",
+            "share": 0.02
+          }
+        ],
+        "motion_energy": 5.09,
+        "script": "kilograms of solid gold, worth"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 15,
+      "start": 39.907,
+      "end": 41.975,
+      "length": 2.069,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D10",
+            "share": 0.279
+          },
+          {
+            "hex": "#F8F8F8",
+            "share": 0.195
+          },
+          {
+            "hex": "#2C2C2D",
+            "share": 0.067
+          },
+          {
+            "hex": "#D1D1D2",
+            "share": 0.042
+          },
+          {
+            "hex": "#91A7B9",
+            "share": 0.028
+          }
+        ],
+        "motion_energy": 25.5,
+        "script": "about $1 .5 million. To"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 16,
+      "start": 41.975,
+      "end": 45.545,
+      "length": 3.57,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#110E0F",
+            "share": 0.573
+          },
+          {
+            "hex": "#B07349",
+            "share": 0.072
+          },
+          {
+            "hex": "#724A33",
+            "share": 0.04
+          },
+          {
+            "hex": "#241C18",
+            "share": 0.04
+          },
+          {
+            "hex": "#2C231A",
+            "share": 0.039
+          }
+        ],
+        "motion_energy": 18.04,
+        "script": "be fair, the fights in the league are still pretty clunky. It's very early."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 17,
+      "start": 45.545,
+      "end": 50.951,
+      "length": 5.406,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0B0C",
+            "share": 0.525
+          },
+          {
+            "hex": "#313030",
+            "share": 0.11
+          },
+          {
+            "hex": "#261916",
+            "share": 0.035
+          },
+          {
+            "hex": "#4B362D",
+            "share": 0.033
+          },
+          {
+            "hex": "#4F4B49",
+            "share": 0.03
+          }
+        ],
+        "motion_energy": 24.48,
+        "script": "The robots miss punches. They face the wrong way. Sometimes the celebration moves are better than the actual fighting. But"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 18,
+      "start": 50.951,
+      "end": 53.287,
+      "length": 2.336,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100C0E",
+            "share": 0.588
+          },
+          {
+            "hex": "#B1724A",
+            "share": 0.057
+          },
+          {
+            "hex": "#241B18",
+            "share": 0.036
+          },
+          {
+            "hex": "#2F2828",
+            "share": 0.036
+          },
+          {
+            "hex": "#704A32",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 22.19,
+        "script": "it's clear we're watching the very beginning of a brand"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 19,
+      "start": 53.287,
+      "end": 54.254,
+      "length": 0.968,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#020202",
+            "share": 0.39
+          },
+          {
+            "hex": "#EBECEC",
+            "share": 0.155
+          },
+          {
+            "hex": "#CCD1D0",
+            "share": 0.126
+          },
+          {
+            "hex": "#ABB0AF",
+            "share": 0.091
+          },
+          {
+            "hex": "#2F3130",
+            "share": 0.064
+          }
+        ],
+        "motion_energy": 33.71,
+        "script": "new age in"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 20,
+      "start": 54.254,
+      "end": 55.656,
+      "length": 1.401,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#020101",
+            "share": 0.396
+          },
+          {
+            "hex": "#4B4639",
+            "share": 0.095
+          },
+          {
+            "hex": "#37322A",
+            "share": 0.075
+          },
+          {
+            "hex": "#534E45",
+            "share": 0.07
+          },
+          {
+            "hex": "#958674",
+            "share": 0.036
+          }
+        ],
+        "motion_energy": 23.61,
+        "script": "robot sports."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 21,
+      "start": 55.656,
+      "end": 57.157,
+      "length": 1.502,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0A0C",
+            "share": 0.529
+          },
+          {
+            "hex": "#312F30",
+            "share": 0.124
+          },
+          {
+            "hex": "#251614",
+            "share": 0.031
+          },
+          {
+            "hex": "#504C4A",
+            "share": 0.027
+          },
+          {
+            "hex": "#8A786E",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 15.03,
+        "script": "And who knows, maybe one day the"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 22,
+      "start": 57.157,
+      "end": 58.559,
+      "length": 1.401,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0F",
+            "share": 0.45
+          },
+          {
+            "hex": "#97A8B8",
+            "share": 0.073
+          },
+          {
+            "hex": "#2F2C2E",
+            "share": 0.073
+          },
+          {
+            "hex": "#4C4C50",
+            "share": 0.054
+          },
+          {
+            "hex": "#A5B7C7",
+            "share": 0.044
+          }
+        ],
+        "motion_energy": 13.04,
+        "script": "UFC will acquire it."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 23,
+      "start": 58.559,
+      "end": 61.298,
+      "length": 2.739,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0E",
+            "share": 0.592
+          },
+          {
+            "hex": "#AF7249",
+            "share": 0.051
+          },
+          {
+            "hex": "#2F2829",
+            "share": 0.045
+          },
+          {
+            "hex": "#241C19",
+            "share": 0.039
+          },
+          {
+            "hex": "#2B221B",
+            "share": 0.036
+          }
+        ],
+        "motion_energy": 14.56,
+        "script": "Fall if you want to learn more about tech, AI and robotics."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

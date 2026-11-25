@@ -1,0 +1,690 @@
+{
+ "triggers": [
+  {
+   "t_word": 0.18,
+   "word": "robot",
+   "element": "clip de la patada + franja «ROBOTS ARE NOW FIGHTING MMA»",
+   "category": "hook_banner",
+   "offset_s": -0.18,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 1.56,
+   "word": "off",
+   "element": "segundo ángulo del derribo",
+   "category": "hook_banner",
+   "offset_s": 0.54,
+   "why": "literal, el corte llega 0.5 s después",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 4.4,
+   "word": "This",
+   "element": "tarjeta-título «THIS IS URKL» sobre negro",
+   "category": "full_graphic",
+   "offset_s": -0.06,
+   "why": "nombre propio → rótulo",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 4.74,
+   "word": "URKL.",
+   "element": "«URKL» en rojo dentro de la tarjeta",
+   "category": "full_graphic",
+   "offset_s": 0.16,
+   "why": "literal por palabra",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 5.7,
+   "word": "It's",
+   "element": "cara completa",
+   "category": "face_full_word",
+   "offset_s": 0.01,
+   "why": "contexto",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 6.72,
+   "word": "China",
+   "element": "«China» en dorado",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "énfasis (lugar)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 7.32,
+   "word": "full",
+   "element": "plano general de la arena",
+   "category": "split_broll",
+   "offset_s": -0.08,
+   "why": "literal (tamaño real)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 8.82,
+   "word": "fight",
+   "element": "robots tras la reja",
+   "category": "split_broll",
+   "offset_s": 0.36,
+   "why": "literal, +0.36 s",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 10.88,
+   "word": "cage.",
+   "element": "plano bajo del octágono",
+   "category": "split_broll",
+   "offset_s": 0.06,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 11.54,
+   "word": "Now,",
+   "element": "cara completa",
+   "category": "face_full_word",
+   "offset_s": -0.06,
+   "why": "reenganche",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 13.58,
+   "word": "Every",
+   "element": "dos tarjetas apiladas con robots + círculo",
+   "category": "pip_broll",
+   "offset_s": 0.0,
+   "why": "comparación (todos iguales)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 15.42,
+   "word": "exact",
+   "element": "cambio simultáneo de ambas tarjetas",
+   "category": "pip_broll",
+   "offset_s": -0.1,
+   "why": "énfasis",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 16.68,
+   "word": "A",
+   "element": "tarjeta con robot blanco T800",
+   "category": "pip_broll",
+   "offset_s": -0.06,
+   "why": "dato (precio) → producto",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 18.08,
+   "word": "the",
+   "element": "robot dorado + rótulo «T800»",
+   "category": "pip_broll",
+   "offset_s": -0.1,
+   "why": "nombre propio → rótulo (0.3 s antes de «T-800»)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 19.28,
+   "word": "And",
+   "element": "cara completa",
+   "category": "face_full_word",
+   "offset_s": -0.03,
+   "why": "guiño",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 20.28,
+   "word": "Terminator.",
+   "element": "«Terminator» en dorado",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "énfasis (referencia pop)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 20.96,
+   "word": "So",
+   "element": "escenario del evento",
+   "category": "split_broll",
+   "offset_s": -0.04,
+   "why": "literal (equipos)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 22.06,
+   "word": "around",
+   "element": "atril URKL / rueda de prensa",
+   "category": "split_broll",
+   "offset_s": -0.07,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 23.32,
+   "word": "identical",
+   "element": "tarjeta + rótulo rojo «IDENTICAL ROBOT BODIES»",
+   "category": "full_graphic",
+   "offset_s": 0.14,
+   "why": "dato clave → texto",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 24.82,
+   "word": "So",
+   "element": "cara completa (tesis)",
+   "category": "face_full_word",
+   "offset_s": 0.34,
+   "why": "tesis",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 27.02,
+   "word": "versus",
+   "element": "«versus» serif itálica dorada",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "estructura A vs B",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 30.22,
+   "word": "Whoever",
+   "element": "robots plateados en guardia (casi B/N)",
+   "category": "split_broll",
+   "offset_s": -0.06,
+   "why": "literal (plan de pelea)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 32.34,
+   "word": "their",
+   "element": "pelea rápida negro vs blanco",
+   "category": "split_broll",
+   "offset_s": -0.24,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 34.14,
+   "word": "And",
+   "element": "cara completa",
+   "category": "face_full_word",
+   "offset_s": 0.03,
+   "why": "anuncia el premio",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 35.54,
+   "word": "trophy.",
+   "element": "«trophy» en dorado",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "énfasis",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 36.1,
+   "word": "The",
+   "element": "tarjeta: escenario con láseres",
+   "category": "full_graphic",
+   "offset_s": -0.06,
+   "why": "literal (campeón)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 37.04,
+   "word": "belt",
+   "element": "cinturón dorado en la mesa",
+   "category": "full_graphic",
+   "offset_s": -0.04,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 37.72,
+   "word": "10",
+   "element": "pantalla con «10,000,000» y cinturón",
+   "category": "full_graphic",
+   "offset_s": 0.25,
+   "why": "dato",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 39.84,
+   "word": "worth",
+   "element": "artículo con «10 million yuan ($1.44 million)» en amarillo",
+   "category": "split_headline",
+   "offset_s": 0.07,
+   "why": "dato → fuente",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 41.88,
+   "word": "To",
+   "element": "cara completa sin palabra grande",
+   "category": "aroll_plain",
+   "offset_s": 0.1,
+   "why": "concesión",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 45.58,
+   "word": "The",
+   "element": "robot fallando un golpe",
+   "category": "split_broll",
+   "offset_s": -0.03,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 46.92,
+   "word": "They",
+   "element": "robots mirando al lado equivocado",
+   "category": "split_broll",
+   "offset_s": 0.03,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 48.48,
+   "word": "celebration",
+   "element": "robot bailando",
+   "category": "split_broll",
+   "offset_s": -0.1,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 50.8,
+   "word": "But",
+   "element": "cara completa",
+   "category": "face_full_word",
+   "offset_s": 0.15,
+   "why": "giro",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 53.22,
+   "word": "brand",
+   "element": "tarjeta: dos robots sobre blanco",
+   "category": "full_graphic",
+   "offset_s": 0.07,
+   "why": "ejemplo",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 54.4,
+   "word": "robot",
+   "element": "robot haciendo kip-up",
+   "category": "full_graphic",
+   "offset_s": -0.15,
+   "why": "literal (deporte)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 55.68,
+   "word": "And",
+   "element": "patada voladora en la jaula",
+   "category": "split_broll",
+   "offset_s": -0.02,
+   "why": "puente",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 57.28,
+   "word": "UFC",
+   "element": "UFC real arriba + robot con árbitro abajo",
+   "category": "split_broll",
+   "offset_s": -0.12,
+   "why": "literal + comparación",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 58.56,
+   "word": "Follow",
+   "element": "cara completa + «Follow» gigante",
+   "category": "title_cta",
+   "offset_s": 0.0,
+   "why": "CTA",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 4.34,
+   "from": "v18_s01 (hook_banner)",
+   "to": "v18_s02 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 5.71,
+   "from": "v18_s02 (full_graphic)",
+   "to": "v18_s03 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 7.24,
+   "from": "v18_s03 (face_full_word)",
+   "to": "v18_s04 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 9.18,
+   "from": "v18_s04 (split_broll)",
+   "to": "v18_s05 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 11.48,
+   "from": "v18_s05 (split_broll)",
+   "to": "v18_s06 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 13.58,
+   "from": "v18_s06 (face_full_word)",
+   "to": "v18_s07 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 16.62,
+   "from": "v18_s07 (pip_broll)",
+   "to": "v18_s08 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 17.98,
+   "from": "v18_s08 (pip_broll)",
+   "to": "v18_s09 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 19.25,
+   "from": "v18_s09 (pip_broll)",
+   "to": "v18_s10 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 20.92,
+   "from": "v18_s10 (face_full_word)",
+   "to": "v18_s11 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 23.46,
+   "from": "v18_s11 (split_broll)",
+   "to": "v18_s12 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 25.16,
+   "from": "v18_s12 (full_graphic)",
+   "to": "v18_s13 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 30.16,
+   "from": "v18_s13 (face_full_word)",
+   "to": "v18_s14 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 32.1,
+   "from": "v18_s14 (split_broll)",
+   "to": "v18_s15 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 34.17,
+   "from": "v18_s15 (split_broll)",
+   "to": "v18_s16 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 36.04,
+   "from": "v18_s16 (face_full_word)",
+   "to": "v18_s17 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 37.0,
+   "from": "v18_s17 (full_graphic)",
+   "to": "v18_s18 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 37.97,
+   "from": "v18_s18 (full_graphic)",
+   "to": "v18_s19 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 39.91,
+   "from": "v18_s19 (full_graphic)",
+   "to": "v18_s20 (split_headline)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 41.98,
+   "from": "v18_s20 (split_headline)",
+   "to": "v18_s21 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 45.55,
+   "from": "v18_s21 (aroll_plain)",
+   "to": "v18_s22 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 48.38,
+   "from": "v18_s22 (split_broll)",
+   "to": "v18_s23 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 50.95,
+   "from": "v18_s23 (split_broll)",
+   "to": "v18_s24 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 53.29,
+   "from": "v18_s24 (face_full_word)",
+   "to": "v18_s25 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 55.66,
+   "from": "v18_s25 (full_graphic)",
+   "to": "v18_s26 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 57.16,
+   "from": "v18_s26 (split_broll)",
+   "to": "v18_s27 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 58.56,
+   "from": "v18_s27 (split_broll)",
+   "to": "v18_s28 (title_cta)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.13,
+   "fx": "slide (franja del gancho)",
+   "detail": "Franja roja ≈#84242A entra desde la derecha: «ROB / FIG» a 0.17 s, «ROBOTS / FIGHTI» a 0.37 s, completa ≈1.0 s. Fija hasta 4.34."
+  },
+  {
+   "t": 4.34,
+   "fx": "pop por palabra (rótulo)",
+   "detail": "«THIS» (4.34) → «THIS IS» (≈4.50) → «URKL» rojo (≈4.9) dentro de la tarjeta, sincronizado a «This is URKL»."
+  },
+  {
+   "t": 5.71,
+   "fx": "pop palabra a palabra + color",
+   "detail": "it's·a·new·fight·league·in·China: 7 palabras en 1.53 s; «China» en dorado ≈#E4C679."
+  },
+  {
+   "t": 18.0,
+   "fx": "slide vertical + fade (rótulo T800)",
+   "detail": "«T800» azul sube ≈60 px y pasa de transparente a opaco en ≈6 fotogramas (17.98–18.18); queda con el pecho del robot tapando parte de la «0»."
+  },
+  {
+   "t": 23.5,
+   "fx": "máscara / revelado por letra + texto detrás del sujeto",
+   "detail": "«IDENTICAL» aparece primero incompleto («IDEN TICAL» con el robot tapando letras, 23.6) y luego «ROBOT BODIES» (24.0–24.5)."
+  },
+  {
+   "t": 25.16,
+   "fx": "pop palabra a palabra + itálica dorada",
+   "detail": "17 palabras en 5.0 s (≈0.29 s/palabra). Sans blanca salvo: «fight» serif itálica blanca, «versus» ×2 serif itálica dorada, «actually» sans dorada."
+  },
+  {
+   "t": 40.3,
+   "fx": "resaltado amarillo",
+   "detail": "Marcador amarillo sobre «10 million yuan ($1.44 million)» en el artículo; ya visible al llegar el scroll (no se vio el barrido)."
+  },
+  {
+   "t": 58.56,
+   "fx": "pop palabra a palabra",
+   "detail": "CTA: Follow·if·you·want·to·learn·more·about·tech·AI·and·robotics; «AI» en serif itálica blanca (60.0)."
+  }
+ ],
+ "camera": [
+  {
+   "t": 5.71,
+   "move": "punch-in (corte)",
+   "scale_or_dir": "plano medio → primer plano ≈2x",
+   "dur_s": 0.0
+  },
+  {
+   "t": 16.62,
+   "move": "tilt/pan lento del clip",
+   "scale_or_dir": "hacia abajo sobre el busto del robot",
+   "dur_s": 1.36
+  },
+  {
+   "t": 39.91,
+   "move": "scroll a pasos + zoom-in",
+   "scale_or_dir": "titular → párrafo resaltado, ≈1.0→1.4x",
+   "dur_s": 1.3
+  },
+  {
+   "t": 41.98,
+   "move": "punch-in (corte)",
+   "scale_or_dir": "split → cara completa",
+   "dur_s": 0.0
+  }
+ ],
+ "rhythm": {
+  "events_per_10s": [
+   6,
+   10,
+   4,
+   13,
+   13,
+   12,
+   0
+  ],
+  "avg_hold_text_s": 0.25,
+  "notes": "Todo b-roll real de la liga (video_noticia): cortes internos cada 0.4–2 s. 7 bloques de cara+palabra (6 face_full_word + CTA) en 61.3 s → uno cada ≈8.8 s; el más largo dura 5.0 s (tesis, 25.16–30.16). Cambia de LAYOUT (split / cara / tarjeta+círculo / tarjeta sola) 27 veces → cada ≈2.2 s. [derived] events_per_10s = cortes detectados por ffmpeg (scene>0.12 en mitad superior + inferior, deduplicados a 0.09 s; incluye cortes internos del material de arriba). avg_hold_text_s = duración media por palabra grande en face_full_word (70 palabras en 17.2 s). Subtítulo pequeño: 141 palabras en 44.1 s → ≈0.62 s por bloque de 2 palabras (derived). Duración media de escena 2.19 s."
+ },
+ "typography": "Subtítulo: sans geométrica bold blanca ≈30 px, 1–3 palabras, centro y≈53 % en split; sobre tarjetas lleva cajita gris oscuro semitransparente. En aroll_plain baja a y≈69 %. Palabra grande: sans bold blanca ≈90–100 px con glow; palabra clave en DORADO ≈#E4C679 (China, interesting, Terminator, actually, trophy) y/o serif itálica (fight blanca; versus dorada; AI blanca). Rótulos de gráficos: sans extendida ultra-black en mayúsculas (THIS IS blanco / URKL rojo; IDENTICAL ROBOT BODIES rojo; T800 azul degradado). Franja: blanca + naranja sobre rojo ≈#84242A.",
+ "textures": "Sin grano/papel/tela añadidos. Glow en palabra grande. Tarjetas de esquinas redondeadas sobre negro puro. Un clip casi en blanco y negro (30.16–32.10) es del material, no un filtro general.",
+ "distinct": [
+  "Palabra clave en DORADO (≈#E4C679), no solo en itálica: China, interesting, Terminator, versus, actually, trophy.",
+  "Tres tarjetas-rótulo sin su cara: «THIS IS URKL» (4.34), «IDENTICAL ROBOT BODIES» (23.46) y la secuencia del cinturón (36.04–39.91).",
+  "Doble tarjeta apilada con círculo (13.58–16.62): dos clips a la vez para «todos empiezan con el mismo robot».",
+  "Split donde la mitad de abajo también es b-roll (57.16–58.56: UFC arriba, robot con árbitro abajo).",
+  "CTA final explícito («Follow if you want…») hecho con el mismo sistema de palabra gigante; él va en camiseta, 29.97 fps (los otros tres van a 23.976)."
+ ]
+}

@@ -1,0 +1,56 @@
+[
+ {
+  "t": 8.998,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 7.2,
+  "to_cut": 0.7,
+  "word": "of",
+  "to_word": -0.08
+ },
+ {
+  "t": 19.783,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 5.4,
+  "to_cut": 1.39,
+  "word": "isn't",
+  "to_word": 0.08
+ },
+ {
+  "t": 25.287,
+  "dur": 0.23,
+  "kind": "hit/boom",
+  "gain_db": 5.1,
+  "to_cut": -0.53,
+  "word": "place.",
+  "to_word": -0.01
+ },
+ {
+  "t": 35.364,
+  "dur": 0.09,
+  "kind": "pop",
+  "gain_db": 14.6,
+  "to_cut": -1.47,
+  "word": "he",
+  "to_word": 0.04
+ },
+ {
+  "t": 37.64,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 7.1,
+  "to_cut": 0.81,
+  "word": "SpaceX,",
+  "to_word": -0.14
+ },
+ {
+  "t": 80.782,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 6.8,
+  "to_cut": 1.37,
+  "word": "that",
+  "to_word": -0.12
+ }
+]

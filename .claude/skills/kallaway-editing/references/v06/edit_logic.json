@@ -1,0 +1,880 @@
+{
+ "evidence_note": "Regla REA: tiempos de 'transitions', 'text_fx' y 'camera' son observed (tiras de fotogramas a 15 fps, ±0.07 s); 't_word' viene de evidence.json (derived, whisper); 'why' es inferred; sonido = desconocido (no se analizó el audio).",
+ "triggers": [
+  {
+   "t_word": 0.0,
+   "word": "Google",
+   "element": "TV CRT con «Gemini» + franja roja «GEMINI 4 THE NEW FRONTIER» entrando",
+   "category": "hook_banner",
+   "offset_s": 0.0,
+   "why": "literal/hook: marca en pantalla"
+  },
+  {
+   "t_word": 0.9,
+   "word": "Gemini",
+   "element": "Blog oficial con «Gemini 4 Argon» resaltado en azul (tras glitch 0.87–1.07)",
+   "category": "hook_banner",
+   "offset_s": 0.17,
+   "why": "literal: el nombre se resalta en la fuente"
+  },
+  {
+   "t_word": 2.62,
+   "word": "If",
+   "element": "Punch-in con palabras grandes «If you're trying to use AI for»",
+   "category": "face_full_word",
+   "offset_s": -0.02,
+   "why": "cambio de tema: apela al espectador"
+  },
+  {
+   "t_word": 3.84,
+   "word": "complex",
+   "element": "Collage de robot + simulación (y aparece el texto legal «Available to AI Pro…»)",
+   "category": "split_graphic",
+   "offset_s": -0.21,
+   "why": "literal: tarea compleja"
+  },
+  {
+   "t_word": 4.84,
+   "word": "tasks,",
+   "element": "Pastillas neón de tareas empresariales",
+   "category": "split_graphic",
+   "offset_s": -0.21,
+   "why": "literal: «work tasks»"
+  },
+  {
+   "t_word": 5.34,
+   "word": "this",
+   "element": "Modelo 3D del esqueleto",
+   "category": "split_graphic",
+   "offset_s": -0.04,
+   "why": "literal: «this model offers»"
+  },
+  {
+   "t_word": 6.2,
+   "word": "frontier",
+   "element": "Mapa mundial oscuro",
+   "category": "split_graphic",
+   "offset_s": 0.03,
+   "why": "metáfora: «frontier intelligence» → escala global"
+  },
+  {
+   "t_word": 7.24,
+   "word": "to",
+   "element": "Botón de enviar ampliado + cursor de mano que hace clic",
+   "category": "split_screenrec",
+   "offset_s": 0.16,
+   "why": "metáfora: «get more done» = un clic"
+  },
+  {
+   "t_word": 8.8,
+   "word": "And",
+   "element": "Diagrama 3D de máquina",
+   "category": "split_graphic",
+   "offset_s": -0.07,
+   "why": "literal: «engineering»"
+  },
+  {
+   "t_word": 10.12,
+   "word": "and",
+   "element": "Nodo «RFP Coordinator Agent»",
+   "category": "split_graphic",
+   "offset_s": 0.21,
+   "why": "literal: «knowledge work»"
+  },
+  {
+   "t_word": 11.36,
+   "word": "Now,",
+   "element": "Punch-in «Now a big reason why Argon is»",
+   "category": "face_full_word",
+   "offset_s": -0.13,
+   "why": "cambio de tema"
+  },
+  {
+   "t_word": 12.54,
+   "word": "so",
+   "element": "Tarjetas robot + cornhole sobre blanco",
+   "category": "split_graphic",
+   "offset_s": -0.01,
+   "why": "literal: ejemplo de tarea"
+  },
+  {
+   "t_word": 13.5,
+   "word": "complex",
+   "element": "Robot humanoide real en el garaje",
+   "category": "split_broll",
+   "offset_s": 0.07,
+   "why": "literal: «complex tasks»"
+  },
+  {
+   "t_word": 14.66,
+   "word": "because",
+   "element": "Hoja 3D → zooms sucesivos a célula/cloroplasto",
+   "category": "split_screenrec",
+   "offset_s": -0.13,
+   "why": "metáfora: «more depth and precision» = zoom cada vez más profundo"
+  },
+  {
+   "t_word": 18.5,
+   "word": "This",
+   "element": "Caja de prompt con petición larga tecleándose",
+   "category": "split_screenrec",
+   "offset_s": 0.0,
+   "why": "literal: la tarea que se le pide"
+  },
+  {
+   "t_word": 20.28,
+   "word": "very",
+   "element": "Punch-in «very sophisticated tasks start to finish»",
+   "category": "face_full_word",
+   "offset_s": 0.22,
+   "why": "énfasis"
+  },
+  {
+   "t_word": 22.46,
+   "word": "without",
+   "element": "Documento «Script Breakdown» con scroll a saltos",
+   "category": "split_headline",
+   "offset_s": 0.17,
+   "why": "evidencia: salida larga sin perder contexto"
+  },
+  {
+   "t_word": 25.16,
+   "word": "For",
+   "element": "Punch-in «For example» (0,4 s)",
+   "category": "face_full_word",
+   "offset_s": -0.03,
+   "why": "cambio de tema: demo"
+  },
+  {
+   "t_word": 25.68,
+   "word": "I",
+   "element": "Pantalla de inicio «Hi Kyle, What's on your mind?»",
+   "category": "split_screenrec",
+   "offset_s": -0.15,
+   "why": "literal: empieza la demo"
+  },
+  {
+   "t_word": 27.12,
+   "word": "cup",
+   "element": "Prompt del portavasos tecleándose",
+   "category": "split_screenrec",
+   "offset_s": -0.12,
+   "why": "literal: lo que describió"
+  },
+  {
+   "t_word": 33.04,
+   "word": "And",
+   "element": "Cursor sobre el botón de enviar «Argon High»",
+   "category": "split_screenrec",
+   "offset_s": -0.04,
+   "why": "énfasis: el clic"
+  },
+  {
+   "t_word": 33.64,
+   "word": "able,",
+   "element": "Estados «Defining the Project Scope ›»",
+   "category": "split_screenrec",
+   "offset_s": 0.09,
+   "why": "literal: el modelo trabajando"
+  },
+  {
+   "t_word": 35.06,
+   "word": "fully",
+   "element": "Modelo 3D wireframe azul",
+   "category": "split_screenrec",
+   "offset_s": 0.01,
+   "why": "literal: «3D model»"
+  },
+  {
+   "t_word": 36.74,
+   "word": "exact",
+   "element": "Modelo sólido amarillo",
+   "category": "split_screenrec",
+   "offset_s": -0.11,
+   "why": "literal: «the exact piece»"
+  },
+  {
+   "t_word": 37.92,
+   "word": "I",
+   "element": "Detalle gris de la abrazadera",
+   "category": "split_screenrec",
+   "offset_s": -0.19,
+   "why": "literal: «3D print it»"
+  },
+  {
+   "t_word": 38.96,
+   "word": "I",
+   "element": "Canal de YouTube «Kallaway»",
+   "category": "split_social",
+   "offset_s": -0.03,
+   "why": "literal + prueba social"
+  },
+  {
+   "t_word": 42.46,
+   "word": "Scripts,",
+   "element": "Prompt «Can you deep analyze my YouTube channel…»",
+   "category": "split_screenrec",
+   "offset_s": -0.19,
+   "why": "literal: lo que le dio"
+  },
+  {
+   "t_word": 45.14,
+   "word": "It",
+   "element": "Dashboard oscuro en perspectiva",
+   "category": "split_screenrec",
+   "offset_s": -0.04,
+   "why": "literal: «this YouTube dashboard»"
+  },
+  {
+   "t_word": 46.42,
+   "word": "dashboard",
+   "element": "Gráfico de barras verde «Channel Physics»",
+   "category": "split_screenrec",
+   "offset_s": 0.15,
+   "why": "literal: detalle del dashboard"
+  },
+  {
+   "t_word": 49.12,
+   "word": "And",
+   "element": "Panel «Working on it… Reading RFP»",
+   "category": "split_screenrec",
+   "offset_s": -0.05,
+   "why": "literal: «workflows complete»"
+  },
+  {
+   "t_word": 51.64,
+   "word": "pretty",
+   "element": "Punch-in «is pretty mind blowing when you're watching it»",
+   "category": "face_full_word",
+   "offset_s": -0.14,
+   "why": "énfasis/opinión"
+  },
+  {
+   "t_word": 53.06,
+   "word": "Argonne",
+   "element": "Texto «Built to understand»",
+   "category": "split_graphic",
+   "offset_s": -0.03,
+   "why": "metáfora: eslogan del producto"
+  },
+  {
+   "t_word": 54.14,
+   "word": "Google",
+   "element": "Texto azul «your role / your teams / how you operate»",
+   "category": "split_graphic",
+   "offset_s": 0.06,
+   "why": "evidencia corporativa de Google"
+  },
+  {
+   "t_word": 56.88,
+   "word": "their",
+   "element": "Tarjeta con logo «Gemini»",
+   "category": "split_graphic",
+   "offset_s": 0.02,
+   "why": "literal: logo"
+  },
+  {
+   "t_word": 58.52,
+   "word": "A",
+   "element": "Cara a pantalla completa con subtítulo pequeño",
+   "category": "aroll_plain",
+   "offset_s": -0.05,
+   "why": "cambio de tema: primer dato"
+  },
+  {
+   "t_word": 59.94,
+   "word": "300",
+   "element": "Blog con «300 TiB of memory» resaltado en amarillo",
+   "category": "split_headline",
+   "offset_s": 0.09,
+   "why": "dato: cifra subrayada en la fuente"
+  },
+  {
+   "t_word": 62.24,
+   "word": "Google's",
+   "element": "Vista aérea de centro de datos",
+   "category": "split_broll",
+   "offset_s": -0.24,
+   "why": "literal"
+  },
+  {
+   "t_word": 64.08,
+   "word": "Argonne",
+   "element": "Cara a pantalla completa con subtítulo pequeño",
+   "category": "aroll_plain",
+   "offset_s": -0.05,
+   "why": "cambio de tema: segundo dato"
+  },
+  {
+   "t_word": 65.36,
+   "word": "32",
+   "element": "Blog con «32K lines of SIMD code» seleccionado en azul",
+   "category": "split_headline",
+   "offset_s": 0.27,
+   "why": "dato: cifra seleccionada en la fuente"
+  },
+  {
+   "t_word": 69.82,
+   "word": "2",
+   "element": "Paneo a «runs 2.7x faster» resaltado",
+   "category": "split_headline",
+   "offset_s": 0.08,
+   "why": "dato: segunda cifra en la misma captura"
+  },
+  {
+   "t_word": 71.62,
+   "word": "So,",
+   "element": "Caja de agente «Complete the attached RFP»",
+   "category": "split_screenrec",
+   "offset_s": -0.09,
+   "why": "literal: «your complex task»"
+  },
+  {
+   "t_word": 73.1,
+   "word": "or",
+   "element": "Persona ante rack con LEDs",
+   "category": "split_broll",
+   "offset_s": 0.2,
+   "why": "literal: «data centers»"
+  },
+  {
+   "t_word": 76.02,
+   "word": "Argonne",
+   "element": "Punch-in «Argon has just set the new frontier» (itálica)",
+   "category": "face_full_word",
+   "offset_s": -0.09,
+   "why": "énfasis: tesis final"
+  },
+  {
+   "t_word": 78.32,
+   "word": "If",
+   "element": "TV CRT con animación de la G → 4",
+   "category": "split_broll",
+   "offset_s": -0.05,
+   "why": "cambio de tema: CTA"
+  },
+  {
+   "t_word": 81.0,
+   "word": "Google",
+   "element": "Logo «Gemini 4 Argon» sobre azul",
+   "category": "title_cta",
+   "offset_s": 0.33,
+   "why": "literal: marca + disponibilidad"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 0.87,
+   "from": "v06_s01 (hook_banner)",
+   "to": "v06_s01 (corte interno de la mitad superior/fondo)",
+   "type": "glitch",
+   "frames": 3,
+   "detail": "Mitad superior: TV CRT → blog; 3 fotogramas de glitch digital (bloques desplazados, colores invertidos) entre 0.87 y 1.07"
+  },
+  {
+   "t": 2.6,
+   "from": "v06_s01 (hook_banner)",
+   "to": "v06_s02 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa (desaparece la franja roja)"
+  },
+  {
+   "t": 3.63,
+   "from": "v06_s02 (face_full_word)",
+   "to": "v06_s03 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (collage robot); aparece el texto legal abajo"
+  },
+  {
+   "t": 4.63,
+   "from": "v06_s03 (split_graphic)",
+   "to": "v06_s04 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: collage → pastillas neón"
+  },
+  {
+   "t": 5.3,
+   "from": "v06_s04 (split_graphic)",
+   "to": "v06_s05 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: pastillas → modelo 3D"
+  },
+  {
+   "t": 6.23,
+   "from": "v06_s05 (split_graphic)",
+   "to": "v06_s06 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: modelo 3D → mapa mundial"
+  },
+  {
+   "t": 7.4,
+   "from": "v06_s06 (split_graphic)",
+   "to": "v06_s07 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: mapa → botón de enviar ampliado (salto de oscuro a blanco)"
+  },
+  {
+   "t": 8.73,
+   "from": "v06_s07 (split_screenrec)",
+   "to": "v06_s08 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: botón → diagrama 3D de máquina"
+  },
+  {
+   "t": 10.33,
+   "from": "v06_s08 (split_graphic)",
+   "to": "v06_s09 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: máquina → nodo de agente (aparece con barrido de luz)"
+  },
+  {
+   "t": 11.23,
+   "from": "v06_s09 (split_graphic)",
+   "to": "v06_s10 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa"
+  },
+  {
+   "t": 12.53,
+   "from": "v06_s10 (face_full_word)",
+   "to": "v06_s11 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (tarjetas sobre blanco)"
+  },
+  {
+   "t": 13.57,
+   "from": "v06_s11 (split_graphic)",
+   "to": "v06_s12 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: tarjetas → robot real"
+  },
+  {
+   "t": 14.53,
+   "from": "v06_s12 (split_broll)",
+   "to": "v06_s13 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: robot → hoja 3D"
+  },
+  {
+   "t": 15.0,
+   "from": "v06_s13 (split_screenrec)",
+   "to": "v06_s13 (corte interno de la mitad superior/fondo)",
+   "type": "crossfade",
+   "frames": 5,
+   "detail": "Dentro de la visualización: fundido blanquecino entre niveles de zoom (se repite a ≈16.0 y ≈17.5)"
+  },
+  {
+   "t": 18.5,
+   "from": "v06_s13 (split_screenrec)",
+   "to": "v06_s14 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: tilacoides → caja de prompt"
+  },
+  {
+   "t": 20.5,
+   "from": "v06_s14 (split_screenrec)",
+   "to": "v06_s15 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa"
+  },
+  {
+   "t": 22.63,
+   "from": "v06_s15 (face_full_word)",
+   "to": "v06_s16 (split_headline)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (documento)"
+  },
+  {
+   "t": 25.13,
+   "from": "v06_s16 (split_headline)",
+   "to": "v06_s17 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa («For example»)"
+  },
+  {
+   "t": 25.53,
+   "from": "v06_s17 (face_full_word)",
+   "to": "v06_s18 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (inicio de Gemini)"
+  },
+  {
+   "t": 35.07,
+   "from": "v06_s21 (split_screenrec)",
+   "to": "v06_s22 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: respuesta en curso → modelo 3D wireframe"
+  },
+  {
+   "t": 36.63,
+   "from": "v06_s22 (split_screenrec)",
+   "to": "v06_s23 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: wireframe azul → sólido amarillo"
+  },
+  {
+   "t": 37.73,
+   "from": "v06_s23 (split_screenrec)",
+   "to": "v06_s24 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: amarillo → detalle gris"
+  },
+  {
+   "t": 38.93,
+   "from": "v06_s24 (split_screenrec)",
+   "to": "v06_s25 (split_social)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: detalle → canal de YouTube"
+  },
+  {
+   "t": 42.27,
+   "from": "v06_s25 (split_social)",
+   "to": "v06_s26 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: YouTube → caja de prompt"
+  },
+  {
+   "t": 45.1,
+   "from": "v06_s26 (split_screenrec)",
+   "to": "v06_s27 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: prompt → dashboard oscuro"
+  },
+  {
+   "t": 46.57,
+   "from": "v06_s27 (split_screenrec)",
+   "to": "v06_s27 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: muro de miniaturas → gráfico de barras"
+  },
+  {
+   "t": 49.07,
+   "from": "v06_s27 (split_screenrec)",
+   "to": "v06_s28 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: dashboard → panel de agente blanco"
+  },
+  {
+   "t": 51.5,
+   "from": "v06_s28 (split_screenrec)",
+   "to": "v06_s29 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa"
+  },
+  {
+   "t": 53.03,
+   "from": "v06_s29 (face_full_word)",
+   "to": "v06_s30 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida («Built to understand»)"
+  },
+  {
+   "t": 54.2,
+   "from": "v06_s30 (split_graphic)",
+   "to": "v06_s31 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: blanco → azul con texto cinético"
+  },
+  {
+   "t": 56.9,
+   "from": "v06_s31 (split_graphic)",
+   "to": "v06_s32 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: azul → tarjeta Gemini"
+  },
+  {
+   "t": 58.47,
+   "from": "v06_s32 (split_graphic)",
+   "to": "v06_s33 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa con subtítulo pequeño"
+  },
+  {
+   "t": 60.03,
+   "from": "v06_s33 (aroll_plain)",
+   "to": "v06_s34 (split_headline)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (blog, zoom al dato)"
+  },
+  {
+   "t": 62.0,
+   "from": "v06_s34 (split_headline)",
+   "to": "v06_s35 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: blog → centro de datos"
+  },
+  {
+   "t": 63.47,
+   "from": "v06_s35 (split_broll)",
+   "to": "v06_s35 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: segundo plano aéreo"
+  },
+  {
+   "t": 64.03,
+   "from": "v06_s35 (split_broll)",
+   "to": "v06_s36 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa"
+  },
+  {
+   "t": 65.63,
+   "from": "v06_s36 (aroll_plain)",
+   "to": "v06_s37 (split_headline)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (blog, «32K lines»)"
+  },
+  {
+   "t": 71.53,
+   "from": "v06_s38 (split_headline)",
+   "to": "v06_s39 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: blog → caja de agente"
+  },
+  {
+   "t": 73.3,
+   "from": "v06_s39 (split_screenrec)",
+   "to": "v06_s40 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: caja → persona ante rack"
+  },
+  {
+   "t": 74.9,
+   "from": "v06_s40 (split_broll)",
+   "to": "v06_s40 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: rack → monitores"
+  },
+  {
+   "t": 75.93,
+   "from": "v06_s40 (split_broll)",
+   "to": "v06_s41 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa"
+  },
+  {
+   "t": 78.27,
+   "from": "v06_s41 (face_full_word)",
+   "to": "v06_s42 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (TV CRT)"
+  },
+  {
+   "t": 81.33,
+   "from": "v06_s42 (split_broll)",
+   "to": "v06_s43 (title_cta)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: TV → logo sobre azul"
+  },
+  {
+   "t": 84.37,
+   "from": "v06_s43 (title_cta)",
+   "to": "v06_s43 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Fin del primer pase → el archivo vuelve a empezar (TV CRT + franja): bucle"
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.13,
+   "fx": "slide",
+   "detail": "Franja roja «GEMINI 4 THE NEW FRONTIER» entra desde la derecha (asoma a 0.13, a medio camino a 0.5, colocada a ≈0.9)"
+  },
+  {
+   "t": 1.2,
+   "fx": "resaltado",
+   "detail": "Resaltado azul claro sobre «Gemini 4 Argon» en el titular del blog, con aberración cromática"
+  },
+  {
+   "t": 2.6,
+   "fx": "pop (sustitución por corte)",
+   "detail": "Palabra grande única por palabra dicha; no se aprecia animación de entrada a 15 fps"
+  },
+  {
+   "t": 3.63,
+   "fx": "fundido",
+   "detail": "Texto legal gris «Available to AI Pro and Ultra users globally» sobre su pecho, visible 3.63–≈9.0 y luego se desvanece"
+  },
+  {
+   "t": 18.5,
+   "fx": "write-on por letra",
+   "detail": "Prompt tecleándose en la captura (también 27.0–33.0, 42.27–45.1 y 71.9–73.3)"
+  },
+  {
+   "t": 40.36,
+   "fx": "sustitución",
+   "detail": "El subtítulo muestra «@kallawaymarketing» mientras dice «Callaway marketing»: el subtítulo corrige/convierte en handle"
+  },
+  {
+   "t": 53.3,
+   "fx": "gris→azul",
+   "detail": "«understand» pasa de gris a azul en «Built to understand»"
+  },
+  {
+   "t": 60.2,
+   "fx": "máscara",
+   "detail": "Resaltado amarillo que barre «300 TiB of memory» de izquierda a derecha en ≈0,6 s"
+  },
+  {
+   "t": 66.0,
+   "fx": "máscara",
+   "detail": "Selección azul claro sobre «32K lines of SIMD code» con cursor; 70.3 «runs 2.7x faster»"
+  },
+  {
+   "t": 76.84,
+   "fx": "cambio de fuente",
+   "detail": "«new» y «frontier» en serif itálica (las demás palabras grandes del video van en sans)"
+  },
+  {
+   "t": 81.6,
+   "fx": "máscara",
+   "detail": "Logo «✦ Gemini 4 Argon»: sale la estrella y el texto se despliega hacia la derecha"
+  }
+ ],
+ "camera": [
+  {
+   "t": 1.07,
+   "move": "push-in lento",
+   "scale_or_dir": "captura del blog 1.0→1.15",
+   "dur_s": 1.5
+  },
+  {
+   "t": 2.6,
+   "move": "punch-in",
+   "scale_or_dir": "A-roll 1.0→≈2.0 por corte (no animado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 7.9,
+   "move": "slide",
+   "scale_or_dir": "cursor de mano sube hasta el botón y hace clic",
+   "dur_s": 0.5
+  },
+  {
+   "t": 14.53,
+   "move": "push-in lento",
+   "scale_or_dir": "zoom encadenado hoja → tejido → cloroplasto → tilacoides",
+   "dur_s": 4.0
+  },
+  {
+   "t": 22.63,
+   "move": "slide",
+   "scale_or_dir": "scroll escalonado del documento: 14 saltos de ~0,17 s",
+   "dur_s": 2.5
+  },
+  {
+   "t": 25.53,
+   "move": "slide",
+   "scale_or_dir": "scroll vertical del inicio de Gemini a la caja de prompt",
+   "dur_s": 1.2
+  },
+  {
+   "t": 27.0,
+   "move": "push-in lento",
+   "scale_or_dir": "caja de prompt 1.0→≈1.6 siguiendo la última línea",
+   "dur_s": 6.0
+  },
+  {
+   "t": 33.0,
+   "move": "pan",
+   "scale_or_dir": "paneo rápido al botón de enviar",
+   "dur_s": 0.3
+  },
+  {
+   "t": 39.9,
+   "move": "slide",
+   "scale_or_dir": "scroll rápido a saltos por el canal de YouTube",
+   "dur_s": 1.2
+  },
+  {
+   "t": 45.1,
+   "move": "slide",
+   "scale_or_dir": "scroll del dashboard inclinado en perspectiva",
+   "dur_s": 3.9
+  },
+  {
+   "t": 60.03,
+   "move": "punch-in",
+   "scale_or_dir": "texto del blog: de párrafo completo a frase «300 TiB»",
+   "dur_s": 0.4
+  },
+  {
+   "t": 65.63,
+   "move": "punch-in",
+   "scale_or_dir": "texto del blog: de párrafo a «32K lines of SIMD code»",
+   "dur_s": 0.35
+  },
+  {
+   "t": 69.77,
+   "move": "zoom-out",
+   "scale_or_dir": "zoom-out + paneo hasta «runs 2.7x faster»",
+   "dur_s": 0.8
+  }
+ ],
+ "rhythm": {
+  "events_per_10s": [
+   12,
+   7,
+   5,
+   6,
+   5,
+   6,
+   8,
+   6,
+   3
+  ],
+  "avg_hold_text_s": 0.6,
+  "notes": "derived (solo primer pase 0–84.37): 44 cortes principales → 1 cada 1,9 s, más micro-saltos de scroll (14 entre 22.63 y 25.10; ~8 entre 39.9 y 41.1). La mitad superior cambia cada 0,7–2,7 s salvo las demos de tecleo (27.0–33.0 = 6 s sin corte). Punch-in con palabra grande: 2.6, 11.2, 20.5, 25.1, 51.5, 75.9 (cada ~9 s hasta 25 s; ninguno durante la demo 25.5–51.5). Subtítulo pequeño: 1–3 palabras, ~0,6 s. IMPORTANTE: el archivo dura 168,8 s porque el reel está grabado dos veces seguidas; 84.37–168.81 repite 0–84.37 (mismos cortes desplazados +84,37 s). Sonido: desconocido."
+ },
+ "typography": "observed: subtítulo pequeño sans bold blanco tipo Inter (~30 px/720), 1–3 palabras; palabra grande sans bold blanca ~62 px con glow, solo «new frontier» en serif itálica; franja roja con sans extendida ultra pesada en MAYÚSCULAS, naranja + crema; texto legal en sans regular gris translúcido. Resto de tipografía pertenece a las capturas (Google Sans en el blog y la interfaz). Nombres exactos: desconocidos.",
+ "textures": "observed: sin grano ni papel. Glitch RGB/aberración cromática en la captura del hook (0.87–2.6); glow en palabras grandes; perspectiva 3D aplicada a la captura del dashboard (45.1–46.6); resaltado amarillo marcador y selección azul sobre texto de blog; curvatura CRT en los clips del televisor.",
+ "distinct": [
+  "Es un video patrocinado/demostración de producto: 14 de 43 escenas son grabación de pantalla (prompt tecleándose, clic en enviar, resultado) y lleva texto legal «Available to AI Pro and Ultra users globally» sobre el pecho de 3.6 a 9 s",
+  "La franja roja del hook SÍ existe aquí (rojo oscuro, naranja + crema, slide desde la derecha, 2,6 s) y hay un glitch de 3 fotogramas entre el TV y el blog",
+  "Demo en 4 tiempos repetida dos veces: pantalla vacía → prompt tecleado (plano de 6 s sin corte) → clic ampliado → resultado en 3 planos (wireframe, sólido, detalle)",
+  "Datos duros con fuente: zoom a la frase exacta del blog con resaltado amarillo barrido (60.0) o selección azul con cursor (65.6, 69.9), precedidos por cara con subtítulo pequeño",
+  "Motivo circular: el televisor CRT abre (0.0) y cierra (78.3) el video; el archivo de referencia contiene el reel dos veces (bucle a 84.37)"
+ ]
+}

@@ -1,0 +1,3081 @@
+{
+  "video": "v02.mp4",
+  "duration": 87.12,
+  "derived": {
+    "shots": 32,
+    "avg_shot_len": 2.72,
+    "cuts_per_min": 22.0,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      1,
+      3,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "You",
+      "start": 0.0,
+      "end": 0.12
+    },
+    {
+      "w": "can",
+      "start": 0.12,
+      "end": 0.24
+    },
+    {
+      "w": "now",
+      "start": 0.24,
+      "end": 0.34
+    },
+    {
+      "w": "run",
+      "start": 0.34,
+      "end": 0.54
+    },
+    {
+      "w": "agentic",
+      "start": 0.54,
+      "end": 1.18
+    },
+    {
+      "w": "workflows",
+      "start": 1.18,
+      "end": 1.54
+    },
+    {
+      "w": "straight",
+      "start": 1.54,
+      "end": 2.06
+    },
+    {
+      "w": "from",
+      "start": 2.06,
+      "end": 2.34
+    },
+    {
+      "w": "the",
+      "start": 2.34,
+      "end": 2.46
+    },
+    {
+      "w": "main",
+      "start": 2.46,
+      "end": 2.7
+    },
+    {
+      "w": "chat",
+      "start": 2.7,
+      "end": 3.0
+    },
+    {
+      "w": "in",
+      "start": 3.0,
+      "end": 3.26
+    },
+    {
+      "w": "Gemini",
+      "start": 3.26,
+      "end": 3.6
+    },
+    {
+      "w": "with",
+      "start": 3.6,
+      "end": 3.96
+    },
+    {
+      "w": "tasks.",
+      "start": 3.96,
+      "end": 4.34
+    },
+    {
+      "w": "If",
+      "start": 4.6,
+      "end": 4.68
+    },
+    {
+      "w": "you",
+      "start": 4.68,
+      "end": 4.78
+    },
+    {
+      "w": "use",
+      "start": 4.78,
+      "end": 4.96
+    },
+    {
+      "w": "any",
+      "start": 4.96,
+      "end": 5.22
+    },
+    {
+      "w": "Google",
+      "start": 5.22,
+      "end": 5.44
+    },
+    {
+      "w": "product,",
+      "start": 5.44,
+      "end": 5.84
+    },
+    {
+      "w": "this",
+      "start": 6.0,
+      "end": 6.1
+    },
+    {
+      "w": "is",
+      "start": 6.1,
+      "end": 6.2
+    },
+    {
+      "w": "now",
+      "start": 6.2,
+      "end": 6.36
+    },
+    {
+      "w": "the",
+      "start": 6.36,
+      "end": 6.52
+    },
+    {
+      "w": "easiest",
+      "start": 6.52,
+      "end": 6.86
+    },
+    {
+      "w": "way",
+      "start": 6.86,
+      "end": 7.2
+    },
+    {
+      "w": "to",
+      "start": 7.2,
+      "end": 7.44
+    },
+    {
+      "w": "get",
+      "start": 7.44,
+      "end": 7.62
+    },
+    {
+      "w": "way",
+      "start": 7.62,
+      "end": 7.98
+    },
+    {
+      "w": "more",
+      "start": 7.98,
+      "end": 8.18
+    },
+    {
+      "w": "work",
+      "start": 8.18,
+      "end": 8.44
+    },
+    {
+      "w": "done.",
+      "start": 8.44,
+      "end": 8.68
+    },
+    {
+      "w": "Think",
+      "start": 8.8,
+      "end": 8.88
+    },
+    {
+      "w": "of",
+      "start": 8.88,
+      "end": 9.0
+    },
+    {
+      "w": "tasks",
+      "start": 9.0,
+      "end": 9.3
+    },
+    {
+      "w": "in",
+      "start": 9.3,
+      "end": 9.5
+    },
+    {
+      "w": "Gemini",
+      "start": 9.5,
+      "end": 9.86
+    },
+    {
+      "w": "like",
+      "start": 9.86,
+      "end": 10.14
+    },
+    {
+      "w": "a",
+      "start": 10.14,
+      "end": 10.28
+    },
+    {
+      "w": "digital",
+      "start": 10.28,
+      "end": 10.6
+    },
+    {
+      "w": "assistant",
+      "start": 10.6,
+      "end": 11.12
+    },
+    {
+      "w": "that",
+      "start": 11.12,
+      "end": 11.34
+    },
+    {
+      "w": "can",
+      "start": 11.34,
+      "end": 11.46
+    },
+    {
+      "w": "work",
+      "start": 11.46,
+      "end": 11.64
+    },
+    {
+      "w": "24",
+      "start": 11.64,
+      "end": 12.02
+    },
+    {
+      "w": "-7",
+      "start": 12.02,
+      "end": 12.46
+    },
+    {
+      "w": "in",
+      "start": 12.46,
+      "end": 12.8
+    },
+    {
+      "w": "the",
+      "start": 12.8,
+      "end": 12.9
+    },
+    {
+      "w": "background,",
+      "start": 12.9,
+      "end": 13.24
+    },
+    {
+      "w": "and",
+      "start": 13.46,
+      "end": 13.54
+    },
+    {
+      "w": "now",
+      "start": 13.54,
+      "end": 13.78
+    },
+    {
+      "w": "more",
+      "start": 13.78,
+      "end": 14.04
+    },
+    {
+      "w": "easily",
+      "start": 14.04,
+      "end": 14.48
+    },
+    {
+      "w": "accessible",
+      "start": 14.48,
+      "end": 14.96
+    },
+    {
+      "w": "directly",
+      "start": 14.96,
+      "end": 15.4
+    },
+    {
+      "w": "in",
+      "start": 15.4,
+      "end": 15.8
+    },
+    {
+      "w": "the",
+      "start": 15.8,
+      "end": 15.88
+    },
+    {
+      "w": "main",
+      "start": 15.88,
+      "end": 16.04
+    },
+    {
+      "w": "chat.",
+      "start": 16.04,
+      "end": 16.34
+    },
+    {
+      "w": "All",
+      "start": 16.52,
+      "end": 16.62
+    },
+    {
+      "w": "you",
+      "start": 16.62,
+      "end": 16.72
+    },
+    {
+      "w": "have",
+      "start": 16.72,
+      "end": 16.82
+    },
+    {
+      "w": "to",
+      "start": 16.82,
+      "end": 16.82
+    },
+    {
+      "w": "do",
+      "start": 16.82,
+      "end": 16.92
+    },
+    {
+      "w": "is",
+      "start": 16.92,
+      "end": 17.04
+    },
+    {
+      "w": "flip",
+      "start": 17.04,
+      "end": 17.22
+    },
+    {
+      "w": "from",
+      "start": 17.22,
+      "end": 17.46
+    },
+    {
+      "w": "chat",
+      "start": 17.46,
+      "end": 17.84
+    },
+    {
+      "w": "to",
+      "start": 17.84,
+      "end": 18.08
+    },
+    {
+      "w": "tasks",
+      "start": 18.08,
+      "end": 18.54
+    },
+    {
+      "w": "and",
+      "start": 18.54,
+      "end": 18.8
+    },
+    {
+      "w": "tell",
+      "start": 18.8,
+      "end": 19.0
+    },
+    {
+      "w": "Gemini",
+      "start": 19.0,
+      "end": 19.38
+    },
+    {
+      "w": "what",
+      "start": 19.38,
+      "end": 19.64
+    },
+    {
+      "w": "you",
+      "start": 19.64,
+      "end": 19.82
+    },
+    {
+      "w": "need",
+      "start": 19.82,
+      "end": 19.94
+    },
+    {
+      "w": "done.",
+      "start": 19.94,
+      "end": 20.18
+    },
+    {
+      "w": "So",
+      "start": 20.34,
+      "end": 20.42
+    },
+    {
+      "w": "for",
+      "start": 20.42,
+      "end": 20.52
+    },
+    {
+      "w": "example,",
+      "start": 20.52,
+      "end": 20.76
+    },
+    {
+      "w": "I",
+      "start": 20.92,
+      "end": 21.04
+    },
+    {
+      "w": "just",
+      "start": 21.04,
+      "end": 21.2
+    },
+    {
+      "w": "wrote",
+      "start": 21.2,
+      "end": 21.36
+    },
+    {
+      "w": "every",
+      "start": 21.36,
+      "end": 21.7
+    },
+    {
+      "w": "six",
+      "start": 21.7,
+      "end": 21.98
+    },
+    {
+      "w": "months,",
+      "start": 21.98,
+      "end": 22.2
+    },
+    {
+      "w": "go",
+      "start": 22.38,
+      "end": 22.56
+    },
+    {
+      "w": "into",
+      "start": 22.56,
+      "end": 22.72
+    },
+    {
+      "w": "my",
+      "start": 22.72,
+      "end": 22.86
+    },
+    {
+      "w": "Gmail",
+      "start": 22.86,
+      "end": 23.16
+    },
+    {
+      "w": "and",
+      "start": 23.16,
+      "end": 23.42
+    },
+    {
+      "w": "build",
+      "start": 23.42,
+      "end": 23.66
+    },
+    {
+      "w": "a",
+      "start": 23.66,
+      "end": 23.86
+    },
+    {
+      "w": "spreadsheet",
+      "start": 23.86,
+      "end": 24.32
+    },
+    {
+      "w": "that",
+      "start": 24.32,
+      "end": 24.62
+    },
+    {
+      "w": "allows",
+      "start": 24.62,
+      "end": 24.9
+    },
+    {
+      "w": "me",
+      "start": 24.9,
+      "end": 25.08
+    },
+    {
+      "w": "to",
+      "start": 25.08,
+      "end": 25.2
+    },
+    {
+      "w": "decide",
+      "start": 25.2,
+      "end": 25.52
+    },
+    {
+      "w": "how",
+      "start": 25.52,
+      "end": 25.88
+    },
+    {
+      "w": "much",
+      "start": 25.88,
+      "end": 26.14
+    },
+    {
+      "w": "budget",
+      "start": 26.14,
+      "end": 26.56
+    },
+    {
+      "w": "I",
+      "start": 26.56,
+      "end": 26.84
+    },
+    {
+      "w": "should",
+      "start": 26.84,
+      "end": 26.96
+    },
+    {
+      "w": "allocate",
+      "start": 26.96,
+      "end": 27.4
+    },
+    {
+      "w": "to",
+      "start": 27.4,
+      "end": 27.62
+    },
+    {
+      "w": "my",
+      "start": 27.62,
+      "end": 27.74
+    },
+    {
+      "w": "subscriptions",
+      "start": 27.74,
+      "end": 28.12
+    },
+    {
+      "w": "moving",
+      "start": 28.12,
+      "end": 28.48
+    },
+    {
+      "w": "forward.",
+      "start": 28.48,
+      "end": 28.84
+    },
+    {
+      "w": "Just",
+      "start": 28.84,
+      "end": 29.06
+    },
+    {
+      "w": "like",
+      "start": 29.06,
+      "end": 29.22
+    },
+    {
+      "w": "that,",
+      "start": 29.22,
+      "end": 29.42
+    },
+    {
+      "w": "tasks",
+      "start": 29.62,
+      "end": 29.76
+    },
+    {
+      "w": "were",
+      "start": 29.76,
+      "end": 29.98
+    },
+    {
+      "w": "launched",
+      "start": 29.98,
+      "end": 30.3
+    },
+    {
+      "w": "and",
+      "start": 30.3,
+      "end": 30.52
+    },
+    {
+      "w": "Gemini's",
+      "start": 30.52,
+      "end": 31.0
+    },
+    {
+      "w": "already",
+      "start": 31.0,
+      "end": 31.32
+    },
+    {
+      "w": "working",
+      "start": 31.32,
+      "end": 31.66
+    },
+    {
+      "w": "so",
+      "start": 31.66,
+      "end": 31.92
+    },
+    {
+      "w": "I",
+      "start": 31.92,
+      "end": 32.08
+    },
+    {
+      "w": "can",
+      "start": 32.08,
+      "end": 32.18
+    },
+    {
+      "w": "save",
+      "start": 32.18,
+      "end": 32.38
+    },
+    {
+      "w": "money.",
+      "start": 32.38,
+      "end": 32.62
+    },
+    {
+      "w": "And",
+      "start": 32.72,
+      "end": 32.8
+    },
+    {
+      "w": "the",
+      "start": 32.8,
+      "end": 32.86
+    },
+    {
+      "w": "cool",
+      "start": 32.86,
+      "end": 32.94
+    },
+    {
+      "w": "part",
+      "start": 32.94,
+      "end": 33.06
+    },
+    {
+      "w": "is",
+      "start": 33.06,
+      "end": 33.22
+    },
+    {
+      "w": "it'll",
+      "start": 33.22,
+      "end": 33.46
+    },
+    {
+      "w": "keep",
+      "start": 33.46,
+      "end": 33.68
+    },
+    {
+      "w": "going",
+      "start": 33.68,
+      "end": 33.94
+    },
+    {
+      "w": "on",
+      "start": 33.94,
+      "end": 34.16
+    },
+    {
+      "w": "its",
+      "start": 34.16,
+      "end": 34.26
+    },
+    {
+      "w": "own",
+      "start": 34.26,
+      "end": 34.62
+    },
+    {
+      "w": "cloud",
+      "start": 34.62,
+      "end": 34.88
+    },
+    {
+      "w": "computer,",
+      "start": 34.88,
+      "end": 35.36
+    },
+    {
+      "w": "even",
+      "start": 35.48,
+      "end": 35.66
+    },
+    {
+      "w": "if",
+      "start": 35.66,
+      "end": 35.78
+    },
+    {
+      "w": "I",
+      "start": 35.78,
+      "end": 35.84
+    },
+    {
+      "w": "walk",
+      "start": 35.84,
+      "end": 36.08
+    },
+    {
+      "w": "away",
+      "start": 36.08,
+      "end": 36.38
+    },
+    {
+      "w": "from",
+      "start": 36.38,
+      "end": 36.6
+    },
+    {
+      "w": "my",
+      "start": 36.6,
+      "end": 36.74
+    },
+    {
+      "w": "phone",
+      "start": 36.74,
+      "end": 37.06
+    },
+    {
+      "w": "or",
+      "start": 37.06,
+      "end": 37.26
+    },
+    {
+      "w": "laptop.",
+      "start": 37.26,
+      "end": 37.58
+    },
+    {
+      "w": "Now",
+      "start": 37.82,
+      "end": 37.86
+    },
+    {
+      "w": "the",
+      "start": 37.86,
+      "end": 37.92
+    },
+    {
+      "w": "reason",
+      "start": 37.92,
+      "end": 38.12
+    },
+    {
+      "w": "tasks",
+      "start": 38.12,
+      "end": 38.38
+    },
+    {
+      "w": "is",
+      "start": 38.38,
+      "end": 38.62
+    },
+    {
+      "w": "so",
+      "start": 38.62,
+      "end": 38.74
+    },
+    {
+      "w": "powerful",
+      "start": 38.74,
+      "end": 39.12
+    },
+    {
+      "w": "is",
+      "start": 39.12,
+      "end": 39.42
+    },
+    {
+      "w": "because",
+      "start": 39.42,
+      "end": 39.58
+    },
+    {
+      "w": "of",
+      "start": 39.58,
+      "end": 39.74
+    },
+    {
+      "w": "all",
+      "start": 39.74,
+      "end": 39.94
+    },
+    {
+      "w": "the",
+      "start": 39.94,
+      "end": 40.1
+    },
+    {
+      "w": "connected",
+      "start": 40.1,
+      "end": 40.52
+    },
+    {
+      "w": "apps",
+      "start": 40.52,
+      "end": 41.0
+    },
+    {
+      "w": "it",
+      "start": 41.0,
+      "end": 41.3
+    },
+    {
+      "w": "has",
+      "start": 41.3,
+      "end": 41.46
+    },
+    {
+      "w": "access",
+      "start": 41.46,
+      "end": 41.76
+    },
+    {
+      "w": "to.",
+      "start": 41.76,
+      "end": 42.02
+    },
+    {
+      "w": "From",
+      "start": 42.18,
+      "end": 42.2
+    },
+    {
+      "w": "things",
+      "start": 42.2,
+      "end": 42.36
+    },
+    {
+      "w": "like",
+      "start": 42.36,
+      "end": 42.56
+    },
+    {
+      "w": "Instacart",
+      "start": 42.56,
+      "end": 43.08
+    },
+    {
+      "w": "and",
+      "start": 43.08,
+      "end": 43.24
+    },
+    {
+      "w": "OpenTable",
+      "start": 43.24,
+      "end": 43.84
+    },
+    {
+      "w": "to",
+      "start": 43.84,
+      "end": 44.06
+    },
+    {
+      "w": "Gemini's",
+      "start": 44.06,
+      "end": 44.5
+    },
+    {
+      "w": "most",
+      "start": 44.5,
+      "end": 44.7
+    },
+    {
+      "w": "direct",
+      "start": 44.7,
+      "end": 45.08
+    },
+    {
+      "w": "interactions",
+      "start": 45.08,
+      "end": 45.7
+    },
+    {
+      "w": "like",
+      "start": 45.7,
+      "end": 46.04
+    },
+    {
+      "w": "Gmail,",
+      "start": 46.04,
+      "end": 46.32
+    },
+    {
+      "w": "Docs,",
+      "start": 46.7,
+      "end": 47.06
+    },
+    {
+      "w": "Calendar",
+      "start": 47.14,
+      "end": 47.4
+    },
+    {
+      "w": "and",
+      "start": 47.4,
+      "end": 47.76
+    },
+    {
+      "w": "Drive.",
+      "start": 47.76,
+      "end": 48.04
+    },
+    {
+      "w": "Task",
+      "start": 48.3,
+      "end": 48.44
+    },
+    {
+      "w": "has",
+      "start": 48.44,
+      "end": 48.78
+    },
+    {
+      "w": "the",
+      "start": 48.78,
+      "end": 48.96
+    },
+    {
+      "w": "smoothest",
+      "start": 48.96,
+      "end": 49.4
+    },
+    {
+      "w": "possible",
+      "start": 49.4,
+      "end": 49.64
+    },
+    {
+      "w": "connection",
+      "start": 49.64,
+      "end": 50.12
+    },
+    {
+      "w": "to",
+      "start": 50.12,
+      "end": 50.44
+    },
+    {
+      "w": "all",
+      "start": 50.44,
+      "end": 50.62
+    },
+    {
+      "w": "of",
+      "start": 50.62,
+      "end": 50.72
+    },
+    {
+      "w": "those",
+      "start": 50.72,
+      "end": 50.84
+    },
+    {
+      "w": "products.",
+      "start": 50.84,
+      "end": 51.22
+    },
+    {
+      "w": "This",
+      "start": 51.4,
+      "end": 51.52
+    },
+    {
+      "w": "means",
+      "start": 51.52,
+      "end": 51.68
+    },
+    {
+      "w": "if",
+      "start": 51.68,
+      "end": 51.82
+    },
+    {
+      "w": "you",
+      "start": 51.82,
+      "end": 51.94
+    },
+    {
+      "w": "use",
+      "start": 51.94,
+      "end": 52.1
+    },
+    {
+      "w": "Google",
+      "start": 52.1,
+      "end": 52.26
+    },
+    {
+      "w": "Workspace",
+      "start": 52.26,
+      "end": 52.66
+    },
+    {
+      "w": "to",
+      "start": 52.66,
+      "end": 52.94
+    },
+    {
+      "w": "run",
+      "start": 52.94,
+      "end": 53.16
+    },
+    {
+      "w": "your",
+      "start": 53.16,
+      "end": 53.32
+    },
+    {
+      "w": "life",
+      "start": 53.32,
+      "end": 53.54
+    },
+    {
+      "w": "for",
+      "start": 53.54,
+      "end": 53.64
+    },
+    {
+      "w": "business,",
+      "start": 53.64,
+      "end": 53.94
+    },
+    {
+      "w": "tasks",
+      "start": 54.22,
+      "end": 54.58
+    },
+    {
+      "w": "will",
+      "start": 54.58,
+      "end": 54.82
+    },
+    {
+      "w": "be",
+      "start": 54.82,
+      "end": 54.92
+    },
+    {
+      "w": "the",
+      "start": 54.92,
+      "end": 55.06
+    },
+    {
+      "w": "easiest",
+      "start": 55.06,
+      "end": 55.32
+    },
+    {
+      "w": "way",
+      "start": 55.32,
+      "end": 55.66
+    },
+    {
+      "w": "to",
+      "start": 55.66,
+      "end": 55.88
+    },
+    {
+      "w": "build",
+      "start": 55.88,
+      "end": 56.16
+    },
+    {
+      "w": "out",
+      "start": 56.16,
+      "end": 56.34
+    },
+    {
+      "w": "proactive",
+      "start": 56.34,
+      "end": 56.68
+    },
+    {
+      "w": "workflows.",
+      "start": 56.68,
+      "end": 57.22
+    },
+    {
+      "w": "And",
+      "start": 57.22,
+      "end": 57.58
+    },
+    {
+      "w": "for",
+      "start": 57.58,
+      "end": 57.68
+    },
+    {
+      "w": "a",
+      "start": 57.68,
+      "end": 57.76
+    },
+    {
+      "w": "second",
+      "start": 57.76,
+      "end": 57.88
+    },
+    {
+      "w": "example,",
+      "start": 57.88,
+      "end": 58.26
+    },
+    {
+      "w": "I",
+      "start": 58.52,
+      "end": 58.58
+    },
+    {
+      "w": "wanted",
+      "start": 58.58,
+      "end": 58.74
+    },
+    {
+      "w": "tasks",
+      "start": 58.74,
+      "end": 59.02
+    },
+    {
+      "w": "to",
+      "start": 59.02,
+      "end": 59.26
+    },
+    {
+      "w": "build",
+      "start": 59.26,
+      "end": 59.44
+    },
+    {
+      "w": "out",
+      "start": 59.44,
+      "end": 59.6
+    },
+    {
+      "w": "a",
+      "start": 59.6,
+      "end": 59.84
+    },
+    {
+      "w": "family",
+      "start": 59.84,
+      "end": 60.26
+    },
+    {
+      "w": "events",
+      "start": 60.26,
+      "end": 60.68
+    },
+    {
+      "w": "calendar",
+      "start": 60.68,
+      "end": 61.24
+    },
+    {
+      "w": "for",
+      "start": 61.24,
+      "end": 61.6
+    },
+    {
+      "w": "my",
+      "start": 61.6,
+      "end": 61.78
+    },
+    {
+      "w": "local",
+      "start": 61.78,
+      "end": 62.02
+    },
+    {
+      "w": "neighborhood",
+      "start": 62.02,
+      "end": 62.42
+    },
+    {
+      "w": "in",
+      "start": 62.42,
+      "end": 62.68
+    },
+    {
+      "w": "Brooklyn.",
+      "start": 62.68,
+      "end": 62.9
+    },
+    {
+      "w": "So",
+      "start": 63.1,
+      "end": 63.16
+    },
+    {
+      "w": "I",
+      "start": 63.16,
+      "end": 63.24
+    },
+    {
+      "w": "just",
+      "start": 63.24,
+      "end": 63.4
+    },
+    {
+      "w": "asked",
+      "start": 63.4,
+      "end": 63.66
+    },
+    {
+      "w": "it,",
+      "start": 63.66,
+      "end": 63.8
+    },
+    {
+      "w": "search",
+      "start": 63.96,
+      "end": 64.08
+    },
+    {
+      "w": "for",
+      "start": 64.08,
+      "end": 64.3
+    },
+    {
+      "w": "all",
+      "start": 64.3,
+      "end": 64.52
+    },
+    {
+      "w": "the",
+      "start": 64.52,
+      "end": 64.64
+    },
+    {
+      "w": "local",
+      "start": 64.64,
+      "end": 64.9
+    },
+    {
+      "w": "events,",
+      "start": 64.9,
+      "end": 65.26
+    },
+    {
+      "w": "farmers,",
+      "start": 65.44,
+      "end": 65.74
+    },
+    {
+      "w": "markets",
+      "start": 65.88,
+      "end": 66.1
+    },
+    {
+      "w": "and",
+      "start": 66.1,
+      "end": 66.38
+    },
+    {
+      "w": "concerts",
+      "start": 66.38,
+      "end": 66.8
+    },
+    {
+      "w": "happening",
+      "start": 66.8,
+      "end": 67.28
+    },
+    {
+      "w": "in",
+      "start": 67.28,
+      "end": 67.56
+    },
+    {
+      "w": "my",
+      "start": 67.56,
+      "end": 67.7
+    },
+    {
+      "w": "neighborhood,",
+      "start": 67.7,
+      "end": 68.04
+    },
+    {
+      "w": "build",
+      "start": 68.24,
+      "end": 68.34
+    },
+    {
+      "w": "a",
+      "start": 68.34,
+      "end": 68.44
+    },
+    {
+      "w": "Google",
+      "start": 68.44,
+      "end": 68.58
+    },
+    {
+      "w": "sheet",
+      "start": 68.58,
+      "end": 68.8
+    },
+    {
+      "w": "with",
+      "start": 68.8,
+      "end": 69.02
+    },
+    {
+      "w": "links",
+      "start": 69.02,
+      "end": 69.32
+    },
+    {
+      "w": "for",
+      "start": 69.32,
+      "end": 69.54
+    },
+    {
+      "w": "each",
+      "start": 69.54,
+      "end": 69.8
+    },
+    {
+      "w": "and",
+      "start": 69.8,
+      "end": 70.1
+    },
+    {
+      "w": "send",
+      "start": 70.1,
+      "end": 70.3
+    },
+    {
+      "w": "me",
+      "start": 70.3,
+      "end": 70.46
+    },
+    {
+      "w": "updates",
+      "start": 70.46,
+      "end": 70.82
+    },
+    {
+      "w": "anytime",
+      "start": 70.82,
+      "end": 71.3
+    },
+    {
+      "w": "new",
+      "start": 71.3,
+      "end": 71.58
+    },
+    {
+      "w": "things",
+      "start": 71.58,
+      "end": 71.82
+    },
+    {
+      "w": "are",
+      "start": 71.82,
+      "end": 71.96
+    },
+    {
+      "w": "announced.",
+      "start": 71.96,
+      "end": 72.22
+    },
+    {
+      "w": "Because",
+      "start": 72.42,
+      "end": 72.6
+    },
+    {
+      "w": "tasks",
+      "start": 72.6,
+      "end": 72.96
+    },
+    {
+      "w": "in",
+      "start": 72.96,
+      "end": 73.24
+    },
+    {
+      "w": "Gemini",
+      "start": 73.24,
+      "end": 73.52
+    },
+    {
+      "w": "runs",
+      "start": 73.52,
+      "end": 73.88
+    },
+    {
+      "w": "continuous",
+      "start": 73.88,
+      "end": 74.44
+    },
+    {
+      "w": "actions",
+      "start": 74.44,
+      "end": 74.92
+    },
+    {
+      "w": "for",
+      "start": 74.92,
+      "end": 75.22
+    },
+    {
+      "w": "me,",
+      "start": 75.22,
+      "end": 75.4
+    },
+    {
+      "w": "I",
+      "start": 75.58,
+      "end": 75.62
+    },
+    {
+      "w": "never",
+      "start": 75.62,
+      "end": 75.8
+    },
+    {
+      "w": "miss",
+      "start": 75.8,
+      "end": 75.98
+    },
+    {
+      "w": "a",
+      "start": 75.98,
+      "end": 76.08
+    },
+    {
+      "w": "thing.",
+      "start": 76.08,
+      "end": 76.24
+    },
+    {
+      "w": "With",
+      "start": 76.44,
+      "end": 76.54
+    },
+    {
+      "w": "tasks,",
+      "start": 76.54,
+      "end": 76.78
+    },
+    {
+      "w": "Gemini",
+      "start": 76.96,
+      "end": 77.14
+    },
+    {
+      "w": "is",
+      "start": 77.14,
+      "end": 77.28
+    },
+    {
+      "w": "now",
+      "start": 77.28,
+      "end": 77.42
+    },
+    {
+      "w": "shifting",
+      "start": 77.42,
+      "end": 77.7
+    },
+    {
+      "w": "from",
+      "start": 77.7,
+      "end": 78.0
+    },
+    {
+      "w": "sharing",
+      "start": 78.0,
+      "end": 78.4
+    },
+    {
+      "w": "knowledge",
+      "start": 78.4,
+      "end": 78.74
+    },
+    {
+      "w": "with",
+      "start": 78.74,
+      "end": 79.02
+    },
+    {
+      "w": "you",
+      "start": 79.02,
+      "end": 79.26
+    },
+    {
+      "w": "to",
+      "start": 79.26,
+      "end": 79.54
+    },
+    {
+      "w": "helping",
+      "start": 79.54,
+      "end": 79.8
+    },
+    {
+      "w": "you",
+      "start": 79.8,
+      "end": 80.0
+    },
+    {
+      "w": "get",
+      "start": 80.0,
+      "end": 80.2
+    },
+    {
+      "w": "more",
+      "start": 80.2,
+      "end": 80.38
+    },
+    {
+      "w": "done,",
+      "start": 80.38,
+      "end": 80.64
+    },
+    {
+      "w": "which",
+      "start": 80.7,
+      "end": 80.88
+    },
+    {
+      "w": "makes",
+      "start": 80.88,
+      "end": 81.06
+    },
+    {
+      "w": "it",
+      "start": 81.06,
+      "end": 81.18
+    },
+    {
+      "w": "dramatically",
+      "start": 81.18,
+      "end": 81.7
+    },
+    {
+      "w": "more",
+      "start": 81.7,
+      "end": 81.98
+    },
+    {
+      "w": "impactful",
+      "start": 81.98,
+      "end": 82.44
+    },
+    {
+      "w": "for",
+      "start": 82.44,
+      "end": 82.86
+    },
+    {
+      "w": "your",
+      "start": 82.86,
+      "end": 83.0
+    },
+    {
+      "w": "everyday",
+      "start": 83.0,
+      "end": 83.28
+    },
+    {
+      "w": "life.",
+      "start": 83.28,
+      "end": 83.64
+    },
+    {
+      "w": "If",
+      "start": 83.76,
+      "end": 83.86
+    },
+    {
+      "w": "you",
+      "start": 83.86,
+      "end": 83.92
+    },
+    {
+      "w": "want",
+      "start": 83.92,
+      "end": 84.0
+    },
+    {
+      "w": "to",
+      "start": 84.0,
+      "end": 84.04
+    },
+    {
+      "w": "try",
+      "start": 84.04,
+      "end": 84.18
+    },
+    {
+      "w": "it",
+      "start": 84.18,
+      "end": 84.24
+    },
+    {
+      "w": "out,",
+      "start": 84.24,
+      "end": 84.38
+    },
+    {
+      "w": "tasks",
+      "start": 84.58,
+      "end": 84.76
+    },
+    {
+      "w": "is",
+      "start": 84.76,
+      "end": 85.0
+    },
+    {
+      "w": "now",
+      "start": 85.0,
+      "end": 85.18
+    },
+    {
+      "w": "available",
+      "start": 85.18,
+      "end": 85.5
+    },
+    {
+      "w": "free",
+      "start": 85.5,
+      "end": 85.9
+    },
+    {
+      "w": "to",
+      "start": 85.9,
+      "end": 86.28
+    },
+    {
+      "w": "all",
+      "start": 86.28,
+      "end": 86.48
+    },
+    {
+      "w": "users.",
+      "start": 86.48,
+      "end": 86.8
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.547,
+      "length": 4.547,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#12172A",
+            "share": 0.346
+          },
+          {
+            "hex": "#0D0B0E",
+            "share": 0.324
+          },
+          {
+            "hex": "#282A36",
+            "share": 0.057
+          },
+          {
+            "hex": "#272E46",
+            "share": 0.049
+          },
+          {
+            "hex": "#1B2236",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 13.37,
+        "script": "You can now run agentic workflows straight from the main chat in Gemini with tasks."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 4.547,
+      "end": 7.675,
+      "length": 3.128,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0F13",
+            "share": 0.54
+          },
+          {
+            "hex": "#111723",
+            "share": 0.262
+          },
+          {
+            "hex": "#2D2A2E",
+            "share": 0.026
+          },
+          {
+            "hex": "#88776D",
+            "share": 0.021
+          },
+          {
+            "hex": "#261A18",
+            "share": 0.011
+          }
+        ],
+        "motion_energy": 25.31,
+        "script": "If you use any Google product, this is now the easiest way to get way"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 7.675,
+      "end": 8.759,
+      "length": 1.085,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0B0A0B",
+            "share": 0.683
+          },
+          {
+            "hex": "#AE7247",
+            "share": 0.048
+          },
+          {
+            "hex": "#4D3228",
+            "share": 0.022
+          },
+          {
+            "hex": "#271A18",
+            "share": 0.022
+          },
+          {
+            "hex": "#714932",
+            "share": 0.019
+          }
+        ],
+        "motion_energy": 7.47,
+        "script": "more work done."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 8.759,
+      "end": 11.93,
+      "length": 3.17,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#060506",
+            "share": 0.742
+          },
+          {
+            "hex": "#2F2B2B",
+            "share": 0.04
+          },
+          {
+            "hex": "#4F4D4C",
+            "share": 0.027
+          },
+          {
+            "hex": "#88776D",
+            "share": 0.022
+          },
+          {
+            "hex": "#161828",
+            "share": 0.016
+          }
+        ],
+        "motion_energy": 19.57,
+        "script": "Think of tasks in Gemini like a digital assistant that can work 24"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 11.93,
+      "end": 13.389,
+      "length": 1.46,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F8F3F1",
+            "share": 0.428
+          },
+          {
+            "hex": "#0D0B0D",
+            "share": 0.29
+          },
+          {
+            "hex": "#302B2C",
+            "share": 0.025
+          },
+          {
+            "hex": "#D4CFCC",
+            "share": 0.024
+          },
+          {
+            "hex": "#88776D",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 10.78,
+        "script": "-7 in the background,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 13.389,
+      "end": 16.476,
+      "length": 3.087,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0B0F",
+            "share": 0.379
+          },
+          {
+            "hex": "#14132B",
+            "share": 0.242
+          },
+          {
+            "hex": "#1B194D",
+            "share": 0.062
+          },
+          {
+            "hex": "#232263",
+            "share": 0.043
+          },
+          {
+            "hex": "#201E5A",
+            "share": 0.038
+          }
+        ],
+        "motion_energy": 14.86,
+        "script": "and now more easily accessible directly in the main chat."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 16.476,
+      "end": 18.687,
+      "length": 2.211,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0E",
+            "share": 0.318
+          },
+          {
+            "hex": "#101428",
+            "share": 0.314
+          },
+          {
+            "hex": "#111C45",
+            "share": 0.165
+          },
+          {
+            "hex": "#2F2A2C",
+            "share": 0.023
+          },
+          {
+            "hex": "#88776D",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 13.17,
+        "script": "All you have to do is flip from chat to tasks and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 18.687,
+      "end": 20.314,
+      "length": 1.627,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0D",
+            "share": 0.304
+          },
+          {
+            "hex": "#E7E9F4",
+            "share": 0.256
+          },
+          {
+            "hex": "#A9B7FA",
+            "share": 0.072
+          },
+          {
+            "hex": "#CFD5F4",
+            "share": 0.061
+          },
+          {
+            "hex": "#B9C4F8",
+            "share": 0.042
+          }
+        ],
+        "motion_energy": 5.99,
+        "script": "tell Gemini what you need done."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 20.314,
+      "end": 29.49,
+      "length": 9.177,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#151517",
+            "share": 0.478
+          },
+          {
+            "hex": "#2B2F2B",
+            "share": 0.24
+          },
+          {
+            "hex": "#100F2A",
+            "share": 0.111
+          },
+          {
+            "hex": "#6F6F6E",
+            "share": 0.023
+          },
+          {
+            "hex": "#4F4F4D",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 27.27,
+        "script": "So for example, I just wrote every six months, go into my Gmail and build a spreadsheet that allows me to decide how much budget I should allocate to my subscriptions moving forward. Just like that,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 29.49,
+      "end": 32.702,
+      "length": 3.212,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FAFAFB",
+            "share": 0.39
+          },
+          {
+            "hex": "#0C0B0E",
+            "share": 0.336
+          },
+          {
+            "hex": "#CECFD0",
+            "share": 0.026
+          },
+          {
+            "hex": "#302A2B",
+            "share": 0.023
+          },
+          {
+            "hex": "#141827",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 19.17,
+        "script": "tasks were launched and Gemini's already working so I can save money."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 10,
+      "start": 32.702,
+      "end": 36.248,
+      "length": 3.545,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#08080B",
+            "share": 0.593
+          },
+          {
+            "hex": "#101827",
+            "share": 0.118
+          },
+          {
+            "hex": "#102850",
+            "share": 0.032
+          },
+          {
+            "hex": "#16366C",
+            "share": 0.028
+          },
+          {
+            "hex": "#2D2A2F",
+            "share": 0.028
+          }
+        ],
+        "motion_energy": 19.25,
+        "script": "And the cool part is it'll keep going on its own cloud computer, even if I walk away"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 11,
+      "start": 36.248,
+      "end": 37.749,
+      "length": 1.502,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F9F9F9",
+            "share": 0.399
+          },
+          {
+            "hex": "#0D0B0D",
+            "share": 0.286
+          },
+          {
+            "hex": "#302A2C",
+            "share": 0.026
+          },
+          {
+            "hex": "#88776D",
+            "share": 0.022
+          },
+          {
+            "hex": "#D1D1D3",
+            "share": 0.019
+          }
+        ],
+        "motion_energy": 14.84,
+        "script": "from my phone or laptop."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 12,
+      "start": 37.749,
+      "end": 42.087,
+      "length": 4.338,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#07080B",
+            "share": 0.8
+          },
+          {
+            "hex": "#01132A",
+            "share": 0.116
+          },
+          {
+            "hex": "#2B292A",
+            "share": 0.022
+          },
+          {
+            "hex": "#4E4D4E",
+            "share": 0.011
+          },
+          {
+            "hex": "#241A18",
+            "share": 0.008
+          }
+        ],
+        "motion_energy": 24.71,
+        "script": "Now the reason tasks is so powerful is because of all the connected apps it has access to."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 13,
+      "start": 42.087,
+      "end": 46.592,
+      "length": 4.505,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#050405",
+            "share": 0.789
+          },
+          {
+            "hex": "#302D2D",
+            "share": 0.032
+          },
+          {
+            "hex": "#88776D",
+            "share": 0.021
+          },
+          {
+            "hex": "#514D4C",
+            "share": 0.017
+          },
+          {
+            "hex": "#151828",
+            "share": 0.014
+          }
+        ],
+        "motion_energy": 13.25,
+        "script": "From things like Instacart and OpenTable to Gemini's most direct interactions like Gmail,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 14,
+      "start": 46.592,
+      "end": 47.093,
+      "length": 0.501,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F2F4F9",
+            "share": 0.343
+          },
+          {
+            "hex": "#0C0A0D",
+            "share": 0.317
+          },
+          {
+            "hex": "#D3DAF3",
+            "share": 0.041
+          },
+          {
+            "hex": "#021653",
+            "share": 0.026
+          },
+          {
+            "hex": "#88776D",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 32.31,
+        "script": "Docs,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 15,
+      "start": 47.093,
+      "end": 47.635,
+      "length": 0.542,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#070608",
+            "share": 0.561
+          },
+          {
+            "hex": "#008CE7",
+            "share": 0.135
+          },
+          {
+            "hex": "#017BC6",
+            "share": 0.045
+          },
+          {
+            "hex": "#2F2B2D",
+            "share": 0.024
+          },
+          {
+            "hex": "#88776D",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 31.94,
+        "script": "Calendar and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 16,
+      "start": 47.635,
+      "end": 48.219,
+      "length": 0.584,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F9FAFA",
+            "share": 0.437
+          },
+          {
+            "hex": "#0D0B0D",
+            "share": 0.301
+          },
+          {
+            "hex": "#CECECE",
+            "share": 0.031
+          },
+          {
+            "hex": "#B1B1B1",
+            "share": 0.029
+          },
+          {
+            "hex": "#302A2B",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 36.64,
+        "script": "Drive."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 17,
+      "start": 48.219,
+      "end": 51.347,
+      "length": 3.128,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#050405",
+            "share": 0.711
+          },
+          {
+            "hex": "#FCFCFC",
+            "share": 0.056
+          },
+          {
+            "hex": "#2F2A2B",
+            "share": 0.024
+          },
+          {
+            "hex": "#88776D",
+            "share": 0.022
+          },
+          {
+            "hex": "#151828",
+            "share": 0.016
+          }
+        ],
+        "motion_energy": 21.33,
+        "script": "Task has the smoothest possible connection to all of those products."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 18,
+      "start": 51.347,
+      "end": 52.807,
+      "length": 1.46,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F9F9FA",
+            "share": 0.448
+          },
+          {
+            "hex": "#0C0A0C",
+            "share": 0.308
+          },
+          {
+            "hex": "#88776D",
+            "share": 0.022
+          },
+          {
+            "hex": "#CECFD1",
+            "share": 0.021
+          },
+          {
+            "hex": "#2F292B",
+            "share": 0.02
+          }
+        ],
+        "motion_energy": 7.54,
+        "script": "This means if you use Google Workspace to"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 19,
+      "start": 52.807,
+      "end": 53.516,
+      "length": 0.709,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#78746C",
+            "share": 0.133
+          },
+          {
+            "hex": "#362A12",
+            "share": 0.093
+          },
+          {
+            "hex": "#847A6E",
+            "share": 0.061
+          },
+          {
+            "hex": "#8E8675",
+            "share": 0.06
+          },
+          {
+            "hex": "#D2AC75",
+            "share": 0.055
+          }
+        ],
+        "motion_energy": 30.3,
+        "script": "run your life"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 20,
+      "start": 53.516,
+      "end": 54.142,
+      "length": 0.626,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#6F5436",
+            "share": 0.208
+          },
+          {
+            "hex": "#92704B",
+            "share": 0.128
+          },
+          {
+            "hex": "#362814",
+            "share": 0.083
+          },
+          {
+            "hex": "#FBFCFB",
+            "share": 0.078
+          },
+          {
+            "hex": "#A27B4D",
+            "share": 0.06
+          }
+        ],
+        "motion_energy": 33.56,
+        "script": "for business,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 21,
+      "start": 54.142,
+      "end": 54.726,
+      "length": 0.584,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0B",
+            "share": 0.686
+          },
+          {
+            "hex": "#B07148",
+            "share": 0.045
+          },
+          {
+            "hex": "#8B5637",
+            "share": 0.026
+          },
+          {
+            "hex": "#271A17",
+            "share": 0.025
+          },
+          {
+            "hex": "#724A32",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 35.52,
+        "script": "tasks will"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 22,
+      "start": 54.726,
+      "end": 55.018,
+      "length": 0.292,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#EDE5D9",
+            "share": 0.125
+          },
+          {
+            "hex": "#F3EEE4",
+            "share": 0.097
+          },
+          {
+            "hex": "#B7ADA5",
+            "share": 0.066
+          },
+          {
+            "hex": "#AFA59B",
+            "share": 0.06
+          },
+          {
+            "hex": "#67584D",
+            "share": 0.057
+          }
+        ],
+        "motion_energy": 14.38,
+        "script": "be the"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 23,
+      "start": 55.018,
+      "end": 55.769,
+      "length": 0.751,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F4F1EA",
+            "share": 0.215
+          },
+          {
+            "hex": "#E8E4DB",
+            "share": 0.083
+          },
+          {
+            "hex": "#92938B",
+            "share": 0.068
+          },
+          {
+            "hex": "#D4D4CB",
+            "share": 0.062
+          },
+          {
+            "hex": "#070403",
+            "share": 0.06
+          }
+        ],
+        "motion_energy": 22.22,
+        "script": "easiest way to"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 24,
+      "start": 55.769,
+      "end": 56.436,
+      "length": 0.667,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F8F3EE",
+            "share": 0.703
+          },
+          {
+            "hex": "#ECE3DC",
+            "share": 0.055
+          },
+          {
+            "hex": "#AEABAA",
+            "share": 0.045
+          },
+          {
+            "hex": "#000000",
+            "share": 0.039
+          },
+          {
+            "hex": "#D4D0CE",
+            "share": 0.03
+          }
+        ],
+        "motion_energy": 49.22,
+        "script": "build out proactive"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 25,
+      "start": 56.436,
+      "end": 56.895,
+      "length": 0.459,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0D",
+            "share": 0.306
+          },
+          {
+            "hex": "#252C23",
+            "share": 0.231
+          },
+          {
+            "hex": "#F4F6F9",
+            "share": 0.147
+          },
+          {
+            "hex": "#1D251C",
+            "share": 0.051
+          },
+          {
+            "hex": "#87766D",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 19.28,
+        "script": "workflows."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 26,
+      "start": 56.895,
+      "end": 57.479,
+      "length": 0.584,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F4F5F6",
+            "share": 0.352
+          },
+          {
+            "hex": "#0D0B0D",
+            "share": 0.328
+          },
+          {
+            "hex": "#2D2E2A",
+            "share": 0.052
+          },
+          {
+            "hex": "#87766C",
+            "share": 0.024
+          },
+          {
+            "hex": "#504E4B",
+            "share": 0.016
+          }
+        ],
+        "motion_energy": 42.6,
+        "script": "And"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 27,
+      "start": 57.479,
+      "end": 63.027,
+      "length": 5.548,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0F14",
+            "share": 0.687
+          },
+          {
+            "hex": "#101924",
+            "share": 0.062
+          },
+          {
+            "hex": "#2A2B32",
+            "share": 0.046
+          },
+          {
+            "hex": "#15272D",
+            "share": 0.033
+          },
+          {
+            "hex": "#25131A",
+            "share": 0.02
+          }
+        ],
+        "motion_energy": 28.89,
+        "script": "for a second example, I wanted tasks to build out a family events calendar for my local neighborhood in Brooklyn."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 28,
+      "start": 63.027,
+      "end": 63.819,
+      "length": 0.792,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0B",
+            "share": 0.705
+          },
+          {
+            "hex": "#B07149",
+            "share": 0.035
+          },
+          {
+            "hex": "#8D5636",
+            "share": 0.03
+          },
+          {
+            "hex": "#724931",
+            "share": 0.026
+          },
+          {
+            "hex": "#261A18",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 35.14,
+        "script": "So I just asked it,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 29,
+      "start": 63.819,
+      "end": 75.499,
+      "length": 11.679,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0B0D",
+            "share": 0.311
+          },
+          {
+            "hex": "#E7E8F4",
+            "share": 0.246
+          },
+          {
+            "hex": "#D3D8F2",
+            "share": 0.065
+          },
+          {
+            "hex": "#ACB9F9",
+            "share": 0.058
+          },
+          {
+            "hex": "#30292A",
+            "share": 0.024
+          }
+        ],
+        "motion_energy": 15.19,
+        "script": "search for all the local events, farmers, markets and concerts happening in my neighborhood, build a Google sheet with links for each and send me updates anytime new things are announced. Because tasks in Gemini runs continuous actions for me,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 30,
+      "start": 75.499,
+      "end": 83.757,
+      "length": 8.259,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#070608",
+            "share": 0.697
+          },
+          {
+            "hex": "#151924",
+            "share": 0.076
+          },
+          {
+            "hex": "#2E2A2D",
+            "share": 0.034
+          },
+          {
+            "hex": "#88766C",
+            "share": 0.024
+          },
+          {
+            "hex": "#4F4D51",
+            "share": 0.014
+          }
+        ],
+        "motion_energy": 33.52,
+        "script": "I never miss a thing. With tasks, Gemini is now shifting from sharing knowledge with you to helping you get more done, which makes it dramatically more impactful for your everyday life."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 31,
+      "start": 83.757,
+      "end": 87.124,
+      "length": 3.367,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0D",
+            "share": 0.322
+          },
+          {
+            "hex": "#101427",
+            "share": 0.303
+          },
+          {
+            "hex": "#131C49",
+            "share": 0.157
+          },
+          {
+            "hex": "#2F2B2D",
+            "share": 0.023
+          },
+          {
+            "hex": "#88766B",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 26.54,
+        "script": "If you want to try it out, tasks is now available free to all users."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+000    0.00-   3.42 (3.4s) | DoorDash is completely reinventing the food delivery space.
+001    3.42-   4.05 (0.6s) | And I don't think people fully
+002    4.05-   5.00 (1.0s) | realize what
+003    5.00-   5.92 (0.9s) | they're actually working
+004    5.92-   6.59 (0.7s) | on under
+005    6.59-   7.47 (0.9s) | the hood. Last
+006    7.47-  10.72 (3.3s) | week, they announced a ton of new features at their annual event.
+007   10.72-  12.05 (1.3s) | Now the biggest one to me was their ultra
+008   12.05-  14.89 (2.8s) | quiet food delivery drone DoorDash Air.
+009   14.89-  15.56 (0.7s) | This thing can fly straight
+010   15.56-  19.35 (3.8s) | from a restaurant to your yard, over top of all the traffic and dramatically
+011   19.35-  21.27 (1.9s) | reduces delivery times. But
+012   21.27-  21.94 (0.7s) | it turns out this
+013   21.94-  24.40 (2.5s) | drone program is only a small piece of
+014   24.40-  26.32 (1.9s) | their overall master plan.
+015   26.32-  28.28 (2.0s) | So to learn more, I sat down with Stanley Tang,
+016   28.28-  28.99 (0.7s) | one of the original co
+017   28.99-  29.91 (0.9s) | -founders and head
+018   29.91-  31.49 (1.6s) | of labs at DoorDash.
+019   31.49-  32.74 (1.3s) | He is the mastermind behind the
+020   32.74-  33.33 (0.6s) | air launch and
+021   33.33-  34.99 (1.7s) | he runs their R &D lab.
+022   34.99-  36.95 (2.0s) | And what he said really surprised me.
+023   36.95-  40.96 (4.0s) | In a large part of what we built, we would call it the autonomous delivery platform. Think
+024   40.96-  41.88 (0.9s) | of it as the orchestration
+025   41.88-  42.96 (1.1s) | layer, the
+026   42.96-  47.21 (4.3s) | brains behind the scenes that actually does all the coordination. Is it a dasher? Is it a
+027   47.21-  48.05 (0.8s) | drone? Is it a
+028   48.05-  48.67 (0.6s) | dot? That's
+029   48.67-  50.63 (2.0s) | what's magical about working with someone
+030   50.63-  51.30 (0.7s) | like DoorDash.
+031   51.30-  52.80 (1.5s) | We handle all that complexity. So
+032   52.80-  54.14 (1.3s) | the secret sauce at DoorDash isn't
+033   54.14-  56.39 (2.3s) | just the drones, it's the entire delivery
+034   56.39-  56.97 (0.6s) | operating
+035   56.97-  59.85 (2.9s) | system layer they've built to sit underneath.
+036   59.85-  61.02 (1.2s) | Because DoorDash now has lots
+037   61.02-  62.27 (1.3s) | of different ways to
+038   62.27-  63.19 (0.9s) | deliver your food.
+039   63.19-  68.53 (5.3s) | They've got dashers, the human drivers, dot, the autonomous robot, and now air, the delivery drones.
+040   68.53-  69.99 (1.5s) | So when an order comes in, they're able to intelligently
+041   69.99-  73.07 (3.1s) | route and deliver it in the fastest and
+042   73.07-  74.83 (1.8s) | most cost efficient way possible.
+043   74.83-  76.95 (2.1s) | And as they build more and more methods for delivery, including
+044   76.95-  82.08 (5.1s) | things like drones and autonomous vehicles, this will increase their ability to serve customers.
+045   82.08-  83.62 (1.5s) | That orchestration layer underneath is
+046   83.62-  89.92 (6.3s) | the secret sauce behind why they're so effective. Stanley also broke down how they're using AI in the new Text DoorDash feature,
+047   89.92-  91.30 (1.4s) | as well as how he runs the
+048   91.30-  92.30 (1.0s) | R &D lab to
+049   92.30-  92.80 (0.5s) | drive new
+050   92.80-  93.59 (0.8s) | breakthroughs.
+051   93.59-  95.39 (1.8s) | And it's clear they're doing everything they can to
+052   95.39-  96.22 (0.8s) | pioneer the
+053   96.22-  96.93 (0.7s) | future of
+054   96.93-  97.85 (0.9s) | delivery.

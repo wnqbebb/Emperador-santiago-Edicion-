@@ -1,0 +1,1219 @@
+{
+ "triggers": [
+  {
+   "t_word": 0.34,
+   "word": "a",
+   "element": "Hiroki inclinado sobre la caja tecleando (plano más cerrado)",
+   "category": "hook_banner",
+   "offset_s": -0.01,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 1.46,
+   "word": "Hokkaido,",
+   "element": "Hiroki de pie con portátil, invernadero verde",
+   "category": "hook_banner",
+   "offset_s": -0.08,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 2.52,
+   "word": "and",
+   "element": "tarjeta: Hiroki hablándole al móvil, cielo azul",
+   "category": "full_graphic",
+   "offset_s": 0.07,
+   "why": "literal a pantalla completa"
+  },
+  {
+   "t_word": 3.56,
+   "word": "AI",
+   "element": "tarjeta: pantalla de app con líneas amarillas de ruta sobre un campo y cursor",
+   "category": "full_graphic",
+   "offset_s": -0.1,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 4.36,
+   "word": "automate",
+   "element": "tarjeta: plantadora roja/amarilla sobre surcos, macro",
+   "category": "full_graphic",
+   "offset_s": -0.19,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 4.84,
+   "word": "his",
+   "element": "Cara de Kallaway a pantalla completa con las palabras 'his' → 'entire' (serif itálica) → 'farm' una a una.",
+   "category": "face_full_word",
+   "offset_s": 0.21,
+   "why": "énfasis / cambio de tema (cara + palabra)"
+  },
+  {
+   "t_word": 5.26,
+   "word": "entire",
+   "element": "Palabra grande 'entire' en serif itálica",
+   "category": "face_full_word",
+   "offset_s": 0.01,
+   "why": "énfasis"
+  },
+  {
+   "t_word": 6.16,
+   "word": "His",
+   "element": "tarjeta: Hiroki sonriendo con portátil en el invernadero (desenfocado→nítido)",
+   "category": "full_graphic",
+   "offset_s": 0.01,
+   "why": "literal a pantalla completa"
+  },
+  {
+   "t_word": 6.72,
+   "word": "Hiroki",
+   "element": "Rótulo 'Hiroki' serif itálica sobre caja negra",
+   "category": "full_graphic",
+   "offset_s": -0.13,
+   "why": "literal: nombre propio como rótulo"
+  },
+  {
+   "t_word": 7.2,
+   "word": "Tamayasu.",
+   "element": "Rótulo 'Tomiyasu' (segunda línea)",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "literal: apellido"
+  },
+  {
+   "t_word": 8.18,
+   "word": "And",
+   "element": "tarjeta: Hiroki junto al lateral del invernadero",
+   "category": "full_graphic",
+   "offset_s": -0.21,
+   "why": "literal a pantalla completa"
+  },
+  {
+   "t_word": 9.18,
+   "word": "how",
+   "element": "tarjeta: tractor azul arando, colina otoñal",
+   "category": "full_graphic",
+   "offset_s": 0.04,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 10.4,
+   "word": "or",
+   "element": "tarjeta: motocultor rojo avanzando entre hileras de cebolleta",
+   "category": "full_graphic",
+   "offset_s": 0.03,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 11.54,
+   "word": "he's",
+   "element": "manos cableando una caja electrónica",
+   "category": "split_broll",
+   "offset_s": -0.07,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 12.14,
+   "word": "entire",
+   "element": "Hiroki inclinado trabajando",
+   "category": "split_broll",
+   "offset_s": 0.04,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 12.46,
+   "word": "software",
+   "element": "móvil en la mano (macro)",
+   "category": "split_broll",
+   "offset_s": 0.18,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 13.78,
+   "word": "digitize",
+   "element": "pasillo del invernadero en perspectiva",
+   "category": "split_broll",
+   "offset_s": 0.07,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 14.46,
+   "word": "his",
+   "element": "bandejas de plantel, macro con desenfoque",
+   "category": "split_broll",
+   "offset_s": -0.07,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 15.04,
+   "word": "all",
+   "element": "primerísimo plano de los ojos de Hiroki",
+   "category": "split_broll",
+   "offset_s": 0.06,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 15.9,
+   "word": "how",
+   "element": "pantalla de portátil con documento",
+   "category": "split_broll",
+   "offset_s": 0.03,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 16.74,
+   "word": "For",
+   "element": "Cara completa con 'For' → 'example'.",
+   "category": "face_full_word",
+   "offset_s": -0.01,
+   "why": "énfasis / cambio de tema (cara + palabra)"
+  },
+  {
+   "t_word": 17.18,
+   "word": "Hiroki",
+   "element": "Hiroki camina por el campo hablando al móvil (travelling lateral)",
+   "category": "split_broll",
+   "offset_s": -0.08,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 18.62,
+   "word": "automate",
+   "element": "dron agrícola grande volando sobre surcos",
+   "category": "split_broll",
+   "offset_s": 0.11,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 20.26,
+   "word": "But",
+   "element": "Cara completa con 'But' → 'typically'.",
+   "category": "face_full_word",
+   "offset_s": -0.03,
+   "why": "énfasis / cambio de tema (cara + palabra)"
+  },
+  {
+   "t_word": 20.92,
+   "word": "self",
+   "element": "plantadora autónoma blanca con tractor verde, plano aéreo",
+   "category": "split_broll",
+   "offset_s": -0.07,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 22.1,
+   "word": "like",
+   "element": "tractor autónomo de frente en campo verde",
+   "category": "split_broll",
+   "offset_s": 0.13,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 23.14,
+   "word": "super",
+   "element": "máquina autónoma en campo marrón, plano aéreo trasero",
+   "category": "split_broll",
+   "offset_s": -0.12,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 24.28,
+   "word": "instead,",
+   "element": "Cara completa con 'So' → 'instead' → 'how' → 'build' una a una.",
+   "category": "face_full_word",
+   "offset_s": -0.13,
+   "why": "énfasis / cambio de tema (cara + palabra)"
+  },
+  {
+   "t_word": 25.9,
+   "word": "GPS",
+   "element": "2 tarjetas apiladas: arriba plantadora amarilla con operario; abajo plantadora junto a rueda de tractor",
+   "category": "full_graphic",
+   "offset_s": -0.12,
+   "why": "literal a pantalla completa"
+  },
+  {
+   "t_word": 25.9,
+   "word": "GPS",
+   "element": "Texto gigante 'GPS' sobre la tarjeta superior",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "literal: nombre del invento"
+  },
+  {
+   "t_word": 26.46,
+   "word": "auto",
+   "element": "Texto 'Auto-Steer System' sobre la tarjeta inferior",
+   "category": "full_graphic",
+   "offset_s": 0.04,
+   "why": "literal: nombre del invento"
+  },
+  {
+   "t_word": 28.18,
+   "word": "drives",
+   "element": "volante de tractor con motor de autoguiado (logo ilegible) girando, cabina",
+   "category": "split_broll",
+   "offset_s": -0.15,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 29.28,
+   "word": "for",
+   "element": "mismo volante, plano más abierto con el campo por el parabrisas",
+   "category": "split_broll",
+   "offset_s": 0.08,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 30.36,
+   "word": "a",
+   "element": "Cara completa con subtítulo pequeño 'at a fraction / of the cost.'",
+   "category": "aroll_plain",
+   "offset_s": -0.12,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 31.58,
+   "word": "He's",
+   "element": "arriba: Hiroki sobre estructura junto a depósitos; abajo: Hiroki agachado en invernadero + barra de prompt blanca con iconos + y ↑",
+   "category": "split_broll",
+   "offset_s": -0.05,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 33.98,
+   "word": "software",
+   "element": "arriba: móvil en mano (macro); abajo: Hiroki camina por el campo + prompt superpuesto EN/JP",
+   "category": "split_broll",
+   "offset_s": 0.01,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 36.12,
+   "word": "He's",
+   "element": "Cara completa: subtítulo pequeño 'He's even using' y luego 'satellite' → 'imagery' grandes en serif itálica.",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "énfasis / cambio de tema (cara + palabra)"
+  },
+  {
+   "t_word": 36.66,
+   "word": "satellite",
+   "element": "Palabra grande 'satellite' en serif itálica",
+   "category": "face_full_word",
+   "offset_s": 0.04,
+   "why": "énfasis"
+  },
+  {
+   "t_word": 37.98,
+   "word": "figure",
+   "element": "UI web en japonés: panel de capas + parcela satelital + selector de fechas",
+   "category": "split_screenrec",
+   "offset_s": -0.07,
+   "why": "literal: se ve el producto haciendo lo que dice"
+  },
+  {
+   "t_word": 38.54,
+   "word": "fields",
+   "element": "campo arado con colinas verdes",
+   "category": "split_broll",
+   "offset_s": 0.17,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 39.32,
+   "word": "crops",
+   "element": "la mitad INFERIOR se sustituye por b-roll de brotes en tierra (él desaparece 0.42 s)",
+   "category": "split_broll",
+   "offset_s": 0.05,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 39.66,
+   "word": "are",
+   "element": "Cara completa con subtítulo pequeño 'are performing / the best.'",
+   "category": "aroll_plain",
+   "offset_s": 0.13,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 41.0,
+   "word": "And",
+   "element": "portátil junto a caja de cables (b-roll) como fondo del rótulo",
+   "category": "split_graphic",
+   "offset_s": 0.0,
+   "why": "dato/concepto visualizado"
+  },
+  {
+   "t_word": 42.16,
+   "word": "chat",
+   "element": "Rótulo 'ChatGPT' serif itálica sobre el b-roll",
+   "category": "split_graphic",
+   "offset_s": -0.06,
+   "why": "literal: marca nombrada"
+  },
+  {
+   "t_word": 43.12,
+   "word": "codecs",
+   "element": "Rótulo 'Codex' sans fina bajo ChatGPT",
+   "category": "split_graphic",
+   "offset_s": -0.02,
+   "why": "literal: marca nombrada"
+  },
+  {
+   "t_word": 43.82,
+   "word": "he",
+   "element": "Hiroki de pie con portátil, invernadero",
+   "category": "split_broll",
+   "offset_s": -0.07,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 44.44,
+   "word": "every",
+   "element": "Hiroki agachado ante cajas con portátil",
+   "category": "split_broll",
+   "offset_s": 0.15,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 45.02,
+   "word": "day.",
+   "element": "mismo sitio, otro momento (salto interno)",
+   "category": "split_broll",
+   "offset_s": 0.15,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 45.46,
+   "word": "Now",
+   "element": "Cara completa con subtítulo pequeño 'Now Hiroki / describes / using AI,'.",
+   "category": "aroll_plain",
+   "offset_s": -0.04,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 47.26,
+   "word": "getting",
+   "element": "Hiroki junto al portátil (borde, desenfocado)",
+   "category": "split_broll",
+   "offset_s": -0.13,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 48.1,
+   "word": "ultra",
+   "element": "pantalla del portátil con formulario",
+   "category": "split_broll",
+   "offset_s": 0.03,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 48.92,
+   "word": "engineer",
+   "element": "primerísimo plano de ojos",
+   "category": "split_broll",
+   "offset_s": 0.09,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 49.78,
+   "word": "is",
+   "element": "Hiroki hablándole al móvil con forma de onda blanca superpuesta arriba",
+   "category": "split_broll",
+   "offset_s": -0.11,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 51.18,
+   "word": "And",
+   "element": "Cara completa con 10 palabras una a una ('And the coolest part about his story is that he's'); 'coolest' en amarillo-dorado.",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "énfasis / cambio de tema (cara + palabra)"
+  },
+  {
+   "t_word": 51.36,
+   "word": "coolest",
+   "element": "'coolest' en amarillo-dorado",
+   "category": "face_full_word",
+   "offset_s": 0.04,
+   "why": "énfasis por color"
+  },
+  {
+   "t_word": 52.6,
+   "word": "live",
+   "element": "portada del blog (rejilla de 3 columnas de posts con miniaturas)",
+   "category": "split_headline",
+   "offset_s": 0.04,
+   "why": "prueba: documento/fuente"
+  },
+  {
+   "t_word": 54.1,
+   "word": "of",
+   "element": "salto de scroll: más abajo en la rejilla",
+   "category": "split_headline",
+   "offset_s": -0.17,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 56.84,
+   "word": "includes",
+   "element": "post con mapa satelital y titular 'I got the idea while working in the field…'",
+   "category": "split_headline",
+   "offset_s": -0.07,
+   "why": "prueba: documento/fuente"
+  },
+  {
+   "t_word": 57.96,
+   "word": "what",
+   "element": "rejilla de posts (zoom medio)",
+   "category": "split_headline",
+   "offset_s": -0.03,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 59.24,
+   "word": "-by",
+   "element": "cabecera del tutorial (ilustración verde de Raspberry Pi + título)",
+   "category": "split_headline",
+   "offset_s": -0.1,
+   "why": "prueba: documento/fuente"
+  },
+  {
+   "t_word": 60.44,
+   "word": "all",
+   "element": "scroll rápido hacia la lista de compra",
+   "category": "split_headline",
+   "offset_s": -0.09,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 63.06,
+   "word": "These",
+   "element": "Hiroki sentado junto a una rueda de tractor, gesticulando",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 65.16,
+   "word": "it",
+   "element": "tarjeta redondeada: campo de coles, cielo nublado",
+   "category": "pip_broll",
+   "offset_s": -0.05,
+   "why": "literal a pantalla completa manteniendo la cara"
+  },
+  {
+   "t_word": 66.12,
+   "word": "inventive",
+   "element": "a sangre: dron fumigando hileras verdes",
+   "category": "pip_broll",
+   "offset_s": 0.15,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 67.76,
+   "word": "they",
+   "element": "caja con relés y cables rojos/azules",
+   "category": "split_broll",
+   "offset_s": -0.11,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 68.6,
+   "word": "the",
+   "element": "pantalla de portátil con código/chat (entra desenfocada)",
+   "category": "split_broll",
+   "offset_s": -0.07,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 69.76,
+   "word": "Follow",
+   "element": "Cara completa con subtítulo pequeño 'Follow / along for / more tech / and AI / stories like / this'.",
+   "category": "title_cta",
+   "offset_s": 0.02,
+   "why": "cierre"
+  },
+  {
+   "t_word": 71.9,
+   "word": "And",
+   "element": "Hiroki camina por el campo hablando al móvil (a sangre, sin él)",
+   "category": "title_cta",
+   "offset_s": 0.01,
+   "why": "cierre"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 0.33,
+   "from": "v09_s01 clip 1",
+   "to": "v09_s01 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: Hiroki inclinado sobre la caja tecleando (plano más cerrado)"
+  },
+  {
+   "t": 1.38,
+   "from": "v09_s01 clip 2",
+   "to": "v09_s01 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: Hiroki de pie con portátil, invernadero verde"
+  },
+  {
+   "t": 2.59,
+   "from": "v09_s01 (hook_banner)",
+   "to": "v09_s02 (full_graphic)",
+   "type": "corte seco + escala (tarjeta crece)",
+   "frames": 1,
+   "detail": "Corte del split a tarjeta sobre negro; la tarjeta entra pequeña y crece de forma continua."
+  },
+  {
+   "t": 3.46,
+   "from": "v09_s02 clip 1",
+   "to": "v09_s02 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: tarjeta: pantalla de app con líneas amarillas de ruta sobre un campo y cursor"
+  },
+  {
+   "t": 4.17,
+   "from": "v09_s02 clip 2",
+   "to": "v09_s02 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: tarjeta: plantadora roja/amarilla sobre surcos, macro"
+  },
+  {
+   "t": 5.05,
+   "from": "v09_s02 (full_graphic)",
+   "to": "v09_s03 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara de Kallaway a pantalla completa con las palabras 'his' → 'entire' (serif itálica) → 'farm' una a una."
+  },
+  {
+   "t": 6.17,
+   "from": "v09_s03 (face_full_word)",
+   "to": "v09_s04 (full_graphic)",
+   "type": "corte seco + blur-in",
+   "frames": 6,
+   "detail": "Corte a la tarjeta de Hiroki desenfocada que enfoca en ≈0.4 s (6 fotogramas a 15 fps)."
+  },
+  {
+   "t": 7.97,
+   "from": "v09_s04 (full_graphic)",
+   "to": "v09_s05 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: tarjeta: Hiroki junto al lateral del invernadero"
+  },
+  {
+   "t": 9.22,
+   "from": "v09_s05 clip 1",
+   "to": "v09_s05 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: tarjeta: tractor azul arando, colina otoñal"
+  },
+  {
+   "t": 10.43,
+   "from": "v09_s05 clip 2",
+   "to": "v09_s05 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: tarjeta: motocultor rojo avanzando entre hileras de cebolleta"
+  },
+  {
+   "t": 11.47,
+   "from": "v09_s05 (full_graphic)",
+   "to": "v09_s06 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: manos cableando una caja electrónica"
+  },
+  {
+   "t": 12.18,
+   "from": "v09_s06 clip 1",
+   "to": "v09_s06 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: Hiroki inclinado trabajando"
+  },
+  {
+   "t": 12.64,
+   "from": "v09_s06 clip 2",
+   "to": "v09_s06 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: móvil en la mano (macro)"
+  },
+  {
+   "t": 13.85,
+   "from": "v09_s06 clip 3",
+   "to": "v09_s06 clip 4",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: pasillo del invernadero en perspectiva"
+  },
+  {
+   "t": 14.39,
+   "from": "v09_s06 clip 4",
+   "to": "v09_s06 clip 5",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: bandejas de plantel, macro con desenfoque"
+  },
+  {
+   "t": 15.1,
+   "from": "v09_s06 clip 5",
+   "to": "v09_s06 clip 6",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: primerísimo plano de los ojos de Hiroki"
+  },
+  {
+   "t": 15.93,
+   "from": "v09_s06 clip 6",
+   "to": "v09_s06 clip 7",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: pantalla de portátil con documento"
+  },
+  {
+   "t": 16.73,
+   "from": "v09_s06 (split_broll)",
+   "to": "v09_s07 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con 'For' → 'example'."
+  },
+  {
+   "t": 17.1,
+   "from": "v09_s07 (face_full_word)",
+   "to": "v09_s08 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Hiroki camina por el campo hablando al móvil (travelling lateral)"
+  },
+  {
+   "t": 18.73,
+   "from": "v09_s08 clip 1",
+   "to": "v09_s08 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: dron agrícola grande volando sobre surcos"
+  },
+  {
+   "t": 20.23,
+   "from": "v09_s08 (split_broll)",
+   "to": "v09_s09 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con 'But' → 'typically'."
+  },
+  {
+   "t": 20.85,
+   "from": "v09_s09 (face_full_word)",
+   "to": "v09_s10 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: plantadora autónoma blanca con tractor verde, plano aéreo"
+  },
+  {
+   "t": 22.23,
+   "from": "v09_s10 clip 1",
+   "to": "v09_s10 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: tractor autónomo de frente en campo verde"
+  },
+  {
+   "t": 23.02,
+   "from": "v09_s10 clip 2",
+   "to": "v09_s10 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: máquina autónoma en campo marrón, plano aéreo trasero"
+  },
+  {
+   "t": 24.15,
+   "from": "v09_s10 (split_broll)",
+   "to": "v09_s11 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con 'So' → 'instead' → 'how' → 'build' una a una."
+  },
+  {
+   "t": 25.78,
+   "from": "v09_s11 (face_full_word)",
+   "to": "v09_s12 (full_graphic)",
+   "type": "flash naranja",
+   "frames": 3,
+   "detail": "Tinte naranja-marrón sobre toda la pantalla durante ≈3 fotogramas a 15 fps al entrar las dos tarjetas."
+  },
+  {
+   "t": 28.03,
+   "from": "v09_s12 (full_graphic)",
+   "to": "v09_s13 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: volante de tractor con motor de autoguiado (logo ilegible) girando, cabina"
+  },
+  {
+   "t": 29.36,
+   "from": "v09_s13 clip 1",
+   "to": "v09_s13 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: mismo volante, plano más abierto con el campo por el parabrisas"
+  },
+  {
+   "t": 30.24,
+   "from": "v09_s13 (split_broll)",
+   "to": "v09_s14 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo pequeño 'at a fraction / of the cost.'"
+  },
+  {
+   "t": 31.53,
+   "from": "v09_s14 (aroll_plain)",
+   "to": "v09_s15 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: arriba: Hiroki sobre estructura junto a depósitos; abajo: Hiroki agachado en invernadero + barra de prompt bla"
+  },
+  {
+   "t": 33.99,
+   "from": "v09_s15 (split_broll)",
+   "to": "v09_s16 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: arriba: móvil en mano (macro); abajo: Hiroki camina por el campo + prompt superpuesto EN/JP"
+  },
+  {
+   "t": 36.12,
+   "from": "v09_s16 (split_broll)",
+   "to": "v09_s17 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa: subtítulo pequeño 'He's even using' y luego 'satellite' → 'imagery' grandes en serif itálica."
+  },
+  {
+   "t": 37.91,
+   "from": "v09_s17 (face_full_word)",
+   "to": "v09_s18 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: UI web en japonés: panel de capas + parcela satelital + selector de fechas"
+  },
+  {
+   "t": 38.71,
+   "from": "v09_s18 (split_screenrec)",
+   "to": "v09_s19 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: campo arado con colinas verdes"
+  },
+  {
+   "t": 39.37,
+   "from": "v09_s19 clip 1",
+   "to": "v09_s19 clip 2",
+   "type": "corte seco (solo mitad inferior)",
+   "frames": 1,
+   "detail": "La mitad inferior (él) se sustituye por b-roll de brotes durante 0.42 s."
+  },
+  {
+   "t": 39.79,
+   "from": "v09_s19 (split_broll)",
+   "to": "v09_s20 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo pequeño 'are performing / the best.'"
+  },
+  {
+   "t": 41.0,
+   "from": "v09_s20 (aroll_plain)",
+   "to": "v09_s21 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: portátil junto a caja de cables (b-roll) como fondo del rótulo"
+  },
+  {
+   "t": 43.75,
+   "from": "v09_s21 (split_graphic)",
+   "to": "v09_s22 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Hiroki de pie con portátil, invernadero"
+  },
+  {
+   "t": 44.59,
+   "from": "v09_s22 clip 1",
+   "to": "v09_s22 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: Hiroki agachado ante cajas con portátil"
+  },
+  {
+   "t": 45.17,
+   "from": "v09_s22 clip 2",
+   "to": "v09_s22 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: mismo sitio, otro momento (salto interno)"
+  },
+  {
+   "t": 45.42,
+   "from": "v09_s22 (split_broll)",
+   "to": "v09_s23 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo pequeño 'Now Hiroki / describes / using AI,'."
+  },
+  {
+   "t": 47.13,
+   "from": "v09_s23 (aroll_plain)",
+   "to": "v09_s24 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Hiroki junto al portátil (borde, desenfocado)"
+  },
+  {
+   "t": 48.13,
+   "from": "v09_s24 clip 1",
+   "to": "v09_s24 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: pantalla del portátil con formulario"
+  },
+  {
+   "t": 49.01,
+   "from": "v09_s24 clip 2",
+   "to": "v09_s24 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: primerísimo plano de ojos"
+  },
+  {
+   "t": 49.67,
+   "from": "v09_s24 clip 3",
+   "to": "v09_s24 clip 4",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: Hiroki hablándole al móvil con forma de onda blanca superpuesta arriba"
+  },
+  {
+   "t": 51.18,
+   "from": "v09_s24 (split_broll)",
+   "to": "v09_s25 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con 10 palabras una a una ('And the coolest part about his story is that he's'); 'coolest' en am"
+  },
+  {
+   "t": 52.64,
+   "from": "v09_s25 (face_full_word)",
+   "to": "v09_s26 (split_headline)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: portada del blog (rejilla de 3 columnas de posts con miniaturas)"
+  },
+  {
+   "t": 53.93,
+   "from": "v09_s26 clip 1",
+   "to": "v09_s26 clip 2",
+   "type": "corte seco (salto de scroll)",
+   "frames": 1,
+   "detail": "Salto de posición dentro del scroll de la web."
+  },
+  {
+   "t": 56.77,
+   "from": "v09_s26 (split_headline)",
+   "to": "v09_s27 (split_headline)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: post con mapa satelital y titular 'I got the idea while working in the field…'"
+  },
+  {
+   "t": 57.93,
+   "from": "v09_s27 clip 1",
+   "to": "v09_s27 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: rejilla de posts (zoom medio)"
+  },
+  {
+   "t": 59.14,
+   "from": "v09_s27 (split_headline)",
+   "to": "v09_s28 (split_headline)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: cabecera del tutorial (ilustración verde de Raspberry Pi + título)"
+  },
+  {
+   "t": 60.35,
+   "from": "v09_s28 clip 1",
+   "to": "v09_s28 clip 2",
+   "type": "scroll rápido",
+   "frames": 5,
+   "detail": "Scroll acelerado ≈0.35 s hasta la lista de compra del tutorial."
+  },
+  {
+   "t": 63.06,
+   "from": "v09_s28 (split_headline)",
+   "to": "v09_s29 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Hiroki sentado junto a una rueda de tractor, gesticulando"
+  },
+  {
+   "t": 65.11,
+   "from": "v09_s29 (split_broll)",
+   "to": "v09_s30 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: tarjeta redondeada: campo de coles, cielo nublado"
+  },
+  {
+   "t": 66.27,
+   "from": "v09_s30 clip 1",
+   "to": "v09_s30 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: a sangre: dron fumigando hileras verdes"
+  },
+  {
+   "t": 67.65,
+   "from": "v09_s30 (pip_broll)",
+   "to": "v09_s31 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: caja con relés y cables rojos/azules"
+  },
+  {
+   "t": 68.53,
+   "from": "v09_s31 clip 1",
+   "to": "v09_s31 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: pantalla de portátil con código/chat (entra desenfocada)"
+  },
+  {
+   "t": 69.78,
+   "from": "v09_s31 (split_broll)",
+   "to": "v09_s32 (title_cta)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo pequeño 'Follow / along for / more tech / and AI / stories like / this'."
+  },
+  {
+   "t": 71.91,
+   "from": "v09_s32 (title_cta)",
+   "to": "v09_s33 (title_cta)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Hiroki camina por el campo hablando al móvil (a sangre, sin él)"
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.0,
+   "fx": "slide",
+   "detail": "Título 'THE FUTURE OF FARMING' entra desde la derecha (0–≈1 s) y queda cortado por el borde derecho."
+  },
+  {
+   "t": 5.05,
+   "fx": "pop",
+   "detail": "Palabra grande una a una sobre la cara (2 palabras en 1.12 s ≈ 0.56 s/palabra; derivado): 'his' y 'farm' en sans bold; 'entire' en serif itálica (la palabra de énfasis)"
+  },
+  {
+   "t": 6.59,
+   "fx": "pop + máscara (caja negra)",
+   "detail": "'Hiroki' y 'Tomiyasu' en serif itálica blanca, cada palabra con su caja negra, aparecen de golpe con la voz (6.59 y ≈7.2)."
+  },
+  {
+   "t": 16.73,
+   "fx": "pop",
+   "detail": "Palabra grande una a una sobre la cara (2 palabras en 0.37 s ≈ 0.19 s/palabra; derivado): sustitución instantánea, sans bold blanca con glow"
+  },
+  {
+   "t": 20.23,
+   "fx": "pop",
+   "detail": "Palabra grande una a una sobre la cara (2 palabras en 0.62 s ≈ 0.31 s/palabra; derivado): sustitución instantánea, sans bold blanca con glow"
+  },
+  {
+   "t": 24.15,
+   "fx": "pop",
+   "detail": "Palabra grande una a una sobre la cara (8 palabras en 1.63 s ≈ 0.20 s/palabra; derivado): sustitución instantánea, sans bold blanca con glow"
+  },
+  {
+   "t": 25.9,
+   "fx": "pop",
+   "detail": "'GPS' (≈150 px) y 'Auto-Steer System' (≈70 px) en sans bold blanca aparecen sobre cada tarjeta con su palabra; sin fade apreciable."
+  },
+  {
+   "t": 36.12,
+   "fx": "pop",
+   "detail": "Palabra grande una a una sobre la cara (6 palabras en 1.79 s ≈ 0.30 s/palabra; derivado): 'satellite' e 'imagery' en serif itálica blanca ≈55 px (más pequeña que las sans grandes), tras un subtítulo pequeño normal"
+  },
+  {
+   "t": 42.1,
+   "fx": "pop",
+   "detail": "'ChatGPT' serif itálica y, 1 s después, 'Codex' sans fina; apilados arriba a la derecha del b-roll."
+  },
+  {
+   "t": 51.18,
+   "fx": "pop",
+   "detail": "Palabra grande una a una sobre la cara (11 palabras en 1.46 s ≈ 0.13 s/palabra; derivado): sans bold blanca; 'coolest' en amarillo-dorado (observado 51.5 s) — única palabra coloreada del vídeo"
+  },
+  {
+   "t": 52.9,
+   "fx": "máscara (caja translúcida)",
+   "detail": "Durante la web a 2/3 el subtítulo pasa a ir sobre la captura con caja gris translúcida redondeada (y≈62 %)."
+  }
+ ],
+ "camera": [
+  {
+   "t": 2.59,
+   "move": "push-in lento",
+   "scale_or_dir": "tarjeta ≈57 % → ≈88 % del alto (2.59–6.2 s)",
+   "dur_s": 3.6
+  },
+  {
+   "t": 5.05,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 16.73,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 17.1,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 20.23,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 20.85,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 24.15,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 30.24,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 31.53,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 36.12,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 37.91,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 39.79,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 41.0,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 45.42,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 47.13,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 51.18,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 52.64,
+   "move": "pan (scroll vertical)",
+   "scale_or_dir": "web hacia abajo",
+   "dur_s": 4.1
+  },
+  {
+   "t": 52.64,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 59.14,
+   "move": "pan (scroll vertical)",
+   "scale_or_dir": "tutorial hacia abajo, con aceleración en 60.35",
+   "dur_s": 3.9
+  }
+ ],
+ "rhythm": {
+  "events_per_10s": [
+   9,
+   11,
+   8,
+   8,
+   9,
+   6,
+   7,
+   1
+  ],
+  "avg_hold_text_s": 0.57,
+  "notes": "Ritmo alto y regular: 2.22 s/escena. [derived] 59 cambios visuales en 73.3 s = 1 cada 1.24 s; la mitad superior cambia cada 1.15 s de media dentro de los tramos en split; palabra grande ≈0.23 s/palabra; subtítulo pequeño ≈0.57 s por bloque (estimado: 2 palabras × duración media de palabra)."
+ },
+ "typography": "Subtítulo: sans geométrica bold blanca ≈30 px/720, 1–3 palabras, minúsculas con puntuación. Palabra grande: misma sans bold ≈70–80 px con halo; énfasis en serif itálica de alto contraste (entire, satellite, imagery, ChatGPT, Hiroki Tomiyasu). Titulares: sans extendida ultra-bold mayúsculas (título del gancho, lila) y sans bold enorme ('GPS' ≈150 px). 'Codex' en sans light. Color de palabra clave: amarillo-dorado solo en 'coolest'. Familias exactas: desconocidas.",
+ "textures": "Ninguna textura añadida (sin papel, tela, grano ni halftone). Viñeta natural del set oscuro en el A-roll. Único efecto de color: flash naranja ≈0.2 s en 25.78 y blur-in en 6.17.",
+ "distinct": [
+  "Franja del gancho SIN caja roja: título lila/blanco 'THE FUTURE OF FARMING' (0–2.59)",
+  "Tarjetas de b-roll sobre negro sin él (2.59–5.05, 6.17–11.47) y doble tarjeta con 'GPS / Auto-Steer System' + flash naranja (25.78)",
+  "Split sin Kallaway: dos b-rolls apilados con el prompt de ChatGPT sobreimpreso (31.53–36.12)",
+  "Web del protagonista a 2/3 de pantalla con scroll y subtítulo en caja sobre la captura (52.64, 59.14)",
+  "Historia de persona: rótulo de nombre serif itálica con blur-in (6.17) y cierre con plano del protagonista (71.91); una sola palabra en color ('coolest')"
+ ],
+ "evidence_note": "REA: tiempos de corte = observed (detección de escena ffmpeg + tiras de 9 fotogramas a 15 fps por cada corte); offsets y ritmos = derived; 'why' = inferred. Audio/SFX: desconocido (no analizado)."
+}

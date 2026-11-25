@@ -1,0 +1,3650 @@
+{
+  "video": "v19.mp4",
+  "duration": 95.48,
+  "derived": {
+    "shots": 45,
+    "avg_shot_len": 2.12,
+    "cuts_per_min": 28.3,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      2,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      21,
+      23,
+      24,
+      25,
+      27,
+      31,
+      34,
+      36,
+      38,
+      39,
+      40,
+      41,
+      44
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "Scientists",
+      "start": 0.0,
+      "end": 0.28
+    },
+    {
+      "w": "just",
+      "start": 0.28,
+      "end": 0.5
+    },
+    {
+      "w": "figured",
+      "start": 0.5,
+      "end": 0.66
+    },
+    {
+      "w": "out",
+      "start": 0.66,
+      "end": 0.88
+    },
+    {
+      "w": "how",
+      "start": 0.88,
+      "end": 1.1
+    },
+    {
+      "w": "to",
+      "start": 1.1,
+      "end": 1.18
+    },
+    {
+      "w": "turn",
+      "start": 1.18,
+      "end": 1.42
+    },
+    {
+      "w": "plastic",
+      "start": 1.42,
+      "end": 1.98
+    },
+    {
+      "w": "bottles",
+      "start": 1.98,
+      "end": 2.54
+    },
+    {
+      "w": "into",
+      "start": 2.54,
+      "end": 3.12
+    },
+    {
+      "w": "cookies.",
+      "start": 3.12,
+      "end": 3.48
+    },
+    {
+      "w": "And",
+      "start": 3.88,
+      "end": 3.92
+    },
+    {
+      "w": "these",
+      "start": 3.92,
+      "end": 4.08
+    },
+    {
+      "w": "are",
+      "start": 4.08,
+      "end": 4.26
+    },
+    {
+      "w": "real",
+      "start": 4.26,
+      "end": 4.58
+    },
+    {
+      "w": "cookies",
+      "start": 4.58,
+      "end": 4.9
+    },
+    {
+      "w": "that",
+      "start": 4.9,
+      "end": 5.2
+    },
+    {
+      "w": "smell",
+      "start": 5.2,
+      "end": 5.44
+    },
+    {
+      "w": "like",
+      "start": 5.44,
+      "end": 5.74
+    },
+    {
+      "w": "vanilla",
+      "start": 5.74,
+      "end": 6.1
+    },
+    {
+      "w": "and",
+      "start": 6.1,
+      "end": 6.42
+    },
+    {
+      "w": "have",
+      "start": 6.42,
+      "end": 6.58
+    },
+    {
+      "w": "protein",
+      "start": 6.58,
+      "end": 7.16
+    },
+    {
+      "w": "and",
+      "start": 7.16,
+      "end": 7.38
+    },
+    {
+      "w": "vitamins",
+      "start": 7.38,
+      "end": 7.72
+    },
+    {
+      "w": "that",
+      "start": 7.72,
+      "end": 8.18
+    },
+    {
+      "w": "humans",
+      "start": 8.18,
+      "end": 8.48
+    },
+    {
+      "w": "can",
+      "start": 8.48,
+      "end": 8.78
+    },
+    {
+      "w": "eat.",
+      "start": 8.78,
+      "end": 9.04
+    },
+    {
+      "w": "The",
+      "start": 9.2,
+      "end": 9.28
+    },
+    {
+      "w": "technology",
+      "start": 9.28,
+      "end": 9.62
+    },
+    {
+      "w": "behind",
+      "start": 9.62,
+      "end": 9.98
+    },
+    {
+      "w": "this",
+      "start": 9.98,
+      "end": 10.22
+    },
+    {
+      "w": "is",
+      "start": 10.22,
+      "end": 10.4
+    },
+    {
+      "w": "called",
+      "start": 10.4,
+      "end": 10.64
+    },
+    {
+      "w": "U",
+      "start": 10.64,
+      "end": 10.96
+    },
+    {
+      "w": "-Bytes.",
+      "start": 10.96,
+      "end": 11.18
+    },
+    {
+      "w": "And",
+      "start": 11.38,
+      "end": 11.46
+    },
+    {
+      "w": "the",
+      "start": 11.46,
+      "end": 11.54
+    },
+    {
+      "w": "crazy",
+      "start": 11.54,
+      "end": 11.74
+    },
+    {
+      "w": "part",
+      "start": 11.74,
+      "end": 12.0
+    },
+    {
+      "w": "is,",
+      "start": 12.0,
+      "end": 12.22
+    },
+    {
+      "w": "NASA",
+      "start": 12.56,
+      "end": 12.92
+    },
+    {
+      "w": "is",
+      "start": 12.92,
+      "end": 13.3
+    },
+    {
+      "w": "actually",
+      "start": 13.3,
+      "end": 13.84
+    },
+    {
+      "w": "paying",
+      "start": 13.84,
+      "end": 14.22
+    },
+    {
+      "w": "for",
+      "start": 14.22,
+      "end": 14.5
+    },
+    {
+      "w": "it.",
+      "start": 14.5,
+      "end": 14.64
+    },
+    {
+      "w": "So",
+      "start": 14.68,
+      "end": 14.78
+    },
+    {
+      "w": "their",
+      "start": 14.78,
+      "end": 14.9
+    },
+    {
+      "w": "astronauts",
+      "start": 14.9,
+      "end": 15.36
+    },
+    {
+      "w": "can",
+      "start": 15.36,
+      "end": 15.62
+    },
+    {
+      "w": "turn",
+      "start": 15.62,
+      "end": 15.8
+    },
+    {
+      "w": "their",
+      "start": 15.8,
+      "end": 16.06
+    },
+    {
+      "w": "own",
+      "start": 16.06,
+      "end": 16.36
+    },
+    {
+      "w": "trash",
+      "start": 16.36,
+      "end": 16.76
+    },
+    {
+      "w": "into",
+      "start": 16.76,
+      "end": 17.16
+    },
+    {
+      "w": "food",
+      "start": 17.16,
+      "end": 17.54
+    },
+    {
+      "w": "on",
+      "start": 17.54,
+      "end": 17.98
+    },
+    {
+      "w": "the",
+      "start": 17.98,
+      "end": 18.1
+    },
+    {
+      "w": "way",
+      "start": 18.1,
+      "end": 18.2
+    },
+    {
+      "w": "to",
+      "start": 18.2,
+      "end": 18.32
+    },
+    {
+      "w": "Mars.",
+      "start": 18.32,
+      "end": 18.54
+    },
+    {
+      "w": "It's",
+      "start": 18.84,
+      "end": 18.86
+    },
+    {
+      "w": "pretty",
+      "start": 18.86,
+      "end": 19.02
+    },
+    {
+      "w": "wild.",
+      "start": 19.02,
+      "end": 19.32
+    },
+    {
+      "w": "Now",
+      "start": 19.56,
+      "end": 19.62
+    },
+    {
+      "w": "the",
+      "start": 19.62,
+      "end": 19.7
+    },
+    {
+      "w": "way",
+      "start": 19.7,
+      "end": 19.82
+    },
+    {
+      "w": "this",
+      "start": 19.82,
+      "end": 19.98
+    },
+    {
+      "w": "whole",
+      "start": 19.98,
+      "end": 20.12
+    },
+    {
+      "w": "thing",
+      "start": 20.12,
+      "end": 20.3
+    },
+    {
+      "w": "works",
+      "start": 20.3,
+      "end": 20.58
+    },
+    {
+      "w": "is",
+      "start": 20.58,
+      "end": 20.8
+    },
+    {
+      "w": "actually",
+      "start": 20.8,
+      "end": 21.14
+    },
+    {
+      "w": "pretty",
+      "start": 21.14,
+      "end": 21.44
+    },
+    {
+      "w": "interesting.",
+      "start": 21.44,
+      "end": 21.86
+    },
+    {
+      "w": "Plastic",
+      "start": 22.22,
+      "end": 22.6
+    },
+    {
+      "w": "and",
+      "start": 22.6,
+      "end": 22.96
+    },
+    {
+      "w": "food",
+      "start": 22.96,
+      "end": 23.4
+    },
+    {
+      "w": "are",
+      "start": 23.4,
+      "end": 23.68
+    },
+    {
+      "w": "both",
+      "start": 23.68,
+      "end": 24.06
+    },
+    {
+      "w": "made",
+      "start": 24.06,
+      "end": 24.32
+    },
+    {
+      "w": "up",
+      "start": 24.32,
+      "end": 24.52
+    },
+    {
+      "w": "of",
+      "start": 24.52,
+      "end": 24.76
+    },
+    {
+      "w": "carbon",
+      "start": 24.76,
+      "end": 25.16
+    },
+    {
+      "w": "molecules.",
+      "start": 25.16,
+      "end": 25.72
+    },
+    {
+      "w": "So",
+      "start": 26.06,
+      "end": 26.18
+    },
+    {
+      "w": "first,",
+      "start": 26.18,
+      "end": 26.44
+    },
+    {
+      "w": "scientists",
+      "start": 26.78,
+      "end": 26.94
+    },
+    {
+      "w": "shred",
+      "start": 26.94,
+      "end": 27.38
+    },
+    {
+      "w": "the",
+      "start": 27.38,
+      "end": 27.56
+    },
+    {
+      "w": "plastic",
+      "start": 27.56,
+      "end": 27.86
+    },
+    {
+      "w": "bottles",
+      "start": 27.86,
+      "end": 28.28
+    },
+    {
+      "w": "and",
+      "start": 28.28,
+      "end": 28.56
+    },
+    {
+      "w": "blast",
+      "start": 28.56,
+      "end": 28.88
+    },
+    {
+      "w": "them",
+      "start": 28.88,
+      "end": 29.16
+    },
+    {
+      "w": "with",
+      "start": 29.16,
+      "end": 29.36
+    },
+    {
+      "w": "super",
+      "start": 29.36,
+      "end": 29.68
+    },
+    {
+      "w": "hot",
+      "start": 29.68,
+      "end": 30.02
+    },
+    {
+      "w": "ultra",
+      "start": 30.02,
+      "end": 30.4
+    },
+    {
+      "w": "high",
+      "start": 30.4,
+      "end": 30.62
+    },
+    {
+      "w": "pressure",
+      "start": 30.62,
+      "end": 30.88
+    },
+    {
+      "w": "water.",
+      "start": 30.88,
+      "end": 31.3
+    },
+    {
+      "w": "And",
+      "start": 31.54,
+      "end": 31.56
+    },
+    {
+      "w": "this",
+      "start": 31.56,
+      "end": 31.68
+    },
+    {
+      "w": "breaks",
+      "start": 31.68,
+      "end": 31.88
+    },
+    {
+      "w": "them",
+      "start": 31.88,
+      "end": 32.06
+    },
+    {
+      "w": "all",
+      "start": 32.06,
+      "end": 32.34
+    },
+    {
+      "w": "the",
+      "start": 32.34,
+      "end": 32.46
+    },
+    {
+      "w": "way",
+      "start": 32.46,
+      "end": 32.56
+    },
+    {
+      "w": "down",
+      "start": 32.56,
+      "end": 32.8
+    },
+    {
+      "w": "into",
+      "start": 32.8,
+      "end": 33.12
+    },
+    {
+      "w": "molecules,",
+      "start": 33.12,
+      "end": 33.58
+    },
+    {
+      "w": "basically",
+      "start": 33.82,
+      "end": 34.2
+    },
+    {
+      "w": "a",
+      "start": 34.2,
+      "end": 34.52
+    },
+    {
+      "w": "carbon",
+      "start": 34.52,
+      "end": 34.94
+    },
+    {
+      "w": "soup.",
+      "start": 34.94,
+      "end": 35.38
+    },
+    {
+      "w": "Here's",
+      "start": 35.58,
+      "end": 35.82
+    },
+    {
+      "w": "what",
+      "start": 35.82,
+      "end": 35.9
+    },
+    {
+      "w": "gets",
+      "start": 35.9,
+      "end": 36.04
+    },
+    {
+      "w": "interesting.",
+      "start": 36.04,
+      "end": 36.32
+    },
+    {
+      "w": "They",
+      "start": 36.54,
+      "end": 36.62
+    },
+    {
+      "w": "then",
+      "start": 36.62,
+      "end": 36.82
+    },
+    {
+      "w": "feed",
+      "start": 36.82,
+      "end": 37.18
+    },
+    {
+      "w": "that",
+      "start": 37.18,
+      "end": 37.44
+    },
+    {
+      "w": "soup",
+      "start": 37.44,
+      "end": 37.88
+    },
+    {
+      "w": "to",
+      "start": 37.88,
+      "end": 38.18
+    },
+    {
+      "w": "a",
+      "start": 38.18,
+      "end": 38.34
+    },
+    {
+      "w": "type",
+      "start": 38.34,
+      "end": 38.62
+    },
+    {
+      "w": "of",
+      "start": 38.62,
+      "end": 38.8
+    },
+    {
+      "w": "yeast.",
+      "start": 38.8,
+      "end": 39.12
+    },
+    {
+      "w": "This",
+      "start": 39.36,
+      "end": 39.5
+    },
+    {
+      "w": "yeast",
+      "start": 39.5,
+      "end": 39.68
+    },
+    {
+      "w": "is",
+      "start": 39.68,
+      "end": 39.8
+    },
+    {
+      "w": "in",
+      "start": 39.8,
+      "end": 39.92
+    },
+    {
+      "w": "the",
+      "start": 39.92,
+      "end": 40.0
+    },
+    {
+      "w": "same",
+      "start": 40.0,
+      "end": 40.2
+    },
+    {
+      "w": "family",
+      "start": 40.2,
+      "end": 40.7
+    },
+    {
+      "w": "as",
+      "start": 40.7,
+      "end": 41.0
+    },
+    {
+      "w": "the",
+      "start": 41.0,
+      "end": 41.12
+    },
+    {
+      "w": "yeast",
+      "start": 41.12,
+      "end": 41.38
+    },
+    {
+      "w": "that",
+      "start": 41.38,
+      "end": 41.52
+    },
+    {
+      "w": "makes",
+      "start": 41.52,
+      "end": 41.68
+    },
+    {
+      "w": "bread",
+      "start": 41.68,
+      "end": 41.9
+    },
+    {
+      "w": "rise,",
+      "start": 41.9,
+      "end": 42.24
+    },
+    {
+      "w": "except",
+      "start": 42.38,
+      "end": 42.62
+    },
+    {
+      "w": "that",
+      "start": 42.62,
+      "end": 42.82
+    },
+    {
+      "w": "this",
+      "start": 42.82,
+      "end": 43.06
+    },
+    {
+      "w": "yeast",
+      "start": 43.06,
+      "end": 43.36
+    },
+    {
+      "w": "is",
+      "start": 43.36,
+      "end": 43.58
+    },
+    {
+      "w": "engineered",
+      "start": 43.58,
+      "end": 44.06
+    },
+    {
+      "w": "to",
+      "start": 44.06,
+      "end": 44.46
+    },
+    {
+      "w": "eat",
+      "start": 44.46,
+      "end": 44.62
+    },
+    {
+      "w": "plastic",
+      "start": 44.62,
+      "end": 45.18
+    },
+    {
+      "w": "instead",
+      "start": 45.18,
+      "end": 45.6
+    },
+    {
+      "w": "of",
+      "start": 45.6,
+      "end": 45.78
+    },
+    {
+      "w": "sugar.",
+      "start": 45.78,
+      "end": 46.04
+    },
+    {
+      "w": "Now",
+      "start": 46.24,
+      "end": 46.32
+    },
+    {
+      "w": "once",
+      "start": 46.32,
+      "end": 46.48
+    },
+    {
+      "w": "the",
+      "start": 46.48,
+      "end": 46.66
+    },
+    {
+      "w": "yeast",
+      "start": 46.66,
+      "end": 46.86
+    },
+    {
+      "w": "eats",
+      "start": 46.86,
+      "end": 47.2
+    },
+    {
+      "w": "the",
+      "start": 47.2,
+      "end": 47.36
+    },
+    {
+      "w": "carbon",
+      "start": 47.36,
+      "end": 47.62
+    },
+    {
+      "w": "molecules,",
+      "start": 47.62,
+      "end": 48.14
+    },
+    {
+      "w": "what",
+      "start": 48.32,
+      "end": 48.42
+    },
+    {
+      "w": "comes",
+      "start": 48.42,
+      "end": 48.56
+    },
+    {
+      "w": "out",
+      "start": 48.56,
+      "end": 48.74
+    },
+    {
+      "w": "the",
+      "start": 48.74,
+      "end": 48.88
+    },
+    {
+      "w": "other",
+      "start": 48.88,
+      "end": 49.02
+    },
+    {
+      "w": "side",
+      "start": 49.02,
+      "end": 49.4
+    },
+    {
+      "w": "are",
+      "start": 49.4,
+      "end": 49.68
+    },
+    {
+      "w": "protein,",
+      "start": 49.68,
+      "end": 50.18
+    },
+    {
+      "w": "fats,",
+      "start": 50.38,
+      "end": 50.62
+    },
+    {
+      "w": "and",
+      "start": 50.84,
+      "end": 50.9
+    },
+    {
+      "w": "vitamins.",
+      "start": 50.9,
+      "end": 51.22
+    },
+    {
+      "w": "One",
+      "start": 51.52,
+      "end": 51.68
+    },
+    {
+      "w": "strand",
+      "start": 51.68,
+      "end": 51.86
+    },
+    {
+      "w": "of",
+      "start": 51.86,
+      "end": 51.96
+    },
+    {
+      "w": "the",
+      "start": 51.96,
+      "end": 52.04
+    },
+    {
+      "w": "yeast",
+      "start": 52.04,
+      "end": 52.26
+    },
+    {
+      "w": "turns",
+      "start": 52.26,
+      "end": 52.58
+    },
+    {
+      "w": "the",
+      "start": 52.58,
+      "end": 52.76
+    },
+    {
+      "w": "carbon",
+      "start": 52.76,
+      "end": 53.1
+    },
+    {
+      "w": "into",
+      "start": 53.1,
+      "end": 53.5
+    },
+    {
+      "w": "vitamin",
+      "start": 53.5,
+      "end": 53.96
+    },
+    {
+      "w": "A.",
+      "start": 53.96,
+      "end": 54.38
+    },
+    {
+      "w": "Another",
+      "start": 54.5,
+      "end": 54.72
+    },
+    {
+      "w": "one",
+      "start": 54.72,
+      "end": 55.0
+    },
+    {
+      "w": "makes",
+      "start": 55.0,
+      "end": 55.38
+    },
+    {
+      "w": "the",
+      "start": 55.38,
+      "end": 55.56
+    },
+    {
+      "w": "vanilla.",
+      "start": 55.56,
+      "end": 55.8
+    },
+    {
+      "w": "They",
+      "start": 56.0,
+      "end": 56.1
+    },
+    {
+      "w": "then",
+      "start": 56.1,
+      "end": 56.28
+    },
+    {
+      "w": "add",
+      "start": 56.28,
+      "end": 56.56
+    },
+    {
+      "w": "fiber",
+      "start": 56.56,
+      "end": 56.92
+    },
+    {
+      "w": "and",
+      "start": 56.92,
+      "end": 57.18
+    },
+    {
+      "w": "sweetener",
+      "start": 57.18,
+      "end": 57.62
+    },
+    {
+      "w": "and",
+      "start": 57.62,
+      "end": 57.88
+    },
+    {
+      "w": "3D",
+      "start": 57.88,
+      "end": 58.44
+    },
+    {
+      "w": "print",
+      "start": 58.44,
+      "end": 58.76
+    },
+    {
+      "w": "the",
+      "start": 58.76,
+      "end": 58.92
+    },
+    {
+      "w": "mixture",
+      "start": 58.92,
+      "end": 59.28
+    },
+    {
+      "w": "into",
+      "start": 59.28,
+      "end": 59.68
+    },
+    {
+      "w": "cookies.",
+      "start": 59.68,
+      "end": 60.02
+    },
+    {
+      "w": "So",
+      "start": 60.38,
+      "end": 60.48
+    },
+    {
+      "w": "what",
+      "start": 60.48,
+      "end": 60.58
+    },
+    {
+      "w": "you're",
+      "start": 60.58,
+      "end": 60.64
+    },
+    {
+      "w": "eating",
+      "start": 60.64,
+      "end": 60.84
+    },
+    {
+      "w": "is",
+      "start": 60.84,
+      "end": 61.04
+    },
+    {
+      "w": "not",
+      "start": 61.04,
+      "end": 61.24
+    },
+    {
+      "w": "actually",
+      "start": 61.24,
+      "end": 61.76
+    },
+    {
+      "w": "plastic.",
+      "start": 61.76,
+      "end": 62.28
+    },
+    {
+      "w": "It's",
+      "start": 62.56,
+      "end": 62.66
+    },
+    {
+      "w": "what",
+      "start": 62.66,
+      "end": 62.8
+    },
+    {
+      "w": "the",
+      "start": 62.8,
+      "end": 62.96
+    },
+    {
+      "w": "yeast",
+      "start": 62.96,
+      "end": 63.28
+    },
+    {
+      "w": "made",
+      "start": 63.28,
+      "end": 63.7
+    },
+    {
+      "w": "out",
+      "start": 63.7,
+      "end": 64.08
+    },
+    {
+      "w": "of",
+      "start": 64.08,
+      "end": 64.16
+    },
+    {
+      "w": "the",
+      "start": 64.16,
+      "end": 64.26
+    },
+    {
+      "w": "plastic",
+      "start": 64.26,
+      "end": 64.64
+    },
+    {
+      "w": "when",
+      "start": 64.64,
+      "end": 64.96
+    },
+    {
+      "w": "it",
+      "start": 64.96,
+      "end": 65.1
+    },
+    {
+      "w": "ate",
+      "start": 65.1,
+      "end": 65.3
+    },
+    {
+      "w": "it.",
+      "start": 65.3,
+      "end": 65.4
+    },
+    {
+      "w": "But",
+      "start": 65.46,
+      "end": 65.52
+    },
+    {
+      "w": "the",
+      "start": 65.52,
+      "end": 65.64
+    },
+    {
+      "w": "craziest",
+      "start": 65.64,
+      "end": 65.84
+    },
+    {
+      "w": "part",
+      "start": 65.84,
+      "end": 66.16
+    },
+    {
+      "w": "of",
+      "start": 66.16,
+      "end": 66.28
+    },
+    {
+      "w": "this",
+      "start": 66.28,
+      "end": 66.38
+    },
+    {
+      "w": "whole",
+      "start": 66.38,
+      "end": 66.52
+    },
+    {
+      "w": "story",
+      "start": 66.52,
+      "end": 66.82
+    },
+    {
+      "w": "is",
+      "start": 66.82,
+      "end": 67.02
+    },
+    {
+      "w": "why",
+      "start": 67.02,
+      "end": 67.44
+    },
+    {
+      "w": "NASA",
+      "start": 67.44,
+      "end": 68.04
+    },
+    {
+      "w": "wants",
+      "start": 68.04,
+      "end": 68.6
+    },
+    {
+      "w": "this",
+      "start": 68.6,
+      "end": 68.88
+    },
+    {
+      "w": "technology",
+      "start": 68.88,
+      "end": 69.44
+    },
+    {
+      "w": "in",
+      "start": 69.44,
+      "end": 69.74
+    },
+    {
+      "w": "the",
+      "start": 69.74,
+      "end": 69.82
+    },
+    {
+      "w": "first",
+      "start": 69.82,
+      "end": 70.0
+    },
+    {
+      "w": "place.",
+      "start": 70.0,
+      "end": 70.28
+    },
+    {
+      "w": "See,",
+      "start": 70.52,
+      "end": 70.6
+    },
+    {
+      "w": "a",
+      "start": 70.74,
+      "end": 70.78
+    },
+    {
+      "w": "round",
+      "start": 70.78,
+      "end": 71.04
+    },
+    {
+      "w": "trip",
+      "start": 71.04,
+      "end": 71.32
+    },
+    {
+      "w": "to",
+      "start": 71.32,
+      "end": 71.5
+    },
+    {
+      "w": "Mars",
+      "start": 71.5,
+      "end": 71.8
+    },
+    {
+      "w": "will",
+      "start": 71.8,
+      "end": 72.12
+    },
+    {
+      "w": "take",
+      "start": 72.12,
+      "end": 72.34
+    },
+    {
+      "w": "approximately",
+      "start": 72.34,
+      "end": 72.96
+    },
+    {
+      "w": "three",
+      "start": 72.96,
+      "end": 73.38
+    },
+    {
+      "w": "years.",
+      "start": 73.38,
+      "end": 73.74
+    },
+    {
+      "w": "And",
+      "start": 73.92,
+      "end": 74.0
+    },
+    {
+      "w": "there's",
+      "start": 74.0,
+      "end": 74.18
+    },
+    {
+      "w": "no",
+      "start": 74.18,
+      "end": 74.34
+    },
+    {
+      "w": "way",
+      "start": 74.34,
+      "end": 74.56
+    },
+    {
+      "w": "to",
+      "start": 74.56,
+      "end": 74.68
+    },
+    {
+      "w": "pack",
+      "start": 74.68,
+      "end": 74.94
+    },
+    {
+      "w": "three",
+      "start": 74.94,
+      "end": 75.3
+    },
+    {
+      "w": "years",
+      "start": 75.3,
+      "end": 75.52
+    },
+    {
+      "w": "worth",
+      "start": 75.52,
+      "end": 75.72
+    },
+    {
+      "w": "of",
+      "start": 75.72,
+      "end": 75.92
+    },
+    {
+      "w": "food",
+      "start": 75.92,
+      "end": 76.22
+    },
+    {
+      "w": "in",
+      "start": 76.22,
+      "end": 76.52
+    },
+    {
+      "w": "a",
+      "start": 76.52,
+      "end": 76.62
+    },
+    {
+      "w": "single",
+      "start": 76.62,
+      "end": 76.88
+    },
+    {
+      "w": "spaceship.",
+      "start": 76.88,
+      "end": 77.3
+    },
+    {
+      "w": "So",
+      "start": 77.42,
+      "end": 77.54
+    },
+    {
+      "w": "in",
+      "start": 77.54,
+      "end": 77.62
+    },
+    {
+      "w": "theory,",
+      "start": 77.62,
+      "end": 77.84
+    },
+    {
+      "w": "this",
+      "start": 77.98,
+      "end": 78.1
+    },
+    {
+      "w": "method",
+      "start": 78.1,
+      "end": 78.42
+    },
+    {
+      "w": "is",
+      "start": 78.42,
+      "end": 78.68
+    },
+    {
+      "w": "a",
+      "start": 78.68,
+      "end": 78.8
+    },
+    {
+      "w": "way",
+      "start": 78.8,
+      "end": 78.94
+    },
+    {
+      "w": "that",
+      "start": 78.94,
+      "end": 79.08
+    },
+    {
+      "w": "astronauts",
+      "start": 79.08,
+      "end": 79.6
+    },
+    {
+      "w": "could",
+      "start": 79.6,
+      "end": 79.94
+    },
+    {
+      "w": "turn",
+      "start": 79.94,
+      "end": 80.32
+    },
+    {
+      "w": "their",
+      "start": 80.32,
+      "end": 80.54
+    },
+    {
+      "w": "trash",
+      "start": 80.54,
+      "end": 81.08
+    },
+    {
+      "w": "into",
+      "start": 81.08,
+      "end": 81.46
+    },
+    {
+      "w": "edible",
+      "start": 81.46,
+      "end": 81.96
+    },
+    {
+      "w": "food",
+      "start": 81.96,
+      "end": 82.4
+    },
+    {
+      "w": "on",
+      "start": 82.4,
+      "end": 82.7
+    },
+    {
+      "w": "the",
+      "start": 82.7,
+      "end": 82.82
+    },
+    {
+      "w": "journey.",
+      "start": 82.82,
+      "end": 83.06
+    },
+    {
+      "w": "There's",
+      "start": 83.22,
+      "end": 83.38
+    },
+    {
+      "w": "just",
+      "start": 83.38,
+      "end": 83.48
+    },
+    {
+      "w": "one",
+      "start": 83.48,
+      "end": 83.68
+    },
+    {
+      "w": "catch.",
+      "start": 83.68,
+      "end": 83.92
+    },
+    {
+      "w": "Nobody's",
+      "start": 84.2,
+      "end": 84.6
+    },
+    {
+      "w": "ever",
+      "start": 84.6,
+      "end": 84.76
+    },
+    {
+      "w": "taste",
+      "start": 84.76,
+      "end": 85.12
+    },
+    {
+      "w": "tested",
+      "start": 85.12,
+      "end": 85.42
+    },
+    {
+      "w": "these",
+      "start": 85.42,
+      "end": 85.8
+    },
+    {
+      "w": "plastic",
+      "start": 85.8,
+      "end": 86.26
+    },
+    {
+      "w": "cookies",
+      "start": 86.26,
+      "end": 86.66
+    },
+    {
+      "w": "before.",
+      "start": 86.66,
+      "end": 87.04
+    },
+    {
+      "w": "The",
+      "start": 87.04,
+      "end": 87.28
+    },
+    {
+      "w": "taste",
+      "start": 87.28,
+      "end": 87.48
+    },
+    {
+      "w": "test",
+      "start": 87.48,
+      "end": 87.72
+    },
+    {
+      "w": "is",
+      "start": 87.72,
+      "end": 87.9
+    },
+    {
+      "w": "still",
+      "start": 87.9,
+      "end": 88.14
+    },
+    {
+      "w": "waiting",
+      "start": 88.14,
+      "end": 88.5
+    },
+    {
+      "w": "on",
+      "start": 88.5,
+      "end": 88.78
+    },
+    {
+      "w": "FDA",
+      "start": 88.78,
+      "end": 89.14
+    },
+    {
+      "w": "approval.",
+      "start": 89.14,
+      "end": 89.56
+    },
+    {
+      "w": "But",
+      "start": 89.74,
+      "end": 89.78
+    },
+    {
+      "w": "if",
+      "start": 89.78,
+      "end": 89.88
+    },
+    {
+      "w": "this",
+      "start": 89.88,
+      "end": 90.02
+    },
+    {
+      "w": "works,",
+      "start": 90.02,
+      "end": 90.24
+    },
+    {
+      "w": "there's",
+      "start": 90.38,
+      "end": 90.52
+    },
+    {
+      "w": "a",
+      "start": 90.52,
+      "end": 90.6
+    },
+    {
+      "w": "good",
+      "start": 90.6,
+      "end": 90.76
+    },
+    {
+      "w": "chance",
+      "start": 90.76,
+      "end": 91.08
+    },
+    {
+      "w": "the",
+      "start": 91.08,
+      "end": 91.3
+    },
+    {
+      "w": "first",
+      "start": 91.3,
+      "end": 91.64
+    },
+    {
+      "w": "cookie",
+      "start": 91.64,
+      "end": 92.04
+    },
+    {
+      "w": "ever",
+      "start": 92.04,
+      "end": 92.38
+    },
+    {
+      "w": "eaten",
+      "start": 92.38,
+      "end": 92.7
+    },
+    {
+      "w": "on",
+      "start": 92.7,
+      "end": 92.86
+    },
+    {
+      "w": "Mars",
+      "start": 92.86,
+      "end": 93.2
+    },
+    {
+      "w": "will",
+      "start": 93.2,
+      "end": 93.54
+    },
+    {
+      "w": "have",
+      "start": 93.54,
+      "end": 93.72
+    },
+    {
+      "w": "been",
+      "start": 93.72,
+      "end": 93.88
+    },
+    {
+      "w": "made",
+      "start": 93.88,
+      "end": 94.14
+    },
+    {
+      "w": "out",
+      "start": 94.14,
+      "end": 94.6
+    },
+    {
+      "w": "of",
+      "start": 94.6,
+      "end": 94.72
+    },
+    {
+      "w": "plastic.",
+      "start": 94.72,
+      "end": 94.94
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 3.879,
+      "length": 3.879,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0E",
+            "share": 0.292
+          },
+          {
+            "hex": "#312D2C",
+            "share": 0.065
+          },
+          {
+            "hex": "#AEADB0",
+            "share": 0.058
+          },
+          {
+            "hex": "#CFD1D3",
+            "share": 0.057
+          },
+          {
+            "hex": "#524F4B",
+            "share": 0.047
+          }
+        ],
+        "motion_energy": 31.27,
+        "script": "Scientists just figured out how to turn plastic bottles into cookies."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 3.879,
+      "end": 5.088,
+      "length": 1.21,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#010101",
+            "share": 0.252
+          },
+          {
+            "hex": "#AF946A",
+            "share": 0.081
+          },
+          {
+            "hex": "#90734E",
+            "share": 0.062
+          },
+          {
+            "hex": "#714E32",
+            "share": 0.036
+          },
+          {
+            "hex": "#53524F",
+            "share": 0.035
+          }
+        ],
+        "motion_energy": 5.3,
+        "script": "And these are real cookies that"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 5.088,
+      "end": 6.173,
+      "length": 1.084,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#020101",
+            "share": 0.274
+          },
+          {
+            "hex": "#B37567",
+            "share": 0.086
+          },
+          {
+            "hex": "#AA6A57",
+            "share": 0.072
+          },
+          {
+            "hex": "#905548",
+            "share": 0.066
+          },
+          {
+            "hex": "#30130C",
+            "share": 0.06
+          }
+        ],
+        "motion_energy": 16.47,
+        "script": "smell like vanilla and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 6.173,
+      "end": 8.05,
+      "length": 1.877,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#010101",
+            "share": 0.247
+          },
+          {
+            "hex": "#898B90",
+            "share": 0.162
+          },
+          {
+            "hex": "#8E7771",
+            "share": 0.077
+          },
+          {
+            "hex": "#C5D0DB",
+            "share": 0.074
+          },
+          {
+            "hex": "#9299A6",
+            "share": 0.046
+          }
+        ],
+        "motion_energy": 11.0,
+        "script": "have protein and vitamins that"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 8.05,
+      "end": 9.218,
+      "length": 1.168,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C090C",
+            "share": 0.682
+          },
+          {
+            "hex": "#2E282A",
+            "share": 0.03
+          },
+          {
+            "hex": "#251B18",
+            "share": 0.028
+          },
+          {
+            "hex": "#2B221B",
+            "share": 0.027
+          },
+          {
+            "hex": "#B07147",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 8.29,
+        "script": "humans can eat. The"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 9.218,
+      "end": 10.302,
+      "length": 1.084,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0D",
+            "share": 0.321
+          },
+          {
+            "hex": "#AD744D",
+            "share": 0.063
+          },
+          {
+            "hex": "#72492F",
+            "share": 0.044
+          },
+          {
+            "hex": "#8A5737",
+            "share": 0.044
+          },
+          {
+            "hex": "#D29567",
+            "share": 0.044
+          }
+        ],
+        "motion_energy": 12.5,
+        "script": "technology behind this is"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 10.302,
+      "end": 11.303,
+      "length": 1.001,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0D",
+            "share": 0.294
+          },
+          {
+            "hex": "#EBFAFC",
+            "share": 0.113
+          },
+          {
+            "hex": "#734734",
+            "share": 0.036
+          },
+          {
+            "hex": "#D8E9F2",
+            "share": 0.033
+          },
+          {
+            "hex": "#6A3829",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 32.69,
+        "script": "called U -Bytes."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 11.303,
+      "end": 12.512,
+      "length": 1.209,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C090C",
+            "share": 0.691
+          },
+          {
+            "hex": "#251B17",
+            "share": 0.03
+          },
+          {
+            "hex": "#B17246",
+            "share": 0.027
+          },
+          {
+            "hex": "#8D5736",
+            "share": 0.023
+          },
+          {
+            "hex": "#72492F",
+            "share": 0.02
+          }
+        ],
+        "motion_energy": 9.69,
+        "script": "And the crazy part is,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 12.512,
+      "end": 15.515,
+      "length": 3.003,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0D",
+            "share": 0.299
+          },
+          {
+            "hex": "#FAF7ED",
+            "share": 0.085
+          },
+          {
+            "hex": "#D3D1CA",
+            "share": 0.035
+          },
+          {
+            "hex": "#F2E9D3",
+            "share": 0.026
+          },
+          {
+            "hex": "#6F5033",
+            "share": 0.025
+          }
+        ],
+        "motion_energy": 19.48,
+        "script": "NASA is actually paying for it. So their astronauts can"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 15.515,
+      "end": 17.809,
+      "length": 2.294,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0D",
+            "share": 0.315
+          },
+          {
+            "hex": "#F8F8F7",
+            "share": 0.253
+          },
+          {
+            "hex": "#222222",
+            "share": 0.157
+          },
+          {
+            "hex": "#ECD84A",
+            "share": 0.026
+          },
+          {
+            "hex": "#8A776B",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 13.05,
+        "script": "turn their own trash into food on"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 10,
+      "start": 17.809,
+      "end": 18.769,
+      "length": 0.959,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0C0E",
+            "share": 0.465
+          },
+          {
+            "hex": "#2F2929",
+            "share": 0.094
+          },
+          {
+            "hex": "#4C3029",
+            "share": 0.062
+          },
+          {
+            "hex": "#261A19",
+            "share": 0.058
+          },
+          {
+            "hex": "#8C5034",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 15.93,
+        "script": "the way to Mars."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 11,
+      "start": 18.769,
+      "end": 19.52,
+      "length": 0.751,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.615
+          },
+          {
+            "hex": "#29221B",
+            "share": 0.044
+          },
+          {
+            "hex": "#AF7148",
+            "share": 0.035
+          },
+          {
+            "hex": "#2E2626",
+            "share": 0.034
+          },
+          {
+            "hex": "#241C19",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 25.75,
+        "script": "It's pretty wild."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 12,
+      "start": 19.52,
+      "end": 22.105,
+      "length": 2.586,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0A",
+            "share": 0.423
+          },
+          {
+            "hex": "#B49170",
+            "share": 0.065
+          },
+          {
+            "hex": "#D48B4B",
+            "share": 0.048
+          },
+          {
+            "hex": "#332B27",
+            "share": 0.035
+          },
+          {
+            "hex": "#4A372B",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 14.7,
+        "script": "Now the way this whole thing works is actually pretty interesting."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 13,
+      "start": 22.105,
+      "end": 26.068,
+      "length": 3.962,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#702500",
+            "share": 0.49
+          },
+          {
+            "hex": "#010101",
+            "share": 0.247
+          },
+          {
+            "hex": "#853501",
+            "share": 0.107
+          },
+          {
+            "hex": "#611E00",
+            "share": 0.041
+          },
+          {
+            "hex": "#92460A",
+            "share": 0.033
+          }
+        ],
+        "motion_energy": 38.3,
+        "script": "Plastic and food are both made up of carbon molecules. So"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 14,
+      "start": 26.068,
+      "end": 27.236,
+      "length": 1.168,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#020202",
+            "share": 0.322
+          },
+          {
+            "hex": "#B0AFAE",
+            "share": 0.078
+          },
+          {
+            "hex": "#928F8D",
+            "share": 0.058
+          },
+          {
+            "hex": "#CDCED2",
+            "share": 0.041
+          },
+          {
+            "hex": "#71706E",
+            "share": 0.036
+          }
+        ],
+        "motion_energy": 28.42,
+        "script": "first, scientists shred"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 15,
+      "start": 27.236,
+      "end": 28.403,
+      "length": 1.168,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#040304",
+            "share": 0.293
+          },
+          {
+            "hex": "#312E2C",
+            "share": 0.106
+          },
+          {
+            "hex": "#52504B",
+            "share": 0.093
+          },
+          {
+            "hex": "#CFD2D2",
+            "share": 0.058
+          },
+          {
+            "hex": "#737069",
+            "share": 0.05
+          }
+        ],
+        "motion_energy": 7.49,
+        "script": "the plastic bottles and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 16,
+      "start": 28.403,
+      "end": 31.49,
+      "length": 3.086,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#010101",
+            "share": 0.249
+          },
+          {
+            "hex": "#8E8F91",
+            "share": 0.231
+          },
+          {
+            "hex": "#ABACAE",
+            "share": 0.162
+          },
+          {
+            "hex": "#707071",
+            "share": 0.126
+          },
+          {
+            "hex": "#504E4E",
+            "share": 0.087
+          }
+        ],
+        "motion_energy": 21.93,
+        "script": "blast them with super hot ultra high pressure water."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 17,
+      "start": 31.49,
+      "end": 35.577,
+      "length": 4.087,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#040304",
+            "share": 0.511
+          },
+          {
+            "hex": "#291914",
+            "share": 0.062
+          },
+          {
+            "hex": "#4B362D",
+            "share": 0.059
+          },
+          {
+            "hex": "#322B2A",
+            "share": 0.059
+          },
+          {
+            "hex": "#6D554A",
+            "share": 0.039
+          }
+        ],
+        "motion_energy": 36.18,
+        "script": "And this breaks them all the way down into molecules, basically a carbon soup."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 18,
+      "start": 35.577,
+      "end": 36.453,
+      "length": 0.876,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.674
+          },
+          {
+            "hex": "#B17248",
+            "share": 0.035
+          },
+          {
+            "hex": "#714A30",
+            "share": 0.03
+          },
+          {
+            "hex": "#241B18",
+            "share": 0.028
+          },
+          {
+            "hex": "#2D2729",
+            "share": 0.024
+          }
+        ],
+        "motion_energy": 28.27,
+        "script": "Here's what gets interesting."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 19,
+      "start": 36.453,
+      "end": 42.376,
+      "length": 5.923,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0E",
+            "share": 0.303
+          },
+          {
+            "hex": "#4E3528",
+            "share": 0.065
+          },
+          {
+            "hex": "#261B16",
+            "share": 0.064
+          },
+          {
+            "hex": "#32231B",
+            "share": 0.061
+          },
+          {
+            "hex": "#6B4C35",
+            "share": 0.048
+          }
+        ],
+        "motion_energy": 21.09,
+        "script": "They then feed that soup to a type of yeast. This yeast is in the same family as the yeast that makes bread rise,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 20,
+      "start": 42.376,
+      "end": 44.67,
+      "length": 2.294,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.657
+          },
+          {
+            "hex": "#B17247",
+            "share": 0.045
+          },
+          {
+            "hex": "#251B18",
+            "share": 0.032
+          },
+          {
+            "hex": "#714930",
+            "share": 0.03
+          },
+          {
+            "hex": "#503428",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 9.22,
+        "script": "except that this yeast is engineered to eat plastic"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 21,
+      "start": 44.67,
+      "end": 46.255,
+      "length": 1.585,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0D",
+            "share": 0.314
+          },
+          {
+            "hex": "#515155",
+            "share": 0.059
+          },
+          {
+            "hex": "#6A6A6E",
+            "share": 0.057
+          },
+          {
+            "hex": "#2E2B2D",
+            "share": 0.04
+          },
+          {
+            "hex": "#546772",
+            "share": 0.035
+          }
+        ],
+        "motion_energy": 16.16,
+        "script": "instead of sugar. Now"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 22,
+      "start": 46.255,
+      "end": 48.298,
+      "length": 2.044,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.677
+          },
+          {
+            "hex": "#241B18",
+            "share": 0.033
+          },
+          {
+            "hex": "#B17147",
+            "share": 0.033
+          },
+          {
+            "hex": "#2A221B",
+            "share": 0.027
+          },
+          {
+            "hex": "#8B5636",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 9.52,
+        "script": "once the yeast eats the carbon molecules,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 23,
+      "start": 48.298,
+      "end": 51.51,
+      "length": 3.212,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0D",
+            "share": 0.322
+          },
+          {
+            "hex": "#FBF2E8",
+            "share": 0.182
+          },
+          {
+            "hex": "#F8E8D1",
+            "share": 0.164
+          },
+          {
+            "hex": "#F5DAAC",
+            "share": 0.039
+          },
+          {
+            "hex": "#F4D091",
+            "share": 0.037
+          }
+        ],
+        "motion_energy": 20.17,
+        "script": "what comes out the other side are protein, fats, and vitamins."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 24,
+      "start": 51.51,
+      "end": 52.344,
+      "length": 0.834,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.687
+          },
+          {
+            "hex": "#B17248",
+            "share": 0.035
+          },
+          {
+            "hex": "#724A31",
+            "share": 0.029
+          },
+          {
+            "hex": "#241B18",
+            "share": 0.029
+          },
+          {
+            "hex": "#2C2728",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 24.94,
+        "script": "One strand of the yeast turns"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 25,
+      "start": 52.344,
+      "end": 55.973,
+      "length": 3.629,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0D",
+            "share": 0.308
+          },
+          {
+            "hex": "#74746F",
+            "share": 0.105
+          },
+          {
+            "hex": "#C9D9E9",
+            "share": 0.055
+          },
+          {
+            "hex": "#51504F",
+            "share": 0.049
+          },
+          {
+            "hex": "#302C2D",
+            "share": 0.033
+          }
+        ],
+        "motion_energy": 14.14,
+        "script": "the carbon into vitamin A. Another one makes the vanilla."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 26,
+      "start": 55.973,
+      "end": 57.766,
+      "length": 1.794,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C090B",
+            "share": 0.702
+          },
+          {
+            "hex": "#8B5535",
+            "share": 0.027
+          },
+          {
+            "hex": "#251C18",
+            "share": 0.026
+          },
+          {
+            "hex": "#704931",
+            "share": 0.025
+          },
+          {
+            "hex": "#B17249",
+            "share": 0.024
+          }
+        ],
+        "motion_energy": 8.21,
+        "script": "They then add fiber and sweetener and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 27,
+      "start": 57.766,
+      "end": 60.352,
+      "length": 2.586,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C090D",
+            "share": 0.33
+          },
+          {
+            "hex": "#D0908F",
+            "share": 0.078
+          },
+          {
+            "hex": "#B1736E",
+            "share": 0.056
+          },
+          {
+            "hex": "#EBA4A7",
+            "share": 0.035
+          },
+          {
+            "hex": "#8D7369",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 17.23,
+        "script": "3D print the mixture into cookies."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 28,
+      "start": 60.352,
+      "end": 62.521,
+      "length": 2.169,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0C",
+            "share": 0.687
+          },
+          {
+            "hex": "#B07048",
+            "share": 0.035
+          },
+          {
+            "hex": "#8D5435",
+            "share": 0.032
+          },
+          {
+            "hex": "#251B18",
+            "share": 0.027
+          },
+          {
+            "hex": "#724A31",
+            "share": 0.025
+          }
+        ],
+        "motion_energy": 7.06,
+        "script": "So what you're eating is not actually plastic."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 29,
+      "start": 62.521,
+      "end": 65.482,
+      "length": 2.961,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C090A",
+            "share": 0.458
+          },
+          {
+            "hex": "#B69170",
+            "share": 0.051
+          },
+          {
+            "hex": "#D38C4E",
+            "share": 0.046
+          },
+          {
+            "hex": "#241B14",
+            "share": 0.037
+          },
+          {
+            "hex": "#E59751",
+            "share": 0.037
+          }
+        ],
+        "motion_energy": 10.79,
+        "script": "It's what the yeast made out of the plastic when it ate it. But"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 30,
+      "start": 65.482,
+      "end": 67.192,
+      "length": 1.71,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.675
+          },
+          {
+            "hex": "#B17247",
+            "share": 0.039
+          },
+          {
+            "hex": "#251B18",
+            "share": 0.03
+          },
+          {
+            "hex": "#714930",
+            "share": 0.025
+          },
+          {
+            "hex": "#8C5535",
+            "share": 0.025
+          }
+        ],
+        "motion_energy": 11.51,
+        "script": "the craziest part of this whole story is why"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 31,
+      "start": 67.192,
+      "end": 70.487,
+      "length": 3.295,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0E",
+            "share": 0.362
+          },
+          {
+            "hex": "#4F4A4D",
+            "share": 0.077
+          },
+          {
+            "hex": "#312B2E",
+            "share": 0.073
+          },
+          {
+            "hex": "#4B3730",
+            "share": 0.043
+          },
+          {
+            "hex": "#8B756B",
+            "share": 0.04
+          }
+        ],
+        "motion_energy": 23.43,
+        "script": "NASA wants this technology in the first place."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 32,
+      "start": 70.487,
+      "end": 72.03,
+      "length": 1.543,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0C",
+            "share": 0.687
+          },
+          {
+            "hex": "#B07147",
+            "share": 0.037
+          },
+          {
+            "hex": "#251B18",
+            "share": 0.028
+          },
+          {
+            "hex": "#724A31",
+            "share": 0.027
+          },
+          {
+            "hex": "#8B5635",
+            "share": 0.026
+          }
+        ],
+        "motion_energy": 8.04,
+        "script": "See, a round trip to Mars will"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 33,
+      "start": 72.03,
+      "end": 73.198,
+      "length": 1.168,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0D",
+            "share": 0.303
+          },
+          {
+            "hex": "#6F89B8",
+            "share": 0.074
+          },
+          {
+            "hex": "#93A6CD",
+            "share": 0.064
+          },
+          {
+            "hex": "#859BC7",
+            "share": 0.039
+          },
+          {
+            "hex": "#8A766C",
+            "share": 0.039
+          }
+        ],
+        "motion_energy": 8.3,
+        "script": "take approximately three"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 34,
+      "start": 73.198,
+      "end": 73.949,
+      "length": 0.751,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0E",
+            "share": 0.314
+          },
+          {
+            "hex": "#2A3144",
+            "share": 0.235
+          },
+          {
+            "hex": "#262A36",
+            "share": 0.071
+          },
+          {
+            "hex": "#CFC9B6",
+            "share": 0.038
+          },
+          {
+            "hex": "#1B253A",
+            "share": 0.033
+          }
+        ],
+        "motion_energy": 17.77,
+        "script": "years. And"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 35,
+      "start": 73.949,
+      "end": 75.117,
+      "length": 1.168,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.669
+          },
+          {
+            "hex": "#B07347",
+            "share": 0.043
+          },
+          {
+            "hex": "#241B18",
+            "share": 0.034
+          },
+          {
+            "hex": "#714B31",
+            "share": 0.029
+          },
+          {
+            "hex": "#8C5636",
+            "share": 0.024
+          }
+        ],
+        "motion_energy": 7.14,
+        "script": "there's no way to pack three"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 36,
+      "start": 75.117,
+      "end": 77.411,
+      "length": 2.294,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0D",
+            "share": 0.364
+          },
+          {
+            "hex": "#312C29",
+            "share": 0.052
+          },
+          {
+            "hex": "#6C4B35",
+            "share": 0.039
+          },
+          {
+            "hex": "#4D362B",
+            "share": 0.037
+          },
+          {
+            "hex": "#716754",
+            "share": 0.033
+          }
+        ],
+        "motion_energy": 21.21,
+        "script": "years worth of food in a single spaceship."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 37,
+      "start": 77.411,
+      "end": 79.162,
+      "length": 1.752,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.7
+          },
+          {
+            "hex": "#B07248",
+            "share": 0.037
+          },
+          {
+            "hex": "#724A30",
+            "share": 0.028
+          },
+          {
+            "hex": "#8C5636",
+            "share": 0.026
+          },
+          {
+            "hex": "#251B18",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 10.3,
+        "script": "So in theory, this method is a way that astronauts"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 38,
+      "start": 79.162,
+      "end": 83.208,
+      "length": 4.046,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0D",
+            "share": 0.325
+          },
+          {
+            "hex": "#8C766C",
+            "share": 0.06
+          },
+          {
+            "hex": "#312B2C",
+            "share": 0.059
+          },
+          {
+            "hex": "#544C4A",
+            "share": 0.053
+          },
+          {
+            "hex": "#6A574F",
+            "share": 0.046
+          }
+        ],
+        "motion_energy": 15.85,
+        "script": "could turn their trash into edible food on the journey."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 39,
+      "start": 83.208,
+      "end": 84.168,
+      "length": 0.959,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.656
+          },
+          {
+            "hex": "#241B19",
+            "share": 0.039
+          },
+          {
+            "hex": "#B17347",
+            "share": 0.034
+          },
+          {
+            "hex": "#2A221B",
+            "share": 0.03
+          },
+          {
+            "hex": "#8B5535",
+            "share": 0.026
+          }
+        ],
+        "motion_energy": 22.95,
+        "script": "There's just one catch."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 40,
+      "start": 84.168,
+      "end": 85.586,
+      "length": 1.418,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C090C",
+            "share": 0.386
+          },
+          {
+            "hex": "#AD6D54",
+            "share": 0.051
+          },
+          {
+            "hex": "#F4F6FC",
+            "share": 0.046
+          },
+          {
+            "hex": "#2B1712",
+            "share": 0.038
+          },
+          {
+            "hex": "#332C2C",
+            "share": 0.034
+          }
+        ],
+        "motion_energy": 12.79,
+        "script": "Nobody's ever taste tested these"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 41,
+      "start": 85.586,
+      "end": 87.254,
+      "length": 1.668,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0D",
+            "share": 0.309
+          },
+          {
+            "hex": "#EBF9FC",
+            "share": 0.092
+          },
+          {
+            "hex": "#744735",
+            "share": 0.034
+          },
+          {
+            "hex": "#D8E8F1",
+            "share": 0.031
+          },
+          {
+            "hex": "#52332A",
+            "share": 0.03
+          }
+        ],
+        "motion_energy": 12.71,
+        "script": "plastic cookies before. The"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 42,
+      "start": 87.254,
+      "end": 89.715,
+      "length": 2.461,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0D",
+            "share": 0.304
+          },
+          {
+            "hex": "#888A8F",
+            "share": 0.075
+          },
+          {
+            "hex": "#8C776E",
+            "share": 0.054
+          },
+          {
+            "hex": "#4E4D4C",
+            "share": 0.048
+          },
+          {
+            "hex": "#C4CFDA",
+            "share": 0.045
+          }
+        ],
+        "motion_energy": 11.97,
+        "script": "taste test is still waiting on FDA approval."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 43,
+      "start": 89.715,
+      "end": 91.216,
+      "length": 1.502,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.694
+          },
+          {
+            "hex": "#2A221B",
+            "share": 0.036
+          },
+          {
+            "hex": "#241B19",
+            "share": 0.031
+          },
+          {
+            "hex": "#B17148",
+            "share": 0.028
+          },
+          {
+            "hex": "#704930",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 8.8,
+        "script": "But if this works, there's a good chance the"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 44,
+      "start": 91.216,
+      "end": 95.478,
+      "length": 4.261,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0D",
+            "share": 0.301
+          },
+          {
+            "hex": "#8E502C",
+            "share": 0.188
+          },
+          {
+            "hex": "#986845",
+            "share": 0.087
+          },
+          {
+            "hex": "#A8754E",
+            "share": 0.079
+          },
+          {
+            "hex": "#774A2E",
+            "share": 0.036
+          }
+        ],
+        "motion_energy": 16.78,
+        "script": "first cookie ever eaten on Mars will have been made out of plastic."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

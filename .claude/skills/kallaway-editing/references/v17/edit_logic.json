@@ -1,0 +1,882 @@
+{
+ "triggers": [
+  {
+   "t_word": 0.0,
+   "word": "ChatGPT",
+   "element": "caja de prompt con texto escribiéndose + franja roja «CHATGPT CAN NOW EDIT VIDEOS»",
+   "category": "hook_banner",
+   "offset_s": 0.0,
+   "why": "literal: la primera palabra ya tiene su prueba y su titular",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 1.48,
+   "word": "edit",
+   "element": "portátil con DaVinci Resolve abierto",
+   "category": "hook_banner",
+   "offset_s": 0.15,
+   "why": "literal (editar → programa de edición)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 3.54,
+   "word": "Astra.",
+   "element": "logo «INTRODUCING GPT-6 / ASTRA»",
+   "category": "hook_banner",
+   "offset_s": -0.33,
+   "why": "nombre propio → logo (se adelanta 0.3 s a la palabra)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 4.18,
+   "word": "And",
+   "element": "punch-in a su cara, sin franja",
+   "category": "aroll_plain",
+   "offset_s": -0.01,
+   "why": "cambio de tema: habla directo al espectador",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 6.42,
+   "word": "the",
+   "element": "grabación de pantalla a sangre + cara en círculo",
+   "category": "pip_broll",
+   "offset_s": -0.08,
+   "why": "literal («people that learn how to use this» → la herramienta)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 8.32,
+   "word": "massive",
+   "element": "cara completa + «massive» en serif itálica",
+   "category": "face_full_word",
+   "offset_s": -0.02,
+   "why": "énfasis",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 9.66,
+   "word": "What",
+   "element": "time-lapse de DaVinci Resolve editándose solo",
+   "category": "split_screenrec",
+   "offset_s": 0.02,
+   "why": "deíctico («what you're watching») → la evidencia",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 13.2,
+   "word": "DaVinci",
+   "element": "visor de Resolve cambiando de plano",
+   "category": "split_screenrec",
+   "offset_s": -0.1,
+   "why": "literal (nombre del programa)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 15.28,
+   "word": "In",
+   "element": "cara completa + «In layman's terms»",
+   "category": "face_full_word",
+   "offset_s": -0.01,
+   "why": "anuncia explicación",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 16.12,
+   "word": "ChatGPT",
+   "element": "chat de Codex con el prompt y la respuesta",
+   "category": "split_screenrec",
+   "offset_s": -0.1,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 18.02,
+   "word": "timeline",
+   "element": "zoom al timeline con clips azul/naranja",
+   "category": "split_screenrec",
+   "offset_s": -0.02,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 19.38,
+   "word": "It",
+   "element": "Resolve: media pool + timeline",
+   "category": "split_screenrec",
+   "offset_s": 0.01,
+   "why": "inicio de lista (cuts)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 21.6,
+   "word": "find",
+   "element": "b-roll (rayos púrpura, azotea) en el visor",
+   "category": "split_screenrec",
+   "offset_s": -0.37,
+   "why": "literal, se adelanta 0.37 s",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 22.66,
+   "word": "add",
+   "element": "documento blanco con resaltados amarillos",
+   "category": "split_screenrec",
+   "offset_s": -0.14,
+   "why": "literal (texto/gráficos)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 24.18,
+   "word": "create",
+   "element": "lienzo de animación con bloques rojos y caracteres",
+   "category": "split_screenrec",
+   "offset_s": 0.01,
+   "why": "literal (animaciones)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 26.02,
+   "word": "mix",
+   "element": "pistas de audio naranja/verde",
+   "category": "split_screenrec",
+   "offset_s": 0.26,
+   "why": "literal, llega 0.26 s tarde (sobre «the sound»)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 27.56,
+   "word": "all",
+   "element": "cara completa + «all automatically»",
+   "category": "face_full_word",
+   "offset_s": 0.13,
+   "why": "énfasis / remate de lista",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 28.34,
+   "word": "All",
+   "element": "Codex «What should we build?»",
+   "category": "split_screenrec",
+   "offset_s": 0.31,
+   "why": "literal (lo que hace el humano)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 31.22,
+   "word": "by",
+   "element": "onda de voz dictando en la caja de prompt",
+   "category": "split_screenrec",
+   "offset_s": -1.22,
+   "why": "literal («by talking»), la onda aparece ~1.2 s antes",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 32.14,
+   "word": "Now,",
+   "element": "perfil de Instagram «kallaway»",
+   "category": "split_social",
+   "offset_s": -0.07,
+   "why": "credencial («as a creator»)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 33.86,
+   "word": "eight",
+   "element": "mural de reels con contadores 7M/12M",
+   "category": "split_social",
+   "offset_s": -0.26,
+   "why": "dato personal → prueba de volumen",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 35.92,
+   "word": "this",
+   "element": "cara completa palabra a palabra",
+   "category": "face_full_word",
+   "offset_s": -0.01,
+   "why": "opinión/emoción",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 37.78,
+   "word": "It",
+   "element": "tipografía cinética «In 2024…» sobre blanco",
+   "category": "split_graphic",
+   "offset_s": 0.01,
+   "why": "metáfora",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 39.48,
+   "word": "alien",
+   "element": "ráfaga glitch de matriz de puntos",
+   "category": "split_graphic",
+   "offset_s": -0.44,
+   "why": "metáfora («alien technology» → imagen extraña)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 40.56,
+   "word": "has",
+   "element": "cara completa",
+   "category": "face_full_word",
+   "offset_s": 0.23,
+   "why": "cierre de idea",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 42.9,
+   "word": "And",
+   "element": "Resolve página Color con corto animado",
+   "category": "split_screenrec",
+   "offset_s": 0.02,
+   "why": "lista de formatos: short-form",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 44.44,
+   "word": "long",
+   "element": "Resolve con planos VFX",
+   "category": "split_screenrec",
+   "offset_s": -0.02,
+   "why": "literal (long-form)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 45.42,
+   "word": "3D",
+   "element": "viewport 3D nocturno",
+   "category": "split_graphic",
+   "offset_s": -0.04,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 47.12,
+   "word": "motion",
+   "element": "tarjeta con coche (pase de normales → render)",
+   "category": "split_graphic",
+   "offset_s": 0.01,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 48.92,
+   "word": "It's",
+   "element": "cara completa",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "énfasis + giro",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 50.4,
+   "word": "the",
+   "element": "render 3D sala + cohete",
+   "category": "split_graphic",
+   "offset_s": -0.02,
+   "why": "ejemplo («the edits… here»)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 53.4,
+   "word": "tough",
+   "element": "atrio con escalera 3D",
+   "category": "split_graphic",
+   "offset_s": -0.51,
+   "why": "ejemplo («a video like this»)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 54.76,
+   "word": "automatically",
+   "element": "cohete 3D en plataforma",
+   "category": "split_graphic",
+   "offset_s": 0.13,
+   "why": "ejemplo",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 56.16,
+   "word": "mistakes.",
+   "element": "primer plano del logo BridgeMind en el cohete",
+   "category": "split_graphic",
+   "offset_s": -0.15,
+   "why": "énfasis (detalle nítido)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 56.76,
+   "word": "But",
+   "element": "cara completa",
+   "category": "face_full_word",
+   "offset_s": 0.01,
+   "why": "giro / tesis",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 58.08,
+   "word": "because",
+   "element": "ficha inmobiliaria en tarjeta",
+   "category": "split_graphic",
+   "offset_s": 0.06,
+   "why": "ejemplo de video automatizado",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 62.22,
+   "word": "And",
+   "element": "cara completa",
+   "category": "face_full_word",
+   "offset_s": -0.03,
+   "why": "anuncia predicción",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 63.28,
+   "word": "most",
+   "element": "Blender con locomotora wireframe",
+   "category": "split_screenrec",
+   "offset_s": 0.03,
+   "why": "ejemplo de flujo programable",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 64.84,
+   "word": "fully",
+   "element": "personaje low-poly con fuego",
+   "category": "split_graphic",
+   "offset_s": 0.14,
+   "why": "ejemplo",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 67.16,
+   "word": "Now",
+   "element": "cara completa",
+   "category": "face_full_word",
+   "offset_s": -0.05,
+   "why": "anuncia la causa",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 68.46,
+   "word": "because",
+   "element": "flash blanco de 1 fotograma + logo ASTRA",
+   "category": "split_graphic",
+   "offset_s": 0.15,
+   "why": "nombre propio → logo",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 70.54,
+   "word": "OpenAI",
+   "element": "cara completa",
+   "category": "face_full_word",
+   "offset_s": -0.01,
+   "why": "afirmación",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 72.52,
+   "word": "into",
+   "element": "render de máquina de gancho",
+   "category": "split_graphic",
+   "offset_s": 0.26,
+   "why": "ejemplo",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 75.84,
+   "word": "So",
+   "element": "cohete wireframe «STARSHIP» con código",
+   "category": "split_graphic",
+   "offset_s": -0.01,
+   "why": "cierre / recomendación",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 78.06,
+   "word": "because",
+   "element": "ráfaga de gráficos (collage, BUT halftone, ojo)",
+   "category": "split_graphic",
+   "offset_s": 0.1,
+   "why": "cierre acelerado",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 3.21,
+   "from": "v17_s01 (hook_banner)",
+   "to": "v17_s02 (hook_banner)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 4.17,
+   "from": "v17_s02 (hook_banner)",
+   "to": "v17_s03 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 6.34,
+   "from": "v17_s03 (aroll_plain)",
+   "to": "v17_s04 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 8.3,
+   "from": "v17_s04 (pip_broll)",
+   "to": "v17_s05 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 9.68,
+   "from": "v17_s05 (face_full_word)",
+   "to": "v17_s06 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 12.51,
+   "from": "v17_s06 (split_screenrec)",
+   "to": "v17_s07 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 15.27,
+   "from": "v17_s07 (split_screenrec)",
+   "to": "v17_s08 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 16.02,
+   "from": "v17_s08 (face_full_word)",
+   "to": "v17_s09 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 18.85,
+   "from": "v17_s09 (split_screenrec)",
+   "to": "v17_s10 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 19.39,
+   "from": "v17_s10 (face_full_word)",
+   "to": "v17_s11 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 21.23,
+   "from": "v17_s11 (split_screenrec)",
+   "to": "v17_s12 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 22.52,
+   "from": "v17_s12 (split_screenrec)",
+   "to": "v17_s13 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 24.19,
+   "from": "v17_s13 (split_screenrec)",
+   "to": "v17_s14 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 26.28,
+   "from": "v17_s14 (split_screenrec)",
+   "to": "v17_s15 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 27.69,
+   "from": "v17_s15 (split_screenrec)",
+   "to": "v17_s16 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 28.65,
+   "from": "v17_s16 (face_full_word)",
+   "to": "v17_s17 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 32.07,
+   "from": "v17_s17 (split_screenrec)",
+   "to": "v17_s18 (split_social)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 35.91,
+   "from": "v17_s18 (split_social)",
+   "to": "v17_s19 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 37.79,
+   "from": "v17_s19 (face_full_word)",
+   "to": "v17_s20 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 40.79,
+   "from": "v17_s20 (split_graphic)",
+   "to": "v17_s21 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 42.92,
+   "from": "v17_s21 (face_full_word)",
+   "to": "v17_s22 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 44.42,
+   "from": "v17_s22 (split_screenrec)",
+   "to": "v17_s23 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 45.38,
+   "from": "v17_s23 (split_screenrec)",
+   "to": "v17_s24 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 47.13,
+   "from": "v17_s24 (split_graphic)",
+   "to": "v17_s25 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 48.92,
+   "from": "v17_s25 (split_graphic)",
+   "to": "v17_s26 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 50.38,
+   "from": "v17_s26 (face_full_word)",
+   "to": "v17_s27 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 52.89,
+   "from": "v17_s27 (split_graphic)",
+   "to": "v17_s28 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 54.89,
+   "from": "v17_s28 (split_graphic)",
+   "to": "v17_s29 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 56.77,
+   "from": "v17_s29 (split_graphic)",
+   "to": "v17_s30 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 58.14,
+   "from": "v17_s30 (face_full_word)",
+   "to": "v17_s31 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 62.19,
+   "from": "v17_s31 (split_graphic)",
+   "to": "v17_s32 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 63.31,
+   "from": "v17_s32 (face_full_word)",
+   "to": "v17_s33 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 64.98,
+   "from": "v17_s33 (split_screenrec)",
+   "to": "v17_s34 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 67.11,
+   "from": "v17_s34 (split_graphic)",
+   "to": "v17_s35 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 68.61,
+   "from": "v17_s35 (face_full_word)",
+   "to": "v17_s36 (split_graphic)",
+   "type": "flash blanco",
+   "frames": 1,
+   "detail": "Corte de la cara a split; en la mitad superior hay 1 fotograma totalmente blanco (68.61) y en 68.65 ya está el logo ASTRA a medio formar. La mitad inferior corta en seco.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 70.53,
+   "from": "v17_s36 (split_graphic)",
+   "to": "v17_s37 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 72.78,
+   "from": "v17_s37 (face_full_word)",
+   "to": "v17_s38 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 75.83,
+   "from": "v17_s38 (split_graphic)",
+   "to": "v17_s39 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 78.16,
+   "from": "v17_s39 (split_graphic)",
+   "to": "v17_s40 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.13,
+   "fx": "slide (franja del gancho)",
+   "detail": "La franja roja entra desde el borde derecho: asoma en 0.13 s, a 0.46 s se lee «CHATG / NOW EDI», completa hacia 1.2–1.5 s; desacelera al final. Permanece hasta el corte de 4.17."
+  },
+  {
+   "t": 0.0,
+   "fx": "pop",
+   "detail": "Subtítulo pequeño: cada bloque de 1–3 palabras reemplaza al anterior en 1 fotograma, sin fade ni escala (verificado en 9.68–9.97: «What» → «you're watching»)."
+  },
+  {
+   "t": 0.0,
+   "fx": "write-on por letra (dentro del material)",
+   "detail": "El prompt de arriba se escribe letra a letra con cursor («…and tr|» → «…and trim|» entre 0.00 y 0.46)."
+  },
+  {
+   "t": 8.3,
+   "fx": "pop palabra a palabra + cambio de fuente",
+   "detail": "«massive» en serif itálica (8.30–8.76), «advantage» en sans bold (8.78–9.66). Cambio en 1 fotograma."
+  },
+  {
+   "t": 27.69,
+   "fx": "pop + itálica",
+   "detail": "«all» (27.69–27.90) → «automatically» en serif itálica (27.94–28.63)."
+  },
+  {
+   "t": 35.91,
+   "fx": "pop palabra a palabra",
+   "detail": "10 palabras en 1.88 s (≈0.19 s/palabra): this·is·one·of·the·wildest·things·I've·ever·seen; solo «wildest» va en itálica."
+  },
+  {
+   "t": 37.83,
+   "fx": "write-on por letra + contador",
+   "detail": "Gráfico de arriba: «I» → «In» → «In 2» → «In 20…» letra a letra (37.83–38.08); el último dígito rueda verticalmente (4/5/6)."
+  },
+  {
+   "t": 68.65,
+   "fx": "morph de formas a letras",
+   "detail": "Logo ASTRA: «AS■●A» → «AST●A» → «ASTRA» en ≈0.3 s."
+  },
+  {
+   "t": 76.3,
+   "fx": "write-on por línea (monoespaciada)",
+   "detail": "Comentarios de código «// starship.starbase…» se escriben a ambos lados del cohete."
+  },
+  {
+   "t": 79.83,
+   "fx": "write-on por letra + blur",
+   "detail": "«Most of th» → «Most of them will fail.» entre 80.08 y 80.41 sobre ojo en halftone que pasa de trama a desenfoque."
+  }
+ ],
+ "camera": [
+  {
+   "t": 4.17,
+   "move": "punch-in (corte)",
+   "scale_or_dir": "plano medio del split → primer plano ≈2x, cara centrada",
+   "dur_s": 0.0
+  },
+  {
+   "t": 6.34,
+   "move": "pan + zoom de cámara virtual sobre la grabación",
+   "scale_or_dir": "recorre la UI de izquierda a derecha y hacia abajo, ≈1.0→1.5x",
+   "dur_s": 1.96
+  },
+  {
+   "t": 16.02,
+   "move": "pan",
+   "scale_or_dir": "del texto del chat hacia la ventana de Resolve",
+   "dur_s": 2.0
+  },
+  {
+   "t": 19.39,
+   "move": "zoom-out lento",
+   "scale_or_dir": "≈1.2→1.0",
+   "dur_s": 1.8
+  },
+  {
+   "t": 28.65,
+   "move": "push-in lento + pan",
+   "scale_or_dir": "≈1.0→1.6 sobre «What should we build?» y luego a la caja de voz",
+   "dur_s": 3.4
+  },
+  {
+   "t": 32.07,
+   "move": "scroll + zoom-out",
+   "scale_or_dir": "perfil de IG inclinado → mural de reels",
+   "dur_s": 3.8
+  },
+  {
+   "t": 52.89,
+   "move": "travelling 3D ascendente (del material)",
+   "scale_or_dir": "giro alrededor de la columna",
+   "dur_s": 2.0
+  }
+ ],
+ "rhythm": {
+  "events_per_10s": [
+   9,
+   17,
+   9,
+   10,
+   13,
+   7,
+   9,
+   12,
+   3
+  ],
+  "avg_hold_text_s": 0.24,
+  "notes": "Alterna bloques de evidencia de 2–6 s (con cortes internos cada 0.3–1 s) con golpes de cara+palabra de 0.5–2.2 s. 11 escenas face_full_word en 80.5 s → una cada ≈7.3 s de media (intervalos entre inicios: 3.6–9.4 s). La mitad superior cambia de fuente cada ≈1.9 s de media (derived: 40 escenas) y con cortes internos cada ≈0.8 s. [derived] events_per_10s = cortes detectados por ffmpeg (scene>0.12 en mitad superior + inferior, deduplicados a 0.09 s; incluye cortes internos del material de arriba). avg_hold_text_s = duración media por palabra grande en face_full_word (65 palabras en 15.3 s). Subtítulo pequeño: 213 palabras en 65.2 s → ≈0.61 s por bloque de 2 palabras (derived). Duración media de escena 2.01 s."
+ },
+ "typography": "Subtítulo: sans geométrica bold blanca (tipo Aeonik/Satoshi), minúsculas tipo frase, ≈30 px sobre 720 px, 1–3 palabras (bloques observados de 1 a 4 palabras, p. ej. «So if you make content,»), centro y≈54 % en split y y≈67–68 % en aroll_plain. Palabra grande (face_full_word): misma sans bold blanca ≈90–100 px con glow, 1 palabra; palabra clave en serif itálica de alto contraste tipo Playfair Display Italic (massive, automatically, wildest, wild, seminal), mismo blanco: en ESTE video la clave no cambia de color. Franja: sans extendida ultra-black en mayúsculas, línea 1 blanca / línea 2 naranja ≈#FDB75A sobre rojo ≈#84272A.",
+ "textures": "Sin papel/tela/grano añadidos. Solo glow blanco difuso en la palabra grande. Los gráficos de arriba traen sus texturas propias: glitch/matriz de puntos (39.0–39.5), halftone (78.8–80.5), degradado de escritorio naranja-rosa-azul detrás de las ventanas.",
+ "distinct": [
+  "Es un video de PRODUCTO/TUTORIAL: 13 de 40 escenas son grabación de pantalla (12 split_screenrec + 1 pip) y otras 12 son gráficos/renders generados (Resolve, Codex), casi nada de b-roll real.",
+  "Listas ilustradas ítem a ítem: «cuts / bad takes / b-roll / text / animations / sound» (19.4–27.7) y «short-form / long-form / 3D / motion graphics» (42.9–48.9), un plano por ítem de 1–2 s.",
+  "Único flash blanco (1 fotograma, 68.61) y el logo ASTRA usado dos veces (3.21 y 68.61) como rima gancho↔cierre.",
+  "Ráfagas de planos de 1 fotograma dentro del material de arriba (21.56–21.69, 44.71–44.84) y un gráfico glitch «In 2025» para una idea abstracta.",
+  "La palabra clave en itálica NO cambia de color (blanca) y no hay CTA: termina con una ráfaga de 4 gráficos en 2.4 s."
+ ]
+}

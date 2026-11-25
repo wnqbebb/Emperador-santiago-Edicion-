@@ -1,0 +1,33 @@
+000    0.00-   3.59 (3.6s) | This company built one of the most advanced AI satellites in the world. These
+001    3.59-   4.17 (0.6s) | satellites can
+002    4.17-   6.38 (2.2s) | detect the model of the car in
+003    6.38-   7.38 (1.0s) | your driveway from
+004    7.38-   8.30 (0.9s) | space. The
+005    8.30-  10.93 (2.6s) | company behind these is called Planet Labs. And
+006   10.93-  12.05 (1.1s) | their Pelican 4 satellites can
+007   12.05-  13.89 (1.8s) | do something extremely unique. See,
+008   13.89-  18.77 (4.9s) | a normal satellite takes a photo from space and then beams it back down to Earth for processing.
+009   18.77-  19.98 (1.2s) | But planet satellites have AI
+010   19.98-  21.81 (1.8s) | chips on board so they can
+011   21.81-  24.57 (2.8s) | read and process the images while still in orbit.
+012   24.57-  26.48 (1.9s) | And this gives them some extreme advantages. For
+013   26.48-  26.98 (0.5s) | example, they
+014   26.98-  32.37 (5.4s) | could take a single snapshot of an airport and immediately identify how many planes are parked in
+015   32.37-  33.33 (1.0s) | half a second. They
+016   33.33-  40.25 (6.9s) | could also collect real -time data on military positioning, or even how many cars are in a Walmart parking lot to gauge shopping trends. But
+017   40.25-  41.79 (1.5s) | the real innovation is what happens when you link
+018   41.79-  44.34 (2.5s) | two of these planet satellites together.
+019   44.34-  44.50 (0.2s) | One satellite
+020   44.50-  45.55 (1.0s) | will act like the
+021   45.55-  46.30 (0.8s) | wide -angle
+022   46.30-  48.09 (1.8s) | camera. It's constantly looking at strips
+023   48.09-  50.26 (2.2s) | of the Earth, wider than most cities,
+024   50.26-  51.26 (1.0s) | and scanning them every
+025   51.26-  53.01 (1.8s) | day looking for changes.
+026   53.01-  55.05 (2.0s) | Then it uses that change data to tell
+027   55.05-  56.27 (1.2s) | the second satellite exactly
+028   56.27-  61.19 (4.9s) | where to zoom in for pinpoint viewing. Together, that combination basically acts like a
+029   61.19-  63.27 (2.1s) | security system for the entire planet.
+030   63.27-  67.48 (4.2s) | And I know what you're thinking, privacy concerns, but think about all the benefits this could bring. Imagine
+031   67.48-  79.91 (12.4s) | using this type of system to track real -time weather events like hurricanes or wildfires as they're spreading. The truth is, this is the future of satellite imagery. And in a few years, we will have real -time detailed maps of the world available in
+032   79.91-  80.83 (0.9s) | seconds.

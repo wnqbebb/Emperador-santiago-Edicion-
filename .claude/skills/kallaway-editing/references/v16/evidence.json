@@ -1,0 +1,4465 @@
+{
+  "video": "v16.mp4",
+  "duration": 113.06,
+  "derived": {
+    "shots": 52,
+    "avg_shot_len": 2.17,
+    "cuts_per_min": 27.6,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      24,
+      25,
+      26,
+      29,
+      30,
+      31,
+      32,
+      33,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      50,
+      51
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "This",
+      "start": 0.0,
+      "end": 0.16
+    },
+    {
+      "w": "company",
+      "start": 0.16,
+      "end": 0.38
+    },
+    {
+      "w": "built",
+      "start": 0.38,
+      "end": 0.68
+    },
+    {
+      "w": "a",
+      "start": 0.68,
+      "end": 0.86
+    },
+    {
+      "w": "data",
+      "start": 0.86,
+      "end": 1.06
+    },
+    {
+      "w": "center",
+      "start": 1.06,
+      "end": 1.38
+    },
+    {
+      "w": "floating",
+      "start": 1.38,
+      "end": 1.92
+    },
+    {
+      "w": "in",
+      "start": 1.92,
+      "end": 2.32
+    },
+    {
+      "w": "the",
+      "start": 2.32,
+      "end": 2.44
+    },
+    {
+      "w": "Pacific",
+      "start": 2.44,
+      "end": 2.7
+    },
+    {
+      "w": "Ocean.",
+      "start": 2.7,
+      "end": 3.1
+    },
+    {
+      "w": "They're",
+      "start": 3.32,
+      "end": 3.4
+    },
+    {
+      "w": "called",
+      "start": 3.4,
+      "end": 3.66
+    },
+    {
+      "w": "Pantalassa,",
+      "start": 3.66,
+      "end": 4.52
+    },
+    {
+      "w": "and",
+      "start": 4.74,
+      "end": 4.78
+    },
+    {
+      "w": "they",
+      "start": 4.78,
+      "end": 4.86
+    },
+    {
+      "w": "might",
+      "start": 4.86,
+      "end": 5.02
+    },
+    {
+      "w": "be",
+      "start": 5.02,
+      "end": 5.16
+    },
+    {
+      "w": "pioneering",
+      "start": 5.16,
+      "end": 5.8
+    },
+    {
+      "w": "a",
+      "start": 5.8,
+      "end": 6.04
+    },
+    {
+      "w": "whole",
+      "start": 6.04,
+      "end": 6.4
+    },
+    {
+      "w": "new",
+      "start": 6.4,
+      "end": 6.66
+    },
+    {
+      "w": "category",
+      "start": 6.66,
+      "end": 7.14
+    },
+    {
+      "w": "of",
+      "start": 7.14,
+      "end": 7.44
+    },
+    {
+      "w": "data",
+      "start": 7.44,
+      "end": 7.64
+    },
+    {
+      "w": "center",
+      "start": 7.64,
+      "end": 7.9
+    },
+    {
+      "w": "technology.",
+      "start": 7.9,
+      "end": 8.56
+    },
+    {
+      "w": "See,",
+      "start": 8.74,
+      "end": 8.84
+    },
+    {
+      "w": "a",
+      "start": 8.9,
+      "end": 8.94
+    },
+    {
+      "w": "data",
+      "start": 8.94,
+      "end": 9.08
+    },
+    {
+      "w": "center",
+      "start": 9.08,
+      "end": 9.3
+    },
+    {
+      "w": "is",
+      "start": 9.3,
+      "end": 9.46
+    },
+    {
+      "w": "really",
+      "start": 9.46,
+      "end": 9.6
+    },
+    {
+      "w": "just",
+      "start": 9.6,
+      "end": 9.84
+    },
+    {
+      "w": "thousands",
+      "start": 9.84,
+      "end": 10.42
+    },
+    {
+      "w": "of",
+      "start": 10.42,
+      "end": 10.64
+    },
+    {
+      "w": "computer",
+      "start": 10.64,
+      "end": 10.88
+    },
+    {
+      "w": "chips",
+      "start": 10.88,
+      "end": 11.28
+    },
+    {
+      "w": "that",
+      "start": 11.28,
+      "end": 11.54
+    },
+    {
+      "w": "only",
+      "start": 11.54,
+      "end": 11.74
+    },
+    {
+      "w": "need",
+      "start": 11.74,
+      "end": 11.96
+    },
+    {
+      "w": "two",
+      "start": 11.96,
+      "end": 12.14
+    },
+    {
+      "w": "things,",
+      "start": 12.14,
+      "end": 12.4
+    },
+    {
+      "w": "electricity",
+      "start": 12.58,
+      "end": 12.98
+    },
+    {
+      "w": "to",
+      "start": 12.98,
+      "end": 13.3
+    },
+    {
+      "w": "think",
+      "start": 13.3,
+      "end": 13.54
+    },
+    {
+      "w": "and",
+      "start": 13.54,
+      "end": 13.88
+    },
+    {
+      "w": "water",
+      "start": 13.88,
+      "end": 14.22
+    },
+    {
+      "w": "to",
+      "start": 14.22,
+      "end": 14.44
+    },
+    {
+      "w": "cool.",
+      "start": 14.44,
+      "end": 14.7
+    },
+    {
+      "w": "On",
+      "start": 14.92,
+      "end": 15.04
+    },
+    {
+      "w": "land,",
+      "start": 15.04,
+      "end": 15.34
+    },
+    {
+      "w": "they",
+      "start": 15.46,
+      "end": 15.56
+    },
+    {
+      "w": "compete",
+      "start": 15.56,
+      "end": 15.94
+    },
+    {
+      "w": "with",
+      "start": 15.94,
+      "end": 16.22
+    },
+    {
+      "w": "actual",
+      "start": 16.22,
+      "end": 16.66
+    },
+    {
+      "w": "towns",
+      "start": 16.66,
+      "end": 17.1
+    },
+    {
+      "w": "for",
+      "start": 17.1,
+      "end": 17.3
+    },
+    {
+      "w": "both",
+      "start": 17.3,
+      "end": 17.52
+    },
+    {
+      "w": "of",
+      "start": 17.52,
+      "end": 17.64
+    },
+    {
+      "w": "those",
+      "start": 17.64,
+      "end": 17.78
+    },
+    {
+      "w": "resources,",
+      "start": 17.78,
+      "end": 18.22
+    },
+    {
+      "w": "which",
+      "start": 18.3,
+      "end": 18.42
+    },
+    {
+      "w": "is",
+      "start": 18.42,
+      "end": 18.52
+    },
+    {
+      "w": "why",
+      "start": 18.52,
+      "end": 18.8
+    },
+    {
+      "w": "these",
+      "start": 18.8,
+      "end": 19.18
+    },
+    {
+      "w": "projects",
+      "start": 19.18,
+      "end": 19.54
+    },
+    {
+      "w": "keep",
+      "start": 19.54,
+      "end": 19.82
+    },
+    {
+      "w": "getting",
+      "start": 19.82,
+      "end": 20.04
+    },
+    {
+      "w": "blocked.",
+      "start": 20.04,
+      "end": 20.42
+    },
+    {
+      "w": "But",
+      "start": 20.6,
+      "end": 20.72
+    },
+    {
+      "w": "the",
+      "start": 20.72,
+      "end": 20.86
+    },
+    {
+      "w": "ocean",
+      "start": 20.86,
+      "end": 21.1
+    },
+    {
+      "w": "has",
+      "start": 21.1,
+      "end": 21.38
+    },
+    {
+      "w": "no",
+      "start": 21.38,
+      "end": 21.64
+    },
+    {
+      "w": "towns,",
+      "start": 21.64,
+      "end": 22.04
+    },
+    {
+      "w": "no",
+      "start": 22.28,
+      "end": 22.5
+    },
+    {
+      "w": "permits,",
+      "start": 22.5,
+      "end": 22.84
+    },
+    {
+      "w": "and",
+      "start": 23.06,
+      "end": 23.22
+    },
+    {
+      "w": "no",
+      "start": 23.22,
+      "end": 23.4
+    },
+    {
+      "w": "grids",
+      "start": 23.4,
+      "end": 23.9
+    },
+    {
+      "w": "to",
+      "start": 23.9,
+      "end": 24.22
+    },
+    {
+      "w": "constrain.",
+      "start": 24.22,
+      "end": 24.82
+    },
+    {
+      "w": "Of",
+      "start": 25.0,
+      "end": 25.12
+    },
+    {
+      "w": "course,",
+      "start": 25.12,
+      "end": 25.3
+    },
+    {
+      "w": "there",
+      "start": 25.42,
+      "end": 25.54
+    },
+    {
+      "w": "is",
+      "start": 25.54,
+      "end": 25.7
+    },
+    {
+      "w": "just",
+      "start": 25.7,
+      "end": 25.86
+    },
+    {
+      "w": "one",
+      "start": 25.86,
+      "end": 26.14
+    },
+    {
+      "w": "problem",
+      "start": 26.14,
+      "end": 26.58
+    },
+    {
+      "w": "with",
+      "start": 26.58,
+      "end": 26.78
+    },
+    {
+      "w": "an",
+      "start": 26.78,
+      "end": 26.88
+    },
+    {
+      "w": "ocean",
+      "start": 26.88,
+      "end": 27.14
+    },
+    {
+      "w": "-based",
+      "start": 27.14,
+      "end": 27.34
+    },
+    {
+      "w": "data",
+      "start": 27.34,
+      "end": 27.64
+    },
+    {
+      "w": "center.",
+      "start": 27.64,
+      "end": 27.9
+    },
+    {
+      "w": "There",
+      "start": 27.9,
+      "end": 28.1
+    },
+    {
+      "w": "are",
+      "start": 28.1,
+      "end": 28.2
+    },
+    {
+      "w": "no",
+      "start": 28.2,
+      "end": 28.32
+    },
+    {
+      "w": "plugs",
+      "start": 28.32,
+      "end": 28.82
+    },
+    {
+      "w": "to",
+      "start": 28.82,
+      "end": 29.08
+    },
+    {
+      "w": "plug",
+      "start": 29.08,
+      "end": 29.32
+    },
+    {
+      "w": "in",
+      "start": 29.32,
+      "end": 29.46
+    },
+    {
+      "w": "for",
+      "start": 29.46,
+      "end": 29.64
+    },
+    {
+      "w": "electricity.",
+      "start": 29.64,
+      "end": 30.12
+    },
+    {
+      "w": "So",
+      "start": 30.34,
+      "end": 30.38
+    },
+    {
+      "w": "this",
+      "start": 30.38,
+      "end": 30.56
+    },
+    {
+      "w": "floating",
+      "start": 30.56,
+      "end": 30.78
+    },
+    {
+      "w": "data",
+      "start": 30.78,
+      "end": 31.0
+    },
+    {
+      "w": "center",
+      "start": 31.0,
+      "end": 31.22
+    },
+    {
+      "w": "was",
+      "start": 31.22,
+      "end": 31.5
+    },
+    {
+      "w": "designed",
+      "start": 31.5,
+      "end": 31.86
+    },
+    {
+      "w": "to",
+      "start": 31.86,
+      "end": 32.14
+    },
+    {
+      "w": "make",
+      "start": 32.14,
+      "end": 32.28
+    },
+    {
+      "w": "its",
+      "start": 32.28,
+      "end": 32.46
+    },
+    {
+      "w": "own",
+      "start": 32.46,
+      "end": 32.6
+    },
+    {
+      "w": "power.",
+      "start": 32.6,
+      "end": 32.9
+    },
+    {
+      "w": "Here's",
+      "start": 33.12,
+      "end": 33.3
+    },
+    {
+      "w": "how",
+      "start": 33.3,
+      "end": 33.4
+    },
+    {
+      "w": "it",
+      "start": 33.4,
+      "end": 33.54
+    },
+    {
+      "w": "works.",
+      "start": 33.54,
+      "end": 33.72
+    },
+    {
+      "w": "Picture",
+      "start": 33.98,
+      "end": 34.14
+    },
+    {
+      "w": "a",
+      "start": 34.14,
+      "end": 34.38
+    },
+    {
+      "w": "giant",
+      "start": 34.38,
+      "end": 34.74
+    },
+    {
+      "w": "floating",
+      "start": 34.74,
+      "end": 35.08
+    },
+    {
+      "w": "lollipop",
+      "start": 35.08,
+      "end": 35.8
+    },
+    {
+      "w": "in",
+      "start": 35.8,
+      "end": 36.04
+    },
+    {
+      "w": "the",
+      "start": 36.04,
+      "end": 36.14
+    },
+    {
+      "w": "sea",
+      "start": 36.14,
+      "end": 36.38
+    },
+    {
+      "w": "with",
+      "start": 36.38,
+      "end": 36.64
+    },
+    {
+      "w": "a",
+      "start": 36.64,
+      "end": 36.76
+    },
+    {
+      "w": "round",
+      "start": 36.76,
+      "end": 37.02
+    },
+    {
+      "w": "buoy",
+      "start": 37.02,
+      "end": 37.26
+    },
+    {
+      "w": "on",
+      "start": 37.26,
+      "end": 37.46
+    },
+    {
+      "w": "top",
+      "start": 37.46,
+      "end": 37.74
+    },
+    {
+      "w": "and",
+      "start": 37.74,
+      "end": 37.92
+    },
+    {
+      "w": "a",
+      "start": 37.92,
+      "end": 38.04
+    },
+    {
+      "w": "long",
+      "start": 38.04,
+      "end": 38.42
+    },
+    {
+      "w": "tube",
+      "start": 38.42,
+      "end": 38.82
+    },
+    {
+      "w": "underneath.",
+      "start": 38.82,
+      "end": 39.3
+    },
+    {
+      "w": "Waves",
+      "start": 39.72,
+      "end": 39.84
+    },
+    {
+      "w": "only",
+      "start": 39.84,
+      "end": 40.06
+    },
+    {
+      "w": "move",
+      "start": 40.06,
+      "end": 40.24
+    },
+    {
+      "w": "at",
+      "start": 40.24,
+      "end": 40.38
+    },
+    {
+      "w": "the",
+      "start": 40.38,
+      "end": 40.46
+    },
+    {
+      "w": "top",
+      "start": 40.46,
+      "end": 40.72
+    },
+    {
+      "w": "of",
+      "start": 40.72,
+      "end": 40.82
+    },
+    {
+      "w": "the",
+      "start": 40.82,
+      "end": 40.88
+    },
+    {
+      "w": "surface,",
+      "start": 40.88,
+      "end": 41.16
+    },
+    {
+      "w": "so",
+      "start": 41.32,
+      "end": 41.48
+    },
+    {
+      "w": "underneath",
+      "start": 41.48,
+      "end": 41.84
+    },
+    {
+      "w": "it's",
+      "start": 41.84,
+      "end": 42.1
+    },
+    {
+      "w": "actually",
+      "start": 42.1,
+      "end": 42.36
+    },
+    {
+      "w": "very",
+      "start": 42.36,
+      "end": 42.6
+    },
+    {
+      "w": "calm.",
+      "start": 42.6,
+      "end": 42.96
+    },
+    {
+      "w": "And",
+      "start": 43.1,
+      "end": 43.16
+    },
+    {
+      "w": "that",
+      "start": 43.16,
+      "end": 43.3
+    },
+    {
+      "w": "means",
+      "start": 43.3,
+      "end": 43.46
+    },
+    {
+      "w": "the",
+      "start": 43.46,
+      "end": 43.7
+    },
+    {
+      "w": "buoy",
+      "start": 43.7,
+      "end": 43.96
+    },
+    {
+      "w": "rides",
+      "start": 43.96,
+      "end": 44.38
+    },
+    {
+      "w": "up",
+      "start": 44.38,
+      "end": 44.66
+    },
+    {
+      "w": "and",
+      "start": 44.66,
+      "end": 44.78
+    },
+    {
+      "w": "down",
+      "start": 44.78,
+      "end": 45.06
+    },
+    {
+      "w": "while",
+      "start": 45.06,
+      "end": 45.3
+    },
+    {
+      "w": "the",
+      "start": 45.3,
+      "end": 45.46
+    },
+    {
+      "w": "tube",
+      "start": 45.46,
+      "end": 45.86
+    },
+    {
+      "w": "stays",
+      "start": 45.86,
+      "end": 46.24
+    },
+    {
+      "w": "still.",
+      "start": 46.24,
+      "end": 46.6
+    },
+    {
+      "w": "Every",
+      "start": 46.78,
+      "end": 46.96
+    },
+    {
+      "w": "wave",
+      "start": 46.96,
+      "end": 47.2
+    },
+    {
+      "w": "that",
+      "start": 47.2,
+      "end": 47.34
+    },
+    {
+      "w": "passes",
+      "start": 47.34,
+      "end": 47.62
+    },
+    {
+      "w": "by",
+      "start": 47.62,
+      "end": 47.94
+    },
+    {
+      "w": "squeezes",
+      "start": 47.94,
+      "end": 48.58
+    },
+    {
+      "w": "seawater",
+      "start": 48.58,
+      "end": 49.06
+    },
+    {
+      "w": "through",
+      "start": 49.06,
+      "end": 49.36
+    },
+    {
+      "w": "its",
+      "start": 49.36,
+      "end": 49.52
+    },
+    {
+      "w": "herbide.",
+      "start": 49.52,
+      "end": 49.88
+    },
+    {
+      "w": "Think",
+      "start": 49.96,
+      "end": 50.04
+    },
+    {
+      "w": "of",
+      "start": 50.04,
+      "end": 50.12
+    },
+    {
+      "w": "it",
+      "start": 50.12,
+      "end": 50.2
+    },
+    {
+      "w": "like",
+      "start": 50.2,
+      "end": 50.34
+    },
+    {
+      "w": "a",
+      "start": 50.34,
+      "end": 50.58
+    },
+    {
+      "w": "bike",
+      "start": 50.58,
+      "end": 50.82
+    },
+    {
+      "w": "pump,",
+      "start": 50.82,
+      "end": 51.12
+    },
+    {
+      "w": "except",
+      "start": 51.12,
+      "end": 51.48
+    },
+    {
+      "w": "the",
+      "start": 51.48,
+      "end": 51.7
+    },
+    {
+      "w": "ocean",
+      "start": 51.7,
+      "end": 52.06
+    },
+    {
+      "w": "waves",
+      "start": 52.06,
+      "end": 52.46
+    },
+    {
+      "w": "is",
+      "start": 52.46,
+      "end": 52.72
+    },
+    {
+      "w": "what's",
+      "start": 52.72,
+      "end": 52.94
+    },
+    {
+      "w": "pushing",
+      "start": 52.94,
+      "end": 53.22
+    },
+    {
+      "w": "the",
+      "start": 53.22,
+      "end": 53.42
+    },
+    {
+      "w": "handle",
+      "start": 53.42,
+      "end": 53.7
+    },
+    {
+      "w": "up",
+      "start": 53.7,
+      "end": 53.96
+    },
+    {
+      "w": "and",
+      "start": 53.96,
+      "end": 54.08
+    },
+    {
+      "w": "down.",
+      "start": 54.08,
+      "end": 54.32
+    },
+    {
+      "w": "That",
+      "start": 54.46,
+      "end": 54.58
+    },
+    {
+      "w": "same",
+      "start": 54.58,
+      "end": 54.82
+    },
+    {
+      "w": "seawater",
+      "start": 54.82,
+      "end": 55.2
+    },
+    {
+      "w": "is",
+      "start": 55.2,
+      "end": 55.38
+    },
+    {
+      "w": "also",
+      "start": 55.38,
+      "end": 55.66
+    },
+    {
+      "w": "great",
+      "start": 55.66,
+      "end": 55.98
+    },
+    {
+      "w": "for",
+      "start": 55.98,
+      "end": 56.18
+    },
+    {
+      "w": "cooling",
+      "start": 56.18,
+      "end": 56.64
+    },
+    {
+      "w": "the",
+      "start": 56.64,
+      "end": 56.86
+    },
+    {
+      "w": "chips",
+      "start": 56.86,
+      "end": 57.12
+    },
+    {
+      "w": "in",
+      "start": 57.12,
+      "end": 57.36
+    },
+    {
+      "w": "the",
+      "start": 57.36,
+      "end": 57.44
+    },
+    {
+      "w": "data",
+      "start": 57.44,
+      "end": 57.64
+    },
+    {
+      "w": "center,",
+      "start": 57.64,
+      "end": 57.9
+    },
+    {
+      "w": "so",
+      "start": 58.02,
+      "end": 58.08
+    },
+    {
+      "w": "it",
+      "start": 58.08,
+      "end": 58.18
+    },
+    {
+      "w": "accomplishes",
+      "start": 58.18,
+      "end": 58.84
+    },
+    {
+      "w": "both",
+      "start": 58.84,
+      "end": 59.1
+    },
+    {
+      "w": "tasks",
+      "start": 59.1,
+      "end": 59.66
+    },
+    {
+      "w": "required.",
+      "start": 59.66,
+      "end": 60.16
+    },
+    {
+      "w": "That",
+      "start": 60.34,
+      "end": 60.44
+    },
+    {
+      "w": "you",
+      "start": 60.44,
+      "end": 60.56
+    },
+    {
+      "w": "didn't",
+      "start": 60.56,
+      "end": 60.72
+    },
+    {
+      "w": "calm",
+      "start": 60.72,
+      "end": 61.22
+    },
+    {
+      "w": "weather",
+      "start": 61.22,
+      "end": 61.62
+    },
+    {
+      "w": "and",
+      "start": 61.62,
+      "end": 61.96
+    },
+    {
+      "w": "no",
+      "start": 61.96,
+      "end": 62.2
+    },
+    {
+      "w": "waves",
+      "start": 62.2,
+      "end": 62.46
+    },
+    {
+      "w": "in",
+      "start": 62.46,
+      "end": 62.58
+    },
+    {
+      "w": "the",
+      "start": 62.58,
+      "end": 62.7
+    },
+    {
+      "w": "ocean",
+      "start": 62.7,
+      "end": 62.92
+    },
+    {
+      "w": "would",
+      "start": 62.92,
+      "end": 63.16
+    },
+    {
+      "w": "prevent",
+      "start": 63.16,
+      "end": 63.48
+    },
+    {
+      "w": "this",
+      "start": 63.48,
+      "end": 63.7
+    },
+    {
+      "w": "from",
+      "start": 63.7,
+      "end": 63.86
+    },
+    {
+      "w": "running.",
+      "start": 63.86,
+      "end": 64.08
+    },
+    {
+      "w": "But",
+      "start": 64.24,
+      "end": 64.32
+    },
+    {
+      "w": "it",
+      "start": 64.32,
+      "end": 64.4
+    },
+    {
+      "w": "actually",
+      "start": 64.4,
+      "end": 64.66
+    },
+    {
+      "w": "works",
+      "start": 64.66,
+      "end": 64.96
+    },
+    {
+      "w": "a",
+      "start": 64.96,
+      "end": 65.22
+    },
+    {
+      "w": "lot",
+      "start": 65.22,
+      "end": 65.38
+    },
+    {
+      "w": "more",
+      "start": 65.38,
+      "end": 65.56
+    },
+    {
+      "w": "like",
+      "start": 65.56,
+      "end": 65.76
+    },
+    {
+      "w": "a",
+      "start": 65.76,
+      "end": 65.88
+    },
+    {
+      "w": "battery.",
+      "start": 65.88,
+      "end": 66.2
+    },
+    {
+      "w": "The",
+      "start": 66.36,
+      "end": 66.42
+    },
+    {
+      "w": "sun",
+      "start": 66.42,
+      "end": 66.62
+    },
+    {
+      "w": "heats",
+      "start": 66.62,
+      "end": 66.82
+    },
+    {
+      "w": "the",
+      "start": 66.82,
+      "end": 67.04
+    },
+    {
+      "w": "air,",
+      "start": 67.04,
+      "end": 67.24
+    },
+    {
+      "w": "the",
+      "start": 67.4,
+      "end": 67.48
+    },
+    {
+      "w": "air",
+      "start": 67.48,
+      "end": 67.64
+    },
+    {
+      "w": "makes",
+      "start": 67.64,
+      "end": 67.86
+    },
+    {
+      "w": "wind,",
+      "start": 67.86,
+      "end": 68.2
+    },
+    {
+      "w": "and",
+      "start": 68.38,
+      "end": 68.46
+    },
+    {
+      "w": "the",
+      "start": 68.46,
+      "end": 68.58
+    },
+    {
+      "w": "wind",
+      "start": 68.58,
+      "end": 68.86
+    },
+    {
+      "w": "pushes",
+      "start": 68.86,
+      "end": 69.28
+    },
+    {
+      "w": "the",
+      "start": 69.28,
+      "end": 69.5
+    },
+    {
+      "w": "waves.",
+      "start": 69.5,
+      "end": 69.78
+    },
+    {
+      "w": "And",
+      "start": 70.06,
+      "end": 70.16
+    },
+    {
+      "w": "those",
+      "start": 70.16,
+      "end": 70.28
+    },
+    {
+      "w": "waves",
+      "start": 70.28,
+      "end": 70.48
+    },
+    {
+      "w": "keep",
+      "start": 70.48,
+      "end": 70.66
+    },
+    {
+      "w": "rolling",
+      "start": 70.66,
+      "end": 70.94
+    },
+    {
+      "w": "long",
+      "start": 70.94,
+      "end": 71.26
+    },
+    {
+      "w": "after",
+      "start": 71.26,
+      "end": 71.62
+    },
+    {
+      "w": "the",
+      "start": 71.62,
+      "end": 71.74
+    },
+    {
+      "w": "breeze",
+      "start": 71.74,
+      "end": 71.96
+    },
+    {
+      "w": "stops.",
+      "start": 71.96,
+      "end": 72.36
+    },
+    {
+      "w": "So",
+      "start": 72.6,
+      "end": 72.74
+    },
+    {
+      "w": "it's",
+      "start": 72.74,
+      "end": 72.94
+    },
+    {
+      "w": "solar",
+      "start": 72.94,
+      "end": 73.1
+    },
+    {
+      "w": "power",
+      "start": 73.1,
+      "end": 73.46
+    },
+    {
+      "w": "that",
+      "start": 73.46,
+      "end": 73.74
+    },
+    {
+      "w": "also",
+      "start": 73.74,
+      "end": 74.14
+    },
+    {
+      "w": "works",
+      "start": 74.14,
+      "end": 74.46
+    },
+    {
+      "w": "at",
+      "start": 74.46,
+      "end": 74.7
+    },
+    {
+      "w": "night.",
+      "start": 74.7,
+      "end": 74.9
+    },
+    {
+      "w": "But",
+      "start": 75.0,
+      "end": 75.06
+    },
+    {
+      "w": "there's",
+      "start": 75.06,
+      "end": 75.16
+    },
+    {
+      "w": "just",
+      "start": 75.16,
+      "end": 75.26
+    },
+    {
+      "w": "one",
+      "start": 75.26,
+      "end": 75.36
+    },
+    {
+      "w": "more",
+      "start": 75.36,
+      "end": 75.48
+    },
+    {
+      "w": "problem.",
+      "start": 75.48,
+      "end": 75.74
+    },
+    {
+      "w": "How",
+      "start": 75.86,
+      "end": 75.98
+    },
+    {
+      "w": "do",
+      "start": 75.98,
+      "end": 76.04
+    },
+    {
+      "w": "they",
+      "start": 76.04,
+      "end": 76.12
+    },
+    {
+      "w": "get",
+      "start": 76.12,
+      "end": 76.22
+    },
+    {
+      "w": "all",
+      "start": 76.22,
+      "end": 76.38
+    },
+    {
+      "w": "that",
+      "start": 76.38,
+      "end": 76.52
+    },
+    {
+      "w": "power",
+      "start": 76.52,
+      "end": 76.9
+    },
+    {
+      "w": "back",
+      "start": 76.9,
+      "end": 77.26
+    },
+    {
+      "w": "to",
+      "start": 77.26,
+      "end": 77.5
+    },
+    {
+      "w": "the",
+      "start": 77.5,
+      "end": 77.6
+    },
+    {
+      "w": "land",
+      "start": 77.6,
+      "end": 77.86
+    },
+    {
+      "w": "to",
+      "start": 77.86,
+      "end": 78.04
+    },
+    {
+      "w": "use?",
+      "start": 78.04,
+      "end": 78.3
+    },
+    {
+      "w": "And",
+      "start": 78.52,
+      "end": 78.62
+    },
+    {
+      "w": "it",
+      "start": 78.62,
+      "end": 78.72
+    },
+    {
+      "w": "turns",
+      "start": 78.72,
+      "end": 78.84
+    },
+    {
+      "w": "out",
+      "start": 78.84,
+      "end": 79.14
+    },
+    {
+      "w": "they",
+      "start": 79.14,
+      "end": 79.56
+    },
+    {
+      "w": "don't.",
+      "start": 79.56,
+      "end": 79.76
+    },
+    {
+      "w": "These",
+      "start": 79.96,
+      "end": 80.08
+    },
+    {
+      "w": "things",
+      "start": 80.08,
+      "end": 80.26
+    },
+    {
+      "w": "have",
+      "start": 80.26,
+      "end": 80.44
+    },
+    {
+      "w": "no",
+      "start": 80.44,
+      "end": 80.6
+    },
+    {
+      "w": "anchor,",
+      "start": 80.6,
+      "end": 80.94
+    },
+    {
+      "w": "no",
+      "start": 81.24,
+      "end": 81.4
+    },
+    {
+      "w": "fuel,",
+      "start": 81.4,
+      "end": 81.76
+    },
+    {
+      "w": "and",
+      "start": 81.92,
+      "end": 82.1
+    },
+    {
+      "w": "no",
+      "start": 82.1,
+      "end": 82.32
+    },
+    {
+      "w": "cable",
+      "start": 82.32,
+      "end": 82.74
+    },
+    {
+      "w": "to",
+      "start": 82.74,
+      "end": 82.96
+    },
+    {
+      "w": "shore.",
+      "start": 82.96,
+      "end": 83.28
+    },
+    {
+      "w": "Instead,",
+      "start": 83.5,
+      "end": 83.8
+    },
+    {
+      "w": "your",
+      "start": 83.94,
+      "end": 84.08
+    },
+    {
+      "w": "AI",
+      "start": 84.08,
+      "end": 84.46
+    },
+    {
+      "w": "query",
+      "start": 84.46,
+      "end": 84.74
+    },
+    {
+      "w": "hits",
+      "start": 84.74,
+      "end": 85.18
+    },
+    {
+      "w": "them,",
+      "start": 85.18,
+      "end": 85.42
+    },
+    {
+      "w": "goes",
+      "start": 85.42,
+      "end": 85.64
+    },
+    {
+      "w": "straight",
+      "start": 85.64,
+      "end": 86.0
+    },
+    {
+      "w": "up",
+      "start": 86.0,
+      "end": 86.22
+    },
+    {
+      "w": "to",
+      "start": 86.22,
+      "end": 86.36
+    },
+    {
+      "w": "a",
+      "start": 86.36,
+      "end": 86.46
+    },
+    {
+      "w": "satellite,",
+      "start": 86.46,
+      "end": 86.84
+    },
+    {
+      "w": "and",
+      "start": 87.18,
+      "end": 87.18
+    },
+    {
+      "w": "then",
+      "start": 87.18,
+      "end": 87.3
+    },
+    {
+      "w": "goes",
+      "start": 87.3,
+      "end": 87.46
+    },
+    {
+      "w": "straight",
+      "start": 87.46,
+      "end": 87.84
+    },
+    {
+      "w": "back",
+      "start": 87.84,
+      "end": 88.08
+    },
+    {
+      "w": "down",
+      "start": 88.08,
+      "end": 88.4
+    },
+    {
+      "w": "to",
+      "start": 88.4,
+      "end": 88.66
+    },
+    {
+      "w": "the",
+      "start": 88.66,
+      "end": 88.82
+    },
+    {
+      "w": "data",
+      "start": 88.82,
+      "end": 88.96
+    },
+    {
+      "w": "center.",
+      "start": 88.96,
+      "end": 89.2
+    },
+    {
+      "w": "The",
+      "start": 89.34,
+      "end": 89.38
+    },
+    {
+      "w": "real",
+      "start": 89.38,
+      "end": 89.52
+    },
+    {
+      "w": "problem",
+      "start": 89.52,
+      "end": 89.78
+    },
+    {
+      "w": "making",
+      "start": 89.78,
+      "end": 90.04
+    },
+    {
+      "w": "this",
+      "start": 90.04,
+      "end": 90.28
+    },
+    {
+      "w": "tough",
+      "start": 90.28,
+      "end": 90.5
+    },
+    {
+      "w": "is",
+      "start": 90.5,
+      "end": 90.7
+    },
+    {
+      "w": "that",
+      "start": 90.7,
+      "end": 90.8
+    },
+    {
+      "w": "the",
+      "start": 90.8,
+      "end": 90.92
+    },
+    {
+      "w": "ocean",
+      "start": 90.92,
+      "end": 91.24
+    },
+    {
+      "w": "typically",
+      "start": 91.24,
+      "end": 91.68
+    },
+    {
+      "w": "destroys",
+      "start": 91.68,
+      "end": 92.14
+    },
+    {
+      "w": "everything.",
+      "start": 92.14,
+      "end": 92.78
+    },
+    {
+      "w": "The",
+      "start": 92.98,
+      "end": 93.0
+    },
+    {
+      "w": "salt",
+      "start": 93.0,
+      "end": 93.2
+    },
+    {
+      "w": "eats",
+      "start": 93.2,
+      "end": 93.44
+    },
+    {
+      "w": "metal,",
+      "start": 93.44,
+      "end": 93.76
+    },
+    {
+      "w": "the",
+      "start": 94.02,
+      "end": 94.08
+    },
+    {
+      "w": "barnacles",
+      "start": 94.08,
+      "end": 94.42
+    },
+    {
+      "w": "grow",
+      "start": 94.42,
+      "end": 94.66
+    },
+    {
+      "w": "out",
+      "start": 94.66,
+      "end": 94.78
+    },
+    {
+      "w": "everything,",
+      "start": 94.78,
+      "end": 95.08
+    },
+    {
+      "w": "and",
+      "start": 95.42,
+      "end": 95.48
+    },
+    {
+      "w": "storms",
+      "start": 95.48,
+      "end": 95.84
+    },
+    {
+      "w": "do",
+      "start": 95.84,
+      "end": 96.16
+    },
+    {
+      "w": "what",
+      "start": 96.16,
+      "end": 96.36
+    },
+    {
+      "w": "storms",
+      "start": 96.36,
+      "end": 96.7
+    },
+    {
+      "w": "do.",
+      "start": 96.7,
+      "end": 96.98
+    },
+    {
+      "w": "And",
+      "start": 97.14,
+      "end": 97.22
+    },
+    {
+      "w": "that's",
+      "start": 97.22,
+      "end": 97.42
+    },
+    {
+      "w": "really",
+      "start": 97.42,
+      "end": 97.54
+    },
+    {
+      "w": "the",
+      "start": 97.54,
+      "end": 97.68
+    },
+    {
+      "w": "bet",
+      "start": 97.68,
+      "end": 97.84
+    },
+    {
+      "w": "that",
+      "start": 97.84,
+      "end": 98.02
+    },
+    {
+      "w": "Panthalass",
+      "start": 98.02,
+      "end": 98.5
+    },
+    {
+      "w": "is",
+      "start": 98.5,
+      "end": 98.64
+    },
+    {
+      "w": "making,",
+      "start": 98.64,
+      "end": 98.88
+    },
+    {
+      "w": "that",
+      "start": 99.02,
+      "end": 99.08
+    },
+    {
+      "w": "they",
+      "start": 99.08,
+      "end": 99.22
+    },
+    {
+      "w": "can",
+      "start": 99.22,
+      "end": 99.36
+    },
+    {
+      "w": "figure",
+      "start": 99.36,
+      "end": 99.6
+    },
+    {
+      "w": "out",
+      "start": 99.6,
+      "end": 99.78
+    },
+    {
+      "w": "how",
+      "start": 99.78,
+      "end": 99.86
+    },
+    {
+      "w": "to",
+      "start": 99.86,
+      "end": 99.94
+    },
+    {
+      "w": "make",
+      "start": 99.94,
+      "end": 100.12
+    },
+    {
+      "w": "this",
+      "start": 100.12,
+      "end": 100.4
+    },
+    {
+      "w": "in",
+      "start": 100.4,
+      "end": 100.58
+    },
+    {
+      "w": "a",
+      "start": 100.58,
+      "end": 100.68
+    },
+    {
+      "w": "way",
+      "start": 100.68,
+      "end": 100.8
+    },
+    {
+      "w": "the",
+      "start": 100.8,
+      "end": 100.94
+    },
+    {
+      "w": "ocean",
+      "start": 100.94,
+      "end": 101.24
+    },
+    {
+      "w": "can't",
+      "start": 101.24,
+      "end": 101.66
+    },
+    {
+      "w": "destroy",
+      "start": 101.66,
+      "end": 101.94
+    },
+    {
+      "w": "it.",
+      "start": 101.94,
+      "end": 102.1
+    },
+    {
+      "w": "The",
+      "start": 102.18,
+      "end": 102.22
+    },
+    {
+      "w": "first",
+      "start": 102.22,
+      "end": 102.4
+    },
+    {
+      "w": "full",
+      "start": 102.4,
+      "end": 102.6
+    },
+    {
+      "w": "-size",
+      "start": 102.6,
+      "end": 102.78
+    },
+    {
+      "w": "versions",
+      "start": 102.78,
+      "end": 103.16
+    },
+    {
+      "w": "of",
+      "start": 103.16,
+      "end": 103.28
+    },
+    {
+      "w": "this",
+      "start": 103.28,
+      "end": 103.4
+    },
+    {
+      "w": "go",
+      "start": 103.4,
+      "end": 103.6
+    },
+    {
+      "w": "live",
+      "start": 103.6,
+      "end": 103.84
+    },
+    {
+      "w": "in",
+      "start": 103.84,
+      "end": 104.0
+    },
+    {
+      "w": "the",
+      "start": 104.0,
+      "end": 104.08
+    },
+    {
+      "w": "ocean",
+      "start": 104.08,
+      "end": 104.34
+    },
+    {
+      "w": "later",
+      "start": 104.34,
+      "end": 104.62
+    },
+    {
+      "w": "this",
+      "start": 104.62,
+      "end": 104.9
+    },
+    {
+      "w": "year.",
+      "start": 104.9,
+      "end": 105.12
+    },
+    {
+      "w": "If",
+      "start": 105.28,
+      "end": 105.36
+    },
+    {
+      "w": "they",
+      "start": 105.36,
+      "end": 105.46
+    },
+    {
+      "w": "survive,",
+      "start": 105.46,
+      "end": 105.74
+    },
+    {
+      "w": "your",
+      "start": 106.12,
+      "end": 106.24
+    },
+    {
+      "w": "AI",
+      "start": 106.24,
+      "end": 106.52
+    },
+    {
+      "w": "queries",
+      "start": 106.52,
+      "end": 106.86
+    },
+    {
+      "w": "might",
+      "start": 106.86,
+      "end": 107.18
+    },
+    {
+      "w": "start",
+      "start": 107.18,
+      "end": 107.38
+    },
+    {
+      "w": "being",
+      "start": 107.38,
+      "end": 107.6
+    },
+    {
+      "w": "powered",
+      "start": 107.6,
+      "end": 107.96
+    },
+    {
+      "w": "by",
+      "start": 107.96,
+      "end": 108.2
+    },
+    {
+      "w": "a",
+      "start": 108.2,
+      "end": 108.34
+    },
+    {
+      "w": "floating",
+      "start": 108.34,
+      "end": 108.64
+    },
+    {
+      "w": "data",
+      "start": 108.64,
+      "end": 108.94
+    },
+    {
+      "w": "center",
+      "start": 108.94,
+      "end": 109.28
+    },
+    {
+      "w": "in",
+      "start": 109.28,
+      "end": 109.62
+    },
+    {
+      "w": "the",
+      "start": 109.62,
+      "end": 109.74
+    },
+    {
+      "w": "ocean.",
+      "start": 109.74,
+      "end": 110.0
+    },
+    {
+      "w": "All",
+      "start": 110.12,
+      "end": 110.22
+    },
+    {
+      "w": "for",
+      "start": 110.22,
+      "end": 110.34
+    },
+    {
+      "w": "more",
+      "start": 110.34,
+      "end": 110.46
+    },
+    {
+      "w": "stories",
+      "start": 110.46,
+      "end": 110.68
+    },
+    {
+      "w": "like",
+      "start": 110.68,
+      "end": 110.86
+    },
+    {
+      "w": "this",
+      "start": 110.86,
+      "end": 111.06
+    },
+    {
+      "w": "about",
+      "start": 111.06,
+      "end": 111.26
+    },
+    {
+      "w": "tech,",
+      "start": 111.26,
+      "end": 111.58
+    },
+    {
+      "w": "AI,",
+      "start": 111.8,
+      "end": 111.98
+    },
+    {
+      "w": "and",
+      "start": 112.22,
+      "end": 112.26
+    },
+    {
+      "w": "robotics.",
+      "start": 112.26,
+      "end": 112.58
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.7,
+      "length": 4.7,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0F",
+            "share": 0.253
+          },
+          {
+            "hex": "#334754",
+            "share": 0.083
+          },
+          {
+            "hex": "#485869",
+            "share": 0.071
+          },
+          {
+            "hex": "#556573",
+            "share": 0.052
+          },
+          {
+            "hex": "#273A47",
+            "share": 0.044
+          }
+        ],
+        "motion_energy": 29.78,
+        "script": "This company built a data center floating in the Pacific Ocean. They're called Pantalassa,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 4.7,
+      "end": 5.267,
+      "length": 0.567,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0E",
+            "share": 0.604
+          },
+          {
+            "hex": "#29221B",
+            "share": 0.061
+          },
+          {
+            "hex": "#AE7349",
+            "share": 0.05
+          },
+          {
+            "hex": "#2C2626",
+            "share": 0.044
+          },
+          {
+            "hex": "#241C19",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 20.43,
+        "script": "and they might be pioneering"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 5.267,
+      "end": 8.733,
+      "length": 3.467,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0F",
+            "share": 0.288
+          },
+          {
+            "hex": "#ADB0B2",
+            "share": 0.076
+          },
+          {
+            "hex": "#8D8E91",
+            "share": 0.065
+          },
+          {
+            "hex": "#696F77",
+            "share": 0.064
+          },
+          {
+            "hex": "#59656F",
+            "share": 0.05
+          }
+        ],
+        "motion_energy": 23.3,
+        "script": "a whole new category of data center technology."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 8.733,
+      "end": 9.967,
+      "length": 1.233,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#010101",
+            "share": 0.282
+          },
+          {
+            "hex": "#A8A6B2",
+            "share": 0.077
+          },
+          {
+            "hex": "#9B97A3",
+            "share": 0.073
+          },
+          {
+            "hex": "#6A6D76",
+            "share": 0.066
+          },
+          {
+            "hex": "#484D57",
+            "share": 0.057
+          }
+        ],
+        "motion_energy": 6.63,
+        "script": "See, a data center is really just thousands"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 9.967,
+      "end": 10.7,
+      "length": 0.733,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#030607",
+            "share": 0.431
+          },
+          {
+            "hex": "#B1ADB0",
+            "share": 0.063
+          },
+          {
+            "hex": "#293031",
+            "share": 0.057
+          },
+          {
+            "hex": "#0D1029",
+            "share": 0.043
+          },
+          {
+            "hex": "#938EB2",
+            "share": 0.038
+          }
+        ],
+        "motion_energy": 25.46,
+        "script": "of computer"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 10.7,
+      "end": 11.5,
+      "length": 0.8,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#020202",
+            "share": 0.316
+          },
+          {
+            "hex": "#332E2E",
+            "share": 0.235
+          },
+          {
+            "hex": "#544C4A",
+            "share": 0.165
+          },
+          {
+            "hex": "#453A38",
+            "share": 0.096
+          },
+          {
+            "hex": "#655855",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 21.86,
+        "script": "chips that"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 11.5,
+      "end": 12.567,
+      "length": 1.067,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#110D0F",
+            "share": 0.6
+          },
+          {
+            "hex": "#AF7349",
+            "share": 0.052
+          },
+          {
+            "hex": "#2A231B",
+            "share": 0.051
+          },
+          {
+            "hex": "#2D2626",
+            "share": 0.049
+          },
+          {
+            "hex": "#241C19",
+            "share": 0.034
+          }
+        ],
+        "motion_energy": 9.82,
+        "script": "only need two things,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 12.567,
+      "end": 18.333,
+      "length": 5.767,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#110E10",
+            "share": 0.346
+          },
+          {
+            "hex": "#6E6C70",
+            "share": 0.126
+          },
+          {
+            "hex": "#4D5052",
+            "share": 0.092
+          },
+          {
+            "hex": "#2D2E2F",
+            "share": 0.071
+          },
+          {
+            "hex": "#191924",
+            "share": 0.035
+          }
+        ],
+        "motion_energy": 25.43,
+        "script": "electricity to think and water to cool. On land, they compete with actual towns for both of those resources, which"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 18.333,
+      "end": 19.033,
+      "length": 0.7,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#110D0F",
+            "share": 0.559
+          },
+          {
+            "hex": "#AD724A",
+            "share": 0.049
+          },
+          {
+            "hex": "#332B2A",
+            "share": 0.038
+          },
+          {
+            "hex": "#241B17",
+            "share": 0.037
+          },
+          {
+            "hex": "#704A33",
+            "share": 0.035
+          }
+        ],
+        "motion_energy": 24.7,
+        "script": "is why these"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 19.033,
+      "end": 20.633,
+      "length": 1.6,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D10",
+            "share": 0.275
+          },
+          {
+            "hex": "#725149",
+            "share": 0.15
+          },
+          {
+            "hex": "#4E3731",
+            "share": 0.075
+          },
+          {
+            "hex": "#69473A",
+            "share": 0.057
+          },
+          {
+            "hex": "#855A4D",
+            "share": 0.05
+          }
+        ],
+        "motion_energy": 7.96,
+        "script": "projects keep getting blocked. But"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 10,
+      "start": 20.633,
+      "end": 25.0,
+      "length": 4.367,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#010202",
+            "share": 0.302
+          },
+          {
+            "hex": "#D3D4CE",
+            "share": 0.134
+          },
+          {
+            "hex": "#ADADB1",
+            "share": 0.102
+          },
+          {
+            "hex": "#909194",
+            "share": 0.096
+          },
+          {
+            "hex": "#707074",
+            "share": 0.03
+          }
+        ],
+        "motion_energy": 20.22,
+        "script": "the ocean has no towns, no permits, and no grids to constrain."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 11,
+      "start": 25.0,
+      "end": 27.967,
+      "length": 2.967,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#120E0F",
+            "share": 0.598
+          },
+          {
+            "hex": "#AF734A",
+            "share": 0.062
+          },
+          {
+            "hex": "#241C18",
+            "share": 0.038
+          },
+          {
+            "hex": "#2C231A",
+            "share": 0.034
+          },
+          {
+            "hex": "#704B34",
+            "share": 0.033
+          }
+        ],
+        "motion_energy": 17.46,
+        "script": "Of course, there is just one problem with an ocean -based data center. There"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 12,
+      "start": 27.967,
+      "end": 30.3,
+      "length": 2.333,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0D",
+            "share": 0.524
+          },
+          {
+            "hex": "#101926",
+            "share": 0.046
+          },
+          {
+            "hex": "#302C2B",
+            "share": 0.042
+          },
+          {
+            "hex": "#152532",
+            "share": 0.03
+          },
+          {
+            "hex": "#241B16",
+            "share": 0.028
+          }
+        ],
+        "motion_energy": 17.57,
+        "script": "are no plugs to plug in for electricity."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 13,
+      "start": 30.3,
+      "end": 32.033,
+      "length": 1.733,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0F",
+            "share": 0.256
+          },
+          {
+            "hex": "#4E4F54",
+            "share": 0.085
+          },
+          {
+            "hex": "#918C8D",
+            "share": 0.057
+          },
+          {
+            "hex": "#6D696C",
+            "share": 0.053
+          },
+          {
+            "hex": "#515965",
+            "share": 0.042
+          }
+        ],
+        "motion_energy": 17.64,
+        "script": "So this floating data center was designed to"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 14,
+      "start": 32.033,
+      "end": 33.067,
+      "length": 1.033,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#110F10",
+            "share": 0.37
+          },
+          {
+            "hex": "#34302B",
+            "share": 0.071
+          },
+          {
+            "hex": "#2C2317",
+            "share": 0.058
+          },
+          {
+            "hex": "#54504B",
+            "share": 0.045
+          },
+          {
+            "hex": "#959188",
+            "share": 0.043
+          }
+        ],
+        "motion_energy": 5.0,
+        "script": "make its own power."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 15,
+      "start": 33.067,
+      "end": 33.967,
+      "length": 0.9,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0F",
+            "share": 0.565
+          },
+          {
+            "hex": "#AD7249",
+            "share": 0.049
+          },
+          {
+            "hex": "#2F2826",
+            "share": 0.042
+          },
+          {
+            "hex": "#2B231B",
+            "share": 0.042
+          },
+          {
+            "hex": "#241C18",
+            "share": 0.037
+          }
+        ],
+        "motion_energy": 10.57,
+        "script": "Here's how it works."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 16,
+      "start": 33.967,
+      "end": 39.6,
+      "length": 5.633,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#010102",
+            "share": 0.296
+          },
+          {
+            "hex": "#0F3552",
+            "share": 0.219
+          },
+          {
+            "hex": "#184867",
+            "share": 0.096
+          },
+          {
+            "hex": "#295474",
+            "share": 0.049
+          },
+          {
+            "hex": "#B1C4D5",
+            "share": 0.042
+          }
+        ],
+        "motion_energy": 13.85,
+        "script": "Picture a giant floating lollipop in the sea with a round buoy on top and a long tube underneath."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 17,
+      "start": 39.6,
+      "end": 43.033,
+      "length": 3.433,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0F",
+            "share": 0.273
+          },
+          {
+            "hex": "#051748",
+            "share": 0.1
+          },
+          {
+            "hex": "#2B538A",
+            "share": 0.048
+          },
+          {
+            "hex": "#070E36",
+            "share": 0.046
+          },
+          {
+            "hex": "#102556",
+            "share": 0.043
+          }
+        ],
+        "motion_energy": 18.62,
+        "script": "Waves only move at the top of the surface, so underneath it's actually very calm."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 18,
+      "start": 43.033,
+      "end": 43.533,
+      "length": 0.5,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0E",
+            "share": 0.579
+          },
+          {
+            "hex": "#AE7249",
+            "share": 0.056
+          },
+          {
+            "hex": "#704B33",
+            "share": 0.036
+          },
+          {
+            "hex": "#322A2A",
+            "share": 0.034
+          },
+          {
+            "hex": "#241B18",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 26.44,
+        "script": "And that means the"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 19,
+      "start": 43.533,
+      "end": 46.733,
+      "length": 3.2,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0F",
+            "share": 0.264
+          },
+          {
+            "hex": "#B0AFB2",
+            "share": 0.086
+          },
+          {
+            "hex": "#4A4F52",
+            "share": 0.062
+          },
+          {
+            "hex": "#97A8B4",
+            "share": 0.052
+          },
+          {
+            "hex": "#2E2E2F",
+            "share": 0.048
+          }
+        ],
+        "motion_energy": 20.25,
+        "script": "buoy rides up and down while the tube stays still."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 20,
+      "start": 46.733,
+      "end": 49.967,
+      "length": 3.233,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#000000",
+            "share": 0.513
+          },
+          {
+            "hex": "#D3D4D6",
+            "share": 0.236
+          },
+          {
+            "hex": "#BBC2D2",
+            "share": 0.119
+          },
+          {
+            "hex": "#B1B7CD",
+            "share": 0.078
+          },
+          {
+            "hex": "#AFB1B7",
+            "share": 0.012
+          }
+        ],
+        "motion_energy": 3.25,
+        "script": "Every wave that passes by squeezes seawater through its herbide. Think"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 21,
+      "start": 49.967,
+      "end": 50.5,
+      "length": 0.533,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100C0E",
+            "share": 0.618
+          },
+          {
+            "hex": "#AE7349",
+            "share": 0.051
+          },
+          {
+            "hex": "#231C19",
+            "share": 0.037
+          },
+          {
+            "hex": "#2E2727",
+            "share": 0.034
+          },
+          {
+            "hex": "#2B221B",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 23.42,
+        "script": "of it like a"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 22,
+      "start": 50.5,
+      "end": 52.633,
+      "length": 2.133,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0F",
+            "share": 0.273
+          },
+          {
+            "hex": "#ADA8B6",
+            "share": 0.085
+          },
+          {
+            "hex": "#2A2F33",
+            "share": 0.078
+          },
+          {
+            "hex": "#39444E",
+            "share": 0.055
+          },
+          {
+            "hex": "#9193A7",
+            "share": 0.046
+          }
+        ],
+        "motion_energy": 14.38,
+        "script": "bike pump, except the ocean waves is"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 23,
+      "start": 52.633,
+      "end": 54.5,
+      "length": 1.867,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0E",
+            "share": 0.294
+          },
+          {
+            "hex": "#6E1153",
+            "share": 0.188
+          },
+          {
+            "hex": "#490253",
+            "share": 0.185
+          },
+          {
+            "hex": "#2E2929",
+            "share": 0.034
+          },
+          {
+            "hex": "#4E126A",
+            "share": 0.029
+          }
+        ],
+        "motion_energy": 6.19,
+        "script": "what's pushing the handle up and down. That"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 24,
+      "start": 54.5,
+      "end": 57.267,
+      "length": 2.767,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0F",
+            "share": 0.264
+          },
+          {
+            "hex": "#304458",
+            "share": 0.084
+          },
+          {
+            "hex": "#263A4E",
+            "share": 0.075
+          },
+          {
+            "hex": "#556378",
+            "share": 0.063
+          },
+          {
+            "hex": "#495B71",
+            "share": 0.057
+          }
+        ],
+        "motion_energy": 25.72,
+        "script": "same seawater is also great for cooling the chips in"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 25,
+      "start": 57.267,
+      "end": 57.967,
+      "length": 0.7,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0E0F",
+            "share": 0.415
+          },
+          {
+            "hex": "#C3C4C5",
+            "share": 0.086
+          },
+          {
+            "hex": "#AFB4C2",
+            "share": 0.052
+          },
+          {
+            "hex": "#0B1925",
+            "share": 0.044
+          },
+          {
+            "hex": "#072E51",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 23.88,
+        "script": "the data center,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 26,
+      "start": 57.967,
+      "end": 60.333,
+      "length": 2.367,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0E",
+            "share": 0.569
+          },
+          {
+            "hex": "#AE7348",
+            "share": 0.061
+          },
+          {
+            "hex": "#2A221B",
+            "share": 0.049
+          },
+          {
+            "hex": "#2E2727",
+            "share": 0.043
+          },
+          {
+            "hex": "#241C18",
+            "share": 0.039
+          }
+        ],
+        "motion_energy": 12.48,
+        "script": "so it accomplishes both tasks required."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 27,
+      "start": 60.333,
+      "end": 63.1,
+      "length": 2.767,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#04060A",
+            "share": 0.489
+          },
+          {
+            "hex": "#2E2A2E",
+            "share": 0.19
+          },
+          {
+            "hex": "#161A24",
+            "share": 0.052
+          },
+          {
+            "hex": "#907570",
+            "share": 0.036
+          },
+          {
+            "hex": "#6D5856",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 8.89,
+        "script": "That you didn't calm weather and no waves in the ocean would"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 28,
+      "start": 63.1,
+      "end": 64.267,
+      "length": 1.167,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#010101",
+            "share": 0.292
+          },
+          {
+            "hex": "#95898C",
+            "share": 0.123
+          },
+          {
+            "hex": "#A88D8B",
+            "share": 0.096
+          },
+          {
+            "hex": "#0F3654",
+            "share": 0.066
+          },
+          {
+            "hex": "#324653",
+            "share": 0.045
+          }
+        ],
+        "motion_energy": 2.85,
+        "script": "prevent this from running. But"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 29,
+      "start": 64.267,
+      "end": 66.333,
+      "length": 2.067,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#110D0E",
+            "share": 0.566
+          },
+          {
+            "hex": "#AD7149",
+            "share": 0.048
+          },
+          {
+            "hex": "#2C231A",
+            "share": 0.044
+          },
+          {
+            "hex": "#322A29",
+            "share": 0.042
+          },
+          {
+            "hex": "#241C18",
+            "share": 0.037
+          }
+        ],
+        "motion_energy": 12.07,
+        "script": "it actually works a lot more like a battery."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 30,
+      "start": 66.333,
+      "end": 70.033,
+      "length": 3.7,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#110D10",
+            "share": 0.275
+          },
+          {
+            "hex": "#D7D7D7",
+            "share": 0.235
+          },
+          {
+            "hex": "#506CB3",
+            "share": 0.168
+          },
+          {
+            "hex": "#302A2A",
+            "share": 0.026
+          },
+          {
+            "hex": "#738CC6",
+            "share": 0.026
+          }
+        ],
+        "motion_energy": 18.72,
+        "script": "The sun heats the air, the air makes wind, and the wind pushes the waves."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 31,
+      "start": 70.033,
+      "end": 71.1,
+      "length": 1.067,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0F",
+            "share": 0.263
+          },
+          {
+            "hex": "#90A5B1",
+            "share": 0.097
+          },
+          {
+            "hex": "#2E5767",
+            "share": 0.068
+          },
+          {
+            "hex": "#6F8997",
+            "share": 0.057
+          },
+          {
+            "hex": "#859BAA",
+            "share": 0.046
+          }
+        ],
+        "motion_energy": 14.99,
+        "script": "And those waves keep rolling long"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 32,
+      "start": 71.1,
+      "end": 75.033,
+      "length": 3.933,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D10",
+            "share": 0.269
+          },
+          {
+            "hex": "#324752",
+            "share": 0.088
+          },
+          {
+            "hex": "#485969",
+            "share": 0.064
+          },
+          {
+            "hex": "#263A45",
+            "share": 0.053
+          },
+          {
+            "hex": "#556574",
+            "share": 0.053
+          }
+        ],
+        "motion_energy": 23.55,
+        "script": "after the breeze stops. So it's solar power that also works at night. But"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 33,
+      "start": 75.033,
+      "end": 75.833,
+      "length": 0.8,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0F",
+            "share": 0.603
+          },
+          {
+            "hex": "#B0744A",
+            "share": 0.058
+          },
+          {
+            "hex": "#2A221B",
+            "share": 0.042
+          },
+          {
+            "hex": "#2D2728",
+            "share": 0.038
+          },
+          {
+            "hex": "#231C19",
+            "share": 0.036
+          }
+        ],
+        "motion_energy": 25.61,
+        "script": "there's just one more problem."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 34,
+      "start": 75.833,
+      "end": 77.1,
+      "length": 1.267,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D10",
+            "share": 0.266
+          },
+          {
+            "hex": "#8A8E98",
+            "share": 0.164
+          },
+          {
+            "hex": "#959AA3",
+            "share": 0.115
+          },
+          {
+            "hex": "#7B8591",
+            "share": 0.057
+          },
+          {
+            "hex": "#302B2C",
+            "share": 0.041
+          }
+        ],
+        "motion_energy": 8.6,
+        "script": "How do they get all that power back"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 35,
+      "start": 77.1,
+      "end": 78.533,
+      "length": 1.433,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0E10",
+            "share": 0.374
+          },
+          {
+            "hex": "#2E2C2B",
+            "share": 0.083
+          },
+          {
+            "hex": "#B7B3A6",
+            "share": 0.045
+          },
+          {
+            "hex": "#544E48",
+            "share": 0.043
+          },
+          {
+            "hex": "#ABA798",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 5.98,
+        "script": "to the land to use? And"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 36,
+      "start": 78.533,
+      "end": 79.933,
+      "length": 1.4,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#110D0E",
+            "share": 0.588
+          },
+          {
+            "hex": "#302828",
+            "share": 0.048
+          },
+          {
+            "hex": "#2B231B",
+            "share": 0.043
+          },
+          {
+            "hex": "#AE724A",
+            "share": 0.043
+          },
+          {
+            "hex": "#704A32",
+            "share": 0.035
+          }
+        ],
+        "motion_energy": 9.25,
+        "script": "it turns out they don't."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 37,
+      "start": 79.933,
+      "end": 81.2,
+      "length": 1.267,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#000000",
+            "share": 0.736
+          },
+          {
+            "hex": "#2D7286",
+            "share": 0.041
+          },
+          {
+            "hex": "#1B556C",
+            "share": 0.037
+          },
+          {
+            "hex": "#24667A",
+            "share": 0.033
+          },
+          {
+            "hex": "#AEB6B2",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 2.26,
+        "script": "These things have no anchor,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 38,
+      "start": 81.2,
+      "end": 83.533,
+      "length": 2.333,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#010101",
+            "share": 0.248
+          },
+          {
+            "hex": "#CACBD0",
+            "share": 0.089
+          },
+          {
+            "hex": "#B1B2B1",
+            "share": 0.063
+          },
+          {
+            "hex": "#2F7087",
+            "share": 0.059
+          },
+          {
+            "hex": "#507091",
+            "share": 0.054
+          }
+        ],
+        "motion_energy": 13.83,
+        "script": "no fuel, and no cable to shore. Instead,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 39,
+      "start": 83.533,
+      "end": 89.333,
+      "length": 5.8,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#D7D4D5",
+            "share": 0.483
+          },
+          {
+            "hex": "#110D0F",
+            "share": 0.254
+          },
+          {
+            "hex": "#302929",
+            "share": 0.026
+          },
+          {
+            "hex": "#89776E",
+            "share": 0.022
+          },
+          {
+            "hex": "#91694B",
+            "share": 0.018
+          }
+        ],
+        "motion_energy": 23.51,
+        "script": "your AI query hits them, goes straight up to a satellite, and then goes straight back down to the data center."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 40,
+      "start": 89.333,
+      "end": 90.633,
+      "length": 1.3,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0E",
+            "share": 0.575
+          },
+          {
+            "hex": "#AF734A",
+            "share": 0.069
+          },
+          {
+            "hex": "#714A32",
+            "share": 0.039
+          },
+          {
+            "hex": "#241B18",
+            "share": 0.038
+          },
+          {
+            "hex": "#4F352A",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 13.37,
+        "script": "The real problem making this tough is"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 41,
+      "start": 90.633,
+      "end": 97.133,
+      "length": 6.5,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#110E10",
+            "share": 0.261
+          },
+          {
+            "hex": "#0994D2",
+            "share": 0.083
+          },
+          {
+            "hex": "#0A8B94",
+            "share": 0.046
+          },
+          {
+            "hex": "#033449",
+            "share": 0.037
+          },
+          {
+            "hex": "#169CE1",
+            "share": 0.036
+          }
+        ],
+        "motion_energy": 26.85,
+        "script": "that the ocean typically destroys everything. The salt eats metal, the barnacles grow out everything, and storms do what storms do."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 42,
+      "start": 97.133,
+      "end": 99.033,
+      "length": 1.9,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0E",
+            "share": 0.553
+          },
+          {
+            "hex": "#AE724A",
+            "share": 0.047
+          },
+          {
+            "hex": "#2F2828",
+            "share": 0.044
+          },
+          {
+            "hex": "#241C18",
+            "share": 0.042
+          },
+          {
+            "hex": "#704A34",
+            "share": 0.035
+          }
+        ],
+        "motion_energy": 14.7,
+        "script": "And that's really the bet that Panthalass is making, that"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 43,
+      "start": 99.033,
+      "end": 99.767,
+      "length": 0.733,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#030403",
+            "share": 0.349
+          },
+          {
+            "hex": "#483315",
+            "share": 0.089
+          },
+          {
+            "hex": "#E6E8E5",
+            "share": 0.081
+          },
+          {
+            "hex": "#352712",
+            "share": 0.062
+          },
+          {
+            "hex": "#2C2F31",
+            "share": 0.038
+          }
+        ],
+        "motion_energy": 20.16,
+        "script": "they can figure out"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 44,
+      "start": 99.767,
+      "end": 102.167,
+      "length": 2.4,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#000101",
+            "share": 0.284
+          },
+          {
+            "hex": "#112E37",
+            "share": 0.144
+          },
+          {
+            "hex": "#6B8993",
+            "share": 0.094
+          },
+          {
+            "hex": "#2F5868",
+            "share": 0.082
+          },
+          {
+            "hex": "#183A46",
+            "share": 0.076
+          }
+        ],
+        "motion_energy": 12.14,
+        "script": "how to make this in a way the ocean can't destroy it."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 45,
+      "start": 102.167,
+      "end": 102.933,
+      "length": 0.766,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0C0D",
+            "share": 0.693
+          },
+          {
+            "hex": "#302C2A",
+            "share": 0.03
+          },
+          {
+            "hex": "#89786E",
+            "share": 0.022
+          },
+          {
+            "hex": "#2C2719",
+            "share": 0.021
+          },
+          {
+            "hex": "#6E4D34",
+            "share": 0.02
+          }
+        ],
+        "motion_energy": 19.8,
+        "script": "The first full -size versions"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 46,
+      "start": 102.933,
+      "end": 105.3,
+      "length": 2.367,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0D10",
+            "share": 0.311
+          },
+          {
+            "hex": "#788FA5",
+            "share": 0.105
+          },
+          {
+            "hex": "#6E859A",
+            "share": 0.061
+          },
+          {
+            "hex": "#8797AB",
+            "share": 0.054
+          },
+          {
+            "hex": "#121826",
+            "share": 0.041
+          }
+        ],
+        "motion_energy": 19.96,
+        "script": "of this go live in the ocean later this year. If"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 47,
+      "start": 105.3,
+      "end": 106.067,
+      "length": 0.767,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100C0E",
+            "share": 0.623
+          },
+          {
+            "hex": "#AF7149",
+            "share": 0.046
+          },
+          {
+            "hex": "#724A33",
+            "share": 0.034
+          },
+          {
+            "hex": "#241B18",
+            "share": 0.032
+          },
+          {
+            "hex": "#2F2827",
+            "share": 0.03
+          }
+        ],
+        "motion_energy": 20.56,
+        "script": "they survive,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 48,
+      "start": 106.067,
+      "end": 107.067,
+      "length": 1.0,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0F",
+            "share": 0.261
+          },
+          {
+            "hex": "#4F3530",
+            "share": 0.147
+          },
+          {
+            "hex": "#B8C7D2",
+            "share": 0.126
+          },
+          {
+            "hex": "#54413B",
+            "share": 0.075
+          },
+          {
+            "hex": "#302A2B",
+            "share": 0.037
+          }
+        ],
+        "motion_energy": 7.76,
+        "script": "your AI queries might"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 49,
+      "start": 107.067,
+      "end": 108.133,
+      "length": 1.066,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#E7EEED",
+            "share": 0.333
+          },
+          {
+            "hex": "#0F0D0F",
+            "share": 0.33
+          },
+          {
+            "hex": "#2D292B",
+            "share": 0.048
+          },
+          {
+            "hex": "#DCE5E5",
+            "share": 0.035
+          },
+          {
+            "hex": "#89786E",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 7.19,
+        "script": "start being powered by"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 50,
+      "start": 108.133,
+      "end": 110.167,
+      "length": 2.034,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D10",
+            "share": 0.275
+          },
+          {
+            "hex": "#CFCAC1",
+            "share": 0.068
+          },
+          {
+            "hex": "#566873",
+            "share": 0.064
+          },
+          {
+            "hex": "#CEC7BB",
+            "share": 0.055
+          },
+          {
+            "hex": "#B1B9B7",
+            "share": 0.046
+          }
+        ],
+        "motion_energy": 13.85,
+        "script": "a floating data center in the ocean. All"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 51,
+      "start": 110.167,
+      "end": 113.055,
+      "length": 2.888,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100C0E",
+            "share": 0.532
+          },
+          {
+            "hex": "#AD7249",
+            "share": 0.048
+          },
+          {
+            "hex": "#704B34",
+            "share": 0.044
+          },
+          {
+            "hex": "#4D3429",
+            "share": 0.042
+          },
+          {
+            "hex": "#241B18",
+            "share": 0.039
+          }
+        ],
+        "motion_energy": 14.85,
+        "script": "for more stories like this about tech, AI, and robotics."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

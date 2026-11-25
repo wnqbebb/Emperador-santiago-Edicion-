@@ -1,0 +1,203 @@
+1
+00:00:00,000 --> 00:00:01,219
+This factory in China is
+
+2
+00:00:01,219 --> 00:00:02,720
+building a new robot every
+
+3
+00:00:02,720 --> 00:00:04,080
+10 minutes. And the crazy
+
+4
+00:00:04,080 --> 00:00:05,500
+part is each new robot
+
+5
+00:00:05,500 --> 00:00:06,879
+is being built by another
+
+6
+00:00:06,879 --> 00:00:08,039
+robot. This is the latest
+
+7
+00:00:08,039 --> 00:00:09,939
+project from UBTEC in China.
+
+8
+00:00:10,160 --> 00:00:11,460
+And it's basically one giant
+
+9
+00:00:11,460 --> 00:00:13,939
+industrial humanoid robot factory. On
+
+10
+00:00:13,939 --> 00:00:15,000
+the floor, there are humanoid
+
+11
+00:00:15,000 --> 00:00:16,940
+robots walking around moving parts
+
+12
+00:00:16,940 --> 00:00:18,600
+and materials. Around the edges,
+
+13
+00:00:18,899 --> 00:00:20,839
+giant robot arms are spinning
+
+14
+00:00:20,839 --> 00:00:22,940
+to install 2 ,000 screws
+
+15
+00:00:22,940 --> 00:00:24,320
+per robot. The whole place
+
+16
+00:00:24,320 --> 00:00:25,260
+sits on two and a
+
+17
+00:00:25,260 --> 00:00:27,039
+half football fields of industrial
+
+18
+00:00:27,039 --> 00:00:28,539
+factory floor. And it works
+
+19
+00:00:28,539 --> 00:00:29,960
+basically like a car plant,
+
+20
+00:00:30,039 --> 00:00:31,239
+except that the finished products
+
+21
+00:00:31,239 --> 00:00:32,399
+walk out the front door.
+
+22
+00:00:32,539 --> 00:00:33,380
+But here's the wildest part
+
+23
+00:00:33,380 --> 00:00:34,560
+about this whole project. These
+
+24
+00:00:34,560 --> 00:00:36,560
+particular robots never have to
+
+25
+00:00:36,560 --> 00:00:37,899
+stop working. Because instead of
+
+26
+00:00:37,899 --> 00:00:39,039
+having to charge up like
+
+27
+00:00:39,039 --> 00:00:40,579
+normal robots, these guys have
+
+28
+00:00:40,579 --> 00:00:42,700
+two different battery packs in
+
+29
+00:00:42,700 --> 00:00:43,899
+their back. When one battery
+
+30
+00:00:43,899 --> 00:00:44,780
+is running low, they just
+
+31
+00:00:44,780 --> 00:00:45,780
+walk over to the charging
+
+32
+00:00:45,780 --> 00:00:48,619
+station, twist their torso, unload
+
+33
+00:00:48,619 --> 00:00:50,520
+the dead battery and reload
+
+34
+00:00:50,520 --> 00:00:52,200
+for themselves. A complete battery
+
+35
+00:00:52,200 --> 00:00:53,659
+upgrade in three minutes, no
+
+36
+00:00:53,659 --> 00:00:54,859
+human required. And what that
+
+37
+00:00:54,859 --> 00:00:56,039
+means is that this factory
+
+38
+00:00:56,039 --> 00:00:58,140
+can run 24 -7 without
+
+39
+00:00:58,140 --> 00:00:59,640
+any of the robot labor
+
+40
+00:00:59,640 --> 00:01:00,979
+needing to take any breaks.
+
+41
+00:01:01,240 --> 00:01:02,359
+I'm telling you, robots building
+
+42
+00:01:02,359 --> 00:01:03,640
+other robots used to be
+
+43
+00:01:03,640 --> 00:01:04,599
+something out of a sci
+
+44
+00:01:04,599 --> 00:01:05,840
+-fi movie. But now it's
+
+45
+00:01:05,840 --> 00:01:07,540
+a literal production line working
+
+46
+00:01:07,540 --> 00:01:09,120
+in China with a volume
+
+47
+00:01:09,120 --> 00:01:10,739
+quota attached. It seems crazy
+
+48
+00:01:10,739 --> 00:01:11,620
+now, but this type of
+
+49
+00:01:11,620 --> 00:01:13,620
+production, robots building other robots,
+
+50
+00:01:13,780 --> 00:01:15,319
+is gonna be normalized around
+
+51
+00:01:15,319 --> 00:01:15,859
+the globe.

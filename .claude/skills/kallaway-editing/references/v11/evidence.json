@@ -1,0 +1,3089 @@
+{
+  "video": "v11.mp4",
+  "duration": 92.25,
+  "derived": {
+    "shots": 34,
+    "avg_shot_len": 2.71,
+    "cuts_per_min": 22.1,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      15,
+      16,
+      18,
+      20,
+      21,
+      22,
+      23,
+      25,
+      27,
+      29,
+      30,
+      32
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "DoorDash",
+      "start": 0.0,
+      "end": 0.42
+    },
+    {
+      "w": "just",
+      "start": 0.42,
+      "end": 0.64
+    },
+    {
+      "w": "officially",
+      "start": 0.64,
+      "end": 1.12
+    },
+    {
+      "w": "launched",
+      "start": 1.12,
+      "end": 1.5
+    },
+    {
+      "w": "their",
+      "start": 1.5,
+      "end": 1.74
+    },
+    {
+      "w": "drone",
+      "start": 1.74,
+      "end": 2.2
+    },
+    {
+      "w": "delivery",
+      "start": 2.2,
+      "end": 2.62
+    },
+    {
+      "w": "program.",
+      "start": 2.62,
+      "end": 3.1
+    },
+    {
+      "w": "It's",
+      "start": 3.3,
+      "end": 3.38
+    },
+    {
+      "w": "called",
+      "start": 3.38,
+      "end": 3.64
+    },
+    {
+      "w": "DoorDash",
+      "start": 3.64,
+      "end": 4.4
+    },
+    {
+      "w": "Air.",
+      "start": 4.4,
+      "end": 4.74
+    },
+    {
+      "w": "And",
+      "start": 4.92,
+      "end": 4.98
+    },
+    {
+      "w": "this",
+      "start": 4.98,
+      "end": 5.18
+    },
+    {
+      "w": "is",
+      "start": 5.18,
+      "end": 5.32
+    },
+    {
+      "w": "gonna",
+      "start": 5.32,
+      "end": 5.4
+    },
+    {
+      "w": "completely",
+      "start": 5.4,
+      "end": 5.82
+    },
+    {
+      "w": "change",
+      "start": 5.82,
+      "end": 6.32
+    },
+    {
+      "w": "how",
+      "start": 6.32,
+      "end": 6.68
+    },
+    {
+      "w": "food",
+      "start": 6.68,
+      "end": 7.12
+    },
+    {
+      "w": "gets",
+      "start": 7.12,
+      "end": 7.36
+    },
+    {
+      "w": "delivered",
+      "start": 7.36,
+      "end": 7.72
+    },
+    {
+      "w": "in",
+      "start": 7.72,
+      "end": 8.24
+    },
+    {
+      "w": "the",
+      "start": 8.24,
+      "end": 8.4
+    },
+    {
+      "w": "future.",
+      "start": 8.4,
+      "end": 8.68
+    },
+    {
+      "w": "Customers",
+      "start": 8.9,
+      "end": 9.24
+    },
+    {
+      "w": "can",
+      "start": 9.24,
+      "end": 9.42
+    },
+    {
+      "w": "out",
+      "start": 9.42,
+      "end": 9.56
+    },
+    {
+      "w": "place",
+      "start": 9.56,
+      "end": 9.88
+    },
+    {
+      "w": "orders",
+      "start": 9.88,
+      "end": 10.3
+    },
+    {
+      "w": "that",
+      "start": 10.3,
+      "end": 10.58
+    },
+    {
+      "w": "fly",
+      "start": 10.58,
+      "end": 11.0
+    },
+    {
+      "w": "straight",
+      "start": 11.0,
+      "end": 11.5
+    },
+    {
+      "w": "from",
+      "start": 11.5,
+      "end": 11.8
+    },
+    {
+      "w": "the",
+      "start": 11.8,
+      "end": 11.9
+    },
+    {
+      "w": "restaurant",
+      "start": 11.9,
+      "end": 12.28
+    },
+    {
+      "w": "and",
+      "start": 12.28,
+      "end": 12.64
+    },
+    {
+      "w": "land",
+      "start": 12.64,
+      "end": 12.94
+    },
+    {
+      "w": "directly",
+      "start": 12.94,
+      "end": 13.56
+    },
+    {
+      "w": "in",
+      "start": 13.56,
+      "end": 13.92
+    },
+    {
+      "w": "your",
+      "start": 13.92,
+      "end": 14.04
+    },
+    {
+      "w": "yard.",
+      "start": 14.04,
+      "end": 14.34
+    },
+    {
+      "w": "These",
+      "start": 14.48,
+      "end": 14.58
+    },
+    {
+      "w": "specially",
+      "start": 14.58,
+      "end": 14.9
+    },
+    {
+      "w": "designed",
+      "start": 14.9,
+      "end": 15.14
+    },
+    {
+      "w": "drones",
+      "start": 15.14,
+      "end": 15.44
+    },
+    {
+      "w": "are",
+      "start": 15.44,
+      "end": 15.76
+    },
+    {
+      "w": "extremely",
+      "start": 15.76,
+      "end": 16.24
+    },
+    {
+      "w": "quiet.",
+      "start": 16.24,
+      "end": 16.78
+    },
+    {
+      "w": "And",
+      "start": 16.98,
+      "end": 17.06
+    },
+    {
+      "w": "you",
+      "start": 17.06,
+      "end": 17.12
+    },
+    {
+      "w": "can",
+      "start": 17.12,
+      "end": 17.24
+    },
+    {
+      "w": "actually",
+      "start": 17.24,
+      "end": 17.44
+    },
+    {
+      "w": "watch",
+      "start": 17.44,
+      "end": 17.84
+    },
+    {
+      "w": "the",
+      "start": 17.84,
+      "end": 18.12
+    },
+    {
+      "w": "drones",
+      "start": 18.12,
+      "end": 18.46
+    },
+    {
+      "w": "route",
+      "start": 18.46,
+      "end": 18.84
+    },
+    {
+      "w": "via",
+      "start": 18.84,
+      "end": 19.2
+    },
+    {
+      "w": "a",
+      "start": 19.2,
+      "end": 19.46
+    },
+    {
+      "w": "flyover",
+      "start": 19.46,
+      "end": 19.94
+    },
+    {
+      "w": "visualization",
+      "start": 19.94,
+      "end": 20.36
+    },
+    {
+      "w": "as",
+      "start": 20.36,
+      "end": 21.08
+    },
+    {
+      "w": "it",
+      "start": 21.08,
+      "end": 21.24
+    },
+    {
+      "w": "delivers.",
+      "start": 21.24,
+      "end": 21.58
+    },
+    {
+      "w": "Now",
+      "start": 21.82,
+      "end": 21.9
+    },
+    {
+      "w": "the",
+      "start": 21.9,
+      "end": 21.98
+    },
+    {
+      "w": "big",
+      "start": 21.98,
+      "end": 22.14
+    },
+    {
+      "w": "perk",
+      "start": 22.14,
+      "end": 22.34
+    },
+    {
+      "w": "is",
+      "start": 22.34,
+      "end": 22.5
+    },
+    {
+      "w": "that",
+      "start": 22.5,
+      "end": 22.64
+    },
+    {
+      "w": "these",
+      "start": 22.64,
+      "end": 22.86
+    },
+    {
+      "w": "drones",
+      "start": 22.86,
+      "end": 23.32
+    },
+    {
+      "w": "can",
+      "start": 23.32,
+      "end": 23.52
+    },
+    {
+      "w": "fly",
+      "start": 23.52,
+      "end": 23.86
+    },
+    {
+      "w": "right",
+      "start": 23.86,
+      "end": 24.2
+    },
+    {
+      "w": "over",
+      "start": 24.2,
+      "end": 24.58
+    },
+    {
+      "w": "top",
+      "start": 24.58,
+      "end": 25.02
+    },
+    {
+      "w": "of",
+      "start": 25.02,
+      "end": 25.28
+    },
+    {
+      "w": "the",
+      "start": 25.28,
+      "end": 25.38
+    },
+    {
+      "w": "traffic.",
+      "start": 25.38,
+      "end": 25.74
+    },
+    {
+      "w": "So",
+      "start": 25.88,
+      "end": 25.98
+    },
+    {
+      "w": "on",
+      "start": 25.98,
+      "end": 26.12
+    },
+    {
+      "w": "average,",
+      "start": 26.12,
+      "end": 26.44
+    },
+    {
+      "w": "flight",
+      "start": 26.54,
+      "end": 26.88
+    },
+    {
+      "w": "time",
+      "start": 26.88,
+      "end": 27.16
+    },
+    {
+      "w": "is",
+      "start": 27.16,
+      "end": 27.46
+    },
+    {
+      "w": "just",
+      "start": 27.46,
+      "end": 27.68
+    },
+    {
+      "w": "five",
+      "start": 27.68,
+      "end": 28.1
+    },
+    {
+      "w": "minutes.",
+      "start": 28.1,
+      "end": 28.44
+    },
+    {
+      "w": "The",
+      "start": 28.44,
+      "end": 28.74
+    },
+    {
+      "w": "service",
+      "start": 28.74,
+      "end": 28.96
+    },
+    {
+      "w": "is",
+      "start": 28.96,
+      "end": 29.18
+    },
+    {
+      "w": "just",
+      "start": 29.18,
+      "end": 29.44
+    },
+    {
+      "w": "starting",
+      "start": 29.44,
+      "end": 29.7
+    },
+    {
+      "w": "to",
+      "start": 29.7,
+      "end": 29.86
+    },
+    {
+      "w": "roll",
+      "start": 29.86,
+      "end": 29.96
+    },
+    {
+      "w": "out",
+      "start": 29.96,
+      "end": 30.18
+    },
+    {
+      "w": "in",
+      "start": 30.18,
+      "end": 30.38
+    },
+    {
+      "w": "select",
+      "start": 30.38,
+      "end": 30.72
+    },
+    {
+      "w": "markets",
+      "start": 30.72,
+      "end": 31.18
+    },
+    {
+      "w": "with",
+      "start": 31.18,
+      "end": 31.44
+    },
+    {
+      "w": "partners",
+      "start": 31.44,
+      "end": 31.78
+    },
+    {
+      "w": "like",
+      "start": 31.78,
+      "end": 32.04
+    },
+    {
+      "w": "Chipotle",
+      "start": 32.04,
+      "end": 32.52
+    },
+    {
+      "w": "and",
+      "start": 32.52,
+      "end": 32.86
+    },
+    {
+      "w": "Popeyes.",
+      "start": 32.86,
+      "end": 33.38
+    },
+    {
+      "w": "But",
+      "start": 33.52,
+      "end": 33.6
+    },
+    {
+      "w": "this",
+      "start": 33.6,
+      "end": 33.82
+    },
+    {
+      "w": "is",
+      "start": 33.82,
+      "end": 33.96
+    },
+    {
+      "w": "a",
+      "start": 33.96,
+      "end": 34.1
+    },
+    {
+      "w": "peek",
+      "start": 34.1,
+      "end": 34.38
+    },
+    {
+      "w": "into",
+      "start": 34.38,
+      "end": 34.68
+    },
+    {
+      "w": "the",
+      "start": 34.68,
+      "end": 34.84
+    },
+    {
+      "w": "future",
+      "start": 34.84,
+      "end": 35.18
+    },
+    {
+      "w": "of",
+      "start": 35.18,
+      "end": 35.44
+    },
+    {
+      "w": "cutting",
+      "start": 35.44,
+      "end": 35.78
+    },
+    {
+      "w": "edge",
+      "start": 35.78,
+      "end": 36.04
+    },
+    {
+      "w": "logistics",
+      "start": 36.04,
+      "end": 36.58
+    },
+    {
+      "w": "and",
+      "start": 36.58,
+      "end": 37.04
+    },
+    {
+      "w": "delivery.",
+      "start": 37.04,
+      "end": 37.4
+    },
+    {
+      "w": "Now,",
+      "start": 37.62,
+      "end": 37.62
+    },
+    {
+      "w": "in",
+      "start": 37.64,
+      "end": 37.7
+    },
+    {
+      "w": "addition",
+      "start": 37.7,
+      "end": 37.96
+    },
+    {
+      "w": "to",
+      "start": 37.96,
+      "end": 38.14
+    },
+    {
+      "w": "drones,",
+      "start": 38.14,
+      "end": 38.48
+    },
+    {
+      "w": "DoorDash",
+      "start": 38.86,
+      "end": 39.04
+    },
+    {
+      "w": "also",
+      "start": 39.04,
+      "end": 39.42
+    },
+    {
+      "w": "announced",
+      "start": 39.42,
+      "end": 39.7
+    },
+    {
+      "w": "several",
+      "start": 39.7,
+      "end": 40.12
+    },
+    {
+      "w": "new",
+      "start": 40.12,
+      "end": 40.32
+    },
+    {
+      "w": "AI",
+      "start": 40.32,
+      "end": 40.62
+    },
+    {
+      "w": "features",
+      "start": 40.62,
+      "end": 41.0
+    },
+    {
+      "w": "that",
+      "start": 41.0,
+      "end": 41.32
+    },
+    {
+      "w": "makes",
+      "start": 41.32,
+      "end": 41.48
+    },
+    {
+      "w": "ordering",
+      "start": 41.48,
+      "end": 41.96
+    },
+    {
+      "w": "way",
+      "start": 41.96,
+      "end": 42.44
+    },
+    {
+      "w": "more",
+      "start": 42.44,
+      "end": 42.66
+    },
+    {
+      "w": "personalized",
+      "start": 42.66,
+      "end": 43.32
+    },
+    {
+      "w": "and",
+      "start": 43.32,
+      "end": 43.84
+    },
+    {
+      "w": "dynamic.",
+      "start": 43.84,
+      "end": 44.22
+    },
+    {
+      "w": "The",
+      "start": 44.54,
+      "end": 44.58
+    },
+    {
+      "w": "biggest",
+      "start": 44.58,
+      "end": 44.74
+    },
+    {
+      "w": "one",
+      "start": 44.74,
+      "end": 45.0
+    },
+    {
+      "w": "is",
+      "start": 45.0,
+      "end": 45.2
+    },
+    {
+      "w": "called",
+      "start": 45.2,
+      "end": 45.4
+    },
+    {
+      "w": "Text",
+      "start": 45.4,
+      "end": 45.78
+    },
+    {
+      "w": "DoorDash.",
+      "start": 45.78,
+      "end": 46.42
+    },
+    {
+      "w": "And",
+      "start": 46.5,
+      "end": 46.58
+    },
+    {
+      "w": "this",
+      "start": 46.58,
+      "end": 46.68
+    },
+    {
+      "w": "allows",
+      "start": 46.68,
+      "end": 46.9
+    },
+    {
+      "w": "you",
+      "start": 46.9,
+      "end": 47.04
+    },
+    {
+      "w": "to",
+      "start": 47.04,
+      "end": 47.12
+    },
+    {
+      "w": "have",
+      "start": 47.12,
+      "end": 47.24
+    },
+    {
+      "w": "a",
+      "start": 47.24,
+      "end": 47.38
+    },
+    {
+      "w": "text",
+      "start": 47.38,
+      "end": 47.64
+    },
+    {
+      "w": "conversation",
+      "start": 47.64,
+      "end": 48.24
+    },
+    {
+      "w": "directly",
+      "start": 48.24,
+      "end": 48.64
+    },
+    {
+      "w": "with",
+      "start": 48.64,
+      "end": 48.96
+    },
+    {
+      "w": "DoorDash",
+      "start": 48.96,
+      "end": 49.4
+    },
+    {
+      "w": "to",
+      "start": 49.4,
+      "end": 49.62
+    },
+    {
+      "w": "order",
+      "start": 49.62,
+      "end": 49.76
+    },
+    {
+      "w": "your",
+      "start": 49.76,
+      "end": 49.92
+    },
+    {
+      "w": "food.",
+      "start": 49.92,
+      "end": 50.16
+    },
+    {
+      "w": "You",
+      "start": 50.32,
+      "end": 50.4
+    },
+    {
+      "w": "could",
+      "start": 50.4,
+      "end": 50.48
+    },
+    {
+      "w": "say",
+      "start": 50.48,
+      "end": 50.58
+    },
+    {
+      "w": "something",
+      "start": 50.58,
+      "end": 50.74
+    },
+    {
+      "w": "like,",
+      "start": 50.74,
+      "end": 51.0
+    },
+    {
+      "w": "my",
+      "start": 51.12,
+      "end": 51.2
+    },
+    {
+      "w": "mom's",
+      "start": 51.2,
+      "end": 51.5
+    },
+    {
+      "w": "in",
+      "start": 51.5,
+      "end": 51.6
+    },
+    {
+      "w": "town",
+      "start": 51.6,
+      "end": 51.78
+    },
+    {
+      "w": "this",
+      "start": 51.78,
+      "end": 52.0
+    },
+    {
+      "w": "Saturday,",
+      "start": 52.0,
+      "end": 52.3
+    },
+    {
+      "w": "she",
+      "start": 52.62,
+      "end": 52.74
+    },
+    {
+      "w": "loves",
+      "start": 52.74,
+      "end": 53.02
+    },
+    {
+      "w": "pasta",
+      "start": 53.02,
+      "end": 53.48
+    },
+    {
+      "w": "but",
+      "start": 53.48,
+      "end": 53.72
+    },
+    {
+      "w": "doesn't",
+      "start": 53.72,
+      "end": 54.12
+    },
+    {
+      "w": "like",
+      "start": 54.12,
+      "end": 54.3
+    },
+    {
+      "w": "seafood,",
+      "start": 54.3,
+      "end": 54.7
+    },
+    {
+      "w": "order",
+      "start": 54.9,
+      "end": 55.26
+    },
+    {
+      "w": "us",
+      "start": 55.26,
+      "end": 55.42
+    },
+    {
+      "w": "dinner",
+      "start": 55.42,
+      "end": 55.64
+    },
+    {
+      "w": "for",
+      "start": 55.64,
+      "end": 55.88
+    },
+    {
+      "w": "Saturday",
+      "start": 55.88,
+      "end": 56.24
+    },
+    {
+      "w": "night.",
+      "start": 56.24,
+      "end": 56.54
+    },
+    {
+      "w": "DoorDash",
+      "start": 56.54,
+      "end": 56.96
+    },
+    {
+      "w": "now",
+      "start": 56.96,
+      "end": 57.16
+    },
+    {
+      "w": "has",
+      "start": 57.16,
+      "end": 57.4
+    },
+    {
+      "w": "a",
+      "start": 57.4,
+      "end": 57.56
+    },
+    {
+      "w": "personalized",
+      "start": 57.56,
+      "end": 58.04
+    },
+    {
+      "w": "AI",
+      "start": 58.04,
+      "end": 58.6
+    },
+    {
+      "w": "memory",
+      "start": 58.6,
+      "end": 59.04
+    },
+    {
+      "w": "layer",
+      "start": 59.04,
+      "end": 59.42
+    },
+    {
+      "w": "that",
+      "start": 59.42,
+      "end": 59.6
+    },
+    {
+      "w": "knows",
+      "start": 59.6,
+      "end": 59.76
+    },
+    {
+      "w": "exactly",
+      "start": 59.76,
+      "end": 60.24
+    },
+    {
+      "w": "where",
+      "start": 60.24,
+      "end": 60.48
+    },
+    {
+      "w": "you",
+      "start": 60.48,
+      "end": 60.62
+    },
+    {
+      "w": "live",
+      "start": 60.62,
+      "end": 60.84
+    },
+    {
+      "w": "and",
+      "start": 60.84,
+      "end": 61.12
+    },
+    {
+      "w": "what",
+      "start": 61.12,
+      "end": 61.32
+    },
+    {
+      "w": "you",
+      "start": 61.32,
+      "end": 61.48
+    },
+    {
+      "w": "like",
+      "start": 61.48,
+      "end": 61.78
+    },
+    {
+      "w": "based",
+      "start": 61.78,
+      "end": 62.08
+    },
+    {
+      "w": "on",
+      "start": 62.08,
+      "end": 62.28
+    },
+    {
+      "w": "previous",
+      "start": 62.28,
+      "end": 62.54
+    },
+    {
+      "w": "orders,",
+      "start": 62.54,
+      "end": 63.0
+    },
+    {
+      "w": "as",
+      "start": 63.3,
+      "end": 63.32
+    },
+    {
+      "w": "well",
+      "start": 63.32,
+      "end": 63.5
+    },
+    {
+      "w": "as",
+      "start": 63.5,
+      "end": 63.7
+    },
+    {
+      "w": "all",
+      "start": 63.7,
+      "end": 63.98
+    },
+    {
+      "w": "the",
+      "start": 63.98,
+      "end": 64.12
+    },
+    {
+      "w": "restaurants",
+      "start": 64.12,
+      "end": 64.46
+    },
+    {
+      "w": "available",
+      "start": 64.46,
+      "end": 64.78
+    },
+    {
+      "w": "to",
+      "start": 64.78,
+      "end": 65.1
+    },
+    {
+      "w": "you",
+      "start": 65.1,
+      "end": 65.24
+    },
+    {
+      "w": "in",
+      "start": 65.24,
+      "end": 65.6
+    },
+    {
+      "w": "that",
+      "start": 65.6,
+      "end": 65.8
+    },
+    {
+      "w": "exact",
+      "start": 65.8,
+      "end": 66.08
+    },
+    {
+      "w": "moment.",
+      "start": 66.08,
+      "end": 66.48
+    },
+    {
+      "w": "It",
+      "start": 66.66,
+      "end": 66.72
+    },
+    {
+      "w": "can",
+      "start": 66.72,
+      "end": 66.8
+    },
+    {
+      "w": "automatically",
+      "start": 66.8,
+      "end": 67.2
+    },
+    {
+      "w": "find",
+      "start": 67.2,
+      "end": 67.58
+    },
+    {
+      "w": "the",
+      "start": 67.58,
+      "end": 67.76
+    },
+    {
+      "w": "best",
+      "start": 67.76,
+      "end": 67.94
+    },
+    {
+      "w": "meal,",
+      "start": 67.94,
+      "end": 68.16
+    },
+    {
+      "w": "list",
+      "start": 68.62,
+      "end": 68.68
+    },
+    {
+      "w": "it",
+      "start": 68.68,
+      "end": 68.84
+    },
+    {
+      "w": "out",
+      "start": 68.84,
+      "end": 68.96
+    },
+    {
+      "w": "for",
+      "start": 68.96,
+      "end": 69.22
+    },
+    {
+      "w": "you",
+      "start": 69.22,
+      "end": 69.42
+    },
+    {
+      "w": "and",
+      "start": 69.42,
+      "end": 69.6
+    },
+    {
+      "w": "then",
+      "start": 69.6,
+      "end": 69.74
+    },
+    {
+      "w": "place",
+      "start": 69.74,
+      "end": 70.04
+    },
+    {
+      "w": "the",
+      "start": 70.04,
+      "end": 70.26
+    },
+    {
+      "w": "order",
+      "start": 70.26,
+      "end": 70.46
+    },
+    {
+      "w": "instantly.",
+      "start": 70.46,
+      "end": 70.92
+    },
+    {
+      "w": "This",
+      "start": 71.2,
+      "end": 71.3
+    },
+    {
+      "w": "same",
+      "start": 71.3,
+      "end": 71.48
+    },
+    {
+      "w": "approach",
+      "start": 71.48,
+      "end": 71.74
+    },
+    {
+      "w": "can",
+      "start": 71.74,
+      "end": 71.92
+    },
+    {
+      "w": "also",
+      "start": 71.92,
+      "end": 72.12
+    },
+    {
+      "w": "be",
+      "start": 72.12,
+      "end": 72.28
+    },
+    {
+      "w": "used",
+      "start": 72.28,
+      "end": 72.42
+    },
+    {
+      "w": "for",
+      "start": 72.42,
+      "end": 72.58
+    },
+    {
+      "w": "ordering",
+      "start": 72.58,
+      "end": 72.94
+    },
+    {
+      "w": "groceries",
+      "start": 72.94,
+      "end": 73.32
+    },
+    {
+      "w": "and",
+      "start": 73.32,
+      "end": 73.88
+    },
+    {
+      "w": "group",
+      "start": 73.88,
+      "end": 74.16
+    },
+    {
+      "w": "dinners.",
+      "start": 74.16,
+      "end": 74.58
+    },
+    {
+      "w": "Simple",
+      "start": 74.74,
+      "end": 74.96
+    },
+    {
+      "w": "text",
+      "start": 74.96,
+      "end": 75.18
+    },
+    {
+      "w": "descriptions",
+      "start": 75.18,
+      "end": 75.6
+    },
+    {
+      "w": "in,",
+      "start": 75.6,
+      "end": 75.96
+    },
+    {
+      "w": "orders",
+      "start": 76.14,
+      "end": 76.32
+    },
+    {
+      "w": "out,",
+      "start": 76.32,
+      "end": 76.64
+    },
+    {
+      "w": "ready",
+      "start": 76.94,
+      "end": 77.08
+    },
+    {
+      "w": "to",
+      "start": 77.08,
+      "end": 77.26
+    },
+    {
+      "w": "go",
+      "start": 77.26,
+      "end": 77.38
+    },
+    {
+      "w": "in",
+      "start": 77.38,
+      "end": 77.54
+    },
+    {
+      "w": "seconds.",
+      "start": 77.54,
+      "end": 77.86
+    },
+    {
+      "w": "And",
+      "start": 78.1,
+      "end": 78.18
+    },
+    {
+      "w": "this",
+      "start": 78.18,
+      "end": 78.3
+    },
+    {
+      "w": "all",
+      "start": 78.3,
+      "end": 78.52
+    },
+    {
+      "w": "works",
+      "start": 78.52,
+      "end": 78.76
+    },
+    {
+      "w": "because",
+      "start": 78.76,
+      "end": 78.94
+    },
+    {
+      "w": "of",
+      "start": 78.94,
+      "end": 79.06
+    },
+    {
+      "w": "this",
+      "start": 79.06,
+      "end": 79.2
+    },
+    {
+      "w": "new",
+      "start": 79.2,
+      "end": 79.46
+    },
+    {
+      "w": "agentic",
+      "start": 79.46,
+      "end": 80.16
+    },
+    {
+      "w": "ordering",
+      "start": 80.16,
+      "end": 80.42
+    },
+    {
+      "w": "layer",
+      "start": 80.42,
+      "end": 80.78
+    },
+    {
+      "w": "they're",
+      "start": 80.78,
+      "end": 81.06
+    },
+    {
+      "w": "rolling",
+      "start": 81.06,
+      "end": 81.28
+    },
+    {
+      "w": "out",
+      "start": 81.28,
+      "end": 81.52
+    },
+    {
+      "w": "now.",
+      "start": 81.52,
+      "end": 81.74
+    },
+    {
+      "w": "All",
+      "start": 81.9,
+      "end": 82.04
+    },
+    {
+      "w": "of",
+      "start": 82.04,
+      "end": 82.16
+    },
+    {
+      "w": "this",
+      "start": 82.16,
+      "end": 82.24
+    },
+    {
+      "w": "and",
+      "start": 82.24,
+      "end": 82.38
+    },
+    {
+      "w": "a",
+      "start": 82.38,
+      "end": 82.5
+    },
+    {
+      "w": "bunch",
+      "start": 82.5,
+      "end": 82.64
+    },
+    {
+      "w": "of",
+      "start": 82.64,
+      "end": 82.78
+    },
+    {
+      "w": "other",
+      "start": 82.78,
+      "end": 82.94
+    },
+    {
+      "w": "cool",
+      "start": 82.94,
+      "end": 83.16
+    },
+    {
+      "w": "updates",
+      "start": 83.16,
+      "end": 83.4
+    },
+    {
+      "w": "were",
+      "start": 83.4,
+      "end": 83.64
+    },
+    {
+      "w": "just",
+      "start": 83.64,
+      "end": 83.9
+    },
+    {
+      "w": "announced",
+      "start": 83.9,
+      "end": 84.16
+    },
+    {
+      "w": "at",
+      "start": 84.16,
+      "end": 84.42
+    },
+    {
+      "w": "their",
+      "start": 84.42,
+      "end": 84.56
+    },
+    {
+      "w": "Dash",
+      "start": 84.56,
+      "end": 85.02
+    },
+    {
+      "w": "Forward",
+      "start": 85.02,
+      "end": 85.38
+    },
+    {
+      "w": "event",
+      "start": 85.38,
+      "end": 85.66
+    },
+    {
+      "w": "this",
+      "start": 85.66,
+      "end": 85.92
+    },
+    {
+      "w": "week.",
+      "start": 85.92,
+      "end": 86.16
+    },
+    {
+      "w": "And",
+      "start": 86.16,
+      "end": 86.4
+    },
+    {
+      "w": "with",
+      "start": 86.4,
+      "end": 86.5
+    },
+    {
+      "w": "all",
+      "start": 86.5,
+      "end": 86.64
+    },
+    {
+      "w": "this",
+      "start": 86.64,
+      "end": 86.8
+    },
+    {
+      "w": "AI",
+      "start": 86.8,
+      "end": 87.1
+    },
+    {
+      "w": "innovation",
+      "start": 87.1,
+      "end": 87.6
+    },
+    {
+      "w": "plus",
+      "start": 87.6,
+      "end": 88.02
+    },
+    {
+      "w": "drones,",
+      "start": 88.02,
+      "end": 88.4
+    },
+    {
+      "w": "I",
+      "start": 88.84,
+      "end": 88.84
+    },
+    {
+      "w": "think",
+      "start": 88.84,
+      "end": 88.98
+    },
+    {
+      "w": "DoorDash",
+      "start": 88.98,
+      "end": 89.46
+    },
+    {
+      "w": "is",
+      "start": 89.46,
+      "end": 89.58
+    },
+    {
+      "w": "gonna",
+      "start": 89.58,
+      "end": 89.7
+    },
+    {
+      "w": "pioneer",
+      "start": 89.7,
+      "end": 90.34
+    },
+    {
+      "w": "the",
+      "start": 90.34,
+      "end": 90.64
+    },
+    {
+      "w": "future",
+      "start": 90.64,
+      "end": 91.02
+    },
+    {
+      "w": "of",
+      "start": 91.02,
+      "end": 91.48
+    },
+    {
+      "w": "delivery.",
+      "start": 91.48,
+      "end": 91.86
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 3.212,
+      "length": 3.212,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0D",
+            "share": 0.309
+          },
+          {
+            "hex": "#155377",
+            "share": 0.244
+          },
+          {
+            "hex": "#226587",
+            "share": 0.07
+          },
+          {
+            "hex": "#1E6083",
+            "share": 0.026
+          },
+          {
+            "hex": "#88766C",
+            "share": 0.026
+          }
+        ],
+        "motion_energy": 24.4,
+        "script": "DoorDash just officially launched their drone delivery program."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 3.212,
+      "end": 4.838,
+      "length": 1.627,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#5392A8",
+            "share": 0.327
+          },
+          {
+            "hex": "#6B98AB",
+            "share": 0.133
+          },
+          {
+            "hex": "#4B879D",
+            "share": 0.115
+          },
+          {
+            "hex": "#C7C5C3",
+            "share": 0.098
+          },
+          {
+            "hex": "#B1B5B9",
+            "share": 0.083
+          }
+        ],
+        "motion_energy": 16.74,
+        "script": "It's called DoorDash Air."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 4.838,
+      "end": 5.422,
+      "length": 0.584,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0A",
+            "share": 0.474
+          },
+          {
+            "hex": "#2A180F",
+            "share": 0.163
+          },
+          {
+            "hex": "#4B2817",
+            "share": 0.042
+          },
+          {
+            "hex": "#312216",
+            "share": 0.038
+          },
+          {
+            "hex": "#312C2B",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 14.56,
+        "script": "And this is gonna completely"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 5.422,
+      "end": 7.132,
+      "length": 1.71,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0D",
+            "share": 0.299
+          },
+          {
+            "hex": "#4F8DA4",
+            "share": 0.098
+          },
+          {
+            "hex": "#44839B",
+            "share": 0.078
+          },
+          {
+            "hex": "#A67753",
+            "share": 0.061
+          },
+          {
+            "hex": "#50472D",
+            "share": 0.033
+          }
+        ],
+        "motion_energy": 22.58,
+        "script": "change how food gets"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 7.132,
+      "end": 8.008,
+      "length": 0.876,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0C0D",
+            "share": 0.318
+          },
+          {
+            "hex": "#AEBCC4",
+            "share": 0.085
+          },
+          {
+            "hex": "#322F29",
+            "share": 0.085
+          },
+          {
+            "hex": "#514834",
+            "share": 0.06
+          },
+          {
+            "hex": "#B5C1C4",
+            "share": 0.045
+          }
+        ],
+        "motion_energy": 34.59,
+        "script": "delivered in"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 8.008,
+      "end": 8.884,
+      "length": 0.876,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.617
+          },
+          {
+            "hex": "#AF7246",
+            "share": 0.041
+          },
+          {
+            "hex": "#241C19",
+            "share": 0.041
+          },
+          {
+            "hex": "#2A221B",
+            "share": 0.039
+          },
+          {
+            "hex": "#724A30",
+            "share": 0.028
+          }
+        ],
+        "motion_energy": 20.58,
+        "script": "the future."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 8.884,
+      "end": 9.676,
+      "length": 0.792,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0B0D",
+            "share": 0.362
+          },
+          {
+            "hex": "#2A1911",
+            "share": 0.076
+          },
+          {
+            "hex": "#322419",
+            "share": 0.052
+          },
+          {
+            "hex": "#4F3527",
+            "share": 0.047
+          },
+          {
+            "hex": "#4D2A1A",
+            "share": 0.041
+          }
+        ],
+        "motion_energy": 14.71,
+        "script": "Customers can out place"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 9.676,
+      "end": 17.226,
+      "length": 7.549,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.304
+          },
+          {
+            "hex": "#896B51",
+            "share": 0.152
+          },
+          {
+            "hex": "#877267",
+            "share": 0.067
+          },
+          {
+            "hex": "#715947",
+            "share": 0.049
+          },
+          {
+            "hex": "#6D4F35",
+            "share": 0.049
+          }
+        ],
+        "motion_energy": 35.05,
+        "script": "orders that fly straight from the restaurant and land directly in your yard. These specially designed drones are extremely quiet. And you can"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 17.226,
+      "end": 18.977,
+      "length": 1.752,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#BBC3C6",
+            "share": 0.144
+          },
+          {
+            "hex": "#71706E",
+            "share": 0.081
+          },
+          {
+            "hex": "#51514D",
+            "share": 0.079
+          },
+          {
+            "hex": "#2E332E",
+            "share": 0.075
+          },
+          {
+            "hex": "#8F8D8A",
+            "share": 0.069
+          }
+        ],
+        "motion_energy": 12.01,
+        "script": "actually watch the drones route via"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 18.977,
+      "end": 21.814,
+      "length": 2.836,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#203954",
+            "share": 0.306
+          },
+          {
+            "hex": "#2E2D2E",
+            "share": 0.25
+          },
+          {
+            "hex": "#141414",
+            "share": 0.145
+          },
+          {
+            "hex": "#1E354F",
+            "share": 0.144
+          },
+          {
+            "hex": "#494949",
+            "share": 0.062
+          }
+        ],
+        "motion_energy": 22.91,
+        "script": "a flyover visualization as it delivers."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 10,
+      "start": 21.814,
+      "end": 22.648,
+      "length": 0.834,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0C",
+            "share": 0.669
+          },
+          {
+            "hex": "#AF7348",
+            "share": 0.03
+          },
+          {
+            "hex": "#714A30",
+            "share": 0.028
+          },
+          {
+            "hex": "#251B18",
+            "share": 0.027
+          },
+          {
+            "hex": "#30292A",
+            "share": 0.025
+          }
+        ],
+        "motion_energy": 35.97,
+        "script": "Now the big perk is that these"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 11,
+      "start": 22.648,
+      "end": 24.441,
+      "length": 1.793,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#5896AB",
+            "share": 0.659
+          },
+          {
+            "hex": "#6D706F",
+            "share": 0.149
+          },
+          {
+            "hex": "#0E0B0D",
+            "share": 0.027
+          },
+          {
+            "hex": "#4F869A",
+            "share": 0.025
+          },
+          {
+            "hex": "#586A73",
+            "share": 0.017
+          }
+        ],
+        "motion_energy": 18.89,
+        "script": "drones can fly right over"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 12,
+      "start": 24.441,
+      "end": 25.859,
+      "length": 1.418,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#2D6E8D",
+            "share": 0.299
+          },
+          {
+            "hex": "#302E16",
+            "share": 0.082
+          },
+          {
+            "hex": "#4F8CA5",
+            "share": 0.07
+          },
+          {
+            "hex": "#51482A",
+            "share": 0.043
+          },
+          {
+            "hex": "#946F51",
+            "share": 0.041
+          }
+        ],
+        "motion_energy": 26.16,
+        "script": "top of the traffic."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 13,
+      "start": 25.859,
+      "end": 27.361,
+      "length": 1.502,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0D",
+            "share": 0.299
+          },
+          {
+            "hex": "#192538",
+            "share": 0.248
+          },
+          {
+            "hex": "#1D2D45",
+            "share": 0.16
+          },
+          {
+            "hex": "#21354E",
+            "share": 0.089
+          },
+          {
+            "hex": "#89756A",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 6.1,
+        "script": "So on average, flight time is"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 14,
+      "start": 27.361,
+      "end": 28.654,
+      "length": 1.293,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0A080A",
+            "share": 0.383
+          },
+          {
+            "hex": "#F4F4F4",
+            "share": 0.238
+          },
+          {
+            "hex": "#4A8DA4",
+            "share": 0.115
+          },
+          {
+            "hex": "#89756A",
+            "share": 0.022
+          },
+          {
+            "hex": "#302A2B",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 8.06,
+        "script": "just five minutes. The"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 15,
+      "start": 28.654,
+      "end": 31.823,
+      "length": 3.17,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#155276",
+            "share": 0.299
+          },
+          {
+            "hex": "#0D0B0D",
+            "share": 0.28
+          },
+          {
+            "hex": "#226586",
+            "share": 0.075
+          },
+          {
+            "hex": "#1E6083",
+            "share": 0.032
+          },
+          {
+            "hex": "#1B5E81",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 19.3,
+        "script": "service is just starting to roll out in select markets with partners like"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 16,
+      "start": 31.823,
+      "end": 37.538,
+      "length": 5.714,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#134D73",
+            "share": 0.334
+          },
+          {
+            "hex": "#0D0A0C",
+            "share": 0.296
+          },
+          {
+            "hex": "#266989",
+            "share": 0.104
+          },
+          {
+            "hex": "#89756A",
+            "share": 0.022
+          },
+          {
+            "hex": "#161827",
+            "share": 0.017
+          }
+        ],
+        "motion_energy": 32.69,
+        "script": "Chipotle and Popeyes. But this is a peek into the future of cutting edge logistics and delivery."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 17,
+      "start": 37.538,
+      "end": 38.664,
+      "length": 1.126,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0B",
+            "share": 0.686
+          },
+          {
+            "hex": "#B07347",
+            "share": 0.032
+          },
+          {
+            "hex": "#251B17",
+            "share": 0.03
+          },
+          {
+            "hex": "#724B30",
+            "share": 0.029
+          },
+          {
+            "hex": "#8B5735",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 9.97,
+        "script": "Now, in addition to drones,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 18,
+      "start": 38.664,
+      "end": 44.503,
+      "length": 5.839,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0C",
+            "share": 0.426
+          },
+          {
+            "hex": "#322D29",
+            "share": 0.047
+          },
+          {
+            "hex": "#544F4B",
+            "share": 0.04
+          },
+          {
+            "hex": "#777369",
+            "share": 0.039
+          },
+          {
+            "hex": "#D5D1CB",
+            "share": 0.036
+          }
+        ],
+        "motion_energy": 32.39,
+        "script": "DoorDash also announced several new AI features that makes ordering way more personalized and dynamic."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 19,
+      "start": 44.503,
+      "end": 46.505,
+      "length": 2.002,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C090C",
+            "share": 0.663
+          },
+          {
+            "hex": "#B17346",
+            "share": 0.038
+          },
+          {
+            "hex": "#251B18",
+            "share": 0.035
+          },
+          {
+            "hex": "#714A2F",
+            "share": 0.028
+          },
+          {
+            "hex": "#8A5735",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 9.97,
+        "script": "The biggest one is called Text DoorDash. And"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 20,
+      "start": 46.505,
+      "end": 50.342,
+      "length": 3.837,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#080708",
+            "share": 0.597
+          },
+          {
+            "hex": "#F7F7F7",
+            "share": 0.092
+          },
+          {
+            "hex": "#2B292A",
+            "share": 0.04
+          },
+          {
+            "hex": "#88756A",
+            "share": 0.024
+          },
+          {
+            "hex": "#4F5055",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 18.54,
+        "script": "this allows you to have a text conversation directly with DoorDash to order your food. You"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 21,
+      "start": 50.342,
+      "end": 51.093,
+      "length": 0.751,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0B",
+            "share": 0.693
+          },
+          {
+            "hex": "#B17346",
+            "share": 0.037
+          },
+          {
+            "hex": "#714B30",
+            "share": 0.031
+          },
+          {
+            "hex": "#8B5734",
+            "share": 0.028
+          },
+          {
+            "hex": "#251B17",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 16.68,
+        "script": "could say something like,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 22,
+      "start": 51.093,
+      "end": 66.608,
+      "length": 15.516,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0B0B0C",
+            "share": 0.378
+          },
+          {
+            "hex": "#2D2D2F",
+            "share": 0.193
+          },
+          {
+            "hex": "#8F1919",
+            "share": 0.059
+          },
+          {
+            "hex": "#AF1919",
+            "share": 0.058
+          },
+          {
+            "hex": "#701919",
+            "share": 0.056
+          }
+        ],
+        "motion_energy": 26.41,
+        "script": "my mom's in town this Saturday, she loves pasta but doesn't like seafood, order us dinner for Saturday night. DoorDash now has a personalized AI memory layer that knows exactly where you live and what you like based on previous orders, as well as all the restaurants available to you in that exact moment."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 23,
+      "start": 66.608,
+      "end": 71.196,
+      "length": 4.588,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0D",
+            "share": 0.354
+          },
+          {
+            "hex": "#483825",
+            "share": 0.091
+          },
+          {
+            "hex": "#554731",
+            "share": 0.058
+          },
+          {
+            "hex": "#322619",
+            "share": 0.041
+          },
+          {
+            "hex": "#6C4E34",
+            "share": 0.038
+          }
+        ],
+        "motion_energy": 19.56,
+        "script": "It can automatically find the best meal, list it out for you and then place the order instantly."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 24,
+      "start": 71.196,
+      "end": 72.698,
+      "length": 1.501,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0B",
+            "share": 0.676
+          },
+          {
+            "hex": "#B07247",
+            "share": 0.041
+          },
+          {
+            "hex": "#251B17",
+            "share": 0.031
+          },
+          {
+            "hex": "#724B30",
+            "share": 0.028
+          },
+          {
+            "hex": "#8B5635",
+            "share": 0.026
+          }
+        ],
+        "motion_energy": 8.67,
+        "script": "This same approach can also be used for ordering"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 25,
+      "start": 72.698,
+      "end": 73.615,
+      "length": 0.918,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0D",
+            "share": 0.419
+          },
+          {
+            "hex": "#312D2A",
+            "share": 0.056
+          },
+          {
+            "hex": "#544F49",
+            "share": 0.034
+          },
+          {
+            "hex": "#4C352A",
+            "share": 0.034
+          },
+          {
+            "hex": "#89766B",
+            "share": 0.033
+          }
+        ],
+        "motion_energy": 18.09,
+        "script": "groceries and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 26,
+      "start": 73.615,
+      "end": 74.7,
+      "length": 1.084,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0D",
+            "share": 0.339
+          },
+          {
+            "hex": "#D1D3D1",
+            "share": 0.053
+          },
+          {
+            "hex": "#2E2E2C",
+            "share": 0.04
+          },
+          {
+            "hex": "#EEEEEE",
+            "share": 0.03
+          },
+          {
+            "hex": "#88756B",
+            "share": 0.026
+          }
+        ],
+        "motion_energy": 8.06,
+        "script": "group dinners."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 27,
+      "start": 74.7,
+      "end": 78.078,
+      "length": 3.378,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#E40000",
+            "share": 0.459
+          },
+          {
+            "hex": "#060504",
+            "share": 0.313
+          },
+          {
+            "hex": "#352F31",
+            "share": 0.021
+          },
+          {
+            "hex": "#C70E13",
+            "share": 0.018
+          },
+          {
+            "hex": "#2A140D",
+            "share": 0.017
+          }
+        ],
+        "motion_energy": 13.36,
+        "script": "Simple text descriptions in, orders out, ready to go in seconds."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 28,
+      "start": 78.078,
+      "end": 79.246,
+      "length": 1.168,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0B",
+            "share": 0.686
+          },
+          {
+            "hex": "#714A2F",
+            "share": 0.033
+          },
+          {
+            "hex": "#B17347",
+            "share": 0.032
+          },
+          {
+            "hex": "#8C5634",
+            "share": 0.031
+          },
+          {
+            "hex": "#251B17",
+            "share": 0.024
+          }
+        ],
+        "motion_energy": 8.2,
+        "script": "And this all works because of this new"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 29,
+      "start": 79.246,
+      "end": 82.541,
+      "length": 3.295,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0B",
+            "share": 0.399
+          },
+          {
+            "hex": "#281911",
+            "share": 0.052
+          },
+          {
+            "hex": "#976932",
+            "share": 0.043
+          },
+          {
+            "hex": "#A97238",
+            "share": 0.04
+          },
+          {
+            "hex": "#89552A",
+            "share": 0.038
+          }
+        ],
+        "motion_energy": 24.59,
+        "script": "agentic ordering layer they're rolling out now. All of this and a bunch"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 30,
+      "start": 82.541,
+      "end": 86.336,
+      "length": 3.795,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0D",
+            "share": 0.326
+          },
+          {
+            "hex": "#2C2B2D",
+            "share": 0.099
+          },
+          {
+            "hex": "#54532E",
+            "share": 0.052
+          },
+          {
+            "hex": "#8F8B88",
+            "share": 0.049
+          },
+          {
+            "hex": "#8A766C",
+            "share": 0.038
+          }
+        ],
+        "motion_energy": 20.87,
+        "script": "of other cool updates were just announced at their Dash Forward event this week. And"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 31,
+      "start": 86.336,
+      "end": 87.796,
+      "length": 1.46,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0B",
+            "share": 0.666
+          },
+          {
+            "hex": "#2A221B",
+            "share": 0.044
+          },
+          {
+            "hex": "#241C19",
+            "share": 0.04
+          },
+          {
+            "hex": "#724B30",
+            "share": 0.033
+          },
+          {
+            "hex": "#AF7247",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 10.25,
+        "script": "with all this AI innovation plus"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 32,
+      "start": 87.796,
+      "end": 90.591,
+      "length": 2.794,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0E",
+            "share": 0.332
+          },
+          {
+            "hex": "#6F492F",
+            "share": 0.079
+          },
+          {
+            "hex": "#31241A",
+            "share": 0.069
+          },
+          {
+            "hex": "#4E3627",
+            "share": 0.068
+          },
+          {
+            "hex": "#8D502B",
+            "share": 0.053
+          }
+        ],
+        "motion_energy": 16.55,
+        "script": "drones, I think DoorDash is gonna pioneer the"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 33,
+      "start": 90.591,
+      "end": 92.25,
+      "length": 1.659,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0B",
+            "share": 0.635
+          },
+          {
+            "hex": "#241B18",
+            "share": 0.041
+          },
+          {
+            "hex": "#2B221B",
+            "share": 0.035
+          },
+          {
+            "hex": "#B07246",
+            "share": 0.03
+          },
+          {
+            "hex": "#714B2F",
+            "share": 0.03
+          }
+        ],
+        "motion_energy": 9.96,
+        "script": "future of delivery."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

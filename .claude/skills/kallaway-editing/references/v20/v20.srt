@@ -1,0 +1,239 @@
+1
+00:00:00,000 --> 00:00:01,260
+This robot is the future
+
+2
+00:00:01,260 --> 00:00:03,120
+of AI -powered farming. And
+
+3
+00:00:03,120 --> 00:00:04,139
+what it's doing is pretty
+
+4
+00:00:04,139 --> 00:00:05,339
+insane. As it rolls through
+
+5
+00:00:05,339 --> 00:00:06,299
+a cotton field, it can
+
+6
+00:00:06,299 --> 00:00:07,820
+actually think on its own
+
+7
+00:00:07,820 --> 00:00:09,560
+and decide plant by plant
+
+8
+00:00:09,560 --> 00:00:11,199
+exactly where to cut. The
+
+9
+00:00:11,199 --> 00:00:12,439
+machine is called the VTM
+
+10
+00:00:12,439 --> 00:00:14,640
+-09B. It has 108 different
+
+11
+00:00:14,640 --> 00:00:16,120
+arms and can cut 83
+
+12
+00:00:16,120 --> 00:00:17,600
+plants per second. Now the
+
+13
+00:00:17,600 --> 00:00:18,679
+job it's doing here is
+
+14
+00:00:18,679 --> 00:00:19,940
+called topping. And the cotton
+
+15
+00:00:19,940 --> 00:00:21,640
+industry, topping was the very
+
+16
+00:00:21,640 --> 00:00:23,079
+last thing still done by
+
+17
+00:00:23,079 --> 00:00:24,480
+human hands. Everything else has
+
+18
+00:00:24,480 --> 00:00:26,600
+already been automated. Planting, spraying,
+
+19
+00:00:26,980 --> 00:00:28,899
+picking, about 97 % of
+
+20
+00:00:28,899 --> 00:00:29,719
+the work is done by
+
+21
+00:00:29,719 --> 00:00:31,399
+machines today. But topping was
+
+22
+00:00:31,399 --> 00:00:32,600
+the final holdout. And not
+
+23
+00:00:32,600 --> 00:00:34,020
+because it's hard labor, because
+
+24
+00:00:34,020 --> 00:00:35,240
+it's a judgment call. See,
+
+25
+00:00:35,280 --> 00:00:36,200
+if left alone, a cotton
+
+26
+00:00:36,200 --> 00:00:37,579
+plant would just keep growing
+
+27
+00:00:37,579 --> 00:00:39,140
+taller and never produce cotton.
+
+28
+00:00:39,259 --> 00:00:40,100
+When you snip the top
+
+29
+00:00:40,100 --> 00:00:41,179
+off the plant, that's what
+
+30
+00:00:41,179 --> 00:00:42,280
+actually gets it to produce.
+
+31
+00:00:42,500 --> 00:00:43,439
+But the problem is every
+
+32
+00:00:43,439 --> 00:00:44,799
+single plant is a different
+
+33
+00:00:44,799 --> 00:00:46,299
+height and shape. So typically
+
+34
+00:00:46,299 --> 00:00:47,340
+it would take a human
+
+35
+00:00:47,340 --> 00:00:48,939
+to look and decide exactly
+
+36
+00:00:48,939 --> 00:00:49,880
+where to cut. And that's
+
+37
+00:00:49,880 --> 00:00:51,020
+where this robot comes in.
+
+38
+00:00:51,140 --> 00:00:51,920
+As it rolls through the
+
+39
+00:00:51,920 --> 00:00:53,939
+field, nine different cameras scan
+
+40
+00:00:53,939 --> 00:00:55,799
+every plant in 3D. The
+
+41
+00:00:55,799 --> 00:00:57,240
+AI finds the exact right
+
+42
+00:00:57,240 --> 00:00:58,380
+cut point in a split
+
+43
+00:00:58,380 --> 00:01:00,100
+second. The arms fire cutting
+
+44
+00:01:00,100 --> 00:01:01,880
+with extreme precision. This machine
+
+45
+00:01:01,880 --> 00:01:03,799
+can clear almost four football
+
+46
+00:01:03,799 --> 00:01:05,099
+fields worth of cotton in
+
+47
+00:01:05,099 --> 00:01:06,299
+a single hour. That's a
+
+48
+00:01:06,299 --> 00:01:07,159
+full day of work for
+
+49
+00:01:07,159 --> 00:01:08,739
+60 people. So now one
+
+50
+00:01:08,739 --> 00:01:09,760
+farm can run on just
+
+51
+00:01:09,760 --> 00:01:11,500
+five employees instead of 60.
+
+52
+00:01:11,680 --> 00:01:12,879
+This machine even has night
+
+53
+00:01:12,879 --> 00:01:13,980
+vision so it can keep
+
+54
+00:01:13,980 --> 00:01:15,640
+operating deep into the night.
+
+55
+00:01:15,819 --> 00:01:16,480
+It's crazy to say, but
+
+56
+00:01:16,480 --> 00:01:17,480
+we are now entering the
+
+57
+00:01:17,480 --> 00:01:19,480
+era where industrial machines can
+
+58
+00:01:19,480 --> 00:01:21,239
+think for themselves. And full
+
+59
+00:01:21,239 --> 00:01:22,599
+end to end automation is
+
+60
+00:01:22,599 --> 00:01:23,459
+right around the corner.

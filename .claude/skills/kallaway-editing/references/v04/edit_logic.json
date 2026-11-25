@@ -1,0 +1,595 @@
+{
+ "triggers": [
+  {
+   "t_word": 0.0,
+   "word": "How",
+   "element": "Cifra '$1,000,000' contando en rojo",
+   "category": "hook_banner",
+   "offset_s": 0.0,
+   "why": "dato ('a million dollars' → contador)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 2.3,
+   "word": "You",
+   "element": "Corte a su cara; '25,000 views' en rojo",
+   "category": "aroll_plain",
+   "offset_s": -0.01,
+   "why": "dato en rojo",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 3.2,
+   "word": "25",
+   "element": "'25,000 views' en serif itálica roja con glow",
+   "category": "aroll_plain",
+   "offset_s": 0.1,
+   "why": "dato en rojo",
+   "evidence": "observed 3.0–4.0 s"
+  },
+  {
+   "t_word": 4.56,
+   "word": "You",
+   "element": "Corte a cámara lateral",
+   "category": "aroll_plain",
+   "offset_s": -0.14,
+   "why": "cambio de plano por frase",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 5.86,
+   "word": "just",
+   "element": "Corte a primer plano",
+   "category": "aroll_plain",
+   "offset_s": -0.02,
+   "why": "cambio de plano por frase",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 7.4,
+   "word": "Callaway",
+   "element": "Estrobo + rótulo 'KALLAWAY'",
+   "category": "face_full_word",
+   "offset_s": -0.23,
+   "why": "literal (nombre dicho → nombre escrito)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 8.54,
+   "word": "billions",
+   "element": "Ráfaga de miniaturas + contadores de vistas",
+   "category": "full_graphic",
+   "offset_s": 0.01,
+   "why": "dato ('billions of views' → contadores)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 8.54,
+   "word": "billions",
+   "element": "ráfaga de miniaturas y luego contadores de vistas subiendo",
+   "category": "full_graphic",
+   "offset_s": 0.01,
+   "why": "dato ('billions of views')",
+   "evidence": "observed 8.59–10.1 s"
+  },
+  {
+   "t_word": 10.04,
+   "word": "founder",
+   "element": "Ráfaga de b-roll borroso",
+   "category": "full_graphic",
+   "offset_s": 0.1,
+   "why": "ritmo (sin palabra literal)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 10.44,
+   "word": "Sandcastles,",
+   "element": "Logo Sandcastles",
+   "category": "full_graphic",
+   "offset_s": 0.24,
+   "why": "literal (nombre → logo)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 11.48,
+   "word": "a",
+   "element": "Interfaz de la herramienta con métricas",
+   "category": "full_graphic",
+   "offset_s": 0.03,
+   "why": "literal ('content strategy tool')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 13.36,
+   "word": "him",
+   "element": "Silueta + fuga de luz naranja",
+   "category": "full_graphic",
+   "offset_s": -0.1,
+   "why": "ritmo/emoción",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 14.38,
+   "word": "The",
+   "element": "Corte a cámara lateral",
+   "category": "aroll_plain",
+   "offset_s": 0.01,
+   "why": "cambio de tema (la tesis)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 15.84,
+   "word": "to",
+   "element": "Plano general + 'expert level skills.' en rojo",
+   "category": "aroll_plain",
+   "offset_s": -0.12,
+   "why": "énfasis (tesis)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 16.4,
+   "word": "expert",
+   "element": "'expert level skills.' en serif itálica roja grande",
+   "category": "aroll_plain",
+   "offset_s": 0.1,
+   "why": "énfasis (tesis)",
+   "evidence": "observed 16.5–17.5 s"
+  },
+  {
+   "t_word": 18.02,
+   "word": "Content",
+   "element": "Corte a primer plano",
+   "category": "aroll_plain",
+   "offset_s": 0.0,
+   "why": "cambio de plano por frase",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 19.1,
+   "word": "amplify",
+   "element": "Plano general + frases rojas",
+   "category": "aroll_plain",
+   "offset_s": 0.0,
+   "why": "énfasis",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 19.1,
+   "word": "amplify",
+   "element": "'amplify attention' en rojo",
+   "category": "aroll_plain",
+   "offset_s": 0.3,
+   "why": "énfasis",
+   "evidence": "observed 19.5 s"
+  },
+  {
+   "t_word": 21.82,
+   "word": "Callaway",
+   "element": "Destello + b-roll con el portátil",
+   "category": "full_graphic",
+   "offset_s": -0.13,
+   "why": "literal ('shares his screen')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 22.8,
+   "word": "screen",
+   "element": "Pantalla compartida sobre el plano general",
+   "category": "full_graphic",
+   "offset_s": 0.18,
+   "why": "literal ('his screen')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 23.64,
+   "word": "live",
+   "element": "Corte a primer plano (como b-roll)",
+   "category": "aroll_plain",
+   "offset_s": 0.13,
+   "why": "contexto",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 24.74,
+   "word": "podcast",
+   "element": "Panel de analítica sobre el plano general",
+   "category": "full_graphic",
+   "offset_s": 0.03,
+   "why": "literal",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 25.24,
+   "word": "built",
+   "element": "Estrobo amarillo-rojo + b-roll B/N",
+   "category": "full_graphic",
+   "offset_s": 0.24,
+   "why": "ritmo",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 26.96,
+   "word": "strategy",
+   "element": "Plano general del set",
+   "category": "full_graphic",
+   "offset_s": -0.1,
+   "why": "contexto",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 27.88,
+   "word": "scratch.",
+   "element": "Plano del anfitrión",
+   "category": "full_graphic",
+   "offset_s": -0.1,
+   "why": "contexto",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 28.64,
+   "word": "honest,",
+   "element": "Destello blanco + cámara lateral",
+   "category": "aroll_plain",
+   "offset_s": -0.03,
+   "why": "énfasis ('whole game')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 30.34,
+   "word": "pay",
+   "element": "Plano general + '$10,000' y 'weeks' en rojo",
+   "category": "aroll_plain",
+   "offset_s": -0.06,
+   "why": "dato en rojo",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 30.82,
+   "word": "10",
+   "element": "'$10,000' en rojo",
+   "category": "aroll_plain",
+   "offset_s": 0.1,
+   "why": "dato en rojo",
+   "evidence": "observed 31.0 s"
+  },
+  {
+   "t_word": 33.32,
+   "word": "just",
+   "element": "Corte a primer plano riendo; '30 minutes.' en rojo",
+   "category": "aroll_plain",
+   "offset_s": -0.04,
+   "why": "dato en rojo / remate",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 33.8,
+   "word": "30",
+   "element": "'30 minutes.' en rojo",
+   "category": "aroll_plain",
+   "offset_s": 0.1,
+   "why": "dato en rojo",
+   "evidence": "observed 34.0 s"
+  },
+  {
+   "t_word": 33.96,
+   "word": "minutes.",
+   "element": "Velado a blanco → negro con logotipo",
+   "category": "title_cta",
+   "offset_s": 0.7,
+   "why": "cierre (no ligado a palabra; el habla acaba en 34.4)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 0.25,
+   "from": "negro",
+   "to": "v04_s01 (hook_banner)",
+   "type": "flash rojo",
+   "frames": 5,
+   "detail": "De negro a rojo/naranja a pantalla completa (0.25) con una banda negra que barre (0.29–0.41) y aparece el plano general (0.45) (observed)."
+  },
+  {
+   "t": 2.29,
+   "from": "v04_s01 (hook_banner)",
+   "to": "v04_s02 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 4.42,
+   "from": "v04_s02 (aroll_plain)",
+   "to": "v04_s03 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 5.84,
+   "from": "v04_s03 (aroll_plain)",
+   "to": "v04_s04 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 7.17,
+   "from": "v04_s04 (aroll_plain)",
+   "to": "v04_s05 (face_full_word)",
+   "type": "flash amarillo",
+   "frames": 6,
+   "detail": "Estrobo sobre el plano de él: naranja 7.17, rojo 7.21, amarillo 7.25–7.29, naranja 7.34, y entra el perfil B/N con banda roja que barre hasta 7.46 (observed)."
+  },
+  {
+   "t": 8.55,
+   "from": "v04_s05 (face_full_word)",
+   "to": "v04_s06 (full_graphic)",
+   "type": "flash amarillo",
+   "frames": 5,
+   "detail": "Banda naranja que barre sobre 'KALLAWAY' (8.50–8.55) y la primera miniatura aparece teñida de naranja→amarillo→blanco (8.59–8.75) (observed)."
+  },
+  {
+   "t": 10.14,
+   "from": "v04_s06 (full_graphic)",
+   "to": "v04_s07 (full_graphic)",
+   "type": "zoom-blur",
+   "frames": 3,
+   "detail": "Del contador de vistas borroso se corta a b-roll con desenfoque de movimiento (10.13–10.26) (observed)."
+  },
+  {
+   "t": 10.68,
+   "from": "v04_s07 (full_graphic)",
+   "to": "v04_s08 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 11.51,
+   "from": "v04_s08 (full_graphic)",
+   "to": "v04_s09 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 13.26,
+   "from": "v04_s09 (full_graphic)",
+   "to": "v04_s10 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte seco de la interfaz a silueta oscura; a 13.59–13.68 una fuga de luz naranja barre el cuadro (3 fotogramas) dentro de la escena (observed)."
+  },
+  {
+   "t": 14.39,
+   "from": "v04_s10 (full_graphic)",
+   "to": "v04_s11 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 15.72,
+   "from": "v04_s11 (aroll_plain)",
+   "to": "v04_s12 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 18.02,
+   "from": "v04_s12 (aroll_plain)",
+   "to": "v04_s13 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 19.1,
+   "from": "v04_s13 (aroll_plain)",
+   "to": "v04_s14 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 21.69,
+   "from": "v04_s14 (aroll_plain)",
+   "to": "v04_s15 (full_graphic)",
+   "type": "flash amarillo",
+   "frames": 2,
+   "detail": "Dos fotogramas con velo naranja y banda vertical clara (21.68–21.73) antes del b-roll (observed)."
+  },
+  {
+   "t": 22.98,
+   "from": "v04_s15 (full_graphic)",
+   "to": "v04_s16 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 23.77,
+   "from": "v04_s16 (full_graphic)",
+   "to": "v04_s17 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 24.77,
+   "from": "v04_s17 (aroll_plain)",
+   "to": "v04_s18 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 25.48,
+   "from": "v04_s18 (full_graphic)",
+   "to": "v04_s19 (full_graphic)",
+   "type": "flash amarillo",
+   "frames": 5,
+   "detail": "Amarillo 25.48, naranja 25.52, rojo 25.56, banda roja vertical 25.60–25.65 sobre el b-roll (observed)."
+  },
+  {
+   "t": 26.86,
+   "from": "v04_s19 (full_graphic)",
+   "to": "v04_s20 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 27.78,
+   "from": "v04_s20 (full_graphic)",
+   "to": "v04_s21 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 28.61,
+   "from": "v04_s21 (full_graphic)",
+   "to": "v04_s22 (aroll_plain)",
+   "type": "flash blanco",
+   "frames": 2,
+   "detail": "Fuga de luz blanca/naranja en el borde izquierdo (28.61) y, tras 2 fotogramas del plano nuevo, un fotograma casi totalmente blanco (28.73) (observed)."
+  },
+  {
+   "t": 30.28,
+   "from": "v04_s22 (aroll_plain)",
+   "to": "v04_s23 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 33.28,
+   "from": "v04_s23 (aroll_plain)",
+   "to": "v04_s24 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 34.66,
+   "from": "v04_s24 (aroll_plain)",
+   "to": "v04_s25 (title_cta)",
+   "type": "flash blanco",
+   "frames": 4,
+   "detail": "El primer plano se aclara 34.65–34.70, queda casi blanco en 34.74 y cae a negro con el logotipo en 34.82 (observed)."
+  },
+  {
+   "t": 37.16,
+   "from": "v04_s25 (title_cta)",
+   "to": "negro final",
+   "type": "flash blanco",
+   "frames": 2,
+   "detail": "Dos fotogramas blancos (37.16–37.20) y negro hasta 39.0 (observed)."
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.5,
+   "fx": "contador",
+   "detail": "La cifra roja cuenta hacia arriba: '$590,145' a 0.5 s, '$1,000,000' a 1.0 s (observed)."
+  },
+  {
+   "t": 1.0,
+   "fx": "write-on por palabra",
+   "detail": "'in' (1.0) → 'in one year from' (1.5) → 'in one year from zero?' (2.0) (observed)."
+  },
+  {
+   "t": 3.0,
+   "fx": "blur-in con glow rojo",
+   "detail": "Las palabras rojas entran como mancha roja desenfocada y se enfocan en ≈0.2–0.4 s (observed 3.0→4.0, 5.0→5.5, 16.5→17.5)."
+  },
+  {
+   "t": 7.4,
+   "fx": "tracking",
+   "detail": "'KALLAWAY' aparece letra a letra de izquierda a derecha con espaciado muy amplio (observed 7.42–7.62)."
+  },
+  {
+   "t": 9.5,
+   "fx": "contador",
+   "detail": "Contadores de vistas grandes y borrosos que cambian: 1,512,… → 3,202,64… → 4,835,34… → 7,499,58… (observed 9.0–10.1)."
+  },
+  {
+   "t": 22.0,
+   "fx": "cambio de estilo",
+   "detail": "Con la voz del narrador el subtítulo pasa a una línea pequeña blanca sin rojo (7.4–13.9 y 21.8–28.4) (observed)."
+  }
+ ],
+ "camera": [
+  {
+   "t": 2.29,
+   "move": "punch-in",
+   "scale_or_dir": "general → primer plano (corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 9.3,
+   "move": "zoom-blur",
+   "scale_or_dir": "zoom fuerte a los contadores de vistas",
+   "dur_s": 0.8
+  },
+  {
+   "t": 10.14,
+   "move": "whip-pan",
+   "scale_or_dir": "b-roll con barrido de movimiento",
+   "dur_s": 0.5
+  },
+  {
+   "t": 10.68,
+   "move": "zoom-out",
+   "scale_or_dir": "logo ≈1.2→1.0",
+   "dur_s": 0.8
+  },
+  {
+   "t": 11.51,
+   "move": "slide",
+   "scale_or_dir": "interfaz en perspectiva deslizándose hacia la izquierda",
+   "dur_s": 1.7
+  },
+  {
+   "t": 15.72,
+   "move": "zoom-out",
+   "scale_or_dir": "B → plano general (corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 18.02,
+   "move": "punch-in",
+   "scale_or_dir": "general → primer plano (corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 33.28,
+   "move": "punch-in",
+   "scale_or_dir": "general → primer plano (corte)",
+   "dur_s": 0.0
+  }
+ ],
+ "rhythm": {
+  "avg_hold_text_s": 1.4,
+  "notes": "derived: 25 escenas en 39.0 s = 1.56 s por escena, más 8 cortes internos. Tres velocidades: gancho hablado (2.29–7.17, un corte por frase cada 1.3–2.1 s), presentación tipo tráiler con narrador (7.17–14.39 y 21.69–28.61, cortes cada 0.1–1.4 s con destellos), y tesis (planos de 1.1–3.0 s). 9 destellos de color en 39 s. Audio no analizado.",
+  "events_per_10s": [
+   8,
+   14,
+   8,
+   3
+  ]
+ },
+ "typography": "observed: sans grotesca medium blanca con halo (subtítulo acumulativo); serif itálica bold roja con glow para cifras y frases clave; sans bold roja gigante para '$1,000,000'; mayúsculas rojas con tracking muy amplio para 'KALLAWAY'; una línea sans pequeña blanca para el narrador; logotipo 'OPEN—RESIDENCY°' diminuto al final. Nombres de fuente desconocidos.",
+ "textures": "observed: imagen desaturada casi B/N con viñeta; glow rojo y blanco en textos; fugas de luz naranja/blanca y estrobos de color como transición; desenfoque de movimiento de larga exposición en b-roll (10.1–10.5, 13.7–14.3).",
+ "distinct": [
+  "NO es pantalla dividida: es un tráiler/clip de podcast ('OPEN—RESIDENCY°') con Kallaway como invitado y un narrador que lo presenta.",
+  "Cifra '$1,000,000' roja gigante que cuenta hacia arriba como gancho (0.45–2.29).",
+  "Nueve destellos de color (rojo, amarillo, naranja, blanco) usados como transición; en v01–v03 casi no hay.",
+  "Presentación del invitado en 7 s: rótulo con su nombre, ráfaga de miniaturas con vistas, logo y la interfaz de su herramienta.",
+  "El plano general de siluetas se usa como pizarra: las tesis en rojo van en el espacio vacío de arriba (15.72, 19.10, 30.28)."
+ ],
+ "evidence_note": "observed = hojas de 0.5 s y tiras fotograma a fotograma; derived = cortes por detección de escena (±0.04 s); inferred = los 'why' y la atribución a otro canal. Las voces (él vs. narrador) se infieren del texto del guion ('Callaway is a creator…' en tercera persona); el audio no fue analizado."
+}

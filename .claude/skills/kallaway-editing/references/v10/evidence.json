@@ -1,0 +1,4575 @@
+{
+  "video": "v10.mp4",
+  "duration": 126.41,
+  "derived": {
+    "shots": 52,
+    "avg_shot_len": 2.43,
+    "cuts_per_min": 24.7,
+    "hook_shots_first_3s": 3,
+    "high_motion_shots": [
+      0,
+      5,
+      6,
+      13,
+      14,
+      18,
+      21,
+      24,
+      26,
+      27,
+      28,
+      29,
+      32,
+      34,
+      35,
+      37,
+      39,
+      40,
+      41,
+      42,
+      49,
+      51
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "OpenAI",
+      "start": 0.0,
+      "end": 0.3
+    },
+    {
+      "w": "has",
+      "start": 0.3,
+      "end": 0.58
+    },
+    {
+      "w": "officially",
+      "start": 0.58,
+      "end": 0.96
+    },
+    {
+      "w": "launched",
+      "start": 0.96,
+      "end": 1.4
+    },
+    {
+      "w": "Dots.",
+      "start": 1.4,
+      "end": 1.94
+    },
+    {
+      "w": "And",
+      "start": 2.16,
+      "end": 2.32
+    },
+    {
+      "w": "this",
+      "start": 2.32,
+      "end": 2.5
+    },
+    {
+      "w": "is",
+      "start": 2.5,
+      "end": 2.66
+    },
+    {
+      "w": "a",
+      "start": 2.66,
+      "end": 2.72
+    },
+    {
+      "w": "massive",
+      "start": 2.72,
+      "end": 3.12
+    },
+    {
+      "w": "deal",
+      "start": 3.12,
+      "end": 3.4
+    },
+    {
+      "w": "because",
+      "start": 3.4,
+      "end": 3.7
+    },
+    {
+      "w": "Dots",
+      "start": 3.7,
+      "end": 4.14
+    },
+    {
+      "w": "is",
+      "start": 4.14,
+      "end": 4.38
+    },
+    {
+      "w": "a",
+      "start": 4.38,
+      "end": 4.5
+    },
+    {
+      "w": "completely",
+      "start": 4.5,
+      "end": 4.9
+    },
+    {
+      "w": "different",
+      "start": 4.9,
+      "end": 5.3
+    },
+    {
+      "w": "category",
+      "start": 5.3,
+      "end": 5.88
+    },
+    {
+      "w": "of",
+      "start": 5.88,
+      "end": 6.3
+    },
+    {
+      "w": "AI",
+      "start": 6.3,
+      "end": 6.56
+    },
+    {
+      "w": "product.",
+      "start": 6.56,
+      "end": 7.0
+    },
+    {
+      "w": "Dots",
+      "start": 7.26,
+      "end": 7.46
+    },
+    {
+      "w": "are",
+      "start": 7.46,
+      "end": 7.64
+    },
+    {
+      "w": "always",
+      "start": 7.64,
+      "end": 7.98
+    },
+    {
+      "w": "on",
+      "start": 7.98,
+      "end": 8.2
+    },
+    {
+      "w": "agents",
+      "start": 8.2,
+      "end": 8.58
+    },
+    {
+      "w": "inside",
+      "start": 8.58,
+      "end": 9.4
+    },
+    {
+      "w": "of",
+      "start": 9.4,
+      "end": 9.58
+    },
+    {
+      "w": "ChatGPT",
+      "start": 9.58,
+      "end": 10.18
+    },
+    {
+      "w": "that",
+      "start": 10.18,
+      "end": 10.44
+    },
+    {
+      "w": "can",
+      "start": 10.44,
+      "end": 10.56
+    },
+    {
+      "w": "handle",
+      "start": 10.56,
+      "end": 11.02
+    },
+    {
+      "w": "ongoing",
+      "start": 11.02,
+      "end": 11.54
+    },
+    {
+      "w": "work.",
+      "start": 11.54,
+      "end": 11.88
+    },
+    {
+      "w": "Each",
+      "start": 12.02,
+      "end": 12.16
+    },
+    {
+      "w": "dot",
+      "start": 12.16,
+      "end": 12.32
+    },
+    {
+      "w": "has",
+      "start": 12.32,
+      "end": 12.5
+    },
+    {
+      "w": "its",
+      "start": 12.5,
+      "end": 12.62
+    },
+    {
+      "w": "own",
+      "start": 12.62,
+      "end": 12.92
+    },
+    {
+      "w": "cloud",
+      "start": 12.92,
+      "end": 13.22
+    },
+    {
+      "w": "computer",
+      "start": 13.22,
+      "end": 13.66
+    },
+    {
+      "w": "and",
+      "start": 13.66,
+      "end": 14.12
+    },
+    {
+      "w": "browser,",
+      "start": 14.12,
+      "end": 14.58
+    },
+    {
+      "w": "which",
+      "start": 14.72,
+      "end": 14.88
+    },
+    {
+      "w": "means",
+      "start": 14.88,
+      "end": 15.14
+    },
+    {
+      "w": "it",
+      "start": 15.14,
+      "end": 15.34
+    },
+    {
+      "w": "can",
+      "start": 15.34,
+      "end": 15.46
+    },
+    {
+      "w": "keep",
+      "start": 15.46,
+      "end": 15.68
+    },
+    {
+      "w": "working",
+      "start": 15.68,
+      "end": 16.0
+    },
+    {
+      "w": "on",
+      "start": 16.0,
+      "end": 16.26
+    },
+    {
+      "w": "tasks",
+      "start": 16.26,
+      "end": 16.54
+    },
+    {
+      "w": "continuously",
+      "start": 16.54,
+      "end": 17.16
+    },
+    {
+      "w": "while",
+      "start": 17.56,
+      "end": 17.82
+    },
+    {
+      "w": "you're",
+      "start": 17.82,
+      "end": 18.02
+    },
+    {
+      "w": "away.",
+      "start": 18.02,
+      "end": 18.26
+    },
+    {
+      "w": "And",
+      "start": 18.42,
+      "end": 18.48
+    },
+    {
+      "w": "the",
+      "start": 18.48,
+      "end": 18.56
+    },
+    {
+      "w": "big",
+      "start": 18.56,
+      "end": 18.64
+    },
+    {
+      "w": "question",
+      "start": 18.64,
+      "end": 18.9
+    },
+    {
+      "w": "on",
+      "start": 18.9,
+      "end": 19.06
+    },
+    {
+      "w": "everyone's",
+      "start": 19.06,
+      "end": 19.5
+    },
+    {
+      "w": "mind",
+      "start": 19.5,
+      "end": 19.72
+    },
+    {
+      "w": "is",
+      "start": 19.72,
+      "end": 19.94
+    },
+    {
+      "w": "how",
+      "start": 19.94,
+      "end": 20.22
+    },
+    {
+      "w": "are",
+      "start": 20.22,
+      "end": 20.38
+    },
+    {
+      "w": "dots",
+      "start": 20.38,
+      "end": 20.64
+    },
+    {
+      "w": "different",
+      "start": 20.64,
+      "end": 21.14
+    },
+    {
+      "w": "from",
+      "start": 21.14,
+      "end": 21.44
+    },
+    {
+      "w": "the",
+      "start": 21.44,
+      "end": 21.56
+    },
+    {
+      "w": "normal",
+      "start": 21.56,
+      "end": 21.9
+    },
+    {
+      "w": "ChatGPT",
+      "start": 21.9,
+      "end": 22.84
+    },
+    {
+      "w": "or",
+      "start": 22.84,
+      "end": 23.0
+    },
+    {
+      "w": "Codex",
+      "start": 23.0,
+      "end": 23.48
+    },
+    {
+      "w": "experiences?",
+      "start": 23.48,
+      "end": 23.98
+    },
+    {
+      "w": "Think",
+      "start": 24.32,
+      "end": 24.34
+    },
+    {
+      "w": "of",
+      "start": 24.34,
+      "end": 24.44
+    },
+    {
+      "w": "it",
+      "start": 24.44,
+      "end": 24.46
+    },
+    {
+      "w": "like",
+      "start": 24.46,
+      "end": 24.58
+    },
+    {
+      "w": "this.",
+      "start": 24.58,
+      "end": 24.76
+    },
+    {
+      "w": "ChatGPT",
+      "start": 25.0,
+      "end": 25.44
+    },
+    {
+      "w": "and",
+      "start": 25.44,
+      "end": 25.54
+    },
+    {
+      "w": "Codex",
+      "start": 25.54,
+      "end": 25.96
+    },
+    {
+      "w": "are",
+      "start": 25.96,
+      "end": 26.16
+    },
+    {
+      "w": "more",
+      "start": 26.16,
+      "end": 26.38
+    },
+    {
+      "w": "reactive.",
+      "start": 26.38,
+      "end": 27.04
+    },
+    {
+      "w": "You",
+      "start": 27.3,
+      "end": 27.42
+    },
+    {
+      "w": "ask",
+      "start": 27.42,
+      "end": 27.74
+    },
+    {
+      "w": "them",
+      "start": 27.74,
+      "end": 27.9
+    },
+    {
+      "w": "questions",
+      "start": 27.9,
+      "end": 28.22
+    },
+    {
+      "w": "or",
+      "start": 28.22,
+      "end": 28.52
+    },
+    {
+      "w": "give",
+      "start": 28.52,
+      "end": 28.78
+    },
+    {
+      "w": "them",
+      "start": 28.78,
+      "end": 28.94
+    },
+    {
+      "w": "a",
+      "start": 28.94,
+      "end": 29.06
+    },
+    {
+      "w": "task",
+      "start": 29.06,
+      "end": 29.38
+    },
+    {
+      "w": "and",
+      "start": 29.38,
+      "end": 29.58
+    },
+    {
+      "w": "they",
+      "start": 29.58,
+      "end": 29.72
+    },
+    {
+      "w": "answer",
+      "start": 29.72,
+      "end": 30.06
+    },
+    {
+      "w": "to",
+      "start": 30.06,
+      "end": 30.22
+    },
+    {
+      "w": "the",
+      "start": 30.22,
+      "end": 30.3
+    },
+    {
+      "w": "best",
+      "start": 30.3,
+      "end": 30.48
+    },
+    {
+      "w": "of",
+      "start": 30.48,
+      "end": 30.58
+    },
+    {
+      "w": "their",
+      "start": 30.58,
+      "end": 30.7
+    },
+    {
+      "w": "ability.",
+      "start": 30.7,
+      "end": 31.02
+    },
+    {
+      "w": "So",
+      "start": 31.2,
+      "end": 31.22
+    },
+    {
+      "w": "it's",
+      "start": 31.22,
+      "end": 31.3
+    },
+    {
+      "w": "kind",
+      "start": 31.3,
+      "end": 31.44
+    },
+    {
+      "w": "of",
+      "start": 31.44,
+      "end": 31.52
+    },
+    {
+      "w": "like",
+      "start": 31.52,
+      "end": 31.62
+    },
+    {
+      "w": "you're",
+      "start": 31.62,
+      "end": 31.9
+    },
+    {
+      "w": "driving",
+      "start": 31.9,
+      "end": 32.14
+    },
+    {
+      "w": "the",
+      "start": 32.14,
+      "end": 32.3
+    },
+    {
+      "w": "car",
+      "start": 32.3,
+      "end": 32.52
+    },
+    {
+      "w": "and",
+      "start": 32.52,
+      "end": 32.82
+    },
+    {
+      "w": "they",
+      "start": 32.82,
+      "end": 33.1
+    },
+    {
+      "w": "are",
+      "start": 33.1,
+      "end": 33.32
+    },
+    {
+      "w": "the",
+      "start": 33.32,
+      "end": 33.46
+    },
+    {
+      "w": "engine,",
+      "start": 33.46,
+      "end": 33.8
+    },
+    {
+      "w": "but",
+      "start": 33.9,
+      "end": 33.98
+    },
+    {
+      "w": "the",
+      "start": 33.98,
+      "end": 34.08
+    },
+    {
+      "w": "car",
+      "start": 34.08,
+      "end": 34.28
+    },
+    {
+      "w": "doesn't",
+      "start": 34.28,
+      "end": 34.64
+    },
+    {
+      "w": "move",
+      "start": 34.64,
+      "end": 34.9
+    },
+    {
+      "w": "unless",
+      "start": 34.9,
+      "end": 35.14
+    },
+    {
+      "w": "you",
+      "start": 35.14,
+      "end": 35.58
+    },
+    {
+      "w": "press",
+      "start": 35.58,
+      "end": 35.88
+    },
+    {
+      "w": "the",
+      "start": 35.88,
+      "end": 36.06
+    },
+    {
+      "w": "pedal",
+      "start": 36.06,
+      "end": 36.26
+    },
+    {
+      "w": "down.",
+      "start": 36.26,
+      "end": 36.56
+    },
+    {
+      "w": "Dots,",
+      "start": 36.94,
+      "end": 37.02
+    },
+    {
+      "w": "on",
+      "start": 37.08,
+      "end": 37.18
+    },
+    {
+      "w": "the",
+      "start": 37.18,
+      "end": 37.26
+    },
+    {
+      "w": "other",
+      "start": 37.26,
+      "end": 37.36
+    },
+    {
+      "w": "hand,",
+      "start": 37.36,
+      "end": 37.58
+    },
+    {
+      "w": "work",
+      "start": 37.64,
+      "end": 37.92
+    },
+    {
+      "w": "completely",
+      "start": 37.92,
+      "end": 38.4
+    },
+    {
+      "w": "different.",
+      "start": 38.4,
+      "end": 38.76
+    },
+    {
+      "w": "They're",
+      "start": 38.94,
+      "end": 39.06
+    },
+    {
+      "w": "designed",
+      "start": 39.06,
+      "end": 39.3
+    },
+    {
+      "w": "to",
+      "start": 39.3,
+      "end": 39.44
+    },
+    {
+      "w": "be",
+      "start": 39.44,
+      "end": 39.5
+    },
+    {
+      "w": "more",
+      "start": 39.5,
+      "end": 39.74
+    },
+    {
+      "w": "proactive.",
+      "start": 39.74,
+      "end": 40.22
+    },
+    {
+      "w": "All",
+      "start": 40.6,
+      "end": 40.68
+    },
+    {
+      "w": "you",
+      "start": 40.68,
+      "end": 40.78
+    },
+    {
+      "w": "have",
+      "start": 40.78,
+      "end": 40.84
+    },
+    {
+      "w": "to",
+      "start": 40.84,
+      "end": 40.86
+    },
+    {
+      "w": "do",
+      "start": 40.86,
+      "end": 40.98
+    },
+    {
+      "w": "is",
+      "start": 40.98,
+      "end": 41.12
+    },
+    {
+      "w": "give",
+      "start": 41.12,
+      "end": 41.28
+    },
+    {
+      "w": "them",
+      "start": 41.28,
+      "end": 41.42
+    },
+    {
+      "w": "an",
+      "start": 41.42,
+      "end": 41.52
+    },
+    {
+      "w": "initial",
+      "start": 41.52,
+      "end": 41.8
+    },
+    {
+      "w": "objective,",
+      "start": 41.8,
+      "end": 42.26
+    },
+    {
+      "w": "set",
+      "start": 42.6,
+      "end": 42.82
+    },
+    {
+      "w": "boundaries,",
+      "start": 42.82,
+      "end": 43.22
+    },
+    {
+      "w": "and",
+      "start": 43.56,
+      "end": 43.72
+    },
+    {
+      "w": "then",
+      "start": 43.72,
+      "end": 43.84
+    },
+    {
+      "w": "let",
+      "start": 43.84,
+      "end": 43.96
+    },
+    {
+      "w": "them",
+      "start": 43.96,
+      "end": 44.14
+    },
+    {
+      "w": "cook.",
+      "start": 44.14,
+      "end": 44.4
+    },
+    {
+      "w": "And",
+      "start": 44.58,
+      "end": 44.66
+    },
+    {
+      "w": "they'll",
+      "start": 44.66,
+      "end": 44.8
+    },
+    {
+      "w": "come",
+      "start": 44.8,
+      "end": 44.9
+    },
+    {
+      "w": "back",
+      "start": 44.9,
+      "end": 45.04
+    },
+    {
+      "w": "to",
+      "start": 45.04,
+      "end": 45.16
+    },
+    {
+      "w": "you",
+      "start": 45.16,
+      "end": 45.26
+    },
+    {
+      "w": "when",
+      "start": 45.26,
+      "end": 45.34
+    },
+    {
+      "w": "they",
+      "start": 45.34,
+      "end": 45.44
+    },
+    {
+      "w": "need",
+      "start": 45.44,
+      "end": 45.58
+    },
+    {
+      "w": "you",
+      "start": 45.58,
+      "end": 45.7
+    },
+    {
+      "w": "to",
+      "start": 45.7,
+      "end": 45.82
+    },
+    {
+      "w": "weigh",
+      "start": 45.82,
+      "end": 46.08
+    },
+    {
+      "w": "in",
+      "start": 46.08,
+      "end": 46.34
+    },
+    {
+      "w": "or",
+      "start": 46.34,
+      "end": 46.52
+    },
+    {
+      "w": "make",
+      "start": 46.52,
+      "end": 46.7
+    },
+    {
+      "w": "important",
+      "start": 46.7,
+      "end": 47.0
+    },
+    {
+      "w": "decisions,",
+      "start": 47.0,
+      "end": 47.42
+    },
+    {
+      "w": "but",
+      "start": 47.42,
+      "end": 47.8
+    },
+    {
+      "w": "they",
+      "start": 47.8,
+      "end": 47.94
+    },
+    {
+      "w": "can",
+      "start": 47.94,
+      "end": 48.08
+    },
+    {
+      "w": "work",
+      "start": 48.08,
+      "end": 48.36
+    },
+    {
+      "w": "continuously.",
+      "start": 48.36,
+      "end": 48.86
+    },
+    {
+      "w": "So",
+      "start": 49.26,
+      "end": 49.36
+    },
+    {
+      "w": "it's",
+      "start": 49.36,
+      "end": 49.46
+    },
+    {
+      "w": "more",
+      "start": 49.46,
+      "end": 49.58
+    },
+    {
+      "w": "like",
+      "start": 49.58,
+      "end": 49.78
+    },
+    {
+      "w": "you",
+      "start": 49.78,
+      "end": 50.02
+    },
+    {
+      "w": "get",
+      "start": 50.02,
+      "end": 50.18
+    },
+    {
+      "w": "in",
+      "start": 50.18,
+      "end": 50.28
+    },
+    {
+      "w": "the",
+      "start": 50.28,
+      "end": 50.42
+    },
+    {
+      "w": "backseat",
+      "start": 50.42,
+      "end": 50.92
+    },
+    {
+      "w": "of",
+      "start": 50.92,
+      "end": 51.0
+    },
+    {
+      "w": "the",
+      "start": 51.0,
+      "end": 51.08
+    },
+    {
+      "w": "car,",
+      "start": 51.08,
+      "end": 51.32
+    },
+    {
+      "w": "say",
+      "start": 51.56,
+      "end": 51.84
+    },
+    {
+      "w": "where",
+      "start": 51.84,
+      "end": 52.04
+    },
+    {
+      "w": "you",
+      "start": 52.04,
+      "end": 52.16
+    },
+    {
+      "w": "want",
+      "start": 52.16,
+      "end": 52.3
+    },
+    {
+      "w": "to",
+      "start": 52.3,
+      "end": 52.4
+    },
+    {
+      "w": "go,",
+      "start": 52.4,
+      "end": 52.58
+    },
+    {
+      "w": "and",
+      "start": 52.76,
+      "end": 52.88
+    },
+    {
+      "w": "then",
+      "start": 52.88,
+      "end": 52.98
+    },
+    {
+      "w": "your",
+      "start": 52.98,
+      "end": 53.1
+    },
+    {
+      "w": "dot",
+      "start": 53.1,
+      "end": 53.34
+    },
+    {
+      "w": "can",
+      "start": 53.34,
+      "end": 53.58
+    },
+    {
+      "w": "drive,",
+      "start": 53.58,
+      "end": 54.02
+    },
+    {
+      "w": "steer,",
+      "start": 54.26,
+      "end": 54.44
+    },
+    {
+      "w": "and",
+      "start": 54.74,
+      "end": 54.92
+    },
+    {
+      "w": "fill",
+      "start": 54.92,
+      "end": 55.16
+    },
+    {
+      "w": "up",
+      "start": 55.16,
+      "end": 55.28
+    },
+    {
+      "w": "its",
+      "start": 55.28,
+      "end": 55.38
+    },
+    {
+      "w": "own",
+      "start": 55.38,
+      "end": 55.54
+    },
+    {
+      "w": "gas",
+      "start": 55.54,
+      "end": 55.82
+    },
+    {
+      "w": "tank.",
+      "start": 55.82,
+      "end": 56.04
+    },
+    {
+      "w": "It's",
+      "start": 56.24,
+      "end": 56.3
+    },
+    {
+      "w": "pretty",
+      "start": 56.3,
+      "end": 56.46
+    },
+    {
+      "w": "awesome.",
+      "start": 56.46,
+      "end": 56.76
+    },
+    {
+      "w": "Essentially,",
+      "start": 56.92,
+      "end": 57.18
+    },
+    {
+      "w": "the",
+      "start": 57.32,
+      "end": 57.42
+    },
+    {
+      "w": "big",
+      "start": 57.42,
+      "end": 57.7
+    },
+    {
+      "w": "shift",
+      "start": 57.7,
+      "end": 57.92
+    },
+    {
+      "w": "here",
+      "start": 57.92,
+      "end": 58.18
+    },
+    {
+      "w": "is",
+      "start": 58.18,
+      "end": 58.46
+    },
+    {
+      "w": "from",
+      "start": 58.46,
+      "end": 58.66
+    },
+    {
+      "w": "asking",
+      "start": 58.66,
+      "end": 59.18
+    },
+    {
+      "w": "AI",
+      "start": 59.18,
+      "end": 59.48
+    },
+    {
+      "w": "to",
+      "start": 59.48,
+      "end": 59.8
+    },
+    {
+      "w": "complete",
+      "start": 59.8,
+      "end": 60.14
+    },
+    {
+      "w": "a",
+      "start": 60.14,
+      "end": 60.32
+    },
+    {
+      "w": "task",
+      "start": 60.32,
+      "end": 60.68
+    },
+    {
+      "w": "to",
+      "start": 60.68,
+      "end": 60.92
+    },
+    {
+      "w": "now",
+      "start": 60.92,
+      "end": 61.2
+    },
+    {
+      "w": "giving",
+      "start": 61.2,
+      "end": 61.6
+    },
+    {
+      "w": "your",
+      "start": 61.6,
+      "end": 61.92
+    },
+    {
+      "w": "dot",
+      "start": 61.92,
+      "end": 62.22
+    },
+    {
+      "w": "ongoing",
+      "start": 62.22,
+      "end": 62.7
+    },
+    {
+      "w": "responsibilities.",
+      "start": 62.7,
+      "end": 63.44
+    },
+    {
+      "w": "And",
+      "start": 63.8,
+      "end": 63.86
+    },
+    {
+      "w": "that",
+      "start": 63.86,
+      "end": 64.0
+    },
+    {
+      "w": "shift",
+      "start": 64.0,
+      "end": 64.24
+    },
+    {
+      "w": "from",
+      "start": 64.24,
+      "end": 64.56
+    },
+    {
+      "w": "reactive",
+      "start": 64.56,
+      "end": 65.08
+    },
+    {
+      "w": "to",
+      "start": 65.08,
+      "end": 65.34
+    },
+    {
+      "w": "proactive",
+      "start": 65.34,
+      "end": 65.76
+    },
+    {
+      "w": "will",
+      "start": 65.76,
+      "end": 66.12
+    },
+    {
+      "w": "completely",
+      "start": 66.12,
+      "end": 66.48
+    },
+    {
+      "w": "change",
+      "start": 66.48,
+      "end": 66.88
+    },
+    {
+      "w": "how",
+      "start": 66.88,
+      "end": 67.12
+    },
+    {
+      "w": "humans",
+      "start": 67.12,
+      "end": 67.54
+    },
+    {
+      "w": "use",
+      "start": 67.54,
+      "end": 67.88
+    },
+    {
+      "w": "AI.",
+      "start": 67.88,
+      "end": 68.2
+    },
+    {
+      "w": "Now,",
+      "start": 68.5,
+      "end": 68.56
+    },
+    {
+      "w": "the",
+      "start": 68.6,
+      "end": 68.62
+    },
+    {
+      "w": "biggest",
+      "start": 68.62,
+      "end": 68.78
+    },
+    {
+      "w": "reason",
+      "start": 68.78,
+      "end": 69.02
+    },
+    {
+      "w": "why",
+      "start": 69.02,
+      "end": 69.2
+    },
+    {
+      "w": "dots",
+      "start": 69.2,
+      "end": 69.58
+    },
+    {
+      "w": "are",
+      "start": 69.58,
+      "end": 69.82
+    },
+    {
+      "w": "so",
+      "start": 69.82,
+      "end": 70.0
+    },
+    {
+      "w": "compelling",
+      "start": 70.0,
+      "end": 70.36
+    },
+    {
+      "w": "is",
+      "start": 70.36,
+      "end": 70.64
+    },
+    {
+      "w": "because",
+      "start": 70.64,
+      "end": 70.82
+    },
+    {
+      "w": "they're",
+      "start": 70.82,
+      "end": 71.16
+    },
+    {
+      "w": "powered",
+      "start": 71.16,
+      "end": 71.56
+    },
+    {
+      "w": "by",
+      "start": 71.56,
+      "end": 71.76
+    },
+    {
+      "w": "GPT",
+      "start": 71.76,
+      "end": 72.24
+    },
+    {
+      "w": "-6",
+      "start": 72.24,
+      "end": 72.56
+    },
+    {
+      "w": "Astra.",
+      "start": 72.56,
+      "end": 73.0
+    },
+    {
+      "w": "Essentially,",
+      "start": 73.22,
+      "end": 73.48
+    },
+    {
+      "w": "their",
+      "start": 73.62,
+      "end": 73.72
+    },
+    {
+      "w": "agent",
+      "start": 73.72,
+      "end": 74.1
+    },
+    {
+      "w": "brain",
+      "start": 74.1,
+      "end": 74.44
+    },
+    {
+      "w": "is",
+      "start": 74.44,
+      "end": 74.78
+    },
+    {
+      "w": "genius",
+      "start": 74.78,
+      "end": 75.24
+    },
+    {
+      "w": "level",
+      "start": 75.24,
+      "end": 75.62
+    },
+    {
+      "w": "using",
+      "start": 75.62,
+      "end": 75.98
+    },
+    {
+      "w": "one",
+      "start": 75.98,
+      "end": 76.2
+    },
+    {
+      "w": "of",
+      "start": 76.2,
+      "end": 76.28
+    },
+    {
+      "w": "the",
+      "start": 76.28,
+      "end": 76.36
+    },
+    {
+      "w": "best",
+      "start": 76.36,
+      "end": 76.52
+    },
+    {
+      "w": "models",
+      "start": 76.52,
+      "end": 76.86
+    },
+    {
+      "w": "in",
+      "start": 76.86,
+      "end": 77.12
+    },
+    {
+      "w": "the",
+      "start": 77.12,
+      "end": 77.22
+    },
+    {
+      "w": "world,",
+      "start": 77.22,
+      "end": 77.46
+    },
+    {
+      "w": "which",
+      "start": 77.5,
+      "end": 77.74
+    },
+    {
+      "w": "means",
+      "start": 77.74,
+      "end": 78.02
+    },
+    {
+      "w": "its",
+      "start": 78.02,
+      "end": 78.32
+    },
+    {
+      "w": "capacity",
+      "start": 78.32,
+      "end": 78.94
+    },
+    {
+      "w": "to",
+      "start": 78.94,
+      "end": 79.22
+    },
+    {
+      "w": "do",
+      "start": 79.22,
+      "end": 79.4
+    },
+    {
+      "w": "things",
+      "start": 79.4,
+      "end": 79.66
+    },
+    {
+      "w": "is",
+      "start": 79.66,
+      "end": 79.92
+    },
+    {
+      "w": "extremely",
+      "start": 79.92,
+      "end": 80.36
+    },
+    {
+      "w": "advanced.",
+      "start": 80.36,
+      "end": 80.8
+    },
+    {
+      "w": "For",
+      "start": 81.06,
+      "end": 81.16
+    },
+    {
+      "w": "example,",
+      "start": 81.16,
+      "end": 81.34
+    },
+    {
+      "w": "I",
+      "start": 81.46,
+      "end": 81.6
+    },
+    {
+      "w": "gave",
+      "start": 81.6,
+      "end": 81.78
+    },
+    {
+      "w": "my",
+      "start": 81.78,
+      "end": 81.94
+    },
+    {
+      "w": "dot",
+      "start": 81.94,
+      "end": 82.18
+    },
+    {
+      "w": "the",
+      "start": 82.18,
+      "end": 82.32
+    },
+    {
+      "w": "responsibility",
+      "start": 82.32,
+      "end": 82.82
+    },
+    {
+      "w": "to",
+      "start": 82.82,
+      "end": 83.24
+    },
+    {
+      "w": "become",
+      "start": 83.24,
+      "end": 83.6
+    },
+    {
+      "w": "my",
+      "start": 83.6,
+      "end": 83.84
+    },
+    {
+      "w": "chief",
+      "start": 83.84,
+      "end": 84.1
+    },
+    {
+      "w": "of",
+      "start": 84.1,
+      "end": 84.28
+    },
+    {
+      "w": "staff.",
+      "start": 84.28,
+      "end": 84.52
+    },
+    {
+      "w": "Every",
+      "start": 84.78,
+      "end": 84.94
+    },
+    {
+      "w": "morning",
+      "start": 84.94,
+      "end": 85.18
+    },
+    {
+      "w": "when",
+      "start": 85.18,
+      "end": 85.32
+    },
+    {
+      "w": "I",
+      "start": 85.32,
+      "end": 85.44
+    },
+    {
+      "w": "first",
+      "start": 85.44,
+      "end": 85.62
+    },
+    {
+      "w": "wake",
+      "start": 85.62,
+      "end": 85.82
+    },
+    {
+      "w": "up,",
+      "start": 85.82,
+      "end": 85.98
+    },
+    {
+      "w": "I",
+      "start": 85.98,
+      "end": 86.18
+    },
+    {
+      "w": "want",
+      "start": 86.18,
+      "end": 86.3
+    },
+    {
+      "w": "to",
+      "start": 86.3,
+      "end": 86.36
+    },
+    {
+      "w": "see",
+      "start": 86.36,
+      "end": 86.48
+    },
+    {
+      "w": "that",
+      "start": 86.48,
+      "end": 86.6
+    },
+    {
+      "w": "my",
+      "start": 86.6,
+      "end": 86.72
+    },
+    {
+      "w": "emails,",
+      "start": 86.72,
+      "end": 87.2
+    },
+    {
+      "w": "slack",
+      "start": 87.46,
+      "end": 87.68
+    },
+    {
+      "w": "messages,",
+      "start": 87.68,
+      "end": 88.14
+    },
+    {
+      "w": "and",
+      "start": 88.34,
+      "end": 88.44
+    },
+    {
+      "w": "customer",
+      "start": 88.44,
+      "end": 88.86
+    },
+    {
+      "w": "support",
+      "start": 88.86,
+      "end": 89.14
+    },
+    {
+      "w": "requests",
+      "start": 89.14,
+      "end": 89.68
+    },
+    {
+      "w": "have",
+      "start": 89.68,
+      "end": 89.94
+    },
+    {
+      "w": "been",
+      "start": 89.94,
+      "end": 90.16
+    },
+    {
+      "w": "triaged",
+      "start": 90.16,
+      "end": 90.8
+    },
+    {
+      "w": "and",
+      "start": 90.8,
+      "end": 91.04
+    },
+    {
+      "w": "answered",
+      "start": 91.04,
+      "end": 91.46
+    },
+    {
+      "w": "and",
+      "start": 91.46,
+      "end": 91.62
+    },
+    {
+      "w": "that",
+      "start": 91.62,
+      "end": 91.76
+    },
+    {
+      "w": "I",
+      "start": 91.76,
+      "end": 91.96
+    },
+    {
+      "w": "can",
+      "start": 91.96,
+      "end": 92.12
+    },
+    {
+      "w": "see",
+      "start": 92.12,
+      "end": 92.28
+    },
+    {
+      "w": "the",
+      "start": 92.28,
+      "end": 92.42
+    },
+    {
+      "w": "most",
+      "start": 92.42,
+      "end": 92.76
+    },
+    {
+      "w": "critical",
+      "start": 92.76,
+      "end": 93.0
+    },
+    {
+      "w": "items",
+      "start": 93.0,
+      "end": 93.44
+    },
+    {
+      "w": "that",
+      "start": 93.44,
+      "end": 93.62
+    },
+    {
+      "w": "need",
+      "start": 93.62,
+      "end": 93.76
+    },
+    {
+      "w": "my",
+      "start": 93.76,
+      "end": 93.92
+    },
+    {
+      "w": "attention",
+      "start": 93.92,
+      "end": 94.24
+    },
+    {
+      "w": "in",
+      "start": 94.24,
+      "end": 94.58
+    },
+    {
+      "w": "one",
+      "start": 94.58,
+      "end": 94.88
+    },
+    {
+      "w": "single",
+      "start": 94.88,
+      "end": 95.26
+    },
+    {
+      "w": "dashboard.",
+      "start": 95.26,
+      "end": 95.66
+    },
+    {
+      "w": "To",
+      "start": 95.9,
+      "end": 95.98
+    },
+    {
+      "w": "do",
+      "start": 95.98,
+      "end": 96.08
+    },
+    {
+      "w": "this,",
+      "start": 96.08,
+      "end": 96.28
+    },
+    {
+      "w": "I",
+      "start": 96.38,
+      "end": 96.5
+    },
+    {
+      "w": "just",
+      "start": 96.5,
+      "end": 96.68
+    },
+    {
+      "w": "described",
+      "start": 96.68,
+      "end": 97.28
+    },
+    {
+      "w": "with",
+      "start": 97.28,
+      "end": 97.5
+    },
+    {
+      "w": "voice",
+      "start": 97.5,
+      "end": 97.84
+    },
+    {
+      "w": "to",
+      "start": 97.84,
+      "end": 98.1
+    },
+    {
+      "w": "my",
+      "start": 98.1,
+      "end": 98.26
+    },
+    {
+      "w": "dot",
+      "start": 98.26,
+      "end": 98.52
+    },
+    {
+      "w": "how",
+      "start": 98.52,
+      "end": 98.9
+    },
+    {
+      "w": "I",
+      "start": 98.9,
+      "end": 99.06
+    },
+    {
+      "w": "wanted",
+      "start": 99.06,
+      "end": 99.38
+    },
+    {
+      "w": "it",
+      "start": 99.38,
+      "end": 99.54
+    },
+    {
+      "w": "to",
+      "start": 99.54,
+      "end": 99.68
+    },
+    {
+      "w": "run",
+      "start": 99.68,
+      "end": 99.98
+    },
+    {
+      "w": "this",
+      "start": 99.98,
+      "end": 100.26
+    },
+    {
+      "w": "admin",
+      "start": 100.26,
+      "end": 100.84
+    },
+    {
+      "w": "operating",
+      "start": 100.84,
+      "end": 101.32
+    },
+    {
+      "w": "system.",
+      "start": 101.32,
+      "end": 101.78
+    },
+    {
+      "w": "And",
+      "start": 101.94,
+      "end": 101.96
+    },
+    {
+      "w": "I",
+      "start": 101.96,
+      "end": 102.04
+    },
+    {
+      "w": "can't",
+      "start": 102.04,
+      "end": 102.14
+    },
+    {
+      "w": "believe",
+      "start": 102.14,
+      "end": 102.26
+    },
+    {
+      "w": "it,",
+      "start": 102.26,
+      "end": 102.4
+    },
+    {
+      "w": "but",
+      "start": 102.4,
+      "end": 102.46
+    },
+    {
+      "w": "this",
+      "start": 102.46,
+      "end": 102.58
+    },
+    {
+      "w": "actually",
+      "start": 102.58,
+      "end": 102.98
+    },
+    {
+      "w": "works",
+      "start": 102.98,
+      "end": 103.28
+    },
+    {
+      "w": "insanely",
+      "start": 103.28,
+      "end": 103.9
+    },
+    {
+      "w": "well",
+      "start": 103.9,
+      "end": 104.26
+    },
+    {
+      "w": "and",
+      "start": 104.26,
+      "end": 104.4
+    },
+    {
+      "w": "it's",
+      "start": 104.4,
+      "end": 104.5
+    },
+    {
+      "w": "already",
+      "start": 104.5,
+      "end": 104.8
+    },
+    {
+      "w": "saving",
+      "start": 104.8,
+      "end": 105.1
+    },
+    {
+      "w": "me",
+      "start": 105.1,
+      "end": 105.32
+    },
+    {
+      "w": "multiple",
+      "start": 105.32,
+      "end": 105.76
+    },
+    {
+      "w": "hours",
+      "start": 105.76,
+      "end": 106.24
+    },
+    {
+      "w": "per",
+      "start": 106.24,
+      "end": 106.52
+    },
+    {
+      "w": "day.",
+      "start": 106.52,
+      "end": 106.74
+    },
+    {
+      "w": "The",
+      "start": 106.9,
+      "end": 106.96
+    },
+    {
+      "w": "long",
+      "start": 106.96,
+      "end": 107.2
+    },
+    {
+      "w": "-term",
+      "start": 107.2,
+      "end": 107.42
+    },
+    {
+      "w": "ongoing",
+      "start": 107.42,
+      "end": 108.16
+    },
+    {
+      "w": "proactive",
+      "start": 108.16,
+      "end": 108.58
+    },
+    {
+      "w": "monitoring",
+      "start": 108.58,
+      "end": 109.14
+    },
+    {
+      "w": "from",
+      "start": 109.14,
+      "end": 109.46
+    },
+    {
+      "w": "dots",
+      "start": 109.46,
+      "end": 109.88
+    },
+    {
+      "w": "paired",
+      "start": 109.88,
+      "end": 110.38
+    },
+    {
+      "w": "with",
+      "start": 110.38,
+      "end": 110.64
+    },
+    {
+      "w": "the",
+      "start": 110.64,
+      "end": 110.8
+    },
+    {
+      "w": "power",
+      "start": 110.8,
+      "end": 111.26
+    },
+    {
+      "w": "of",
+      "start": 111.26,
+      "end": 111.5
+    },
+    {
+      "w": "GPT",
+      "start": 111.5,
+      "end": 111.9
+    },
+    {
+      "w": "-6",
+      "start": 111.9,
+      "end": 112.14
+    },
+    {
+      "w": "Astra",
+      "start": 112.14,
+      "end": 112.54
+    },
+    {
+      "w": "is",
+      "start": 112.54,
+      "end": 113.1
+    },
+    {
+      "w": "the",
+      "start": 113.1,
+      "end": 113.28
+    },
+    {
+      "w": "combination",
+      "start": 113.28,
+      "end": 113.64
+    },
+    {
+      "w": "that",
+      "start": 113.64,
+      "end": 114.06
+    },
+    {
+      "w": "makes",
+      "start": 114.06,
+      "end": 114.34
+    },
+    {
+      "w": "this",
+      "start": 114.34,
+      "end": 114.58
+    },
+    {
+      "w": "task",
+      "start": 114.58,
+      "end": 114.94
+    },
+    {
+      "w": "so",
+      "start": 114.94,
+      "end": 115.32
+    },
+    {
+      "w": "seamless",
+      "start": 115.32,
+      "end": 115.72
+    },
+    {
+      "w": "and",
+      "start": 115.72,
+      "end": 116.04
+    },
+    {
+      "w": "easy.",
+      "start": 116.04,
+      "end": 116.32
+    },
+    {
+      "w": "This",
+      "start": 116.56,
+      "end": 116.68
+    },
+    {
+      "w": "is",
+      "start": 116.68,
+      "end": 116.84
+    },
+    {
+      "w": "the",
+      "start": 116.84,
+      "end": 116.94
+    },
+    {
+      "w": "way",
+      "start": 116.94,
+      "end": 117.12
+    },
+    {
+      "w": "most",
+      "start": 117.12,
+      "end": 117.42
+    },
+    {
+      "w": "people",
+      "start": 117.42,
+      "end": 117.74
+    },
+    {
+      "w": "envisioned",
+      "start": 117.74,
+      "end": 118.32
+    },
+    {
+      "w": "working",
+      "start": 118.32,
+      "end": 118.8
+    },
+    {
+      "w": "with",
+      "start": 118.8,
+      "end": 119.08
+    },
+    {
+      "w": "AI",
+      "start": 119.08,
+      "end": 119.32
+    },
+    {
+      "w": "and",
+      "start": 119.32,
+      "end": 119.64
+    },
+    {
+      "w": "it's",
+      "start": 119.64,
+      "end": 119.78
+    },
+    {
+      "w": "available",
+      "start": 119.78,
+      "end": 120.06
+    },
+    {
+      "w": "now.",
+      "start": 120.06,
+      "end": 120.56
+    },
+    {
+      "w": "Comment",
+      "start": 120.82,
+      "end": 120.98
+    },
+    {
+      "w": "dots",
+      "start": 120.98,
+      "end": 121.28
+    },
+    {
+      "w": "and",
+      "start": 121.28,
+      "end": 121.42
+    },
+    {
+      "w": "I'll",
+      "start": 121.42,
+      "end": 121.5
+    },
+    {
+      "w": "send",
+      "start": 121.5,
+      "end": 121.64
+    },
+    {
+      "w": "you",
+      "start": 121.64,
+      "end": 121.74
+    },
+    {
+      "w": "more",
+      "start": 121.74,
+      "end": 121.88
+    },
+    {
+      "w": "information",
+      "start": 121.88,
+      "end": 122.24
+    },
+    {
+      "w": "on",
+      "start": 122.24,
+      "end": 122.42
+    },
+    {
+      "w": "exactly",
+      "start": 122.42,
+      "end": 122.86
+    },
+    {
+      "w": "how",
+      "start": 122.86,
+      "end": 123.06
+    },
+    {
+      "w": "to",
+      "start": 123.06,
+      "end": 123.14
+    },
+    {
+      "w": "get",
+      "start": 123.14,
+      "end": 123.24
+    },
+    {
+      "w": "this",
+      "start": 123.24,
+      "end": 123.42
+    },
+    {
+      "w": "set",
+      "start": 123.42,
+      "end": 123.62
+    },
+    {
+      "w": "up",
+      "start": 123.62,
+      "end": 123.78
+    },
+    {
+      "w": "so",
+      "start": 123.78,
+      "end": 123.98
+    },
+    {
+      "w": "that",
+      "start": 123.98,
+      "end": 124.1
+    },
+    {
+      "w": "you",
+      "start": 124.1,
+      "end": 124.16
+    },
+    {
+      "w": "can",
+      "start": 124.16,
+      "end": 124.3
+    },
+    {
+      "w": "take",
+      "start": 124.3,
+      "end": 124.42
+    },
+    {
+      "w": "advantage",
+      "start": 124.42,
+      "end": 124.74
+    },
+    {
+      "w": "of",
+      "start": 124.74,
+      "end": 125.06
+    },
+    {
+      "w": "the",
+      "start": 125.06,
+      "end": 125.14
+    },
+    {
+      "w": "next",
+      "start": 125.14,
+      "end": 125.38
+    },
+    {
+      "w": "wave",
+      "start": 125.38,
+      "end": 125.7
+    },
+    {
+      "w": "in",
+      "start": 125.7,
+      "end": 125.94
+    },
+    {
+      "w": "AI.",
+      "start": 125.94,
+      "end": 126.1
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 1.1,
+      "length": 1.1,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FAFAFA",
+            "share": 0.358
+          },
+          {
+            "hex": "#0D0B0D",
+            "share": 0.321
+          },
+          {
+            "hex": "#88766B",
+            "share": 0.022
+          },
+          {
+            "hex": "#302B2C",
+            "share": 0.022
+          },
+          {
+            "hex": "#AFAFAF",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 21.77,
+        "script": "OpenAI has officially launched"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 1.1,
+      "end": 2.2,
+      "length": 1.1,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0A0A0B",
+            "share": 0.59
+          },
+          {
+            "hex": "#302C2B",
+            "share": 0.052
+          },
+          {
+            "hex": "#88756B",
+            "share": 0.024
+          },
+          {
+            "hex": "#161927",
+            "share": 0.019
+          },
+          {
+            "hex": "#49372E",
+            "share": 0.018
+          }
+        ],
+        "motion_energy": 8.98,
+        "script": "Dots. And"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 2.2,
+      "end": 3.567,
+      "length": 1.367,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0C",
+            "share": 0.709
+          },
+          {
+            "hex": "#8C5635",
+            "share": 0.032
+          },
+          {
+            "hex": "#B07348",
+            "share": 0.031
+          },
+          {
+            "hex": "#72492F",
+            "share": 0.03
+          },
+          {
+            "hex": "#2D282B",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 8.07,
+        "script": "this is a massive deal because"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 3.567,
+      "end": 4.5,
+      "length": 0.933,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0C0E",
+            "share": 0.324
+          },
+          {
+            "hex": "#16262C",
+            "share": 0.082
+          },
+          {
+            "hex": "#2C2D30",
+            "share": 0.062
+          },
+          {
+            "hex": "#EFF3FA",
+            "share": 0.051
+          },
+          {
+            "hex": "#4A4E54",
+            "share": 0.046
+          }
+        ],
+        "motion_energy": 9.86,
+        "script": "Dots is a"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 4.5,
+      "end": 7.233,
+      "length": 2.733,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0B0D",
+            "share": 0.305
+          },
+          {
+            "hex": "#F2F2F2",
+            "share": 0.238
+          },
+          {
+            "hex": "#E3EEB7",
+            "share": 0.139
+          },
+          {
+            "hex": "#D0D0D0",
+            "share": 0.042
+          },
+          {
+            "hex": "#AFAFAF",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 8.7,
+        "script": "completely different category of AI product."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 7.233,
+      "end": 8.867,
+      "length": 1.633,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0B",
+            "share": 0.667
+          },
+          {
+            "hex": "#B07346",
+            "share": 0.04
+          },
+          {
+            "hex": "#724B2F",
+            "share": 0.032
+          },
+          {
+            "hex": "#8B5735",
+            "share": 0.028
+          },
+          {
+            "hex": "#2D292B",
+            "share": 0.025
+          }
+        ],
+        "motion_energy": 13.74,
+        "script": "Dots are always on agents inside"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 8.867,
+      "end": 12.0,
+      "length": 3.133,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0C0E",
+            "share": 0.307
+          },
+          {
+            "hex": "#EDECE5",
+            "share": 0.149
+          },
+          {
+            "hex": "#312D2B",
+            "share": 0.044
+          },
+          {
+            "hex": "#8B5829",
+            "share": 0.027
+          },
+          {
+            "hex": "#A97132",
+            "share": 0.026
+          }
+        ],
+        "motion_energy": 15.86,
+        "script": "of ChatGPT that can handle ongoing work."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 12.0,
+      "end": 13.733,
+      "length": 1.733,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0E10",
+            "share": 0.618
+          },
+          {
+            "hex": "#171B24",
+            "share": 0.078
+          },
+          {
+            "hex": "#1B2129",
+            "share": 0.056
+          },
+          {
+            "hex": "#2D2A2B",
+            "share": 0.04
+          },
+          {
+            "hex": "#87766C",
+            "share": 0.026
+          }
+        ],
+        "motion_energy": 4.29,
+        "script": "Each dot has its own cloud computer and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 13.733,
+      "end": 14.733,
+      "length": 1.0,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F4F4F5",
+            "share": 0.348
+          },
+          {
+            "hex": "#0D0B0D",
+            "share": 0.305
+          },
+          {
+            "hex": "#CFD0D2",
+            "share": 0.049
+          },
+          {
+            "hex": "#2E2B2C",
+            "share": 0.03
+          },
+          {
+            "hex": "#88766B",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 6.53,
+        "script": "browser, which"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 14.733,
+      "end": 15.733,
+      "length": 1.0,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#070605",
+            "share": 0.438
+          },
+          {
+            "hex": "#CFD1D0",
+            "share": 0.087
+          },
+          {
+            "hex": "#D5AF2D",
+            "share": 0.079
+          },
+          {
+            "hex": "#4E2912",
+            "share": 0.068
+          },
+          {
+            "hex": "#6B3717",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 5.61,
+        "script": "means it can keep working"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 10,
+      "start": 15.733,
+      "end": 16.767,
+      "length": 1.033,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0C0A",
+            "share": 0.215
+          },
+          {
+            "hex": "#75471B",
+            "share": 0.156
+          },
+          {
+            "hex": "#2D2718",
+            "share": 0.112
+          },
+          {
+            "hex": "#323023",
+            "share": 0.075
+          },
+          {
+            "hex": "#6A542C",
+            "share": 0.067
+          }
+        ],
+        "motion_energy": 9.94,
+        "script": "on tasks continuously"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 11,
+      "start": 16.767,
+      "end": 18.433,
+      "length": 1.667,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#070605",
+            "share": 0.411
+          },
+          {
+            "hex": "#CDCFCC",
+            "share": 0.146
+          },
+          {
+            "hex": "#252A24",
+            "share": 0.097
+          },
+          {
+            "hex": "#4A2710",
+            "share": 0.074
+          },
+          {
+            "hex": "#B39473",
+            "share": 0.043
+          }
+        ],
+        "motion_energy": 1.93,
+        "script": "while you're away. And"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 12,
+      "start": 18.433,
+      "end": 21.3,
+      "length": 2.867,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0B",
+            "share": 0.701
+          },
+          {
+            "hex": "#B17247",
+            "share": 0.045
+          },
+          {
+            "hex": "#71492F",
+            "share": 0.029
+          },
+          {
+            "hex": "#8C5636",
+            "share": 0.026
+          },
+          {
+            "hex": "#4F3427",
+            "share": 0.019
+          }
+        ],
+        "motion_energy": 10.29,
+        "script": "the big question on everyone's mind is how are dots different from"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 13,
+      "start": 21.3,
+      "end": 24.267,
+      "length": 2.967,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F8F6F2",
+            "share": 0.412
+          },
+          {
+            "hex": "#0C0B0C",
+            "share": 0.297
+          },
+          {
+            "hex": "#87766B",
+            "share": 0.022
+          },
+          {
+            "hex": "#ECE6DA",
+            "share": 0.02
+          },
+          {
+            "hex": "#302B2B",
+            "share": 0.018
+          }
+        ],
+        "motion_energy": 23.92,
+        "script": "the normal ChatGPT or Codex experiences?"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 14,
+      "start": 24.267,
+      "end": 24.933,
+      "length": 0.667,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0C",
+            "share": 0.685
+          },
+          {
+            "hex": "#B07247",
+            "share": 0.051
+          },
+          {
+            "hex": "#714A2F",
+            "share": 0.032
+          },
+          {
+            "hex": "#8B5736",
+            "share": 0.028
+          },
+          {
+            "hex": "#4F3428",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 37.78,
+        "script": "Think of it like this."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 15,
+      "start": 24.933,
+      "end": 31.133,
+      "length": 6.2,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FAFAFA",
+            "share": 0.483
+          },
+          {
+            "hex": "#0D0B0D",
+            "share": 0.302
+          },
+          {
+            "hex": "#302B2B",
+            "share": 0.022
+          },
+          {
+            "hex": "#87766B",
+            "share": 0.022
+          },
+          {
+            "hex": "#161927",
+            "share": 0.017
+          }
+        ],
+        "motion_energy": 10.71,
+        "script": "ChatGPT and Codex are more reactive. You ask them questions or give them a task and they answer to the best of their ability."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 16,
+      "start": 31.133,
+      "end": 33.933,
+      "length": 2.8,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A0B",
+            "share": 0.69
+          },
+          {
+            "hex": "#B07246",
+            "share": 0.037
+          },
+          {
+            "hex": "#724A2F",
+            "share": 0.033
+          },
+          {
+            "hex": "#8B5735",
+            "share": 0.027
+          },
+          {
+            "hex": "#C48C58",
+            "share": 0.019
+          }
+        ],
+        "motion_energy": 11.59,
+        "script": "So it's kind of like you're driving the car and they are the engine, but"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 17,
+      "start": 33.933,
+      "end": 36.7,
+      "length": 2.767,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FBFBFB",
+            "share": 0.446
+          },
+          {
+            "hex": "#0C0B0D",
+            "share": 0.302
+          },
+          {
+            "hex": "#88766B",
+            "share": 0.022
+          },
+          {
+            "hex": "#AE7148",
+            "share": 0.019
+          },
+          {
+            "hex": "#2F2A2B",
+            "share": 0.016
+          }
+        ],
+        "motion_energy": 10.58,
+        "script": "the car doesn't move unless you press the pedal down."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 18,
+      "start": 36.7,
+      "end": 40.567,
+      "length": 3.867,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0C",
+            "share": 0.718
+          },
+          {
+            "hex": "#714A2E",
+            "share": 0.029
+          },
+          {
+            "hex": "#B07247",
+            "share": 0.028
+          },
+          {
+            "hex": "#261A17",
+            "share": 0.023
+          },
+          {
+            "hex": "#8B5635",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 15.35,
+        "script": "Dots, on the other hand, work completely different. They're designed to be more proactive."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 19,
+      "start": 40.567,
+      "end": 44.567,
+      "length": 4.0,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0D",
+            "share": 0.304
+          },
+          {
+            "hex": "#F9F9F9",
+            "share": 0.229
+          },
+          {
+            "hex": "#30B2EE",
+            "share": 0.032
+          },
+          {
+            "hex": "#91D8EF",
+            "share": 0.029
+          },
+          {
+            "hex": "#AEDAED",
+            "share": 0.026
+          }
+        ],
+        "motion_energy": 8.43,
+        "script": "All you have to do is give them an initial objective, set boundaries, and then let them cook."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 20,
+      "start": 44.567,
+      "end": 46.367,
+      "length": 1.8,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0B0A0B",
+            "share": 0.745
+          },
+          {
+            "hex": "#2E2B2C",
+            "share": 0.043
+          },
+          {
+            "hex": "#88766B",
+            "share": 0.022
+          },
+          {
+            "hex": "#161927",
+            "share": 0.018
+          },
+          {
+            "hex": "#4E4A4B",
+            "share": 0.016
+          }
+        ],
+        "motion_energy": 5.4,
+        "script": "And they'll come back to you when they need you to weigh in or"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 21,
+      "start": 46.367,
+      "end": 49.267,
+      "length": 2.9,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0D",
+            "share": 0.298
+          },
+          {
+            "hex": "#FAE8E1",
+            "share": 0.157
+          },
+          {
+            "hex": "#F7E5DE",
+            "share": 0.106
+          },
+          {
+            "hex": "#E37056",
+            "share": 0.075
+          },
+          {
+            "hex": "#EAD9D2",
+            "share": 0.063
+          }
+        ],
+        "motion_energy": 13.79,
+        "script": "make important decisions, but they can work continuously. So"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 22,
+      "start": 49.267,
+      "end": 51.5,
+      "length": 2.233,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0B0A0B",
+            "share": 0.698
+          },
+          {
+            "hex": "#B17246",
+            "share": 0.039
+          },
+          {
+            "hex": "#724A2E",
+            "share": 0.03
+          },
+          {
+            "hex": "#8B5634",
+            "share": 0.027
+          },
+          {
+            "hex": "#503426",
+            "share": 0.018
+          }
+        ],
+        "motion_energy": 10.42,
+        "script": "it's more like you get in the backseat of the car,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 23,
+      "start": 51.5,
+      "end": 52.9,
+      "length": 1.4,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E090A",
+            "share": 0.468
+          },
+          {
+            "hex": "#29150E",
+            "share": 0.067
+          },
+          {
+            "hex": "#6E4932",
+            "share": 0.064
+          },
+          {
+            "hex": "#886857",
+            "share": 0.06
+          },
+          {
+            "hex": "#75594A",
+            "share": 0.041
+          }
+        ],
+        "motion_energy": 7.78,
+        "script": "say where you want to go, and then"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 24,
+      "start": 52.9,
+      "end": 54.967,
+      "length": 2.067,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0B090B",
+            "share": 0.408
+          },
+          {
+            "hex": "#DCE3E5",
+            "share": 0.209
+          },
+          {
+            "hex": "#CED4D7",
+            "share": 0.052
+          },
+          {
+            "hex": "#D249CE",
+            "share": 0.033
+          },
+          {
+            "hex": "#88766B",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 17.84,
+        "script": "your dot can drive, steer, and fill"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 25,
+      "start": 54.967,
+      "end": 56.333,
+      "length": 1.367,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0B090B",
+            "share": 0.417
+          },
+          {
+            "hex": "#D5D7D5",
+            "share": 0.093
+          },
+          {
+            "hex": "#53514B",
+            "share": 0.048
+          },
+          {
+            "hex": "#332F2C",
+            "share": 0.045
+          },
+          {
+            "hex": "#CA5BD4",
+            "share": 0.043
+          }
+        ],
+        "motion_energy": 6.69,
+        "script": "up its own gas tank. It's pretty"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 26,
+      "start": 56.333,
+      "end": 56.9,
+      "length": 0.567,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0C0E",
+            "share": 0.316
+          },
+          {
+            "hex": "#AA702E",
+            "share": 0.089
+          },
+          {
+            "hex": "#2E2A2B",
+            "share": 0.029
+          },
+          {
+            "hex": "#894F1A",
+            "share": 0.028
+          },
+          {
+            "hex": "#87776C",
+            "share": 0.026
+          }
+        ],
+        "motion_energy": 21.75,
+        "script": "awesome."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 27,
+      "start": 56.9,
+      "end": 58.367,
+      "length": 1.467,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0B0C",
+            "share": 0.679
+          },
+          {
+            "hex": "#B27147",
+            "share": 0.042
+          },
+          {
+            "hex": "#8C5535",
+            "share": 0.031
+          },
+          {
+            "hex": "#71492F",
+            "share": 0.031
+          },
+          {
+            "hex": "#503328",
+            "share": 0.024
+          }
+        ],
+        "motion_energy": 12.53,
+        "script": "Essentially, the big shift here is"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 28,
+      "start": 58.367,
+      "end": 63.8,
+      "length": 5.433,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0D",
+            "share": 0.31
+          },
+          {
+            "hex": "#FAE8E2",
+            "share": 0.182
+          },
+          {
+            "hex": "#F8E5DE",
+            "share": 0.124
+          },
+          {
+            "hex": "#EBD9D2",
+            "share": 0.089
+          },
+          {
+            "hex": "#E37359",
+            "share": 0.044
+          }
+        ],
+        "motion_energy": 14.05,
+        "script": "from asking AI to complete a task to now giving your dot ongoing responsibilities."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 29,
+      "start": 63.8,
+      "end": 68.467,
+      "length": 4.667,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0E0F",
+            "share": 0.463
+          },
+          {
+            "hex": "#302B2B",
+            "share": 0.063
+          },
+          {
+            "hex": "#EEEEED",
+            "share": 0.047
+          },
+          {
+            "hex": "#292219",
+            "share": 0.038
+          },
+          {
+            "hex": "#251B16",
+            "share": 0.035
+          }
+        ],
+        "motion_energy": 26.36,
+        "script": "And that shift from reactive to proactive will completely change how humans use AI."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 30,
+      "start": 68.467,
+      "end": 70.467,
+      "length": 2.0,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.71
+          },
+          {
+            "hex": "#71492E",
+            "share": 0.029
+          },
+          {
+            "hex": "#B17248",
+            "share": 0.029
+          },
+          {
+            "hex": "#8B5635",
+            "share": 0.023
+          },
+          {
+            "hex": "#4F3428",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 7.86,
+        "script": "Now, the biggest reason why dots are so compelling is"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 31,
+      "start": 70.467,
+      "end": 73.2,
+      "length": 2.733,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0B0D",
+            "share": 0.391
+          },
+          {
+            "hex": "#2E292D",
+            "share": 0.072
+          },
+          {
+            "hex": "#261916",
+            "share": 0.067
+          },
+          {
+            "hex": "#6A5850",
+            "share": 0.041
+          },
+          {
+            "hex": "#4B382C",
+            "share": 0.041
+          }
+        ],
+        "motion_energy": 7.42,
+        "script": "because they're powered by GPT -6 Astra."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 32,
+      "start": 73.2,
+      "end": 74.8,
+      "length": 1.6,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0B0C",
+            "share": 0.385
+          },
+          {
+            "hex": "#CBCCCF",
+            "share": 0.108
+          },
+          {
+            "hex": "#B3B1B4",
+            "share": 0.043
+          },
+          {
+            "hex": "#CCC857",
+            "share": 0.036
+          },
+          {
+            "hex": "#B3B055",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 14.31,
+        "script": "Essentially, their agent brain is genius"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 33,
+      "start": 74.8,
+      "end": 77.6,
+      "length": 2.8,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FAFAFA",
+            "share": 0.481
+          },
+          {
+            "hex": "#0D0B0D",
+            "share": 0.311
+          },
+          {
+            "hex": "#88766B",
+            "share": 0.022
+          },
+          {
+            "hex": "#302B2C",
+            "share": 0.02
+          },
+          {
+            "hex": "#161927",
+            "share": 0.017
+          }
+        ],
+        "motion_energy": 10.27,
+        "script": "level using one of the best models in the world, which"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 34,
+      "start": 77.6,
+      "end": 81.067,
+      "length": 3.467,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0C0E",
+            "share": 0.313
+          },
+          {
+            "hex": "#EDF3FB",
+            "share": 0.164
+          },
+          {
+            "hex": "#2A2D31",
+            "share": 0.068
+          },
+          {
+            "hex": "#192931",
+            "share": 0.061
+          },
+          {
+            "hex": "#4B4E53",
+            "share": 0.038
+          }
+        ],
+        "motion_energy": 16.74,
+        "script": "means its capacity to do things is extremely advanced. For"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 35,
+      "start": 81.067,
+      "end": 84.8,
+      "length": 3.733,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F3F3F3",
+            "share": 0.354
+          },
+          {
+            "hex": "#0D0B0D",
+            "share": 0.304
+          },
+          {
+            "hex": "#D1D1D1",
+            "share": 0.049
+          },
+          {
+            "hex": "#B0B0B0",
+            "share": 0.042
+          },
+          {
+            "hex": "#0D3272",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 16.91,
+        "script": "example, I gave my dot the responsibility to become my chief of staff. Every"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 36,
+      "start": 84.8,
+      "end": 86.067,
+      "length": 1.267,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.716
+          },
+          {
+            "hex": "#B27247",
+            "share": 0.031
+          },
+          {
+            "hex": "#724A2F",
+            "share": 0.029
+          },
+          {
+            "hex": "#8B5635",
+            "share": 0.027
+          },
+          {
+            "hex": "#4F3227",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 11.1,
+        "script": "morning when I first wake up, I"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 37,
+      "start": 86.067,
+      "end": 90.0,
+      "length": 3.933,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#919191",
+            "share": 0.429
+          },
+          {
+            "hex": "#06122A",
+            "share": 0.254
+          },
+          {
+            "hex": "#030B1C",
+            "share": 0.097
+          },
+          {
+            "hex": "#A4A4A4",
+            "share": 0.066
+          },
+          {
+            "hex": "#ECEEF0",
+            "share": 0.043
+          }
+        ],
+        "motion_energy": 18.38,
+        "script": "want to see that my emails, slack messages, and customer support requests have been"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 38,
+      "start": 90.0,
+      "end": 91.533,
+      "length": 1.533,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0B",
+            "share": 0.689
+          },
+          {
+            "hex": "#B17247",
+            "share": 0.042
+          },
+          {
+            "hex": "#8B5635",
+            "share": 0.029
+          },
+          {
+            "hex": "#714A2F",
+            "share": 0.028
+          },
+          {
+            "hex": "#2B262A",
+            "share": 0.019
+          }
+        ],
+        "motion_energy": 11.59,
+        "script": "triaged and answered and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 39,
+      "start": 91.533,
+      "end": 95.9,
+      "length": 4.367,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F3F3F3",
+            "share": 0.35
+          },
+          {
+            "hex": "#0D0B0D",
+            "share": 0.318
+          },
+          {
+            "hex": "#D0D0D0",
+            "share": 0.112
+          },
+          {
+            "hex": "#B7B7B7",
+            "share": 0.036
+          },
+          {
+            "hex": "#88766C",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 15.43,
+        "script": "that I can see the most critical items that need my attention in one single dashboard."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 40,
+      "start": 95.9,
+      "end": 101.9,
+      "length": 6.0,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0B0D",
+            "share": 0.29
+          },
+          {
+            "hex": "#F6F6F6",
+            "share": 0.188
+          },
+          {
+            "hex": "#0A152C",
+            "share": 0.167
+          },
+          {
+            "hex": "#CFCFD0",
+            "share": 0.044
+          },
+          {
+            "hex": "#142B4E",
+            "share": 0.04
+          }
+        ],
+        "motion_energy": 27.48,
+        "script": "To do this, I just described with voice to my dot how I wanted it to run this admin operating system."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 41,
+      "start": 101.9,
+      "end": 108.367,
+      "length": 6.467,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0E11",
+            "share": 0.636
+          },
+          {
+            "hex": "#0E1525",
+            "share": 0.094
+          },
+          {
+            "hex": "#2A2C31",
+            "share": 0.045
+          },
+          {
+            "hex": "#1A3051",
+            "share": 0.027
+          },
+          {
+            "hex": "#88766B",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 17.45,
+        "script": "And I can't believe it, but this actually works insanely well and it's already saving me multiple hours per day. The long -term ongoing proactive"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 42,
+      "start": 108.367,
+      "end": 110.667,
+      "length": 2.3,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0C0D",
+            "share": 0.383
+          },
+          {
+            "hex": "#8A6A07",
+            "share": 0.069
+          },
+          {
+            "hex": "#302B2C",
+            "share": 0.024
+          },
+          {
+            "hex": "#88766B",
+            "share": 0.024
+          },
+          {
+            "hex": "#895807",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 18.41,
+        "script": "monitoring from dots paired with the"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 43,
+      "start": 110.667,
+      "end": 112.833,
+      "length": 2.166,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FAFAFA",
+            "share": 0.484
+          },
+          {
+            "hex": "#0E0B0E",
+            "share": 0.289
+          },
+          {
+            "hex": "#2F2A2B",
+            "share": 0.026
+          },
+          {
+            "hex": "#88766B",
+            "share": 0.022
+          },
+          {
+            "hex": "#161927",
+            "share": 0.019
+          }
+        ],
+        "motion_energy": 7.06,
+        "script": "power of GPT -6 Astra is"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 44,
+      "start": 112.833,
+      "end": 113.933,
+      "length": 1.1,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0B090A",
+            "share": 0.41
+          },
+          {
+            "hex": "#E8E5E3",
+            "share": 0.172
+          },
+          {
+            "hex": "#312D2E",
+            "share": 0.045
+          },
+          {
+            "hex": "#E1DDDC",
+            "share": 0.045
+          },
+          {
+            "hex": "#588EED",
+            "share": 0.03
+          }
+        ],
+        "motion_energy": 7.44,
+        "script": "the combination that"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 45,
+      "start": 113.933,
+      "end": 116.5,
+      "length": 2.567,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FAFAFA",
+            "share": 0.48
+          },
+          {
+            "hex": "#0D0B0D",
+            "share": 0.296
+          },
+          {
+            "hex": "#88766B",
+            "share": 0.022
+          },
+          {
+            "hex": "#302A2A",
+            "share": 0.021
+          },
+          {
+            "hex": "#171927",
+            "share": 0.017
+          }
+        ],
+        "motion_energy": 6.23,
+        "script": "makes this task so seamless and easy."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 46,
+      "start": 116.5,
+      "end": 118.3,
+      "length": 1.8,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0A0809",
+            "share": 0.463
+          },
+          {
+            "hex": "#CCCFCC",
+            "share": 0.055
+          },
+          {
+            "hex": "#292A27",
+            "share": 0.053
+          },
+          {
+            "hex": "#492710",
+            "share": 0.036
+          },
+          {
+            "hex": "#2A1A12",
+            "share": 0.029
+          }
+        ],
+        "motion_energy": 11.12,
+        "script": "This is the way most people envisioned"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 47,
+      "start": 118.3,
+      "end": 119.467,
+      "length": 1.167,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0E",
+            "share": 0.335
+          },
+          {
+            "hex": "#96682A",
+            "share": 0.108
+          },
+          {
+            "hex": "#A57133",
+            "share": 0.055
+          },
+          {
+            "hex": "#2E2519",
+            "share": 0.051
+          },
+          {
+            "hex": "#8C5727",
+            "share": 0.051
+          }
+        ],
+        "motion_energy": 5.9,
+        "script": "working with AI and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 48,
+      "start": 119.467,
+      "end": 120.8,
+      "length": 1.333,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.712
+          },
+          {
+            "hex": "#251B18",
+            "share": 0.031
+          },
+          {
+            "hex": "#724A2E",
+            "share": 0.025
+          },
+          {
+            "hex": "#8C5634",
+            "share": 0.023
+          },
+          {
+            "hex": "#2B231B",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 9.0,
+        "script": "it's available now."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 49,
+      "start": 120.8,
+      "end": 122.133,
+      "length": 1.333,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F9F9F9",
+            "share": 0.355
+          },
+          {
+            "hex": "#0C0A0D",
+            "share": 0.339
+          },
+          {
+            "hex": "#ADADAD",
+            "share": 0.035
+          },
+          {
+            "hex": "#2F2C2C",
+            "share": 0.03
+          },
+          {
+            "hex": "#939394",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 19.79,
+        "script": "Comment dots and I'll send you more information"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 50,
+      "start": 122.133,
+      "end": 123.9,
+      "length": 1.767,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#919191",
+            "share": 0.371
+          },
+          {
+            "hex": "#0D0B0D",
+            "share": 0.306
+          },
+          {
+            "hex": "#ECEEF0",
+            "share": 0.049
+          },
+          {
+            "hex": "#A5A5A5",
+            "share": 0.027
+          },
+          {
+            "hex": "#787574",
+            "share": 0.024
+          }
+        ],
+        "motion_energy": 9.71,
+        "script": "on exactly how to get this set up so"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 51,
+      "start": 123.9,
+      "end": 126.407,
+      "length": 2.507,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0B0A0B",
+            "share": 0.66
+          },
+          {
+            "hex": "#302B2A",
+            "share": 0.066
+          },
+          {
+            "hex": "#88756C",
+            "share": 0.025
+          },
+          {
+            "hex": "#161927",
+            "share": 0.02
+          },
+          {
+            "hex": "#48372E",
+            "share": 0.019
+          }
+        ],
+        "motion_energy": 17.76,
+        "script": "that you can take advantage of the next wave in AI."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

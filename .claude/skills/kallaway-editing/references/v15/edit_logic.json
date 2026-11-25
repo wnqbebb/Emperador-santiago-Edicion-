@@ -1,0 +1,1187 @@
+{
+ "triggers": [
+  {
+   "t_word": 1.22,
+   "word": "$7",
+   "element": "1,29 s página completa con cabecera; 1,54 s zoom ×3 al titular con resaltado amarillo sobre «$7 million» y leve desplazamiento.",
+   "category": "split_headline",
+   "offset_s": 0.07,
+   "why": "Prueba de autoridad en el segundo 1: la cifra dicha coincide con la cifra resaltada en un medio conocido.",
+   "scene": "v15_s02",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 1.66,
+   "word": "million",
+   "element": "Zoom al titular con «$7 million» resaltado en amarillo",
+   "category": "split_headline",
+   "offset_s": 0.0,
+   "why": "dato: la cifra dicha se resalta en la fuente",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 2.6,
+   "word": "of",
+   "element": "2 clips por corte (2,42 / 3,25 s); la franja negra permanece hasta 4,13 s.",
+   "category": "split_broll",
+   "offset_s": -0.18,
+   "why": "Variedad visual rápida del directo para sostener el gancho.",
+   "scene": "v15_s03",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 3.4,
+   "word": "their",
+   "element": "Corte interno: presentadores con micrófono",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "ritmo de gancho",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 4.16,
+   "word": "But",
+   "element": "Pantalla completa de su cara; «crazy» en serif itálica.",
+   "category": "face_full_word",
+   "offset_s": -0.03,
+   "why": "Giro del gancho: anuncia la sorpresa.",
+   "scene": "v15_s04",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 4.52,
+   "word": "crazy",
+   "element": "«crazy» en serif itálica",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "énfasis tipográfico",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 5.1,
+   "word": "neither",
+   "element": "Clip del directo con gráficos de precio propios.",
+   "category": "split_broll",
+   "offset_s": -0.05,
+   "why": "Vuelve a mostrar a los dos sujetos justo al negarlos.",
+   "scene": "v15_s05",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 5.74,
+   "word": "are",
+   "element": "Plano de producto: teléfono en mano con el directo en pantalla, leve movimiento.",
+   "category": "split_broll",
+   "offset_s": 0.14,
+   "why": "«no son personas reales» → los encierra en una pantalla: son software.",
+   "scene": "v15_s06",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 7.02,
+   "word": "These",
+   "element": "Pantalla completa de su cara, 5 palabras grandes blancas.",
+   "category": "face_full_word",
+   "offset_s": -0.01,
+   "why": "Revelación dicha palabra a palabra.",
+   "scene": "v15_s07",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 8.74,
+   "word": "stream",
+   "element": "Clip del directo.",
+   "category": "split_broll",
+   "offset_s": -0.11,
+   "why": "Puente hacia el dato.",
+   "scene": "v15_s08",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 9.3,
+   "word": "13",
+   "element": "Contador centrado (ícono de usuario + número en sans bold blanca ~75 px) que sube cada 1–2 fotogramas hasta «13M» en ~1,1 s.",
+   "category": "split_graphic",
+   "offset_s": 0.21,
+   "why": "Dato de audiencia → número que crece: la magnitud se siente.",
+   "scene": "v15_s09",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 11.0,
+   "word": "six",
+   "element": "Rótulo de 2 líneas que entra por slide desde la derecha (10,95–11,3 s) y ocupa ~90 % del ancho.",
+   "category": "split_graphic",
+   "offset_s": -0.11,
+   "why": "Segundo dato → segundo rótulo, con distinta animación que el contador.",
+   "scene": "v15_s10",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 11.8,
+   "word": "And",
+   "element": "Pantalla completa de su cara; «this» en serif itálica.",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "Señala lo importante antes de la frase-tesis.",
+   "scene": "v15_s11",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 12.68,
+   "word": "the",
+   "element": "Clip del directo.",
+   "category": "split_broll",
+   "offset_s": -0.08,
+   "why": "Mantiene a los sujetos mientras llega el remate.",
+   "scene": "v15_s12",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 13.94,
+   "word": "printing",
+   "element": "Texto «$$$» con relieve, parpadeo/flicker los primeros fotogramas; 2 clips de imprenta por corte (14,06 y 14,60 s).",
+   "category": "split_graphic",
+   "offset_s": -0.13,
+   "why": "«imprimir dinero» literal: máquina de imprimir + símbolos de dólar.",
+   "scene": "v15_s13",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 14.46,
+   "word": "money.",
+   "element": "Corte interno a pliegos de billetes verdes",
+   "category": "split_graphic",
+   "offset_s": 0.0,
+   "why": "literal: «money»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 15.06,
+   "word": "Listen",
+   "element": "Pantalla completa de su cara, 3 palabras.",
+   "category": "face_full_word",
+   "offset_s": -0.09,
+   "why": "Orden directa al espectador: re-engancha antes de la explicación.",
+   "scene": "v15_s14",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 15.64,
+   "word": "So",
+   "element": "Captura de pantalla del móvil a sangre; flecha blanca diagonal ~150 px que entra con pop en 15,64 s.",
+   "category": "pip_broll",
+   "offset_s": 0.0,
+   "why": "«el de la derecha» → flecha literal; el PiP le permite señalar sin perder su cara.",
+   "scene": "v15_s15",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 16.38,
+   "word": "is",
+   "element": "Foto/clip vertical con rótulo de nombre de 2 líneas que entra por slide; subtítulo sobre el cartel.",
+   "category": "pip_broll",
+   "offset_s": 0.09,
+   "why": "Presenta al personaje con nombre en pantalla (difícil de entender de oído).",
+   "scene": "v15_s16",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 17.1,
+   "word": "Yonghao.",
+   "element": "Rótulo «LUO YONGHAO» arriba a la derecha",
+   "category": "pip_broll",
+   "offset_s": 0.0,
+   "why": "nombre propio → rótulo",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 17.82,
+   "word": "He's",
+   "element": "Clip de directo antiguo (humano).",
+   "category": "split_broll",
+   "offset_s": -0.05,
+   "why": "Contexto del personaje.",
+   "scene": "v15_s17",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 19.26,
+   "word": "live",
+   "element": "Clip de directo de venta con gráficos de precio.",
+   "category": "split_broll",
+   "offset_s": -0.12,
+   "why": "«venta social en directo» → precio gigante.",
+   "scene": "v15_s18",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 20.54,
+   "word": "But",
+   "element": "Clip del directo de IA.",
+   "category": "split_broll",
+   "offset_s": 0.02,
+   "why": "Vuelve al directo protagonista.",
+   "scene": "v15_s19",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 21.44,
+   "word": "he",
+   "element": "Pantalla completa de su cara; «completely» en serif itálica.",
+   "category": "face_full_word",
+   "offset_s": 0.04,
+   "why": "Giro narrativo.",
+   "scene": "v15_s20",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 22.98,
+   "word": "He",
+   "element": "Clip de archivo.",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "Ilustra «trabajó con».",
+   "scene": "v15_s21",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 23.98,
+   "word": "Baidu",
+   "element": "Logo que aparece con fundido (~4 fotogramas) sobre el clip.",
+   "category": "split_graphic",
+   "offset_s": 0.25,
+   "why": "Nombre de empresa → logo, 0,5 s.",
+   "scene": "v15_s22",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 24.82,
+   "word": "build",
+   "element": "Pantalla completa de su cara, 5 palabras.",
+   "category": "face_full_word",
+   "offset_s": -0.05,
+   "why": "Enuncia el hecho central.",
+   "scene": "v15_s23",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 26.5,
+   "word": "You",
+   "element": "3 encuadres de la misma grabación por corte (26,48 / 27,53 / 29,20 s), cada uno con una flecha blanca gruesa recolocada sobre la parte del cuerpo nombrada.",
+   "category": "full_graphic",
+   "offset_s": -0.02,
+   "why": "Dirige la mirada al detalle exacto que nombra (dedos, mesa, brazo): la flecha hace de puntero.",
+   "scene": "v15_s24",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 27.56,
+   "word": "how",
+   "element": "Primer plano de las manos con flecha",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "literal: «his fingers on the desk»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 29.3,
+   "word": "moving",
+   "element": "Plano general con flecha al brazo",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "literal: «moving his arm»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 30.16,
+   "word": "Baidu's",
+   "element": "Pantalla completa de su cara.",
+   "category": "aroll_plain",
+   "offset_s": -0.09,
+   "why": "Explicación técnica a cámara antes del gráfico.",
+   "scene": "v15_s25",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 31.98,
+   "word": ",000",
+   "element": "3 tiras de ~650×330 px apiladas; aparecen en 31,82 / ~32,4 / ~32,95 s, cada una con su palabra centrada (~70 px, itálica con glow).",
+   "category": "full_graphic",
+   "offset_s": -0.16,
+   "why": "«8.000 gestos distintos» → tres ejemplos de gestos, la frase repartida en tres imágenes.",
+   "scene": "v15_s26",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 32.52,
+   "word": "different",
+   "element": "Segundo mosaico «different»",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "una palabra = un mosaico",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 32.86,
+   "word": "gestures.",
+   "element": "Tercer mosaico «gestures»",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "una palabra = un mosaico",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 33.6,
+   "word": "Kind",
+   "element": "Pantalla completa de su cara; rótulo mediano (~60 px) en y≈860–890 px.",
+   "category": "face_full_word",
+   "offset_s": 0.02,
+   "why": "Analogía bautizada («base de datos de movimientos») con sans+serif.",
+   "scene": "v15_s27",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 34.12,
+   "word": "movement",
+   "element": "Rótulo «Movement / database»",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "analogía bautizada",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 35.3,
+   "word": "his",
+   "element": "Clip de archivo de TV.",
+   "category": "split_broll",
+   "offset_s": -0.1,
+   "why": "Ejemplo de sus gestos reales (fuente de la base de datos).",
+   "scene": "v15_s28",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 36.64,
+   "word": "seem",
+   "element": "Clip de archivo.",
+   "category": "split_broll",
+   "offset_s": -0.06,
+   "why": "Más variedad de gestos.",
+   "scene": "v15_s29",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 37.92,
+   "word": "the",
+   "element": "Clip del directo de IA, 0,6 s.",
+   "category": "split_broll",
+   "offset_s": -0.13,
+   "why": "Cierra la idea volviendo al resultado.",
+   "scene": "v15_s30",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 38.42,
+   "word": "They",
+   "element": "Pantalla completa de su cara.",
+   "category": "aroll_plain",
+   "offset_s": -0.01,
+   "why": "Introduce el segundo dato técnico.",
+   "scene": "v15_s31",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 39.72,
+   "word": "13",
+   "element": "Un logo centrado cada ~0,35–0,45 s por corte, sobre blanco puro.",
+   "category": "split_graphic",
+   "offset_s": 0.15,
+   "why": "«13.000 descripciones de producto» → ráfaga de marcas = volumen.",
+   "scene": "v15_s32",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 42.0,
+   "word": "And",
+   "element": "Pantalla completa de su cara.",
+   "category": "aroll_plain",
+   "offset_s": 0.0,
+   "why": "Conector.",
+   "scene": "v15_s33",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 42.64,
+   "word": "Luo",
+   "element": "2 clips por corte.",
+   "category": "split_broll",
+   "offset_s": 0.11,
+   "why": "«conversación completa» → ellos hablando entre sí.",
+   "scene": "v15_s34",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 44.42,
+   "word": "AI",
+   "element": "Corte interno a presentadores con snack",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "ritmo",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 45.72,
+   "word": "perfect",
+   "element": "Pantalla completa de su cara; «accuracy» en dorado.",
+   "category": "face_full_word",
+   "offset_s": -0.13,
+   "why": "Beneficio clave en dorado.",
+   "scene": "v15_s35",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 46.62,
+   "word": "accuracy,",
+   "element": "«accuracy» en dorado",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "énfasis de beneficio",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 47.38,
+   "word": "price,",
+   "element": "4 clips por corte cada 0,55–0,67 s.",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "Enumeración: precio → etiqueta de precio; características → producto en uso; ofertas → coche.",
+   "scene": "v15_s36",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 48.12,
+   "word": "features,",
+   "element": "Clip de aparato con luz UV",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "literal: «features»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 48.72,
+   "word": "deals,",
+   "element": "Clip con todoterreno azul",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "«deals» → producto caro en oferta",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 49.32,
+   "word": "all",
+   "element": "Clip con coches en el desierto",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "«all of it»",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 49.82,
+   "word": "He",
+   "element": "Pantalla completa de su cara.",
+   "category": "aroll_plain",
+   "offset_s": 0.02,
+   "why": "Conector con asombro.",
+   "scene": "v15_s37",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 50.38,
+   "word": "live",
+   "element": "Captura de móvil a sangre; los comentarios se desplazan.",
+   "category": "pip_broll",
+   "offset_s": 0.13,
+   "why": "«preguntas en vivo del público» → el chat real.",
+   "scene": "v15_s38",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 52.66,
+   "word": "all",
+   "element": "Misma grabación ampliada a los comentarios, con scroll.",
+   "category": "split_screenrec",
+   "offset_s": 0.06,
+   "why": "Acerca la prueba: se leen (en chino) los mensajes.",
+   "scene": "v15_s39",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 54.46,
+   "word": "But",
+   "element": "Pantalla completa de su cara; «part…» en dorado con puntos suspensivos.",
+   "category": "face_full_word",
+   "offset_s": 0.01,
+   "why": "Re-gancho antes del dato estrella (min 0:54).",
+   "scene": "v15_s40",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 56.26,
+   "word": "$7",
+   "element": "Dos líneas que entran por slide desde lados opuestos («$7.6M» desde la derecha, «REVENUE» desde la izquierda) en ~0,7 s (56,2–56,9 s) y quedan fijas.",
+   "category": "split_graphic",
+   "offset_s": -0.12,
+   "why": "Dato estrella → el rótulo más grande del video.",
+   "scene": "v15_s41",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 58.82,
+   "word": "just",
+   "element": "Pantalla completa de su cara; «6» ~170 px y «hours» ~80 px en itálica, en la misma línea.",
+   "category": "face_full_word",
+   "offset_s": -0.09,
+   "why": "Remata el dato con el tiempo: contraste cifra enorme / poco tiempo.",
+   "scene": "v15_s42",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 59.0,
+   "word": "six",
+   "element": "«6 hours» en serif itálica",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "dato de tiempo",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 59.78,
+   "word": "That's",
+   "element": "3 clips por corte cada ~0,9 s.",
+   "category": "split_broll",
+   "offset_s": 0.03,
+   "why": "Comparación con sus directos humanos → clips de directos antiguos.",
+   "scene": "v15_s43",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 60.74,
+   "word": "most",
+   "element": "Corte interno a directo con copresentadora",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "«human streams» → directo humano",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 61.56,
+   "word": "human",
+   "element": "Corte interno a todoterreno azul",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "ritmo",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 62.48,
+   "word": "And",
+   "element": "Pantalla completa de su cara.",
+   "category": "aroll_plain",
+   "offset_s": 0.0,
+   "why": "Anuncia la conclusión.",
+   "scene": "v15_s44",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 63.48,
+   "word": "This",
+   "element": "3 clips por corte.",
+   "category": "split_broll",
+   "offset_s": -0.08,
+   "why": "Tesis sobre imágenes ya conocidas.",
+   "scene": "v15_s45",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 64.62,
+   "word": "live",
+   "element": "Corte interno a presentador solo",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "ritmo",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 65.6,
+   "word": "AI",
+   "element": "Pantalla completa de su cara; las dos últimas en itálica dorada.",
+   "category": "face_full_word",
+   "offset_s": -0.03,
+   "why": "Nombre de la tendencia en 4 palabras, con doble énfasis (fuente + color).",
+   "scene": "v15_s46",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 66.34,
+   "word": "driven",
+   "element": "«driven», «selling» en serif itálica dorada",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "nombre de tendencia",
+   "evidence": "observed (tira de fotogramas)"
+  },
+  {
+   "t_word": 67.44,
+   "word": "And",
+   "element": "2 clips por corte.",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "Concede la objeción mostrando lo «tonto» que parece.",
+   "scene": "v15_s47",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 69.06,
+   "word": "but",
+   "element": "Pantalla completa de su cara; sin CTA de comentario.",
+   "category": "title_cta",
+   "offset_s": 0.01,
+   "why": "Cierre de oportunidad: «right here» en dorado + gesto hacia abajo (apunta a la descripción/comentarios, inferred).",
+   "scene": "v15_s48",
+   "evidence": "derived (corte medido con ffmpeg scene-detect vs. tiempo de palabra de evidence.json)"
+  },
+  {
+   "t_word": 70.62,
+   "word": "right",
+   "element": "«right», «here» en dorado",
+   "category": "title_cta",
+   "offset_s": 0.0,
+   "why": "énfasis de cierre",
+   "evidence": "observed (tira de fotogramas)"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 1.29,
+   "from": "v15_s01 (hook_banner)",
+   "to": "v15_s02 (split_headline)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 1.54,
+   "from": "v15_s02 página completa",
+   "to": "v15_s02 zoom titular",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "corte interno a zoom con resaltado amarillo ya puesto (no se anima el resaltado)"
+  },
+  {
+   "t": 2.42,
+   "from": "v15_s02 (split_headline)",
+   "to": "v15_s03 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 4.13,
+   "from": "v15_s03 (split_broll)",
+   "to": "v15_s04 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 5.05,
+   "from": "v15_s04 (face_full_word)",
+   "to": "v15_s05 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 5.88,
+   "from": "v15_s05 (split_broll)",
+   "to": "v15_s06 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 7.01,
+   "from": "v15_s06 (split_broll)",
+   "to": "v15_s07 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 8.63,
+   "from": "v15_s07 (face_full_word)",
+   "to": "v15_s08 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 9.51,
+   "from": "v15_s08 (split_broll)",
+   "to": "v15_s09 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 10.89,
+   "from": "v15_s09 (split_graphic)",
+   "to": "v15_s10 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 11.8,
+   "from": "v15_s10 (split_graphic)",
+   "to": "v15_s11 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 12.6,
+   "from": "v15_s11 (face_full_word)",
+   "to": "v15_s12 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 13.81,
+   "from": "v15_s12 (split_broll)",
+   "to": "v15_s13 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 14.97,
+   "from": "v15_s13 (split_graphic)",
+   "to": "v15_s14 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 15.64,
+   "from": "v15_s14 (face_full_word)",
+   "to": "v15_s15 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 16.47,
+   "from": "v15_s15 (pip_broll)",
+   "to": "v15_s16 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 17.77,
+   "from": "v15_s16 (pip_broll)",
+   "to": "v15_s17 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 19.14,
+   "from": "v15_s17 (split_broll)",
+   "to": "v15_s18 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 20.56,
+   "from": "v15_s18 (split_broll)",
+   "to": "v15_s19 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 21.48,
+   "from": "v15_s19 (split_broll)",
+   "to": "v15_s20 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 22.98,
+   "from": "v15_s20 (face_full_word)",
+   "to": "v15_s21 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 24.23,
+   "from": "v15_s21 (split_broll)",
+   "to": "v15_s22 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 24.77,
+   "from": "v15_s22 (split_graphic)",
+   "to": "v15_s23 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 26.48,
+   "from": "v15_s23 (face_full_word)",
+   "to": "v15_s24 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 27.53,
+   "from": "v15_s24 plano general",
+   "to": "v15_s24 primer plano manos",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "corte interno; la flecha cambia de sitio"
+  },
+  {
+   "t": 29.2,
+   "from": "v15_s24 primer plano",
+   "to": "v15_s24 plano general",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "corte interno"
+  },
+  {
+   "t": 30.07,
+   "from": "v15_s24 (full_graphic)",
+   "to": "v15_s25 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 31.82,
+   "from": "v15_s25 (aroll_plain)",
+   "to": "v15_s26 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 33.62,
+   "from": "v15_s26 (full_graphic)",
+   "to": "v15_s27 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 35.2,
+   "from": "v15_s27 (face_full_word)",
+   "to": "v15_s28 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 36.58,
+   "from": "v15_s28 (split_broll)",
+   "to": "v15_s29 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 37.79,
+   "from": "v15_s29 (split_broll)",
+   "to": "v15_s30 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 38.41,
+   "from": "v15_s30 (split_broll)",
+   "to": "v15_s31 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 39.87,
+   "from": "v15_s31 (aroll_plain)",
+   "to": "v15_s32 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 42.0,
+   "from": "v15_s32 (split_graphic)",
+   "to": "v15_s33 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 42.75,
+   "from": "v15_s33 (aroll_plain)",
+   "to": "v15_s34 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 45.59,
+   "from": "v15_s34 (split_broll)",
+   "to": "v15_s35 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 47.38,
+   "from": "v15_s35 (face_full_word)",
+   "to": "v15_s36 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 49.84,
+   "from": "v15_s36 (split_broll)",
+   "to": "v15_s37 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 50.51,
+   "from": "v15_s37 (aroll_plain)",
+   "to": "v15_s38 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 52.72,
+   "from": "v15_s38 (pip_broll)",
+   "to": "v15_s39 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 54.47,
+   "from": "v15_s39 (split_screenrec)",
+   "to": "v15_s40 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 56.14,
+   "from": "v15_s40 (face_full_word)",
+   "to": "v15_s41 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 58.73,
+   "from": "v15_s41 (split_graphic)",
+   "to": "v15_s42 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 59.81,
+   "from": "v15_s42 (face_full_word)",
+   "to": "v15_s43 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 62.48,
+   "from": "v15_s43 (split_broll)",
+   "to": "v15_s44 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 63.4,
+   "from": "v15_s44 (aroll_plain)",
+   "to": "v15_s45 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 65.57,
+   "from": "v15_s45 (split_broll)",
+   "to": "v15_s46 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 67.44,
+   "from": "v15_s46 (face_full_word)",
+   "to": "v15_s47 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  },
+  {
+   "t": 69.07,
+   "from": "v15_s47 (split_broll)",
+   "to": "v15_s48 (title_cta)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "cambio en un solo fotograma, sin fundido; el subtítulo cambia de estilo/posición en el mismo fotograma"
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.1,
+   "fx": "máscara",
+   "detail": "franja NEGRA del gancho entra por slide desde la derecha 0,1→1,0 s; fija hasta 4,13 s"
+  },
+  {
+   "t": 1.54,
+   "fx": "máscara",
+   "detail": "resaltado amarillo estático sobre «$7 million» en el titular"
+  },
+  {
+   "t": 4.52,
+   "fx": "pop",
+   "detail": "palabra grande en serif itálica («crazy» 4,52; «this» 11,88; «completely» 22,02) entra por corte"
+  },
+  {
+   "t": 9.51,
+   "fx": "escala",
+   "detail": "contador «5M→13M» con ícono de persona, sube en ~1,1 s"
+  },
+  {
+   "t": 10.95,
+   "fx": "tracking",
+   "detail": "«6HRS / STRAIGHT» entra por slide desde la derecha con blur de movimiento, ~0,4 s"
+  },
+  {
+   "t": 13.81,
+   "fx": "pop",
+   "detail": "«$$$» 3D con parpadeo (aparece/desaparece 2 veces en los primeros 6 fotogramas)"
+  },
+  {
+   "t": 15.64,
+   "fx": "pop",
+   "detail": "flecha blanca gruesa apuntando al presentador derecho; subtítulo en caja oscura"
+  },
+  {
+   "t": 17.0,
+   "fx": "tracking",
+   "detail": "rótulo «LUO YONGHAO» (sans extendida blanca) entra arriba-derecha"
+  },
+  {
+   "t": 31.82,
+   "fx": "pop",
+   "detail": "3 mosaicos con palabra serif itálica («8,000» / «different» / «gestures») uno tras otro"
+  },
+  {
+   "t": 34.0,
+   "fx": "pop",
+   "detail": "rótulo «Movement» (sans) + «database» (serif itálica), ~1,2 s"
+  },
+  {
+   "t": 56.2,
+   "fx": "tracking",
+   "detail": "«$7.6M» entra desde la derecha y «REVENUE» desde la izquierda, se cruzan y asientan en ~0,7 s; degradado turquesa→blanco"
+  },
+  {
+   "t": 59.0,
+   "fx": "escala",
+   "detail": "«6» (~170 px) + «hours» (~80 px) en serif itálica blanca; 0,8 s"
+  },
+  {
+   "t": 66.34,
+   "fx": "pop",
+   "detail": "«driven», «selling» en serif itálica dorada con glow dorado"
+  },
+  {
+   "t": 70.62,
+   "fx": "pop",
+   "detail": "«right», «here» en sans dorada"
+  }
+ ],
+ "camera": [
+  {
+   "t": 1.54,
+   "move": "punch-in",
+   "scale_or_dir": "página → titular ≈×3 (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 4.13,
+   "move": "punch-in",
+   "scale_or_dir": "split → cara completa (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 27.53,
+   "move": "punch-in",
+   "scale_or_dir": "general → manos ≈×2 (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 52.72,
+   "move": "punch-in",
+   "scale_or_dir": "directo completo → comentarios ≈×1,8 (por corte)",
+   "dur_s": 0.0
+  }
+ ],
+ "rhythm": {
+  "events_per_10s": [
+   12,
+   11,
+   10,
+   11,
+   10,
+   7,
+   9,
+   1
+  ],
+  "avg_hold_text_s": 0.55,
+  "notes": "48 escenas en 71,6 s (1,49 s/escena); 67 cortes detectados (1 cada 1,07 s): el más rápido de los cuatro. La mitad superior cambia cada ~1,0 s. 11 bloques de palabra grande en 71 s (1 cada ~6,5 s): casi cada frase importante vuelve a la cara. Sonido: no analizado; desconocido."
+ },
+ "typography": "3 familias: (1) subtítulo sans bold blanca ~30 px, 1–3 palabras; (2) palabra grande sans bold ~110 px blanca con glow, clave en dorado ~#E0B24A («accuracy», «part…», «right here»); (3) serif itálica didona para énfasis («crazy», «this», «completely», «8,000 different gestures», «database», «6 hours», «driven selling»). Rótulos de dato y franja en sans EXTENDIDA ultra-bold mayúsculas («6HRS STRAIGHT», «$7.6M REVENUE», «LUO YONGHAO»), con degradado turquesa. Franja del gancho negra con amarillo.",
+ "textures": "Sin grano ni papel. Rojo saturado del directo chino como color dominante de toda la mitad superior; clips oscurecidos bajo rótulos; marcos redondeados sobre negro en las escenas de pantalla completa.",
+ "distinct": [
+  "Franja del gancho NEGRA con cifra amarilla (no roja) que dura 4,1 s y sobrevive a 4 cambios de evidencia.",
+  "Flechas blancas dibujadas como puntero: sobre los dos presentadores (0 s), sobre «el de la derecha» (15,64 s) y sobre dedos/brazo (26,48–30,07 s).",
+  "Rótulos de dato animados sobre el clip: contador 5M→13M (9,51 s), «6HRS STRAIGHT» (10,89 s), «$7.6M REVENUE» cruzándose (56,14 s).",
+  "Tríptico vertical de mosaicos con una palabra serif por mosaico (31,82–33,62 s).",
+  "Altísima frecuencia de palabra grande (11 bloques en 71 s) y PiP usado dos veces sobre grabación vertical del directo (15,64 y 50,51 s)."
+ ],
+ "evidence_rule": "Tiempos de corte = observed (scene-detect de ffmpeg por mitad superior/inferior + tiras de 9 fotogramas por corte). offset_s = derived. why = inferred."
+}

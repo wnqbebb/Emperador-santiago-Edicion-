@@ -1,0 +1,255 @@
+1
+00:00:00,000 --> 00:00:01,740
+DoorDash just officially launched their
+
+2
+00:00:01,740 --> 00:00:03,640
+drone delivery program. It's called
+
+3
+00:00:03,640 --> 00:00:05,320
+DoorDash Air. And this is
+
+4
+00:00:05,320 --> 00:00:07,120
+gonna completely change how food
+
+5
+00:00:07,120 --> 00:00:08,679
+gets delivered in the future.
+
+6
+00:00:08,900 --> 00:00:10,300
+Customers can out place orders
+
+7
+00:00:10,300 --> 00:00:11,900
+that fly straight from the
+
+8
+00:00:11,900 --> 00:00:13,919
+restaurant and land directly in
+
+9
+00:00:13,919 --> 00:00:15,140
+your yard. These specially designed
+
+10
+00:00:15,140 --> 00:00:17,059
+drones are extremely quiet. And
+
+11
+00:00:17,059 --> 00:00:18,120
+you can actually watch the
+
+12
+00:00:18,120 --> 00:00:19,940
+drones route via a flyover
+
+13
+00:00:19,940 --> 00:00:21,899
+visualization as it delivers. Now
+
+14
+00:00:21,899 --> 00:00:22,640
+the big perk is that
+
+15
+00:00:22,640 --> 00:00:24,199
+these drones can fly right
+
+16
+00:00:24,199 --> 00:00:25,739
+over top of the traffic.
+
+17
+00:00:25,879 --> 00:00:27,160
+So on average, flight time
+
+18
+00:00:27,160 --> 00:00:28,739
+is just five minutes. The
+
+19
+00:00:28,739 --> 00:00:29,859
+service is just starting to
+
+20
+00:00:29,859 --> 00:00:31,179
+roll out in select markets
+
+21
+00:00:31,179 --> 00:00:32,859
+with partners like Chipotle and
+
+22
+00:00:32,859 --> 00:00:34,100
+Popeyes. But this is a
+
+23
+00:00:34,100 --> 00:00:35,439
+peek into the future of
+
+24
+00:00:35,439 --> 00:00:37,399
+cutting edge logistics and delivery.
+
+25
+00:00:37,619 --> 00:00:38,479
+Now, in addition to drones,
+
+26
+00:00:38,859 --> 00:00:40,320
+DoorDash also announced several new
+
+27
+00:00:40,320 --> 00:00:41,960
+AI features that makes ordering
+
+28
+00:00:41,960 --> 00:00:44,219
+way more personalized and dynamic.
+
+29
+00:00:44,539 --> 00:00:45,399
+The biggest one is called
+
+30
+00:00:45,399 --> 00:00:46,899
+Text DoorDash. And this allows
+
+31
+00:00:46,899 --> 00:00:47,640
+you to have a text
+
+32
+00:00:47,640 --> 00:00:49,619
+conversation directly with DoorDash to
+
+33
+00:00:49,619 --> 00:00:50,479
+order your food. You could
+
+34
+00:00:50,479 --> 00:00:51,500
+say something like, my mom's
+
+35
+00:00:51,500 --> 00:00:52,740
+in town this Saturday, she
+
+36
+00:00:52,740 --> 00:00:54,299
+loves pasta but doesn't like
+
+37
+00:00:54,299 --> 00:00:55,880
+seafood, order us dinner for
+
+38
+00:00:55,880 --> 00:00:57,399
+Saturday night. DoorDash now has
+
+39
+00:00:57,399 --> 00:00:59,420
+a personalized AI memory layer
+
+40
+00:00:59,420 --> 00:01:00,619
+that knows exactly where you
+
+41
+00:01:00,619 --> 00:01:01,780
+live and what you like
+
+42
+00:01:01,780 --> 00:01:03,320
+based on previous orders, as
+
+43
+00:01:03,320 --> 00:01:04,459
+well as all the restaurants
+
+44
+00:01:04,459 --> 00:01:05,799
+available to you in that
+
+45
+00:01:05,799 --> 00:01:07,200
+exact moment. It can automatically
+
+46
+00:01:07,200 --> 00:01:08,680
+find the best meal, list
+
+47
+00:01:08,680 --> 00:01:09,599
+it out for you and
+
+48
+00:01:09,599 --> 00:01:10,920
+then place the order instantly.
+
+49
+00:01:11,200 --> 00:01:12,120
+This same approach can also
+
+50
+00:01:12,120 --> 00:01:13,319
+be used for ordering groceries
+
+51
+00:01:13,319 --> 00:01:15,180
+and group dinners. Simple text
+
+52
+00:01:15,180 --> 00:01:17,079
+descriptions in, orders out, ready
+
+53
+00:01:17,079 --> 00:01:18,180
+to go in seconds. And
+
+54
+00:01:18,180 --> 00:01:19,060
+this all works because of
+
+55
+00:01:19,060 --> 00:01:20,780
+this new agentic ordering layer
+
+56
+00:01:20,780 --> 00:01:22,040
+they're rolling out now. All
+
+57
+00:01:22,040 --> 00:01:22,640
+of this and a bunch
+
+58
+00:01:22,640 --> 00:01:23,640
+of other cool updates were
+
+59
+00:01:23,640 --> 00:01:25,019
+just announced at their Dash
+
+60
+00:01:25,019 --> 00:01:26,400
+Forward event this week. And
+
+61
+00:01:26,400 --> 00:01:27,599
+with all this AI innovation
+
+62
+00:01:27,599 --> 00:01:29,459
+plus drones, I think DoorDash
+
+63
+00:01:29,459 --> 00:01:31,019
+is gonna pioneer the future
+
+64
+00:01:31,019 --> 00:01:31,859
+of delivery.

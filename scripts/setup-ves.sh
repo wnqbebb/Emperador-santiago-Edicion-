@@ -12,6 +12,8 @@ echo "  → Render de VES (Remotion propio) para el laboratorio y para la skill 
 ARTHUR=.claude/skills/arthur-brooks-editing/system
 [ -L "$ARTHUR/render/node_modules" ] && rm "$ARTHUR/render/node_modules"
 [ -d "$ARTHUR/render" ] && (cd "$ARTHUR/render" && npm install --no-audit --no-fund >/dev/null)
+KALLAWAY=.claude/skills/kallaway-editing/system
+[ -d "$KALLAWAY/render" ] && (cd "$KALLAWAY/render" && npm install --no-audit --no-fund >/dev/null)
 echo "  → Plugin Edit Studio (movimientos, géneros, voz) → .claude/skills"
 for s in edit-director edit-voice; do rm -rf ".claude/skills/$s"; cp -R "$SKILL/plugins/edit-studio/skills/$s" ".claude/skills/$s"; done
 # edit-gen no se instala: la regla 2 del método prohíbe generar con IA de pago.

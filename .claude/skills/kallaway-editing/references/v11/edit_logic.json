@@ -1,0 +1,1543 @@
+{
+ "triggers": [
+  {
+   "t_word": 0.64,
+   "word": "officially",
+   "element": "dron con caja colgando, cielo azul intenso",
+   "category": "hook_banner",
+   "offset_s": 0.19,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 1.74,
+   "word": "drone",
+   "element": "dron lejano sobre urbanización y árboles",
+   "category": "hook_banner",
+   "offset_s": 0.05,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 2.62,
+   "word": "program.",
+   "element": "caja blanca descendiendo junto a una casa amarilla",
+   "category": "hook_banner",
+   "offset_s": -0.12,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 3.3,
+   "word": "It's",
+   "element": "a sangre: dron en cielo turquesa (plano general)",
+   "category": "pip_broll",
+   "offset_s": -0.09,
+   "why": "literal a pantalla completa manteniendo la cara"
+  },
+  {
+   "t_word": 3.64,
+   "word": "DoorDash",
+   "element": "a sangre: dron entre nubes + logo 'DOORDASH Air' rojo que se revela de izq. a dcha.; caja cayendo abajo",
+   "category": "pip_broll",
+   "offset_s": 0.28,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 3.64,
+   "word": "DoorDash",
+   "element": "Logo 'DOORDASH Air' rojo se revela por barrido",
+   "category": "pip_broll",
+   "offset_s": 0.28,
+   "why": "literal: nombre del producto"
+  },
+  {
+   "t_word": 4.92,
+   "word": "And",
+   "element": "mano con móvil en la app, interior oscuro",
+   "category": "split_broll",
+   "offset_s": -0.08,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 5.4,
+   "word": "completely",
+   "element": "dron suspendido sobre colina seca y árboles",
+   "category": "split_broll",
+   "offset_s": 0.02,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 6.32,
+   "word": "how",
+   "element": "dron turquesa junto a un tejado, contrapicado",
+   "category": "split_broll",
+   "offset_s": 0.14,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 7.12,
+   "word": "gets",
+   "element": "cielo con dron + flecha blanca gruesa señalándolo; paneo hacia abajo hasta el jardín, la flecha señala el punto de entrega",
+   "category": "split_broll",
+   "offset_s": 0.01,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 7.12,
+   "word": "gets",
+   "element": "Flecha blanca dibujada señalando el dron y luego el jardín",
+   "category": "split_broll",
+   "offset_s": 0.01,
+   "why": "guía de mirada"
+  },
+  {
+   "t_word": 8.24,
+   "word": "the",
+   "element": "Cara completa con 'in' → 'the' → 'future' (serif itálica).",
+   "category": "face_full_word",
+   "offset_s": -0.23,
+   "why": "énfasis / cambio de tema (cara + palabra)"
+  },
+  {
+   "t_word": 8.4,
+   "word": "future.",
+   "element": "'future' en serif itálica sobre la cara",
+   "category": "face_full_word",
+   "offset_s": 0.05,
+   "why": "énfasis: palabra-tema"
+  },
+  {
+   "t_word": 8.9,
+   "word": "Customers",
+   "element": "móvil con la app, pulgar pulsando",
+   "category": "split_broll",
+   "offset_s": -0.02,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 9.56,
+   "word": "place",
+   "element": "portátil con web 'Five Figs' (cenital)",
+   "category": "split_broll",
+   "offset_s": 0.12,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 10.3,
+   "word": "that",
+   "element": "caja blanca con logo rojo vista desde abajo, techo del restaurante",
+   "category": "split_broll",
+   "offset_s": 0.04,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 11.0,
+   "word": "straight",
+   "element": "dron con caja, cielo azul",
+   "category": "split_broll",
+   "offset_s": 0.14,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 12.64,
+   "word": "land",
+   "element": "dron visto desde arriba bajando la caja con cable junto a casa amarilla",
+   "category": "split_broll",
+   "offset_s": -0.13,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 13.92,
+   "word": "your",
+   "element": "mujer recoge la caja entre matas del jardín (cenital)",
+   "category": "split_broll",
+   "offset_s": -0.16,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 14.48,
+   "word": "These",
+   "element": "dron en vuelo estático ante rascacielos de cristal",
+   "category": "split_broll",
+   "offset_s": -0.01,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 15.14,
+   "word": "drones",
+   "element": "macro del motor/rotor girando",
+   "category": "split_broll",
+   "offset_s": 0.13,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 15.76,
+   "word": "extremely",
+   "element": "hélice de 3 palas en jaula de pruebas",
+   "category": "split_broll",
+   "offset_s": -0.08,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 16.24,
+   "word": "quiet.",
+   "element": "prueba con humo blanco alrededor de la hélice",
+   "category": "split_broll",
+   "offset_s": 0.19,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 17.24,
+   "word": "actually",
+   "element": "a sangre: tejado y árbol; tarjeta blanca redondeada con mapa satelital y pines rojos sube desde abajo",
+   "category": "pip_broll",
+   "offset_s": -0.01,
+   "why": "literal a pantalla completa manteniendo la cara"
+  },
+  {
+   "t_word": 17.44,
+   "word": "watch",
+   "element": "Tarjeta de mapa 'Confirm drop-off point' sube desde abajo",
+   "category": "pip_broll",
+   "offset_s": 0.06,
+   "why": "literal: ver la ruta"
+  },
+  {
+   "t_word": 18.84,
+   "word": "via",
+   "element": "panel oscuro 3D de la app sube desde abajo (maqueta gris de edificios + dron)",
+   "category": "pip_broll",
+   "offset_s": 0.14,
+   "why": "literal a pantalla completa manteniendo la cara"
+  },
+  {
+   "t_word": 19.46,
+   "word": "flyover",
+   "element": "arriba: dron diminuto en cielo azul oscuro; abajo panel 'Flying to you'",
+   "category": "pip_broll",
+   "offset_s": 0.06,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 21.08,
+   "word": "it",
+   "element": "arriba cambia a urbanización de tejados rojos con dron",
+   "category": "pip_broll",
+   "offset_s": -0.18,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 21.82,
+   "word": "Now",
+   "element": "Cara completa con 'now' → 'the' → 'big' → 'perk' (serif itálica) → 'is' → 'that'.",
+   "category": "face_full_word",
+   "offset_s": -0.01,
+   "why": "énfasis / cambio de tema (cara + palabra)"
+  },
+  {
+   "t_word": 22.14,
+   "word": "perk",
+   "element": "'perk' en serif itálica",
+   "category": "face_full_word",
+   "offset_s": 0.01,
+   "why": "énfasis"
+  },
+  {
+   "t_word": 22.64,
+   "word": "these",
+   "element": "a sangre: dron lejano entre nubes, caja abajo",
+   "category": "pip_broll",
+   "offset_s": 0.01,
+   "why": "literal a pantalla completa manteniendo la cara"
+  },
+  {
+   "t_word": 23.52,
+   "word": "fly",
+   "element": "a sangre: contrapicado muy cercano bajo el dron con la caja",
+   "category": "pip_broll",
+   "offset_s": -0.08,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 24.58,
+   "word": "top",
+   "element": "a sangre: dron sobre colina con casas y pinos",
+   "category": "pip_broll",
+   "offset_s": -0.14,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 25.88,
+   "word": "So",
+   "element": "dron cruzando en diagonal, cielo azul marino",
+   "category": "split_broll",
+   "offset_s": -0.02,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 27.46,
+   "word": "just",
+   "element": "UI de la app: selector Drone/Dasher/Pickup + arco 'Flight time' (11 min → 4 min)",
+   "category": "split_screenrec",
+   "offset_s": -0.1,
+   "why": "literal: se ve el producto haciendo lo que dice"
+  },
+  {
+   "t_word": 27.68,
+   "word": "five",
+   "element": "Contador de vuelo baja a '4 min'",
+   "category": "split_screenrec",
+   "offset_s": -0.08,
+   "why": "dato"
+  },
+  {
+   "t_word": 28.74,
+   "word": "service",
+   "element": "macro: caja blanca con logo rojo desde abajo, techo con focos",
+   "category": "split_broll",
+   "offset_s": -0.09,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 29.44,
+   "word": "starting",
+   "element": "dron con caja, cielo azul",
+   "category": "split_broll",
+   "offset_s": 0.01,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 30.18,
+   "word": "in",
+   "element": "Segunda línea de subtítulo '“in the coming months”' en itálica pequeña",
+   "category": "split_broll",
+   "offset_s": 0.02,
+   "why": "matiz / descargo"
+  },
+  {
+   "t_word": 31.18,
+   "word": "with",
+   "element": "pollo frito en bandeja (macro)",
+   "category": "split_broll",
+   "offset_s": 0.06,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 31.78,
+   "word": "like",
+   "element": "rótulo 'CHIPOTLE' en fachada",
+   "category": "split_broll",
+   "offset_s": 0.04,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 32.04,
+   "word": "Chipotle",
+   "element": "caja blanca con logo Chipotle",
+   "category": "split_broll",
+   "offset_s": 0.24,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 32.86,
+   "word": "Popeyes.",
+   "element": "caja blanca con logo Popeyes",
+   "category": "split_broll",
+   "offset_s": -0.16,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 32.86,
+   "word": "Popeyes.",
+   "element": "rótulo 'POPEYES Louisiana Kitchen'",
+   "category": "split_broll",
+   "offset_s": 0.26,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 33.52,
+   "word": "But",
+   "element": "dron con caja, cielo azul",
+   "category": "split_broll",
+   "offset_s": 0.01,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 34.68,
+   "word": "the",
+   "element": "dron más lejano",
+   "category": "split_broll",
+   "offset_s": -0.02,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 35.78,
+   "word": "edge",
+   "element": "dron sobre colina con casas",
+   "category": "split_broll",
+   "offset_s": -0.08,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 36.58,
+   "word": "and",
+   "element": "caja 'DOORDASH' sobre césped; pasan unas piernas",
+   "category": "split_broll",
+   "offset_s": 0.12,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 37.62,
+   "word": "Now,",
+   "element": "Cara completa con subtítulo pequeño 'Now / in addition to / drones,'.",
+   "category": "aroll_plain",
+   "offset_s": -0.08,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 38.86,
+   "word": "DoorDash",
+   "element": "presentador caminando en escenario rojo con logo",
+   "category": "split_broll",
+   "offset_s": -0.2,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 39.7,
+   "word": "several",
+   "element": "mujer comiendo + burbuja UI 'Add paper towels to my cart'",
+   "category": "split_broll",
+   "offset_s": 0.09,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 41.32,
+   "word": "makes",
+   "element": "madre e hija con lista manuscrita escaneada (marco blanco animado)",
+   "category": "split_broll",
+   "offset_s": -0.07,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 42.44,
+   "word": "more",
+   "element": "chico con camiseta rosa mirando el móvil + burbujas azules de chat",
+   "category": "split_broll",
+   "offset_s": -0.19,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 43.84,
+   "word": "dynamic.",
+   "element": "grupo a la mesa + tarjeta 'DoorDash Assistant' con ensalada",
+   "category": "split_broll",
+   "offset_s": -0.17,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 44.54,
+   "word": "The",
+   "element": "Cara completa: 'The' → 'biggest' → 'one' → 'is' y luego rótulo 'TEXT' (blanco) + 'DOORDASH' (rojo) en mayúsculas extendidas.",
+   "category": "face_full_word",
+   "offset_s": -0.04,
+   "why": "énfasis / cambio de tema (cara + palabra)"
+  },
+  {
+   "t_word": 45.4,
+   "word": "Text",
+   "element": "Rótulo 'TEXT' blanco en mayúsculas extendidas",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "literal: nombre de la función"
+  },
+  {
+   "t_word": 45.78,
+   "word": "DoorDash.",
+   "element": "Rótulo 'DOORDASH' rojo bajo 'TEXT'",
+   "category": "face_full_word",
+   "offset_s": 0.02,
+   "why": "literal: nombre de la función"
+  },
+  {
+   "t_word": 46.5,
+   "word": "And",
+   "element": "iMessage oscuro: tarjeta 'doordash.com' con logo + burbuja del usuario (el chat sube)",
+   "category": "split_screenrec",
+   "offset_s": 0.0,
+   "why": "literal: se ve el producto haciendo lo que dice"
+  },
+  {
+   "t_word": 48.96,
+   "word": "DoorDash",
+   "element": "scroll: respuesta larga con viñetas y emojis",
+   "category": "split_screenrec",
+   "offset_s": 0.21,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 50.32,
+   "word": "You",
+   "element": "Cara completa con subtítulo 'You could say / something like,'.",
+   "category": "aroll_plain",
+   "offset_s": 0.02,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 51.12,
+   "word": "my",
+   "element": "móvil 3D pequeño sobre rojo (y≈10–90 %) que hace zoom-in continuo hasta llenar el ancho",
+   "category": "pip_broll",
+   "offset_s": -0.03,
+   "why": "literal a pantalla completa manteniendo la cara"
+  },
+  {
+   "t_word": 51.12,
+   "word": "my",
+   "element": "Subtítulo 'My mom's in town' colocado en la barra de autocompletar del teclado",
+   "category": "pip_broll",
+   "offset_s": 0.08,
+   "why": "literal: el mensaje se teclea"
+  },
+  {
+   "t_word": 52.62,
+   "word": "she",
+   "element": "móvil a tamaño grande; teclas se iluminan mientras 'escribe'",
+   "category": "pip_broll",
+   "offset_s": 0.06,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 55.26,
+   "word": "us",
+   "element": "se envía la burbuja y sube el chat",
+   "category": "pip_broll",
+   "offset_s": 0.04,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 56.54,
+   "word": "DoorDash",
+   "element": "respuesta 'got it — dinner for seven at your apartment…' aparece",
+   "category": "pip_broll",
+   "offset_s": 0.0,
+   "why": "literal a pantalla completa manteniendo la cara"
+  },
+  {
+   "t_word": 60.24,
+   "word": "where",
+   "element": "llega la lista '1. trisara restaurant… 2. chaat corner… 3. bollywood pizza'",
+   "category": "pip_broll",
+   "offset_s": -0.05,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 63.98,
+   "word": "the",
+   "element": "carrusel 'Choose a restaurant' con 3 fotos de platos",
+   "category": "pip_broll",
+   "offset_s": -0.08,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 66.66,
+   "word": "It",
+   "element": "chico con móvil + burbujas azules de criterios",
+   "category": "split_broll",
+   "offset_s": -0.05,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 68.62,
+   "word": "list",
+   "element": "grupo a la mesa + tarjeta 'DoorDash Assistant'",
+   "category": "split_broll",
+   "offset_s": -0.22,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 69.6,
+   "word": "then",
+   "element": "chico sonriendo + resumen de precios + burbuja 'place it' y emojis verdes que saltan",
+   "category": "split_broll",
+   "offset_s": -0.07,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 70.46,
+   "word": "instantly.",
+   "element": "Lluvia de emojis verdes sobre el chico",
+   "category": "split_broll",
+   "offset_s": 0.14,
+   "why": "énfasis: instantly"
+  },
+  {
+   "t_word": 71.2,
+   "word": "This",
+   "element": "Cara completa con subtítulo 'This same approach / can also be used / for'.",
+   "category": "aroll_plain",
+   "offset_s": 0.0,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 72.58,
+   "word": "ordering",
+   "element": "madre e hija + lista manuscrita escaneada",
+   "category": "split_broll",
+   "offset_s": 0.12,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 73.88,
+   "word": "group",
+   "element": "mujer con móvil en la calle + barra de progreso 'Drone arriving in 00:07'",
+   "category": "split_broll",
+   "offset_s": -0.26,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 74.74,
+   "word": "Simple",
+   "element": "móvil de frente sobre rojo: chat con lista de platos",
+   "category": "pip_broll",
+   "offset_s": -0.04,
+   "why": "literal a pantalla completa manteniendo la cara"
+  },
+  {
+   "t_word": 75.18,
+   "word": "descriptions",
+   "element": "tarjeta con foto de salteado de verduras entra abajo",
+   "category": "pip_broll",
+   "offset_s": 0.12,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 76.32,
+   "word": "out,",
+   "element": "la foto pasa a visor a pantalla completa del móvil; se cambian 3 platos",
+   "category": "pip_broll",
+   "offset_s": 0.08,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 78.1,
+   "word": "And",
+   "element": "Cara completa con subtítulo 'And / this all works / because of / this'.",
+   "category": "aroll_plain",
+   "offset_s": -0.02,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 79.2,
+   "word": "new",
+   "element": "cenital: manos abriendo envases de comida, bolsa de papel",
+   "category": "split_broll",
+   "offset_s": 0.05,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 81.06,
+   "word": "rolling",
+   "element": "bolsa en un felpudo + notificación 'DoorDash — You've Received Rewards!' (entra con blur)",
+   "category": "split_broll",
+   "offset_s": -0.1,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 81.9,
+   "word": "All",
+   "element": "mujer con sudadera rosa + panel 'macy's' con chaquetas",
+   "category": "split_broll",
+   "offset_s": -0.03,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 82.5,
+   "word": "bunch",
+   "element": "chico con pelo rizado y móvil + burbujas 'You're good to go now.'",
+   "category": "split_broll",
+   "offset_s": 0.04,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 83.64,
+   "word": "just",
+   "element": "dron aéreo sobre casas (plano del gancho)",
+   "category": "split_broll",
+   "offset_s": -0.1,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 84.56,
+   "word": "Dash",
+   "element": "presentador de frente en escenario rojo",
+   "category": "split_broll",
+   "offset_s": 0.19,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 86.4,
+   "word": "with",
+   "element": "Cara completa con subtítulo 'And with all this / AI innovation'.",
+   "category": "aroll_plain",
+   "offset_s": -0.06,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 87.6,
+   "word": "plus",
+   "element": "dron en cielo turquesa",
+   "category": "split_broll",
+   "offset_s": 0.2,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 88.84,
+   "word": "I",
+   "element": "móvil en las manos, cenital sobre mesa",
+   "category": "split_broll",
+   "offset_s": -0.08,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 88.98,
+   "word": "DoorDash",
+   "element": "mano recogiendo bolsa del felpudo",
+   "category": "split_broll",
+   "offset_s": 0.11,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 89.7,
+   "word": "pioneer",
+   "element": "grupo a la mesa + tarjeta del asistente",
+   "category": "split_broll",
+   "offset_s": 0.1,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 90.64,
+   "word": "future",
+   "element": "Cierre: cara completa con el rótulo 'The future of' (sans + 'future' en serif itálica) y debajo 'DELIVERY' en rojo, mayúsculas extendidas, con glow. Sin CTA explícito.",
+   "category": "title_cta",
+   "offset_s": -0.05,
+   "why": "cierre"
+  },
+  {
+   "t_word": 91.48,
+   "word": "delivery.",
+   "element": "'DELIVERY' rojo en mayúsculas extendidas",
+   "category": "title_cta",
+   "offset_s": 0.02,
+   "why": "énfasis: tesis final"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 0.83,
+   "from": "v11_s01 clip 1",
+   "to": "v11_s01 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: dron con caja colgando, cielo azul intenso"
+  },
+  {
+   "t": 1.79,
+   "from": "v11_s01 clip 2",
+   "to": "v11_s01 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: dron lejano sobre urbanización y árboles"
+  },
+  {
+   "t": 2.5,
+   "from": "v11_s01 clip 3",
+   "to": "v11_s01 clip 4",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: caja blanca descendiendo junto a una casa amarilla"
+  },
+  {
+   "t": 3.21,
+   "from": "v11_s01 (hook_banner)",
+   "to": "v11_s02 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: a sangre: dron en cielo turquesa (plano general)"
+  },
+  {
+   "t": 3.92,
+   "from": "v11_s02 clip 1",
+   "to": "v11_s02 clip 2",
+   "type": "corte seco + wipe (logo)",
+   "frames": 5,
+   "detail": "Corte interno de b-roll; el logo 'DOORDASH Air' se revela por barrido izquierda→derecha en ≈5 fotogramas a 15 fps."
+  },
+  {
+   "t": 4.84,
+   "from": "v11_s02 (pip_broll)",
+   "to": "v11_s03 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: mano con móvil en la app, interior oscuro"
+  },
+  {
+   "t": 5.42,
+   "from": "v11_s03 clip 1",
+   "to": "v11_s03 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: dron suspendido sobre colina seca y árboles"
+  },
+  {
+   "t": 6.46,
+   "from": "v11_s03 clip 2",
+   "to": "v11_s03 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: dron turquesa junto a un tejado, contrapicado"
+  },
+  {
+   "t": 7.13,
+   "from": "v11_s03 clip 3",
+   "to": "v11_s03 clip 4",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: cielo con dron + flecha blanca gruesa señalándolo; paneo hacia abajo hasta el jardín, la flecha señala el punt"
+  },
+  {
+   "t": 8.01,
+   "from": "v11_s03 (split_broll)",
+   "to": "v11_s04 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con 'in' → 'the' → 'future' (serif itálica)."
+  },
+  {
+   "t": 8.88,
+   "from": "v11_s04 (face_full_word)",
+   "to": "v11_s05 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: móvil con la app, pulgar pulsando"
+  },
+  {
+   "t": 9.68,
+   "from": "v11_s05 clip 1",
+   "to": "v11_s05 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: portátil con web 'Five Figs' (cenital)"
+  },
+  {
+   "t": 10.34,
+   "from": "v11_s05 clip 2",
+   "to": "v11_s05 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: caja blanca con logo rojo vista desde abajo, techo del restaurante"
+  },
+  {
+   "t": 11.14,
+   "from": "v11_s05 clip 3",
+   "to": "v11_s05 clip 4",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: dron con caja, cielo azul"
+  },
+  {
+   "t": 12.51,
+   "from": "v11_s05 clip 4",
+   "to": "v11_s05 clip 5",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: dron visto desde arriba bajando la caja con cable junto a casa amarilla"
+  },
+  {
+   "t": 13.76,
+   "from": "v11_s05 clip 5",
+   "to": "v11_s05 clip 6",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: mujer recoge la caja entre matas del jardín (cenital)"
+  },
+  {
+   "t": 14.47,
+   "from": "v11_s05 (split_broll)",
+   "to": "v11_s06 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: dron en vuelo estático ante rascacielos de cristal"
+  },
+  {
+   "t": 15.27,
+   "from": "v11_s06 clip 1",
+   "to": "v11_s06 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: macro del motor/rotor girando"
+  },
+  {
+   "t": 15.68,
+   "from": "v11_s06 clip 2",
+   "to": "v11_s06 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: hélice de 3 palas en jaula de pruebas"
+  },
+  {
+   "t": 16.43,
+   "from": "v11_s06 clip 3",
+   "to": "v11_s06 clip 4",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: prueba con humo blanco alrededor de la hélice"
+  },
+  {
+   "t": 17.23,
+   "from": "v11_s06 (split_broll)",
+   "to": "v11_s07 (pip_broll)",
+   "type": "corte seco + slide",
+   "frames": 5,
+   "detail": "Corte a pantalla completa con círculo; la tarjeta de mapa sube desde abajo (≈5 fotogramas)."
+  },
+  {
+   "t": 18.98,
+   "from": "v11_s07 (pip_broll)",
+   "to": "v11_s08 (pip_broll)",
+   "type": "slide",
+   "frames": 6,
+   "detail": "El panel oscuro 3D de la app sube desde el borde inferior sustituyendo al mapa (≈6 fotogramas)."
+  },
+  {
+   "t": 19.52,
+   "from": "v11_s08 clip 1",
+   "to": "v11_s08 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: arriba: dron diminuto en cielo azul oscuro; abajo panel 'Flying to you'"
+  },
+  {
+   "t": 20.9,
+   "from": "v11_s08 clip 2",
+   "to": "v11_s08 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: arriba cambia a urbanización de tejados rojos con dron"
+  },
+  {
+   "t": 21.81,
+   "from": "v11_s08 (pip_broll)",
+   "to": "v11_s09 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con 'now' → 'the' → 'big' → 'perk' (serif itálica) → 'is' → 'that'."
+  },
+  {
+   "t": 22.65,
+   "from": "v11_s09 (face_full_word)",
+   "to": "v11_s10 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: a sangre: dron lejano entre nubes, caja abajo"
+  },
+  {
+   "t": 23.44,
+   "from": "v11_s10 clip 1",
+   "to": "v11_s10 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: a sangre: contrapicado muy cercano bajo el dron con la caja"
+  },
+  {
+   "t": 24.44,
+   "from": "v11_s10 clip 2",
+   "to": "v11_s10 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: a sangre: dron sobre colina con casas y pinos"
+  },
+  {
+   "t": 25.86,
+   "from": "v11_s10 (pip_broll)",
+   "to": "v11_s11 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: dron cruzando en diagonal, cielo azul marino"
+  },
+  {
+   "t": 27.36,
+   "from": "v11_s11 (split_broll)",
+   "to": "v11_s12 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte a recorte de UI; el contador anima 11→4 min dentro del clip."
+  },
+  {
+   "t": 28.65,
+   "from": "v11_s12 (split_screenrec)",
+   "to": "v11_s13 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: macro: caja blanca con logo rojo desde abajo, techo con focos"
+  },
+  {
+   "t": 29.45,
+   "from": "v11_s13 clip 1",
+   "to": "v11_s13 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: dron con caja, cielo azul"
+  },
+  {
+   "t": 31.24,
+   "from": "v11_s13 (split_broll)",
+   "to": "v11_s14 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: pollo frito en bandeja (macro)"
+  },
+  {
+   "t": 31.82,
+   "from": "v11_s14 clip 1",
+   "to": "v11_s14 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: rótulo 'CHIPOTLE' en fachada"
+  },
+  {
+   "t": 32.28,
+   "from": "v11_s14 clip 2",
+   "to": "v11_s14 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: caja blanca con logo Chipotle"
+  },
+  {
+   "t": 32.7,
+   "from": "v11_s14 clip 3",
+   "to": "v11_s14 clip 4",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: caja blanca con logo Popeyes"
+  },
+  {
+   "t": 33.12,
+   "from": "v11_s14 clip 4",
+   "to": "v11_s14 clip 5",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: rótulo 'POPEYES Louisiana Kitchen'"
+  },
+  {
+   "t": 33.53,
+   "from": "v11_s14 (split_broll)",
+   "to": "v11_s15 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: dron con caja, cielo azul"
+  },
+  {
+   "t": 34.66,
+   "from": "v11_s15 clip 1",
+   "to": "v11_s15 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: dron más lejano"
+  },
+  {
+   "t": 35.7,
+   "from": "v11_s15 clip 2",
+   "to": "v11_s15 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: dron sobre colina con casas"
+  },
+  {
+   "t": 36.7,
+   "from": "v11_s15 clip 3",
+   "to": "v11_s15 clip 4",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: caja 'DOORDASH' sobre césped; pasan unas piernas"
+  },
+  {
+   "t": 37.54,
+   "from": "v11_s15 (split_broll)",
+   "to": "v11_s16 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo pequeño 'Now / in addition to / drones,'."
+  },
+  {
+   "t": 38.66,
+   "from": "v11_s16 (aroll_plain)",
+   "to": "v11_s17 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: presentador caminando en escenario rojo con logo"
+  },
+  {
+   "t": 39.79,
+   "from": "v11_s17 (split_broll)",
+   "to": "v11_s18 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: mujer comiendo + burbuja UI 'Add paper towels to my cart'"
+  },
+  {
+   "t": 41.25,
+   "from": "v11_s18 clip 1",
+   "to": "v11_s18 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: madre e hija con lista manuscrita escaneada (marco blanco animado)"
+  },
+  {
+   "t": 42.25,
+   "from": "v11_s18 clip 2",
+   "to": "v11_s18 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: chico con camiseta rosa mirando el móvil + burbujas azules de chat"
+  },
+  {
+   "t": 43.67,
+   "from": "v11_s18 clip 3",
+   "to": "v11_s18 clip 4",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: grupo a la mesa + tarjeta 'DoorDash Assistant' con ensalada"
+  },
+  {
+   "t": 44.5,
+   "from": "v11_s18 (split_broll)",
+   "to": "v11_s19 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa: 'The' → 'biggest' → 'one' → 'is' y luego rótulo 'TEXT' (blanco) + 'DOORDASH' (rojo) en mayúscul"
+  },
+  {
+   "t": 46.5,
+   "from": "v11_s19 (face_full_word)",
+   "to": "v11_s20 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: iMessage oscuro: tarjeta 'doordash.com' con logo + burbuja del usuario (el chat sube)"
+  },
+  {
+   "t": 49.17,
+   "from": "v11_s20 clip 1",
+   "to": "v11_s20 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: scroll: respuesta larga con viñetas y emojis"
+  },
+  {
+   "t": 50.34,
+   "from": "v11_s20 (split_screenrec)",
+   "to": "v11_s21 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'You could say / something like,'."
+  },
+  {
+   "t": 51.09,
+   "from": "v11_s21 (aroll_plain)",
+   "to": "v11_s22 (pip_broll)",
+   "type": "corte seco + zoom-in",
+   "frames": 24,
+   "detail": "Corte de cara a fondo rojo; el móvil 3D hace zoom-in continuo durante ≈1.6 s."
+  },
+  {
+   "t": 52.68,
+   "from": "v11_s22 clip 1",
+   "to": "v11_s22 clip 2",
+   "type": "continuo (sin corte)",
+   "frames": 0,
+   "detail": "Mismo plano: el móvil ya está grande y empiezan a pulsarse teclas."
+  },
+  {
+   "t": 55.3,
+   "from": "v11_s22 clip 2",
+   "to": "v11_s22 clip 3",
+   "type": "continuo (sin corte)",
+   "frames": 0,
+   "detail": "Mismo plano: se envía la burbuja y el chat sube."
+  },
+  {
+   "t": 56.54,
+   "from": "v11_s22 (pip_broll)",
+   "to": "v11_s23 (pip_broll)",
+   "type": "continuo (sin corte)",
+   "frames": 0,
+   "detail": "Mismo plano: división editorial de la escena (llega la respuesta)."
+  },
+  {
+   "t": 60.19,
+   "from": "v11_s23 clip 1",
+   "to": "v11_s23 clip 2",
+   "type": "continuo (sin corte)",
+   "frames": 0,
+   "detail": "Mismo plano: llega la lista de restaurantes y el chat sube."
+  },
+  {
+   "t": 63.9,
+   "from": "v11_s23 clip 2",
+   "to": "v11_s23 clip 3",
+   "type": "continuo (sin corte)",
+   "frames": 0,
+   "detail": "Mismo plano: aparece el carrusel 'Choose a restaurant'."
+  },
+  {
+   "t": 66.61,
+   "from": "v11_s23 (pip_broll)",
+   "to": "v11_s24 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: chico con móvil + burbujas azules de criterios"
+  },
+  {
+   "t": 68.4,
+   "from": "v11_s24 clip 1",
+   "to": "v11_s24 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: grupo a la mesa + tarjeta 'DoorDash Assistant'"
+  },
+  {
+   "t": 69.53,
+   "from": "v11_s24 clip 2",
+   "to": "v11_s24 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: chico sonriendo + resumen de precios + burbuja 'place it' y emojis verdes que saltan"
+  },
+  {
+   "t": 71.2,
+   "from": "v11_s24 (split_broll)",
+   "to": "v11_s25 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'This same approach / can also be used / for'."
+  },
+  {
+   "t": 72.7,
+   "from": "v11_s25 (aroll_plain)",
+   "to": "v11_s26 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: madre e hija + lista manuscrita escaneada"
+  },
+  {
+   "t": 73.62,
+   "from": "v11_s26 clip 1",
+   "to": "v11_s26 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: mujer con móvil en la calle + barra de progreso 'Drone arriving in 00:07'"
+  },
+  {
+   "t": 74.7,
+   "from": "v11_s26 (split_broll)",
+   "to": "v11_s27 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: móvil de frente sobre rojo: chat con lista de platos"
+  },
+  {
+   "t": 75.3,
+   "from": "v11_s27 clip 1",
+   "to": "v11_s27 clip 2",
+   "type": "slide",
+   "frames": 4,
+   "detail": "Tarjeta de foto entra dentro del móvil."
+  },
+  {
+   "t": 76.4,
+   "from": "v11_s27 clip 2",
+   "to": "v11_s27 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "La pantalla del móvil pasa a visor de fotos; los platos cambian por corte/slide."
+  },
+  {
+   "t": 78.08,
+   "from": "v11_s27 (pip_broll)",
+   "to": "v11_s28 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'And / this all works / because of / this'."
+  },
+  {
+   "t": 79.25,
+   "from": "v11_s28 (aroll_plain)",
+   "to": "v11_s29 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: cenital: manos abriendo envases de comida, bolsa de papel"
+  },
+  {
+   "t": 80.96,
+   "from": "v11_s29 clip 1",
+   "to": "v11_s29 clip 2",
+   "type": "corte seco + blur-in",
+   "frames": 3,
+   "detail": "Corte al felpudo; la notificación superpuesta entra desenfocada y enfoca en ≈3 fotogramas."
+  },
+  {
+   "t": 81.87,
+   "from": "v11_s29 (split_broll)",
+   "to": "v11_s30 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: mujer con sudadera rosa + panel 'macy's' con chaquetas"
+  },
+  {
+   "t": 82.54,
+   "from": "v11_s30 clip 1",
+   "to": "v11_s30 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: chico con pelo rizado y móvil + burbujas 'You're good to go now.'"
+  },
+  {
+   "t": 83.54,
+   "from": "v11_s30 clip 2",
+   "to": "v11_s30 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: dron aéreo sobre casas (plano del gancho)"
+  },
+  {
+   "t": 84.75,
+   "from": "v11_s30 clip 3",
+   "to": "v11_s30 clip 4",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: presentador de frente en escenario rojo"
+  },
+  {
+   "t": 86.34,
+   "from": "v11_s30 (split_broll)",
+   "to": "v11_s31 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'And with all this / AI innovation'."
+  },
+  {
+   "t": 87.8,
+   "from": "v11_s31 (aroll_plain)",
+   "to": "v11_s32 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: dron en cielo turquesa"
+  },
+  {
+   "t": 88.76,
+   "from": "v11_s32 clip 1",
+   "to": "v11_s32 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: móvil en las manos, cenital sobre mesa"
+  },
+  {
+   "t": 89.09,
+   "from": "v11_s32 clip 2",
+   "to": "v11_s32 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: mano recogiendo bolsa del felpudo"
+  },
+  {
+   "t": 89.8,
+   "from": "v11_s32 clip 3",
+   "to": "v11_s32 clip 4",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: grupo a la mesa + tarjeta del asistente"
+  },
+  {
+   "t": 90.59,
+   "from": "v11_s32 (split_broll)",
+   "to": "v11_s33 (title_cta)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cierre: cara completa con el rótulo 'The future of' (sans + 'future' en serif itálica) y debajo 'DELIVERY' en "
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.0,
+   "fx": "slide",
+   "detail": "Franja roja 'DOORDASH DRONE DELIVERY' entra desde la derecha (0–≈1.8 s; en 0.5 s solo se lee 'DOORDA/DRONE DEL') y dura hasta 3.21."
+  },
+  {
+   "t": 3.92,
+   "fx": "máscara (wipe izq.→dcha.)",
+   "detail": "Logo 'DOORDASH Air' revelado por barrido en ≈0.3 s."
+  },
+  {
+   "t": 8.01,
+   "fx": "pop",
+   "detail": "Palabra grande una a una sobre la cara (2 palabras en 0.87 s ≈ 0.44 s/palabra; derivado): 'future' en serif itálica blanca"
+  },
+  {
+   "t": 21.81,
+   "fx": "pop",
+   "detail": "Palabra grande una a una sobre la cara (6 palabras en 0.84 s ≈ 0.14 s/palabra; derivado): 'perk' en serif itálica"
+  },
+  {
+   "t": 30.2,
+   "fx": "pop",
+   "detail": "Subtítulo de dos líneas: principal + nota en itálica pequeña entre comillas."
+  },
+  {
+   "t": 44.5,
+   "fx": "pop",
+   "detail": "Palabra grande una a una sobre la cara (7 palabras en 2.00 s ≈ 0.29 s/palabra; derivado): palabras sueltas en sans bold; nombre de la función como rótulo de 2 líneas: 'TEXT' sans extendida ultra-bold blanca ≈60 px + 'DOORDASH' misma fuente en rojo (≈#EB1700) con halo, se mantiene 1.1 s"
+  },
+  {
+   "t": 45.4,
+   "fx": "pop por línea",
+   "detail": "'TEXT' (blanco) y 0.4 s después 'DOORDASH' (rojo), mayúsculas extendidas, sobre la cara."
+  },
+  {
+   "t": 51.2,
+   "fx": "tracking al objeto",
+   "detail": "El subtítulo vive en la barra de sugerencias del teclado del móvil 3D y cambia cada 2–3 palabras (51.1–66.6)."
+  },
+  {
+   "t": 90.6,
+   "fx": "write-on por palabra",
+   "detail": "'The' → 'future' (itálica) → 'of' → 'DELIVERY' (rojo con glow) se acumulan con la voz y quedan fijos."
+  }
+ ],
+ "camera": [
+  {
+   "t": 7.13,
+   "move": "pan",
+   "scale_or_dir": "paneo vertical del propio clip: cielo → jardín (con la flecha siguiendo)",
+   "dur_s": 0.9
+  },
+  {
+   "t": 8.01,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 8.88,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 21.81,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 37.54,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 38.66,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 44.5,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 46.5,
+   "move": "pan (scroll vertical)",
+   "scale_or_dir": "chat hacia arriba",
+   "dur_s": 3.8
+  },
+  {
+   "t": 46.5,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 50.34,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 51.09,
+   "move": "push-in lento",
+   "scale_or_dir": "móvil 3D ≈0.55→1.0 del ancho (zoom-in continuo) y deriva",
+   "dur_s": 1.6
+  },
+  {
+   "t": 71.2,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 72.7,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 78.08,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 79.25,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 86.34,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 87.8,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  }
+ ],
+ "rhythm": {
+  "events_per_10s": [
+   12,
+   11,
+   9,
+   12,
+   6,
+   5,
+   5,
+   8,
+   10,
+   1
+  ],
+  "avg_hold_text_s": 0.58,
+  "notes": "Ritmo muy alto salvo el plano único del móvil: 2.8 s/escena. [derived] 79 cambios visuales en 92.2 s = 1 cada 1.17 s; la mitad superior cambia cada 0.94 s de media dentro de los tramos en split; palabra grande ≈0.25 s/palabra; subtítulo pequeño ≈0.58 s por bloque (estimado: 2 palabras × duración media de palabra)."
+ },
+ "typography": "Subtítulo sans geométrica bold blanca ≈30 px/720, 1–3 palabras; nota secundaria en itálica ≈18 px. Palabra grande sans bold ≈70–80 px; serif itálica para future y perk. Rótulos de marca en sans extendida ultra-bold mayúsculas: 'TEXT' blanco, 'DOORDASH' y 'DELIVERY' rojo (≈#EB1700) con glow; franja con 'DRONE' naranja-dorado. Familias exactas: desconocidas.",
+ "textures": "Sin grano, papel ni halftone. Fondos de gráfico propio: degradado rojo con viñeta (51–66.6) y rojo plano (74.7–78.1). Blur-in en la notificación de 80.96.",
+ "distinct": [
+  "El que más usa PiP circular (7 escenas): b-roll o interfaz a pantalla completa con la cara arriba-izquierda",
+  "Subtítulo integrado en la barra de autocompletar del teclado de un móvil 3D, en un plano único de 15.5 s sobre degradado rojo (51.09–66.61)",
+  "Color de marca del tema (rojo DoorDash) en logo, rótulo 'TEXT DOORDASH', fondos y 'DELIVERY' final",
+  "Anotaciones: flecha blanca sobre el dron (7.13) y segunda línea de subtítulo en itálica pequeña '“in the coming months”' (30.2)",
+  "Estructura en dos actos (drones → IA) y cierre sin CTA con rótulo acumulativo 'The future of DELIVERY'"
+ ],
+ "evidence_note": "REA: tiempos de corte = observed (detección de escena ffmpeg + tiras de 9 fotogramas a 15 fps por cada corte); offsets y ritmos = derived; 'why' = inferred. Audio/SFX: desconocido (no analizado)."
+}

@@ -1,0 +1,223 @@
+1
+00:00:00,000 --> 00:00:00,880
+This company built one of
+
+2
+00:00:00,880 --> 00:00:02,540
+the most advanced AI satellites
+
+3
+00:00:02,540 --> 00:00:04,040
+in the world. These satellites
+
+4
+00:00:04,040 --> 00:00:05,719
+can detect the model of
+
+5
+00:00:05,719 --> 00:00:07,120
+the car in your driveway
+
+6
+00:00:07,120 --> 00:00:08,859
+from space. The company behind
+
+7
+00:00:08,859 --> 00:00:10,699
+these is called Planet Labs.
+
+8
+00:00:10,919 --> 00:00:11,980
+And their Pelican 4 satellites
+
+9
+00:00:11,980 --> 00:00:13,699
+can do something extremely unique.
+
+10
+00:00:13,880 --> 00:00:14,980
+See, a normal satellite takes
+
+11
+00:00:14,980 --> 00:00:16,179
+a photo from space and
+
+12
+00:00:16,179 --> 00:00:17,440
+then beams it back down
+
+13
+00:00:17,440 --> 00:00:18,899
+to Earth for processing. But
+
+14
+00:00:18,899 --> 00:00:20,579
+planet satellites have AI chips
+
+15
+00:00:20,579 --> 00:00:21,820
+on board so they can
+
+16
+00:00:21,820 --> 00:00:23,160
+read and process the images
+
+17
+00:00:23,160 --> 00:00:24,679
+while still in orbit. And
+
+18
+00:00:24,679 --> 00:00:25,739
+this gives them some extreme
+
+19
+00:00:25,739 --> 00:00:27,140
+advantages. For example, they could
+
+20
+00:00:27,140 --> 00:00:28,640
+take a single snapshot of
+
+21
+00:00:28,640 --> 00:00:30,760
+an airport and immediately identify
+
+22
+00:00:30,760 --> 00:00:32,280
+how many planes are parked
+
+23
+00:00:32,280 --> 00:00:33,399
+in half a second. They
+
+24
+00:00:33,399 --> 00:00:34,479
+could also collect real -time
+
+25
+00:00:34,479 --> 00:00:36,420
+data on military positioning, or
+
+26
+00:00:36,420 --> 00:00:37,619
+even how many cars are
+
+27
+00:00:37,619 --> 00:00:38,899
+in a Walmart parking lot
+
+28
+00:00:38,899 --> 00:00:40,320
+to gauge shopping trends. But
+
+29
+00:00:40,320 --> 00:00:41,119
+the real innovation is what
+
+30
+00:00:41,119 --> 00:00:42,579
+happens when you link two
+
+31
+00:00:42,579 --> 00:00:44,119
+of these planet satellites together.
+
+32
+00:00:44,380 --> 00:00:45,520
+One satellite will act like
+
+33
+00:00:45,520 --> 00:00:47,240
+the wide -angle camera. It's
+
+34
+00:00:47,240 --> 00:00:48,659
+constantly looking at strips of
+
+35
+00:00:48,659 --> 00:00:49,899
+the Earth, wider than most
+
+36
+00:00:49,899 --> 00:00:51,619
+cities, and scanning them every
+
+37
+00:00:51,619 --> 00:00:53,240
+day looking for changes. Then
+
+38
+00:00:53,240 --> 00:00:54,799
+it uses that change data
+
+39
+00:00:54,799 --> 00:00:56,179
+to tell the second satellite
+
+40
+00:00:56,179 --> 00:00:57,759
+exactly where to zoom in
+
+41
+00:00:57,759 --> 00:00:59,520
+for pinpoint viewing. Together, that
+
+42
+00:00:59,520 --> 00:01:01,200
+combination basically acts like a
+
+43
+00:01:01,200 --> 00:01:02,719
+security system for the entire
+
+44
+00:01:02,719 --> 00:01:03,579
+planet. And I know what
+
+45
+00:01:03,579 --> 00:01:05,420
+you're thinking, privacy concerns, but
+
+46
+00:01:05,420 --> 00:01:06,599
+think about all the benefits
+
+47
+00:01:06,599 --> 00:01:08,040
+this could bring. Imagine using
+
+48
+00:01:08,040 --> 00:01:09,060
+this type of system to
+
+49
+00:01:09,060 --> 00:01:10,519
+track real -time weather events
+
+50
+00:01:10,519 --> 00:01:12,700
+like hurricanes or wildfires as
+
+51
+00:01:12,700 --> 00:01:13,900
+they're spreading. The truth is,
+
+52
+00:01:14,019 --> 00:01:14,840
+this is the future of
+
+53
+00:01:14,840 --> 00:01:16,099
+satellite imagery. And in a
+
+54
+00:01:16,099 --> 00:01:17,099
+few years, we will have
+
+55
+00:01:17,099 --> 00:01:18,719
+real -time detailed maps of
+
+56
+00:01:18,719 --> 00:01:20,459
+the world available in seconds.

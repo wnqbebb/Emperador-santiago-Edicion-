@@ -24,3 +24,4 @@ tools/.venv
 .claude/skills/*/system/render/public/*
 !.claude/skills/*/system/render/public/fonts
 !.claude/skills/*/system/render/public/textures
+!.claude/skills/kallaway-editing

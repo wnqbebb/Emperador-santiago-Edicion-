@@ -1,0 +1,74 @@
+000    0.00-   0.87 (0.9s) | Google just released
+001    0.87-   1.03 (0.2s) | Gemini
+002    1.03-   2.60 (1.6s) | for Argonne.
+003    2.60-   3.63 (1.0s) | If you're trying to use AI for
+004    3.63-   4.63 (1.0s) | complex work
+005    4.63-   6.23 (1.6s) | tasks, this model offers frontier
+006    6.23-   7.40 (1.2s) | intelligence to
+007    7.40-   8.73 (1.3s) | help you get more done.
+008    8.73-  11.23 (2.5s) | And it's especially good at engineering and knowledge work.
+009   11.23-  12.53 (1.3s) | Now, big reason why Argonne is
+010   12.53-  13.57 (1.0s) | so good at these complex
+011   13.57-  14.53 (1.0s) | tasks is
+012   14.53-  20.50 (6.0s) | because it was specifically designed to work with more depth and precision. This gives it a huge advantage in completing very
+013   20.50-  22.63 (2.1s) | sophisticated tasks start to finish without
+014   22.63-  25.13 (2.5s) | losing any context or reasoning.
+015   25.13-  25.53 (0.4s) | For example,
+016   25.53-  35.07 (9.5s) | I wanted to design a custom cup holder for my son, Stroller. All I did was describe the make and model of the Stroller and how I wanted the design to look. And Argonne was able, in one shot, to fully
+017   35.07-  36.63 (1.6s) | 3D model the
+018   36.63-  37.73 (1.1s) | exact piece so
+019   37.73-  38.93 (1.2s) | I could 3D print it.
+020   38.93-  39.90 (1.0s) | I also tried giving Argonne
+021   39.90-  45.10 (5.2s) | everything about my Callaway marketing YouTube channel. Scripts, my knowledge base, my channel strategy.
+022   45.10-  49.07 (4.0s) | It was able to build this YouTube dashboard that is now my HQ for everything.
+023   49.07-  51.50 (2.4s) | And seeing these workflows complete in a single step is
+024   51.50-  53.03 (1.5s) | pretty mind blowing when you're watching it.
+025   53.03-  54.20 (1.2s) | Argonne is so capable that Google
+026   54.20-  56.90 (2.7s) | has also been using it internally to solve their
+027   56.90-  58.47 (1.6s) | own problems as well.
+028   58.47-  60.03 (1.6s) | A team of Argonne agents freed up 300
+029   60.03-  62.00 (2.0s) | terabytes of memory across
+030   62.00-  64.03 (2.0s) | Google's data centers on their own.
+031   64.03-  65.63 (1.6s) | Argonne was also able to rewrite 32
+032   65.63-  73.30 (7.7s) | ,000 lines of code in one of Google's video decoders to make it 2 .7 times faster. So, whether it's your complex task or
+033   73.30-  75.93 (2.6s) | optimizing Google's own data centers,
+034   75.93-  78.27 (2.3s) | Argonne has just set the new frontier.
+035   78.27-  84.37 (6.1s) | If you want to try it out, Gemini 4 Argonne is now available to Google AI Pro and Ultra Subscribers in the Gemini app.
+036   84.37-  85.20 (0.8s) | Google just released
+037   85.20-  85.37 (0.2s) | Gemini
+038   85.37-  86.93 (1.6s) | 4 Argonne.
+039   86.93-  87.97 (1.0s) | If you're trying to use AI for
+040   87.97-  88.97 (1.0s) | complex work
+041   88.97-  90.57 (1.6s) | tasks, this model offers frontier
+042   90.57-  91.73 (1.2s) | intelligence to
+043   91.73-  93.07 (1.3s) | help you get more done.
+044   93.07-  95.57 (2.5s) | And it's especially good at engineering and knowledge work.
+045   95.57-  96.87 (1.3s) | Now, big reason why Argonne is
+046   96.87-  97.90 (1.0s) | so good at these complex
+047   97.90-  98.87 (1.0s) | tasks is
+048   98.87- 104.83 (6.0s) | because it was specifically designed to work with more depth and precision. This gives it a huge advantage in completing very
+049  104.83- 106.97 (2.1s) | sophisticated tasks start to finish without
+050  106.97- 109.47 (2.5s) | losing any context or reasoning. For
+051  109.47- 109.87 (0.4s) | example,
+052  109.87- 119.40 (9.5s) | I wanted to design a custom cup holder for my son, Stroller. All I did was describe the make and model of the Stroller and how I wanted the design to look. And Argonne was able in one shot to
+053  119.40- 120.97 (1.6s) | fully 3D model the
+054  120.97- 122.07 (1.1s) | exact piece so
+055  122.07- 123.27 (1.2s) | I could 3D print it.
+056  123.27- 124.23 (1.0s) | I also tried giving Argonne
+057  124.23- 124.37 (0.1s) | —
+058  124.37- 124.53 (0.2s) | everything
+059  124.53- 129.43 (4.9s) | about my Callaway marketing YouTube channel. Scripts, my knowledge base, my channel strategy.
+060  129.43- 133.40 (4.0s) | It was able to build this YouTube dashboard that is now my HQ for everything.
+061  133.40- 135.83 (2.4s) | And seeing these workflows complete in a single step is
+062  135.83- 137.37 (1.5s) | pretty mind blowing when you're watching it.
+063  137.37- 138.53 (1.2s) | Argonne is so capable that Google
+064  138.53- 141.23 (2.7s) | has also been using it internally to solve their
+065  141.23- 142.80 (1.6s) | own problems as well.
+066  142.80- 144.37 (1.6s) | A team of Argonne agents freed up 300
+067  144.37- 146.33 (2.0s) | terabytes of memory across
+068  146.33- 148.37 (2.0s) | Google's data centers on their own.
+069  148.37- 149.97 (1.6s) | Argonne was also able to rewrite 32
+070  149.97- 157.63 (7.7s) | ,000 lines of code in one of Google's video decoders to make it 2 .7 times faster. So whether it's your complex tasks or
+071  157.63- 160.27 (2.6s) | optimizing Google's own data centers,
+072  160.27- 162.60 (2.3s) | Argonne has just set the new frontier. If
+073  162.60- 168.81 (6.2s) | you want to try it out, Gemini 4 Argonne is now available to Google AI Pro and Ultra subscribers in the Gemini app.

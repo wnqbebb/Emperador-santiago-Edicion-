@@ -1,0 +1,917 @@
+{
+ "evidence_note": "Regla REA: tiempos de 'transitions', 'text_fx' y 'camera' son observed (tiras de fotogramas a 15 fps, ±0.07 s); 't_word' viene de evidence.json (derived, whisper); 'why' es inferred; sonido = desconocido (no se analizó el audio).",
+ "triggers": [
+  {
+   "t_word": 0.12,
+   "word": "company",
+   "element": "Franja roja «THE FUTURE / AI SATELLITES» entrando por la derecha sobre el satélite",
+   "category": "hook_banner",
+   "offset_s": 0.15,
+   "why": "hook: etiqueta del tema"
+  },
+  {
+   "t_word": 1.1,
+   "word": "advanced",
+   "element": "La Tierra desde la órbita con franjas de imágenes",
+   "category": "hook_banner",
+   "offset_s": 0.03,
+   "why": "literal: tecnología avanzada"
+  },
+  {
+   "t_word": 1.52,
+   "word": "AI",
+   "element": "Zoom por nubes hasta terreno con edificios numerados",
+   "category": "hook_banner",
+   "offset_s": 0.15,
+   "why": "literal: la IA etiquetando"
+  },
+  {
+   "t_word": 3.58,
+   "word": "These",
+   "element": "Satélite a pantalla completa + cara en círculo",
+   "category": "pip_broll",
+   "offset_s": 0.01,
+   "why": "literal: «These satellites»"
+  },
+  {
+   "t_word": 4.04,
+   "word": "can",
+   "element": "Zoom a una avenida con recuadros sobre coches",
+   "category": "pip_broll",
+   "offset_s": 0.13,
+   "why": "literal: «can detect»"
+  },
+  {
+   "t_word": 6.26,
+   "word": "in",
+   "element": "Aparcamiento cenital",
+   "category": "pip_broll",
+   "offset_s": 0.12,
+   "why": "literal: «in your driveway»"
+  },
+  {
+   "t_word": 6.7,
+   "word": "driveway",
+   "element": "Etiqueta «Hyundai Elantra» junto al coche marcado",
+   "category": "pip_broll",
+   "offset_s": 0.2,
+   "why": "dato: el modelo detectado aparece escrito"
+  },
+  {
+   "t_word": 7.12,
+   "word": "from",
+   "element": "Punch-in «from» / «space» (itálica)",
+   "category": "face_full_word",
+   "offset_s": 0.26,
+   "why": "énfasis"
+  },
+  {
+   "t_word": 8.28,
+   "word": "The",
+   "element": "Cuadrícula de imágenes satelitales",
+   "category": "split_graphic",
+   "offset_s": 0.02,
+   "why": "metáfora: empresa = banco de imágenes"
+  },
+  {
+   "t_word": 9.68,
+   "word": "Planet",
+   "element": "Logo «planet.» sobre el horizonte",
+   "category": "split_graphic",
+   "offset_s": 0.12,
+   "why": "literal: nombre → logo"
+  },
+  {
+   "t_word": 10.92,
+   "word": "And",
+   "element": "Render despiezado + rótulo «Pelican 4» a pantalla completa",
+   "category": "pip_broll",
+   "offset_s": 0.01,
+   "why": "literal: nombre del producto"
+  },
+  {
+   "t_word": 11.98,
+   "word": "can",
+   "element": "Satélite de frente centrado",
+   "category": "pip_broll",
+   "offset_s": 0.07,
+   "why": "énfasis: pausa antes de la explicación"
+  },
+  {
+   "t_word": 13.88,
+   "word": "See,",
+   "element": "Animación 3D de satélite dorado",
+   "category": "split_graphic",
+   "offset_s": 0.01,
+   "why": "cambio de tema: explicación"
+  },
+  {
+   "t_word": 15.16,
+   "word": "photo",
+   "element": "Cono de luz azul desde el satélite",
+   "category": "split_graphic",
+   "offset_s": -0.16,
+   "why": "literal: «takes a photo»"
+  },
+  {
+   "t_word": 17.44,
+   "word": "to",
+   "element": "Haz rosado hacia la Tierra",
+   "category": "split_graphic",
+   "offset_s": 0.06,
+   "why": "literal: «beams it back down to Earth»"
+  },
+  {
+   "t_word": 18.8,
+   "word": "But",
+   "element": "Punch-in «But Planet satellites have»",
+   "category": "face_full_word",
+   "offset_s": -0.03,
+   "why": "cambio de tema: contraste"
+  },
+  {
+   "t_word": 19.86,
+   "word": "AI",
+   "element": "Interior 3D blanco del satélite",
+   "category": "split_graphic",
+   "offset_s": 0.12,
+   "why": "literal: «AI chips on board»"
+  },
+  {
+   "t_word": 21.82,
+   "word": "read",
+   "element": "Imagen satelital industrial con números",
+   "category": "split_broll",
+   "offset_s": -0.01,
+   "why": "literal: «read and process the images»"
+  },
+  {
+   "t_word": 23.94,
+   "word": "in",
+   "element": "Satélite sobre nubes",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "literal: «in orbit»"
+  },
+  {
+   "t_word": 24.58,
+   "word": "And",
+   "element": "Punch-in «And this gives them some extreme advantages»",
+   "category": "face_full_word",
+   "offset_s": -0.01,
+   "why": "cambio de tema: ventajas"
+  },
+  {
+   "t_word": 26.46,
+   "word": "For",
+   "element": "Gráfico azul de la lente",
+   "category": "split_graphic",
+   "offset_s": 0.02,
+   "why": "transición: «For example»"
+  },
+  {
+   "t_word": 26.96,
+   "word": "they",
+   "element": "Zoom continuo desde las nubes",
+   "category": "split_broll",
+   "offset_s": 0.03,
+   "why": "literal: «take a single snapshot»"
+  },
+  {
+   "t_word": 29.14,
+   "word": "and",
+   "element": "Base aérea con recuadros amarillos + contador",
+   "category": "split_graphic",
+   "offset_s": 0.14,
+   "why": "literal: «identify how many planes»"
+  },
+  {
+   "t_word": 32.28,
+   "word": "in",
+   "element": "Punch-in «in half a second»",
+   "category": "face_full_word",
+   "offset_s": 0.09,
+   "why": "énfasis: dato de velocidad"
+  },
+  {
+   "t_word": 33.32,
+   "word": "They",
+   "element": "«NAVAL BASE» con recuadros sobre barcos",
+   "category": "split_graphic",
+   "offset_s": 0.01,
+   "why": "literal: «military positioning»"
+  },
+  {
+   "t_word": 34.02,
+   "word": "real",
+   "element": "Petrolero con ficha «OIL TANKER course/speed/heading»",
+   "category": "split_graphic",
+   "offset_s": -0.12,
+   "why": "dato: «real-time data»"
+  },
+  {
+   "t_word": 35.6,
+   "word": "positioning,",
+   "element": "Zoom continuo hacia el Walmart",
+   "category": "split_broll",
+   "offset_s": 0.3,
+   "why": "literal: «Walmart parking lot» (el zoom arranca 0,3 s después de «positioning»)"
+  },
+  {
+   "t_word": 38.12,
+   "word": "parking",
+   "element": "Recuadros blancos sobre cada coche",
+   "category": "split_graphic",
+   "offset_s": 0.48,
+   "why": "literal: «how many cars»"
+  },
+  {
+   "t_word": 40.24,
+   "word": "But",
+   "element": "Cara a pantalla completa con subtítulo pequeño",
+   "category": "aroll_plain",
+   "offset_s": 0.01,
+   "why": "cambio de tema: «the real innovation»"
+  },
+  {
+   "t_word": 41.76,
+   "word": "link",
+   "element": "Animación de dos satélites enlazados + cara en círculo",
+   "category": "pip_broll",
+   "offset_s": 0.03,
+   "why": "literal: «link two… together»"
+  },
+  {
+   "t_word": 44.38,
+   "word": "One",
+   "element": "Zoom-out a la lente del satélite",
+   "category": "pip_broll",
+   "offset_s": 0.0,
+   "why": "literal: «one satellite… wide-angle camera»"
+  },
+  {
+   "t_word": 45.52,
+   "word": "the",
+   "element": "Barrido aéreo rápido de costa y selva",
+   "category": "pip_broll",
+   "offset_s": 0.03,
+   "why": "literal: «wide-angle»/«constantly looking»"
+  },
+  {
+   "t_word": 48.06,
+   "word": "strips",
+   "element": "Franjas de teselas sobre la Tierra",
+   "category": "pip_broll",
+   "offset_s": 0.03,
+   "why": "literal: «strips of the Earth»"
+  },
+  {
+   "t_word": 51.24,
+   "word": "every",
+   "element": "Mosaico agrícola",
+   "category": "pip_broll",
+   "offset_s": 0.02,
+   "why": "literal: «every day»"
+  },
+  {
+   "t_word": 53.04,
+   "word": "Then",
+   "element": "Mapa verde con puntos rosas",
+   "category": "split_graphic",
+   "offset_s": -0.03,
+   "why": "literal: «change data»"
+  },
+  {
+   "t_word": 55.18,
+   "word": "the",
+   "element": "Segundo satélite sobre nubes",
+   "category": "split_broll",
+   "offset_s": -0.12,
+   "why": "literal: «the second satellite»"
+  },
+  {
+   "t_word": 56.18,
+   "word": "exactly",
+   "element": "Cuadrícula etiquetada con zoom a una tesela",
+   "category": "split_graphic",
+   "offset_s": 0.08,
+   "why": "literal: «where to zoom in»"
+  },
+  {
+   "t_word": 58.98,
+   "word": "Together,",
+   "element": "Rectángulo blanco → recuadros rojos en el puerto",
+   "category": "split_graphic",
+   "offset_s": -0.05,
+   "why": "literal: combinación gran angular + detalle"
+  },
+  {
+   "t_word": 61.2,
+   "word": "security",
+   "element": "Lente del satélite en la oscuridad",
+   "category": "split_broll",
+   "offset_s": -0.01,
+   "why": "metáfora: ojo vigilante"
+  },
+  {
+   "t_word": 63.28,
+   "word": "And",
+   "element": "Cara a pantalla completa 4,2 s",
+   "category": "aroll_plain",
+   "offset_s": -0.01,
+   "why": "cambio de tema: objeción de privacidad"
+  },
+  {
+   "t_word": 67.48,
+   "word": "Imagine",
+   "element": "Tierra nocturna con constelación",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "cambio de tema: beneficios"
+  },
+  {
+   "t_word": 70.52,
+   "word": "like",
+   "element": "Nubes de tormenta → lente con incendio (71.20) → incendio (72.41)",
+   "category": "split_broll",
+   "offset_s": 0.01,
+   "why": "literal: «hurricanes or wildfires»"
+  },
+  {
+   "t_word": 73.5,
+   "word": "The",
+   "element": "Zoom por nubes hasta un valle",
+   "category": "split_broll",
+   "offset_s": -0.01,
+   "why": "metáfora: el futuro de la imagen satelital"
+  },
+  {
+   "t_word": 75.88,
+   "word": "And",
+   "element": "Globo con órbitas → mosaico alrededor de la Tierra (77.08)",
+   "category": "split_graphic",
+   "offset_s": -0.01,
+   "why": "literal: «real-time detailed maps of the world»"
+  },
+  {
+   "t_word": 79.58,
+   "word": "in",
+   "element": "Punch-in final «in» / «seconds» (itálica)",
+   "category": "title_cta",
+   "offset_s": 0.33,
+   "why": "énfasis: cierre"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 0.1,
+   "from": "v07_s01 (hook_banner)",
+   "to": "v07_s01 (corte interno de la mitad superior/fondo)",
+   "type": "crossfade",
+   "frames": 4,
+   "detail": "Apertura: la mitad superior pasa de un plano azul a negro y el satélite se ilumina (fundido 0.0–0.5)"
+  },
+  {
+   "t": 1.13,
+   "from": "v07_s01 (hook_banner)",
+   "to": "v07_s01 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: satélite → Tierra con franjas"
+  },
+  {
+   "t": 1.67,
+   "from": "v07_s01 (hook_banner)",
+   "to": "v07_s01 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: órbita → zoom por nubes"
+  },
+  {
+   "t": 2.84,
+   "from": "v07_s01 (hook_banner)",
+   "to": "v07_s01 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: terreno numerado → globo reticulado"
+  },
+  {
+   "t": 3.59,
+   "from": "v07_s01 (hook_banner)",
+   "to": "v07_s02 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → satélite a pantalla completa con cara en círculo (desaparece la franja)"
+  },
+  {
+   "t": 4.17,
+   "from": "v07_s02 (pip_broll)",
+   "to": "v07_s03 (pip_broll)",
+   "type": "zoom-blur",
+   "frames": 5,
+   "detail": "Fondo: satélite → imagen de ciudad que entra con zoom-in rápido (4.17–4.5)"
+  },
+  {
+   "t": 6.38,
+   "from": "v07_s03 (pip_broll)",
+   "to": "v07_s04 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Fondo: avenida → aparcamiento cenital"
+  },
+  {
+   "t": 7.38,
+   "from": "v07_s04 (pip_broll)",
+   "to": "v07_s05 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "PiP → cara completa («from space»)"
+  },
+  {
+   "t": 8.3,
+   "from": "v07_s05 (face_full_word)",
+   "to": "v07_s06 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (cuadrícula)"
+  },
+  {
+   "t": 9.8,
+   "from": "v07_s06 (split_graphic)",
+   "to": "v07_s07 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: cuadrícula → horizonte con logo"
+  },
+  {
+   "t": 10.93,
+   "from": "v07_s07 (split_graphic)",
+   "to": "v07_s08 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → gráfico «Pelican 4» a pantalla completa con círculo"
+  },
+  {
+   "t": 12.05,
+   "from": "v07_s08 (pip_broll)",
+   "to": "v07_s09 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Fondo: «Pelican 4» → satélite de frente"
+  },
+  {
+   "t": 13.89,
+   "from": "v07_s09 (pip_broll)",
+   "to": "v07_s10 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "PiP → dividida (animación 3D)"
+  },
+  {
+   "t": 15.93,
+   "from": "v07_s10 (split_graphic)",
+   "to": "v07_s11 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: cambio de ángulo del satélite"
+  },
+  {
+   "t": 18.77,
+   "from": "v07_s11 (split_graphic)",
+   "to": "v07_s12 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa"
+  },
+  {
+   "t": 19.98,
+   "from": "v07_s12 (face_full_word)",
+   "to": "v07_s13 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (interior blanco)"
+  },
+  {
+   "t": 21.81,
+   "from": "v07_s13 (split_graphic)",
+   "to": "v07_s14 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: interior → imagen industrial"
+  },
+  {
+   "t": 22.69,
+   "from": "v07_s14 (split_broll)",
+   "to": "v07_s14 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: zona industrial → puerto"
+  },
+  {
+   "t": 23.94,
+   "from": "v07_s14 (split_broll)",
+   "to": "v07_s15 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: puerto → satélite sobre nubes"
+  },
+  {
+   "t": 24.57,
+   "from": "v07_s15 (split_broll)",
+   "to": "v07_s16 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa"
+  },
+  {
+   "t": 26.48,
+   "from": "v07_s16 (face_full_word)",
+   "to": "v07_s17 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (gráfico azul)"
+  },
+  {
+   "t": 26.99,
+   "from": "v07_s17 (split_graphic)",
+   "to": "v07_s18 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: gráfico azul → zoom por nubes"
+  },
+  {
+   "t": 29.28,
+   "from": "v07_s18 (split_broll)",
+   "to": "v07_s19 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: zoom → base aérea"
+  },
+  {
+   "t": 32.37,
+   "from": "v07_s19 (split_graphic)",
+   "to": "v07_s20 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa"
+  },
+  {
+   "t": 33.33,
+   "from": "v07_s20 (face_full_word)",
+   "to": "v07_s21 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (base naval)"
+  },
+  {
+   "t": 35.9,
+   "from": "v07_s21 (split_graphic)",
+   "to": "v07_s22 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: petrolero → vista regional (inicio del zoom al Walmart)"
+  },
+  {
+   "t": 40.25,
+   "from": "v07_s23 (split_graphic)",
+   "to": "v07_s24 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa con subtítulo pequeño"
+  },
+  {
+   "t": 41.79,
+   "from": "v07_s24 (aroll_plain)",
+   "to": "v07_s25 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → animación 3D a pantalla completa con círculo"
+  },
+  {
+   "t": 44.38,
+   "from": "v07_s25 (pip_broll)",
+   "to": "v07_s26 (pip_broll)",
+   "type": "zoom-blur",
+   "frames": 5,
+   "detail": "Fondo: satélites enlazados → nubes que se alejan hasta quedar dentro de la lente (zoom-out 44.4–44.7)"
+  },
+  {
+   "t": 45.55,
+   "from": "v07_s26 (pip_broll)",
+   "to": "v07_s27 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Fondo: lente → costa turquesa"
+  },
+  {
+   "t": 46.3,
+   "from": "v07_s27 (pip_broll)",
+   "to": "v07_s27 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Fondo: costa → selva (inicio del barrido a saltos)"
+  },
+  {
+   "t": 48.09,
+   "from": "v07_s27 (pip_broll)",
+   "to": "v07_s28 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Fondo: selva → Tierra con franjas"
+  },
+  {
+   "t": 50.26,
+   "from": "v07_s28 (pip_broll)",
+   "to": "v07_s28 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Fondo: franjas → globo"
+  },
+  {
+   "t": 51.26,
+   "from": "v07_s28 (pip_broll)",
+   "to": "v07_s29 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Fondo: globo → mosaico agrícola"
+  },
+  {
+   "t": 53.01,
+   "from": "v07_s29 (pip_broll)",
+   "to": "v07_s30 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "PiP → dividida (mapa verde)"
+  },
+  {
+   "t": 55.06,
+   "from": "v07_s30 (split_graphic)",
+   "to": "v07_s31 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: falso color → segundo satélite"
+  },
+  {
+   "t": 56.26,
+   "from": "v07_s31 (split_broll)",
+   "to": "v07_s32 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: satélite → cuadrícula etiquetada"
+  },
+  {
+   "t": 57.93,
+   "from": "v07_s32 (split_graphic)",
+   "to": "v07_s32 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: salto de zoom a una tesela"
+  },
+  {
+   "t": 58.93,
+   "from": "v07_s32 (split_graphic)",
+   "to": "v07_s33 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: tesela → costa con rectángulo"
+  },
+  {
+   "t": 59.81,
+   "from": "v07_s33 (split_graphic)",
+   "to": "v07_s33 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: costa → puerto con recuadros rojos"
+  },
+  {
+   "t": 61.19,
+   "from": "v07_s33 (split_graphic)",
+   "to": "v07_s34 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: puerto → lente del satélite"
+  },
+  {
+   "t": 63.27,
+   "from": "v07_s34 (split_broll)",
+   "to": "v07_s35 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa (4,2 s)"
+  },
+  {
+   "t": 67.48,
+   "from": "v07_s35 (aroll_plain)",
+   "to": "v07_s36 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (Tierra nocturna)"
+  },
+  {
+   "t": 69.32,
+   "from": "v07_s36 (split_broll)",
+   "to": "v07_s36 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: constelación → nubes desde órbita"
+  },
+  {
+   "t": 70.53,
+   "from": "v07_s36 (split_broll)",
+   "to": "v07_s37 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: nubes → satélite sobre tormenta"
+  },
+  {
+   "t": 71.2,
+   "from": "v07_s37 (split_broll)",
+   "to": "v07_s37 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: tormenta → lente con incendio"
+  },
+  {
+   "t": 72.41,
+   "from": "v07_s37 (split_broll)",
+   "to": "v07_s37 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: lente → incendio forestal"
+  },
+  {
+   "t": 73.49,
+   "from": "v07_s37 (split_broll)",
+   "to": "v07_s38 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: incendio → zoom por nubes (score de escena bajo, 0.13)"
+  },
+  {
+   "t": 75.87,
+   "from": "v07_s38 (split_broll)",
+   "to": "v07_s39 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: valle → globo con órbitas"
+  },
+  {
+   "t": 77.08,
+   "from": "v07_s39 (split_graphic)",
+   "to": "v07_s39 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: globo → mosaico alrededor de la Tierra"
+  },
+  {
+   "t": 79.91,
+   "from": "v07_s39 (split_graphic)",
+   "to": "v07_s40 (title_cta)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa (palabra final)"
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.27,
+   "fx": "slide",
+   "detail": "Franja roja «THE FUTURE / AI SATELLITES» entra desde la derecha (asoma a 0.27, colocada a ≈1.0)"
+  },
+  {
+   "t": 5.0,
+   "fx": "pop",
+   "detail": "Recuadros de detección naranjas/blancos aparecen sobre coches de uno en uno"
+  },
+  {
+   "t": 6.9,
+   "fx": "máscara",
+   "detail": "Etiqueta «Hyundai Elantra» se despliega a la derecha del recuadro blanco"
+  },
+  {
+   "t": 7.6,
+   "fx": "cambio de fuente",
+   "detail": "«space» en serif itálica; igual «half» (32.5) y «seconds» (80.1)"
+  },
+  {
+   "t": 10.3,
+   "fx": "blur-in",
+   "detail": "Logo «planet.»: círculo turquesa primero, texto con fundido después"
+  },
+  {
+   "t": 11.0,
+   "fx": "slide",
+   "detail": "Rótulo «Pelican 4» sube ~40 px y se asienta en ≈0,3 s"
+  },
+  {
+   "t": 29.4,
+   "fx": "pop",
+   "detail": "Recuadros amarillos sobre aviones uno a uno; contador del HUD «AIRBASE» subiendo"
+  },
+  {
+   "t": 34.3,
+   "fx": "write-on por palabra",
+   "detail": "Ficha «OIL TANKER»: coordenadas, course, speed, heading se escriben línea a línea"
+  },
+  {
+   "t": 38.6,
+   "fx": "pop",
+   "detail": "Recuadros blancos con glow sobre cada coche del aparcamiento"
+  },
+  {
+   "t": 53.2,
+   "fx": "pop",
+   "detail": "Puntos y líneas rosas que se encienden sobre el mapa verde"
+  },
+  {
+   "t": 77.08,
+   "fx": "escala",
+   "detail": "Teselas que entran en cadena formando un mosaico alrededor de la Tierra"
+  }
+ ],
+ "camera": [
+  {
+   "t": 1.67,
+   "move": "push-in lento",
+   "scale_or_dir": "zoom continuo por nubes hasta el terreno",
+   "dur_s": 1.2
+  },
+  {
+   "t": 4.17,
+   "move": "punch-in",
+   "scale_or_dir": "imagen de ciudad: zoom-in rápido",
+   "dur_s": 0.3
+  },
+  {
+   "t": 7.38,
+   "move": "punch-in",
+   "scale_or_dir": "A-roll 1.0→≈1.9 por corte (no animado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 8.3,
+   "move": "zoom-out",
+   "scale_or_dir": "cuadrícula en 3 escalones (8.30, 8.55, 9.13)",
+   "dur_s": 0.9
+  },
+  {
+   "t": 26.99,
+   "move": "push-in lento",
+   "scale_or_dir": "zoom satelital continuo nubes → terreno",
+   "dur_s": 2.3
+  },
+  {
+   "t": 35.9,
+   "move": "push-in lento",
+   "scale_or_dir": "zoom satelital continuo región → Walmart → aparcamiento",
+   "dur_s": 2.8
+  },
+  {
+   "t": 44.38,
+   "move": "zoom-out",
+   "scale_or_dir": "nubes → lente del satélite",
+   "dur_s": 0.3
+  },
+  {
+   "t": 46.3,
+   "move": "pan",
+   "scale_or_dir": "barrido aéreo a saltos (11 micro-cortes de ~0,17 s)",
+   "dur_s": 1.8
+  },
+  {
+   "t": 61.19,
+   "move": "push-in lento",
+   "scale_or_dir": "lente del satélite en la oscuridad",
+   "dur_s": 2.0
+  },
+  {
+   "t": 73.49,
+   "move": "push-in lento",
+   "scale_or_dir": "zoom continuo por nubes hasta un valle",
+   "dur_s": 2.4
+  }
+ ],
+ "rhythm": {
+  "events_per_10s": [
+   14,
+   10,
+   8,
+   6,
+   6,
+   9,
+   4,
+   7
+  ],
+  "avg_hold_text_s": 0.55,
+  "notes": "derived: 51 transiciones en 80,8 s (1 cada 1,6 s) + 11 micro-cortes de barrido (46.3–48.1). La mitad superior/fondo cambia cada 0,5–3,1 s (mediana ≈1,5 s). Punch-in con palabra grande: 7.4, 18.8, 24.6, 32.4 y cierre 79.9 (cada 6–11 s en la primera mitad); luego cara con subtítulo pequeño a 40.3 y 63.3. Tres bloques a pantalla completa con cara en círculo: 3.6–7.4, 10.9–13.9 y 41.8–53.0 (11 s seguidos). Sonido: desconocido."
+ },
+ "typography": "observed: subtítulo pequeño sans bold blanco tipo Inter (~28 px/720), con pastilla gris en pantalla completa; palabra grande sans bold blanca ~62 px con glow y clave en serif itálica («space», «half», «seconds»); franja roja con sans extendida ultra pesada MAYÚSCULAS blanco + amarillo-naranja; rótulo «Pelican 4» sans bold ~80 px; HUD de detección en sans light/bold blanca y etiquetas mono-espaciadas. Nombres exactos: desconocidos.",
+ "textures": "observed: sin grano ni papel. Recuadros de detección (naranja, amarillo, blanco con glow, rojo) sobre imagen satelital; trama de puntos en el fondo de «Pelican 4»; falso color rojo en 53.8–55.1; desenfoque de movimiento en zooms y barridos; glow blanco en palabras grandes.",
+ "distinct": [
+  "Motivo recurrente del zoom satelital continuo (1.67, 26.99, 35.9, 73.49): la cámara baja desde las nubes hasta el objeto nombrado",
+  "Capas de detección dibujadas sobre la imagen (recuadros + HUD con contador): «Hyundai Elantra» 6.9, «AIRBASE 08» 29.3–32.4, «OIL TANKER» 33.9–35.9, coches en blanco 38.6",
+  "Bloque de 11 s a pantalla completa con cara en círculo (41.8–53.0) para la explicación técnica de los dos satélites",
+  "Objeción de privacidad resuelta con 4,2 s de cara sola y subtítulo pequeño (63.3–67.5), el plano más largo del video",
+  "Cierre con palabra grande en itálica («seconds») en vez de CTA; franja roja de 3,6 s en el hook"
+ ]
+}

@@ -1,0 +1,1159 @@
+{
+ "triggers": [
+  {
+   "t_word": 1.22,
+   "word": "building",
+   "element": "multitud de robots humanoides blancos/negros (plano picado)",
+   "category": "hook_banner",
+   "offset_s": -0.09,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 2.14,
+   "word": "every",
+   "element": "robots en fila diagonal, caras negras con anillo azul luminoso",
+   "category": "hook_banner",
+   "offset_s": 0.24,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 3.74,
+   "word": "And",
+   "element": "Cara completa con 'And' → 'the' → 'crazy' → 'part' → 'is'.",
+   "category": "face_full_word",
+   "offset_s": 0.01,
+   "why": "énfasis / cambio de tema (cara + palabra)"
+  },
+  {
+   "t_word": 4.48,
+   "word": "each",
+   "element": "tarjeta: espalda de robot con módulo de batería y luces azules",
+   "category": "full_graphic",
+   "offset_s": 0.19,
+   "why": "literal a pantalla completa"
+  },
+  {
+   "t_word": 5.5,
+   "word": "is",
+   "element": "tarjeta: robots caminando hacia cámara en un pasillo oscuro",
+   "category": "full_graphic",
+   "offset_s": 0.13,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 6.64,
+   "word": "another",
+   "element": "tarjeta: robot haciendo saludo militar, 'UBTECH' en el pecho",
+   "category": "full_graphic",
+   "offset_s": -0.13,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 7.48,
+   "word": "This",
+   "element": "Cara completa con subtítulo pequeño 'This is the / latest project'.",
+   "category": "aroll_plain",
+   "offset_s": -0.01,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 8.48,
+   "word": "from",
+   "element": "puerta corredera que se abre revelando al robot de frente",
+   "category": "split_broll",
+   "offset_s": 0.11,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 10.16,
+   "word": "And",
+   "element": "robots de espaldas en nave industrial simétrica",
+   "category": "split_broll",
+   "offset_s": -0.02,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 11.46,
+   "word": "industrial",
+   "element": "vista aérea: cuadrícula de cientos de robots",
+   "category": "split_broll",
+   "offset_s": 0.18,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 12.14,
+   "word": "humanoid",
+   "element": "robots caminando entre otros (travelling)",
+   "category": "split_broll",
+   "offset_s": 0.29,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 13.86,
+   "word": "On",
+   "element": "Cara completa con subtítulo 'On the floor / there are / humanoid robots'.",
+   "category": "aroll_plain",
+   "offset_s": -0.01,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 15.4,
+   "word": "walking",
+   "element": "robot con base de ruedas transportando una caja gris",
+   "category": "split_broll",
+   "offset_s": 0.12,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 16.08,
+   "word": "moving",
+   "element": "robots humanoides junto a carros azules",
+   "category": "split_broll",
+   "offset_s": 0.1,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 17.2,
+   "word": "materials.",
+   "element": "robot levantando una caja gris en una línea",
+   "category": "split_broll",
+   "offset_s": -0.1,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 17.92,
+   "word": "Around",
+   "element": "Cara completa con subtítulo 'Around / the edges'.",
+   "category": "aroll_plain",
+   "offset_s": 0.01,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 18.9,
+   "word": "giant",
+   "element": "línea de montaje con brazo robótico naranja (plano general)",
+   "category": "split_broll",
+   "offset_s": -0.05,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 20.44,
+   "word": "spinning",
+   "element": "brazo naranja más cerca, trabajando",
+   "category": "split_broll",
+   "offset_s": -0.09,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 21.52,
+   "word": "2",
+   "element": "bastidores con robots colgados en fila",
+   "category": "split_broll",
+   "offset_s": 0.17,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 23.34,
+   "word": "robot.",
+   "element": "robots caminando en formación",
+   "category": "split_broll",
+   "offset_s": -0.15,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 23.88,
+   "word": "The",
+   "element": "Cara completa con subtítulo 'The whole place / sits on'.",
+   "category": "aroll_plain",
+   "offset_s": -0.02,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 24.78,
+   "word": "two",
+   "element": "piernas de robot caminando (b-roll gris azulado) como fondo del rótulo '2 ½ Football Fields'",
+   "category": "split_graphic",
+   "offset_s": 0.12,
+   "why": "dato/concepto visualizado"
+  },
+  {
+   "t_word": 25.1,
+   "word": "and",
+   "element": "Rótulo '2 ½ Football / Fields' sobre el b-roll",
+   "category": "split_graphic",
+   "offset_s": -0.05,
+   "why": "dato de escala"
+  },
+  {
+   "t_word": 26.58,
+   "word": "industrial",
+   "element": "fila lateral de robots en formación (paneo)",
+   "category": "split_broll",
+   "offset_s": -0.1,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 28.22,
+   "word": "it",
+   "element": "Cara completa con subtítulo 'and it works / basically / like a car / plant,'.",
+   "category": "aroll_plain",
+   "offset_s": -0.07,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 30.04,
+   "word": "except",
+   "element": "portón abierto: filas de robots avanzando hacia cámara",
+   "category": "split_broll",
+   "offset_s": 0.03,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 31.24,
+   "word": "walk",
+   "element": "robot saliendo andando de un contenedor gris",
+   "category": "split_broll",
+   "offset_s": 0.12,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 32.54,
+   "word": "But",
+   "element": "Cara completa con 9 palabras una a una ('But here's the wildest part about this whole project'); 'wildest' en serif itálica.",
+   "category": "face_full_word",
+   "offset_s": -0.01,
+   "why": "énfasis / cambio de tema (cara + palabra)"
+  },
+  {
+   "t_word": 33.22,
+   "word": "part",
+   "element": "'wildest' en serif itálica sobre la cara",
+   "category": "face_full_word",
+   "offset_s": -0.02,
+   "why": "énfasis: superlativo"
+  },
+  {
+   "t_word": 34.36,
+   "word": "These",
+   "element": "robot agachado cogiendo una caja de un palé",
+   "category": "split_broll",
+   "offset_s": -0.03,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 35.54,
+   "word": "never",
+   "element": "robot de frente tras una caja gris, anillo azul en la cara",
+   "category": "split_broll",
+   "offset_s": 0.2,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 37.34,
+   "word": "Because",
+   "element": "Cara completa con subtítulo 'because / instead / of having / to charge up'.",
+   "category": "aroll_plain",
+   "offset_s": -0.01,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 38.84,
+   "word": "like",
+   "element": "robot inmóvil en base de carga entre ventanales",
+   "category": "split_broll",
+   "offset_s": 0.07,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 39.98,
+   "word": "these",
+   "element": "Cara completa con subtítulo 'these guys have' (0.7 s).",
+   "category": "aroll_plain",
+   "offset_s": -0.02,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 40.58,
+   "word": "two",
+   "element": "filas simétricas de robots en la nave",
+   "category": "split_broll",
+   "offset_s": 0.09,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 41.46,
+   "word": "battery",
+   "element": "macro: espalda del robot con el módulo de baterías",
+   "category": "split_broll",
+   "offset_s": 0.16,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 41.9,
+   "word": "packs",
+   "element": "Macro del módulo de baterías",
+   "category": "split_broll",
+   "offset_s": -0.28,
+   "why": "literal: battery packs"
+  },
+  {
+   "t_word": 42.3,
+   "word": "in",
+   "element": "vista aérea de robots caminando",
+   "category": "split_broll",
+   "offset_s": 0.2,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 43.4,
+   "word": "When",
+   "element": "Cara completa con subtítulo 'When one battery / is running low, / they just'.",
+   "category": "aroll_plain",
+   "offset_s": 0.02,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 44.78,
+   "word": "walk",
+   "element": "piernas de robot caminando por la nave, plano bajo lateral",
+   "category": "split_broll",
+   "offset_s": 0.1,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 46.46,
+   "word": "twist",
+   "element": "robot de perfil ante la estación; rótulo incrustado del vídeo original",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 46.74,
+   "word": "their",
+   "element": "Giro de torso del robot (acción dentro del plano continuo)",
+   "category": "split_broll",
+   "offset_s": 0.26,
+   "why": "literal: twist their torso"
+  },
+  {
+   "t_word": 48.16,
+   "word": "unload",
+   "element": "mismo plano: gira el torso y lleva el brazo a la espalda",
+   "category": "split_broll",
+   "offset_s": -0.24,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 48.16,
+   "word": "unload",
+   "element": "El brazo extrae la batería (dentro del plano continuo)",
+   "category": "split_broll",
+   "offset_s": 0.14,
+   "why": "literal: unload"
+  },
+  {
+   "t_word": 50.0,
+   "word": "reload",
+   "element": "mismo plano: extrae la batería y la inserta en la estación",
+   "category": "split_broll",
+   "offset_s": -0.16,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 50.0,
+   "word": "reload",
+   "element": "Inserta/recoge batería (dentro del plano continuo)",
+   "category": "split_broll",
+   "offset_s": 0.1,
+   "why": "literal: reload"
+  },
+  {
+   "t_word": 54.54,
+   "word": "And",
+   "element": "Cara completa con 10 palabras una a una ('And what that means is that this factory can run').",
+   "category": "face_full_word",
+   "offset_s": 0.01,
+   "why": "énfasis / cambio de tema (cara + palabra)"
+  },
+  {
+   "t_word": 56.68,
+   "word": "24",
+   "element": "robots caminando en masa hacia cámara",
+   "category": "split_broll",
+   "offset_s": 0.21,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 57.8,
+   "word": "without",
+   "element": "robot trabajando en una cinta transportadora",
+   "category": "split_broll",
+   "offset_s": 0.17,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 58.76,
+   "word": "the",
+   "element": "macro de caja gris moviéndose",
+   "category": "split_broll",
+   "offset_s": 0.01,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 60.28,
+   "word": "take",
+   "element": "robot de cerca, 'UBTECH' en el pecho",
+   "category": "split_broll",
+   "offset_s": -0.08,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 61.24,
+   "word": "I'm",
+   "element": "Cara completa con subtítulo 'I'm telling you, / robots building / other robots'.",
+   "category": "aroll_plain",
+   "offset_s": -0.05,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 63.32,
+   "word": "to",
+   "element": "fila de robots con anillo azul (el encuadre se acerca)",
+   "category": "split_broll",
+   "offset_s": -0.13,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 65.26,
+   "word": "But",
+   "element": "vista aérea de cuadrícula de robots caminando",
+   "category": "split_broll",
+   "offset_s": -0.03,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 67.06,
+   "word": "working",
+   "element": "fila lateral; un robot levanta el brazo",
+   "category": "split_broll",
+   "offset_s": 0.17,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 68.48,
+   "word": "a",
+   "element": "masa de robots caminando en la nave",
+   "category": "split_broll",
+   "offset_s": -0.12,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 70.28,
+   "word": "It",
+   "element": "Cara completa con subtítulo 'It seems / crazy now, / but this type / of production'.",
+   "category": "aroll_plain",
+   "offset_s": 0.0,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 72.18,
+   "word": "robots",
+   "element": "rótulo 'UBTECH' con fila de robots (repite el plano 0.0)",
+   "category": "split_broll",
+   "offset_s": 0.02,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 72.92,
+   "word": "other",
+   "element": "robots avanzando hacia cámara en la nave",
+   "category": "split_broll",
+   "offset_s": 0.11,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 73.78,
+   "word": "is",
+   "element": "primer plano de cabezas negras de robots en fila",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 75.32,
+   "word": "the",
+   "element": "Cierre: cara completa con subtítulo pequeño 'around / the globe.' Sin CTA ni gráfico.",
+   "category": "title_cta",
+   "offset_s": -0.29,
+   "why": "cierre"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 1.13,
+   "from": "v12_s01 clip 1",
+   "to": "v12_s01 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: multitud de robots humanoides blancos/negros (plano picado)"
+  },
+  {
+   "t": 2.38,
+   "from": "v12_s01 clip 2",
+   "to": "v12_s01 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: robots en fila diagonal, caras negras con anillo azul luminoso"
+  },
+  {
+   "t": 3.75,
+   "from": "v12_s01 (hook_banner)",
+   "to": "v12_s02 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con 'And' → 'the' → 'crazy' → 'part' → 'is'."
+  },
+  {
+   "t": 4.67,
+   "from": "v12_s02 (face_full_word)",
+   "to": "v12_s03 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: tarjeta: espalda de robot con módulo de batería y luces azules"
+  },
+  {
+   "t": 5.63,
+   "from": "v12_s03 clip 1",
+   "to": "v12_s03 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: tarjeta: robots caminando hacia cámara en un pasillo oscuro"
+  },
+  {
+   "t": 6.51,
+   "from": "v12_s03 clip 2",
+   "to": "v12_s03 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: tarjeta: robot haciendo saludo militar, 'UBTECH' en el pecho"
+  },
+  {
+   "t": 7.47,
+   "from": "v12_s03 (full_graphic)",
+   "to": "v12_s04 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo pequeño 'This is the / latest project'."
+  },
+  {
+   "t": 8.59,
+   "from": "v12_s04 (aroll_plain)",
+   "to": "v12_s05 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte a clip cuya propia acción es un wipe natural: la puerta corredera se abre y descubre al robot (≈1 s)."
+  },
+  {
+   "t": 10.14,
+   "from": "v12_s05 (split_broll)",
+   "to": "v12_s06 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: robots de espaldas en nave industrial simétrica"
+  },
+  {
+   "t": 11.64,
+   "from": "v12_s06 clip 1",
+   "to": "v12_s06 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: vista aérea: cuadrícula de cientos de robots"
+  },
+  {
+   "t": 12.43,
+   "from": "v12_s06 clip 2",
+   "to": "v12_s06 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: robots caminando entre otros (travelling)"
+  },
+  {
+   "t": 13.85,
+   "from": "v12_s06 (split_broll)",
+   "to": "v12_s07 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'On the floor / there are / humanoid robots'."
+  },
+  {
+   "t": 15.52,
+   "from": "v12_s07 (aroll_plain)",
+   "to": "v12_s08 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: robot con base de ruedas transportando una caja gris"
+  },
+  {
+   "t": 16.18,
+   "from": "v12_s08 clip 1",
+   "to": "v12_s08 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: robots humanoides junto a carros azules"
+  },
+  {
+   "t": 17.1,
+   "from": "v12_s08 clip 2",
+   "to": "v12_s08 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: robot levantando una caja gris en una línea"
+  },
+  {
+   "t": 17.93,
+   "from": "v12_s08 (split_broll)",
+   "to": "v12_s09 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'Around / the edges'."
+  },
+  {
+   "t": 18.85,
+   "from": "v12_s09 (aroll_plain)",
+   "to": "v12_s10 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: línea de montaje con brazo robótico naranja (plano general)"
+  },
+  {
+   "t": 20.35,
+   "from": "v12_s10 clip 1",
+   "to": "v12_s10 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: brazo naranja más cerca, trabajando"
+  },
+  {
+   "t": 21.69,
+   "from": "v12_s10 clip 2",
+   "to": "v12_s10 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: bastidores con robots colgados en fila"
+  },
+  {
+   "t": 23.19,
+   "from": "v12_s10 clip 3",
+   "to": "v12_s10 clip 4",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: robots caminando en formación"
+  },
+  {
+   "t": 23.86,
+   "from": "v12_s10 (split_broll)",
+   "to": "v12_s11 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'The whole place / sits on'."
+  },
+  {
+   "t": 24.9,
+   "from": "v12_s11 (aroll_plain)",
+   "to": "v12_s12 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: piernas de robot caminando (b-roll gris azulado) como fondo del rótulo '2 ½ Football Fields'"
+  },
+  {
+   "t": 26.48,
+   "from": "v12_s12 (split_graphic)",
+   "to": "v12_s13 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: fila lateral de robots en formación (paneo)"
+  },
+  {
+   "t": 28.15,
+   "from": "v12_s13 (split_broll)",
+   "to": "v12_s14 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'and it works / basically / like a car / plant,'."
+  },
+  {
+   "t": 30.07,
+   "from": "v12_s14 (aroll_plain)",
+   "to": "v12_s15 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: portón abierto: filas de robots avanzando hacia cámara"
+  },
+  {
+   "t": 31.36,
+   "from": "v12_s15 clip 1",
+   "to": "v12_s15 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: robot saliendo andando de un contenedor gris"
+  },
+  {
+   "t": 32.53,
+   "from": "v12_s15 (split_broll)",
+   "to": "v12_s16 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con 9 palabras una a una ('But here's the wildest part about this whole project'); 'wildest' en "
+  },
+  {
+   "t": 34.33,
+   "from": "v12_s16 (face_full_word)",
+   "to": "v12_s17 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: robot agachado cogiendo una caja de un palé"
+  },
+  {
+   "t": 35.74,
+   "from": "v12_s17 clip 1",
+   "to": "v12_s17 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: robot de frente tras una caja gris, anillo azul en la cara"
+  },
+  {
+   "t": 37.33,
+   "from": "v12_s17 (split_broll)",
+   "to": "v12_s18 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'because / instead / of having / to charge up'."
+  },
+  {
+   "t": 38.91,
+   "from": "v12_s18 (aroll_plain)",
+   "to": "v12_s19 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: robot inmóvil en base de carga entre ventanales"
+  },
+  {
+   "t": 39.96,
+   "from": "v12_s19 (split_broll)",
+   "to": "v12_s20 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'these guys have' (0.7 s)."
+  },
+  {
+   "t": 40.67,
+   "from": "v12_s20 (aroll_plain)",
+   "to": "v12_s21 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: filas simétricas de robots en la nave"
+  },
+  {
+   "t": 41.62,
+   "from": "v12_s21 clip 1",
+   "to": "v12_s21 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: macro: espalda del robot con el módulo de baterías"
+  },
+  {
+   "t": 42.5,
+   "from": "v12_s21 clip 2",
+   "to": "v12_s21 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: vista aérea de robots caminando"
+  },
+  {
+   "t": 43.42,
+   "from": "v12_s21 (split_broll)",
+   "to": "v12_s22 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'When one battery / is running low, / they just'."
+  },
+  {
+   "t": 44.88,
+   "from": "v12_s22 (aroll_plain)",
+   "to": "v12_s23 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: piernas de robot caminando por la nave, plano bajo lateral"
+  },
+  {
+   "t": 46.46,
+   "from": "v12_s23 (split_broll)",
+   "to": "v12_s24 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: robot de perfil ante la estación; rótulo incrustado del vídeo original"
+  },
+  {
+   "t": 47.92,
+   "from": "v12_s24 clip 1",
+   "to": "v12_s24 clip 2",
+   "type": "continuo (sin corte)",
+   "frames": 0,
+   "detail": "Mismo plano de 8.1 s: el robot gira el torso (movimiento dentro del plano detectado como cambio)."
+  },
+  {
+   "t": 49.84,
+   "from": "v12_s24 clip 2",
+   "to": "v12_s24 clip 3",
+   "type": "continuo (sin corte)",
+   "frames": 0,
+   "detail": "Mismo plano: extrae la batería y la coloca en la estación."
+  },
+  {
+   "t": 54.55,
+   "from": "v12_s24 (split_broll)",
+   "to": "v12_s25 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con 10 palabras una a una ('And what that means is that this factory can run')."
+  },
+  {
+   "t": 56.89,
+   "from": "v12_s25 (face_full_word)",
+   "to": "v12_s26 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: robots caminando en masa hacia cámara"
+  },
+  {
+   "t": 57.97,
+   "from": "v12_s26 clip 1",
+   "to": "v12_s26 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: robot trabajando en una cinta transportadora"
+  },
+  {
+   "t": 58.77,
+   "from": "v12_s26 clip 2",
+   "to": "v12_s26 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: macro de caja gris moviéndose"
+  },
+  {
+   "t": 60.2,
+   "from": "v12_s26 clip 3",
+   "to": "v12_s26 clip 4",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: robot de cerca, 'UBTECH' en el pecho"
+  },
+  {
+   "t": 61.19,
+   "from": "v12_s26 (split_broll)",
+   "to": "v12_s27 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'I'm telling you, / robots building / other robots'."
+  },
+  {
+   "t": 63.19,
+   "from": "v12_s27 (aroll_plain)",
+   "to": "v12_s28 (split_broll)",
+   "type": "corte seco + zoom-in",
+   "frames": 6,
+   "detail": "Corte de cara a fila de robots; el encuadre se acerca rápido en ≈0.4 s (movimiento del clip o punch-in añadido: desconocido)."
+  },
+  {
+   "t": 65.23,
+   "from": "v12_s28 clip 1",
+   "to": "v12_s28 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: vista aérea de cuadrícula de robots caminando"
+  },
+  {
+   "t": 67.23,
+   "from": "v12_s28 clip 2",
+   "to": "v12_s28 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: fila lateral; un robot levanta el brazo"
+  },
+  {
+   "t": 68.36,
+   "from": "v12_s28 clip 3",
+   "to": "v12_s28 clip 4",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: masa de robots caminando en la nave"
+  },
+  {
+   "t": 70.28,
+   "from": "v12_s28 (split_broll)",
+   "to": "v12_s29 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'It seems / crazy now, / but this type / of production'."
+  },
+  {
+   "t": 72.2,
+   "from": "v12_s29 (aroll_plain)",
+   "to": "v12_s30 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: rótulo 'UBTECH' con fila de robots (repite el plano 0.0)"
+  },
+  {
+   "t": 73.03,
+   "from": "v12_s30 clip 1",
+   "to": "v12_s30 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: robots avanzando hacia cámara en la nave"
+  },
+  {
+   "t": 73.78,
+   "from": "v12_s30 clip 2",
+   "to": "v12_s30 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: primer plano de cabezas negras de robots en fila"
+  },
+  {
+   "t": 75.03,
+   "from": "v12_s30 (split_broll)",
+   "to": "v12_s31 (title_cta)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cierre: cara completa con subtítulo pequeño 'around / the globe.' Sin CTA ni gráfico."
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.0,
+   "fx": "slide",
+   "detail": "Franja roja 'CHINESE ROBOTS BUILD THEMSELVES' entra desde la derecha (0–≈1.5 s; en 0.0 s solo se lee 'CHIN/BUILD') y dura hasta 3.75."
+  },
+  {
+   "t": 3.75,
+   "fx": "pop",
+   "detail": "Palabra grande una a una sobre la cara (6 palabras en 0.92 s ≈ 0.15 s/palabra; derivado): sustitución instantánea, sans bold blanca con glow"
+  },
+  {
+   "t": 4.67,
+   "fx": "máscara (caja translúcida)",
+   "detail": "En las tarjetas a pantalla completa el subtítulo lleva caja gris translúcida redondeada ('each', 'new robot', 'is being built', 'by another', 'robot.')."
+  },
+  {
+   "t": 25.05,
+   "fx": "pop",
+   "detail": "'2 ½ Football' sans bold + 'Fields' serif itálica, blanco, sobre b-roll desaturado."
+  },
+  {
+   "t": 32.53,
+   "fx": "pop",
+   "detail": "Palabra grande una a una sobre la cara (9 palabras en 1.80 s ≈ 0.20 s/palabra; derivado): sans bold blanca; 'wildest' en serif itálica (33.2 s)"
+  },
+  {
+   "t": 46.5,
+   "fx": "texto incrustado del original",
+   "detail": "Rótulo en itálica con contorno 'The World's First Humanoid Robot Capable of Autonomous Battery Swapping' viene en el material (se desvanece ≈48.5); no es del editor (inferido)."
+  },
+  {
+   "t": 54.55,
+   "fx": "pop",
+   "detail": "Palabra grande una a una sobre la cara (11 palabras en 2.34 s ≈ 0.21 s/palabra; derivado): sustitución instantánea, sans bold blanca con glow"
+  }
+ ],
+ "camera": [
+  {
+   "t": 3.75,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 7.47,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 8.59,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 13.85,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 15.52,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 17.93,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 18.85,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 23.86,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 24.9,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 28.15,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 30.07,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 32.53,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 34.33,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 37.33,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 38.91,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 39.96,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 40.67,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 43.42,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 44.88,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 46.46,
+   "move": "estático (plano largo)",
+   "scale_or_dir": "sin cortes 8.1 s",
+   "dur_s": 8.1
+  },
+  {
+   "t": 54.55,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 56.89,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 61.19,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 63.19,
+   "move": "push-in",
+   "scale_or_dir": "fila de robots ≈1.0→1.3",
+   "dur_s": 0.4
+  },
+  {
+   "t": 63.19,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 70.28,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 72.2,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  }
+ ],
+ "rhythm": {
+  "events_per_10s": [
+   8,
+   9,
+   7,
+   8,
+   8,
+   4,
+   6,
+   5
+  ],
+  "avg_hold_text_s": 0.6,
+  "notes": "Alternancia regular cara/split: 2.46 s/escena. [derived] 55 cambios visuales en 76.2 s = 1 cada 1.38 s; la mitad superior cambia cada 1.23 s de media dentro de los tramos en split; palabra grande ≈0.19 s/palabra; subtítulo pequeño ≈0.6 s por bloque (estimado: 2 palabras × duración media de palabra)."
+ },
+ "typography": "Subtítulo sans geométrica bold blanca ≈30 px/720, 1–3 palabras (máx. 5). Palabra grande sans bold ≈70–80 px con halo; serif itálica solo en 'wildest' y 'Fields'. Franja: sans extendida ultra-bold mayúsculas, blanco + amarillo-dorado sobre caja rojo oscuro. Titular '2 ½ Football' en grotesca bold con fracción tipográfica. Familias exactas: desconocidas.",
+ "textures": "Ninguna (sin grano, papel ni halftone). El b-roll superior es casi monocromo (blanco/gris/negro con acentos azul y naranja), lo que contrasta con el set cálido de abajo.",
+ "distinct": [
+  "Costura más alta (47.7 %) y constante; split puro: solo b-roll oficial + cara, sin capturas, tuits, PiP ni gráficos propios",
+  "Metrónomo cara/split: 10 caras con subtítulo pequeño de 0.7–2 s como 'comas' entre bloques de b-roll",
+  "Plano único de 8.1 s (46.46–54.55) con el cambio de batería narrado verbo a verbo; lleva un rótulo incrustado del material original",
+  "Tres ganchos escalonados con cara y palabras grandes (3.75 'crazy part', 32.53 'wildest part', 54.55 'what that means')",
+  "Un único titular tipográfico ('2 ½ Football Fields', 24.90) y final seco sin CTA con el plano UBTECH del inicio"
+ ],
+ "evidence_note": "REA: tiempos de corte = observed (detección de escena ffmpeg + tiras de 9 fotogramas a 15 fps por cada corte); offsets y ritmos = derived; 'why' = inferred. Audio/SFX: desconocido (no analizado)."
+}

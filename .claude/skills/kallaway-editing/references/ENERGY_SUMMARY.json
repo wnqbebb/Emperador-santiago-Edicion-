@@ -1,0 +1,11 @@
+{
+ "por_segundo_media": {
+  "corte_seco": 0.59,
+  "texto": 0.11,
+  "camara": 0.124,
+  "disparadores": 0.682,
+  "escenas": 0.484,
+  "transicion": 0.031
+ },
+ "duracion_total_s": 1714.5
+}

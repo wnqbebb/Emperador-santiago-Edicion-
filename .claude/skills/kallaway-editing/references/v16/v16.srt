@@ -1,0 +1,347 @@
+1
+00:00:00,000 --> 00:00:01,060
+This company built a data
+
+2
+00:00:01,060 --> 00:00:02,700
+center floating in the Pacific
+
+3
+00:00:02,700 --> 00:00:04,780
+Ocean. They're called Pantalassa, and
+
+4
+00:00:04,780 --> 00:00:06,040
+they might be pioneering a
+
+5
+00:00:06,040 --> 00:00:07,639
+whole new category of data
+
+6
+00:00:07,639 --> 00:00:09,080
+center technology. See, a data
+
+7
+00:00:09,080 --> 00:00:10,419
+center is really just thousands
+
+8
+00:00:10,419 --> 00:00:11,740
+of computer chips that only
+
+9
+00:00:11,740 --> 00:00:13,300
+need two things, electricity to
+
+10
+00:00:13,300 --> 00:00:14,699
+think and water to cool.
+
+11
+00:00:14,919 --> 00:00:16,219
+On land, they compete with
+
+12
+00:00:16,219 --> 00:00:17,640
+actual towns for both of
+
+13
+00:00:17,640 --> 00:00:18,800
+those resources, which is why
+
+14
+00:00:18,800 --> 00:00:20,420
+these projects keep getting blocked.
+
+15
+00:00:20,600 --> 00:00:21,640
+But the ocean has no
+
+16
+00:00:21,640 --> 00:00:23,399
+towns, no permits, and no
+
+17
+00:00:23,399 --> 00:00:25,300
+grids to constrain. Of course,
+
+18
+00:00:25,420 --> 00:00:26,579
+there is just one problem
+
+19
+00:00:26,579 --> 00:00:27,640
+with an ocean -based data
+
+20
+00:00:27,640 --> 00:00:28,820
+center. There are no plugs
+
+21
+00:00:28,820 --> 00:00:30,120
+to plug in for electricity.
+
+22
+00:00:30,339 --> 00:00:31,219
+So this floating data center
+
+23
+00:00:31,219 --> 00:00:32,460
+was designed to make its
+
+24
+00:00:32,460 --> 00:00:33,539
+own power. Here's how it
+
+25
+00:00:33,539 --> 00:00:35,079
+works. Picture a giant floating
+
+26
+00:00:35,079 --> 00:00:36,640
+lollipop in the sea with
+
+27
+00:00:36,640 --> 00:00:37,740
+a round buoy on top
+
+28
+00:00:37,740 --> 00:00:39,299
+and a long tube underneath.
+
+29
+00:00:39,719 --> 00:00:40,460
+Waves only move at the
+
+30
+00:00:40,460 --> 00:00:41,479
+top of the surface, so
+
+31
+00:00:41,479 --> 00:00:42,960
+underneath it's actually very calm.
+
+32
+00:00:43,100 --> 00:00:43,960
+And that means the buoy
+
+33
+00:00:43,960 --> 00:00:45,299
+rides up and down while
+
+34
+00:00:45,299 --> 00:00:46,960
+the tube stays still. Every
+
+35
+00:00:46,960 --> 00:00:48,579
+wave that passes by squeezes
+
+36
+00:00:48,579 --> 00:00:50,039
+seawater through its herbide. Think
+
+37
+00:00:50,039 --> 00:00:50,820
+of it like a bike
+
+38
+00:00:50,820 --> 00:00:52,460
+pump, except the ocean waves
+
+39
+00:00:52,460 --> 00:00:53,700
+is what's pushing the handle
+
+40
+00:00:53,700 --> 00:00:54,820
+up and down. That same
+
+41
+00:00:54,820 --> 00:00:56,179
+seawater is also great for
+
+42
+00:00:56,179 --> 00:00:57,439
+cooling the chips in the
+
+43
+00:00:57,439 --> 00:00:58,840
+data center, so it accomplishes
+
+44
+00:00:58,840 --> 00:01:00,560
+both tasks required. That you
+
+45
+00:01:00,560 --> 00:01:02,200
+didn't calm weather and no
+
+46
+00:01:02,200 --> 00:01:03,159
+waves in the ocean would
+
+47
+00:01:03,159 --> 00:01:04,319
+prevent this from running. But
+
+48
+00:01:04,319 --> 00:01:05,379
+it actually works a lot
+
+49
+00:01:05,379 --> 00:01:06,420
+more like a battery. The
+
+50
+00:01:06,420 --> 00:01:07,480
+sun heats the air, the
+
+51
+00:01:07,480 --> 00:01:08,579
+air makes wind, and the
+
+52
+00:01:08,579 --> 00:01:10,159
+wind pushes the waves. And
+
+53
+00:01:10,159 --> 00:01:11,260
+those waves keep rolling long
+
+54
+00:01:11,260 --> 00:01:12,739
+after the breeze stops. So
+
+55
+00:01:12,739 --> 00:01:14,140
+it's solar power that also
+
+56
+00:01:14,140 --> 00:01:15,159
+works at night. But there's
+
+57
+00:01:15,159 --> 00:01:15,980
+just one more problem. How
+
+58
+00:01:15,980 --> 00:01:16,519
+do they get all that
+
+59
+00:01:16,519 --> 00:01:17,859
+power back to the land
+
+60
+00:01:17,859 --> 00:01:18,840
+to use? And it turns
+
+61
+00:01:18,840 --> 00:01:20,260
+out they don't. These things
+
+62
+00:01:20,260 --> 00:01:21,760
+have no anchor, no fuel,
+
+63
+00:01:21,920 --> 00:01:23,280
+and no cable to shore.
+
+64
+00:01:23,500 --> 00:01:25,180
+Instead, your AI query hits
+
+65
+00:01:25,180 --> 00:01:26,359
+them, goes straight up to
+
+66
+00:01:26,359 --> 00:01:27,459
+a satellite, and then goes
+
+67
+00:01:27,459 --> 00:01:28,819
+straight back down to the
+
+68
+00:01:28,819 --> 00:01:29,780
+data center. The real problem
+
+69
+00:01:29,780 --> 00:01:30,799
+making this tough is that
+
+70
+00:01:30,799 --> 00:01:32,780
+the ocean typically destroys everything.
+
+71
+00:01:32,980 --> 00:01:34,079
+The salt eats metal, the
+
+72
+00:01:34,079 --> 00:01:35,480
+barnacles grow out everything, and
+
+73
+00:01:35,480 --> 00:01:36,980
+storms do what storms do.
+
+74
+00:01:37,140 --> 00:01:37,840
+And that's really the bet
+
+75
+00:01:37,840 --> 00:01:39,079
+that Panthalass is making, that
+
+76
+00:01:39,079 --> 00:01:39,859
+they can figure out how
+
+77
+00:01:39,859 --> 00:01:40,680
+to make this in a
+
+78
+00:01:40,680 --> 00:01:41,939
+way the ocean can't destroy
+
+79
+00:01:41,939 --> 00:01:42,780
+it. The first full -size
+
+80
+00:01:42,780 --> 00:01:43,840
+versions of this go live
+
+81
+00:01:43,840 --> 00:01:44,900
+in the ocean later this
+
+82
+00:01:44,900 --> 00:01:46,239
+year. If they survive, your
+
+83
+00:01:46,239 --> 00:01:47,599
+AI queries might start being
+
+84
+00:01:47,599 --> 00:01:48,939
+powered by a floating data
+
+85
+00:01:48,939 --> 00:01:50,219
+center in the ocean. All
+
+86
+00:01:50,219 --> 00:01:51,060
+for more stories like this
+
+87
+00:01:51,060 --> 00:01:52,579
+about tech, AI, and robotics.

@@ -1,0 +1,340 @@
+{
+ "triggers": [
+  {
+   "t_word": 0.0,
+   "word": "Why",
+   "element": "Título-gancho con barra roja 'not working now?'",
+   "category": "hook_banner",
+   "offset_s": 0.0,
+   "why": "literal (la pregunta dicha se escribe)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 1.92,
+   "word": "Well,",
+   "element": "Corte a su cara + tercio inferior con nombre",
+   "category": "aroll_plain",
+   "offset_s": -0.13,
+   "why": "cambio de tema (quién responde)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 3.7,
+   "word": "imagine",
+   "element": "Pirámide + línea roja subiendo",
+   "category": "full_graphic",
+   "offset_s": 0.01,
+   "why": "literal/diagrama ('imagine a red line… pyramid')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 4.66,
+   "word": "red",
+   "element": "'red line' en rojo en el subtítulo y punto rojo que nace bajo la pirámide",
+   "category": "full_graphic",
+   "offset_s": 0.1,
+   "why": "literal (color nombrado → color en pantalla)",
+   "evidence": "observed 4.5–5.0 s"
+  },
+  {
+   "t_word": 7.8,
+   "word": "rising",
+   "element": "la línea roja sube por la pirámide y la tiñe de rojo",
+   "category": "full_graphic",
+   "offset_s": -0.3,
+   "why": "literal ('rising')",
+   "evidence": "observed 7.5–8.5 s"
+  },
+  {
+   "t_word": 10.9,
+   "word": "fucked",
+   "element": "'you're fucked' en serif itálica roja con glow",
+   "category": "full_graphic",
+   "offset_s": 0.0,
+   "why": "énfasis emocional",
+   "evidence": "observed 11.0 s"
+  },
+  {
+   "t_word": 11.2,
+   "word": "because",
+   "element": "Corte a cámara lateral",
+   "category": "aroll_plain",
+   "offset_s": 0.19,
+   "why": "cambio de plano (explicación)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 14.06,
+   "word": "generic",
+   "element": "'generic commoditized formats.' en rojo con glow",
+   "category": "aroll_plain",
+   "offset_s": 0.0,
+   "why": "énfasis (lo que hay que evitar)",
+   "evidence": "observed 14.0–15.5 s"
+  },
+  {
+   "t_word": 15.74,
+   "word": "There's",
+   "element": "Corte a primer plano",
+   "category": "aroll_plain",
+   "offset_s": 0.07,
+   "why": "cambio de plano",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 18.3,
+   "word": "fact",
+   "element": "'fact-based list-based' en rojo",
+   "category": "aroll_plain",
+   "offset_s": 0.1,
+   "why": "énfasis",
+   "evidence": "observed 18.5–19.5 s"
+  },
+  {
+   "t_word": 21.84,
+   "word": "New",
+   "element": "Corte a cámara lateral",
+   "category": "aroll_plain",
+   "offset_s": -0.15,
+   "why": "cambio de plano",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 24.6,
+   "word": "They're",
+   "element": "Pirámide: la línea roja sube por encima",
+   "category": "full_graphic",
+   "offset_s": 0.05,
+   "why": "literal ('below the red line')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 26.56,
+   "word": "What",
+   "element": "Corte a primer plano",
+   "category": "aroll_plain",
+   "offset_s": 0.05,
+   "why": "cambio de tema (qué hacer)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 31.86,
+   "word": "where",
+   "element": "Tercio inferior 'OPEN RESIDENCY — Full Conversation on YouTube'",
+   "category": "title_cta",
+   "offset_s": 0.04,
+   "why": "CTA (no ligado a palabra; inferred)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 35.5,
+   "word": "it",
+   "element": "Corte a cámara lateral + remate en rojo",
+   "category": "aroll_plain",
+   "offset_s": -0.09,
+   "why": "énfasis (conclusión)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 37.26,
+   "word": "stories.",
+   "element": "'application and stories.' en rojo con glow",
+   "category": "aroll_plain",
+   "offset_s": -0.7,
+   "why": "énfasis (conclusión)",
+   "evidence": "observed 36.5–37.5 s"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 0.0,
+   "from": "inicio",
+   "to": "v03_s01 (hook_banner)",
+   "type": "flash amarillo",
+   "frames": 2,
+   "detail": "Dos fotogramas a pantalla completa en amarillo/naranja/rojo (0.00 y 0.04 s) con las siluetas apenas visibles, antes del plano oscuro (observed)."
+  },
+  {
+   "t": 1.79,
+   "from": "v03_s01 (hook_banner)",
+   "to": "v03_s02 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 3.71,
+   "from": "v03_s02 (aroll_plain)",
+   "to": "v03_s03 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 11.39,
+   "from": "v03_s03 (full_graphic)",
+   "to": "v03_s04 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 15.81,
+   "from": "v03_s04 (aroll_plain)",
+   "to": "v03_s05 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 21.69,
+   "from": "v03_s05 (aroll_plain)",
+   "to": "v03_s06 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 24.65,
+   "from": "v03_s06 (aroll_plain)",
+   "to": "v03_s07 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 26.61,
+   "from": "v03_s07 (full_graphic)",
+   "to": "v03_s08 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 31.9,
+   "from": "v03_s08 (aroll_plain)",
+   "to": "v03_s09 (title_cta)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 35.41,
+   "from": "v03_s09 (title_cta)",
+   "to": "v03_s10 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 37.87,
+   "from": "v03_s10 (aroll_plain)",
+   "to": "negro",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte a negro a 37.87 s; quedan ≈3 fotogramas negros hasta el final (observed)."
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.1,
+   "fx": "gris→blanco + write-on por palabra",
+   "detail": "'Why' aparece en gris oscuro (0.1 s), 'Why is content' gris claro (0.5 s), luego 'not working' con barra roja (1.0 s) y 'now?' (1.5 s) (observed)."
+  },
+  {
+   "t": 1.9,
+   "fx": "pop con glow",
+   "detail": "'Well,' en rojo con glow fuerte durante ≈0.4 s (observed 1.79–2.04)."
+  },
+  {
+   "t": 2.0,
+   "fx": "scramble (letras aleatorias)",
+   "detail": "Tercio inferior: 'KANE QGRRUCSE' → 'KANE KALLOWAY' en ≈0.5 s (observed 2.0 y 2.5 s)."
+  },
+  {
+   "t": 3.9,
+   "fx": "write-on por palabra (acumulativo)",
+   "detail": "'imagine' → 'imagine there's' … la frase crece palabra a palabra y se reinicia por frase (observed 3.5–9.5 s). Regla general de todo el video."
+  },
+  {
+   "t": 5.0,
+   "fx": "blur-in con glow rojo",
+   "detail": "Las palabras rojas aparecen primero como mancha roja desenfocada y se enfocan en ≈0.2–0.3 s (observed 5.0, 14.0, 18.5, 24.5 s)."
+  },
+  {
+   "t": 32.0,
+   "fx": "scramble (letras aleatorias)",
+   "detail": "'OPEN sftjefodz' → 'OPEN RESIDENCY' (observed 32.0 y 32.5 s)."
+  }
+ ],
+ "camera": [
+  {
+   "t": 1.79,
+   "move": "punch-in",
+   "scale_or_dir": "de plano general a primer plano (cambio de cámara por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 3.71,
+   "move": "zoom-out",
+   "scale_or_dir": "de primer plano a plano general (corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 11.39,
+   "move": "corte de cámara",
+   "scale_or_dir": "general → cámara B lateral",
+   "dur_s": 0.0
+  },
+  {
+   "t": 15.81,
+   "move": "corte de cámara",
+   "scale_or_dir": "B → A",
+   "dur_s": 0.0
+  },
+  {
+   "t": 21.69,
+   "move": "corte de cámara",
+   "scale_or_dir": "A → B",
+   "dur_s": 0.0
+  },
+  {
+   "t": 24.65,
+   "move": "zoom-out",
+   "scale_or_dir": "B → plano general",
+   "dur_s": 0.0
+  },
+  {
+   "t": 26.61,
+   "move": "corte de cámara",
+   "scale_or_dir": "general → A",
+   "dur_s": 0.0
+  },
+  {
+   "t": 35.41,
+   "move": "corte de cámara",
+   "scale_or_dir": "A → B",
+   "dur_s": 0.0
+  }
+ ],
+ "rhythm": {
+  "avg_hold_text_s": 1.6,
+  "notes": "derived: 10 escenas en 38 s = 3.8 s por escena; solo 9 cortes de cámara. El movimiento lo aporta el subtítulo acumulativo (una palabra nueva cada ≈0.25 s) y el gráfico de la pirámide (7.7 s + 2.0 s). No hay movimiento de cámara visible dentro de los planos. Audio no analizado.",
+  "events_per_10s": [
+   3,
+   2,
+   3,
+   2
+  ]
+ },
+ "typography": "observed: tres familias. (1) sans grotesca regular/medium blanca pequeña con halo para el subtítulo acumulativo; (2) serif itálica bold (tipo Playfair/Times itálica) para énfasis, en rojo con glow o en blanco ('saturated,', 'they're flopping.'); (3) monoespaciada mayúsculas para tercios inferiores. Rótulos del eje en serif itálica diminuta. Hasta ~8 palabras visibles a la vez en 2 líneas. Nombres de fuente desconocidos.",
+ "textures": "observed: imagen muy desaturada (casi B/N) con viñeta negra; glow blanco en texto y rojo en palabras clave y línea; pirámide formada con humo/partículas (4.0–4.3 s). Sin papel ni halftone.",
+ "distinct": [
+  "NO es el formato de pantalla dividida: es un clip de podcast (marca en pantalla 'OPEN RESIDENCY') con Kallaway como invitado, editado en estilo oscuro monocromo con rojo.",
+  "Un único gráfico (pirámide + línea roja) dibuja literalmente la metáfora que él describe y vuelve a los 24.65 s como callback.",
+  "Subtítulo acumulativo que crece palabra a palabra, no bloques de 1–3 palabras.",
+  "Tres cámaras (general de siluetas, primer plano frontal, lateral medio) alternadas por corte seco cada 2–8 s, sin b-roll.",
+  "Tercios inferiores monoespaciados con efecto de letras aleatorias (nombre a 2.0 s, crédito a 32.0 s)."
+ ],
+ "evidence_note": "observed = hojas de 0.5 s y tiras fotograma a fotograma; derived = cortes por detección de escena (±0.04 s); inferred = los 'why' y la atribución a un editor distinto. El límite 31.90 s (entrada del tercio inferior) es ±0.2 s. Audio no analizado."
+}

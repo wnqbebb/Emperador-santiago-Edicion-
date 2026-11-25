@@ -1,0 +1,1094 @@
+{
+ "triggers": [
+  {
+   "t_word": 0.0,
+   "word": "You",
+   "element": "Caja de texto de Gemini con el prompt tecleándose",
+   "category": "split_screenrec",
+   "offset_s": 0.0,
+   "why": "literal ('run agentic workflows… main chat')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 3.0,
+   "word": "in",
+   "element": "Conmutador Chat→Task + titular 'GOOGLE GEMINI LAUNCHES TASKS'",
+   "category": "hook_banner",
+   "offset_s": 0.06,
+   "why": "literal ('with Tasks' → clic en Task)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 4.6,
+   "word": "If",
+   "element": "Punch-in + palabra grande",
+   "category": "face_full_word",
+   "offset_s": -0.05,
+   "why": "cambio de tema (a quién le sirve)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 6.0,
+   "word": "this",
+   "element": "Lista 'Connected apps'",
+   "category": "split_screenrec",
+   "offset_s": -0.04,
+   "why": "literal (productos de Google)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 7.2,
+   "word": "to",
+   "element": "Clic en el botón de enviar",
+   "category": "split_screenrec",
+   "offset_s": 0.02,
+   "why": "metáfora (get work done → enviar)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 7.62,
+   "word": "way",
+   "element": "Punch-in + palabra grande",
+   "category": "face_full_word",
+   "offset_s": 0.05,
+   "why": "énfasis (beneficio)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 8.8,
+   "word": "Think",
+   "element": "Gemini 'Thinking it through…'",
+   "category": "split_screenrec",
+   "offset_s": -0.04,
+   "why": "literal ('digital assistant' trabajando)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 11.12,
+   "word": "that",
+   "element": "Presentación creada en Google Slides",
+   "category": "split_screenrec",
+   "offset_s": 0.06,
+   "why": "literal (resultado del trabajo)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 12.02,
+   "word": "-7",
+   "element": "Documento de propuesta",
+   "category": "split_screenrec",
+   "offset_s": -0.09,
+   "why": "contexto",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 13.46,
+   "word": "and",
+   "element": "Flecha blanca señalando el botón Task",
+   "category": "split_screenrec",
+   "offset_s": -0.07,
+   "why": "literal ('accessible in the main chat')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 16.52,
+   "word": "All",
+   "element": "Punch-in + palabra grande",
+   "category": "face_full_word",
+   "offset_s": -0.04,
+   "why": "énfasis (instrucción)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 17.04,
+   "word": "flip",
+   "element": "Clic Chat→Task",
+   "category": "split_screenrec",
+   "offset_s": 0.02,
+   "why": "literal ('flip from chat to tasks')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 18.8,
+   "word": "tell",
+   "element": "Campo 'Describe a task' con texto tecleándose",
+   "category": "split_screenrec",
+   "offset_s": -0.11,
+   "why": "literal ('tell Gemini')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 20.34,
+   "word": "So",
+   "element": "Punch-in + palabra grande",
+   "category": "face_full_word",
+   "offset_s": -0.03,
+   "why": "cambio de tema (ejemplo 1)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 20.92,
+   "word": "I",
+   "element": "Móvil a pantalla completa con el prompt tecleándose",
+   "category": "pip_broll",
+   "offset_s": -0.02,
+   "why": "literal (lo que 'escribió')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 28.84,
+   "word": "Just",
+   "element": "Punch-in + palabra grande",
+   "category": "face_full_word",
+   "offset_s": 0.07,
+   "why": "énfasis ('just like that')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 29.62,
+   "word": "tasks",
+   "element": "Pasos de la tarea en marcha",
+   "category": "split_screenrec",
+   "offset_s": -0.13,
+   "why": "literal ('tasks were launched')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 31.0,
+   "word": "already",
+   "element": "Hoja 'Subscriptions Tracker' llenándose",
+   "category": "split_screenrec",
+   "offset_s": -0.13,
+   "why": "literal ('save money' → precios)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 32.72,
+   "word": "And",
+   "element": "Punch-in + palabra grande",
+   "category": "face_full_word",
+   "offset_s": -0.02,
+   "why": "énfasis",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 33.22,
+   "word": "it'll",
+   "element": "Checklist que se marca solo",
+   "category": "split_graphic",
+   "offset_s": -0.02,
+   "why": "metáfora (keep going → checks que avanzan)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 35.48,
+   "word": "even",
+   "element": "Paso 'Notify You'",
+   "category": "split_screenrec",
+   "offset_s": 0.02,
+   "why": "literal aproximado",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 36.38,
+   "word": "from",
+   "element": "Hoja de clientes tras zoom-blur",
+   "category": "split_screenrec",
+   "offset_s": -0.13,
+   "why": "contexto",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 37.82,
+   "word": "Now",
+   "element": "Punch-in + palabra grande con itálicas",
+   "category": "face_full_word",
+   "offset_s": -0.07,
+   "why": "cambio de tema (el porqué)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 39.42,
+   "word": "because",
+   "element": "Apps conectándose al logo de Gemini",
+   "category": "pip_broll",
+   "offset_s": -0.13,
+   "why": "literal/diagrama ('connected apps')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 42.18,
+   "word": "From",
+   "element": "Muro de logos que se detiene en Instacart/OpenTable",
+   "category": "split_graphic",
+   "offset_s": -0.09,
+   "why": "literal (marca nombrada → logo)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 43.84,
+   "word": "to",
+   "element": "Borrador de Gmail",
+   "category": "split_screenrec",
+   "offset_s": 0.08,
+   "why": "literal ('Gmail')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 46.7,
+   "word": "Docs,",
+   "element": "Google Docs",
+   "category": "split_screenrec",
+   "offset_s": -0.11,
+   "why": "literal ('Docs')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 47.14,
+   "word": "Calendar",
+   "element": "Calendario bloqueado",
+   "category": "split_screenrec",
+   "offset_s": -0.05,
+   "why": "literal ('Calendar')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 47.76,
+   "word": "Drive.",
+   "element": "Google Drive",
+   "category": "split_screenrec",
+   "offset_s": -0.13,
+   "why": "literal ('Drive')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 48.3,
+   "word": "Task",
+   "element": "Iconos de Google apilándose",
+   "category": "split_graphic",
+   "offset_s": -0.08,
+   "why": "metáfora (smooth connection)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 51.4,
+   "word": "This",
+   "element": "Hoja de cálculo",
+   "category": "split_screenrec",
+   "offset_s": -0.05,
+   "why": "literal",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 52.94,
+   "word": "run",
+   "element": "B-roll de él con el móvil en la calle",
+   "category": "full_graphic",
+   "offset_s": -0.13,
+   "why": "literal ('your life')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 53.54,
+   "word": "for",
+   "element": "B-roll de él en interior",
+   "category": "full_graphic",
+   "offset_s": -0.02,
+   "why": "literal aproximado ('business')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 54.22,
+   "word": "tasks",
+   "element": "Corte a cara",
+   "category": "aroll_plain",
+   "offset_s": -0.08,
+   "why": "énfasis (nombre del producto)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 54.82,
+   "word": "be",
+   "element": "Doble panel taladro / taco 3D",
+   "category": "full_graphic",
+   "offset_s": -0.09,
+   "why": "ejemplo visual",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 55.06,
+   "word": "easiest",
+   "element": "Doble panel cuadro eléctrico / hoja",
+   "category": "full_graphic",
+   "offset_s": -0.04,
+   "why": "ejemplo visual (mundo real → documento)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 55.88,
+   "word": "build",
+   "element": "Doble panel piedra / hoja",
+   "category": "full_graphic",
+   "offset_s": -0.11,
+   "why": "ejemplo visual",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 56.34,
+   "word": "proactive",
+   "element": "Presentación",
+   "category": "split_screenrec",
+   "offset_s": 0.1,
+   "why": "contexto",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 56.68,
+   "word": "workflows.",
+   "element": "Cuadrícula de diapositivas",
+   "category": "split_screenrec",
+   "offset_s": 0.22,
+   "why": "contexto",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 57.58,
+   "word": "for",
+   "element": "Corte a cara",
+   "category": "aroll_plain",
+   "offset_s": -0.1,
+   "why": "cambio de tema (ejemplo 2)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 58.52,
+   "word": "I",
+   "element": "Panel de eventos",
+   "category": "split_screenrec",
+   "offset_s": -0.08,
+   "why": "literal (lo que quería construir)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 59.6,
+   "word": "a",
+   "element": "Panel a pantalla completa con scroll",
+   "category": "full_graphic",
+   "offset_s": 0.05,
+   "why": "literal ('events calendar')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 61.24,
+   "word": "for",
+   "element": "Panel de eventos (división)",
+   "category": "split_screenrec",
+   "offset_s": 0.12,
+   "why": "contexto",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 62.68,
+   "word": "Brooklyn.",
+   "element": "Rótulo 'BROOKLYN'",
+   "category": "split_graphic",
+   "offset_s": -0.07,
+   "why": "literal (lugar nombrado)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 63.1,
+   "word": "So",
+   "element": "Corte a cara",
+   "category": "aroll_plain",
+   "offset_s": -0.07,
+   "why": "cambio de tema",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 63.96,
+   "word": "search",
+   "element": "Prompt tecleándose sincronizado con la voz",
+   "category": "split_screenrec",
+   "offset_s": -0.14,
+   "why": "literal palabra a palabra",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 72.42,
+   "word": "Because",
+   "element": "Respuesta de Gemini",
+   "category": "split_screenrec",
+   "offset_s": -0.05,
+   "why": "literal",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 73.88,
+   "word": "continuous",
+   "element": "Hoja de eventos con scroll",
+   "category": "split_screenrec",
+   "offset_s": -0.18,
+   "why": "literal aproximado",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 75.58,
+   "word": "I",
+   "element": "Punch-in + palabra grande",
+   "category": "face_full_word",
+   "offset_s": -0.08,
+   "why": "énfasis (beneficio)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 76.44,
+   "word": "With",
+   "element": "Subtítulo pasa de grande a pequeño sin cortar el plano",
+   "category": "aroll_plain",
+   "offset_s": -0.07,
+   "why": "cambio de tono (conclusión)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 78.0,
+   "word": "sharing",
+   "element": "Recap de capturas",
+   "category": "split_screenrec",
+   "offset_s": -0.12,
+   "why": "recap",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 79.54,
+   "word": "helping",
+   "element": "Checklist (recap)",
+   "category": "split_graphic",
+   "offset_s": -0.12,
+   "why": "metáfora",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 80.7,
+   "word": "which",
+   "element": "Tarjetas de eventos (recap)",
+   "category": "split_screenrec",
+   "offset_s": 0.01,
+   "why": "recap",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 81.7,
+   "word": "more",
+   "element": "B-roll de él caminando",
+   "category": "split_broll",
+   "offset_s": 0.14,
+   "why": "literal ('everyday life')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 83.76,
+   "word": "If",
+   "element": "Corte a cara + aviso legal",
+   "category": "aroll_plain",
+   "offset_s": 0.0,
+   "why": "CTA",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 84.58,
+   "word": "tasks",
+   "element": "Conmutador Chat→Task (callback al gancho)",
+   "category": "title_cta",
+   "offset_s": -0.16,
+   "why": "literal ('Tasks is now available')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 85.9,
+   "word": "to",
+   "element": "Punch-in + palabra grande (cierre)",
+   "category": "face_full_word",
+   "offset_s": 0.15,
+   "why": "CTA / énfasis",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 3.06,
+   "from": "v02_s01 (split_screenrec)",
+   "to": "v02_s02 (hook_banner)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 4.55,
+   "from": "v02_s02 (hook_banner)",
+   "to": "v02_s03 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 5.96,
+   "from": "v02_s03 (face_full_word)",
+   "to": "v02_s04 (split_screenrec)",
+   "type": "crossfade",
+   "frames": 6,
+   "detail": "Corte seco de cara completa a pantalla dividida; arriba el panel 'Connected apps' aparece por fundido desde azul oscuro en ≈6 fotogramas (5.96–6.21, observed)."
+  },
+  {
+   "t": 7.22,
+   "from": "v02_s04 (split_screenrec)",
+   "to": "v02_s05 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 7.67,
+   "from": "v02_s05 (split_screenrec)",
+   "to": "v02_s06 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 8.76,
+   "from": "v02_s06 (face_full_word)",
+   "to": "v02_s07 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 11.18,
+   "from": "v02_s07 (split_screenrec)",
+   "to": "v02_s08 (split_screenrec)",
+   "type": "whip-pan",
+   "frames": 3,
+   "detail": "Barrido borroso horizontal dentro de la mitad superior (texto estirado en 11.05–11.13) antes de aparecer Google Slides; la mitad inferior no se ve afectada (observed)."
+  },
+  {
+   "t": 11.93,
+   "from": "v02_s08 (split_screenrec)",
+   "to": "v02_s09 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 13.39,
+   "from": "v02_s09 (split_screenrec)",
+   "to": "v02_s10 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 16.48,
+   "from": "v02_s10 (split_screenrec)",
+   "to": "v02_s11 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 17.06,
+   "from": "v02_s11 (face_full_word)",
+   "to": "v02_s12 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 18.69,
+   "from": "v02_s12 (split_screenrec)",
+   "to": "v02_s13 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 20.31,
+   "from": "v02_s13 (split_screenrec)",
+   "to": "v02_s14 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 20.9,
+   "from": "v02_s14 (face_full_word)",
+   "to": "v02_s15 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 28.91,
+   "from": "v02_s15 (pip_broll)",
+   "to": "v02_s16 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 29.49,
+   "from": "v02_s16 (face_full_word)",
+   "to": "v02_s17 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 30.87,
+   "from": "v02_s17 (split_screenrec)",
+   "to": "v02_s18 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 32.7,
+   "from": "v02_s18 (split_screenrec)",
+   "to": "v02_s19 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 33.2,
+   "from": "v02_s19 (face_full_word)",
+   "to": "v02_s20 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 35.5,
+   "from": "v02_s20 (split_graphic)",
+   "to": "v02_s21 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 36.25,
+   "from": "v02_s21 (split_screenrec)",
+   "to": "v02_s22 (split_screenrec)",
+   "type": "zoom-blur",
+   "frames": 5,
+   "detail": "Zoom-blur radial solo en la mitad superior: 36.24 gris borroso → 36.41 hoja nítida (observed 36.20–36.45). El A-roll de abajo sigue continuo."
+  },
+  {
+   "t": 37.75,
+   "from": "v02_s22 (split_screenrec)",
+   "to": "v02_s23 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 39.29,
+   "from": "v02_s23 (face_full_word)",
+   "to": "v02_s24 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte seco a gráfico a pantalla completa; la tarjeta aparece con leve fundido/escala en sus primeros fotogramas (observed 39.29–39.54)."
+  },
+  {
+   "t": 42.09,
+   "from": "v02_s24 (pip_broll)",
+   "to": "v02_s25 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 43.92,
+   "from": "v02_s25 (split_graphic)",
+   "to": "v02_s26 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 46.59,
+   "from": "v02_s26 (split_screenrec)",
+   "to": "v02_s27 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 47.09,
+   "from": "v02_s27 (split_screenrec)",
+   "to": "v02_s28 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 47.63,
+   "from": "v02_s28 (split_screenrec)",
+   "to": "v02_s29 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 48.22,
+   "from": "v02_s29 (split_screenrec)",
+   "to": "v02_s30 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 51.35,
+   "from": "v02_s30 (split_graphic)",
+   "to": "v02_s31 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 52.81,
+   "from": "v02_s31 (split_screenrec)",
+   "to": "v02_s32 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 53.52,
+   "from": "v02_s32 (full_graphic)",
+   "to": "v02_s33 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 54.14,
+   "from": "v02_s33 (full_graphic)",
+   "to": "v02_s34 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 54.73,
+   "from": "v02_s34 (aroll_plain)",
+   "to": "v02_s35 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 55.02,
+   "from": "v02_s35 (full_graphic)",
+   "to": "v02_s36 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 55.77,
+   "from": "v02_s36 (full_graphic)",
+   "to": "v02_s37 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 56.44,
+   "from": "v02_s37 (full_graphic)",
+   "to": "v02_s38 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 56.9,
+   "from": "v02_s38 (split_screenrec)",
+   "to": "v02_s39 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 57.48,
+   "from": "v02_s39 (split_screenrec)",
+   "to": "v02_s40 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 58.44,
+   "from": "v02_s40 (aroll_plain)",
+   "to": "v02_s41 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 59.65,
+   "from": "v02_s41 (split_screenrec)",
+   "to": "v02_s42 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 61.36,
+   "from": "v02_s42 (full_graphic)",
+   "to": "v02_s43 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 62.61,
+   "from": "v02_s43 (split_screenrec)",
+   "to": "v02_s44 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 63.03,
+   "from": "v02_s44 (split_graphic)",
+   "to": "v02_s45 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 63.82,
+   "from": "v02_s45 (aroll_plain)",
+   "to": "v02_s46 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 68.2,
+   "from": "v02_s46 (split_screenrec)",
+   "to": "v02_s46 (split_screenrec)",
+   "type": "whip-pan",
+   "frames": 3,
+   "detail": "Dentro de la misma escena: barrido borroso horizontal de la captura para volver al inicio de la línea del prompt (observed 68.24–68.32)."
+  },
+  {
+   "t": 69.4,
+   "from": "v02_s46 (split_screenrec)",
+   "to": "v02_s46 (split_screenrec)",
+   "type": "whip-pan",
+   "frames": 3,
+   "detail": "Segundo barrido borroso dentro de la captura (observed en hoja de 0.5 s a 69.5 s; duración exacta derived ≈3 fotogramas)."
+  },
+  {
+   "t": 72.37,
+   "from": "v02_s46 (split_screenrec)",
+   "to": "v02_s47 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 73.7,
+   "from": "v02_s47 (split_screenrec)",
+   "to": "v02_s48 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 75.5,
+   "from": "v02_s48 (split_screenrec)",
+   "to": "v02_s49 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 76.37,
+   "from": "v02_s49 (face_full_word)",
+   "to": "v02_s50 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 77.88,
+   "from": "v02_s50 (aroll_plain)",
+   "to": "v02_s51 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 79.42,
+   "from": "v02_s51 (split_screenrec)",
+   "to": "v02_s52 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 80.71,
+   "from": "v02_s52 (split_graphic)",
+   "to": "v02_s53 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 81.84,
+   "from": "v02_s53 (split_screenrec)",
+   "to": "v02_s54 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 83.76,
+   "from": "v02_s54 (split_broll)",
+   "to": "v02_s55 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 84.42,
+   "from": "v02_s55 (aroll_plain)",
+   "to": "v02_s56 (title_cta)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 86.05,
+   "from": "v02_s56 (title_cta)",
+   "to": "v02_s57 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 3.08,
+   "fx": "slide",
+   "detail": "Titular 'GOOGLE GEMINI / LAUNCHES TASKS' entra desde la derecha: 3.08 s se ven 'SKS' y 'GO…', 3.33 s 'GOOGLE GE…/…CHES TASKS', ≈3.9 s completo (observed). Sale por corte a 4.55 s."
+  },
+  {
+   "t": 4.55,
+   "fx": "pop (sustitución seca)",
+   "detail": "Palabra grande única; 'and' 2 fotogramas, 'if' 1, 'you' 3 (observed 4.54–4.79)."
+  },
+  {
+   "t": 38.1,
+   "fx": "cambio de fuente",
+   "detail": "'Tasks' (38.12) y 'powerful' (38.74) en serif itálica; el resto en sans bold (observed 38.0 y 39.0 s)."
+  },
+  {
+   "t": 8.76,
+   "fx": "aviso legal",
+   "detail": "Texto legal blanco muy pequeño de 3 líneas en y≈71 % visible 8.76–13.39 y 83.76–87.12 (observed)."
+  },
+  {
+   "t": 20.9,
+   "fx": "cursiva + comillas",
+   "detail": "Durante la cita del prompt (20.9–28.9) el subtítulo cambia a cursiva con comillas de apertura y cierre ('\"Every 6 months' … 'moving forward.\"') (observed 21.5–28.5)."
+  },
+  {
+   "t": 55.02,
+   "fx": "pastilla",
+   "detail": "Sobre fondos recargados el subtítulo va en pastilla blanca con texto negro ('easiest way' 55.0, 'a family' 60.0, 'events calendar' 60.5) (observed)."
+  },
+  {
+   "t": 63.82,
+   "fx": "write-on (tecleo)",
+   "detail": "El prompt se teclea en la interfaz sincronizado con la voz durante 8.5 s (observed 64.0–72.0)."
+  },
+  {
+   "t": 14.0,
+   "fx": "flecha",
+   "detail": "Flecha blanca gruesa inclinada apuntando a 'Task', visible 14.0–16.4 s (observed)."
+  }
+ ],
+ "camera": [
+  {
+   "t": 4.55,
+   "move": "punch-in",
+   "scale_or_dir": "corte a cara completa",
+   "dur_s": 0.0
+  },
+  {
+   "t": 7.22,
+   "move": "punch-in",
+   "scale_or_dir": "captura: zoom extremo al botón de enviar (corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 13.39,
+   "move": "push-in lento",
+   "scale_or_dir": "captura de Gemini: pantalla entera → conmutador Chat/Task",
+   "dur_s": 1.6
+  },
+  {
+   "t": 0.0,
+   "move": "pan",
+   "scale_or_dir": "captura se desplaza a la derecha siguiendo el texto tecleado",
+   "dur_s": 1.3
+  },
+  {
+   "t": 59.65,
+   "move": "pan",
+   "scale_or_dir": "scroll vertical hacia abajo del panel a pantalla completa",
+   "dur_s": 1.7
+  },
+  {
+   "t": 63.82,
+   "move": "pan",
+   "scale_or_dir": "pan horizontal siguiendo el cursor del prompt, con dos retornos borrosos",
+   "dur_s": 8.5
+  },
+  {
+   "t": 36.25,
+   "move": "zoom-blur",
+   "scale_or_dir": "radial hacia dentro en la mitad superior",
+   "dur_s": 0.2
+  }
+ ],
+ "rhythm": {
+  "avg_hold_text_s": 0.5,
+  "notes": "derived: 57 escenas en 87.1 s = 1.53 s por escena (más 6 cortes internos). La mitad superior cambia cada 0.3–3 s; excepciones largas: 20.90–28.91 (8.0 s, móvil tecleando) y 63.82–72.37 (8.5 s, prompt tecleándose). face_full_word 9 veces: 4.55, 7.67, 16.48, 20.31, 28.91, 32.70, 37.75, 75.50, 86.05 → cada 3–9 s en la primera mitad, ninguna entre 39.3 y 75.5. Ráfaga 52.81–57.48: 9 cambios en 4.7 s. Audio no analizado.",
+  "events_per_10s": [
+   7,
+   8,
+   5,
+   8,
+   7,
+   12,
+   4,
+   7,
+   5
+  ]
+ },
+ "typography": "observed: subtítulo sans geométrica bold blanca 1–3 palabras ≈22 px; palabra grande única sans bold ≈60–65 px con glow; 'Tasks' y 'powerful' en serif itálica; titular del gancho en sans extendida ultra-bold MAYÚSCULAS blancas sin caja; cita del prompt en cursiva con comillas; pastilla blanca con texto negro sobre fondos recargados; aviso legal ≈11 px. Nombres de fuente desconocidos.",
+ "textures": "observed: ninguna textura añadida. Fondos lisos (azul noche, negro, lila claro, blanco de Google Sheets). El desenfoque de movimiento en logos (42.5–43.5) y barridos es el único 'efecto'.",
+ "distinct": [
+  "El gancho empieza con el producto en uso y el titular llega a los 3.08 s, sin franja roja: letras blancas sobre el azul de la captura.",
+  "Video patrocinado/demostración: casi toda la evidencia es grabación de pantalla (27 de 57 escenas son split_screenrec, más 3 a pantalla completa) y lleva aviso legal pequeño en dos tramos.",
+  "Dos demostraciones largas sin cortar (8.0 s y 8.5 s) donde el prompt se teclea al ritmo de la voz; el resto del video cambia cada ~1.5 s.",
+  "Ráfaga de dobles paneles apilados a pantalla completa (54.73–56.44): foto del mundo real arriba, documento generado abajo.",
+  "Únicos efectos de transición del lote: zoom-blur radial (36.25) y barridos borrosos (11.18, 68.2, 69.4), siempre SOLO en la mitad superior."
+ ],
+ "evidence_note": "observed = hojas de 0.5 s y tiras fotograma a fotograma; derived = cortes por detección de escena (±0.04 s) y palabras de evidence.json; inferred = los 'why'. El corte 3.06 s se fijó en tira fotograma a fotograma (2.96→3.08). Audio/SFX no analizados: desconocido."
+}

@@ -1,0 +1,223 @@
+1
+00:00:00,000 --> 00:00:01,899
+ChatGBT can now automatically edit
+
+2
+00:00:01,899 --> 00:00:03,540
+your videos with GPT -6
+
+3
+00:00:03,540 --> 00:00:04,580
+Astra. And if you make
+
+4
+00:00:04,580 --> 00:00:06,259
+video content of any kind,
+
+5
+00:00:06,419 --> 00:00:07,059
+the people that learn how
+
+6
+00:00:07,059 --> 00:00:07,860
+to use this are gonna
+
+7
+00:00:07,860 --> 00:00:09,759
+have a massive advantage. What
+
+8
+00:00:09,759 --> 00:00:11,060
+you're watching is GPT -6
+
+9
+00:00:11,060 --> 00:00:13,640
+Astra in Codex, controlling DaVinci
+
+10
+00:00:13,640 --> 00:00:15,359
+Resolve using an MCP. In
+
+11
+00:00:15,359 --> 00:00:16,940
+layman's terms, ChatGBT can now
+
+12
+00:00:16,940 --> 00:00:19,120
+control your editing timeline for
+
+13
+00:00:19,120 --> 00:00:20,140
+you. It can make cuts,
+
+14
+00:00:20,379 --> 00:00:22,120
+delete bad takes, find b
+
+15
+00:00:22,120 --> 00:00:23,820
+-roll, add text and graphics,
+
+16
+00:00:24,179 --> 00:00:26,440
+create custom animations and mix
+
+17
+00:00:26,440 --> 00:00:27,859
+the sound and audio all
+
+18
+00:00:27,859 --> 00:00:29,079
+automatically. All you have to
+
+19
+00:00:29,079 --> 00:00:30,300
+do as the human is
+
+20
+00:00:30,300 --> 00:00:32,159
+creative direct by talking. Now,
+
+21
+00:00:32,179 --> 00:00:33,119
+as a creator and someone
+
+22
+00:00:33,119 --> 00:00:34,320
+who used to spend eight
+
+23
+00:00:34,320 --> 00:00:36,020
+hours per video editing, this
+
+24
+00:00:36,020 --> 00:00:36,799
+is one of the wildest
+
+25
+00:00:36,799 --> 00:00:37,859
+things I've ever seen. It
+
+26
+00:00:37,859 --> 00:00:39,479
+literally feels like self -editing
+
+27
+00:00:39,479 --> 00:00:41,399
+alien technology has just been
+
+28
+00:00:41,399 --> 00:00:42,759
+given to the content world.
+
+29
+00:00:42,899 --> 00:00:43,700
+And this works for short
+
+30
+00:00:43,700 --> 00:00:45,179
+-form video, long -form video,
+
+31
+00:00:45,420 --> 00:00:47,399
+3D animations in Blender, motion
+
+32
+00:00:47,399 --> 00:00:49,039
+graphics and After Effects. It's
+
+33
+00:00:49,039 --> 00:00:49,759
+pretty wild. Now I'll be
+
+34
+00:00:49,759 --> 00:00:50,479
+the first to admit, the
+
+35
+00:00:50,479 --> 00:00:52,000
+edits and workflow here are
+
+36
+00:00:52,000 --> 00:00:53,119
+not perfect yet. It'd be
+
+37
+00:00:53,119 --> 00:00:54,020
+very tough to make a
+
+38
+00:00:54,020 --> 00:00:55,840
+video like this automatically without
+
+39
+00:00:55,840 --> 00:00:57,179
+any mistakes. But this feels
+
+40
+00:00:57,179 --> 00:00:58,280
+like a seminal moment because
+
+41
+00:00:58,280 --> 00:00:59,399
+we have just broken the
+
+42
+00:00:59,399 --> 00:01:01,200
+four -minute mile of automated
+
+43
+00:01:01,200 --> 00:01:02,479
+video editing. And so in
+
+44
+00:01:02,479 --> 00:01:03,579
+just a few years, most
+
+45
+00:01:03,579 --> 00:01:04,700
+of the editing workflow will
+
+46
+00:01:04,700 --> 00:01:07,040
+be fully programmable and directable.
+
+47
+00:01:07,159 --> 00:01:07,700
+Now all of this is
+
+48
+00:01:07,700 --> 00:01:09,680
+only possible because of GPT
+
+49
+00:01:09,680 --> 00:01:11,400
+-6 Astra. OpenAI has essentially
+
+50
+00:01:11,400 --> 00:01:13,120
+crossed the threshold into the
+
+51
+00:01:13,120 --> 00:01:14,780
+early stages of what feels
+
+52
+00:01:14,780 --> 00:01:16,079
+like AGI. So if you
+
+53
+00:01:16,079 --> 00:01:17,379
+make content, I really recommend
+
+54
+00:01:17,379 --> 00:01:18,379
+trying this out because it
+
+55
+00:01:18,379 --> 00:01:19,739
+will only get better and
+
+56
+00:01:19,739 --> 00:01:20,379
+better from here.

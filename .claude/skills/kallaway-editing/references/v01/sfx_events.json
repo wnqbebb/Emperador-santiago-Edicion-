@@ -1,0 +1,65 @@
+[
+ {
+  "t": 0.255,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 4.6,
+  "to_cut": 0.26,
+  "word": "just",
+  "to_word": -0.0
+ },
+ {
+  "t": 0.453,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 4.5,
+  "to_cut": -0.38,
+  "word": "performed",
+  "to_word": 0.05
+ },
+ {
+  "t": 2.949,
+  "dur": 0.09,
+  "kind": "pop",
+  "gain_db": 4.1,
+  "to_cut": -0.14,
+  "word": "for",
+  "to_word": 0.11
+ },
+ {
+  "t": 37.001,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 5.2,
+  "to_cut": -0.83,
+  "word": "a",
+  "to_word": 0.0
+ },
+ {
+  "t": 53.743,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 8.1,
+  "to_cut": -0.02,
+  "word": "It",
+  "to_word": -0.02
+ },
+ {
+  "t": 53.894,
+  "dur": 0.16,
+  "kind": "pop",
+  "gain_db": 5.0,
+  "to_cut": 0.13,
+  "word": "checking",
+  "to_word": -0.05
+ },
+ {
+  "t": 64.842,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 4.5,
+  "to_cut": -1.14,
+  "word": "and",
+  "to_word": -0.04
+ }
+]

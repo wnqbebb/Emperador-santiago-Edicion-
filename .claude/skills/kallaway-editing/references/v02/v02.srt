@@ -1,0 +1,267 @@
+1
+00:00:00,000 --> 00:00:01,179
+You can now run agentic
+
+2
+00:00:01,179 --> 00:00:02,700
+workflows straight from the main
+
+3
+00:00:02,700 --> 00:00:04,339
+chat in Gemini with tasks.
+
+4
+00:00:04,599 --> 00:00:05,440
+If you use any Google
+
+5
+00:00:05,440 --> 00:00:06,519
+product, this is now the
+
+6
+00:00:06,519 --> 00:00:07,980
+easiest way to get way
+
+7
+00:00:07,980 --> 00:00:09,000
+more work done. Think of
+
+8
+00:00:09,000 --> 00:00:10,279
+tasks in Gemini like a
+
+9
+00:00:10,279 --> 00:00:11,640
+digital assistant that can work
+
+10
+00:00:11,640 --> 00:00:13,240
+24 -7 in the background,
+
+11
+00:00:13,460 --> 00:00:14,960
+and now more easily accessible
+
+12
+00:00:14,960 --> 00:00:16,339
+directly in the main chat.
+
+13
+00:00:16,519 --> 00:00:16,920
+All you have to do
+
+14
+00:00:16,920 --> 00:00:18,079
+is flip from chat to
+
+15
+00:00:18,079 --> 00:00:19,640
+tasks and tell Gemini what
+
+16
+00:00:19,640 --> 00:00:20,519
+you need done. So for
+
+17
+00:00:20,519 --> 00:00:21,699
+example, I just wrote every
+
+18
+00:00:21,699 --> 00:00:22,859
+six months, go into my
+
+19
+00:00:22,859 --> 00:00:24,320
+Gmail and build a spreadsheet
+
+20
+00:00:24,320 --> 00:00:25,519
+that allows me to decide
+
+21
+00:00:25,519 --> 00:00:26,960
+how much budget I should
+
+22
+00:00:26,960 --> 00:00:28,480
+allocate to my subscriptions moving
+
+23
+00:00:28,480 --> 00:00:29,760
+forward. Just like that, tasks
+
+24
+00:00:29,760 --> 00:00:31,320
+were launched and Gemini's already
+
+25
+00:00:31,320 --> 00:00:32,380
+working so I can save
+
+26
+00:00:32,380 --> 00:00:33,060
+money. And the cool part
+
+27
+00:00:33,060 --> 00:00:34,159
+is it'll keep going on
+
+28
+00:00:34,159 --> 00:00:35,659
+its own cloud computer, even
+
+29
+00:00:35,659 --> 00:00:36,600
+if I walk away from
+
+30
+00:00:36,600 --> 00:00:37,859
+my phone or laptop. Now
+
+31
+00:00:37,859 --> 00:00:38,740
+the reason tasks is so
+
+32
+00:00:38,740 --> 00:00:39,939
+powerful is because of all
+
+33
+00:00:39,939 --> 00:00:41,460
+the connected apps it has
+
+34
+00:00:41,460 --> 00:00:42,560
+access to. From things like
+
+35
+00:00:42,560 --> 00:00:44,500
+Instacart and OpenTable to Gemini's
+
+36
+00:00:44,500 --> 00:00:46,320
+most direct interactions like Gmail,
+
+37
+00:00:46,700 --> 00:00:48,439
+Docs, Calendar and Drive. Task
+
+38
+00:00:48,439 --> 00:00:50,119
+has the smoothest possible connection
+
+39
+00:00:50,119 --> 00:00:51,219
+to all of those products.
+
+40
+00:00:51,399 --> 00:00:52,100
+This means if you use
+
+41
+00:00:52,100 --> 00:00:53,320
+Google Workspace to run your
+
+42
+00:00:53,320 --> 00:00:54,820
+life for business, tasks will
+
+43
+00:00:54,820 --> 00:00:55,880
+be the easiest way to
+
+44
+00:00:55,880 --> 00:00:57,579
+build out proactive workflows. And
+
+45
+00:00:57,579 --> 00:00:58,579
+for a second example, I
+
+46
+00:00:58,579 --> 00:00:59,600
+wanted tasks to build out
+
+47
+00:00:59,600 --> 00:01:01,600
+a family events calendar for
+
+48
+00:01:01,600 --> 00:01:02,899
+my local neighborhood in Brooklyn.
+
+49
+00:01:03,100 --> 00:01:03,799
+So I just asked it,
+
+50
+00:01:03,960 --> 00:01:04,900
+search for all the local
+
+51
+00:01:04,900 --> 00:01:06,799
+events, farmers, markets and concerts
+
+52
+00:01:06,799 --> 00:01:08,340
+happening in my neighborhood, build
+
+53
+00:01:08,340 --> 00:01:09,319
+a Google sheet with links
+
+54
+00:01:09,319 --> 00:01:10,459
+for each and send me
+
+55
+00:01:10,459 --> 00:01:11,959
+updates anytime new things are
+
+56
+00:01:11,959 --> 00:01:13,519
+announced. Because tasks in Gemini
+
+57
+00:01:13,519 --> 00:01:15,400
+runs continuous actions for me,
+
+58
+00:01:15,579 --> 00:01:16,239
+I never miss a thing.
+
+59
+00:01:16,439 --> 00:01:17,420
+With tasks, Gemini is now
+
+60
+00:01:17,420 --> 00:01:19,019
+shifting from sharing knowledge with
+
+61
+00:01:19,019 --> 00:01:20,200
+you to helping you get
+
+62
+00:01:20,200 --> 00:01:21,180
+more done, which makes it
+
+63
+00:01:21,180 --> 00:01:23,000
+dramatically more impactful for your
+
+64
+00:01:23,000 --> 00:01:24,000
+everyday life. If you want
+
+65
+00:01:24,000 --> 00:01:24,760
+to try it out, tasks
+
+66
+00:01:24,760 --> 00:01:26,280
+is now available free to
+
+67
+00:01:26,280 --> 00:01:26,799
+all users.

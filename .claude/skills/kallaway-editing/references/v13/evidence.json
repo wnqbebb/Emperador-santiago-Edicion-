@@ -1,0 +1,3972 @@
+{
+  "video": "v13.mp4",
+  "duration": 119.44,
+  "derived": {
+    "shots": 43,
+    "avg_shot_len": 2.78,
+    "cuts_per_min": 21.6,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      15,
+      17,
+      18,
+      21,
+      24,
+      25,
+      26,
+      29,
+      30,
+      31,
+      33,
+      36,
+      39,
+      41,
+      42
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "Google",
+      "start": 0.0,
+      "end": 0.26
+    },
+    {
+      "w": "Gemini",
+      "start": 0.26,
+      "end": 0.58
+    },
+    {
+      "w": "just",
+      "start": 0.58,
+      "end": 0.98
+    },
+    {
+      "w": "integrated",
+      "start": 0.98,
+      "end": 1.56
+    },
+    {
+      "w": "their",
+      "start": 1.56,
+      "end": 1.82
+    },
+    {
+      "w": "agentic",
+      "start": 1.82,
+      "end": 2.48
+    },
+    {
+      "w": "capabilities",
+      "start": 2.48,
+      "end": 2.96
+    },
+    {
+      "w": "in",
+      "start": 2.96,
+      "end": 3.62
+    },
+    {
+      "w": "Gemini",
+      "start": 3.62,
+      "end": 4.06
+    },
+    {
+      "w": "Live.",
+      "start": 4.06,
+      "end": 4.32
+    },
+    {
+      "w": "And",
+      "start": 4.56,
+      "end": 4.64
+    },
+    {
+      "w": "there's",
+      "start": 4.64,
+      "end": 4.8
+    },
+    {
+      "w": "a",
+      "start": 4.8,
+      "end": 4.86
+    },
+    {
+      "w": "way",
+      "start": 4.86,
+      "end": 4.94
+    },
+    {
+      "w": "of",
+      "start": 4.94,
+      "end": 5.02
+    },
+    {
+      "w": "using",
+      "start": 5.02,
+      "end": 5.2
+    },
+    {
+      "w": "this.",
+      "start": 5.2,
+      "end": 5.44
+    },
+    {
+      "w": "Not",
+      "start": 5.68,
+      "end": 5.8
+    },
+    {
+      "w": "many",
+      "start": 5.8,
+      "end": 5.96
+    },
+    {
+      "w": "people",
+      "start": 5.96,
+      "end": 6.16
+    },
+    {
+      "w": "have",
+      "start": 6.16,
+      "end": 6.28
+    },
+    {
+      "w": "tried",
+      "start": 6.28,
+      "end": 6.5
+    },
+    {
+      "w": "yet",
+      "start": 6.5,
+      "end": 6.7
+    },
+    {
+      "w": "that",
+      "start": 6.7,
+      "end": 6.92
+    },
+    {
+      "w": "is",
+      "start": 6.92,
+      "end": 7.06
+    },
+    {
+      "w": "insanely",
+      "start": 7.06,
+      "end": 7.58
+    },
+    {
+      "w": "valuable",
+      "start": 7.58,
+      "end": 8.04
+    },
+    {
+      "w": "for",
+      "start": 8.04,
+      "end": 8.44
+    },
+    {
+      "w": "creators",
+      "start": 8.44,
+      "end": 8.94
+    },
+    {
+      "w": "and",
+      "start": 8.94,
+      "end": 9.36
+    },
+    {
+      "w": "marketers.",
+      "start": 9.36,
+      "end": 9.7
+    },
+    {
+      "w": "With",
+      "start": 9.96,
+      "end": 10.08
+    },
+    {
+      "w": "this",
+      "start": 10.08,
+      "end": 10.22
+    },
+    {
+      "w": "integration,",
+      "start": 10.22,
+      "end": 10.52
+    },
+    {
+      "w": "you",
+      "start": 10.76,
+      "end": 10.82
+    },
+    {
+      "w": "can",
+      "start": 10.82,
+      "end": 10.96
+    },
+    {
+      "w": "now",
+      "start": 10.96,
+      "end": 11.12
+    },
+    {
+      "w": "have",
+      "start": 11.12,
+      "end": 11.32
+    },
+    {
+      "w": "voice",
+      "start": 11.32,
+      "end": 11.66
+    },
+    {
+      "w": "control",
+      "start": 11.66,
+      "end": 12.18
+    },
+    {
+      "w": "over",
+      "start": 12.18,
+      "end": 12.64
+    },
+    {
+      "w": "your",
+      "start": 12.64,
+      "end": 12.9
+    },
+    {
+      "w": "personal",
+      "start": 12.9,
+      "end": 13.36
+    },
+    {
+      "w": "AI",
+      "start": 13.36,
+      "end": 13.8
+    },
+    {
+      "w": "agent.",
+      "start": 13.8,
+      "end": 14.26
+    },
+    {
+      "w": "It",
+      "start": 14.48,
+      "end": 14.52
+    },
+    {
+      "w": "can",
+      "start": 14.52,
+      "end": 14.6
+    },
+    {
+      "w": "access",
+      "start": 14.6,
+      "end": 14.82
+    },
+    {
+      "w": "docs,",
+      "start": 14.82,
+      "end": 15.26
+    },
+    {
+      "w": "drives,",
+      "start": 15.52,
+      "end": 15.78
+    },
+    {
+      "w": "slidesheets,",
+      "start": 16.38,
+      "end": 17.08
+    },
+    {
+      "w": "Gmail,",
+      "start": 17.3,
+      "end": 17.62
+    },
+    {
+      "w": "and",
+      "start": 17.92,
+      "end": 18.0
+    },
+    {
+      "w": "even",
+      "start": 18.0,
+      "end": 18.18
+    },
+    {
+      "w": "YouTube.",
+      "start": 18.18,
+      "end": 18.48
+    },
+    {
+      "w": "As",
+      "start": 18.72,
+      "end": 18.82
+    },
+    {
+      "w": "a",
+      "start": 18.82,
+      "end": 18.9
+    },
+    {
+      "w": "creator,",
+      "start": 18.9,
+      "end": 19.08
+    },
+    {
+      "w": "I",
+      "start": 19.26,
+      "end": 19.34
+    },
+    {
+      "w": "used",
+      "start": 19.34,
+      "end": 19.62
+    },
+    {
+      "w": "this",
+      "start": 19.62,
+      "end": 19.8
+    },
+    {
+      "w": "new",
+      "start": 19.8,
+      "end": 19.94
+    },
+    {
+      "w": "update",
+      "start": 19.94,
+      "end": 20.22
+    },
+    {
+      "w": "to",
+      "start": 20.22,
+      "end": 20.44
+    },
+    {
+      "w": "build",
+      "start": 20.44,
+      "end": 20.62
+    },
+    {
+      "w": "out",
+      "start": 20.62,
+      "end": 20.84
+    },
+    {
+      "w": "an",
+      "start": 20.84,
+      "end": 21.0
+    },
+    {
+      "w": "entire",
+      "start": 21.0,
+      "end": 21.32
+    },
+    {
+      "w": "content",
+      "start": 21.32,
+      "end": 22.02
+    },
+    {
+      "w": "pipeline",
+      "start": 22.02,
+      "end": 22.5
+    },
+    {
+      "w": "for",
+      "start": 22.5,
+      "end": 22.86
+    },
+    {
+      "w": "brand",
+      "start": 22.86,
+      "end": 23.14
+    },
+    {
+      "w": "partnerships.",
+      "start": 23.14,
+      "end": 23.66
+    },
+    {
+      "w": "All",
+      "start": 23.9,
+      "end": 24.02
+    },
+    {
+      "w": "I",
+      "start": 24.02,
+      "end": 24.14
+    },
+    {
+      "w": "had",
+      "start": 24.14,
+      "end": 24.22
+    },
+    {
+      "w": "to",
+      "start": 24.22,
+      "end": 24.26
+    },
+    {
+      "w": "do",
+      "start": 24.26,
+      "end": 24.38
+    },
+    {
+      "w": "was",
+      "start": 24.38,
+      "end": 24.56
+    },
+    {
+      "w": "open",
+      "start": 24.56,
+      "end": 24.98
+    },
+    {
+      "w": "Gemini",
+      "start": 24.98,
+      "end": 25.42
+    },
+    {
+      "w": "Live",
+      "start": 25.42,
+      "end": 25.76
+    },
+    {
+      "w": "and",
+      "start": 25.76,
+      "end": 26.04
+    },
+    {
+      "w": "verbally",
+      "start": 26.04,
+      "end": 26.56
+    },
+    {
+      "w": "describe",
+      "start": 26.56,
+      "end": 27.1
+    },
+    {
+      "w": "the",
+      "start": 27.1,
+      "end": 27.46
+    },
+    {
+      "w": "workflow",
+      "start": 27.46,
+      "end": 27.8
+    },
+    {
+      "w": "I",
+      "start": 27.8,
+      "end": 28.06
+    },
+    {
+      "w": "wanted.",
+      "start": 28.06,
+      "end": 28.36
+    },
+    {
+      "w": "And",
+      "start": 28.36,
+      "end": 28.6
+    },
+    {
+      "w": "it",
+      "start": 28.6,
+      "end": 28.72
+    },
+    {
+      "w": "built",
+      "start": 28.72,
+      "end": 28.9
+    },
+    {
+      "w": "this",
+      "start": 28.9,
+      "end": 29.12
+    },
+    {
+      "w": "whole",
+      "start": 29.12,
+      "end": 29.42
+    },
+    {
+      "w": "thing",
+      "start": 29.42,
+      "end": 29.66
+    },
+    {
+      "w": "out",
+      "start": 29.66,
+      "end": 29.84
+    },
+    {
+      "w": "for",
+      "start": 29.84,
+      "end": 30.0
+    },
+    {
+      "w": "me",
+      "start": 30.0,
+      "end": 30.16
+    },
+    {
+      "w": "automatically.",
+      "start": 30.16,
+      "end": 30.66
+    },
+    {
+      "w": "First,",
+      "start": 31.04,
+      "end": 31.2
+    },
+    {
+      "w": "it",
+      "start": 31.42,
+      "end": 31.5
+    },
+    {
+      "w": "scans",
+      "start": 31.5,
+      "end": 31.84
+    },
+    {
+      "w": "my",
+      "start": 31.84,
+      "end": 32.08
+    },
+    {
+      "w": "email",
+      "start": 32.08,
+      "end": 32.32
+    },
+    {
+      "w": "daily,",
+      "start": 32.32,
+      "end": 32.68
+    },
+    {
+      "w": "looking",
+      "start": 32.88,
+      "end": 32.98
+    },
+    {
+      "w": "for",
+      "start": 32.98,
+      "end": 33.2
+    },
+    {
+      "w": "any",
+      "start": 33.2,
+      "end": 33.4
+    },
+    {
+      "w": "communication",
+      "start": 33.4,
+      "end": 33.84
+    },
+    {
+      "w": "with",
+      "start": 33.84,
+      "end": 34.18
+    },
+    {
+      "w": "brands",
+      "start": 34.18,
+      "end": 34.48
+    },
+    {
+      "w": "for",
+      "start": 34.48,
+      "end": 34.78
+    },
+    {
+      "w": "upcoming",
+      "start": 34.78,
+      "end": 35.24
+    },
+    {
+      "w": "partnerships.",
+      "start": 35.24,
+      "end": 35.82
+    },
+    {
+      "w": "When",
+      "start": 36.1,
+      "end": 36.18
+    },
+    {
+      "w": "it",
+      "start": 36.18,
+      "end": 36.28
+    },
+    {
+      "w": "finds",
+      "start": 36.28,
+      "end": 36.44
+    },
+    {
+      "w": "one,",
+      "start": 36.44,
+      "end": 36.62
+    },
+    {
+      "w": "it",
+      "start": 36.78,
+      "end": 36.8
+    },
+    {
+      "w": "extracts",
+      "start": 36.8,
+      "end": 37.42
+    },
+    {
+      "w": "all",
+      "start": 37.42,
+      "end": 37.54
+    },
+    {
+      "w": "the",
+      "start": 37.54,
+      "end": 37.68
+    },
+    {
+      "w": "campaign",
+      "start": 37.68,
+      "end": 38.02
+    },
+    {
+      "w": "information",
+      "start": 38.02,
+      "end": 38.46
+    },
+    {
+      "w": "shared",
+      "start": 38.46,
+      "end": 38.94
+    },
+    {
+      "w": "by",
+      "start": 38.94,
+      "end": 39.12
+    },
+    {
+      "w": "the",
+      "start": 39.12,
+      "end": 39.2
+    },
+    {
+      "w": "brand,",
+      "start": 39.2,
+      "end": 39.5
+    },
+    {
+      "w": "and",
+      "start": 39.66,
+      "end": 39.76
+    },
+    {
+      "w": "then",
+      "start": 39.76,
+      "end": 39.84
+    },
+    {
+      "w": "it",
+      "start": 39.84,
+      "end": 39.96
+    },
+    {
+      "w": "searches",
+      "start": 39.96,
+      "end": 40.26
+    },
+    {
+      "w": "all",
+      "start": 40.26,
+      "end": 40.66
+    },
+    {
+      "w": "of",
+      "start": 40.66,
+      "end": 40.8
+    },
+    {
+      "w": "my",
+      "start": 40.8,
+      "end": 40.96
+    },
+    {
+      "w": "best",
+      "start": 40.96,
+      "end": 41.2
+    },
+    {
+      "w": "content",
+      "start": 41.2,
+      "end": 41.7
+    },
+    {
+      "w": "on",
+      "start": 41.7,
+      "end": 41.94
+    },
+    {
+      "w": "YouTube",
+      "start": 41.94,
+      "end": 42.3
+    },
+    {
+      "w": "to",
+      "start": 42.3,
+      "end": 42.6
+    },
+    {
+      "w": "find",
+      "start": 42.6,
+      "end": 42.92
+    },
+    {
+      "w": "the",
+      "start": 42.92,
+      "end": 43.1
+    },
+    {
+      "w": "narratives",
+      "start": 43.1,
+      "end": 43.52
+    },
+    {
+      "w": "that",
+      "start": 43.52,
+      "end": 43.78
+    },
+    {
+      "w": "have",
+      "start": 43.78,
+      "end": 43.88
+    },
+    {
+      "w": "worked",
+      "start": 43.88,
+      "end": 44.06
+    },
+    {
+      "w": "well",
+      "start": 44.06,
+      "end": 44.3
+    },
+    {
+      "w": "for",
+      "start": 44.3,
+      "end": 44.52
+    },
+    {
+      "w": "similar",
+      "start": 44.52,
+      "end": 44.84
+    },
+    {
+      "w": "stories",
+      "start": 44.84,
+      "end": 45.26
+    },
+    {
+      "w": "in",
+      "start": 45.26,
+      "end": 45.48
+    },
+    {
+      "w": "the",
+      "start": 45.48,
+      "end": 45.56
+    },
+    {
+      "w": "past.",
+      "start": 45.56,
+      "end": 45.86
+    },
+    {
+      "w": "Then",
+      "start": 46.06,
+      "end": 46.28
+    },
+    {
+      "w": "it",
+      "start": 46.28,
+      "end": 46.46
+    },
+    {
+      "w": "uses",
+      "start": 46.46,
+      "end": 46.74
+    },
+    {
+      "w": "all",
+      "start": 46.74,
+      "end": 47.0
+    },
+    {
+      "w": "that",
+      "start": 47.0,
+      "end": 47.12
+    },
+    {
+      "w": "information",
+      "start": 47.12,
+      "end": 47.56
+    },
+    {
+      "w": "to",
+      "start": 47.56,
+      "end": 47.82
+    },
+    {
+      "w": "automatically",
+      "start": 47.82,
+      "end": 48.36
+    },
+    {
+      "w": "create",
+      "start": 48.36,
+      "end": 48.84
+    },
+    {
+      "w": "a",
+      "start": 48.84,
+      "end": 49.08
+    },
+    {
+      "w": "folder",
+      "start": 49.08,
+      "end": 49.42
+    },
+    {
+      "w": "in",
+      "start": 49.42,
+      "end": 49.66
+    },
+    {
+      "w": "Google",
+      "start": 49.66,
+      "end": 49.82
+    },
+    {
+      "w": "Drive",
+      "start": 49.82,
+      "end": 50.2
+    },
+    {
+      "w": "with",
+      "start": 50.2,
+      "end": 50.5
+    },
+    {
+      "w": "a",
+      "start": 50.5,
+      "end": 50.62
+    },
+    {
+      "w": "doc",
+      "start": 50.62,
+      "end": 50.98
+    },
+    {
+      "w": "inside",
+      "start": 50.98,
+      "end": 51.48
+    },
+    {
+      "w": "specifically",
+      "start": 51.48,
+      "end": 52.06
+    },
+    {
+      "w": "for",
+      "start": 52.06,
+      "end": 52.44
+    },
+    {
+      "w": "that",
+      "start": 52.44,
+      "end": 52.6
+    },
+    {
+      "w": "campaign",
+      "start": 52.6,
+      "end": 53.06
+    },
+    {
+      "w": "with",
+      "start": 53.06,
+      "end": 53.32
+    },
+    {
+      "w": "ideas,",
+      "start": 53.32,
+      "end": 53.74
+    },
+    {
+      "w": "power",
+      "start": 54.0,
+      "end": 54.24
+    },
+    {
+      "w": "phrases,",
+      "start": 54.24,
+      "end": 54.62
+    },
+    {
+      "w": "and",
+      "start": 54.76,
+      "end": 54.92
+    },
+    {
+      "w": "formats",
+      "start": 54.92,
+      "end": 55.32
+    },
+    {
+      "w": "that",
+      "start": 55.32,
+      "end": 55.62
+    },
+    {
+      "w": "worked",
+      "start": 55.62,
+      "end": 55.86
+    },
+    {
+      "w": "previously.",
+      "start": 55.86,
+      "end": 56.3
+    },
+    {
+      "w": "When",
+      "start": 56.54,
+      "end": 56.6
+    },
+    {
+      "w": "I",
+      "start": 56.6,
+      "end": 56.68
+    },
+    {
+      "w": "go",
+      "start": 56.68,
+      "end": 56.74
+    },
+    {
+      "w": "to",
+      "start": 56.74,
+      "end": 56.82
+    },
+    {
+      "w": "make",
+      "start": 56.82,
+      "end": 56.92
+    },
+    {
+      "w": "the",
+      "start": 56.92,
+      "end": 57.0
+    },
+    {
+      "w": "video,",
+      "start": 57.0,
+      "end": 57.24
+    },
+    {
+      "w": "I",
+      "start": 57.24,
+      "end": 57.44
+    },
+    {
+      "w": "just",
+      "start": 57.44,
+      "end": 57.58
+    },
+    {
+      "w": "open",
+      "start": 57.58,
+      "end": 57.86
+    },
+    {
+      "w": "that",
+      "start": 57.86,
+      "end": 58.04
+    },
+    {
+      "w": "doc",
+      "start": 58.04,
+      "end": 58.32
+    },
+    {
+      "w": "and",
+      "start": 58.32,
+      "end": 58.64
+    },
+    {
+      "w": "all",
+      "start": 58.64,
+      "end": 58.94
+    },
+    {
+      "w": "the",
+      "start": 58.94,
+      "end": 59.1
+    },
+    {
+      "w": "notes",
+      "start": 59.1,
+      "end": 59.42
+    },
+    {
+      "w": "I",
+      "start": 59.42,
+      "end": 59.68
+    },
+    {
+      "w": "already",
+      "start": 59.68,
+      "end": 60.04
+    },
+    {
+      "w": "need",
+      "start": 60.04,
+      "end": 60.32
+    },
+    {
+      "w": "are",
+      "start": 60.32,
+      "end": 60.64
+    },
+    {
+      "w": "in",
+      "start": 60.64,
+      "end": 60.86
+    },
+    {
+      "w": "there",
+      "start": 60.86,
+      "end": 61.02
+    },
+    {
+      "w": "ready",
+      "start": 61.02,
+      "end": 61.26
+    },
+    {
+      "w": "to",
+      "start": 61.26,
+      "end": 61.4
+    },
+    {
+      "w": "go.",
+      "start": 61.4,
+      "end": 61.6
+    },
+    {
+      "w": "I",
+      "start": 61.72,
+      "end": 61.78
+    },
+    {
+      "w": "call",
+      "start": 61.78,
+      "end": 61.92
+    },
+    {
+      "w": "this",
+      "start": 61.92,
+      "end": 62.12
+    },
+    {
+      "w": "flow",
+      "start": 62.12,
+      "end": 62.42
+    },
+    {
+      "w": "data",
+      "start": 62.42,
+      "end": 62.9
+    },
+    {
+      "w": "enabled",
+      "start": 62.9,
+      "end": 63.32
+    },
+    {
+      "w": "creativity.",
+      "start": 63.32,
+      "end": 63.88
+    },
+    {
+      "w": "It's",
+      "start": 64.1,
+      "end": 64.22
+    },
+    {
+      "w": "using",
+      "start": 64.22,
+      "end": 64.42
+    },
+    {
+      "w": "the",
+      "start": 64.42,
+      "end": 64.6
+    },
+    {
+      "w": "data",
+      "start": 64.6,
+      "end": 64.9
+    },
+    {
+      "w": "and",
+      "start": 64.9,
+      "end": 65.08
+    },
+    {
+      "w": "examples",
+      "start": 65.08,
+      "end": 65.48
+    },
+    {
+      "w": "from",
+      "start": 65.48,
+      "end": 65.82
+    },
+    {
+      "w": "previous",
+      "start": 65.82,
+      "end": 66.22
+    },
+    {
+      "w": "winning",
+      "start": 66.22,
+      "end": 66.54
+    },
+    {
+      "w": "videos",
+      "start": 66.54,
+      "end": 66.96
+    },
+    {
+      "w": "to",
+      "start": 66.96,
+      "end": 67.3
+    },
+    {
+      "w": "guide",
+      "start": 67.3,
+      "end": 67.68
+    },
+    {
+      "w": "my",
+      "start": 67.68,
+      "end": 67.92
+    },
+    {
+      "w": "creativity",
+      "start": 67.92,
+      "end": 68.4
+    },
+    {
+      "w": "for",
+      "start": 68.4,
+      "end": 68.82
+    },
+    {
+      "w": "the",
+      "start": 68.82,
+      "end": 68.94
+    },
+    {
+      "w": "new",
+      "start": 68.94,
+      "end": 69.08
+    },
+    {
+      "w": "campaign.",
+      "start": 69.08,
+      "end": 69.48
+    },
+    {
+      "w": "Now",
+      "start": 69.72,
+      "end": 69.8
+    },
+    {
+      "w": "that",
+      "start": 69.8,
+      "end": 69.88
+    },
+    {
+      "w": "whole",
+      "start": 69.88,
+      "end": 70.04
+    },
+    {
+      "w": "thing",
+      "start": 70.04,
+      "end": 70.2
+    },
+    {
+      "w": "is",
+      "start": 70.2,
+      "end": 70.32
+    },
+    {
+      "w": "just",
+      "start": 70.32,
+      "end": 70.46
+    },
+    {
+      "w": "one",
+      "start": 70.46,
+      "end": 70.84
+    },
+    {
+      "w": "single",
+      "start": 70.84,
+      "end": 71.26
+    },
+    {
+      "w": "creator",
+      "start": 71.26,
+      "end": 71.56
+    },
+    {
+      "w": "workflow.",
+      "start": 71.56,
+      "end": 71.94
+    },
+    {
+      "w": "There",
+      "start": 72.08,
+      "end": 72.18
+    },
+    {
+      "w": "are",
+      "start": 72.18,
+      "end": 72.38
+    },
+    {
+      "w": "dozens",
+      "start": 72.38,
+      "end": 72.62
+    },
+    {
+      "w": "of",
+      "start": 72.62,
+      "end": 72.88
+    },
+    {
+      "w": "other",
+      "start": 72.88,
+      "end": 73.08
+    },
+    {
+      "w": "ones",
+      "start": 73.08,
+      "end": 73.32
+    },
+    {
+      "w": "you",
+      "start": 73.32,
+      "end": 73.48
+    },
+    {
+      "w": "can",
+      "start": 73.48,
+      "end": 73.64
+    },
+    {
+      "w": "run.",
+      "start": 73.64,
+      "end": 73.84
+    },
+    {
+      "w": "For",
+      "start": 73.94,
+      "end": 74.0
+    },
+    {
+      "w": "example,",
+      "start": 74.0,
+      "end": 74.22
+    },
+    {
+      "w": "I",
+      "start": 74.32,
+      "end": 74.48
+    },
+    {
+      "w": "also",
+      "start": 74.48,
+      "end": 74.78
+    },
+    {
+      "w": "asked",
+      "start": 74.78,
+      "end": 74.98
+    },
+    {
+      "w": "Gemini",
+      "start": 74.98,
+      "end": 75.28
+    },
+    {
+      "w": "to",
+      "start": 75.28,
+      "end": 75.54
+    },
+    {
+      "w": "build",
+      "start": 75.54,
+      "end": 75.72
+    },
+    {
+      "w": "out",
+      "start": 75.72,
+      "end": 75.88
+    },
+    {
+      "w": "an",
+      "start": 75.88,
+      "end": 76.04
+    },
+    {
+      "w": "invoice",
+      "start": 76.04,
+      "end": 76.44
+    },
+    {
+      "w": "tracking",
+      "start": 76.44,
+      "end": 76.96
+    },
+    {
+      "w": "pipeline",
+      "start": 76.96,
+      "end": 77.46
+    },
+    {
+      "w": "to",
+      "start": 77.46,
+      "end": 77.78
+    },
+    {
+      "w": "keep",
+      "start": 77.78,
+      "end": 77.92
+    },
+    {
+      "w": "track",
+      "start": 77.92,
+      "end": 78.16
+    },
+    {
+      "w": "of",
+      "start": 78.16,
+      "end": 78.36
+    },
+    {
+      "w": "all",
+      "start": 78.36,
+      "end": 78.56
+    },
+    {
+      "w": "my",
+      "start": 78.56,
+      "end": 78.76
+    },
+    {
+      "w": "brand",
+      "start": 78.76,
+      "end": 79.12
+    },
+    {
+      "w": "partnership",
+      "start": 79.12,
+      "end": 79.66
+    },
+    {
+      "w": "payments.",
+      "start": 79.66,
+      "end": 80.08
+    },
+    {
+      "w": "I",
+      "start": 80.36,
+      "end": 80.48
+    },
+    {
+      "w": "also",
+      "start": 80.48,
+      "end": 80.64
+    },
+    {
+      "w": "built",
+      "start": 80.64,
+      "end": 80.9
+    },
+    {
+      "w": "an",
+      "start": 80.9,
+      "end": 81.08
+    },
+    {
+      "w": "idea",
+      "start": 81.08,
+      "end": 81.4
+    },
+    {
+      "w": "repurposer",
+      "start": 81.4,
+      "end": 82.08
+    },
+    {
+      "w": "that",
+      "start": 82.08,
+      "end": 82.42
+    },
+    {
+      "w": "scans",
+      "start": 82.42,
+      "end": 82.76
+    },
+    {
+      "w": "my",
+      "start": 82.76,
+      "end": 82.96
+    },
+    {
+      "w": "Google",
+      "start": 82.96,
+      "end": 83.16
+    },
+    {
+      "w": "Drive",
+      "start": 83.16,
+      "end": 83.48
+    },
+    {
+      "w": "for",
+      "start": 83.48,
+      "end": 83.74
+    },
+    {
+      "w": "old",
+      "start": 83.74,
+      "end": 84.0
+    },
+    {
+      "w": "script",
+      "start": 84.0,
+      "end": 84.28
+    },
+    {
+      "w": "documents",
+      "start": 84.28,
+      "end": 84.78
+    },
+    {
+      "w": "and",
+      "start": 84.78,
+      "end": 85.06
+    },
+    {
+      "w": "notes",
+      "start": 85.06,
+      "end": 85.36
+    },
+    {
+      "w": "that",
+      "start": 85.36,
+      "end": 85.58
+    },
+    {
+      "w": "can",
+      "start": 85.58,
+      "end": 85.68
+    },
+    {
+      "w": "be",
+      "start": 85.68,
+      "end": 85.8
+    },
+    {
+      "w": "turned",
+      "start": 85.8,
+      "end": 86.08
+    },
+    {
+      "w": "into",
+      "start": 86.08,
+      "end": 86.38
+    },
+    {
+      "w": "new",
+      "start": 86.38,
+      "end": 86.62
+    },
+    {
+      "w": "ideas.",
+      "start": 86.62,
+      "end": 86.98
+    },
+    {
+      "w": "And",
+      "start": 86.98,
+      "end": 87.26
+    },
+    {
+      "w": "the",
+      "start": 87.26,
+      "end": 87.36
+    },
+    {
+      "w": "reason",
+      "start": 87.36,
+      "end": 87.52
+    },
+    {
+      "w": "all",
+      "start": 87.52,
+      "end": 87.7
+    },
+    {
+      "w": "these",
+      "start": 87.7,
+      "end": 87.88
+    },
+    {
+      "w": "are",
+      "start": 87.88,
+      "end": 88.06
+    },
+    {
+      "w": "so",
+      "start": 88.06,
+      "end": 88.32
+    },
+    {
+      "w": "easy",
+      "start": 88.32,
+      "end": 88.58
+    },
+    {
+      "w": "to",
+      "start": 88.58,
+      "end": 88.74
+    },
+    {
+      "w": "build",
+      "start": 88.74,
+      "end": 88.96
+    },
+    {
+      "w": "is",
+      "start": 88.96,
+      "end": 89.18
+    },
+    {
+      "w": "because",
+      "start": 89.18,
+      "end": 89.42
+    },
+    {
+      "w": "of",
+      "start": 89.42,
+      "end": 89.58
+    },
+    {
+      "w": "the",
+      "start": 89.58,
+      "end": 89.68
+    },
+    {
+      "w": "new",
+      "start": 89.68,
+      "end": 89.9
+    },
+    {
+      "w": "agenda",
+      "start": 89.9,
+      "end": 90.22
+    },
+    {
+      "w": "capabilities",
+      "start": 90.22,
+      "end": 90.92
+    },
+    {
+      "w": "in",
+      "start": 90.92,
+      "end": 91.38
+    },
+    {
+      "w": "Gemini",
+      "start": 91.38,
+      "end": 91.8
+    },
+    {
+      "w": "Live.",
+      "start": 91.8,
+      "end": 92.08
+    },
+    {
+      "w": "By",
+      "start": 92.26,
+      "end": 92.32
+    },
+    {
+      "w": "being",
+      "start": 92.32,
+      "end": 92.5
+    },
+    {
+      "w": "able",
+      "start": 92.5,
+      "end": 92.68
+    },
+    {
+      "w": "to",
+      "start": 92.68,
+      "end": 92.8
+    },
+    {
+      "w": "fully",
+      "start": 92.8,
+      "end": 93.12
+    },
+    {
+      "w": "describe",
+      "start": 93.12,
+      "end": 93.58
+    },
+    {
+      "w": "the",
+      "start": 93.58,
+      "end": 93.94
+    },
+    {
+      "w": "exact",
+      "start": 93.94,
+      "end": 94.44
+    },
+    {
+      "w": "vision",
+      "start": 94.44,
+      "end": 94.84
+    },
+    {
+      "w": "I",
+      "start": 94.84,
+      "end": 95.04
+    },
+    {
+      "w": "have",
+      "start": 95.04,
+      "end": 95.2
+    },
+    {
+      "w": "for",
+      "start": 95.2,
+      "end": 95.34
+    },
+    {
+      "w": "the",
+      "start": 95.34,
+      "end": 95.42
+    },
+    {
+      "w": "workflow",
+      "start": 95.42,
+      "end": 95.78
+    },
+    {
+      "w": "easily",
+      "start": 95.78,
+      "end": 96.26
+    },
+    {
+      "w": "interrupt,",
+      "start": 96.26,
+      "end": 96.68
+    },
+    {
+      "w": "change",
+      "start": 97.08,
+      "end": 97.26
+    },
+    {
+      "w": "my",
+      "start": 97.26,
+      "end": 97.48
+    },
+    {
+      "w": "mind,",
+      "start": 97.48,
+      "end": 97.84
+    },
+    {
+      "w": "course",
+      "start": 98.0,
+      "end": 98.22
+    },
+    {
+      "w": "correct,",
+      "start": 98.22,
+      "end": 98.6
+    },
+    {
+      "w": "I",
+      "start": 98.76,
+      "end": 98.84
+    },
+    {
+      "w": "can",
+      "start": 98.84,
+      "end": 99.0
+    },
+    {
+      "w": "flow",
+      "start": 99.0,
+      "end": 99.38
+    },
+    {
+      "w": "much",
+      "start": 99.38,
+      "end": 99.76
+    },
+    {
+      "w": "easier",
+      "start": 99.76,
+      "end": 100.26
+    },
+    {
+      "w": "than",
+      "start": 100.26,
+      "end": 100.5
+    },
+    {
+      "w": "typing.",
+      "start": 100.5,
+      "end": 100.8
+    },
+    {
+      "w": "And",
+      "start": 100.98,
+      "end": 101.0
+    },
+    {
+      "w": "because",
+      "start": 101.0,
+      "end": 101.16
+    },
+    {
+      "w": "Gemini",
+      "start": 101.16,
+      "end": 101.52
+    },
+    {
+      "w": "Live",
+      "start": 101.52,
+      "end": 101.78
+    },
+    {
+      "w": "can",
+      "start": 101.78,
+      "end": 102.08
+    },
+    {
+      "w": "connect",
+      "start": 102.08,
+      "end": 102.6
+    },
+    {
+      "w": "across",
+      "start": 102.6,
+      "end": 102.9
+    },
+    {
+      "w": "my",
+      "start": 102.9,
+      "end": 103.22
+    },
+    {
+      "w": "entire",
+      "start": 103.22,
+      "end": 103.54
+    },
+    {
+      "w": "Google",
+      "start": 103.54,
+      "end": 103.8
+    },
+    {
+      "w": "suite,",
+      "start": 103.8,
+      "end": 104.2
+    },
+    {
+      "w": "it",
+      "start": 104.32,
+      "end": 104.4
+    },
+    {
+      "w": "has",
+      "start": 104.4,
+      "end": 104.58
+    },
+    {
+      "w": "all",
+      "start": 104.58,
+      "end": 104.84
+    },
+    {
+      "w": "the",
+      "start": 104.84,
+      "end": 104.96
+    },
+    {
+      "w": "context",
+      "start": 104.96,
+      "end": 105.46
+    },
+    {
+      "w": "and",
+      "start": 105.46,
+      "end": 105.74
+    },
+    {
+      "w": "resources",
+      "start": 105.74,
+      "end": 106.14
+    },
+    {
+      "w": "it",
+      "start": 106.14,
+      "end": 106.48
+    },
+    {
+      "w": "needs",
+      "start": 106.48,
+      "end": 106.76
+    },
+    {
+      "w": "to",
+      "start": 106.76,
+      "end": 106.96
+    },
+    {
+      "w": "build",
+      "start": 106.96,
+      "end": 107.14
+    },
+    {
+      "w": "out",
+      "start": 107.14,
+      "end": 107.3
+    },
+    {
+      "w": "the",
+      "start": 107.3,
+      "end": 107.5
+    },
+    {
+      "w": "most",
+      "start": 107.5,
+      "end": 107.74
+    },
+    {
+      "w": "complex",
+      "start": 107.74,
+      "end": 108.22
+    },
+    {
+      "w": "workflows.",
+      "start": 108.22,
+      "end": 108.66
+    },
+    {
+      "w": "I'm",
+      "start": 108.9,
+      "end": 109.04
+    },
+    {
+      "w": "telling",
+      "start": 109.04,
+      "end": 109.14
+    },
+    {
+      "w": "you,",
+      "start": 109.14,
+      "end": 109.32
+    },
+    {
+      "w": "once",
+      "start": 109.4,
+      "end": 109.48
+    },
+    {
+      "w": "you",
+      "start": 109.48,
+      "end": 109.6
+    },
+    {
+      "w": "use",
+      "start": 109.6,
+      "end": 109.8
+    },
+    {
+      "w": "this,",
+      "start": 109.8,
+      "end": 109.98
+    },
+    {
+      "w": "it",
+      "start": 110.1,
+      "end": 110.18
+    },
+    {
+      "w": "is",
+      "start": 110.18,
+      "end": 110.3
+    },
+    {
+      "w": "clear",
+      "start": 110.3,
+      "end": 110.54
+    },
+    {
+      "w": "Gemini",
+      "start": 110.54,
+      "end": 111.02
+    },
+    {
+      "w": "Live",
+      "start": 111.02,
+      "end": 111.34
+    },
+    {
+      "w": "is",
+      "start": 111.34,
+      "end": 111.54
+    },
+    {
+      "w": "a",
+      "start": 111.54,
+      "end": 111.66
+    },
+    {
+      "w": "huge",
+      "start": 111.66,
+      "end": 112.12
+    },
+    {
+      "w": "productivity",
+      "start": 112.12,
+      "end": 112.66
+    },
+    {
+      "w": "enhancer.",
+      "start": 112.66,
+      "end": 113.38
+    },
+    {
+      "w": "This",
+      "start": 113.46,
+      "end": 113.58
+    },
+    {
+      "w": "flow",
+      "start": 113.58,
+      "end": 113.78
+    },
+    {
+      "w": "is",
+      "start": 113.78,
+      "end": 113.98
+    },
+    {
+      "w": "now",
+      "start": 113.98,
+      "end": 114.18
+    },
+    {
+      "w": "available",
+      "start": 114.18,
+      "end": 114.46
+    },
+    {
+      "w": "for",
+      "start": 114.46,
+      "end": 114.76
+    },
+    {
+      "w": "pro",
+      "start": 114.76,
+      "end": 115.16
+    },
+    {
+      "w": "and",
+      "start": 115.16,
+      "end": 115.42
+    },
+    {
+      "w": "ultra",
+      "start": 115.42,
+      "end": 115.76
+    },
+    {
+      "w": "users.",
+      "start": 115.76,
+      "end": 116.06
+    },
+    {
+      "w": "Comment",
+      "start": 116.06,
+      "end": 116.48
+    },
+    {
+      "w": "Gemini",
+      "start": 116.48,
+      "end": 116.84
+    },
+    {
+      "w": "and",
+      "start": 116.84,
+      "end": 117.08
+    },
+    {
+      "w": "I'll",
+      "start": 117.08,
+      "end": 117.18
+    },
+    {
+      "w": "send",
+      "start": 117.18,
+      "end": 117.4
+    },
+    {
+      "w": "through",
+      "start": 117.4,
+      "end": 117.58
+    },
+    {
+      "w": "the",
+      "start": 117.58,
+      "end": 117.7
+    },
+    {
+      "w": "links",
+      "start": 117.7,
+      "end": 117.94
+    },
+    {
+      "w": "to",
+      "start": 117.94,
+      "end": 118.16
+    },
+    {
+      "w": "get",
+      "start": 118.16,
+      "end": 118.32
+    },
+    {
+      "w": "all",
+      "start": 118.32,
+      "end": 118.56
+    },
+    {
+      "w": "of",
+      "start": 118.56,
+      "end": 118.68
+    },
+    {
+      "w": "this",
+      "start": 118.68,
+      "end": 118.86
+    },
+    {
+      "w": "set",
+      "start": 118.86,
+      "end": 119.1
+    },
+    {
+      "w": "up.",
+      "start": 119.1,
+      "end": 119.24
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 3.337,
+      "length": 3.337,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#060405",
+            "share": 0.672
+          },
+          {
+            "hex": "#302A2C",
+            "share": 0.027
+          },
+          {
+            "hex": "#281614",
+            "share": 0.023
+          },
+          {
+            "hex": "#8A756A",
+            "share": 0.023
+          },
+          {
+            "hex": "#4B3429",
+            "share": 0.019
+          }
+        ],
+        "motion_energy": 15.11,
+        "script": "Google Gemini just integrated their agentic capabilities in"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 3.337,
+      "end": 4.505,
+      "length": 1.168,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FCFCFC",
+            "share": 0.478
+          },
+          {
+            "hex": "#0F0B0E",
+            "share": 0.282
+          },
+          {
+            "hex": "#312A2B",
+            "share": 0.024
+          },
+          {
+            "hex": "#89756A",
+            "share": 0.022
+          },
+          {
+            "hex": "#261A18",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 3.59,
+        "script": "Gemini Live."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 4.505,
+      "end": 5.589,
+      "length": 1.085,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0C",
+            "share": 0.605
+          },
+          {
+            "hex": "#241B18",
+            "share": 0.06
+          },
+          {
+            "hex": "#B27446",
+            "share": 0.047
+          },
+          {
+            "hex": "#2B2219",
+            "share": 0.034
+          },
+          {
+            "hex": "#4E3428",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 11.02,
+        "script": "And there's a way of using this."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 5.589,
+      "end": 6.757,
+      "length": 1.168,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#76726D",
+            "share": 0.154
+          },
+          {
+            "hex": "#362712",
+            "share": 0.129
+          },
+          {
+            "hex": "#D2B28A",
+            "share": 0.052
+          },
+          {
+            "hex": "#17110A",
+            "share": 0.049
+          },
+          {
+            "hex": "#8E8675",
+            "share": 0.043
+          }
+        ],
+        "motion_energy": 24.29,
+        "script": "Not many people have tried yet that"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 6.757,
+      "end": 9.927,
+      "length": 3.17,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0C",
+            "share": 0.625
+          },
+          {
+            "hex": "#261917",
+            "share": 0.051
+          },
+          {
+            "hex": "#2D231A",
+            "share": 0.048
+          },
+          {
+            "hex": "#4E3329",
+            "share": 0.029
+          },
+          {
+            "hex": "#312929",
+            "share": 0.028
+          }
+        ],
+        "motion_energy": 23.49,
+        "script": "is insanely valuable for creators and marketers."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 9.927,
+      "end": 12.514,
+      "length": 2.586,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#080708",
+            "share": 0.703
+          },
+          {
+            "hex": "#302B2C",
+            "share": 0.037
+          },
+          {
+            "hex": "#131628",
+            "share": 0.025
+          },
+          {
+            "hex": "#89756A",
+            "share": 0.023
+          },
+          {
+            "hex": "#4F4B4B",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 15.43,
+        "script": "With this integration, you can now have voice control over"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 12.514,
+      "end": 14.391,
+      "length": 1.877,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#060507",
+            "share": 0.328
+          },
+          {
+            "hex": "#B2B0AD",
+            "share": 0.096
+          },
+          {
+            "hex": "#E9F1F1",
+            "share": 0.048
+          },
+          {
+            "hex": "#92928D",
+            "share": 0.042
+          },
+          {
+            "hex": "#6F706E",
+            "share": 0.042
+          }
+        ],
+        "motion_energy": 28.96,
+        "script": "your personal AI agent."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 14.391,
+      "end": 16.768,
+      "length": 2.378,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F4F7FB",
+            "share": 0.413
+          },
+          {
+            "hex": "#0E0B0E",
+            "share": 0.25
+          },
+          {
+            "hex": "#4D382A",
+            "share": 0.027
+          },
+          {
+            "hex": "#322B2B",
+            "share": 0.026
+          },
+          {
+            "hex": "#89766A",
+            "share": 0.024
+          }
+        ],
+        "motion_energy": 25.19,
+        "script": "It can access docs, drives, slidesheets,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 16.768,
+      "end": 17.269,
+      "length": 0.5,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#131214",
+            "share": 0.632
+          },
+          {
+            "hex": "#282729",
+            "share": 0.121
+          },
+          {
+            "hex": "#514C4D",
+            "share": 0.028
+          },
+          {
+            "hex": "#181925",
+            "share": 0.026
+          },
+          {
+            "hex": "#89766A",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 30.73,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 17.269,
+      "end": 18.645,
+      "length": 1.377,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F3F7FB",
+            "share": 0.451
+          },
+          {
+            "hex": "#0F0C0E",
+            "share": 0.238
+          },
+          {
+            "hex": "#312A2B",
+            "share": 0.032
+          },
+          {
+            "hex": "#CFCFD0",
+            "share": 0.027
+          },
+          {
+            "hex": "#251A18",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 7.72,
+        "script": "Gmail, and even YouTube."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 10,
+      "start": 18.645,
+      "end": 19.146,
+      "length": 0.501,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0C",
+            "share": 0.574
+          },
+          {
+            "hex": "#B07347",
+            "share": 0.045
+          },
+          {
+            "hex": "#714931",
+            "share": 0.041
+          },
+          {
+            "hex": "#261A17",
+            "share": 0.04
+          },
+          {
+            "hex": "#8C5536",
+            "share": 0.039
+          }
+        ],
+        "motion_energy": 25.76,
+        "script": "As a creator,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 11,
+      "start": 19.146,
+      "end": 25.778,
+      "length": 6.632,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#030303",
+            "share": 0.738
+          },
+          {
+            "hex": "#2B3130",
+            "share": 0.09
+          },
+          {
+            "hex": "#4E5152",
+            "share": 0.075
+          },
+          {
+            "hex": "#6D6D6D",
+            "share": 0.055
+          },
+          {
+            "hex": "#888888",
+            "share": 0.015
+          }
+        ],
+        "motion_energy": 44.34,
+        "script": "I used this new update to build out an entire content pipeline for brand partnerships. All I had to do was open Gemini Live and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 12,
+      "start": 25.778,
+      "end": 28.489,
+      "length": 2.711,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0B0B0B",
+            "share": 0.399
+          },
+          {
+            "hex": "#30312B",
+            "share": 0.105
+          },
+          {
+            "hex": "#716F6F",
+            "share": 0.082
+          },
+          {
+            "hex": "#51504E",
+            "share": 0.069
+          },
+          {
+            "hex": "#8C8989",
+            "share": 0.062
+          }
+        ],
+        "motion_energy": 21.24,
+        "script": "verbally describe the workflow I wanted. And"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 13,
+      "start": 28.489,
+      "end": 30.95,
+      "length": 2.461,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#030303",
+            "share": 0.572
+          },
+          {
+            "hex": "#4E4E4E",
+            "share": 0.077
+          },
+          {
+            "hex": "#2F2F2F",
+            "share": 0.073
+          },
+          {
+            "hex": "#AF0318",
+            "share": 0.04
+          },
+          {
+            "hex": "#CF101B",
+            "share": 0.033
+          }
+        ],
+        "motion_energy": 23.58,
+        "script": "it built this whole thing out for me automatically."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 14,
+      "start": 30.95,
+      "end": 32.744,
+      "length": 1.794,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#070607",
+            "share": 0.692
+          },
+          {
+            "hex": "#302D2D",
+            "share": 0.06
+          },
+          {
+            "hex": "#4E4D4D",
+            "share": 0.052
+          },
+          {
+            "hex": "#251A17",
+            "share": 0.025
+          },
+          {
+            "hex": "#89756A",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 10.83,
+        "script": "First, it scans my email daily,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 15,
+      "start": 32.744,
+      "end": 46.05,
+      "length": 13.306,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#070607",
+            "share": 0.666
+          },
+          {
+            "hex": "#2F2C2C",
+            "share": 0.066
+          },
+          {
+            "hex": "#4F4E4E",
+            "share": 0.054
+          },
+          {
+            "hex": "#6E6C6C",
+            "share": 0.037
+          },
+          {
+            "hex": "#89756A",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 26.04,
+        "script": "looking for any communication with brands for upcoming partnerships. When it finds one, it extracts all the campaign information shared by the brand, and then it searches all of my best content on YouTube to find the narratives that have worked well for similar stories in the past."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 16,
+      "start": 46.05,
+      "end": 47.927,
+      "length": 1.877,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0C",
+            "share": 0.645
+          },
+          {
+            "hex": "#B17246",
+            "share": 0.043
+          },
+          {
+            "hex": "#261A17",
+            "share": 0.034
+          },
+          {
+            "hex": "#8B5635",
+            "share": 0.03
+          },
+          {
+            "hex": "#714A30",
+            "share": 0.029
+          }
+        ],
+        "motion_energy": 9.24,
+        "script": "Then it uses all that information to automatically"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 17,
+      "start": 47.927,
+      "end": 53.183,
+      "length": 5.256,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#877559",
+            "share": 0.149
+          },
+          {
+            "hex": "#B0916B",
+            "share": 0.128
+          },
+          {
+            "hex": "#796A4E",
+            "share": 0.114
+          },
+          {
+            "hex": "#F2F5F5",
+            "share": 0.082
+          },
+          {
+            "hex": "#877963",
+            "share": 0.078
+          }
+        ],
+        "motion_energy": 14.43,
+        "script": "create a folder in Google Drive with a doc inside specifically for that campaign with"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 18,
+      "start": 53.183,
+      "end": 56.478,
+      "length": 3.295,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0C",
+            "share": 0.637
+          },
+          {
+            "hex": "#B07247",
+            "share": 0.044
+          },
+          {
+            "hex": "#261B18",
+            "share": 0.042
+          },
+          {
+            "hex": "#724A31",
+            "share": 0.029
+          },
+          {
+            "hex": "#8B5635",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 12.23,
+        "script": "ideas, power phrases, and formats that worked previously."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 19,
+      "start": 56.478,
+      "end": 57.813,
+      "length": 1.335,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F6F7F8",
+            "share": 0.127
+          },
+          {
+            "hex": "#503468",
+            "share": 0.069
+          },
+          {
+            "hex": "#2F3669",
+            "share": 0.061
+          },
+          {
+            "hex": "#AB123A",
+            "share": 0.054
+          },
+          {
+            "hex": "#714777",
+            "share": 0.053
+          }
+        ],
+        "motion_energy": 5.36,
+        "script": "When I go to make the video, I just open"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 20,
+      "start": 57.813,
+      "end": 61.65,
+      "length": 3.837,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FBFBFB",
+            "share": 0.523
+          },
+          {
+            "hex": "#CFCFCF",
+            "share": 0.061
+          },
+          {
+            "hex": "#CE2738",
+            "share": 0.041
+          },
+          {
+            "hex": "#133467",
+            "share": 0.033
+          },
+          {
+            "hex": "#AE1638",
+            "share": 0.03
+          }
+        ],
+        "motion_energy": 10.35,
+        "script": "that doc and all the notes I already need are in there ready to go."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 21,
+      "start": 61.65,
+      "end": 62.568,
+      "length": 0.918,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0B0C",
+            "share": 0.634
+          },
+          {
+            "hex": "#B17347",
+            "share": 0.036
+          },
+          {
+            "hex": "#251B17",
+            "share": 0.034
+          },
+          {
+            "hex": "#8C5635",
+            "share": 0.032
+          },
+          {
+            "hex": "#704A30",
+            "share": 0.029
+          }
+        ],
+        "motion_energy": 17.65,
+        "script": "I call this flow data"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 22,
+      "start": 62.568,
+      "end": 64.028,
+      "length": 1.46,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0B0E",
+            "share": 0.3
+          },
+          {
+            "hex": "#909092",
+            "share": 0.116
+          },
+          {
+            "hex": "#4E0D2A",
+            "share": 0.072
+          },
+          {
+            "hex": "#351833",
+            "share": 0.06
+          },
+          {
+            "hex": "#4D2A44",
+            "share": 0.056
+          }
+        ],
+        "motion_energy": 7.16,
+        "script": "enabled creativity."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 23,
+      "start": 64.028,
+      "end": 65.613,
+      "length": 1.585,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0C",
+            "share": 0.64
+          },
+          {
+            "hex": "#B17447",
+            "share": 0.05
+          },
+          {
+            "hex": "#8B5635",
+            "share": 0.031
+          },
+          {
+            "hex": "#714A30",
+            "share": 0.029
+          },
+          {
+            "hex": "#261A17",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 7.26,
+        "script": "It's using the data and examples from"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 24,
+      "start": 65.613,
+      "end": 69.701,
+      "length": 4.088,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100E11",
+            "share": 0.525
+          },
+          {
+            "hex": "#19132A",
+            "share": 0.102
+          },
+          {
+            "hex": "#27174D",
+            "share": 0.049
+          },
+          {
+            "hex": "#8A766A",
+            "share": 0.024
+          },
+          {
+            "hex": "#221833",
+            "share": 0.024
+          }
+        ],
+        "motion_energy": 17.0,
+        "script": "previous winning videos to guide my creativity for the new campaign."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 25,
+      "start": 69.701,
+      "end": 72.37,
+      "length": 2.67,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0D",
+            "share": 0.609
+          },
+          {
+            "hex": "#B17346",
+            "share": 0.046
+          },
+          {
+            "hex": "#251B18",
+            "share": 0.035
+          },
+          {
+            "hex": "#724930",
+            "share": 0.032
+          },
+          {
+            "hex": "#8B5535",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 12.97,
+        "script": "Now that whole thing is just one single creator workflow. There are"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 26,
+      "start": 72.37,
+      "end": 73.913,
+      "length": 1.543,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0E",
+            "share": 0.281
+          },
+          {
+            "hex": "#736A53",
+            "share": 0.053
+          },
+          {
+            "hex": "#887751",
+            "share": 0.052
+          },
+          {
+            "hex": "#CAD5CB",
+            "share": 0.051
+          },
+          {
+            "hex": "#AFCDD2",
+            "share": 0.045
+          }
+        ],
+        "motion_energy": 12.03,
+        "script": "dozens of other ones you can run."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 27,
+      "start": 73.913,
+      "end": 75.415,
+      "length": 1.502,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0B0C",
+            "share": 0.639
+          },
+          {
+            "hex": "#B17346",
+            "share": 0.043
+          },
+          {
+            "hex": "#724B30",
+            "share": 0.031
+          },
+          {
+            "hex": "#261B17",
+            "share": 0.03
+          },
+          {
+            "hex": "#8A5535",
+            "share": 0.03
+          }
+        ],
+        "motion_energy": 10.55,
+        "script": "For example, I also asked Gemini to"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 28,
+      "start": 75.415,
+      "end": 77.668,
+      "length": 2.252,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#707172",
+            "share": 0.165
+          },
+          {
+            "hex": "#0A0C10",
+            "share": 0.151
+          },
+          {
+            "hex": "#4F5152",
+            "share": 0.098
+          },
+          {
+            "hex": "#898889",
+            "share": 0.095
+          },
+          {
+            "hex": "#2D312C",
+            "share": 0.066
+          }
+        ],
+        "motion_energy": 10.39,
+        "script": "build out an invoice tracking pipeline to"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 29,
+      "start": 77.668,
+      "end": 80.337,
+      "length": 2.669,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#060606",
+            "share": 0.813
+          },
+          {
+            "hex": "#2D2E2E",
+            "share": 0.074
+          },
+          {
+            "hex": "#4D4E4E",
+            "share": 0.02
+          },
+          {
+            "hex": "#6C6C6D",
+            "share": 0.019
+          },
+          {
+            "hex": "#F1352E",
+            "share": 0.006
+          }
+        ],
+        "motion_energy": 19.05,
+        "script": "keep track of all my brand partnership payments."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 30,
+      "start": 80.337,
+      "end": 82.256,
+      "length": 1.919,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0B0D",
+            "share": 0.62
+          },
+          {
+            "hex": "#B07247",
+            "share": 0.041
+          },
+          {
+            "hex": "#251A17",
+            "share": 0.035
+          },
+          {
+            "hex": "#8D5534",
+            "share": 0.032
+          },
+          {
+            "hex": "#724A30",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 14.5,
+        "script": "I also built an idea repurposer that"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 31,
+      "start": 82.256,
+      "end": 87.178,
+      "length": 4.922,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#030303",
+            "share": 0.721
+          },
+          {
+            "hex": "#505050",
+            "share": 0.08
+          },
+          {
+            "hex": "#2F2F2F",
+            "share": 0.069
+          },
+          {
+            "hex": "#6C6C6C",
+            "share": 0.063
+          },
+          {
+            "hex": "#898989",
+            "share": 0.007
+          }
+        ],
+        "motion_energy": 21.59,
+        "script": "scans my Google Drive for old script documents and notes that can be turned into new ideas. And"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 32,
+      "start": 87.178,
+      "end": 89.055,
+      "length": 1.877,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0B0C",
+            "share": 0.629
+          },
+          {
+            "hex": "#B17446",
+            "share": 0.059
+          },
+          {
+            "hex": "#724A30",
+            "share": 0.033
+          },
+          {
+            "hex": "#4E3429",
+            "share": 0.025
+          },
+          {
+            "hex": "#8B5636",
+            "share": 0.025
+          }
+        ],
+        "motion_energy": 10.97,
+        "script": "the reason all these are so easy to build is"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 33,
+      "start": 89.055,
+      "end": 92.225,
+      "length": 3.17,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0E",
+            "share": 0.321
+          },
+          {
+            "hex": "#8F8B8E",
+            "share": 0.07
+          },
+          {
+            "hex": "#313029",
+            "share": 0.067
+          },
+          {
+            "hex": "#4C4D34",
+            "share": 0.061
+          },
+          {
+            "hex": "#6F6A50",
+            "share": 0.043
+          }
+        ],
+        "motion_energy": 15.46,
+        "script": "because of the new agenda capabilities in Gemini Live."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 34,
+      "start": 92.225,
+      "end": 93.81,
+      "length": 1.585,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0D",
+            "share": 0.624
+          },
+          {
+            "hex": "#231B19",
+            "share": 0.055
+          },
+          {
+            "hex": "#2A221B",
+            "share": 0.041
+          },
+          {
+            "hex": "#B17347",
+            "share": 0.036
+          },
+          {
+            "hex": "#724A2F",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 8.83,
+        "script": "By being able to fully describe the"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 35,
+      "start": 93.81,
+      "end": 95.979,
+      "length": 2.169,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0E",
+            "share": 0.357
+          },
+          {
+            "hex": "#8D8C89",
+            "share": 0.079
+          },
+          {
+            "hex": "#747370",
+            "share": 0.054
+          },
+          {
+            "hex": "#312B29",
+            "share": 0.035
+          },
+          {
+            "hex": "#CED5CB",
+            "share": 0.035
+          }
+        ],
+        "motion_energy": 10.33,
+        "script": "exact vision I have for the workflow easily"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 36,
+      "start": 95.979,
+      "end": 98.69,
+      "length": 2.711,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#070506",
+            "share": 0.691
+          },
+          {
+            "hex": "#2F2C2D",
+            "share": 0.044
+          },
+          {
+            "hex": "#514F4F",
+            "share": 0.029
+          },
+          {
+            "hex": "#6F6D6D",
+            "share": 0.028
+          },
+          {
+            "hex": "#8A766A",
+            "share": 0.024
+          }
+        ],
+        "motion_energy": 12.94,
+        "script": "interrupt, change my mind, course correct,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 37,
+      "start": 98.69,
+      "end": 100.901,
+      "length": 2.211,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0C",
+            "share": 0.625
+          },
+          {
+            "hex": "#B07346",
+            "share": 0.049
+          },
+          {
+            "hex": "#251B19",
+            "share": 0.046
+          },
+          {
+            "hex": "#714A30",
+            "share": 0.032
+          },
+          {
+            "hex": "#8C5635",
+            "share": 0.026
+          }
+        ],
+        "motion_energy": 10.14,
+        "script": "I can flow much easier than typing."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 38,
+      "start": 100.901,
+      "end": 103.571,
+      "length": 2.67,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F3F7FC",
+            "share": 0.435
+          },
+          {
+            "hex": "#0F0B0D",
+            "share": 0.309
+          },
+          {
+            "hex": "#322D2E",
+            "share": 0.028
+          },
+          {
+            "hex": "#8A766A",
+            "share": 0.024
+          },
+          {
+            "hex": "#261A16",
+            "share": 0.02
+          }
+        ],
+        "motion_energy": 9.65,
+        "script": "And because Gemini Live can connect across my entire Google"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 39,
+      "start": 103.571,
+      "end": 108.91,
+      "length": 5.339,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FAFAFA",
+            "share": 0.305
+          },
+          {
+            "hex": "#0F0B0D",
+            "share": 0.291
+          },
+          {
+            "hex": "#D0D0CF",
+            "share": 0.044
+          },
+          {
+            "hex": "#8B746B",
+            "share": 0.026
+          },
+          {
+            "hex": "#322B2D",
+            "share": 0.024
+          }
+        ],
+        "motion_energy": 30.56,
+        "script": "suite, it has all the context and resources it needs to build out the most complex workflows. I'm"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 40,
+      "start": 108.91,
+      "end": 111.663,
+      "length": 2.753,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0B0C",
+            "share": 0.638
+          },
+          {
+            "hex": "#B17446",
+            "share": 0.051
+          },
+          {
+            "hex": "#251B18",
+            "share": 0.035
+          },
+          {
+            "hex": "#704A30",
+            "share": 0.034
+          },
+          {
+            "hex": "#8B5635",
+            "share": 0.029
+          }
+        ],
+        "motion_energy": 8.05,
+        "script": "telling you, once you use this, it is clear Gemini Live is a huge"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 41,
+      "start": 111.663,
+      "end": 116.293,
+      "length": 4.63,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100E0F",
+            "share": 0.399
+          },
+          {
+            "hex": "#2A2927",
+            "share": 0.087
+          },
+          {
+            "hex": "#4C4E4A",
+            "share": 0.054
+          },
+          {
+            "hex": "#1E2517",
+            "share": 0.049
+          },
+          {
+            "hex": "#24231C",
+            "share": 0.048
+          }
+        ],
+        "motion_energy": 29.52,
+        "script": "productivity enhancer. This flow is now available for pro and ultra users. Comment"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 42,
+      "start": 116.293,
+      "end": 119.444,
+      "length": 3.151,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0B0C",
+            "share": 0.637
+          },
+          {
+            "hex": "#B17347",
+            "share": 0.046
+          },
+          {
+            "hex": "#714A31",
+            "share": 0.033
+          },
+          {
+            "hex": "#8C5635",
+            "share": 0.031
+          },
+          {
+            "hex": "#503528",
+            "share": 0.028
+          }
+        ],
+        "motion_energy": 12.07,
+        "script": "Gemini and I'll send through the links to get all of this set up."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

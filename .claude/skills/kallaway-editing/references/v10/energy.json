@@ -1,0 +1,32 @@
+{
+ "duracion_s": 126.41,
+ "por_segundo": {
+  "transicion": 0.063,
+  "corte_seco": 0.688,
+  "texto": 0.095,
+  "camara": 0.245,
+  "disparadores": 0.839,
+  "escenas": 0.419
+ },
+ "conteo": {
+  "transicion": 8,
+  "corte_seco": 87,
+  "texto": 12,
+  "camara": 31,
+  "disparadores": 106,
+  "escenas": 53
+ },
+ "tipos_transicion": {
+  "slide": 4,
+  "corte seco": 74,
+  "corte seco (salto de scroll)": 8,
+  "corte seco + slide": 1,
+  "corte seco + fade-in": 1,
+  "fade-in": 1,
+  "corte seco + zoom-in": 1,
+  "crossfade": 2,
+  "rack-focus": 1,
+  "corte seco + giro 3D": 1,
+  "corte seco + escala": 1
+ }
+}

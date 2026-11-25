@@ -1,0 +1,267 @@
+1
+00:00:00,000 --> 00:00:01,100
+Scientists just figured out how
+
+2
+00:00:01,100 --> 00:00:03,120
+to turn plastic bottles into
+
+3
+00:00:03,120 --> 00:00:04,580
+cookies. And these are real
+
+4
+00:00:04,580 --> 00:00:06,099
+cookies that smell like vanilla
+
+5
+00:00:06,099 --> 00:00:07,719
+and have protein and vitamins
+
+6
+00:00:07,719 --> 00:00:09,279
+that humans can eat. The
+
+7
+00:00:09,279 --> 00:00:10,640
+technology behind this is called
+
+8
+00:00:10,640 --> 00:00:11,740
+U -Bytes. And the crazy
+
+9
+00:00:11,740 --> 00:00:13,839
+part is, NASA is actually
+
+10
+00:00:13,839 --> 00:00:14,900
+paying for it. So their
+
+11
+00:00:14,900 --> 00:00:16,359
+astronauts can turn their own
+
+12
+00:00:16,359 --> 00:00:18,100
+trash into food on the
+
+13
+00:00:18,100 --> 00:00:19,019
+way to Mars. It's pretty
+
+14
+00:00:19,019 --> 00:00:19,980
+wild. Now the way this
+
+15
+00:00:19,980 --> 00:00:21,140
+whole thing works is actually
+
+16
+00:00:21,140 --> 00:00:23,399
+pretty interesting. Plastic and food
+
+17
+00:00:23,399 --> 00:00:24,760
+are both made up of
+
+18
+00:00:24,760 --> 00:00:26,940
+carbon molecules. So first, scientists
+
+19
+00:00:26,940 --> 00:00:28,559
+shred the plastic bottles and
+
+20
+00:00:28,559 --> 00:00:30,019
+blast them with super hot
+
+21
+00:00:30,019 --> 00:00:31,559
+ultra high pressure water. And
+
+22
+00:00:31,559 --> 00:00:32,460
+this breaks them all the
+
+23
+00:00:32,460 --> 00:00:34,200
+way down into molecules, basically
+
+24
+00:00:34,200 --> 00:00:35,899
+a carbon soup. Here's what
+
+25
+00:00:35,899 --> 00:00:37,179
+gets interesting. They then feed
+
+26
+00:00:37,179 --> 00:00:38,619
+that soup to a type
+
+27
+00:00:38,619 --> 00:00:39,799
+of yeast. This yeast is
+
+28
+00:00:39,799 --> 00:00:41,000
+in the same family as
+
+29
+00:00:41,000 --> 00:00:41,899
+the yeast that makes bread
+
+30
+00:00:41,899 --> 00:00:43,359
+rise, except that this yeast
+
+31
+00:00:43,359 --> 00:00:45,179
+is engineered to eat plastic
+
+32
+00:00:45,179 --> 00:00:46,479
+instead of sugar. Now once
+
+33
+00:00:46,479 --> 00:00:47,619
+the yeast eats the carbon
+
+34
+00:00:47,619 --> 00:00:48,880
+molecules, what comes out the
+
+35
+00:00:48,880 --> 00:00:50,619
+other side are protein, fats,
+
+36
+00:00:50,840 --> 00:00:51,960
+and vitamins. One strand of
+
+37
+00:00:51,960 --> 00:00:53,100
+the yeast turns the carbon
+
+38
+00:00:53,100 --> 00:00:55,000
+into vitamin A. Another one
+
+39
+00:00:55,000 --> 00:00:56,280
+makes the vanilla. They then
+
+40
+00:00:56,280 --> 00:00:57,880
+add fiber and sweetener and
+
+41
+00:00:57,880 --> 00:00:59,679
+3D print the mixture into
+
+42
+00:00:59,679 --> 00:01:00,840
+cookies. So what you're eating
+
+43
+00:01:00,840 --> 00:01:02,659
+is not actually plastic. It's
+
+44
+00:01:02,659 --> 00:01:04,079
+what the yeast made out
+
+45
+00:01:04,079 --> 00:01:05,099
+of the plastic when it
+
+46
+00:01:05,099 --> 00:01:05,840
+ate it. But the craziest
+
+47
+00:01:05,840 --> 00:01:06,819
+part of this whole story
+
+48
+00:01:06,819 --> 00:01:08,879
+is why NASA wants this
+
+49
+00:01:08,879 --> 00:01:10,280
+technology in the first place.
+
+50
+00:01:10,519 --> 00:01:11,500
+See, a round trip to
+
+51
+00:01:11,500 --> 00:01:13,379
+Mars will take approximately three
+
+52
+00:01:13,379 --> 00:01:14,560
+years. And there's no way
+
+53
+00:01:14,560 --> 00:01:15,719
+to pack three years worth
+
+54
+00:01:15,719 --> 00:01:16,879
+of food in a single
+
+55
+00:01:16,879 --> 00:01:18,099
+spaceship. So in theory, this
+
+56
+00:01:18,099 --> 00:01:19,079
+method is a way that
+
+57
+00:01:19,079 --> 00:01:21,079
+astronauts could turn their trash
+
+58
+00:01:21,079 --> 00:01:22,819
+into edible food on the
+
+59
+00:01:22,819 --> 00:01:23,920
+journey. There's just one catch.
+
+60
+00:01:24,200 --> 00:01:25,799
+Nobody's ever taste tested these
+
+61
+00:01:25,799 --> 00:01:27,480
+plastic cookies before. The taste
+
+62
+00:01:27,480 --> 00:01:28,780
+test is still waiting on
+
+63
+00:01:28,780 --> 00:01:30,019
+FDA approval. But if this
+
+64
+00:01:30,019 --> 00:01:31,079
+works, there's a good chance
+
+65
+00:01:31,079 --> 00:01:32,700
+the first cookie ever eaten
+
+66
+00:01:32,700 --> 00:01:33,879
+on Mars will have been
+
+67
+00:01:33,879 --> 00:01:34,939
+made out of plastic.

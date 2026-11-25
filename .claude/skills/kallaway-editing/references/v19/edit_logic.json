@@ -1,0 +1,939 @@
+{
+ "triggers": [
+  {
+   "t_word": 0.0,
+   "word": "Scientists",
+   "element": "aéreo de fardos de plástico + franja «TURNING PLASTIC INTO COOKIES»",
+   "category": "hook_banner",
+   "offset_s": 0.0,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 1.42,
+   "word": "plastic",
+   "element": "cinta con botellas y tolva de granza",
+   "category": "hook_banner",
+   "offset_s": -0.38,
+   "why": "literal, 0.4 s antes",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 3.12,
+   "word": "cookies.",
+   "element": "mano con galletas",
+   "category": "hook_banner",
+   "offset_s": -0.28,
+   "why": "literal, 0.3 s antes",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 3.92,
+   "word": "these",
+   "element": "tarjeta con galleta macro + cara en círculo",
+   "category": "pip_broll",
+   "offset_s": -0.04,
+   "why": "deíctico → objeto",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 5.2,
+   "word": "smell",
+   "element": "científica oliendo la galleta",
+   "category": "pip_broll",
+   "offset_s": -0.11,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 6.42,
+   "word": "have",
+   "element": "extrusora con pasta",
+   "category": "pip_broll",
+   "offset_s": -0.25,
+   "why": "literal (ingredientes)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 8.18,
+   "word": "humans",
+   "element": "cara completa; «eat» en itálica a 8.78",
+   "category": "face_full_word",
+   "offset_s": -0.13,
+   "why": "énfasis",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 9.28,
+   "word": "technology",
+   "element": "macro de la extrusora",
+   "category": "split_broll",
+   "offset_s": -0.06,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 10.64,
+   "word": "uBites.",
+   "element": "rótulo 3D «UBITES» detrás de la galleta",
+   "category": "split_broll",
+   "offset_s": 0.25,
+   "why": "nombre propio → rótulo (+0.25 s)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 11.38,
+   "word": "And",
+   "element": "cara completa «crazy»",
+   "category": "face_full_word",
+   "offset_s": -0.08,
+   "why": "reenganche",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 12.56,
+   "word": "NASA",
+   "element": "galletas junto a parche NASA",
+   "category": "split_broll",
+   "offset_s": -0.05,
+   "why": "nombre propio → logo",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 14.68,
+   "word": "So",
+   "element": "mano con galleta y pegatina NASA",
+   "category": "split_broll",
+   "offset_s": -0.67,
+   "why": "puente",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 15.62,
+   "word": "turn",
+   "element": "titular de Forbes con resaltado amarillo",
+   "category": "split_headline",
+   "offset_s": -0.1,
+   "why": "afirmación → fuente",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 16.76,
+   "word": "into",
+   "element": "zoom a «Feed NASA Crews» resaltado",
+   "category": "split_headline",
+   "offset_s": 0.22,
+   "why": "énfasis en la fuente",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 17.98,
+   "word": "the",
+   "element": "nave y Marte",
+   "category": "split_graphic",
+   "offset_s": -0.17,
+   "why": "literal (Mars a 18.32)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 18.84,
+   "word": "It's",
+   "element": "cara completa «pretty wild»",
+   "category": "face_full_word",
+   "offset_s": -0.07,
+   "why": "reacción",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 19.56,
+   "word": "Now",
+   "element": "extrusora / cordón de galleta",
+   "category": "split_broll",
+   "offset_s": -0.04,
+   "why": "cambio de sección (cómo funciona)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 22.22,
+   "word": "Plastic",
+   "element": "plástico en el mar (tarjeta+círculo)",
+   "category": "pip_broll",
+   "offset_s": -0.11,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 22.96,
+   "word": "food",
+   "element": "macro de galleta",
+   "category": "pip_broll",
+   "offset_s": 0.06,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 24.76,
+   "word": "carbon",
+   "element": "chispas que se ordenan en moléculas",
+   "category": "pip_broll",
+   "offset_s": -0.26,
+   "why": "concepto → morph",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 26.18,
+   "word": "first,",
+   "element": "montaña de botellas",
+   "category": "pip_broll",
+   "offset_s": -0.11,
+   "why": "paso 1",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 26.94,
+   "word": "shred",
+   "element": "tolva con granza",
+   "category": "pip_broll",
+   "offset_s": 0.3,
+   "why": "literal (+0.3 s)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 28.56,
+   "word": "blast",
+   "element": "vórtice de plástico en agua",
+   "category": "pip_broll",
+   "offset_s": -0.16,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 31.56,
+   "word": "this",
+   "element": "animación molecular turquesa→ámbar",
+   "category": "pip_broll",
+   "offset_s": -0.07,
+   "why": "concepto invisible → gráfico",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 35.58,
+   "word": "Here's",
+   "element": "cara completa",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "reenganche",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 36.54,
+   "word": "They",
+   "element": "tarro con polvo (levadura)",
+   "category": "split_broll",
+   "offset_s": -0.09,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 39.36,
+   "word": "This",
+   "element": "masa de pan fermentando",
+   "category": "split_broll",
+   "offset_s": -0.03,
+   "why": "analogía",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 42.38,
+   "word": "except",
+   "element": "cara completa sin palabra grande",
+   "category": "aroll_plain",
+   "offset_s": 0.0,
+   "why": "contraste",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 44.62,
+   "word": "plastic",
+   "element": "aéreo de fardos de plástico",
+   "category": "split_broll",
+   "offset_s": 0.05,
+   "why": "palabra sorpresa → imagen",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 46.24,
+   "word": "Now",
+   "element": "cara completa",
+   "category": "aroll_plain",
+   "offset_s": 0.01,
+   "why": "preparación",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 48.32,
+   "word": "what",
+   "element": "cuenco con grumos",
+   "category": "split_graphic",
+   "offset_s": -0.02,
+   "why": "literal (resultado)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 49.68,
+   "word": "protein,",
+   "element": "molécula dorada",
+   "category": "split_graphic",
+   "offset_s": -0.13,
+   "why": "enumeración",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 50.38,
+   "word": "fats,",
+   "element": "moléculas azul/magenta",
+   "category": "split_graphic",
+   "offset_s": 0.0,
+   "why": "enumeración (corte exacto en la palabra)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 52.26,
+   "word": "turns",
+   "element": "boquilla extruyendo hilo",
+   "category": "split_broll",
+   "offset_s": 0.08,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 54.5,
+   "word": "Another",
+   "element": "aro «μ» formándose",
+   "category": "split_broll",
+   "offset_s": 0.01,
+   "why": "segundo ítem",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 57.62,
+   "word": "and",
+   "element": "palma con galletas",
+   "category": "split_broll",
+   "offset_s": 0.15,
+   "why": "resultado",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 60.38,
+   "word": "So",
+   "element": "cara completa",
+   "category": "aroll_plain",
+   "offset_s": -0.03,
+   "why": "aclaración",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 62.56,
+   "word": "It's",
+   "element": "macro del cordón de galleta",
+   "category": "split_broll",
+   "offset_s": -0.04,
+   "why": "textura",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 65.46,
+   "word": "But",
+   "element": "cara completa «craziest»",
+   "category": "face_full_word",
+   "offset_s": 0.02,
+   "why": "reenganche",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 67.02,
+   "word": "why",
+   "element": "astronauta en la EEI",
+   "category": "split_broll",
+   "offset_s": 0.17,
+   "why": "literal (NASA)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 70.52,
+   "word": "See,",
+   "element": "cara completa",
+   "category": "aroll_plain",
+   "offset_s": -0.03,
+   "why": "argumento",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 72.12,
+   "word": "take",
+   "element": "despegue de transbordador",
+   "category": "split_graphic",
+   "offset_s": -0.09,
+   "why": "literal (viaje)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 72.96,
+   "word": "three",
+   "element": "rótulo «THREE YEARS»",
+   "category": "split_graphic",
+   "offset_s": 0.24,
+   "why": "dato → texto (+0.24 s)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 74.94,
+   "word": "three",
+   "element": "astronautas comiendo",
+   "category": "split_broll",
+   "offset_s": 0.18,
+   "why": "literal (comida)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 79.08,
+   "word": "astronauts",
+   "element": "astronautas con paquetes",
+   "category": "split_broll",
+   "offset_s": 0.08,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 81.08,
+   "word": "into",
+   "element": "palma con galletas",
+   "category": "split_broll",
+   "offset_s": 0.21,
+   "why": "transformación",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 83.22,
+   "word": "There's",
+   "element": "cara completa «catch»",
+   "category": "face_full_word",
+   "offset_s": -0.01,
+   "why": "reenganche",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 84.2,
+   "word": "Nobody's",
+   "element": "científica oliendo la galleta",
+   "category": "split_broll",
+   "offset_s": -0.03,
+   "why": "literal (nadie la ha probado)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 87.04,
+   "word": "The",
+   "element": "boquilla imprimiendo",
+   "category": "split_broll",
+   "offset_s": 0.21,
+   "why": "relleno de proceso",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 91.08,
+   "word": "the",
+   "element": "base marciana",
+   "category": "split_graphic",
+   "offset_s": 0.14,
+   "why": "literal (Mars)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 94.72,
+   "word": "plastic.",
+   "element": "cinta con granza de colores",
+   "category": "split_graphic",
+   "offset_s": -0.25,
+   "why": "literal, cierre circular",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 3.88,
+   "from": "v19_s01 (hook_banner)",
+   "to": "v19_s02 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 5.09,
+   "from": "v19_s02 (pip_broll)",
+   "to": "v19_s03 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 6.17,
+   "from": "v19_s03 (pip_broll)",
+   "to": "v19_s04 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 8.05,
+   "from": "v19_s04 (pip_broll)",
+   "to": "v19_s05 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 9.22,
+   "from": "v19_s05 (face_full_word)",
+   "to": "v19_s06 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 11.3,
+   "from": "v19_s06 (split_broll)",
+   "to": "v19_s07 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 12.51,
+   "from": "v19_s07 (face_full_word)",
+   "to": "v19_s08 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 15.52,
+   "from": "v19_s08 (split_broll)",
+   "to": "v19_s09 (split_headline)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 17.81,
+   "from": "v19_s09 (split_headline)",
+   "to": "v19_s10 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 18.77,
+   "from": "v19_s10 (split_graphic)",
+   "to": "v19_s11 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 19.52,
+   "from": "v19_s11 (face_full_word)",
+   "to": "v19_s12 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 22.11,
+   "from": "v19_s12 (split_broll)",
+   "to": "v19_s13 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 23.02,
+   "from": "v19_s13 (pip_broll)",
+   "to": "v19_s14 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 26.07,
+   "from": "v19_s14 (pip_broll)",
+   "to": "v19_s15 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 28.4,
+   "from": "v19_s15 (pip_broll)",
+   "to": "v19_s16 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 31.49,
+   "from": "v19_s16 (pip_broll)",
+   "to": "v19_s17 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 35.58,
+   "from": "v19_s17 (pip_broll)",
+   "to": "v19_s18 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 36.45,
+   "from": "v19_s18 (face_full_word)",
+   "to": "v19_s19 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 39.33,
+   "from": "v19_s19 (split_broll)",
+   "to": "v19_s20 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 42.38,
+   "from": "v19_s20 (split_broll)",
+   "to": "v19_s21 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 44.67,
+   "from": "v19_s21 (aroll_plain)",
+   "to": "v19_s22 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 46.25,
+   "from": "v19_s22 (split_broll)",
+   "to": "v19_s23 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 48.3,
+   "from": "v19_s23 (aroll_plain)",
+   "to": "v19_s24 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 51.51,
+   "from": "v19_s24 (split_graphic)",
+   "to": "v19_s25 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 52.34,
+   "from": "v19_s25 (aroll_plain)",
+   "to": "v19_s26 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 55.97,
+   "from": "v19_s26 (split_broll)",
+   "to": "v19_s27 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 57.77,
+   "from": "v19_s27 (aroll_plain)",
+   "to": "v19_s28 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 60.35,
+   "from": "v19_s28 (split_broll)",
+   "to": "v19_s29 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 62.52,
+   "from": "v19_s29 (aroll_plain)",
+   "to": "v19_s30 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 65.48,
+   "from": "v19_s30 (split_broll)",
+   "to": "v19_s31 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 67.19,
+   "from": "v19_s31 (face_full_word)",
+   "to": "v19_s32 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 70.49,
+   "from": "v19_s32 (split_broll)",
+   "to": "v19_s33 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 72.03,
+   "from": "v19_s33 (aroll_plain)",
+   "to": "v19_s34 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 73.95,
+   "from": "v19_s34 (split_graphic)",
+   "to": "v19_s35 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 75.12,
+   "from": "v19_s35 (aroll_plain)",
+   "to": "v19_s36 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 77.41,
+   "from": "v19_s36 (split_broll)",
+   "to": "v19_s37 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 79.16,
+   "from": "v19_s37 (aroll_plain)",
+   "to": "v19_s38 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 83.21,
+   "from": "v19_s38 (split_broll)",
+   "to": "v19_s39 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 84.17,
+   "from": "v19_s39 (face_full_word)",
+   "to": "v19_s40 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 89.72,
+   "from": "v19_s40 (split_broll)",
+   "to": "v19_s41 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 91.22,
+   "from": "v19_s41 (aroll_plain)",
+   "to": "v19_s42 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.04,
+   "fx": "slide (franja del gancho)",
+   "detail": "Franja roja entra desde la derecha desde el primer fotograma: «TUR / INT» a 0.08 s, «TURNING / INTO C» a 0.46 s; sigue deslizándose lento hasta quedar completa ≈2.5–3.0 s; fija hasta 3.88."
+  },
+  {
+   "t": 3.88,
+   "fx": "caja en subtítulo",
+   "detail": "En tarjeta+círculo el subtítulo lleva cajita gris oscuro redondeada (visible desde «Plastic» 22.1); en 3.88–8.05 va sin caja visible sobre la imagen clara."
+  },
+  {
+   "t": 8.05,
+   "fx": "pop palabra a palabra + itálica",
+   "detail": "that·humans·can·eat; «eat» en serif itálica (8.78–9.20)."
+  },
+  {
+   "t": 10.89,
+   "fx": "máscara (texto detrás del objeto)",
+   "detail": "«UBITES» en sans extendida con degradado negro→azul aparece en ≈4 fotogramas; la galleta queda por delante de las letras centrales."
+  },
+  {
+   "t": 15.6,
+   "fx": "resaltado amarillo progresivo",
+   "detail": "El marcador crece palabra a palabra sobre el titular de Forbes: «C» (15.60) → «Cookies» (15.81) → «Cookies Made From Plastic» (≈16.5); tras el zoom de 16.98 resalta «From Plastic» y «Feed NASA Crews In»."
+  },
+  {
+   "t": 31.49,
+   "fx": "animación a 4.8 fps (del gráfico)",
+   "detail": "La animación molecular se actualiza cada 5 fotogramas (0.2085 s): sensación de stop-motion."
+  },
+  {
+   "t": 73.2,
+   "fx": "pop + máscara",
+   "detail": "«THREE» presente desde el corte; «YEARS» aparece ≈0.2 s después; la estela del cohete tapa parte de «YEARS» (texto detrás del sujeto)."
+  },
+  {
+   "t": 65.48,
+   "fx": "pop palabra a palabra",
+   "detail": "But·the·craziest·part·of·this·whole·story·is: 9 palabras en 1.71 s, todas en sans (sin itálica)."
+  }
+ ],
+ "camera": [
+  {
+   "t": 8.05,
+   "move": "punch-in (corte)",
+   "scale_or_dir": "→ primer plano ≈2x",
+   "dur_s": 0.0
+  },
+  {
+   "t": 12.51,
+   "move": "pan lateral lento (del clip)",
+   "scale_or_dir": "izquierda→derecha sobre las galletas",
+   "dur_s": 1.5
+  },
+  {
+   "t": 16.98,
+   "move": "zoom por corte",
+   "scale_or_dir": "titular ≈1.0→2.0x sobre «Feed NASA Crews»",
+   "dur_s": 0.0
+  },
+  {
+   "t": 23.02,
+   "move": "push-in continuo (del gráfico)",
+   "scale_or_dir": "macro galleta → partículas → moléculas",
+   "dur_s": 3.05
+  },
+  {
+   "t": 36.45,
+   "move": "cambio de costura",
+   "scale_or_dir": "la mitad superior pasa de 50.3 % (y=644 px) a 47.9 % (y=613 px) del alto y se queda así hasta el final",
+   "dur_s": 0.0
+  },
+  {
+   "t": 62.52,
+   "move": "travelling macro lateral (del clip)",
+   "scale_or_dir": "derecha→izquierda",
+   "dur_s": 2.96
+  }
+ ],
+ "rhythm": {
+  "events_per_10s": [
+   9,
+   9,
+   7,
+   32,
+   6,
+   7,
+   5,
+   8,
+   6,
+   3
+  ],
+  "avg_hold_text_s": 0.23,
+  "notes": "6 face_full_word (8.05, 11.30, 18.77, 35.58, 65.48, 83.21) → uno cada ≈15.9 s de media, pero se apoya en 9 aroll_plain de 0.8–2.3 s; entre ambos, vuelve a su cara cada ≈6.4 s. Mitad superior: cambia de plano cada ≈1.5–2 s; escenas de 2.27 s de media. [derived] events_per_10s = cortes detectados por ffmpeg (scene>0.12 en mitad superior + inferior, deduplicados a 0.09 s; incluye cortes internos del material de arriba). avg_hold_text_s = duración media por palabra grande en face_full_word (29 palabras en 6.7 s). Subtítulo pequeño: 305 palabras en 88.8 s → ≈0.58 s por bloque de 2 palabras (derived). Duración media de escena 2.27 s."
+ },
+ "typography": "Subtítulo: sans geométrica bold blanca ≈30 px, 1–3 palabras; centro y≈54 % (0–36 s) y y≈51.7 % (desde 36.45, al subir la costura a 47.9 %); en aroll_plain y≈66 %; con cajita gris oscuro en las tarjetas. Palabra grande: sans bold blanca con glow, clave en serif itálica blanca (eat, crazy, pretty); sin color de acento. Rótulos integrados: «UBITES» (sans extendida, degradado negro→azul), «THREE YEARS» (sans extendida ultra-black beige ≈#D9CFB8). Franja: blanca + naranja sobre rojo.",
+ "textures": "Sin grano/papel añadidos. Glow en palabra grande. Tarjetas redondeadas sobre negro. Texturas propias del b-roll macro (miga, masa, pasta extruida) dan el look «orgánico» del video.",
+ "distinct": [
+  "Patrón «frase partida»: primera mitad en aroll_plain (cara, subtítulo pequeño) y la palabra/imagen sorpresa cae con el corte al split (42.38→44.67 «…to eat | plastic»; 70.49→72.03; 77.41→79.16). 9 escenas aroll_plain, más que ningún otro del lote.",
+  "Bloque explicativo largo en tarjeta+círculo (22.11–35.58, 13.5 s seguidos) con gráficos moleculares; incluye un morph galleta→chispas→moléculas sin cortes (23.02–26.07).",
+  "La costura cambia a mitad de video: 50.3 % hasta 35.6 s y 47.9 % desde 36.45 s.",
+  "Rótulos 3D integrados en el plano con máscara (UBITES detrás de la galleta 10.89; THREE YEARS detrás de la estela 73.2).",
+  "Reutiliza 6–7 clips del mismo material de prensa varias veces (palma con galletas ×3, científica ×2, extrusora ×6, aéreo de fardos ×2) y cierra sin CTA."
+ ]
+}

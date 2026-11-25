@@ -1,0 +1,28 @@
+{
+ "duracion_s": 73.28,
+ "por_segundo": {
+  "corte_seco": 0.778,
+  "transicion": 0.027,
+  "texto": 0.15,
+  "camara": 0.259,
+  "disparadores": 0.928,
+  "escenas": 0.45
+ },
+ "conteo": {
+  "corte_seco": 57,
+  "transicion": 2,
+  "texto": 11,
+  "camara": 19,
+  "disparadores": 68,
+  "escenas": 33
+ },
+ "tipos_transicion": {
+  "corte seco": 53,
+  "corte seco + escala (tarjeta crece)": 1,
+  "corte seco + blur-in": 1,
+  "flash naranja": 1,
+  "corte seco (solo mitad inferior)": 1,
+  "corte seco (salto de scroll)": 1,
+  "scroll rápido": 1
+ }
+}

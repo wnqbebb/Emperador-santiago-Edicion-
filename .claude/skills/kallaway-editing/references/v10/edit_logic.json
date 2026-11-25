@@ -1,0 +1,1893 @@
+{
+ "triggers": [
+  {
+   "t_word": 0.3,
+   "word": "has",
+   "element": "marco de móvil sube desde abajo con chat 'Alfred' (zoom-out)",
+   "category": "hook_banner",
+   "offset_s": 0.1,
+   "why": "literal: el producto en el móvil"
+  },
+  {
+   "t_word": 0.96,
+   "word": "launched",
+   "element": "plató oscuro con logo 'dots' arcoíris luminoso que se enciende",
+   "category": "hook_banner",
+   "offset_s": 0.14,
+   "why": "literal: logo al decir 'dots'"
+  },
+  {
+   "t_word": 2.16,
+   "word": "And",
+   "element": "Cara completa con 'And' → 'this' → 'is' → 'a' → 'massive' → 'deal' una a una.",
+   "category": "face_full_word",
+   "offset_s": 0.04,
+   "why": "énfasis / cambio de tema (cara + palabra)"
+  },
+  {
+   "t_word": 3.7,
+   "word": "Dots",
+   "element": "escenario de keynote con pantalla 'dots' y móvil gigante, público de espaldas",
+   "category": "split_broll",
+   "offset_s": -0.13,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 4.5,
+   "word": "completely",
+   "element": "móvil: chat con 'Todd' (agenda del día + burbuja verde)",
+   "category": "split_screenrec",
+   "offset_s": 0.0,
+   "why": "literal: se ve el producto haciendo lo que dice"
+  },
+  {
+   "t_word": 5.3,
+   "word": "category",
+   "element": "el chat avanza: presupuesto de pedido con tasas",
+   "category": "split_screenrec",
+   "offset_s": 0.1,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 6.56,
+   "word": "product.",
+   "element": "el chat avanza: confirmación 'Ok, let's order this at 6pm'",
+   "category": "split_screenrec",
+   "offset_s": 0.17,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 7.26,
+   "word": "Dots",
+   "element": "Cara completa: 'dots' → 'are' y luego 'always-on' (serif itálica) + 'agents' (sans) en dos líneas; las palabras se desplazan horizontalmente como una cinta.",
+   "category": "face_full_word",
+   "offset_s": -0.03,
+   "why": "énfasis / cambio de tema (cara + palabra)"
+  },
+  {
+   "t_word": 7.98,
+   "word": "on",
+   "element": "Bloque 'always-on' (serif itálica) + 'agents' (sans) sobre la cara",
+   "category": "face_full_word",
+   "offset_s": 0.02,
+   "why": "énfasis: definición"
+  },
+  {
+   "t_word": 8.58,
+   "word": "inside",
+   "element": "marco de madera con mascota azul con boina; el panel se desliza a la barra lateral de ChatGPT",
+   "category": "split_graphic",
+   "offset_s": 0.29,
+   "why": "dato/concepto visualizado"
+  },
+  {
+   "t_word": 9.58,
+   "word": "ChatGPT",
+   "element": "barra lateral 'ChatGPT' (Your dot, Scheduled, Library…) con flecha roja dibujada apuntando a 'Your dot'",
+   "category": "split_graphic",
+   "offset_s": -0.08,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 9.58,
+   "word": "ChatGPT",
+   "element": "Flecha roja dibujada señalando 'Your dot' en la barra lateral",
+   "category": "split_graphic",
+   "offset_s": -0.08,
+   "why": "literal: dónde está"
+  },
+  {
+   "t_word": 10.44,
+   "word": "can",
+   "element": "pantalla enmarcada: mascota verde que muta hasta la amarilla 'Alfred'",
+   "category": "split_graphic",
+   "offset_s": -0.07,
+   "why": "dato/concepto visualizado"
+  },
+  {
+   "t_word": 12.02,
+   "word": "Each",
+   "element": "diapositiva oscura: icono 'Access' (fade-in)",
+   "category": "split_graphic",
+   "offset_s": -0.02,
+   "why": "dato/concepto visualizado"
+  },
+  {
+   "t_word": 12.5,
+   "word": "its",
+   "element": "aparecen 'Computer' y 'Browser' (turquesa)",
+   "category": "split_graphic",
+   "offset_s": 0.0,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 12.92,
+   "word": "cloud",
+   "element": "Iconos 'Computer' y 'Browser' se encienden",
+   "category": "split_graphic",
+   "offset_s": -0.02,
+   "why": "literal: un icono por sustantivo"
+  },
+  {
+   "t_word": 13.66,
+   "word": "and",
+   "element": "UI de escritorio: mapa con ruta, miniatura de vídeo y panel amarillo",
+   "category": "split_screenrec",
+   "offset_s": 0.07,
+   "why": "literal: se ve el producto haciendo lo que dice"
+  },
+  {
+   "t_word": 14.72,
+   "word": "which",
+   "element": "tarjeta: dispositivo amarillo con ventana de navegador y cursor",
+   "category": "full_graphic",
+   "offset_s": 0.01,
+   "why": "literal a pantalla completa"
+  },
+  {
+   "t_word": 15.68,
+   "word": "working",
+   "element": "tarjeta: hombre con camisa verde cocinando (plano medio)",
+   "category": "full_graphic",
+   "offset_s": 0.05,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 16.54,
+   "word": "continuously",
+   "element": "tarjeta: dispositivo con UI de llamada (botón rojo), en una encimera",
+   "category": "full_graphic",
+   "offset_s": 0.23,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 18.42,
+   "word": "And",
+   "element": "Cara completa con subtítulo pequeño 'Now the / big question / on everyone's / mind is'.",
+   "category": "aroll_plain",
+   "offset_s": 0.01,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 19.94,
+   "word": "how",
+   "element": "Cara completa con 'How' → 'are' → 'dots' → 'different' grandes.",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "énfasis / cambio de tema (cara + palabra)"
+  },
+  {
+   "t_word": 21.44,
+   "word": "the",
+   "element": "prompt de ChatGPT escribiéndose letra a letra + cursor",
+   "category": "split_screenrec",
+   "offset_s": -0.14,
+   "why": "literal: se ve el producto haciendo lo que dice"
+  },
+  {
+   "t_word": 23.0,
+   "word": "Codex",
+   "element": "ventana de Codex con preview oscuro 'KEYSTONE SMASH' (entra deslizando desde la derecha)",
+   "category": "split_screenrec",
+   "offset_s": -0.07,
+   "why": "literal: se ve el producto haciendo lo que dice"
+  },
+  {
+   "t_word": 24.32,
+   "word": "Think",
+   "element": "Cara completa con subtítulo 'Think of it / like this…'.",
+   "category": "aroll_plain",
+   "offset_s": -0.05,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 25.0,
+   "word": "ChatGPT",
+   "element": "prompt 'Computer Can you also update our project tracker…' (zoom-in)",
+   "category": "split_screenrec",
+   "offset_s": -0.07,
+   "why": "literal: se ve el producto haciendo lo que dice"
+  },
+  {
+   "t_word": 26.16,
+   "word": "more",
+   "element": "formulario 'New marketing request' con cursor morado luminoso",
+   "category": "split_screenrec",
+   "offset_s": -0.06,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 27.3,
+   "word": "You",
+   "element": "barra de entrada de voz con forma de onda 0:01 → 0:02",
+   "category": "split_screenrec",
+   "offset_s": -0.03,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 28.52,
+   "word": "give",
+   "element": "chips 'Sites Build a landing page' / 'Ask for approval' / 'codex-apps'",
+   "category": "split_screenrec",
+   "offset_s": 0.11,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 30.06,
+   "word": "to",
+   "element": "lista 'Comparing campaign results / Reviewing UK sales feedback' (texto que se revela)",
+   "category": "split_screenrec",
+   "offset_s": -0.16,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 31.2,
+   "word": "So",
+   "element": "Cara completa con subtítulo pequeño 'So it's kinda like / you're driving the car / and they are / the engine,'.",
+   "category": "aroll_plain",
+   "offset_s": -0.07,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 33.9,
+   "word": "but",
+   "element": "Codex 'What should we build in IceCubesApp?' (zoom-in rápido al texto)",
+   "category": "split_screenrec",
+   "offset_s": 0.03,
+   "why": "literal: se ve el producto haciendo lo que dice"
+  },
+  {
+   "t_word": 34.9,
+   "word": "unless",
+   "element": "vista completa de la conversación con respuesta",
+   "category": "split_screenrec",
+   "offset_s": 0.1,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 36.94,
+   "word": "Dots,",
+   "element": "Cara completa con subtítulo 'dots / on the other hand, / work completely / different.'",
+   "category": "aroll_plain",
+   "offset_s": -0.24,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 38.94,
+   "word": "They're",
+   "element": "mock de móvil oscuro (chat Alfred con burbuja amarilla) + mascota amarilla 3D",
+   "category": "split_graphic",
+   "offset_s": -0.04,
+   "why": "dato/concepto visualizado"
+  },
+  {
+   "t_word": 40.6,
+   "word": "All",
+   "element": "móvil: chat 'Felipe' vacío → aparecen mensajes y burbuja azul",
+   "category": "split_screenrec",
+   "offset_s": -0.03,
+   "why": "literal: se ve el producto haciendo lo que dice"
+  },
+  {
+   "t_word": 43.56,
+   "word": "and",
+   "element": "el chat avanza: 'Your deck is ready with the updates' + archivo",
+   "category": "split_screenrec",
+   "offset_s": -0.36,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 44.58,
+   "word": "And",
+   "element": "mock oscuro de canal '# launch-team' con mascota amarilla",
+   "category": "split_graphic",
+   "offset_s": -0.01,
+   "why": "dato/concepto visualizado"
+  },
+  {
+   "t_word": 46.34,
+   "word": "or",
+   "element": "canal '#proj-editor-migration': mensaje de Trevor Hall y respuesta del agente Jojo que se escribe",
+   "category": "split_social",
+   "offset_s": 0.03,
+   "why": "prueba social"
+  },
+  {
+   "t_word": 47.8,
+   "word": "they",
+   "element": "panel de tareas 'Rerun analysis / Update figures / Investigate unexpected results', fondo coral, cursor",
+   "category": "split_screenrec",
+   "offset_s": -0.13,
+   "why": "literal: se ve el producto haciendo lo que dice"
+  },
+  {
+   "t_word": 48.36,
+   "word": "continuously.",
+   "element": "panel de conectores (Google Calendar, Google Drive, Github, Charts), fondo amarillo, mascota",
+   "category": "split_screenrec",
+   "offset_s": 0.07,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 49.26,
+   "word": "So",
+   "element": "Cara completa con subtítulo 'So it's more like / you get in the / backseat / of the car'.",
+   "category": "aroll_plain",
+   "offset_s": 0.01,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 51.56,
+   "word": "say",
+   "element": "mujer de perfil hablando, luz cálida",
+   "category": "split_broll",
+   "offset_s": -0.06,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 52.88,
+   "word": "then",
+   "element": "macro de pantalla: chat 'Jojo' con burbujas magenta",
+   "category": "split_broll",
+   "offset_s": 0.02,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 54.26,
+   "word": "steer,",
+   "element": "móvil en la mano con chat rosa",
+   "category": "split_broll",
+   "offset_s": -0.13,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 54.92,
+   "word": "fill",
+   "element": "'Jojo's Computer': web 'Wedding cakes, composed for you' con mascota morada y cursor",
+   "category": "split_broll",
+   "offset_s": 0.05,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 56.3,
+   "word": "pretty",
+   "element": "mujer en la cocina junto a un dispositivo",
+   "category": "split_broll",
+   "offset_s": 0.03,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 56.92,
+   "word": "Essentially,",
+   "element": "Cara completa con subtítulo 'Essentially / the big shift / here is'.",
+   "category": "aroll_plain",
+   "offset_s": -0.02,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 58.46,
+   "word": "from",
+   "element": "Codex: prompt 'CircleCI Diagnose and fix build failures in this branch' escribiéndose (zoom-in)",
+   "category": "split_screenrec",
+   "offset_s": -0.09,
+   "why": "literal: se ve el producto haciendo lo que dice"
+  },
+  {
+   "t_word": 60.92,
+   "word": "now",
+   "element": "panel de tareas programadas 'Investigate unexpected results / Revise explanation / Flag findings for review'",
+   "category": "split_screenrec",
+   "offset_s": -0.09,
+   "why": "literal: se ve el producto haciendo lo que dice"
+  },
+  {
+   "t_word": 63.8,
+   "word": "And",
+   "element": "fondo morado → aparece la web 'Wedding cakes' con mascota y cursor (fundido)",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 66.12,
+   "word": "completely",
+   "element": "mujer de perfil con móvil frente a pantalla rosa desenfocada",
+   "category": "split_broll",
+   "offset_s": -0.15,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 67.12,
+   "word": "humans",
+   "element": "cambio de foco: el dispositivo rosa nítido",
+   "category": "split_broll",
+   "offset_s": 0.18,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 68.5,
+   "word": "Now,",
+   "element": "Cara completa con subtítulo 'Now the / biggest reason / why / are so / compelling'.",
+   "category": "aroll_plain",
+   "offset_s": -0.03,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 70.36,
+   "word": "is",
+   "element": "plató con cámaras; cartel 'INTRODUCING GPT-6'; formas geométricas luminosas que se convierten en las letras 'ASTRA'",
+   "category": "split_graphic",
+   "offset_s": 0.11,
+   "why": "dato/concepto visualizado"
+  },
+  {
+   "t_word": 71.76,
+   "word": "GPT",
+   "element": "Letras gigantes 'ASTRA' se forman",
+   "category": "split_graphic",
+   "offset_s": -0.26,
+   "why": "literal: nombre del modelo"
+  },
+  {
+   "t_word": 73.22,
+   "word": "Essentially,",
+   "element": "mujer con raqueta de tenis ante pantalla gigante con hoja amarilla '24 JACKETS'",
+   "category": "split_broll",
+   "offset_s": -0.02,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 74.78,
+   "word": "genius",
+   "element": "documento 'Budget scenarios and returns' con barras verde/lima y cursor morado",
+   "category": "split_screenrec",
+   "offset_s": 0.02,
+   "why": "literal: se ve el producto haciendo lo que dice"
+  },
+  {
+   "t_word": 75.62,
+   "word": "using",
+   "element": "caja de prompt con selector de modelo 'GPT-6 Astra High' y clic del cursor",
+   "category": "split_screenrec",
+   "offset_s": 0.15,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 76.36,
+   "word": "best",
+   "element": "Selector de modelo 'GPT-6 Astra High' con clic de cursor",
+   "category": "split_screenrec",
+   "offset_s": -0.16,
+   "why": "literal: el mejor modelo"
+  },
+  {
+   "t_word": 77.5,
+   "word": "which",
+   "element": "keynote: 'dots' + lista 'Trace dependencies / Read the migration docs / Plan the changes…'",
+   "category": "split_broll",
+   "offset_s": 0.1,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 81.06,
+   "word": "For",
+   "element": "chat propio, respuesta larga del agente (zoom-in con desenfoque parcial)",
+   "category": "split_screenrec",
+   "offset_s": 0.01,
+   "why": "literal: se ve el producto haciendo lo que dice"
+  },
+  {
+   "t_word": 81.94,
+   "word": "dot",
+   "element": "macro del campo de texto: 'Connect the kallaway@wavylabs.co email account…'",
+   "category": "split_screenrec",
+   "offset_s": 0.03,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 83.6,
+   "word": "my",
+   "element": "sigue tecleando; partes difuminadas",
+   "category": "split_screenrec",
+   "offset_s": -0.13,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 84.28,
+   "word": "staff.",
+   "element": "vista alejada de toda la conversación",
+   "category": "split_screenrec",
+   "offset_s": 0.02,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 84.78,
+   "word": "Every",
+   "element": "Cara completa con subtítulo 'Every morning / when I first / wake up'.",
+   "category": "aroll_plain",
+   "offset_s": 0.02,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 85.98,
+   "word": "I",
+   "element": "tarjeta de chat plana sobre fondo azul que se inclina y se desenfoca",
+   "category": "full_graphic",
+   "offset_s": 0.09,
+   "why": "literal a pantalla completa"
+  },
+  {
+   "t_word": 86.72,
+   "word": "emails,",
+   "element": "Pastilla nítida 'Connected with Gmail ✓'",
+   "category": "full_graphic",
+   "offset_s": -0.02,
+   "why": "literal: emails"
+  },
+  {
+   "t_word": 86.72,
+   "word": "emails,",
+   "element": "pastilla nítida 'Connected with Gmail ✓'",
+   "category": "full_graphic",
+   "offset_s": 0.28,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 87.68,
+   "word": "messages,",
+   "element": "Línea nítida 'Your Kallaway Slack connection is working.'",
+   "category": "full_graphic",
+   "offset_s": 0.02,
+   "why": "literal: Slack"
+  },
+  {
+   "t_word": 87.68,
+   "word": "messages,",
+   "element": "línea nítida 'Your Kallaway Slack connection is working.'",
+   "category": "full_graphic",
+   "offset_s": 0.22,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 88.86,
+   "word": "support",
+   "element": "Párrafo nítido 'The support section will focus on…'",
+   "category": "full_graphic",
+   "offset_s": 0.04,
+   "why": "literal: soporte"
+  },
+  {
+   "t_word": 88.86,
+   "word": "support",
+   "element": "párrafo nítido 'Got it. The support section will focus on…'",
+   "category": "full_graphic",
+   "offset_s": 0.14,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 89.94,
+   "word": "been",
+   "element": "Cara completa: subtítulo pequeño 'have been' y luego 'triaged' (serif itálica) + 'and' (sans) + 'answered' (itálica) apilados.",
+   "category": "face_full_word",
+   "offset_s": 0.06,
+   "why": "énfasis / cambio de tema (cara + palabra)"
+  },
+  {
+   "t_word": 90.16,
+   "word": "triaged",
+   "element": "'triaged' en serif itálica grande",
+   "category": "face_full_word",
+   "offset_s": 0.04,
+   "why": "énfasis: resultado"
+  },
+  {
+   "t_word": 91.04,
+   "word": "answered",
+   "element": "'answered' en serif itálica bajo 'and'",
+   "category": "face_full_word",
+   "offset_s": 0.06,
+   "why": "énfasis: resultado"
+  },
+  {
+   "t_word": 91.46,
+   "word": "and",
+   "element": "chat propio: mensajes y burbuja azul",
+   "category": "split_screenrec",
+   "offset_s": 0.07,
+   "why": "literal: se ve el producto haciendo lo que dice"
+  },
+  {
+   "t_word": 92.28,
+   "word": "the",
+   "element": "salto: bloque de texto largo",
+   "category": "split_screenrec",
+   "offset_s": 0.05,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 93.0,
+   "word": "items",
+   "element": "salto de scroll",
+   "category": "split_screenrec",
+   "offset_s": -0.1,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 93.62,
+   "word": "need",
+   "element": "salto de scroll",
+   "category": "split_screenrec",
+   "offset_s": -0.05,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 94.24,
+   "word": "in",
+   "element": "salto: burbuja azul larga",
+   "category": "split_screenrec",
+   "offset_s": -0.07,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 94.88,
+   "word": "single",
+   "element": "salto de scroll",
+   "category": "split_screenrec",
+   "offset_s": -0.05,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 95.26,
+   "word": "dashboard.",
+   "element": "final de la conversación",
+   "category": "split_screenrec",
+   "offset_s": 0.07,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 95.9,
+   "word": "To",
+   "element": "Cara completa con subtítulo 'To do this, / I just / described'.",
+   "category": "aroll_plain",
+   "offset_s": -0.2,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 97.5,
+   "word": "voice",
+   "element": "ventana de chat que crece desde el centro (pop de escala) sobre fondo azul texturizado",
+   "category": "split_graphic",
+   "offset_s": 0.03,
+   "why": "dato/concepto visualizado"
+  },
+  {
+   "t_word": 98.52,
+   "word": "how",
+   "element": "segunda ventana (panel del dot) superpuesta arriba a la derecha + barra de voz con onda",
+   "category": "split_graphic",
+   "offset_s": -0.12,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 101.94,
+   "word": "And",
+   "element": "Cara completa con subtítulo 'And I can't / believe it / but this / actually works'.",
+   "category": "aroll_plain",
+   "offset_s": -0.04,
+   "why": "respiro / puente a cara"
+  },
+  {
+   "t_word": 103.28,
+   "word": "insanely",
+   "element": "dashboard oscuro 'Your morning review.' (zoom-in)",
+   "category": "split_screenrec",
+   "offset_s": 0.12,
+   "why": "literal: se ve el producto haciendo lo que dice"
+  },
+  {
+   "t_word": 105.76,
+   "word": "hours",
+   "element": "scroll hacia 'Proposed email categories'",
+   "category": "split_screenrec",
+   "offset_s": 0.04,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 106.9,
+   "word": "The",
+   "element": "mock oscuro '# launch-team' con mascota",
+   "category": "split_graphic",
+   "offset_s": -0.07,
+   "why": "dato/concepto visualizado"
+  },
+  {
+   "t_word": 107.42,
+   "word": "ongoing",
+   "element": "transición a 'Microsoft Teams — Launch team' (fundido, mascota salta arriba)",
+   "category": "split_graphic",
+   "offset_s": 0.25,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 108.58,
+   "word": "monitoring",
+   "element": "móvil amarillo en llamada (botones rojos), mano y dedo, fondo azul desenfocado",
+   "category": "split_broll",
+   "offset_s": -0.21,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 110.64,
+   "word": "the",
+   "element": "barra de entrada de voz con onda y contador",
+   "category": "split_screenrec",
+   "offset_s": 0.03,
+   "why": "literal: se ve el producto haciendo lo que dice"
+  },
+  {
+   "t_word": 111.9,
+   "word": "-6",
+   "element": "prompt escrito + selector 'GPT-6 Astra High' y cursor",
+   "category": "split_screenrec",
+   "offset_s": 0.0,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 113.1,
+   "word": "the",
+   "element": "barra lateral ChatGPT (marco de madera)",
+   "category": "split_graphic",
+   "offset_s": -0.27,
+   "why": "dato/concepto visualizado"
+  },
+  {
+   "t_word": 113.28,
+   "word": "combination",
+   "element": "mascota azul con boina sobre blanco",
+   "category": "split_graphic",
+   "offset_s": 0.02,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 114.06,
+   "word": "makes",
+   "element": "lista de actividad del agente en macro, líneas que se revelan con brillo",
+   "category": "split_screenrec",
+   "offset_s": -0.13,
+   "why": "literal: se ve el producto haciendo lo que dice"
+  },
+  {
+   "t_word": 116.56,
+   "word": "This",
+   "element": "dispositivo con llamada junto a lámpara encendida",
+   "category": "split_broll",
+   "offset_s": -0.06,
+   "why": "literal: se muestra lo que nombra"
+  },
+  {
+   "t_word": 118.32,
+   "word": "working",
+   "element": "hombre de camisa verde, primer plano",
+   "category": "split_broll",
+   "offset_s": -0.02,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 119.32,
+   "word": "and",
+   "element": "Cara completa con 'and' → 'it's' → 'available' → 'now' (serif itálica).",
+   "category": "face_full_word",
+   "offset_s": 0.15,
+   "why": "énfasis / cambio de tema (cara + palabra)"
+  },
+  {
+   "t_word": 120.82,
+   "word": "Comment",
+   "element": "mascotas 3D sobre blanco con 'Comment' en sans bold negra encima",
+   "category": "title_cta",
+   "offset_s": -0.02,
+   "why": "cierre"
+  },
+  {
+   "t_word": 121.28,
+   "word": "and",
+   "element": "móvil con chat y texto 'Comment “Dots”' grande en negro",
+   "category": "title_cta",
+   "offset_s": -0.01,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 121.28,
+   "word": "and",
+   "element": "Texto negro 'Comment “Dots”' sobre el móvil",
+   "category": "title_cta",
+   "offset_s": -0.01,
+   "why": "CTA literal"
+  },
+  {
+   "t_word": 122.24,
+   "word": "on",
+   "element": "documento inclinado con pastillas 'Connected with Gmail' (repetición de 86.07)",
+   "category": "title_cta",
+   "offset_s": -0.11,
+   "why": "cierre"
+  },
+  {
+   "t_word": 123.98,
+   "word": "that",
+   "element": "mujer de perfil gesticulando",
+   "category": "title_cta",
+   "offset_s": -0.08,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  },
+  {
+   "t_word": 124.74,
+   "word": "of",
+   "element": "plató oscuro: logo 'dots' arcoíris que se enciende (plano del gancho)",
+   "category": "title_cta",
+   "offset_s": -0.04,
+   "why": "ritmo: nuevo clip sobre la misma idea (literal)"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 0.4,
+   "from": "v10_s01 clip 1",
+   "to": "v10_s01 clip 2",
+   "type": "slide",
+   "frames": 4,
+   "detail": "El marco del móvil sube desde abajo sobre la mascota (≈4 fotogramas a 15 fps), dentro del clip de lanzamiento."
+  },
+  {
+   "t": 1.1,
+   "from": "v10_s01 clip 2",
+   "to": "v10_s01 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: plató oscuro con logo 'dots' arcoíris luminoso que se enciende"
+  },
+  {
+   "t": 2.2,
+   "from": "v10_s01 (hook_banner)",
+   "to": "v10_s02 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con 'And' → 'this' → 'is' → 'a' → 'massive' → 'deal' una a una."
+  },
+  {
+   "t": 3.57,
+   "from": "v10_s02 (face_full_word)",
+   "to": "v10_s03 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: escenario de keynote con pantalla 'dots' y móvil gigante, público de espaldas"
+  },
+  {
+   "t": 4.5,
+   "from": "v10_s03 (split_broll)",
+   "to": "v10_s04 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: móvil: chat con 'Todd' (agenda del día + burbuja verde)"
+  },
+  {
+   "t": 5.4,
+   "from": "v10_s04 clip 1",
+   "to": "v10_s04 clip 2",
+   "type": "corte seco (salto de scroll)",
+   "frames": 1,
+   "detail": "Salto de posición dentro de la misma conversación (scroll por pasos)."
+  },
+  {
+   "t": 6.73,
+   "from": "v10_s04 clip 2",
+   "to": "v10_s04 clip 3",
+   "type": "corte seco (salto de scroll)",
+   "frames": 1,
+   "detail": "Salto de posición dentro de la misma conversación (scroll por pasos)."
+  },
+  {
+   "t": 7.23,
+   "from": "v10_s04 (split_screenrec)",
+   "to": "v10_s05 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa: 'dots' → 'are' y luego 'always-on' (serif itálica) + 'agents' (sans) en dos líneas; las palabra"
+  },
+  {
+   "t": 8.87,
+   "from": "v10_s05 (face_full_word)",
+   "to": "v10_s06 (split_graphic)",
+   "type": "corte seco + slide",
+   "frames": 3,
+   "detail": "Corte de cara a marco con mascota azul; a los ≈0.2 s el panel se desliza horizontalmente hasta la barra lateral de ChatGPT."
+  },
+  {
+   "t": 9.5,
+   "from": "v10_s06 clip 1",
+   "to": "v10_s06 clip 2",
+   "type": "slide",
+   "frames": 3,
+   "detail": "Desplazamiento lateral del panel hasta la barra lateral; aparece la flecha roja."
+  },
+  {
+   "t": 10.37,
+   "from": "v10_s06 (split_graphic)",
+   "to": "v10_s07 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: pantalla enmarcada: mascota verde que muta hasta la amarilla 'Alfred'"
+  },
+  {
+   "t": 12.0,
+   "from": "v10_s07 (split_graphic)",
+   "to": "v10_s08 (split_graphic)",
+   "type": "corte seco + fade-in",
+   "frames": 4,
+   "detail": "Corte a diapositiva oscura vacía; los iconos entran por fundido (≈4 fotogramas)."
+  },
+  {
+   "t": 12.5,
+   "from": "v10_s08 clip 1",
+   "to": "v10_s08 clip 2",
+   "type": "fade-in",
+   "frames": 4,
+   "detail": "Iconos Computer y Browser aparecen por fundido."
+  },
+  {
+   "t": 13.73,
+   "from": "v10_s08 (split_graphic)",
+   "to": "v10_s09 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: UI de escritorio: mapa con ruta, miniatura de vídeo y panel amarillo"
+  },
+  {
+   "t": 14.73,
+   "from": "v10_s09 (split_screenrec)",
+   "to": "v10_s10 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: tarjeta: dispositivo amarillo con ventana de navegador y cursor"
+  },
+  {
+   "t": 15.73,
+   "from": "v10_s10 clip 1",
+   "to": "v10_s10 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: tarjeta: hombre con camisa verde cocinando (plano medio)"
+  },
+  {
+   "t": 16.77,
+   "from": "v10_s10 clip 2",
+   "to": "v10_s10 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: tarjeta: dispositivo con UI de llamada (botón rojo), en una encimera"
+  },
+  {
+   "t": 18.43,
+   "from": "v10_s10 (full_graphic)",
+   "to": "v10_s11 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo pequeño 'Now the / big question / on everyone's / mind is'."
+  },
+  {
+   "t": 19.94,
+   "from": "v10_s11 (aroll_plain)",
+   "to": "v10_s12 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con 'How' → 'are' → 'dots' → 'different' grandes."
+  },
+  {
+   "t": 21.3,
+   "from": "v10_s12 (face_full_word)",
+   "to": "v10_s13 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: prompt de ChatGPT escribiéndose letra a letra + cursor"
+  },
+  {
+   "t": 22.93,
+   "from": "v10_s13 (split_screenrec)",
+   "to": "v10_s14 (split_screenrec)",
+   "type": "slide",
+   "frames": 2,
+   "detail": "La ventana de Codex entra deslizando desde la derecha (2 fotogramas con borde blanco/oscuro visibles)."
+  },
+  {
+   "t": 24.27,
+   "from": "v10_s14 (split_screenrec)",
+   "to": "v10_s15 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'Think of it / like this…'."
+  },
+  {
+   "t": 24.93,
+   "from": "v10_s15 (aroll_plain)",
+   "to": "v10_s16 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: prompt 'Computer Can you also update our project tracker…' (zoom-in)"
+  },
+  {
+   "t": 26.1,
+   "from": "v10_s16 clip 1",
+   "to": "v10_s16 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: formulario 'New marketing request' con cursor morado luminoso"
+  },
+  {
+   "t": 27.27,
+   "from": "v10_s16 clip 2",
+   "to": "v10_s16 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: barra de entrada de voz con forma de onda 0:01 → 0:02"
+  },
+  {
+   "t": 28.63,
+   "from": "v10_s16 clip 3",
+   "to": "v10_s16 clip 4",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: chips 'Sites Build a landing page' / 'Ask for approval' / 'codex-apps'"
+  },
+  {
+   "t": 29.9,
+   "from": "v10_s16 clip 4",
+   "to": "v10_s16 clip 5",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: lista 'Comparing campaign results / Reviewing UK sales feedback' (texto que se revela)"
+  },
+  {
+   "t": 31.13,
+   "from": "v10_s16 (split_screenrec)",
+   "to": "v10_s17 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo pequeño 'So it's kinda like / you're driving the car / and they are / the engine,'"
+  },
+  {
+   "t": 33.93,
+   "from": "v10_s17 (aroll_plain)",
+   "to": "v10_s18 (split_screenrec)",
+   "type": "corte seco + zoom-in",
+   "frames": 5,
+   "detail": "Corte y zoom-in rápido (≈5 fotogramas) hasta el campo de texto de Codex."
+  },
+  {
+   "t": 35.0,
+   "from": "v10_s18 clip 1",
+   "to": "v10_s18 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: vista completa de la conversación con respuesta"
+  },
+  {
+   "t": 36.7,
+   "from": "v10_s18 (split_screenrec)",
+   "to": "v10_s19 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'dots / on the other hand, / work completely / different.'"
+  },
+  {
+   "t": 38.9,
+   "from": "v10_s19 (aroll_plain)",
+   "to": "v10_s20 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: mock de móvil oscuro (chat Alfred con burbuja amarilla) + mascota amarilla 3D"
+  },
+  {
+   "t": 40.57,
+   "from": "v10_s20 (split_graphic)",
+   "to": "v10_s21 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: móvil: chat 'Felipe' vacío → aparecen mensajes y burbuja azul"
+  },
+  {
+   "t": 43.2,
+   "from": "v10_s21 clip 1",
+   "to": "v10_s21 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: el chat avanza: 'Your deck is ready with the updates' + archivo"
+  },
+  {
+   "t": 44.57,
+   "from": "v10_s21 (split_screenrec)",
+   "to": "v10_s22 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: mock oscuro de canal '# launch-team' con mascota amarilla"
+  },
+  {
+   "t": 46.37,
+   "from": "v10_s22 (split_graphic)",
+   "to": "v10_s23 (split_social)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: canal '#proj-editor-migration': mensaje de Trevor Hall y respuesta del agente Jojo que se escribe"
+  },
+  {
+   "t": 47.67,
+   "from": "v10_s23 (split_social)",
+   "to": "v10_s24 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: panel de tareas 'Rerun analysis / Update figures / Investigate unexpected results', fondo coral, cursor"
+  },
+  {
+   "t": 48.43,
+   "from": "v10_s24 clip 1",
+   "to": "v10_s24 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: panel de conectores (Google Calendar, Google Drive, Github, Charts), fondo amarillo, mascota"
+  },
+  {
+   "t": 49.27,
+   "from": "v10_s24 (split_screenrec)",
+   "to": "v10_s25 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'So it's more like / you get in the / backseat / of the car'."
+  },
+  {
+   "t": 51.5,
+   "from": "v10_s25 (aroll_plain)",
+   "to": "v10_s26 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: mujer de perfil hablando, luz cálida"
+  },
+  {
+   "t": 52.9,
+   "from": "v10_s26 clip 1",
+   "to": "v10_s26 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: macro de pantalla: chat 'Jojo' con burbujas magenta"
+  },
+  {
+   "t": 54.13,
+   "from": "v10_s26 clip 2",
+   "to": "v10_s26 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: móvil en la mano con chat rosa"
+  },
+  {
+   "t": 54.97,
+   "from": "v10_s26 clip 3",
+   "to": "v10_s26 clip 4",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: 'Jojo's Computer': web 'Wedding cakes, composed for you' con mascota morada y cursor"
+  },
+  {
+   "t": 56.33,
+   "from": "v10_s26 clip 4",
+   "to": "v10_s26 clip 5",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: mujer en la cocina junto a un dispositivo"
+  },
+  {
+   "t": 56.9,
+   "from": "v10_s26 (split_broll)",
+   "to": "v10_s27 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'Essentially / the big shift / here is'."
+  },
+  {
+   "t": 58.37,
+   "from": "v10_s27 (aroll_plain)",
+   "to": "v10_s28 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Codex: prompt 'CircleCI Diagnose and fix build failures in this branch' escribiéndose (zoom-in)"
+  },
+  {
+   "t": 60.83,
+   "from": "v10_s28 (split_screenrec)",
+   "to": "v10_s29 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: panel de tareas programadas 'Investigate unexpected results / Revise explanation / Flag findings for review'"
+  },
+  {
+   "t": 63.8,
+   "from": "v10_s29 (split_screenrec)",
+   "to": "v10_s30 (split_broll)",
+   "type": "crossfade",
+   "frames": 4,
+   "detail": "Fondo morado liso → la web aparece por fundido (≈4 fotogramas)."
+  },
+  {
+   "t": 65.97,
+   "from": "v10_s30 clip 1",
+   "to": "v10_s30 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: mujer de perfil con móvil frente a pantalla rosa desenfocada"
+  },
+  {
+   "t": 67.3,
+   "from": "v10_s30 clip 2",
+   "to": "v10_s30 clip 3",
+   "type": "rack-focus",
+   "frames": 6,
+   "detail": "Cambio de foco dentro del clip: pantalla rosa desenfocada → dispositivo nítido."
+  },
+  {
+   "t": 68.47,
+   "from": "v10_s30 (split_broll)",
+   "to": "v10_s31 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'Now the / biggest reason / why / are so / compelling'."
+  },
+  {
+   "t": 70.47,
+   "from": "v10_s31 (aroll_plain)",
+   "to": "v10_s32 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: plató con cámaras; cartel 'INTRODUCING GPT-6'; formas geométricas luminosas que se convierten en las letras 'A"
+  },
+  {
+   "t": 73.2,
+   "from": "v10_s32 (split_graphic)",
+   "to": "v10_s33 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: mujer con raqueta de tenis ante pantalla gigante con hoja amarilla '24 JACKETS'"
+  },
+  {
+   "t": 74.8,
+   "from": "v10_s33 (split_broll)",
+   "to": "v10_s34 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: documento 'Budget scenarios and returns' con barras verde/lima y cursor morado"
+  },
+  {
+   "t": 75.77,
+   "from": "v10_s34 clip 1",
+   "to": "v10_s34 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: caja de prompt con selector de modelo 'GPT-6 Astra High' y clic del cursor"
+  },
+  {
+   "t": 77.6,
+   "from": "v10_s34 (split_screenrec)",
+   "to": "v10_s35 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: keynote: 'dots' + lista 'Trace dependencies / Read the migration docs / Plan the changes…'"
+  },
+  {
+   "t": 81.07,
+   "from": "v10_s35 (split_broll)",
+   "to": "v10_s36 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: chat propio, respuesta larga del agente (zoom-in con desenfoque parcial)"
+  },
+  {
+   "t": 81.97,
+   "from": "v10_s36 clip 1",
+   "to": "v10_s36 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: macro del campo de texto: 'Connect the kallaway@wavylabs.co email account…'"
+  },
+  {
+   "t": 83.47,
+   "from": "v10_s36 clip 2",
+   "to": "v10_s36 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: sigue tecleando; partes difuminadas"
+  },
+  {
+   "t": 84.3,
+   "from": "v10_s36 clip 3",
+   "to": "v10_s36 clip 4",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: vista alejada de toda la conversación"
+  },
+  {
+   "t": 84.8,
+   "from": "v10_s36 (split_screenrec)",
+   "to": "v10_s37 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'Every morning / when I first / wake up'."
+  },
+  {
+   "t": 86.07,
+   "from": "v10_s37 (aroll_plain)",
+   "to": "v10_s38 (full_graphic)",
+   "type": "corte seco + giro 3D",
+   "frames": 8,
+   "detail": "Corte a tarjeta plana que se inclina en perspectiva y se desenfoca en ≈0.5 s."
+  },
+  {
+   "t": 87.0,
+   "from": "v10_s38 clip 1",
+   "to": "v10_s38 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: pastilla nítida 'Connected with Gmail ✓'"
+  },
+  {
+   "t": 87.9,
+   "from": "v10_s38 clip 2",
+   "to": "v10_s38 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: línea nítida 'Your Kallaway Slack connection is working.'"
+  },
+  {
+   "t": 89.0,
+   "from": "v10_s38 clip 3",
+   "to": "v10_s38 clip 4",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: párrafo nítido 'Got it. The support section will focus on…'"
+  },
+  {
+   "t": 90.0,
+   "from": "v10_s38 (full_graphic)",
+   "to": "v10_s39 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa: subtítulo pequeño 'have been' y luego 'triaged' (serif itálica) + 'and' (sans) + 'answered' (it"
+  },
+  {
+   "t": 91.53,
+   "from": "v10_s39 (face_full_word)",
+   "to": "v10_s40 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: chat propio: mensajes y burbuja azul"
+  },
+  {
+   "t": 92.33,
+   "from": "v10_s40 clip 1",
+   "to": "v10_s40 clip 2",
+   "type": "corte seco (salto de scroll)",
+   "frames": 1,
+   "detail": "Salto de posición dentro de la misma conversación (scroll por pasos)."
+  },
+  {
+   "t": 92.9,
+   "from": "v10_s40 clip 2",
+   "to": "v10_s40 clip 3",
+   "type": "corte seco (salto de scroll)",
+   "frames": 1,
+   "detail": "Salto de posición dentro de la misma conversación (scroll por pasos)."
+  },
+  {
+   "t": 93.57,
+   "from": "v10_s40 clip 3",
+   "to": "v10_s40 clip 4",
+   "type": "corte seco (salto de scroll)",
+   "frames": 1,
+   "detail": "Salto de posición dentro de la misma conversación (scroll por pasos)."
+  },
+  {
+   "t": 94.17,
+   "from": "v10_s40 clip 4",
+   "to": "v10_s40 clip 5",
+   "type": "corte seco (salto de scroll)",
+   "frames": 1,
+   "detail": "Salto de posición dentro de la misma conversación (scroll por pasos)."
+  },
+  {
+   "t": 94.83,
+   "from": "v10_s40 clip 5",
+   "to": "v10_s40 clip 6",
+   "type": "corte seco (salto de scroll)",
+   "frames": 1,
+   "detail": "Salto de posición dentro de la misma conversación (scroll por pasos)."
+  },
+  {
+   "t": 95.33,
+   "from": "v10_s40 clip 6",
+   "to": "v10_s40 clip 7",
+   "type": "corte seco (salto de scroll)",
+   "frames": 1,
+   "detail": "Salto de posición dentro de la misma conversación (scroll por pasos)."
+  },
+  {
+   "t": 95.7,
+   "from": "v10_s40 (split_screenrec)",
+   "to": "v10_s41 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'To do this, / I just / described'."
+  },
+  {
+   "t": 97.53,
+   "from": "v10_s41 (aroll_plain)",
+   "to": "v10_s42 (split_graphic)",
+   "type": "corte seco + escala",
+   "frames": 5,
+   "detail": "La ventana de chat crece desde un punto central hasta su tamaño (pop de escala, 5 fotogramas)."
+  },
+  {
+   "t": 98.4,
+   "from": "v10_s42 clip 1",
+   "to": "v10_s42 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: segunda ventana (panel del dot) superpuesta arriba a la derecha + barra de voz con onda"
+  },
+  {
+   "t": 101.9,
+   "from": "v10_s42 (split_graphic)",
+   "to": "v10_s43 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con subtítulo 'And I can't / believe it / but this / actually works'."
+  },
+  {
+   "t": 103.4,
+   "from": "v10_s43 (aroll_plain)",
+   "to": "v10_s44 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: dashboard oscuro 'Your morning review.' (zoom-in)"
+  },
+  {
+   "t": 105.8,
+   "from": "v10_s44 clip 1",
+   "to": "v10_s44 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: scroll hacia 'Proposed email categories'"
+  },
+  {
+   "t": 106.83,
+   "from": "v10_s44 (split_screenrec)",
+   "to": "v10_s45 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: mock oscuro '# launch-team' con mascota"
+  },
+  {
+   "t": 107.67,
+   "from": "v10_s45 clip 1",
+   "to": "v10_s45 clip 2",
+   "type": "crossfade",
+   "frames": 4,
+   "detail": "El mock '# launch-team' se funde a 'Microsoft Teams — Launch team'; la mascota salta arriba."
+  },
+  {
+   "t": 108.37,
+   "from": "v10_s45 (split_graphic)",
+   "to": "v10_s46 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: móvil amarillo en llamada (botones rojos), mano y dedo, fondo azul desenfocado"
+  },
+  {
+   "t": 110.67,
+   "from": "v10_s46 (split_broll)",
+   "to": "v10_s47 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: barra de entrada de voz con onda y contador"
+  },
+  {
+   "t": 111.9,
+   "from": "v10_s47 clip 1",
+   "to": "v10_s47 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: prompt escrito + selector 'GPT-6 Astra High' y cursor"
+  },
+  {
+   "t": 112.83,
+   "from": "v10_s47 (split_screenrec)",
+   "to": "v10_s48 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: barra lateral ChatGPT (marco de madera)"
+  },
+  {
+   "t": 113.3,
+   "from": "v10_s48 clip 1",
+   "to": "v10_s48 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: mascota azul con boina sobre blanco"
+  },
+  {
+   "t": 113.93,
+   "from": "v10_s48 (split_graphic)",
+   "to": "v10_s49 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: lista de actividad del agente en macro, líneas que se revelan con brillo"
+  },
+  {
+   "t": 116.5,
+   "from": "v10_s49 (split_screenrec)",
+   "to": "v10_s50 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: dispositivo con llamada junto a lámpara encendida"
+  },
+  {
+   "t": 118.3,
+   "from": "v10_s50 clip 1",
+   "to": "v10_s50 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: hombre de camisa verde, primer plano"
+  },
+  {
+   "t": 119.47,
+   "from": "v10_s50 (split_broll)",
+   "to": "v10_s51 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: Cara completa con 'and' → 'it's' → 'available' → 'now' (serif itálica)."
+  },
+  {
+   "t": 120.8,
+   "from": "v10_s51 (face_full_word)",
+   "to": "v10_s52 (title_cta)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: mascotas 3D sobre blanco con 'Comment' en sans bold negra encima"
+  },
+  {
+   "t": 121.27,
+   "from": "v10_s52 clip 1",
+   "to": "v10_s52 clip 2",
+   "type": "slide",
+   "frames": 4,
+   "detail": "El móvil sube desde abajo bajo el texto 'Comment “Dots”' (repite el movimiento de 0.40)."
+  },
+  {
+   "t": 122.13,
+   "from": "v10_s52 (title_cta)",
+   "to": "v10_s53 (title_cta)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio de escena: documento inclinado con pastillas 'Connected with Gmail' (repetición de 86.07)"
+  },
+  {
+   "t": 123.9,
+   "from": "v10_s53 clip 1",
+   "to": "v10_s53 clip 2",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: mujer de perfil gesticulando"
+  },
+  {
+   "t": 124.7,
+   "from": "v10_s53 clip 2",
+   "to": "v10_s53 clip 3",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio interno de la mitad superior: plató oscuro: logo 'dots' arcoíris que se enciende (plano del gancho)"
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.0,
+   "fx": "slide",
+   "detail": "Franja roja 'THE NEW ERA OF AI AGENTS' entra desde la derecha (0–≈1.0 s) y se queda hasta 2.20."
+  },
+  {
+   "t": 2.2,
+   "fx": "pop",
+   "detail": "Palabra grande una a una sobre la cara (6 palabras en 1.37 s ≈ 0.23 s/palabra; derivado): sustitución instantánea, sans bold blanca con glow"
+  },
+  {
+   "t": 7.23,
+   "fx": "pop",
+   "detail": "Palabra grande una a una sobre la cara (6 palabras en 1.64 s ≈ 0.27 s/palabra; derivado): 'dots', 'are' en sans bold; en 7.5 s se ve 'ts' saliendo por la izquierda y la siguiente palabra entrando por la derecha (slide horizontal tipo cinta); 'always-on' en serif itálica + 'agents' sans, 2 líneas escalonadas, se mantienen 0.9 s"
+  },
+  {
+   "t": 7.5,
+   "fx": "tracking / slide horizontal",
+   "detail": "En la cara completa las palabras 'dots' → 'are' pasan como cinta horizontal (7.5 s: 'ts' saliendo por la izquierda, 'a' entrando por la derecha)."
+  },
+  {
+   "t": 8.0,
+   "fx": "pop",
+   "detail": "'always-on' (serif itálica) + 'agents' (sans) en dos líneas escalonadas; se mantienen ≈0.9 s."
+  },
+  {
+   "t": 15.2,
+   "fx": "máscara (caja translúcida)",
+   "detail": "Subtítulo con caja gris translúcida cuando va sobre tarjeta/b-roll a pantalla completa (14.73–18.43, 86.07–90.0)."
+  },
+  {
+   "t": 19.94,
+   "fx": "pop",
+   "detail": "Palabra grande una a una sobre la cara (5 palabras en 1.36 s ≈ 0.27 s/palabra; derivado): sustitución instantánea, sans bold blanca con glow"
+  },
+  {
+   "t": 86.7,
+   "fx": "máscara (resaltado nítido sobre blur)",
+   "detail": "Pastillas blancas nítidas que aparecen sobre el documento desenfocado, una por palabra clave."
+  },
+  {
+   "t": 90.0,
+   "fx": "pop",
+   "detail": "Palabra grande una a una sobre la cara (4 palabras en 1.53 s ≈ 0.38 s/palabra; derivado): bloque de 3 líneas: 'triaged' y 'answered' en serif itálica blanca ≈60 px, 'and' en sans bold entre ambas; se construye línea a línea con la voz"
+  },
+  {
+   "t": 90.2,
+   "fx": "escala / pop por línea",
+   "detail": "'triaged / and / answered' se apila línea a línea."
+  },
+  {
+   "t": 119.47,
+   "fx": "pop",
+   "detail": "Palabra grande una a una sobre la cara (3 palabras en 1.33 s ≈ 0.44 s/palabra; derivado): 'now' en serif itálica más pequeña"
+  },
+  {
+   "t": 121.0,
+   "fx": "pop",
+   "detail": "'Comment “Dots”' en negro enorme sobre la mascota y luego sobre el móvil."
+  }
+ ],
+ "camera": [
+  {
+   "t": 2.2,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 3.57,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 7.23,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 8.87,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 18.43,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 21.3,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 24.27,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 24.93,
+   "move": "push-in lento",
+   "scale_or_dir": "≈1.0→1.1 en cada macro de UI",
+   "dur_s": 1.2
+  },
+  {
+   "t": 24.93,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 31.13,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 33.93,
+   "move": "punch-in",
+   "scale_or_dir": "vista de app → campo de texto (zoom rápido)",
+   "dur_s": 0.33
+  },
+  {
+   "t": 33.93,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 36.7,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 38.9,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 49.27,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 51.5,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 56.9,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 58.37,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 60.83,
+   "move": "push-in lento",
+   "scale_or_dir": "lista de tareas, ≈1.0→1.15",
+   "dur_s": 3.0
+  },
+  {
+   "t": 68.47,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 70.47,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 84.8,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 86.07,
+   "move": "pan / giro 3D",
+   "scale_or_dir": "documento plano → perspectiva inclinada",
+   "dur_s": 0.5
+  },
+  {
+   "t": 90.0,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 91.53,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 95.7,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 97.53,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 101.9,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 103.4,
+   "move": "push-in lento",
+   "scale_or_dir": "dashboard ≈1.0→1.2 y scroll",
+   "dur_s": 3.4
+  },
+  {
+   "t": 103.4,
+   "move": "zoom-out",
+   "scale_or_dir": "cara completa → plano medio en la mitad inferior (por corte)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 119.47,
+   "move": "punch-in",
+   "scale_or_dir": "encuadre split → cara a pantalla completa (≈2.5–3× el tamaño de cara del split; derivado)",
+   "dur_s": 0.0
+  }
+ ],
+ "rhythm": {
+  "events_per_10s": [
+   10,
+   9,
+   8,
+   5,
+   7,
+   7,
+   5,
+   5,
+   9,
+   11,
+   6,
+   8,
+   5
+  ],
+  "avg_hold_text_s": 0.55,
+  "notes": "Vídeo largo con ritmo sostenido: 2.39 s/escena. [derived] 95 cambios visuales en 126.4 s = 1 cada 1.33 s; la mitad superior cambia cada 1.23 s de media dentro de los tramos en split; palabra grande ≈0.3 s/palabra; subtítulo pequeño ≈0.55 s por bloque (estimado: 2 palabras × duración media de palabra)."
+ },
+ "typography": "Subtítulo sans geométrica bold blanca ≈30 px/720, 1–3 palabras. Palabra grande sans bold ≈70–80 px con halo; serif itálica de alto contraste para always-on, triaged, answered, now. Franja: sans extendida ultra-bold mayúsculas, blanco + naranja-dorado sobre caja rojo oscuro. CTA: grotesca bold negra ≈90 px. Familias exactas: desconocidas.",
+ "textures": "Sin grano ni papel. Textura de puntos fina en los fondos azul marino de los gráficos propios (86.07–90.0, 97.53–101.9, 122.13). Blur como recurso: privacidad en el chat (81–84) y para destacar pastillas (86–90).",
+ "distinct": [
+  "El más largo (126 s) y el que más usa cara completa con subtítulo pequeño (analogía del coche contada sin una sola imagen de coche)",
+  "Macro-UI en ráfaga: recortes de interfaz muy ampliados con zoom lento, 1 por verbo (24.93–31.13)",
+  "Gráfico propio: documento en 3D desenfocado sobre azul texturizado con pastillas nítidas (86.07) y ventanas que hacen pop (97.53)",
+  "Usa SU cuenta real (kallaway@wavylabs.co, 'Your Kallaway Slack connection') como prueba, con blur de privacidad (81.07–95.7)",
+  "Cinta horizontal de palabras en la cara (7.5) y CTA 'Comment “Dots”' en negro gigante sobre la mascota; cierre con los planos del gancho"
+ ],
+ "evidence_note": "REA: tiempos de corte = observed (detección de escena ffmpeg + tiras de 9 fotogramas a 15 fps por cada corte); offsets y ritmos = derived; 'why' = inferred. Audio/SFX: desconocido (no analizado)."
+}

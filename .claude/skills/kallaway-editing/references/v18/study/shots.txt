@@ -1,0 +1,24 @@
+000    0.00-   5.71 (5.7s) | This robot just got its head kicked off in the world's first robot UFC. This is URKL. It's
+001    5.71-   7.24 (1.5s) | a new fight league in China where
+002    7.24-  13.58 (6.3s) | full -size humanoid robots fight MMA style in a real cage. Now, here's the interesting part about how the league works. Every
+003   13.58-  16.62 (3.0s) | fighter in the league starts with the exact same robot.
+004   16.62-  17.98 (1.4s) | A $40 ,000 humanoid called
+005   17.98-  19.25 (1.3s) | the T -800.
+006   19.25-  20.92 (1.7s) | And yes, it's named after Terminator.
+007   20.92-  21.99 (1.1s) | So 32 teams from
+008   21.99-  23.46 (1.5s) | around the world all get identical
+009   23.46-  25.16 (1.7s) | robot bodies. So
+010   25.16-  30.16 (5.0s) | the fight isn't really about medal versus medal. It's actually about code versus code.
+011   30.16-  34.17 (4.0s) | Whoever builds the better fight plan into their robot wins the match. And
+012   34.17-  36.04 (1.9s) | in this league, they're not fighting for a trophy.
+013   36.04-  37.97 (1.9s) | The champion takes home a belt made of 10
+014   37.97-  39.91 (1.9s) | kilograms of solid gold, worth
+015   39.91-  41.98 (2.1s) | about $1 .5 million. To
+016   41.98-  45.55 (3.6s) | be fair, the fights in the league are still pretty clunky. It's very early.
+017   45.55-  50.95 (5.4s) | The robots miss punches. They face the wrong way. Sometimes the celebration moves are better than the actual fighting. But
+018   50.95-  53.29 (2.3s) | it's clear we're watching the very beginning of a brand
+019   53.29-  54.25 (1.0s) | new age in
+020   54.25-  55.66 (1.4s) | robot sports.
+021   55.66-  57.16 (1.5s) | And who knows, maybe one day the
+022   57.16-  58.56 (1.4s) | UFC will acquire it.
+023   58.56-  61.30 (2.7s) | Fall if you want to learn more about tech, AI and robotics.

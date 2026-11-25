@@ -1,0 +1,3002 @@
+{
+  "video": "v20.mp4",
+  "duration": 83.66,
+  "derived": {
+    "shots": 34,
+    "avg_shot_len": 2.46,
+    "cuts_per_min": 24.4,
+    "hook_shots_first_3s": 3,
+    "high_motion_shots": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      19,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      32,
+      33
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "This",
+      "start": 0.0,
+      "end": 0.2
+    },
+    {
+      "w": "robot",
+      "start": 0.2,
+      "end": 0.48
+    },
+    {
+      "w": "is",
+      "start": 0.48,
+      "end": 0.8
+    },
+    {
+      "w": "the",
+      "start": 0.8,
+      "end": 0.94
+    },
+    {
+      "w": "future",
+      "start": 0.94,
+      "end": 1.26
+    },
+    {
+      "w": "of",
+      "start": 1.26,
+      "end": 1.66
+    },
+    {
+      "w": "AI",
+      "start": 1.66,
+      "end": 2.04
+    },
+    {
+      "w": "-powered",
+      "start": 2.04,
+      "end": 2.48
+    },
+    {
+      "w": "farming.",
+      "start": 2.48,
+      "end": 2.86
+    },
+    {
+      "w": "And",
+      "start": 2.98,
+      "end": 3.12
+    },
+    {
+      "w": "what",
+      "start": 3.12,
+      "end": 3.2
+    },
+    {
+      "w": "it's",
+      "start": 3.2,
+      "end": 3.36
+    },
+    {
+      "w": "doing",
+      "start": 3.36,
+      "end": 3.54
+    },
+    {
+      "w": "is",
+      "start": 3.54,
+      "end": 3.86
+    },
+    {
+      "w": "pretty",
+      "start": 3.86,
+      "end": 4.14
+    },
+    {
+      "w": "insane.",
+      "start": 4.14,
+      "end": 4.48
+    },
+    {
+      "w": "As",
+      "start": 4.72,
+      "end": 4.9
+    },
+    {
+      "w": "it",
+      "start": 4.9,
+      "end": 5.0
+    },
+    {
+      "w": "rolls",
+      "start": 5.0,
+      "end": 5.16
+    },
+    {
+      "w": "through",
+      "start": 5.16,
+      "end": 5.34
+    },
+    {
+      "w": "a",
+      "start": 5.34,
+      "end": 5.48
+    },
+    {
+      "w": "cotton",
+      "start": 5.48,
+      "end": 5.68
+    },
+    {
+      "w": "field,",
+      "start": 5.68,
+      "end": 5.94
+    },
+    {
+      "w": "it",
+      "start": 6.12,
+      "end": 6.22
+    },
+    {
+      "w": "can",
+      "start": 6.22,
+      "end": 6.3
+    },
+    {
+      "w": "actually",
+      "start": 6.3,
+      "end": 6.64
+    },
+    {
+      "w": "think",
+      "start": 6.64,
+      "end": 7.06
+    },
+    {
+      "w": "on",
+      "start": 7.06,
+      "end": 7.4
+    },
+    {
+      "w": "its",
+      "start": 7.4,
+      "end": 7.52
+    },
+    {
+      "w": "own",
+      "start": 7.52,
+      "end": 7.82
+    },
+    {
+      "w": "and",
+      "start": 7.82,
+      "end": 8.0
+    },
+    {
+      "w": "decide",
+      "start": 8.0,
+      "end": 8.38
+    },
+    {
+      "w": "plant",
+      "start": 8.38,
+      "end": 8.88
+    },
+    {
+      "w": "by",
+      "start": 8.88,
+      "end": 9.12
+    },
+    {
+      "w": "plant",
+      "start": 9.12,
+      "end": 9.56
+    },
+    {
+      "w": "exactly",
+      "start": 9.56,
+      "end": 10.16
+    },
+    {
+      "w": "where",
+      "start": 10.16,
+      "end": 10.56
+    },
+    {
+      "w": "to",
+      "start": 10.56,
+      "end": 10.66
+    },
+    {
+      "w": "cut.",
+      "start": 10.66,
+      "end": 10.88
+    },
+    {
+      "w": "The",
+      "start": 11.14,
+      "end": 11.2
+    },
+    {
+      "w": "machine",
+      "start": 11.2,
+      "end": 11.44
+    },
+    {
+      "w": "is",
+      "start": 11.44,
+      "end": 11.6
+    },
+    {
+      "w": "called",
+      "start": 11.6,
+      "end": 11.8
+    },
+    {
+      "w": "the",
+      "start": 11.8,
+      "end": 11.98
+    },
+    {
+      "w": "VTM",
+      "start": 11.98,
+      "end": 12.44
+    },
+    {
+      "w": "-09B.",
+      "start": 12.44,
+      "end": 13.28
+    },
+    {
+      "w": "It",
+      "start": 13.44,
+      "end": 13.54
+    },
+    {
+      "w": "has",
+      "start": 13.54,
+      "end": 13.68
+    },
+    {
+      "w": "108",
+      "start": 13.68,
+      "end": 14.14
+    },
+    {
+      "w": "different",
+      "start": 14.14,
+      "end": 14.64
+    },
+    {
+      "w": "arms",
+      "start": 14.64,
+      "end": 15.02
+    },
+    {
+      "w": "and",
+      "start": 15.02,
+      "end": 15.32
+    },
+    {
+      "w": "can",
+      "start": 15.32,
+      "end": 15.48
+    },
+    {
+      "w": "cut",
+      "start": 15.48,
+      "end": 15.62
+    },
+    {
+      "w": "83",
+      "start": 15.62,
+      "end": 16.12
+    },
+    {
+      "w": "plants",
+      "start": 16.12,
+      "end": 16.6
+    },
+    {
+      "w": "per",
+      "start": 16.6,
+      "end": 17.0
+    },
+    {
+      "w": "second.",
+      "start": 17.0,
+      "end": 17.34
+    },
+    {
+      "w": "Now",
+      "start": 17.46,
+      "end": 17.52
+    },
+    {
+      "w": "the",
+      "start": 17.52,
+      "end": 17.6
+    },
+    {
+      "w": "job",
+      "start": 17.6,
+      "end": 17.82
+    },
+    {
+      "w": "it's",
+      "start": 17.82,
+      "end": 18.02
+    },
+    {
+      "w": "doing",
+      "start": 18.02,
+      "end": 18.14
+    },
+    {
+      "w": "here",
+      "start": 18.14,
+      "end": 18.42
+    },
+    {
+      "w": "is",
+      "start": 18.42,
+      "end": 18.68
+    },
+    {
+      "w": "called",
+      "start": 18.68,
+      "end": 18.9
+    },
+    {
+      "w": "topping.",
+      "start": 18.9,
+      "end": 19.28
+    },
+    {
+      "w": "And",
+      "start": 19.52,
+      "end": 19.56
+    },
+    {
+      "w": "the",
+      "start": 19.56,
+      "end": 19.7
+    },
+    {
+      "w": "cotton",
+      "start": 19.7,
+      "end": 19.94
+    },
+    {
+      "w": "industry,",
+      "start": 19.94,
+      "end": 20.28
+    },
+    {
+      "w": "topping",
+      "start": 20.52,
+      "end": 20.88
+    },
+    {
+      "w": "was",
+      "start": 20.88,
+      "end": 21.2
+    },
+    {
+      "w": "the",
+      "start": 21.2,
+      "end": 21.38
+    },
+    {
+      "w": "very",
+      "start": 21.38,
+      "end": 21.64
+    },
+    {
+      "w": "last",
+      "start": 21.64,
+      "end": 21.92
+    },
+    {
+      "w": "thing",
+      "start": 21.92,
+      "end": 22.18
+    },
+    {
+      "w": "still",
+      "start": 22.18,
+      "end": 22.6
+    },
+    {
+      "w": "done",
+      "start": 22.6,
+      "end": 22.92
+    },
+    {
+      "w": "by",
+      "start": 22.92,
+      "end": 23.08
+    },
+    {
+      "w": "human",
+      "start": 23.08,
+      "end": 23.34
+    },
+    {
+      "w": "hands.",
+      "start": 23.34,
+      "end": 23.72
+    },
+    {
+      "w": "Everything",
+      "start": 23.9,
+      "end": 24.1
+    },
+    {
+      "w": "else",
+      "start": 24.1,
+      "end": 24.32
+    },
+    {
+      "w": "has",
+      "start": 24.32,
+      "end": 24.48
+    },
+    {
+      "w": "already",
+      "start": 24.48,
+      "end": 24.84
+    },
+    {
+      "w": "been",
+      "start": 24.84,
+      "end": 25.02
+    },
+    {
+      "w": "automated.",
+      "start": 25.02,
+      "end": 25.46
+    },
+    {
+      "w": "Planting,",
+      "start": 25.76,
+      "end": 26.02
+    },
+    {
+      "w": "spraying,",
+      "start": 26.38,
+      "end": 26.6
+    },
+    {
+      "w": "picking,",
+      "start": 26.98,
+      "end": 27.22
+    },
+    {
+      "w": "about",
+      "start": 27.22,
+      "end": 27.72
+    },
+    {
+      "w": "97",
+      "start": 27.72,
+      "end": 28.34
+    },
+    {
+      "w": "%",
+      "start": 28.34,
+      "end": 28.72
+    },
+    {
+      "w": "of",
+      "start": 28.72,
+      "end": 28.9
+    },
+    {
+      "w": "the",
+      "start": 28.9,
+      "end": 28.96
+    },
+    {
+      "w": "work",
+      "start": 28.96,
+      "end": 29.16
+    },
+    {
+      "w": "is",
+      "start": 29.16,
+      "end": 29.38
+    },
+    {
+      "w": "done",
+      "start": 29.38,
+      "end": 29.54
+    },
+    {
+      "w": "by",
+      "start": 29.54,
+      "end": 29.72
+    },
+    {
+      "w": "machines",
+      "start": 29.72,
+      "end": 30.08
+    },
+    {
+      "w": "today.",
+      "start": 30.08,
+      "end": 30.46
+    },
+    {
+      "w": "But",
+      "start": 30.7,
+      "end": 30.78
+    },
+    {
+      "w": "topping",
+      "start": 30.78,
+      "end": 31.1
+    },
+    {
+      "w": "was",
+      "start": 31.1,
+      "end": 31.4
+    },
+    {
+      "w": "the",
+      "start": 31.4,
+      "end": 31.58
+    },
+    {
+      "w": "final",
+      "start": 31.58,
+      "end": 31.86
+    },
+    {
+      "w": "holdout.",
+      "start": 31.86,
+      "end": 32.3
+    },
+    {
+      "w": "And",
+      "start": 32.42,
+      "end": 32.46
+    },
+    {
+      "w": "not",
+      "start": 32.46,
+      "end": 32.6
+    },
+    {
+      "w": "because",
+      "start": 32.6,
+      "end": 32.78
+    },
+    {
+      "w": "it's",
+      "start": 32.78,
+      "end": 32.98
+    },
+    {
+      "w": "hard",
+      "start": 32.98,
+      "end": 33.14
+    },
+    {
+      "w": "labor,",
+      "start": 33.14,
+      "end": 33.4
+    },
+    {
+      "w": "because",
+      "start": 33.62,
+      "end": 34.02
+    },
+    {
+      "w": "it's",
+      "start": 34.02,
+      "end": 34.3
+    },
+    {
+      "w": "a",
+      "start": 34.3,
+      "end": 34.38
+    },
+    {
+      "w": "judgment",
+      "start": 34.38,
+      "end": 34.7
+    },
+    {
+      "w": "call.",
+      "start": 34.7,
+      "end": 35.02
+    },
+    {
+      "w": "See,",
+      "start": 35.14,
+      "end": 35.24
+    },
+    {
+      "w": "if",
+      "start": 35.28,
+      "end": 35.32
+    },
+    {
+      "w": "left",
+      "start": 35.32,
+      "end": 35.46
+    },
+    {
+      "w": "alone,",
+      "start": 35.46,
+      "end": 35.74
+    },
+    {
+      "w": "a",
+      "start": 35.92,
+      "end": 35.98
+    },
+    {
+      "w": "cotton",
+      "start": 35.98,
+      "end": 36.2
+    },
+    {
+      "w": "plant",
+      "start": 36.2,
+      "end": 36.48
+    },
+    {
+      "w": "would",
+      "start": 36.48,
+      "end": 36.7
+    },
+    {
+      "w": "just",
+      "start": 36.7,
+      "end": 36.88
+    },
+    {
+      "w": "keep",
+      "start": 36.88,
+      "end": 37.22
+    },
+    {
+      "w": "growing",
+      "start": 37.22,
+      "end": 37.58
+    },
+    {
+      "w": "taller",
+      "start": 37.58,
+      "end": 37.96
+    },
+    {
+      "w": "and",
+      "start": 37.96,
+      "end": 38.28
+    },
+    {
+      "w": "never",
+      "start": 38.28,
+      "end": 38.52
+    },
+    {
+      "w": "produce",
+      "start": 38.52,
+      "end": 38.82
+    },
+    {
+      "w": "cotton.",
+      "start": 38.82,
+      "end": 39.14
+    },
+    {
+      "w": "When",
+      "start": 39.26,
+      "end": 39.34
+    },
+    {
+      "w": "you",
+      "start": 39.34,
+      "end": 39.44
+    },
+    {
+      "w": "snip",
+      "start": 39.44,
+      "end": 39.64
+    },
+    {
+      "w": "the",
+      "start": 39.64,
+      "end": 39.84
+    },
+    {
+      "w": "top",
+      "start": 39.84,
+      "end": 40.1
+    },
+    {
+      "w": "off",
+      "start": 40.1,
+      "end": 40.34
+    },
+    {
+      "w": "the",
+      "start": 40.34,
+      "end": 40.46
+    },
+    {
+      "w": "plant,",
+      "start": 40.46,
+      "end": 40.7
+    },
+    {
+      "w": "that's",
+      "start": 40.84,
+      "end": 41.12
+    },
+    {
+      "w": "what",
+      "start": 41.12,
+      "end": 41.18
+    },
+    {
+      "w": "actually",
+      "start": 41.18,
+      "end": 41.54
+    },
+    {
+      "w": "gets",
+      "start": 41.54,
+      "end": 41.76
+    },
+    {
+      "w": "it",
+      "start": 41.76,
+      "end": 41.88
+    },
+    {
+      "w": "to",
+      "start": 41.88,
+      "end": 42.02
+    },
+    {
+      "w": "produce.",
+      "start": 42.02,
+      "end": 42.28
+    },
+    {
+      "w": "But",
+      "start": 42.5,
+      "end": 42.58
+    },
+    {
+      "w": "the",
+      "start": 42.58,
+      "end": 42.64
+    },
+    {
+      "w": "problem",
+      "start": 42.64,
+      "end": 42.86
+    },
+    {
+      "w": "is",
+      "start": 42.86,
+      "end": 43.06
+    },
+    {
+      "w": "every",
+      "start": 43.06,
+      "end": 43.44
+    },
+    {
+      "w": "single",
+      "start": 43.44,
+      "end": 43.78
+    },
+    {
+      "w": "plant",
+      "start": 43.78,
+      "end": 44.14
+    },
+    {
+      "w": "is",
+      "start": 44.14,
+      "end": 44.4
+    },
+    {
+      "w": "a",
+      "start": 44.4,
+      "end": 44.54
+    },
+    {
+      "w": "different",
+      "start": 44.54,
+      "end": 44.8
+    },
+    {
+      "w": "height",
+      "start": 44.8,
+      "end": 45.16
+    },
+    {
+      "w": "and",
+      "start": 45.16,
+      "end": 45.42
+    },
+    {
+      "w": "shape.",
+      "start": 45.42,
+      "end": 45.76
+    },
+    {
+      "w": "So",
+      "start": 45.94,
+      "end": 46.04
+    },
+    {
+      "w": "typically",
+      "start": 46.04,
+      "end": 46.3
+    },
+    {
+      "w": "it",
+      "start": 46.3,
+      "end": 46.6
+    },
+    {
+      "w": "would",
+      "start": 46.6,
+      "end": 46.7
+    },
+    {
+      "w": "take",
+      "start": 46.7,
+      "end": 46.88
+    },
+    {
+      "w": "a",
+      "start": 46.88,
+      "end": 47.04
+    },
+    {
+      "w": "human",
+      "start": 47.04,
+      "end": 47.34
+    },
+    {
+      "w": "to",
+      "start": 47.34,
+      "end": 47.62
+    },
+    {
+      "w": "look",
+      "start": 47.62,
+      "end": 47.94
+    },
+    {
+      "w": "and",
+      "start": 47.94,
+      "end": 48.2
+    },
+    {
+      "w": "decide",
+      "start": 48.2,
+      "end": 48.5
+    },
+    {
+      "w": "exactly",
+      "start": 48.5,
+      "end": 48.94
+    },
+    {
+      "w": "where",
+      "start": 48.94,
+      "end": 49.16
+    },
+    {
+      "w": "to",
+      "start": 49.16,
+      "end": 49.26
+    },
+    {
+      "w": "cut.",
+      "start": 49.26,
+      "end": 49.48
+    },
+    {
+      "w": "And",
+      "start": 49.56,
+      "end": 49.64
+    },
+    {
+      "w": "that's",
+      "start": 49.64,
+      "end": 49.88
+    },
+    {
+      "w": "where",
+      "start": 49.88,
+      "end": 50.0
+    },
+    {
+      "w": "this",
+      "start": 50.0,
+      "end": 50.32
+    },
+    {
+      "w": "robot",
+      "start": 50.32,
+      "end": 50.56
+    },
+    {
+      "w": "comes",
+      "start": 50.56,
+      "end": 50.88
+    },
+    {
+      "w": "in.",
+      "start": 50.88,
+      "end": 51.02
+    },
+    {
+      "w": "As",
+      "start": 51.14,
+      "end": 51.3
+    },
+    {
+      "w": "it",
+      "start": 51.3,
+      "end": 51.42
+    },
+    {
+      "w": "rolls",
+      "start": 51.42,
+      "end": 51.6
+    },
+    {
+      "w": "through",
+      "start": 51.6,
+      "end": 51.8
+    },
+    {
+      "w": "the",
+      "start": 51.8,
+      "end": 51.92
+    },
+    {
+      "w": "field,",
+      "start": 51.92,
+      "end": 52.18
+    },
+    {
+      "w": "nine",
+      "start": 52.42,
+      "end": 52.74
+    },
+    {
+      "w": "different",
+      "start": 52.74,
+      "end": 53.06
+    },
+    {
+      "w": "cameras",
+      "start": 53.06,
+      "end": 53.54
+    },
+    {
+      "w": "scan",
+      "start": 53.54,
+      "end": 53.94
+    },
+    {
+      "w": "every",
+      "start": 53.94,
+      "end": 54.36
+    },
+    {
+      "w": "plant",
+      "start": 54.36,
+      "end": 54.76
+    },
+    {
+      "w": "in",
+      "start": 54.76,
+      "end": 54.98
+    },
+    {
+      "w": "3D.",
+      "start": 54.98,
+      "end": 55.46
+    },
+    {
+      "w": "The",
+      "start": 55.46,
+      "end": 55.8
+    },
+    {
+      "w": "AI",
+      "start": 55.8,
+      "end": 55.94
+    },
+    {
+      "w": "finds",
+      "start": 55.94,
+      "end": 56.34
+    },
+    {
+      "w": "the",
+      "start": 56.34,
+      "end": 56.54
+    },
+    {
+      "w": "exact",
+      "start": 56.54,
+      "end": 56.96
+    },
+    {
+      "w": "right",
+      "start": 56.96,
+      "end": 57.24
+    },
+    {
+      "w": "cut",
+      "start": 57.24,
+      "end": 57.54
+    },
+    {
+      "w": "point",
+      "start": 57.54,
+      "end": 57.8
+    },
+    {
+      "w": "in",
+      "start": 57.8,
+      "end": 58.04
+    },
+    {
+      "w": "a",
+      "start": 58.04,
+      "end": 58.14
+    },
+    {
+      "w": "split",
+      "start": 58.14,
+      "end": 58.38
+    },
+    {
+      "w": "second.",
+      "start": 58.38,
+      "end": 58.72
+    },
+    {
+      "w": "The",
+      "start": 59.0,
+      "end": 59.06
+    },
+    {
+      "w": "arms",
+      "start": 59.06,
+      "end": 59.24
+    },
+    {
+      "w": "fire",
+      "start": 59.24,
+      "end": 59.58
+    },
+    {
+      "w": "cutting",
+      "start": 59.58,
+      "end": 60.1
+    },
+    {
+      "w": "with",
+      "start": 60.1,
+      "end": 60.32
+    },
+    {
+      "w": "extreme",
+      "start": 60.32,
+      "end": 60.74
+    },
+    {
+      "w": "precision.",
+      "start": 60.74,
+      "end": 61.24
+    },
+    {
+      "w": "This",
+      "start": 61.44,
+      "end": 61.56
+    },
+    {
+      "w": "machine",
+      "start": 61.56,
+      "end": 61.88
+    },
+    {
+      "w": "can",
+      "start": 61.88,
+      "end": 62.1
+    },
+    {
+      "w": "clear",
+      "start": 62.1,
+      "end": 62.42
+    },
+    {
+      "w": "almost",
+      "start": 62.42,
+      "end": 62.82
+    },
+    {
+      "w": "four",
+      "start": 62.82,
+      "end": 63.3
+    },
+    {
+      "w": "football",
+      "start": 63.3,
+      "end": 63.8
+    },
+    {
+      "w": "fields",
+      "start": 63.8,
+      "end": 64.18
+    },
+    {
+      "w": "worth",
+      "start": 64.18,
+      "end": 64.36
+    },
+    {
+      "w": "of",
+      "start": 64.36,
+      "end": 64.52
+    },
+    {
+      "w": "cotton",
+      "start": 64.52,
+      "end": 64.82
+    },
+    {
+      "w": "in",
+      "start": 64.82,
+      "end": 65.1
+    },
+    {
+      "w": "a",
+      "start": 65.1,
+      "end": 65.2
+    },
+    {
+      "w": "single",
+      "start": 65.2,
+      "end": 65.5
+    },
+    {
+      "w": "hour.",
+      "start": 65.5,
+      "end": 65.88
+    },
+    {
+      "w": "That's",
+      "start": 66.06,
+      "end": 66.22
+    },
+    {
+      "w": "a",
+      "start": 66.22,
+      "end": 66.3
+    },
+    {
+      "w": "full",
+      "start": 66.3,
+      "end": 66.48
+    },
+    {
+      "w": "day",
+      "start": 66.48,
+      "end": 66.64
+    },
+    {
+      "w": "of",
+      "start": 66.64,
+      "end": 66.74
+    },
+    {
+      "w": "work",
+      "start": 66.74,
+      "end": 66.94
+    },
+    {
+      "w": "for",
+      "start": 66.94,
+      "end": 67.16
+    },
+    {
+      "w": "60",
+      "start": 67.16,
+      "end": 67.54
+    },
+    {
+      "w": "people.",
+      "start": 67.54,
+      "end": 67.92
+    },
+    {
+      "w": "So",
+      "start": 68.18,
+      "end": 68.24
+    },
+    {
+      "w": "now",
+      "start": 68.24,
+      "end": 68.46
+    },
+    {
+      "w": "one",
+      "start": 68.46,
+      "end": 68.74
+    },
+    {
+      "w": "farm",
+      "start": 68.74,
+      "end": 69.06
+    },
+    {
+      "w": "can",
+      "start": 69.06,
+      "end": 69.26
+    },
+    {
+      "w": "run",
+      "start": 69.26,
+      "end": 69.46
+    },
+    {
+      "w": "on",
+      "start": 69.46,
+      "end": 69.6
+    },
+    {
+      "w": "just",
+      "start": 69.6,
+      "end": 69.76
+    },
+    {
+      "w": "five",
+      "start": 69.76,
+      "end": 70.1
+    },
+    {
+      "w": "employees",
+      "start": 70.1,
+      "end": 70.6
+    },
+    {
+      "w": "instead",
+      "start": 70.6,
+      "end": 71.08
+    },
+    {
+      "w": "of",
+      "start": 71.08,
+      "end": 71.22
+    },
+    {
+      "w": "60.",
+      "start": 71.22,
+      "end": 71.5
+    },
+    {
+      "w": "This",
+      "start": 71.68,
+      "end": 71.8
+    },
+    {
+      "w": "machine",
+      "start": 71.8,
+      "end": 72.04
+    },
+    {
+      "w": "even",
+      "start": 72.04,
+      "end": 72.34
+    },
+    {
+      "w": "has",
+      "start": 72.34,
+      "end": 72.6
+    },
+    {
+      "w": "night",
+      "start": 72.6,
+      "end": 72.88
+    },
+    {
+      "w": "vision",
+      "start": 72.88,
+      "end": 73.2
+    },
+    {
+      "w": "so",
+      "start": 73.2,
+      "end": 73.46
+    },
+    {
+      "w": "it",
+      "start": 73.46,
+      "end": 73.56
+    },
+    {
+      "w": "can",
+      "start": 73.56,
+      "end": 73.68
+    },
+    {
+      "w": "keep",
+      "start": 73.68,
+      "end": 73.98
+    },
+    {
+      "w": "operating",
+      "start": 73.98,
+      "end": 74.54
+    },
+    {
+      "w": "deep",
+      "start": 74.54,
+      "end": 75.02
+    },
+    {
+      "w": "into",
+      "start": 75.02,
+      "end": 75.34
+    },
+    {
+      "w": "the",
+      "start": 75.34,
+      "end": 75.46
+    },
+    {
+      "w": "night.",
+      "start": 75.46,
+      "end": 75.64
+    },
+    {
+      "w": "It's",
+      "start": 75.82,
+      "end": 75.9
+    },
+    {
+      "w": "crazy",
+      "start": 75.9,
+      "end": 76.08
+    },
+    {
+      "w": "to",
+      "start": 76.08,
+      "end": 76.26
+    },
+    {
+      "w": "say,",
+      "start": 76.26,
+      "end": 76.34
+    },
+    {
+      "w": "but",
+      "start": 76.42,
+      "end": 76.48
+    },
+    {
+      "w": "we",
+      "start": 76.48,
+      "end": 76.66
+    },
+    {
+      "w": "are",
+      "start": 76.66,
+      "end": 76.74
+    },
+    {
+      "w": "now",
+      "start": 76.74,
+      "end": 76.92
+    },
+    {
+      "w": "entering",
+      "start": 76.92,
+      "end": 77.28
+    },
+    {
+      "w": "the",
+      "start": 77.28,
+      "end": 77.48
+    },
+    {
+      "w": "era",
+      "start": 77.48,
+      "end": 77.68
+    },
+    {
+      "w": "where",
+      "start": 77.68,
+      "end": 77.94
+    },
+    {
+      "w": "industrial",
+      "start": 77.94,
+      "end": 78.48
+    },
+    {
+      "w": "machines",
+      "start": 78.48,
+      "end": 79.1
+    },
+    {
+      "w": "can",
+      "start": 79.1,
+      "end": 79.48
+    },
+    {
+      "w": "think",
+      "start": 79.48,
+      "end": 79.86
+    },
+    {
+      "w": "for",
+      "start": 79.86,
+      "end": 80.1
+    },
+    {
+      "w": "themselves.",
+      "start": 80.1,
+      "end": 80.58
+    },
+    {
+      "w": "And",
+      "start": 80.84,
+      "end": 80.92
+    },
+    {
+      "w": "full",
+      "start": 80.92,
+      "end": 81.24
+    },
+    {
+      "w": "end",
+      "start": 81.24,
+      "end": 81.5
+    },
+    {
+      "w": "to",
+      "start": 81.5,
+      "end": 81.62
+    },
+    {
+      "w": "end",
+      "start": 81.62,
+      "end": 81.7
+    },
+    {
+      "w": "automation",
+      "start": 81.7,
+      "end": 82.1
+    },
+    {
+      "w": "is",
+      "start": 82.1,
+      "end": 82.6
+    },
+    {
+      "w": "right",
+      "start": 82.6,
+      "end": 82.92
+    },
+    {
+      "w": "around",
+      "start": 82.92,
+      "end": 83.12
+    },
+    {
+      "w": "the",
+      "start": 83.12,
+      "end": 83.26
+    },
+    {
+      "w": "corner.",
+      "start": 83.26,
+      "end": 83.46
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 0.751,
+      "length": 0.751,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#090809",
+            "share": 0.563
+          },
+          {
+            "hex": "#D4D3D6",
+            "share": 0.037
+          },
+          {
+            "hex": "#2E2C2B",
+            "share": 0.03
+          },
+          {
+            "hex": "#8A776B",
+            "share": 0.022
+          },
+          {
+            "hex": "#241B18",
+            "share": 0.017
+          }
+        ],
+        "motion_energy": 28.83,
+        "script": "This robot is"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 0.751,
+      "end": 1.502,
+      "length": 0.751,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0F",
+            "share": 0.286
+          },
+          {
+            "hex": "#AFC4D6",
+            "share": 0.211
+          },
+          {
+            "hex": "#A5BBD0",
+            "share": 0.044
+          },
+          {
+            "hex": "#C5CED9",
+            "share": 0.04
+          },
+          {
+            "hex": "#D0D9E4",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 22.13,
+        "script": "the future of"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 1.502,
+      "end": 3.045,
+      "length": 1.543,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#110F12",
+            "share": 0.398
+          },
+          {
+            "hex": "#29292D",
+            "share": 0.247
+          },
+          {
+            "hex": "#1A1C23",
+            "share": 0.086
+          },
+          {
+            "hex": "#1D2125",
+            "share": 0.035
+          },
+          {
+            "hex": "#8A776B",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 13.41,
+        "script": "AI -powered farming. And"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 3.045,
+      "end": 4.671,
+      "length": 1.627,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0F",
+            "share": 0.636
+          },
+          {
+            "hex": "#B07348",
+            "share": 0.049
+          },
+          {
+            "hex": "#231C19",
+            "share": 0.037
+          },
+          {
+            "hex": "#50352A",
+            "share": 0.028
+          },
+          {
+            "hex": "#302828",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 12.56,
+        "script": "what it's doing is pretty insane."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 4.671,
+      "end": 11.929,
+      "length": 7.257,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#090D14",
+            "share": 0.607
+          },
+          {
+            "hex": "#0C1625",
+            "share": 0.071
+          },
+          {
+            "hex": "#2B2C2F",
+            "share": 0.038
+          },
+          {
+            "hex": "#89776A",
+            "share": 0.022
+          },
+          {
+            "hex": "#704C35",
+            "share": 0.018
+          }
+        ],
+        "motion_energy": 44.15,
+        "script": "As it rolls through a cotton field, it can actually think on its own and decide plant by plant exactly where to cut. The machine is called the"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 11.929,
+      "end": 13.472,
+      "length": 1.543,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#080608",
+            "share": 0.659
+          },
+          {
+            "hex": "#2E2A2C",
+            "share": 0.04
+          },
+          {
+            "hex": "#F8F7F7",
+            "share": 0.026
+          },
+          {
+            "hex": "#89776A",
+            "share": 0.023
+          },
+          {
+            "hex": "#161927",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 9.35,
+        "script": "VTM -09B. It"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 13.472,
+      "end": 15.182,
+      "length": 1.71,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0B090B",
+            "share": 0.433
+          },
+          {
+            "hex": "#D7D5D6",
+            "share": 0.092
+          },
+          {
+            "hex": "#2F2B2E",
+            "share": 0.053
+          },
+          {
+            "hex": "#E8E8E8",
+            "share": 0.053
+          },
+          {
+            "hex": "#B0AEB1",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 12.81,
+        "script": "has 108 different arms and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 15.182,
+      "end": 17.476,
+      "length": 2.294,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0D0E",
+            "share": 0.358
+          },
+          {
+            "hex": "#798489",
+            "share": 0.114
+          },
+          {
+            "hex": "#2D2E2D",
+            "share": 0.059
+          },
+          {
+            "hex": "#717D85",
+            "share": 0.052
+          },
+          {
+            "hex": "#172712",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 17.14,
+        "script": "can cut 83 plants per second. Now"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 17.476,
+      "end": 22.231,
+      "length": 4.755,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0F",
+            "share": 0.258
+          },
+          {
+            "hex": "#769346",
+            "share": 0.083
+          },
+          {
+            "hex": "#6D8A38",
+            "share": 0.077
+          },
+          {
+            "hex": "#ACCDE0",
+            "share": 0.068
+          },
+          {
+            "hex": "#C4D4DB",
+            "share": 0.053
+          }
+        ],
+        "motion_energy": 29.31,
+        "script": "the job it's doing here is called topping. And the cotton industry, topping was the very last thing still"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 22.231,
+      "end": 23.941,
+      "length": 1.71,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0D0E",
+            "share": 0.301
+          },
+          {
+            "hex": "#2B3014",
+            "share": 0.041
+          },
+          {
+            "hex": "#566A2D",
+            "share": 0.033
+          },
+          {
+            "hex": "#302B2A",
+            "share": 0.029
+          },
+          {
+            "hex": "#8A756B",
+            "share": 0.026
+          }
+        ],
+        "motion_energy": 26.97,
+        "script": "done by human hands. Everything"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 10,
+      "start": 23.941,
+      "end": 25.651,
+      "length": 1.71,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0E",
+            "share": 0.61
+          },
+          {
+            "hex": "#B17248",
+            "share": 0.058
+          },
+          {
+            "hex": "#302A2B",
+            "share": 0.028
+          },
+          {
+            "hex": "#4D352B",
+            "share": 0.027
+          },
+          {
+            "hex": "#8C5635",
+            "share": 0.025
+          }
+        ],
+        "motion_energy": 14.55,
+        "script": "else has already been automated."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 11,
+      "start": 25.651,
+      "end": 26.276,
+      "length": 0.626,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#CDCDD1",
+            "share": 0.128
+          },
+          {
+            "hex": "#B1ADB0",
+            "share": 0.111
+          },
+          {
+            "hex": "#C7B8AC",
+            "share": 0.105
+          },
+          {
+            "hex": "#D3C5B8",
+            "share": 0.101
+          },
+          {
+            "hex": "#918C90",
+            "share": 0.062
+          }
+        ],
+        "motion_energy": 22.23,
+        "script": "Planting,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 12,
+      "start": 26.276,
+      "end": 26.985,
+      "length": 0.709,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#6C5131",
+            "share": 0.115
+          },
+          {
+            "hex": "#756850",
+            "share": 0.085
+          },
+          {
+            "hex": "#554A32",
+            "share": 0.08
+          },
+          {
+            "hex": "#968771",
+            "share": 0.075
+          },
+          {
+            "hex": "#887253",
+            "share": 0.064
+          }
+        ],
+        "motion_energy": 22.07,
+        "script": "spraying, picking,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 13,
+      "start": 26.985,
+      "end": 27.569,
+      "length": 0.584,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#766F67",
+            "share": 0.101
+          },
+          {
+            "hex": "#2C3330",
+            "share": 0.092
+          },
+          {
+            "hex": "#66574D",
+            "share": 0.083
+          },
+          {
+            "hex": "#52504A",
+            "share": 0.075
+          },
+          {
+            "hex": "#706558",
+            "share": 0.062
+          }
+        ],
+        "motion_energy": 25.63,
+        "script": "about"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 14,
+      "start": 27.569,
+      "end": 29.321,
+      "length": 1.752,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#CFCCC9",
+            "share": 0.156
+          },
+          {
+            "hex": "#B5B0AC",
+            "share": 0.084
+          },
+          {
+            "hex": "#151111",
+            "share": 0.059
+          },
+          {
+            "hex": "#312D2A",
+            "share": 0.059
+          },
+          {
+            "hex": "#968E89",
+            "share": 0.058
+          }
+        ],
+        "motion_energy": 14.1,
+        "script": "97 % of the work is"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 15,
+      "start": 29.321,
+      "end": 30.614,
+      "length": 1.293,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#534838",
+            "share": 0.232
+          },
+          {
+            "hex": "#66594D",
+            "share": 0.194
+          },
+          {
+            "hex": "#574F48",
+            "share": 0.177
+          },
+          {
+            "hex": "#756B67",
+            "share": 0.09
+          },
+          {
+            "hex": "#6F6455",
+            "share": 0.086
+          }
+        ],
+        "motion_energy": 4.18,
+        "script": "done by machines today."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 16,
+      "start": 30.614,
+      "end": 32.407,
+      "length": 1.794,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0E",
+            "share": 0.642
+          },
+          {
+            "hex": "#B07248",
+            "share": 0.055
+          },
+          {
+            "hex": "#302A2B",
+            "share": 0.029
+          },
+          {
+            "hex": "#714B34",
+            "share": 0.025
+          },
+          {
+            "hex": "#8B5636",
+            "share": 0.025
+          }
+        ],
+        "motion_energy": 13.77,
+        "script": "But topping was the final holdout."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 17,
+      "start": 32.407,
+      "end": 33.742,
+      "length": 1.335,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0D0F",
+            "share": 0.29
+          },
+          {
+            "hex": "#B1C7E9",
+            "share": 0.203
+          },
+          {
+            "hex": "#A3BBE5",
+            "share": 0.057
+          },
+          {
+            "hex": "#C8D8EF",
+            "share": 0.048
+          },
+          {
+            "hex": "#312A2D",
+            "share": 0.037
+          }
+        ],
+        "motion_energy": 22.46,
+        "script": "And not because it's hard labor, because"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 18,
+      "start": 33.742,
+      "end": 35.118,
+      "length": 1.376,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#090E14",
+            "share": 0.586
+          },
+          {
+            "hex": "#0E1725",
+            "share": 0.062
+          },
+          {
+            "hex": "#2C2C2D",
+            "share": 0.042
+          },
+          {
+            "hex": "#89776A",
+            "share": 0.022
+          },
+          {
+            "hex": "#251B19",
+            "share": 0.02
+          }
+        ],
+        "motion_energy": 6.97,
+        "script": "it's a judgment call."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 19,
+      "start": 35.118,
+      "end": 35.869,
+      "length": 0.751,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0E",
+            "share": 0.66
+          },
+          {
+            "hex": "#B17348",
+            "share": 0.048
+          },
+          {
+            "hex": "#8C5536",
+            "share": 0.028
+          },
+          {
+            "hex": "#312A29",
+            "share": 0.027
+          },
+          {
+            "hex": "#724B32",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 27.86,
+        "script": "See, if left alone,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 20,
+      "start": 35.869,
+      "end": 38.163,
+      "length": 2.294,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#8D9296",
+            "share": 0.33
+          },
+          {
+            "hex": "#010000",
+            "share": 0.15
+          },
+          {
+            "hex": "#979CA1",
+            "share": 0.121
+          },
+          {
+            "hex": "#9CA1A6",
+            "share": 0.11
+          },
+          {
+            "hex": "#6F7073",
+            "share": 0.056
+          }
+        ],
+        "motion_energy": 7.28,
+        "script": "a cotton plant would just keep growing taller and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 21,
+      "start": 38.163,
+      "end": 39.248,
+      "length": 1.084,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0D0E",
+            "share": 0.616
+          },
+          {
+            "hex": "#B17448",
+            "share": 0.042
+          },
+          {
+            "hex": "#312A2A",
+            "share": 0.033
+          },
+          {
+            "hex": "#714B32",
+            "share": 0.032
+          },
+          {
+            "hex": "#4D352A",
+            "share": 0.03
+          }
+        ],
+        "motion_energy": 8.93,
+        "script": "never produce cotton."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 22,
+      "start": 39.248,
+      "end": 42.501,
+      "length": 3.253,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#919698",
+            "share": 0.385
+          },
+          {
+            "hex": "#010101",
+            "share": 0.148
+          },
+          {
+            "hex": "#999DA1",
+            "share": 0.07
+          },
+          {
+            "hex": "#A4A6A8",
+            "share": 0.037
+          },
+          {
+            "hex": "#344C0C",
+            "share": 0.034
+          }
+        ],
+        "motion_energy": 17.97,
+        "script": "When you snip the top off the plant, that's what actually gets it to produce. But"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 23,
+      "start": 42.501,
+      "end": 43.168,
+      "length": 0.667,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0E",
+            "share": 0.647
+          },
+          {
+            "hex": "#B17448",
+            "share": 0.052
+          },
+          {
+            "hex": "#714A31",
+            "share": 0.029
+          },
+          {
+            "hex": "#4D352B",
+            "share": 0.027
+          },
+          {
+            "hex": "#241C18",
+            "share": 0.025
+          }
+        ],
+        "motion_energy": 23.78,
+        "script": "the problem is every"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 24,
+      "start": 43.168,
+      "end": 45.295,
+      "length": 2.127,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0F",
+            "share": 0.287
+          },
+          {
+            "hex": "#2A180B",
+            "share": 0.047
+          },
+          {
+            "hex": "#8E9491",
+            "share": 0.039
+          },
+          {
+            "hex": "#89776A",
+            "share": 0.034
+          },
+          {
+            "hex": "#4A372A",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 28.68,
+        "script": "single plant is a different height and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 25,
+      "start": 45.295,
+      "end": 45.921,
+      "length": 0.626,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0E0F",
+            "share": 0.324
+          },
+          {
+            "hex": "#322A11",
+            "share": 0.049
+          },
+          {
+            "hex": "#472915",
+            "share": 0.037
+          },
+          {
+            "hex": "#2B1B11",
+            "share": 0.036
+          },
+          {
+            "hex": "#F0EDED",
+            "share": 0.035
+          }
+        ],
+        "motion_energy": 27.06,
+        "script": "shape."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 26,
+      "start": 45.921,
+      "end": 48.09,
+      "length": 2.169,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0E",
+            "share": 0.631
+          },
+          {
+            "hex": "#B17448",
+            "share": 0.054
+          },
+          {
+            "hex": "#724B32",
+            "share": 0.03
+          },
+          {
+            "hex": "#2F292A",
+            "share": 0.029
+          },
+          {
+            "hex": "#C58A56",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 12.92,
+        "script": "So typically it would take a human to look and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 27,
+      "start": 48.09,
+      "end": 49.55,
+      "length": 1.46,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0D10",
+            "share": 0.252
+          },
+          {
+            "hex": "#B3C9EB",
+            "share": 0.164
+          },
+          {
+            "hex": "#C7D8F0",
+            "share": 0.068
+          },
+          {
+            "hex": "#302A2E",
+            "share": 0.045
+          },
+          {
+            "hex": "#A2BCE6",
+            "share": 0.043
+          }
+        ],
+        "motion_energy": 24.88,
+        "script": "decide exactly where to cut."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 28,
+      "start": 49.55,
+      "end": 51.093,
+      "length": 1.543,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D0F",
+            "share": 0.574
+          },
+          {
+            "hex": "#AF7348",
+            "share": 0.046
+          },
+          {
+            "hex": "#2F2929",
+            "share": 0.04
+          },
+          {
+            "hex": "#231B19",
+            "share": 0.037
+          },
+          {
+            "hex": "#895737",
+            "share": 0.035
+          }
+        ],
+        "motion_energy": 13.11,
+        "script": "And that's where this robot comes in."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 29,
+      "start": 51.093,
+      "end": 55.681,
+      "length": 4.588,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#080709",
+            "share": 0.612
+          },
+          {
+            "hex": "#2B2930",
+            "share": 0.084
+          },
+          {
+            "hex": "#181A26",
+            "share": 0.043
+          },
+          {
+            "hex": "#313647",
+            "share": 0.025
+          },
+          {
+            "hex": "#8A776B",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 15.85,
+        "script": "As it rolls through the field, nine different cameras scan every plant in 3D. The"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 30,
+      "start": 55.681,
+      "end": 66.024,
+      "length": 10.344,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0D0C",
+            "share": 0.42
+          },
+          {
+            "hex": "#2E4E10",
+            "share": 0.073
+          },
+          {
+            "hex": "#142B07",
+            "share": 0.063
+          },
+          {
+            "hex": "#2A2C30",
+            "share": 0.048
+          },
+          {
+            "hex": "#141A27",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 35.65,
+        "script": "AI finds the exact right cut point in a split second. The arms fire cutting with extreme precision. This machine can clear almost four football fields worth of cotton in a single hour."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 31,
+      "start": 66.024,
+      "end": 68.11,
+      "length": 2.085,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0C0E",
+            "share": 0.653
+          },
+          {
+            "hex": "#B07449",
+            "share": 0.038
+          },
+          {
+            "hex": "#231C18",
+            "share": 0.038
+          },
+          {
+            "hex": "#2E2829",
+            "share": 0.03
+          },
+          {
+            "hex": "#704A32",
+            "share": 0.027
+          }
+        ],
+        "motion_energy": 8.87,
+        "script": "That's a full day of work for 60 people."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 32,
+      "start": 68.11,
+      "end": 77.828,
+      "length": 9.718,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#09090A",
+            "share": 0.614
+          },
+          {
+            "hex": "#28282B",
+            "share": 0.078
+          },
+          {
+            "hex": "#181A24",
+            "share": 0.039
+          },
+          {
+            "hex": "#878C99",
+            "share": 0.038
+          },
+          {
+            "hex": "#1D2128",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 32.64,
+        "script": "So now one farm can run on just five employees instead of 60. This machine even has night vision so it can keep operating deep into the night. It's crazy to say, but we are now entering the era where"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 33,
+      "start": 77.828,
+      "end": 83.659,
+      "length": 5.831,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0D0C",
+            "share": 0.422
+          },
+          {
+            "hex": "#2E4F11",
+            "share": 0.074
+          },
+          {
+            "hex": "#152B08",
+            "share": 0.06
+          },
+          {
+            "hex": "#2A2C2F",
+            "share": 0.046
+          },
+          {
+            "hex": "#273114",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 27.28,
+        "script": "industrial machines can think for themselves. And full end to end automation is right around the corner."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

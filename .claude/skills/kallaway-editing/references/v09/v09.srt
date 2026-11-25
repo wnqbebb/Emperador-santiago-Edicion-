@@ -1,0 +1,207 @@
+1
+00:00:00,000 --> 00:00:01,080
+This is a broccoli farmer
+
+2
+00:00:01,080 --> 00:00:02,740
+in Hokkaido, Japan, and he
+
+3
+00:00:02,740 --> 00:00:03,560
+figured out how to use
+
+4
+00:00:03,560 --> 00:00:05,580
+AI to automate his entire
+
+5
+00:00:05,580 --> 00:00:07,200
+farm. His name is Hiroki
+
+6
+00:00:07,200 --> 00:00:08,560
+Tamayasu. And even though he
+
+7
+00:00:08,560 --> 00:00:09,460
+was never taught how to
+
+8
+00:00:09,460 --> 00:00:11,199
+drive tractors or grow vegetables,
+
+9
+00:00:11,539 --> 00:00:13,019
+he's built an entire software
+
+10
+00:00:13,019 --> 00:00:14,939
+system to digitize his farm,
+
+11
+00:00:15,039 --> 00:00:16,219
+all without knowing how to
+
+12
+00:00:16,219 --> 00:00:17,719
+code. For example, Hiroki wanted
+
+13
+00:00:17,719 --> 00:00:18,620
+to find a way to
+
+14
+00:00:18,620 --> 00:00:20,339
+automate his field work. But
+
+15
+00:00:20,339 --> 00:00:22,420
+typically, self -driving tractors like
+
+16
+00:00:22,420 --> 00:00:24,280
+these are super expensive. So
+
+17
+00:00:24,280 --> 00:00:25,339
+instead, he figured out how
+
+18
+00:00:25,339 --> 00:00:27,000
+to build a GPS auto
+
+19
+00:00:27,000 --> 00:00:28,920
+-steer system that drives his
+
+20
+00:00:28,920 --> 00:00:30,480
+tractor for him at a
+
+21
+00:00:30,480 --> 00:00:31,660
+fraction of the cost. He's
+
+22
+00:00:31,660 --> 00:00:33,179
+also built bots for automating
+
+23
+00:00:33,179 --> 00:00:35,060
+his greenhouse, software for tracking
+
+24
+00:00:35,060 --> 00:00:36,420
+his plant logs. He's even
+
+25
+00:00:36,420 --> 00:00:38,140
+using satellite imagery to figure
+
+26
+00:00:38,140 --> 00:00:39,659
+out which fields and crops
+
+27
+00:00:39,659 --> 00:00:41,079
+are performing the best. And
+
+28
+00:00:41,079 --> 00:00:41,960
+all of that is powered
+
+29
+00:00:41,960 --> 00:00:43,640
+by chat GPT and codecs
+
+30
+00:00:43,640 --> 00:00:44,759
+that he works with every
+
+31
+00:00:44,759 --> 00:00:46,020
+single day. Now Hiroki describes
+
+32
+00:00:46,020 --> 00:00:47,700
+using AI like getting access
+
+33
+00:00:47,700 --> 00:00:49,439
+to an ultra -talented engineer
+
+34
+00:00:49,439 --> 00:00:50,759
+that is always by his
+
+35
+00:00:50,759 --> 00:00:51,659
+side. And the coolest part
+
+36
+00:00:51,659 --> 00:00:52,420
+about his story is that
+
+37
+00:00:52,420 --> 00:00:54,259
+he's live documenting all of
+
+38
+00:00:54,259 --> 00:00:56,039
+his AI farm experiments on
+
+39
+00:00:56,039 --> 00:00:57,320
+this website. That includes his
+
+40
+00:00:57,320 --> 00:00:58,920
+learnings, what he's building, and
+
+41
+00:00:58,920 --> 00:01:00,439
+step -by -step tutorials for
+
+42
+00:01:00,439 --> 00:01:01,859
+all other farmers that wanna
+
+43
+00:01:01,859 --> 00:01:03,179
+do it for themselves. These
+
+44
+00:01:03,179 --> 00:01:04,099
+are hands down my favorite
+
+45
+00:01:04,099 --> 00:01:05,159
+type of AI stories cause
+
+46
+00:01:05,159 --> 00:01:06,879
+it really shows how inventive
+
+47
+00:01:06,879 --> 00:01:07,920
+people can get when they
+
+48
+00:01:07,920 --> 00:01:09,099
+get access to the world's
+
+49
+00:01:09,099 --> 00:01:10,319
+best tools. Follow along for
+
+50
+00:01:10,319 --> 00:01:11,159
+more tech and AI stories
+
+51
+00:01:11,159 --> 00:01:12,400
+like this. And shout out
+
+52
+00:01:12,400 --> 00:01:12,900
+to Hiroki.

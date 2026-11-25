@@ -1,0 +1,990 @@
+{
+ "triggers": [
+  {
+   "t_word": 0.0,
+   "word": "Claude",
+   "element": "Vista de cámara de la cirugía + franja roja 'CLAUDE DOES BRAIN SURGERY?!' entrando",
+   "category": "hook_banner",
+   "offset_s": 0.0,
+   "why": "literal (dice 'Claude… brain surgery' y se ve la cirugía)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 0.72,
+   "word": "brain",
+   "element": "Video del laboratorio (persona con gorro frente al monitor)",
+   "category": "hook_banner",
+   "offset_s": 0.11,
+   "why": "literal ('surgery')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 1.9,
+   "word": "a",
+   "element": "Ratón con implante + flecha roja",
+   "category": "hook_banner",
+   "offset_s": -0.15,
+   "why": "literal ('living animal')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 2.3,
+   "word": "animal",
+   "element": "Software de EEG con cámaras USB",
+   "category": "hook_banner",
+   "offset_s": 0.12,
+   "why": "contexto (prueba visual, sin palabra literal)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 3.16,
+   "word": "the",
+   "element": "Plano general del laboratorio",
+   "category": "hook_banner",
+   "offset_s": -0.07,
+   "why": "contexto",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 4.04,
+   "word": "If",
+   "element": "Punch-in a su cara + palabra grande una a una",
+   "category": "face_full_word",
+   "offset_s": 0.01,
+   "why": "cambio de tema (del gancho a la promesa)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 7.46,
+   "word": "Now",
+   "element": "B-roll de laboratorio a pantalla completa + cara en círculo",
+   "category": "pip_broll",
+   "offset_s": -0.04,
+   "why": "contexto (inicio de explicación)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 7.88,
+   "word": "the",
+   "element": "B-roll del científico con la jaula",
+   "category": "pip_broll",
+   "offset_s": 0.0,
+   "why": "literal aproximado ('surgery' → trabajo de laboratorio)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 9.32,
+   "word": "Figure",
+   "element": "Rueda rosa girando",
+   "category": "pip_broll",
+   "offset_s": -0.02,
+   "why": "contexto",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 9.9,
+   "word": "reduce",
+   "element": "Trazas EEG a pantalla completa",
+   "category": "pip_broll",
+   "offset_s": 0.07,
+   "why": "literal ('seizures' → señal eléctrica)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 11.16,
+   "word": "a",
+   "element": "Ratón en manos",
+   "category": "pip_broll",
+   "offset_s": 0.02,
+   "why": "literal ('mouse')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 11.6,
+   "word": "that",
+   "element": "Ratón cenital sobre blanco",
+   "category": "pip_broll",
+   "offset_s": 0.04,
+   "why": "literal",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 12.9,
+   "word": "The",
+   "element": "Vuelta a pantalla dividida con video del laboratorio",
+   "category": "split_broll",
+   "offset_s": 0.03,
+   "why": "cambio de tema (quién lo hizo)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 13.94,
+   "word": "Exyn",
+   "element": "Logo de Exin Therapeutics",
+   "category": "split_graphic",
+   "offset_s": 0.07,
+   "why": "literal (nombre → logo)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 15.4,
+   "word": "they",
+   "element": "Panel de la operación",
+   "category": "split_screenrec",
+   "offset_s": 0.03,
+   "why": "literal ('what they did with Claude')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 17.62,
+   "word": "Exyn",
+   "element": "Lista de tratamientos contando hasta 19",
+   "category": "pip_broll",
+   "offset_s": -0.02,
+   "why": "dato ('19' → contador 19)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 20.98,
+   "word": "control",
+   "element": "Diagrama del brazo robótico con rótulos",
+   "category": "pip_broll",
+   "offset_s": -0.04,
+   "why": "literal por palabra (arm / needle / camera)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 24.4,
+   "word": "Now",
+   "element": "Corte a cara completa con subtítulo pequeño",
+   "category": "aroll_plain",
+   "offset_s": 0.0,
+   "why": "énfasis (giro: 'nobody told Claude')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 28.48,
+   "word": "The",
+   "element": "Instrucción 'Reduce the seizures' escribiéndose",
+   "category": "split_screenrec",
+   "offset_s": 0.01,
+   "why": "literal (la instrucción citada)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 31.44,
+   "word": "Epilepsy",
+   "element": "Render de rayos X del ratón",
+   "category": "split_graphic",
+   "offset_s": 0.01,
+   "why": "literal ('Epilepsy… brain')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 33.88,
+   "word": "get",
+   "element": "Neuronas naranjas encendidas",
+   "category": "split_graphic",
+   "offset_s": -0.05,
+   "why": "metáfora visual directa (neurons excited → puntos naranjas)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 36.04,
+   "word": "So",
+   "element": "Corte a cara completa",
+   "category": "aroll_plain",
+   "offset_s": -0.09,
+   "why": "cambio de tema (la decisión)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 37.72,
+   "word": "that",
+   "element": "Neuronas cambiando de naranja a cian",
+   "category": "pip_broll",
+   "offset_s": 0.11,
+   "why": "metáfora (calming signal → color frío)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 40.68,
+   "word": "And",
+   "element": "Tres casos lado a lado",
+   "category": "split_graphic",
+   "offset_s": -0.01,
+   "why": "dato ('three' → tres paneles)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 44.22,
+   "word": "spot",
+   "element": "Zoom al punto de inyección",
+   "category": "split_graphic",
+   "offset_s": 0.12,
+   "why": "literal ('spot')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 45.84,
+   "word": "Now",
+   "element": "Video de la persona en el laboratorio",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "literal ('human vet')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 47.02,
+   "word": "the",
+   "element": "Plano general del laboratorio",
+   "category": "split_broll",
+   "offset_s": 0.07,
+   "why": "contexto",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 48.4,
+   "word": "case",
+   "element": "Ratón con implante",
+   "category": "split_broll",
+   "offset_s": -0.02,
+   "why": "contexto emocional",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 49.42,
+   "word": "but",
+   "element": "Render frontal con aguja descendiendo",
+   "category": "split_graphic",
+   "offset_s": 0.05,
+   "why": "literal ('executed the operation')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 51.9,
+   "word": "And",
+   "element": "Punch-in + palabra grande",
+   "category": "face_full_word",
+   "offset_s": -0.01,
+   "why": "énfasis ('the cool part')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 53.76,
+   "word": "It",
+   "element": "Cámara de la cirugía",
+   "category": "split_screenrec",
+   "offset_s": 0.0,
+   "why": "literal ('checking the camera')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 58.66,
+   "word": "this",
+   "element": "Corte a cara completa",
+   "category": "aroll_plain",
+   "offset_s": -0.1,
+   "why": "cambio de tema (de la historia a la opinión)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 60.24,
+   "word": "but",
+   "element": "Rueda rosa (repetida)",
+   "category": "split_broll",
+   "offset_s": -0.01,
+   "why": "contexto",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 61.14,
+   "word": "incredible",
+   "element": "Científicos en el rack",
+   "category": "split_broll",
+   "offset_s": -0.08,
+   "why": "contexto",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 62.24,
+   "word": "in",
+   "element": "Software de EEG",
+   "category": "split_screenrec",
+   "offset_s": 0.11,
+   "why": "contexto",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 63.64,
+   "word": "especially",
+   "element": "Laboratorio vacío",
+   "category": "split_broll",
+   "offset_s": -0.08,
+   "why": "literal aproximado",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 65.98,
+   "word": "A",
+   "element": "Corte a cara completa",
+   "category": "aroll_plain",
+   "offset_s": 0.0,
+   "why": "cambio de tema",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 67.16,
+   "word": "came",
+   "element": "Video de archivo del evento",
+   "category": "full_graphic",
+   "offset_s": 0.07,
+   "why": "literal ('ChatGPT came out')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 68.06,
+   "word": "four",
+   "element": "Primer plano del presentador",
+   "category": "full_graphic",
+   "offset_s": 0.01,
+   "why": "dato temporal",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 69.06,
+   "word": "And",
+   "element": "Laboratorio actual",
+   "category": "split_broll",
+   "offset_s": 0.01,
+   "why": "contraste ('and now')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 69.66,
+   "word": "general",
+   "element": "Monitor con espectrograma",
+   "category": "split_broll",
+   "offset_s": -0.01,
+   "why": "contexto",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 70.54,
+   "word": "LLMs",
+   "element": "Monitor con cámaras",
+   "category": "split_broll",
+   "offset_s": 0.16,
+   "why": "contexto",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 71.24,
+   "word": "conducting",
+   "element": "Cámara de la cirugía (repetida)",
+   "category": "split_screenrec",
+   "offset_s": 0.12,
+   "why": "literal ('live surgery')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 73.94,
+   "word": "The",
+   "element": "Corte a cara completa",
+   "category": "aroll_plain",
+   "offset_s": 0.01,
+   "why": "énfasis (opinión)",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 76.78,
+   "word": "It",
+   "element": "Cámara de la cirugía (recap)",
+   "category": "split_screenrec",
+   "offset_s": 0.01,
+   "why": "recap",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 78.3,
+   "word": "in",
+   "element": "Animación del tratamiento (recap)",
+   "category": "split_graphic",
+   "offset_s": 0.07,
+   "why": "recap",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 81.66,
+   "word": "involve",
+   "element": "Render frontal con aguja (recap)",
+   "category": "split_graphic",
+   "offset_s": -0.12,
+   "why": "recap",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 84.28,
+   "word": "this.",
+   "element": "Tres casos (recap)",
+   "category": "split_graphic",
+   "offset_s": -0.24,
+   "why": "recap ('like this')",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 84.84,
+   "word": "Fall",
+   "element": "B-roll del ratón durante el CTA",
+   "category": "title_cta",
+   "offset_s": -0.09,
+   "why": "CTA",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 85.4,
+   "word": "like",
+   "element": "Ratón verde en tubo rojo",
+   "category": "title_cta",
+   "offset_s": 0.02,
+   "why": "contexto",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  },
+  {
+   "t_word": 86.04,
+   "word": "you",
+   "element": "Punch-in + palabra grande (cierre)",
+   "category": "face_full_word",
+   "offset_s": -0.08,
+   "why": "CTA / énfasis",
+   "evidence": "derived (corte medido con detección de escena ±0.04 s vs. inicio de palabra en evidence.json)"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 0.83,
+   "from": "v01_s01 (hook_banner)",
+   "to": "v01_s02 (hook_banner)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 1.75,
+   "from": "v01_s02 (hook_banner)",
+   "to": "v01_s03 (hook_banner)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 2.42,
+   "from": "v01_s03 (hook_banner)",
+   "to": "v01_s04 (hook_banner)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 3.09,
+   "from": "v01_s04 (hook_banner)",
+   "to": "v01_s05 (hook_banner)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 4.05,
+   "from": "v01_s05 (hook_banner)",
+   "to": "v01_s06 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte seco de pantalla dividida a cara completa (salto de escala ≈ ×2); la franja roja desaparece en el mismo fotograma (observed 4.00→4.04)."
+  },
+  {
+   "t": 7.42,
+   "from": "v01_s06 (face_full_word)",
+   "to": "v01_s07 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte seco de cara completa a b-roll a pantalla completa con círculo; el círculo ya está colocado en el primer fotograma (observed 7.38→7.42)."
+  },
+  {
+   "t": 7.88,
+   "from": "v01_s07 (pip_broll)",
+   "to": "v01_s08 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 9.3,
+   "from": "v01_s08 (pip_broll)",
+   "to": "v01_s09 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 9.97,
+   "from": "v01_s09 (pip_broll)",
+   "to": "v01_s10 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 11.18,
+   "from": "v01_s10 (pip_broll)",
+   "to": "v01_s11 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 11.64,
+   "from": "v01_s11 (pip_broll)",
+   "to": "v01_s12 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 12.93,
+   "from": "v01_s12 (pip_broll)",
+   "to": "v01_s13 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 14.01,
+   "from": "v01_s13 (split_broll)",
+   "to": "v01_s14 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 15.43,
+   "from": "v01_s14 (split_graphic)",
+   "to": "v01_s15 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 17.6,
+   "from": "v01_s15 (split_screenrec)",
+   "to": "v01_s16 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 20.94,
+   "from": "v01_s16 (pip_broll)",
+   "to": "v01_s17 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 24.4,
+   "from": "v01_s17 (pip_broll)",
+   "to": "v01_s18 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 28.49,
+   "from": "v01_s18 (aroll_plain)",
+   "to": "v01_s19 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 31.45,
+   "from": "v01_s19 (split_screenrec)",
+   "to": "v01_s20 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 33.83,
+   "from": "v01_s20 (split_graphic)",
+   "to": "v01_s21 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 35.95,
+   "from": "v01_s21 (split_graphic)",
+   "to": "v01_s22 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 37.83,
+   "from": "v01_s22 (aroll_plain)",
+   "to": "v01_s23 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 40.67,
+   "from": "v01_s23 (pip_broll)",
+   "to": "v01_s24 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 44.34,
+   "from": "v01_s24 (split_graphic)",
+   "to": "v01_s25 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 45.84,
+   "from": "v01_s25 (split_graphic)",
+   "to": "v01_s26 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 47.09,
+   "from": "v01_s26 (split_broll)",
+   "to": "v01_s27 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 48.38,
+   "from": "v01_s27 (split_broll)",
+   "to": "v01_s28 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 49.47,
+   "from": "v01_s28 (split_broll)",
+   "to": "v01_s29 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 51.89,
+   "from": "v01_s29 (split_graphic)",
+   "to": "v01_s30 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 53.76,
+   "from": "v01_s30 (face_full_word)",
+   "to": "v01_s31 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 58.56,
+   "from": "v01_s31 (split_screenrec)",
+   "to": "v01_s32 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 60.23,
+   "from": "v01_s32 (aroll_plain)",
+   "to": "v01_s33 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 61.06,
+   "from": "v01_s33 (split_broll)",
+   "to": "v01_s34 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 62.35,
+   "from": "v01_s34 (split_broll)",
+   "to": "v01_s35 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 63.56,
+   "from": "v01_s35 (split_screenrec)",
+   "to": "v01_s36 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 65.98,
+   "from": "v01_s36 (split_broll)",
+   "to": "v01_s37 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 67.23,
+   "from": "v01_s37 (aroll_plain)",
+   "to": "v01_s38 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 68.07,
+   "from": "v01_s38 (full_graphic)",
+   "to": "v01_s39 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 69.07,
+   "from": "v01_s39 (full_graphic)",
+   "to": "v01_s40 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 69.65,
+   "from": "v01_s40 (split_broll)",
+   "to": "v01_s41 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 70.7,
+   "from": "v01_s41 (split_broll)",
+   "to": "v01_s42 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 71.36,
+   "from": "v01_s42 (split_broll)",
+   "to": "v01_s43 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 73.95,
+   "from": "v01_s43 (split_screenrec)",
+   "to": "v01_s44 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 76.79,
+   "from": "v01_s44 (aroll_plain)",
+   "to": "v01_s45 (split_screenrec)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 78.37,
+   "from": "v01_s45 (split_screenrec)",
+   "to": "v01_s46 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 81.54,
+   "from": "v01_s46 (split_graphic)",
+   "to": "v01_s47 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 84.04,
+   "from": "v01_s47 (split_graphic)",
+   "to": "v01_s48 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 84.75,
+   "from": "v01_s48 (split_graphic)",
+   "to": "v01_s49 (title_cta)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 85.42,
+   "from": "v01_s49 (title_cta)",
+   "to": "v01_s50 (title_cta)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  },
+  {
+   "t": 85.96,
+   "from": "v01_s50 (title_cta)",
+   "to": "v01_s51 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Corte directo de un fotograma al siguiente, sin efecto intermedio (observed en tira fotograma a fotograma o en hoja de 0.5 s)."
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.0,
+   "fx": "slide",
+   "detail": "Franja roja 'CLAUDE DOES / BRAIN SURGERY?!' entra desde la derecha: a 0.0 s solo se ve su borde izquierdo en x≈50 %, a 0.83 s está en x≈40 %, a ~2.0 s centrada (observed). Duración ≈1.5–2.0 s, desaceleración suave. Sale por corte a 4.05 s."
+  },
+  {
+   "t": 4.05,
+   "fx": "pop (sustitución seca)",
+   "detail": "Palabra grande única: cada palabra reemplaza a la anterior sin fade; 'if' dura 3 fotogramas, 'you' 3 fotogramas (observed 4.04–4.29)."
+  },
+  {
+   "t": 4.5,
+   "fx": "cambio de fuente",
+   "detail": "'technology' (4.36 s) y 'wildest' (5.44 s) salen en serif itálica en lugar de sans bold (observed 4.5 y 5.5 s)."
+  },
+  {
+   "t": 7.9,
+   "fx": "pastilla",
+   "detail": "En pip_broll con fondo claro el subtítulo va dentro de una pastilla gris semitransparente (observed 8.0, 10.0, 12.0 s)."
+  },
+  {
+   "t": 18.5,
+   "fx": "contador en la interfaz",
+   "detail": "El contador de candidatos sube 04→05→08→10→13→16→19 entre 17.6 y 20.0 s (observed); es parte de la captura, no del subtítulo."
+  },
+  {
+   "t": 30.0,
+   "fx": "write-on (tecleo)",
+   "detail": "'Reduce the sei…' se escribe letra a letra en el campo de texto de la interfaz (observed 30.0–31.0 s)."
+  }
+ ],
+ "camera": [
+  {
+   "t": 4.05,
+   "move": "punch-in",
+   "scale_or_dir": "A-roll de media pantalla a pantalla completa (≈1.0→2.0 respecto al encuadre dividido)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 14.01,
+   "move": "zoom-out",
+   "scale_or_dir": "logo ≈1.1→1.0",
+   "dur_s": 1.4
+  },
+  {
+   "t": 24.4,
+   "move": "punch-in",
+   "scale_or_dir": "corte a cara completa",
+   "dur_s": 0.0
+  },
+  {
+   "t": 31.45,
+   "move": "push-in lento",
+   "scale_or_dir": "render del ratón: cuerpo entero → cabeza (≈1.0→2.5)",
+   "dur_s": 2.4
+  },
+  {
+   "t": 35.95,
+   "move": "punch-in",
+   "scale_or_dir": "corte a cara completa",
+   "dur_s": 0.0
+  },
+  {
+   "t": 49.47,
+   "move": "push-in lento",
+   "scale_or_dir": "cabeza frontal → cerebro (≈1.0→2.5)",
+   "dur_s": 2.4
+  },
+  {
+   "t": 51.89,
+   "move": "punch-in",
+   "scale_or_dir": "corte a cara completa",
+   "dur_s": 0.0
+  },
+  {
+   "t": 58.56,
+   "move": "punch-in",
+   "scale_or_dir": "corte a cara completa",
+   "dur_s": 0.0
+  },
+  {
+   "t": 65.98,
+   "move": "punch-in",
+   "scale_or_dir": "corte a cara completa",
+   "dur_s": 0.0
+  },
+  {
+   "t": 73.95,
+   "move": "punch-in",
+   "scale_or_dir": "corte a cara completa",
+   "dur_s": 0.0
+  },
+  {
+   "t": 85.96,
+   "move": "punch-in",
+   "scale_or_dir": "corte a cara completa",
+   "dur_s": 0.0
+  }
+ ],
+ "rhythm": {
+  "avg_hold_text_s": 0.55,
+  "notes": "derived: 51 escenas en 88.6 s = 1.74 s por escena. La mitad superior cambia cada 0.5–2.5 s (mediana ≈1.3 s); el plano más largo es 4.8 s (53.76–58.56). Subtítulo pequeño: ≈160 bloques, 0.4–0.7 s cada uno. Cara completa (palabra grande o subtítulo pequeño) en 4.05, 24.40, 35.95, 51.89, 58.56, 65.98, 73.95, 85.96 → cada 7–16 s. Audio no analizado: sonidos desconocidos.",
+  "events_per_10s": [
+   10,
+   6,
+   3,
+   4,
+   6,
+   3,
+   9,
+   5,
+   5
+  ]
+ },
+ "typography": "observed: (1) subtítulo base sans geométrica bold blanca, caja normal, ≈22 px de alto sobre 1280, 1–3 palabras por bloque, y≈54 % en pantalla dividida y ≈62–65 % en cara completa; (2) palabra grande única sans bold blanca ≈60–65 px con glow, y≈63 %; (3) palabras clave en serif itálica de alto contraste ('technology', 'wildest'); (4) franja del gancho en sans extendida ultra-bold MAYÚSCULAS, blanco + amarillo-naranja sobre rojo oscuro. No hay palabra coloreada dentro del subtítulo pequeño. Nombres de fuente: desconocidos.",
+ "textures": "observed: prácticamente ninguna. Solo el fondo negro rugoso detrás del logo de Exin (14.0–15.4 s). El A-roll es limpio, oscuro, con bokeh. Sin grano, halftone ni viñeta añadidos visibles.",
+ "distinct": [
+  "El gancho apila 5 evidencias distintas en 4 s bajo una sola franja roja que entra deslizándose (0.0–4.05 s).",
+  "Bloque de 5.5 s de b-roll a pantalla completa con su cara en círculo (7.42–12.93), seis clips de 0.5–1.4 s.",
+  "La interfaz real del experimento hace de motion graphic: contador 04→19 (17.6–20.9), rótulos brazo/aguja/cámara al nombrarlos (20.9–24.4), neuronas naranja→cian (37.8–40.7).",
+  "Recapitulación final: entre 76.8 y 84.7 s repite en orden las mejores animaciones ya vistas en lugar de material nuevo.",
+  "Dos planos de archivo a pantalla completa SIN círculo ni división (67.23–69.07) para la referencia a ChatGPT."
+ ],
+ "evidence_note": "observed = visto en hojas de 0.5 s y tiras fotograma a fotograma; derived = tiempos de corte por detección de escena de ffmpeg (±0.04 s) y palabras de evidence.json; inferred = todos los 'why'. Audio/SFX: no analizado, desconocido."
+}

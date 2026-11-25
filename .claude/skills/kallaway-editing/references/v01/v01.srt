@@ -1,0 +1,267 @@
+1
+00:00:00,000 --> 00:00:01,480
+Claude just performed brain surgery
+
+2
+00:00:01,480 --> 00:00:03,160
+on a living animal for
+
+3
+00:00:03,160 --> 00:00:04,139
+the first time ever. If
+
+4
+00:00:04,139 --> 00:00:05,179
+you'd like technology, this is
+
+5
+00:00:05,179 --> 00:00:06,120
+one of the wildest stories
+
+6
+00:00:06,120 --> 00:00:07,280
+I've heard in a while.
+
+7
+00:00:07,459 --> 00:00:07,900
+Now the goal of the
+
+8
+00:00:07,900 --> 00:00:09,480
+surgery was very simple. Figure
+
+9
+00:00:09,480 --> 00:00:10,779
+out how to reduce seizures
+
+10
+00:00:10,779 --> 00:00:12,119
+in a mouse that had
+
+11
+00:00:12,119 --> 00:00:13,580
+epilepsy. The startup behind this
+
+12
+00:00:13,580 --> 00:00:15,300
+is called Exyn Therapeutics. And
+
+13
+00:00:15,300 --> 00:00:16,440
+what they did with Claude
+
+14
+00:00:16,440 --> 00:00:17,940
+was super interesting. Exyn gave
+
+15
+00:00:17,940 --> 00:00:19,120
+Claude a list of 19
+
+16
+00:00:19,120 --> 00:00:20,800
+possible gene treatments, as well
+
+17
+00:00:20,800 --> 00:00:22,519
+as control over robotic arm
+
+18
+00:00:22,519 --> 00:00:23,859
+system with a needle and
+
+19
+00:00:23,859 --> 00:00:25,079
+a camera. Now nobody told
+
+20
+00:00:25,079 --> 00:00:26,640
+Claude what treatment to pick
+
+21
+00:00:26,640 --> 00:00:27,839
+or how to execute the
+
+22
+00:00:27,839 --> 00:00:29,320
+operation. The only instructions they
+
+23
+00:00:29,320 --> 00:00:30,719
+gave it were to reduce
+
+24
+00:00:30,719 --> 00:00:32,479
+the seizures. Epilepsy causes too
+
+25
+00:00:32,479 --> 00:00:33,640
+many of the brain's neurons
+
+26
+00:00:33,640 --> 00:00:35,200
+to get overly excited at
+
+27
+00:00:35,200 --> 00:00:36,320
+the same time. So Claude
+
+28
+00:00:36,320 --> 00:00:37,399
+decided to use a gene
+
+29
+00:00:37,399 --> 00:00:38,780
+therapy that would boost the
+
+30
+00:00:38,780 --> 00:00:40,759
+brain's natural calming signal. And
+
+31
+00:00:40,759 --> 00:00:41,880
+it even compared three different
+
+32
+00:00:41,880 --> 00:00:42,979
+cases on the topic to
+
+33
+00:00:42,979 --> 00:00:44,219
+figure out the exact right
+
+34
+00:00:44,219 --> 00:00:45,579
+spot to do the injection.
+
+35
+00:00:45,840 --> 00:00:46,619
+Now a real human vet
+
+36
+00:00:46,619 --> 00:00:47,759
+opened the skull and had
+
+37
+00:00:47,759 --> 00:00:48,500
+a kill switch in case
+
+38
+00:00:48,500 --> 00:00:49,960
+anything went wrong, but Claude
+
+39
+00:00:49,960 --> 00:00:51,979
+executed the operation perfectly. And
+
+40
+00:00:51,979 --> 00:00:52,579
+the cool part is it
+
+41
+00:00:52,579 --> 00:00:53,939
+was extremely careful. It kept
+
+42
+00:00:53,939 --> 00:00:55,359
+checking the camera over and
+
+43
+00:00:55,359 --> 00:00:56,380
+over to make sure there
+
+44
+00:00:56,380 --> 00:00:57,600
+wasn't extra bleeding and the
+
+45
+00:00:57,600 --> 00:00:58,799
+operation went well. Now this
+
+46
+00:00:58,799 --> 00:00:59,759
+may seem like a silly
+
+47
+00:00:59,759 --> 00:01:00,700
+story, but I think it
+
+48
+00:01:00,700 --> 00:01:02,539
+marks an incredible milestone in
+
+49
+00:01:02,539 --> 00:01:04,019
+the progress of AI, especially
+
+50
+00:01:04,019 --> 00:01:05,379
+in the science and medical
+
+51
+00:01:05,379 --> 00:01:06,319
+fields. A lot of us
+
+52
+00:01:06,319 --> 00:01:07,840
+forget, chatGPT came out less
+
+53
+00:01:07,840 --> 00:01:09,140
+than four years ago. And
+
+54
+00:01:09,140 --> 00:01:10,540
+now we're seeing general purpose
+
+55
+00:01:10,540 --> 00:01:13,140
+LLMs conducting live surgery on
+
+56
+00:01:13,140 --> 00:01:14,159
+a real animal. The pace
+
+57
+00:01:14,159 --> 00:01:15,280
+of progress in science and
+
+58
+00:01:15,280 --> 00:01:16,840
+medicine is absolutely insane. It
+
+59
+00:01:16,840 --> 00:01:17,719
+sounds crazy now, but there's
+
+60
+00:01:17,719 --> 00:01:18,620
+a good chance in the
+
+61
+00:01:18,620 --> 00:01:20,079
+next 10 years, most of
+
+62
+00:01:20,079 --> 00:01:21,659
+our core medical procedures will
+
+63
+00:01:21,659 --> 00:01:23,280
+involve some version of AI
+
+64
+00:01:23,280 --> 00:01:25,060
+assistance like this. Fall for
+
+65
+00:01:25,060 --> 00:01:26,040
+more stories like this if
+
+66
+00:01:26,040 --> 00:01:26,739
+you wanna learn more about
+
+67
+00:01:26,739 --> 00:01:28,239
+tech, AI and robotics.

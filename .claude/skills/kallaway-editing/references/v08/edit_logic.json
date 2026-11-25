@@ -1,0 +1,1214 @@
+{
+ "evidence_note": "Regla REA: tiempos de 'transitions', 'text_fx' y 'camera' son observed (tiras de fotogramas a 15 fps, ±0.07 s); 't_word' viene de evidence.json (derived, whisper); 'why' es inferred; sonido = desconocido (no se analizó el audio).",
+ "triggers": [
+  {
+   "t_word": 0.0,
+   "word": "DoorDash",
+   "element": "Cartel «DASH FORWARD» + franja roja «THE DOORDASH / MASTER PLAN» entrando",
+   "category": "hook_banner",
+   "offset_s": 0.0,
+   "why": "literal/hook: marca + promesa"
+  },
+  {
+   "t_word": 0.56,
+   "word": "completely",
+   "element": "Dron en su soporte",
+   "category": "hook_banner",
+   "offset_s": -0.02,
+   "why": "literal: lo que reinventa"
+  },
+  {
+   "t_word": 3.46,
+   "word": "And",
+   "element": "Tarjeta redondeada con cara en círculo (dron, robots, código, caja)",
+   "category": "pip_broll",
+   "offset_s": -0.04,
+   "why": "cambio de tema: «people don't realize»"
+  },
+  {
+   "t_word": 6.56,
+   "word": "under",
+   "element": "Punch-in «under the hood»",
+   "category": "face_full_word",
+   "offset_s": 0.03,
+   "why": "énfasis"
+  },
+  {
+   "t_word": 7.46,
+   "word": "Last",
+   "element": "Montaje del evento (7 planos)",
+   "category": "split_broll",
+   "offset_s": 0.01,
+   "why": "literal: «annual event»"
+  },
+  {
+   "t_word": 10.76,
+   "word": "Now",
+   "element": "Cara a pantalla completa con subtítulo pequeño",
+   "category": "aroll_plain",
+   "offset_s": -0.04,
+   "why": "cambio de tema: «the biggest one»"
+  },
+  {
+   "t_word": 12.02,
+   "word": "ultra",
+   "element": "Dron en soporte → dron volando",
+   "category": "split_broll",
+   "offset_s": 0.03,
+   "why": "literal: «food delivery drone»"
+  },
+  {
+   "t_word": 14.9,
+   "word": "This",
+   "element": "Tarjeta con cara en círculo: bolsa → vuelo → jardín",
+   "category": "pip_broll",
+   "offset_s": -0.01,
+   "why": "literal: recorrido restaurante → jardín"
+  },
+  {
+   "t_word": 16.9,
+   "word": "your",
+   "element": "Jardín cenital con el paquete bajando",
+   "category": "pip_broll",
+   "offset_s": -0.26,
+   "why": "literal: «to your yard»"
+  },
+  {
+   "t_word": 19.34,
+   "word": "dramatically",
+   "element": "Panel de app «Drone 15 min · Dasher 34 min» con arco de progreso",
+   "category": "pip_broll",
+   "offset_s": 0.01,
+   "why": "dato: comparación de tiempos en la interfaz"
+  },
+  {
+   "t_word": 21.2,
+   "word": "But",
+   "element": "Cara a pantalla completa",
+   "category": "aroll_plain",
+   "offset_s": 0.07,
+   "why": "cambio de tema: giro"
+  },
+  {
+   "t_word": 21.88,
+   "word": "this",
+   "element": "Dron sobre vecindario",
+   "category": "split_broll",
+   "offset_s": 0.06,
+   "why": "literal: «this drone program»"
+  },
+  {
+   "t_word": 24.32,
+   "word": "of",
+   "element": "Hombre con tableta y paneles de interfaz",
+   "category": "split_broll",
+   "offset_s": 0.08,
+   "why": "metáfora: otra pieza del «master plan»"
+  },
+  {
+   "t_word": 26.32,
+   "word": "So",
+   "element": "Stanley Tang en el set + rótulo «Stanley Tang»",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "literal: presenta al invitado"
+  },
+  {
+   "t_word": 28.34,
+   "word": "one",
+   "element": "Fotos de archivo de Stanley (con etiqueta «Stanley» y flecha a 28.99)",
+   "category": "split_broll",
+   "offset_s": -0.06,
+   "why": "evidencia: «original co-founders»"
+  },
+  {
+   "t_word": 31.5,
+   "word": "He",
+   "element": "Tarjeta con cara en círculo: Stanley en escenario",
+   "category": "pip_broll",
+   "offset_s": -0.01,
+   "why": "literal: «mastermind»"
+  },
+  {
+   "t_word": 32.76,
+   "word": "air",
+   "element": "Parte inferior del dron",
+   "category": "pip_broll",
+   "offset_s": -0.02,
+   "why": "literal: «Air launch»"
+  },
+  {
+   "t_word": 33.24,
+   "word": "and",
+   "element": "Edificio «LABS» desde el aire",
+   "category": "pip_broll",
+   "offset_s": 0.09,
+   "why": "literal: «R&D lab»"
+  },
+  {
+   "t_word": 35.04,
+   "word": "And",
+   "element": "Cara a pantalla completa",
+   "category": "aroll_plain",
+   "offset_s": -0.05,
+   "why": "énfasis: «what he said really surprised me»"
+  },
+  {
+   "t_word": 37.0,
+   "word": "In",
+   "element": "Clip de entrevista en tarjeta con rótulo de cita",
+   "category": "full_graphic",
+   "offset_s": -0.05,
+   "why": "cambio de voz: habla el invitado"
+  },
+  {
+   "t_word": 39.2,
+   "word": "autonomous",
+   "element": "Inserto de interfaz de perfil + «the autonomous delivery platform»",
+   "category": "full_graphic",
+   "offset_s": 0.17,
+   "why": "literal: nombre del concepto"
+  },
+  {
+   "t_word": 41.76,
+   "word": "orchestration",
+   "element": "Macro de placa de circuito + «orchestration layer»",
+   "category": "full_graphic",
+   "offset_s": 0.12,
+   "why": "metáfora: capa de orquestación = electrónica"
+  },
+  {
+   "t_word": 43.04,
+   "word": "brains",
+   "element": "Puesto de control con código + «the brains»",
+   "category": "full_graphic",
+   "offset_s": -0.08,
+   "why": "metáfora: cerebro = ordenador"
+  },
+  {
+   "t_word": 46.38,
+   "word": "dasher?",
+   "element": "Rótulo «is it a Dasher?»",
+   "category": "full_graphic",
+   "offset_s": -0.08,
+   "why": "literal: opción 1"
+  },
+  {
+   "t_word": 47.28,
+   "word": "drone?",
+   "element": "Dron + «is it a Drone?»",
+   "category": "full_graphic",
+   "offset_s": -0.07,
+   "why": "literal: opción 2"
+  },
+  {
+   "t_word": 48.16,
+   "word": "dot?",
+   "element": "Robot + «is it a Dot?»",
+   "category": "full_graphic",
+   "offset_s": -0.11,
+   "why": "literal: opción 3"
+  },
+  {
+   "t_word": 50.9,
+   "word": "DoorDash.",
+   "element": "Logo rojo «DOORDASH» bajo «something like»",
+   "category": "full_graphic",
+   "offset_s": 0.05,
+   "why": "literal: marca"
+  },
+  {
+   "t_word": 52.78,
+   "word": "So",
+   "element": "Punch-in «So the secret sauce»",
+   "category": "face_full_word",
+   "offset_s": 0.02,
+   "why": "cambio de voz: vuelve el narrador"
+  },
+  {
+   "t_word": 53.62,
+   "word": "DoorDash",
+   "element": "Palabra grande «DOORDASH» en rojo",
+   "category": "face_full_word",
+   "offset_s": -0.15,
+   "why": "énfasis: marca en su color"
+  },
+  {
+   "t_word": 54.02,
+   "word": "isn't",
+   "element": "Dron en el cielo",
+   "category": "split_broll",
+   "offset_s": 0.12,
+   "why": "literal: «isn't just the drones»"
+  },
+  {
+   "t_word": 55.68,
+   "word": "entire",
+   "element": "Robot Dot → mapa → flota",
+   "category": "split_broll",
+   "offset_s": -0.29,
+   "why": "literal: «entire delivery operating system»"
+  },
+  {
+   "t_word": 59.92,
+   "word": "Because",
+   "element": "B-roll a pantalla completa sin él",
+   "category": "full_graphic",
+   "offset_s": -0.07,
+   "why": "cambio de tema: «lots of different ways»"
+  },
+  {
+   "t_word": 63.22,
+   "word": "They've",
+   "element": "Dasher con tarjetas «Order Delivered ★★★★★ $5 Tip»",
+   "category": "split_broll",
+   "offset_s": -0.03,
+   "why": "literal: lista 1/3"
+  },
+  {
+   "t_word": 65.08,
+   "word": "dot,",
+   "element": "Robots Dot",
+   "category": "split_broll",
+   "offset_s": -0.1,
+   "why": "literal: lista 2/3"
+  },
+  {
+   "t_word": 67.04,
+   "word": "air,",
+   "element": "Dron soltando paquete",
+   "category": "split_broll",
+   "offset_s": -0.39,
+   "why": "literal: lista 3/3 (el plano llega 0,4 s antes de «air»)"
+  },
+  {
+   "t_word": 68.54,
+   "word": "So",
+   "element": "Cara a pantalla completa",
+   "category": "aroll_plain",
+   "offset_s": -0.01,
+   "why": "cambio de tema: conclusión"
+  },
+  {
+   "t_word": 69.88,
+   "word": "intelligently",
+   "element": "Dron sobre tejado → bolsas → entrega en puerta",
+   "category": "split_broll",
+   "offset_s": 0.11,
+   "why": "literal: «route and deliver»"
+  },
+  {
+   "t_word": 74.84,
+   "word": "And",
+   "element": "Cara a pantalla completa",
+   "category": "aroll_plain",
+   "offset_s": -0.02,
+   "why": "cambio de tema: futuro"
+  },
+  {
+   "t_word": 76.92,
+   "word": "including",
+   "element": "Dron → robots → bolsa → carga",
+   "category": "split_broll",
+   "offset_s": 0.03,
+   "why": "literal: «drones and autonomous vehicles»"
+  },
+  {
+   "t_word": 82.1,
+   "word": "That",
+   "element": "Cara a pantalla completa",
+   "category": "aroll_plain",
+   "offset_s": -0.02,
+   "why": "énfasis: repite «orchestration layer»"
+  },
+  {
+   "t_word": 83.4,
+   "word": "is",
+   "element": "Stanley en el set → dron",
+   "category": "split_broll",
+   "offset_s": 0.23,
+   "why": "evidencia: autor de la idea"
+  },
+  {
+   "t_word": 86.3,
+   "word": "Stanley",
+   "element": "Retrato de Stanley",
+   "category": "split_broll",
+   "offset_s": -0.05,
+   "why": "literal: nombre → cara"
+  },
+  {
+   "t_word": 87.76,
+   "word": "AI",
+   "element": "Mesa con «DoorDash Assistant» → móvil con burbujas",
+   "category": "split_broll",
+   "offset_s": 0.16,
+   "why": "literal: «Text DoorDash feature»"
+  },
+  {
+   "t_word": 90.02,
+   "word": "as",
+   "element": "Cara a pantalla completa",
+   "category": "aroll_plain",
+   "offset_s": -0.1,
+   "why": "transición"
+  },
+  {
+   "t_word": 91.34,
+   "word": "R",
+   "element": "Tejado «LABS» → Dot → dron",
+   "category": "split_broll",
+   "offset_s": -0.04,
+   "why": "literal: «R&D lab»"
+  },
+  {
+   "t_word": 93.6,
+   "word": "And",
+   "element": "Cara a pantalla completa",
+   "category": "aroll_plain",
+   "offset_s": -0.01,
+   "why": "cambio de tema: juicio final"
+  },
+  {
+   "t_word": 95.42,
+   "word": "pioneer",
+   "element": "B-roll final a pantalla completa (robot, dron, clienta)",
+   "category": "title_cta",
+   "offset_s": -0.03,
+   "why": "literal: «future of delivery»"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 0.54,
+   "from": "v08_s01 (hook_banner)",
+   "to": "v08_s01 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: cartel «DASH FORWARD» → dron en soporte"
+  },
+  {
+   "t": 1.08,
+   "from": "v08_s01 (hook_banner)",
+   "to": "v08_s01 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: dron en soporte → dron sobre colinas"
+  },
+  {
+   "t": 1.96,
+   "from": "v08_s01 (hook_banner)",
+   "to": "v08_s01 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: dron sobre colinas → dron turquesa sobre tejados"
+  },
+  {
+   "t": 3.42,
+   "from": "v08_s01 (hook_banner)",
+   "to": "v08_s02 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → tarjeta redondeada a pantalla completa con cara en círculo (desaparece la franja)"
+  },
+  {
+   "t": 4.05,
+   "from": "v08_s02 (pip_broll)",
+   "to": "v08_s02 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: dron → robots Dot"
+  },
+  {
+   "t": 5.01,
+   "from": "v08_s02 (pip_broll)",
+   "to": "v08_s02 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: robots → puesto de control (la pantalla del plano parpadea 2 fotogramas al inicio)"
+  },
+  {
+   "t": 5.92,
+   "from": "v08_s02 (pip_broll)",
+   "to": "v08_s02 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: puesto de control → caja blanca"
+  },
+  {
+   "t": 6.59,
+   "from": "v08_s02 (pip_broll)",
+   "to": "v08_s03 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta → cara completa"
+  },
+  {
+   "t": 7.47,
+   "from": "v08_s03 (face_full_word)",
+   "to": "v08_s04 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (cartel de bienvenida, con zoom-in de 2 fotogramas)"
+  },
+  {
+   "t": 7.92,
+   "from": "v08_s04 (split_broll)",
+   "to": "v08_s04 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: cartel → presentador"
+  },
+  {
+   "t": 8.38,
+   "from": "v08_s04 (split_broll)",
+   "to": "v08_s04 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: presentador → hombre con móvil"
+  },
+  {
+   "t": 8.93,
+   "from": "v08_s04 (split_broll)",
+   "to": "v08_s04 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: móvil → mostrador"
+  },
+  {
+   "t": 9.47,
+   "from": "v08_s04 (split_broll)",
+   "to": "v08_s04 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: mostrador → hielo «Reservations»"
+  },
+  {
+   "t": 10.26,
+   "from": "v08_s04 (split_broll)",
+   "to": "v08_s04 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: hielo → asistentes"
+  },
+  {
+   "t": 10.72,
+   "from": "v08_s04 (split_broll)",
+   "to": "v08_s05 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa con subtítulo pequeño"
+  },
+  {
+   "t": 12.05,
+   "from": "v08_s05 (aroll_plain)",
+   "to": "v08_s06 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (dron en soporte)"
+  },
+  {
+   "t": 12.97,
+   "from": "v08_s06 (split_broll)",
+   "to": "v08_s06 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: soporte → dron en vuelo"
+  },
+  {
+   "t": 14.14,
+   "from": "v08_s06 (split_broll)",
+   "to": "v08_s06 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: vuelo → dron sobre tejados"
+  },
+  {
+   "t": 14.89,
+   "from": "v08_s06 (split_broll)",
+   "to": "v08_s07 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → tarjeta con cara en círculo (bolsa)"
+  },
+  {
+   "t": 15.85,
+   "from": "v08_s07 (pip_broll)",
+   "to": "v08_s07 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: bolsa → dron con paquete"
+  },
+  {
+   "t": 16.64,
+   "from": "v08_s07 (pip_broll)",
+   "to": "v08_s07 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: dron → jardín cenital"
+  },
+  {
+   "t": 17.6,
+   "from": "v08_s07 (pip_broll)",
+   "to": "v08_s07 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: jardín → parte inferior del dron"
+  },
+  {
+   "t": 18.44,
+   "from": "v08_s07 (pip_broll)",
+   "to": "v08_s07 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: parte inferior → dron en cielo"
+  },
+  {
+   "t": 19.35,
+   "from": "v08_s07 (pip_broll)",
+   "to": "v08_s08 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: dron → dron + panel de app"
+  },
+  {
+   "t": 21.27,
+   "from": "v08_s08 (pip_broll)",
+   "to": "v08_s09 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta → cara completa"
+  },
+  {
+   "t": 21.94,
+   "from": "v08_s09 (aroll_plain)",
+   "to": "v08_s10 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida"
+  },
+  {
+   "t": 22.65,
+   "from": "v08_s10 (split_broll)",
+   "to": "v08_s10 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: vecindario → caja con cable"
+  },
+  {
+   "t": 23.36,
+   "from": "v08_s10 (split_broll)",
+   "to": "v08_s10 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: caja → contrapicado del dron"
+  },
+  {
+   "t": 24.4,
+   "from": "v08_s10 (split_broll)",
+   "to": "v08_s11 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: dron → hombre con tableta"
+  },
+  {
+   "t": 26.32,
+   "from": "v08_s11 (split_broll)",
+   "to": "v08_s12 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: restaurante → Stanley en el set"
+  },
+  {
+   "t": 28.28,
+   "from": "v08_s12 (split_broll)",
+   "to": "v08_s13 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: set → foto de archivo"
+  },
+  {
+   "t": 28.99,
+   "from": "v08_s13 (split_broll)",
+   "to": "v08_s13 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: foto → foto con etiqueta «Stanley»"
+  },
+  {
+   "t": 29.9,
+   "from": "v08_s13 (split_broll)",
+   "to": "v08_s13 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: foto → retrato morado"
+  },
+  {
+   "t": 31.49,
+   "from": "v08_s13 (split_broll)",
+   "to": "v08_s14 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → tarjeta con cara en círculo (Stanley en escenario)"
+  },
+  {
+   "t": 32.74,
+   "from": "v08_s14 (pip_broll)",
+   "to": "v08_s14 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: escenario → dron"
+  },
+  {
+   "t": 33.33,
+   "from": "v08_s14 (pip_broll)",
+   "to": "v08_s14 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: dron → edificio LABS"
+  },
+  {
+   "t": 34.99,
+   "from": "v08_s14 (pip_broll)",
+   "to": "v08_s15 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta → cara completa"
+  },
+  {
+   "t": 36.95,
+   "from": "v08_s15 (aroll_plain)",
+   "to": "v08_s16 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → clip de entrevista en tarjeta (sin círculo); cambia el sistema de texto"
+  },
+  {
+   "t": 39.37,
+   "from": "v08_s16 (full_graphic)",
+   "to": "v08_s17 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: entrevista → inserto de interfaz"
+  },
+  {
+   "t": 40.96,
+   "from": "v08_s17 (full_graphic)",
+   "to": "v08_s18 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: interfaz → entrevista"
+  },
+  {
+   "t": 41.88,
+   "from": "v08_s18 (full_graphic)",
+   "to": "v08_s18 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: entrevista → macro de placa roja"
+  },
+  {
+   "t": 42.58,
+   "from": "v08_s18 (full_graphic)",
+   "to": "v08_s18 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: placa roja → placa turquesa con logo"
+  },
+  {
+   "t": 42.96,
+   "from": "v08_s18 (full_graphic)",
+   "to": "v08_s18 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: placa → puesto de control"
+  },
+  {
+   "t": 43.63,
+   "from": "v08_s18 (full_graphic)",
+   "to": "v08_s19 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: (vuelta a) entrevista"
+  },
+  {
+   "t": 47.21,
+   "from": "v08_s20 (full_graphic)",
+   "to": "v08_s20 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: entrevista → dron («Drone?»)"
+  },
+  {
+   "t": 48.05,
+   "from": "v08_s20 (full_graphic)",
+   "to": "v08_s20 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: dron → robot en puente («Dot?»)"
+  },
+  {
+   "t": 48.67,
+   "from": "v08_s20 (full_graphic)",
+   "to": "v08_s21 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: robot → entrevista"
+  },
+  {
+   "t": 50.63,
+   "from": "v08_s21 (full_graphic)",
+   "to": "v08_s21 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: entrevista → tableta"
+  },
+  {
+   "t": 51.3,
+   "from": "v08_s21 (full_graphic)",
+   "to": "v08_s21 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: tableta → entrevista"
+  },
+  {
+   "t": 52.8,
+   "from": "v08_s21 (full_graphic)",
+   "to": "v08_s22 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta de entrevista → cara completa de Kallaway con palabra grande"
+  },
+  {
+   "t": 54.14,
+   "from": "v08_s22 (face_full_word)",
+   "to": "v08_s23 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (dron)"
+  },
+  {
+   "t": 55.39,
+   "from": "v08_s23 (split_broll)",
+   "to": "v08_s23 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: dron → robot ante restaurante"
+  },
+  {
+   "t": 56.39,
+   "from": "v08_s23 (split_broll)",
+   "to": "v08_s23 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: robot → mapa + robot"
+  },
+  {
+   "t": 56.97,
+   "from": "v08_s23 (split_broll)",
+   "to": "v08_s23 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: mapa → flota de robots"
+  },
+  {
+   "t": 58.1,
+   "from": "v08_s23 (split_broll)",
+   "to": "v08_s23 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: flota → hombre con móvil"
+  },
+  {
+   "t": 59.85,
+   "from": "v08_s23 (split_broll)",
+   "to": "v08_s24 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → b-roll a pantalla completa sin él"
+  },
+  {
+   "t": 61.02,
+   "from": "v08_s24 (full_graphic)",
+   "to": "v08_s24 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Pantalla completa: carretera → dron sobre casa"
+  },
+  {
+   "t": 62.27,
+   "from": "v08_s24 (full_graphic)",
+   "to": "v08_s24 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Pantalla completa: casa → entrada de edificio"
+  },
+  {
+   "t": 63.19,
+   "from": "v08_s24 (full_graphic)",
+   "to": "v08_s25 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Pantalla completa → dividida (dasher con notificaciones)"
+  },
+  {
+   "t": 64.98,
+   "from": "v08_s25 (split_broll)",
+   "to": "v08_s26 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: dasher → robots Dot"
+  },
+  {
+   "t": 65.57,
+   "from": "v08_s26 (split_broll)",
+   "to": "v08_s26 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: robots → Dot en carretera"
+  },
+  {
+   "t": 66.65,
+   "from": "v08_s26 (split_broll)",
+   "to": "v08_s27 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: Dot → dron"
+  },
+  {
+   "t": 67.65,
+   "from": "v08_s27 (split_broll)",
+   "to": "v08_s27 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: dron → dron en primer plano"
+  },
+  {
+   "t": 68.53,
+   "from": "v08_s27 (split_broll)",
+   "to": "v08_s28 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa"
+  },
+  {
+   "t": 69.99,
+   "from": "v08_s28 (aroll_plain)",
+   "to": "v08_s29 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida"
+  },
+  {
+   "t": 71.2,
+   "from": "v08_s29 (split_broll)",
+   "to": "v08_s29 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: dron → bolsas"
+  },
+  {
+   "t": 72.07,
+   "from": "v08_s29 (split_broll)",
+   "to": "v08_s29 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: bolsas → mujer en la puerta"
+  },
+  {
+   "t": 73.07,
+   "from": "v08_s29 (split_broll)",
+   "to": "v08_s29 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: puerta → repartidor"
+  },
+  {
+   "t": 74.82,
+   "from": "v08_s29 (split_broll)",
+   "to": "v08_s30 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa"
+  },
+  {
+   "t": 76.95,
+   "from": "v08_s30 (aroll_plain)",
+   "to": "v08_s31 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida"
+  },
+  {
+   "t": 78.33,
+   "from": "v08_s31 (split_broll)",
+   "to": "v08_s31 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: dron → robots"
+  },
+  {
+   "t": 79.37,
+   "from": "v08_s31 (split_broll)",
+   "to": "v08_s31 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: robots → bolsa roja"
+  },
+  {
+   "t": 80.29,
+   "from": "v08_s31 (split_broll)",
+   "to": "v08_s31 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: bolsa → persona y robot"
+  },
+  {
+   "t": 81.08,
+   "from": "v08_s31 (split_broll)",
+   "to": "v08_s31 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: carga en el robot"
+  },
+  {
+   "t": 82.08,
+   "from": "v08_s31 (split_broll)",
+   "to": "v08_s32 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa"
+  },
+  {
+   "t": 83.63,
+   "from": "v08_s32 (aroll_plain)",
+   "to": "v08_s33 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (Stanley)"
+  },
+  {
+   "t": 84.79,
+   "from": "v08_s33 (split_broll)",
+   "to": "v08_s33 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: Stanley → dron en soporte"
+  },
+  {
+   "t": 85.38,
+   "from": "v08_s33 (split_broll)",
+   "to": "v08_s33 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: soporte → dron en cielo"
+  },
+  {
+   "t": 86.25,
+   "from": "v08_s33 (split_broll)",
+   "to": "v08_s34 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: dron → retrato de Stanley"
+  },
+  {
+   "t": 87.92,
+   "from": "v08_s34 (split_broll)",
+   "to": "v08_s34 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: retrato → mesa con asistente"
+  },
+  {
+   "t": 88.46,
+   "from": "v08_s34 (split_broll)",
+   "to": "v08_s34 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: mesa → móvil con burbujas"
+  },
+  {
+   "t": 89.92,
+   "from": "v08_s34 (split_broll)",
+   "to": "v08_s35 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa"
+  },
+  {
+   "t": 91.3,
+   "from": "v08_s35 (aroll_plain)",
+   "to": "v08_s36 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (LABS)"
+  },
+  {
+   "t": 92.3,
+   "from": "v08_s36 (split_broll)",
+   "to": "v08_s36 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: LABS → Dot"
+  },
+  {
+   "t": 92.8,
+   "from": "v08_s36 (split_broll)",
+   "to": "v08_s36 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: Dot → dron"
+  },
+  {
+   "t": 93.59,
+   "from": "v08_s36 (split_broll)",
+   "to": "v08_s37 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa"
+  },
+  {
+   "t": 95.39,
+   "from": "v08_s37 (aroll_plain)",
+   "to": "v08_s38 (title_cta)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → b-roll final a pantalla completa (score de escena 1.00: de negro a contraluz dorado)"
+  },
+  {
+   "t": 96.22,
+   "from": "v08_s38 (title_cta)",
+   "to": "v08_s38 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Pantalla completa: atardecer → dron"
+  },
+  {
+   "t": 96.93,
+   "from": "v08_s38 (title_cta)",
+   "to": "v08_s38 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Pantalla completa: dron → clienta en la puerta"
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.0,
+   "fx": "slide",
+   "detail": "Franja roja «THE DOORDASH / MASTER PLAN» entra desde la derecha (cortada por el borde hasta ≈0.9, colocada a ≈1.0)"
+  },
+  {
+   "t": 6.59,
+   "fx": "pop (sustitución por corte)",
+   "detail": "Palabra grande única «under / the / hood», una por palabra dicha"
+  },
+  {
+   "t": 19.9,
+   "fx": "máscara",
+   "detail": "Arco de progreso del panel de app avanza y el rótulo cambia de «11 min Prep time» a «4 min Flight time»"
+  },
+  {
+   "t": 26.32,
+   "fx": "pop",
+   "detail": "Rótulo de nombre «Stanley / Tang» junto al invitado, presente desde el corte"
+  },
+  {
+   "t": 28.99,
+   "fx": "pop",
+   "detail": "Etiqueta «Stanley» + flecha curva sobre la foto de archivo"
+  },
+  {
+   "t": 37.0,
+   "fx": "write-on por palabra",
+   "detail": "Rótulo de cita acumulativo: «a» → «a large» (amarillo) → «of what we built» → «that we would call» → «the autonomous» (itálica)"
+  },
+  {
+   "t": 39.37,
+   "fx": "write-on por palabra",
+   "detail": "«the autonomous» + «delivery» (itálica, 39.6) + «platform» (amarillo, 39.9)"
+  },
+  {
+   "t": 41.88,
+   "fx": "cambio de fuente",
+   "detail": "«orchestration» y «brains» en serif itálica dentro del rótulo de cita"
+  },
+  {
+   "t": 46.3,
+   "fx": "sustitución",
+   "detail": "Plantilla «is it a ___?»: solo cambia la última palabra (Dasher / Drone / Dot) en serif itálica"
+  },
+  {
+   "t": 50.95,
+   "fx": "pop",
+   "detail": "Logotipo rojo «DOORDASH» aparece bajo «something like»"
+  },
+  {
+   "t": 53.47,
+   "fx": "cambio de color",
+   "detail": "Palabra grande «DOORDASH» en rojo y mayúsculas (las demás, blancas)"
+  },
+  {
+   "t": 63.2,
+   "fx": "slide",
+   "detail": "Tarjetas de notificación «Order Ready for Pickup», «Order Delivered», «★★★★★ $5 Tip» entran en cascada; estrellas de 1 a 5"
+  }
+ ],
+ "camera": [
+  {
+   "t": 0.0,
+   "move": "punch-in",
+   "scale_or_dir": "cartel «DASH FORWARD»: zoom-in rápido",
+   "dur_s": 0.25
+  },
+  {
+   "t": 6.59,
+   "move": "punch-in",
+   "scale_or_dir": "A-roll 1.0→≈1.9 por corte (no animado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 7.47,
+   "move": "punch-in",
+   "scale_or_dir": "cartel de bienvenida: zoom-in de 2 fotogramas",
+   "dur_s": 0.13
+  },
+  {
+   "t": 39.37,
+   "move": "zoom-out",
+   "scale_or_dir": "inserto de interfaz de perfil, lento",
+   "dur_s": 1.6
+  },
+  {
+   "t": 41.88,
+   "move": "push-in lento",
+   "scale_or_dir": "macro de placa de circuito con deriva",
+   "dur_s": 0.45
+  }
+ ],
+ "rhythm": {
+  "events_per_10s": [
+   14,
+   12,
+   9,
+   7,
+   9,
+   11,
+   10,
+   7,
+   10,
+   7
+  ],
+  "avg_hold_text_s": 0.5,
+  "notes": "derived: 89 transiciones en 97,8 s (1 cada 1,1 s): el más cortado de los cuatro. La mitad superior/tarjeta cambia cada 0,4–2,4 s (mediana ≈0,9 s). Solo 2 punch-ins con palabra grande (6.6 y 52.8); en su lugar, 8 escenas de cara con subtítulo pequeño (10.7, 21.3, 35.0, 68.5, 74.8, 82.1, 89.9, 93.6), cada 4–14 s fuera del bloque de entrevista. Bloque de entrevista 36.95–52.8 (15,9 s) sin Kallaway en pantalla. Sonido: desconocido."
+ },
+ "typography": "observed: (1) subtítulo pequeño sans bold blanco tipo Inter (~28 px/720), 1–3 palabras; (2) palabra grande sans bold blanca ~62 px con glow; «DOORDASH» en rojo mayúsculas; (3) franja roja con sans extendida ultra pesada MAYÚSCULAS blanco + amarillo; (4) rótulo de cita de la entrevista: sans bold ~44 px con tracking apretado, 1–2 líneas escalonadas, clave en amarillo o serif itálica; (5) rótulo de nombre «Stanley Tang» sans bold con sombra. Nombres exactos: desconocidos.",
+ "textures": "observed: sin grano ni papel. Tarjeta redondeada con margen negro para pantalla completa; glow blanco en palabras grandes; sombra bajo rótulos; insertos macro con poca profundidad de campo. Todo el b-roll es material de marca de DoorDash (rojo corporativo dominante).",
+ "distinct": [
+  "Único video del lote con una cita de entrevista: 15,9 s (36.95–52.8) de otra persona hablando en tarjeta, con un sistema de texto propio (rótulo acumulativo, amarillo + serif itálica)",
+  "El b-roll a pantalla completa va dentro de una tarjeta redondeada con el círculo de cara montado en la esquina (3.4, 14.9, 31.5), no a sangre",
+  "Casi sin palabra grande: solo 2 punch-ins con palabra (6.6 «under the hood», 52.8 «secret sauce… DOORDASH» en rojo); el resto de vueltas a cámara usan subtítulo pequeño",
+  "Ritmo más alto del lote (1 corte cada 1,1 s) con montajes de 0,4 s por plano (7.5–10.7: 7 planos en 3,3 s) usando solo material de marca",
+  "Dato sin decir cifras: panel de app superpuesto «Drone 15 min · Dasher 34 min» (19.35) y tarjetas de notificación con estrellas (63.2); cierre con b-roll a pantalla completa en vez de cara"
+ ]
+}

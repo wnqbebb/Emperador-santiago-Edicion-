@@ -1,0 +1,36 @@
+000    0.00-   1.13 (1.1s) | This factory in China is
+001    1.13-   3.75 (2.6s) | building a new robot every 10 minutes. And
+002    3.75-   4.67 (0.9s) | the crazy part is each
+003    4.67-   5.63 (1.0s) | new robot is
+004    5.63-   6.51 (0.9s) | being built by
+005    6.51-   7.47 (1.0s) | another robot.
+006    7.47-   8.59 (1.1s) | This is the latest project from
+007    8.59-  13.85 (5.3s) | UBTEC in China. And it's basically one giant industrial humanoid robot factory.
+008   13.85-  15.52 (1.7s) | On the floor, there are humanoid robots walking
+009   15.52-  17.93 (2.4s) | around moving parts and materials. Around
+010   17.93-  18.85 (0.9s) | the edges,
+011   18.85-  23.86 (5.0s) | giant robot arms are spinning to install 2 ,000 screws per robot.
+012   23.86-  24.90 (1.0s) | The whole place sits on two
+013   24.90-  28.15 (3.3s) | and a half football fields of industrial factory floor. And
+014   28.15-  30.07 (1.9s) | it works basically like a car plant, except
+015   30.07-  31.36 (1.3s) | that the finished products walk
+016   31.36-  32.53 (1.2s) | out the front door.
+017   32.53-  34.33 (1.8s) | But here's the wildest part about this whole project.
+018   34.33-  37.33 (3.0s) | These particular robots never have to stop working.
+019   37.33-  38.91 (1.6s) | Because instead of having to charge up like
+020   38.91-  39.96 (1.0s) | normal robots,
+021   39.96-  40.67 (0.7s) | these guys have two
+022   40.67-  42.50 (1.8s) | different battery packs in
+023   42.50-  43.42 (0.9s) | their back. When
+024   43.42-  44.88 (1.5s) | one battery is running low, they just walk
+025   44.88-  54.55 (9.7s) | over to the charging station, twist their torso, unload the dead battery and reload for themselves. A complete battery upgrade in three minutes, no human required. And
+026   54.55-  56.89 (2.3s) | what that means is that this factory can run 24
+027   56.89-  61.19 (4.3s) | -7 without any of the robot labor needing to take any breaks.
+028   61.19-  63.19 (2.0s) | I'm telling you, robots building other robots used
+029   63.19-  65.23 (2.0s) | to be something out of a sci -fi movie.
+030   65.23-  68.36 (3.1s) | But now it's a literal production line working in China with
+031   68.36-  70.28 (1.9s) | a volume quota attached.
+032   70.28-  72.20 (1.9s) | It seems crazy now, but this type of production, robots
+033   72.20-  73.03 (0.8s) | building other
+034   73.03-  75.03 (2.0s) | robots, is gonna be normalized around
+035   75.03-  76.16 (1.1s) | the globe.

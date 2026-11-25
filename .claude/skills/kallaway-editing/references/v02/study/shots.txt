@@ -1,0 +1,32 @@
+000    0.00-   4.55 (4.5s) | You can now run agentic workflows straight from the main chat in Gemini with tasks.
+001    4.55-   7.67 (3.1s) | If you use any Google product, this is now the easiest way to get way
+002    7.67-   8.76 (1.1s) | more work done.
+003    8.76-  11.93 (3.2s) | Think of tasks in Gemini like a digital assistant that can work 24
+004   11.93-  13.39 (1.5s) | -7 in the background,
+005   13.39-  16.48 (3.1s) | and now more easily accessible directly in the main chat.
+006   16.48-  18.69 (2.2s) | All you have to do is flip from chat to tasks and
+007   18.69-  20.31 (1.6s) | tell Gemini what you need done.
+008   20.31-  29.49 (9.2s) | So for example, I just wrote every six months, go into my Gmail and build a spreadsheet that allows me to decide how much budget I should allocate to my subscriptions moving forward. Just like that,
+009   29.49-  32.70 (3.2s) | tasks were launched and Gemini's already working so I can save money.
+010   32.70-  36.25 (3.5s) | And the cool part is it'll keep going on its own cloud computer, even if I walk away
+011   36.25-  37.75 (1.5s) | from my phone or laptop.
+012   37.75-  42.09 (4.3s) | Now the reason tasks is so powerful is because of all the connected apps it has access to.
+013   42.09-  46.59 (4.5s) | From things like Instacart and OpenTable to Gemini's most direct interactions like Gmail,
+014   46.59-  47.09 (0.5s) | Docs,
+015   47.09-  47.63 (0.5s) | Calendar and
+016   47.63-  48.22 (0.6s) | Drive.
+017   48.22-  51.35 (3.1s) | Task has the smoothest possible connection to all of those products.
+018   51.35-  52.81 (1.5s) | This means if you use Google Workspace to
+019   52.81-  53.52 (0.7s) | run your life
+020   53.52-  54.14 (0.6s) | for business,
+021   54.14-  54.73 (0.6s) | tasks will
+022   54.73-  55.02 (0.3s) | be the
+023   55.02-  55.77 (0.8s) | easiest way to
+024   55.77-  56.44 (0.7s) | build out proactive
+025   56.44-  56.90 (0.5s) | workflows.
+026   56.90-  57.48 (0.6s) | And
+027   57.48-  63.03 (5.5s) | for a second example, I wanted tasks to build out a family events calendar for my local neighborhood in Brooklyn.
+028   63.03-  63.82 (0.8s) | So I just asked it,
+029   63.82-  75.50 (11.7s) | search for all the local events, farmers, markets and concerts happening in my neighborhood, build a Google sheet with links for each and send me updates anytime new things are announced. Because tasks in Gemini runs continuous actions for me,
+030   75.50-  83.76 (8.3s) | I never miss a thing. With tasks, Gemini is now shifting from sharing knowledge with you to helping you get more done, which makes it dramatically more impactful for your everyday life.
+031   83.76-  87.12 (3.4s) | If you want to try it out, tasks is now available free to all users.

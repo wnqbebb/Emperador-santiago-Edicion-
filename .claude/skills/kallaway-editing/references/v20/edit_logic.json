@@ -1,0 +1,875 @@
+{
+ "triggers": [
+  {
+   "t_word": 0.2,
+   "word": "robot",
+   "element": "render de la máquina + rótulo «COTTON FARM AI ROBOT»",
+   "category": "hook_banner",
+   "offset_s": -0.2,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 0.94,
+   "word": "future",
+   "element": "planta con dispositivo blanco",
+   "category": "hook_banner",
+   "offset_s": -0.19,
+   "why": "ilustración",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 1.66,
+   "word": "AI",
+   "element": "campo 3D con marcadores rojos",
+   "category": "hook_banner",
+   "offset_s": -0.16,
+   "why": "literal (IA = visión de máquina)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 2.48,
+   "word": "farming.",
+   "element": "aéreo del campo real",
+   "category": "hook_banner",
+   "offset_s": 0.11,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 2.98,
+   "word": "And",
+   "element": "cara completa",
+   "category": "face_full_word",
+   "offset_s": 0.06,
+   "why": "promesa",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 4.72,
+   "word": "As",
+   "element": "máquina real rodando por el campo",
+   "category": "split_broll",
+   "offset_s": -0.05,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 6.64,
+   "word": "think",
+   "element": "campo 3D con puntos rojos",
+   "category": "split_graphic",
+   "offset_s": 0.49,
+   "why": "concepto → visión de máquina (+0.5 s)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 8.0,
+   "word": "decide",
+   "element": "HUD de plantas holográficas",
+   "category": "split_graphic",
+   "offset_s": -0.08,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 9.56,
+   "word": "exactly",
+   "element": "anillo cortador sobre el tallo",
+   "category": "split_graphic",
+   "offset_s": 0.24,
+   "why": "literal (+0.24 s)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 11.14,
+   "word": "The",
+   "element": "cabina azul",
+   "category": "split_graphic",
+   "offset_s": 0.0,
+   "why": "presentación",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 11.98,
+   "word": "VTM",
+   "element": "rótulo «VTM 09B»",
+   "category": "split_graphic",
+   "offset_s": -0.05,
+   "why": "nombre propio → rótulo",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 13.68,
+   "word": "108",
+   "element": "flecha + «180 different arms»",
+   "category": "split_graphic",
+   "offset_s": -0.21,
+   "why": "dato → texto (cifra del rótulo ≠ voz)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 15.62,
+   "word": "83",
+   "element": "«83 plants/second»",
+   "category": "split_graphic",
+   "offset_s": 0.15,
+   "why": "dato → texto",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 17.46,
+   "word": "Now",
+   "element": "planta con láser en el ápice",
+   "category": "split_graphic",
+   "offset_s": 0.02,
+   "why": "definición",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 18.9,
+   "word": "topping.",
+   "element": "disco blanco sobre la punta",
+   "category": "split_graphic",
+   "offset_s": 0.1,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 19.7,
+   "word": "cotton",
+   "element": "campo de algodón real",
+   "category": "split_broll",
+   "offset_s": -0.18,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 23.08,
+   "word": "human",
+   "element": "manos enguantadas / trabajadoras",
+   "category": "split_broll",
+   "offset_s": -1.98,
+   "why": "literal (se adelanta ≈2 s y se mantiene)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 23.9,
+   "word": "Everything",
+   "element": "cara completa",
+   "category": "face_full_word",
+   "offset_s": 0.04,
+   "why": "contraste",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 25.76,
+   "word": "Planting,",
+   "element": "aéreo de tractores sembrando (pantalla completa + círculo)",
+   "category": "pip_broll",
+   "offset_s": -0.11,
+   "why": "1 palabra = 1 plano",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 26.38,
+   "word": "spraying,",
+   "element": "robot pulverizador",
+   "category": "pip_broll",
+   "offset_s": -0.1,
+   "why": "1 palabra = 1 plano",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 26.98,
+   "word": "picking,",
+   "element": "cosechadora verde",
+   "category": "pip_broll",
+   "offset_s": 0.01,
+   "why": "1 palabra = 1 plano",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 27.72,
+   "word": "97",
+   "element": "cosechadora roja",
+   "category": "pip_broll",
+   "offset_s": -0.15,
+   "why": "dato",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 29.72,
+   "word": "machines",
+   "element": "cenital con tres cosechadoras",
+   "category": "pip_broll",
+   "offset_s": -0.4,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 30.7,
+   "word": "But",
+   "element": "cara completa",
+   "category": "face_full_word",
+   "offset_s": -0.09,
+   "why": "giro",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 32.98,
+   "word": "hard",
+   "element": "manos y trabajadora",
+   "category": "split_broll",
+   "offset_s": -0.57,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 34.38,
+   "word": "judgment",
+   "element": "HUD con paneles de datos",
+   "category": "split_graphic",
+   "offset_s": -0.64,
+   "why": "concepto",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 35.14,
+   "word": "See,",
+   "element": "cara completa",
+   "category": "aroll_plain",
+   "offset_s": -0.02,
+   "why": "explicación",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 35.98,
+   "word": "cotton",
+   "element": "time-lapse de planta en maceta",
+   "category": "full_graphic",
+   "offset_s": -0.11,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 38.28,
+   "word": "never",
+   "element": "cara completa",
+   "category": "aroll_plain",
+   "offset_s": -0.12,
+   "why": "consecuencia",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 39.44,
+   "word": "snip",
+   "element": "óvalo blanco dibujándose alrededor del corte",
+   "category": "full_graphic",
+   "offset_s": -0.03,
+   "why": "literal (señala el punto)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 42.02,
+   "word": "produce.",
+   "element": "cápsulas blancas brotando",
+   "category": "full_graphic",
+   "offset_s": -0.52,
+   "why": "resultado",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 42.5,
+   "word": "But",
+   "element": "cara completa",
+   "category": "aroll_plain",
+   "offset_s": 0.0,
+   "why": "giro",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 43.06,
+   "word": "every",
+   "element": "campo de cápsulas",
+   "category": "split_broll",
+   "offset_s": 0.11,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 45.94,
+   "word": "So",
+   "element": "cara completa",
+   "category": "aroll_plain",
+   "offset_s": -0.02,
+   "why": "razonamiento",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 48.2,
+   "word": "decide",
+   "element": "trabajadora",
+   "category": "split_broll",
+   "offset_s": -0.11,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 49.56,
+   "word": "And",
+   "element": "cara completa",
+   "category": "face_full_word",
+   "offset_s": -0.01,
+   "why": "bisagra problema→solución",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 51.14,
+   "word": "As",
+   "element": "tractor cenital rayos X",
+   "category": "split_graphic",
+   "offset_s": -0.05,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 52.42,
+   "word": "nine",
+   "element": "módulo de cámaras",
+   "category": "split_graphic",
+   "offset_s": -0.08,
+   "why": "dato → pieza",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 55.8,
+   "word": "AI",
+   "element": "campo → 3D → puntos rojos",
+   "category": "split_graphic",
+   "offset_s": -0.12,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 59.06,
+   "word": "arms",
+   "element": "anillo cortador",
+   "category": "split_graphic",
+   "offset_s": -0.13,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 61.56,
+   "word": "machine",
+   "element": "frontal de la máquina",
+   "category": "split_graphic",
+   "offset_s": -0.12,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 66.06,
+   "word": "That's",
+   "element": "cara completa",
+   "category": "aroll_plain",
+   "offset_s": -0.04,
+   "why": "comparación humana",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 68.24,
+   "word": "now",
+   "element": "máquina real al anochecer",
+   "category": "split_broll",
+   "offset_s": -0.13,
+   "why": "consecuencia",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 72.6,
+   "word": "night",
+   "element": "lente / módulo de cámaras",
+   "category": "split_graphic",
+   "offset_s": -0.9,
+   "why": "literal (0.9 s antes)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 75.82,
+   "word": "It's",
+   "element": "cara completa",
+   "category": "aroll_plain",
+   "offset_s": -0.04,
+   "why": "reflexión",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 77.94,
+   "word": "industrial",
+   "element": "frontal de la máquina a negro",
+   "category": "split_graphic",
+   "offset_s": -0.11,
+   "why": "literal",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 79.48,
+   "word": "think",
+   "element": "HUD de plantas",
+   "category": "split_graphic",
+   "offset_s": -0.19,
+   "why": "concepto (recap)",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  },
+  {
+   "t_word": 80.84,
+   "word": "And",
+   "element": "cara completa con palabras grandes",
+   "category": "title_cta",
+   "offset_s": -0.01,
+   "why": "cierre",
+   "evidence": "observed (hoja 0.5 s + detección de corte)"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 3.04,
+   "from": "v20_s01 (hook_banner)",
+   "to": "v20_s02 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 4.67,
+   "from": "v20_s02 (face_full_word)",
+   "to": "v20_s03 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 7.13,
+   "from": "v20_s03 (split_broll)",
+   "to": "v20_s04 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 9.8,
+   "from": "v20_s04 (split_graphic)",
+   "to": "v20_s05 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 11.14,
+   "from": "v20_s05 (split_graphic)",
+   "to": "v20_s06 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 11.93,
+   "from": "v20_s06 (split_graphic)",
+   "to": "v20_s07 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 13.47,
+   "from": "v20_s07 (split_graphic)",
+   "to": "v20_s08 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 15.18,
+   "from": "v20_s08 (split_graphic)",
+   "to": "v20_s09 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 17.48,
+   "from": "v20_s09 (split_graphic)",
+   "to": "v20_s10 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 19.52,
+   "from": "v20_s10 (split_graphic)",
+   "to": "v20_s11 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 21.1,
+   "from": "v20_s11 (split_broll)",
+   "to": "v20_s12 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 23.94,
+   "from": "v20_s12 (split_broll)",
+   "to": "v20_s13 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 25.65,
+   "from": "v20_s13 (face_full_word)",
+   "to": "v20_s14 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 27.57,
+   "from": "v20_s14 (pip_broll)",
+   "to": "v20_s15 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 30.61,
+   "from": "v20_s15 (pip_broll)",
+   "to": "v20_s16 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 32.41,
+   "from": "v20_s16 (face_full_word)",
+   "to": "v20_s17 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 33.74,
+   "from": "v20_s17 (split_broll)",
+   "to": "v20_s18 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 35.12,
+   "from": "v20_s18 (split_graphic)",
+   "to": "v20_s19 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 35.87,
+   "from": "v20_s19 (aroll_plain)",
+   "to": "v20_s20 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 38.16,
+   "from": "v20_s20 (full_graphic)",
+   "to": "v20_s21 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 39.25,
+   "from": "v20_s21 (aroll_plain)",
+   "to": "v20_s22 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 42.5,
+   "from": "v20_s22 (full_graphic)",
+   "to": "v20_s23 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 43.17,
+   "from": "v20_s23 (aroll_plain)",
+   "to": "v20_s24 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 45.92,
+   "from": "v20_s24 (split_broll)",
+   "to": "v20_s25 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 48.09,
+   "from": "v20_s25 (aroll_plain)",
+   "to": "v20_s26 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 49.55,
+   "from": "v20_s26 (split_broll)",
+   "to": "v20_s27 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  },
+  {
+   "t": 51.09,
+   "from": "v20_s27 (face_full_word)",
+   "to": "v20_s28 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 52.34,
+   "from": "v20_s28 (split_graphic)",
+   "to": "v20_s29 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 55.68,
+   "from": "v20_s29 (split_graphic)",
+   "to": "v20_s30 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 58.93,
+   "from": "v20_s30 (split_graphic)",
+   "to": "v20_s31 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 61.44,
+   "from": "v20_s31 (split_graphic)",
+   "to": "v20_s32 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 66.02,
+   "from": "v20_s32 (split_graphic)",
+   "to": "v20_s33 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 68.11,
+   "from": "v20_s33 (aroll_plain)",
+   "to": "v20_s34 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 71.7,
+   "from": "v20_s34 (split_broll)",
+   "to": "v20_s35 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 75.78,
+   "from": "v20_s35 (split_graphic)",
+   "to": "v20_s36 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 77.83,
+   "from": "v20_s36 (aroll_plain)",
+   "to": "v20_s37 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "derived (detección de corte ffmpeg + hoja 0.5 s; no mirado fotograma a fotograma)"
+  },
+  {
+   "t": 80.83,
+   "from": "v20_s37 (split_graphic)",
+   "to": "v20_s38 (title_cta)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cambio completo de un fotograma al siguiente; sin fundido, flash ni desenfoque intermedio.",
+   "evidence": "observed (tira fotograma a fotograma)"
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.0,
+   "fx": "slide (rótulo del gancho, sin caja)",
+   "detail": "«COTTON FARM / AI ROBOT» entra desde la derecha: «C / A» a 0.04 s, «COTTO / AI RO» a 0.46 s, completo ≈1.5 s. En 0.83–1.3 se ve con franjas moradas/desenfoque (aberración cromática) sobre el plano claro. Fijo hasta 3.04."
+  },
+  {
+   "t": 3.04,
+   "fx": "pop palabra a palabra + itálica",
+   "detail": "and·what·it's·doing·is·pretty·insane; «pretty» en serif itálica (3.86–4.12)."
+  },
+  {
+   "t": 11.93,
+   "fx": "escala + slide (rótulo)",
+   "detail": "«VTM 09B» aparece a la izquierda y grande, se centra y reduce en ≈6 fotogramas (11.93–12.18)."
+  },
+  {
+   "t": 13.47,
+   "fx": "texto + flecha (callout)",
+   "detail": "«180 different arms» blanco con flecha blanca hacia arriba y marco azul sobre un brazo; deriva vertical lenta. La voz dice «108»."
+  },
+  {
+   "t": 15.77,
+   "fx": "texto dato centrado",
+   "detail": "«83 plants/second» blanco, sans condensada bold, sobre la acción; presente desde el corte."
+  },
+  {
+   "t": 25.65,
+   "fx": "pop, 1 palabra por plano",
+   "detail": "«Planting» (25.65) / «spraying» (26.28) / «picking» (26.99): el subtítulo cambia en el mismo fotograma que el corte."
+  },
+  {
+   "t": 39.41,
+   "fx": "línea que se dibuja (write-on de trazo)",
+   "detail": "Óvalo blanco a mano alzada alrededor del corte: 39.41 guion corto → 39.58 media vuelta → 39.87 cerrado. Se borra ≈41.0."
+  },
+  {
+   "t": 80.83,
+   "fx": "pop palabra a palabra + itálica",
+   "detail": "And·full·end·to·end·automation·is·right·around·the·corner; «automation» en serif itálica (81.70–82.10)."
+  }
+ ],
+ "camera": [
+  {
+   "t": 3.04,
+   "move": "punch-in (corte)",
+   "scale_or_dir": "split → cara ≈2x",
+   "dur_s": 0.0
+  },
+  {
+   "t": 0.0,
+   "move": "órbita 3D (del render)",
+   "scale_or_dir": "alrededor de la máquina",
+   "dur_s": 0.75
+  },
+  {
+   "t": 11.93,
+   "move": "zoom-out leve (del render)",
+   "scale_or_dir": "≈1.1→1.0",
+   "dur_s": 1.5
+  },
+  {
+   "t": 27.57,
+   "move": "travelling lateral (del clip)",
+   "scale_or_dir": "sigue a la cosechadora roja",
+   "dur_s": 1.75
+  },
+  {
+   "t": 35.87,
+   "move": "cámara fija (time-lapse)",
+   "scale_or_dir": "sin movimiento; crece la planta",
+   "dur_s": 2.29
+  },
+  {
+   "t": 68.11,
+   "move": "seguimiento trasero (del clip)",
+   "scale_or_dir": "avanza tras la máquina",
+   "dur_s": 2.7
+  }
+ ],
+ "rhythm": {
+  "events_per_10s": [
+   15,
+   8,
+   20,
+   9,
+   9,
+   4,
+   4,
+   7,
+   2
+  ],
+  "avg_hold_text_s": 0.26,
+  "notes": "Arranque muy denso (0–20 s: plano nuevo cada ≈0.9 s). 4 face_full_word + cierre en 83.7 s → cara+palabra cada ≈17 s (intervalos 6.7–20.9 s); además 6 aroll_plain cortos (0.67–2.2 s) que parten las frases. Bloques largos de un solo recurso al final (61.44–66.02 y 71.70–75.78, >4 s) bajan el ritmo antes del cierre. [derived] events_per_10s = cortes detectados por ffmpeg (scene>0.12 en mitad superior + inferior, deduplicados a 0.09 s; incluye cortes internos del material de arriba). avg_hold_text_s = duración media por palabra grande en face_full_word (36 palabras en 9.5 s). Subtítulo pequeño: 263 palabras en 74.1 s → ≈0.56 s por bloque de 2 palabras (derived). Duración media de escena 2.20 s."
+ },
+ "typography": "Subtítulo: sans geométrica bold blanca ≈30 px, 1–3 palabras, centro y≈54 % en split y y≈68 % en aroll_plain; con cajita gris en tarjeta/pantalla completa. Palabra grande: sans bold blanca con glow; clave en serif itálica blanca (pretty, automated, topping, automation). Rótulo del gancho SIN caja: sans extendida ultra-black metalizada, blanco + amarillo ≈#CFBD2D. Rótulos de dato: «VTM 09B» en sans extendida blanca; «180 different arms» y «83 plants/second» en sans condensada bold blanca.",
+ "textures": "Sin grano/papel añadidos. El material de arriba es mayoritariamente render 3D promocional (negro, rejilla, holograma azul/verde, rayos X) con restos de texto chino. Glow en palabra grande; trazo a mano blanco (39.4).",
+ "distinct": [
+  "Rótulo del gancho SIN franja roja: texto metalizado blanco+amarillo directamente sobre el video.",
+  "Casi toda la evidencia es UN solo video promocional del fabricante troceado (15 split_graphic + el gancho, 16 de 38 escenas, 38.8 s de 83.7): renders 3D reutilizados 2–3 veces (anillo cortador ×3, HUD ×3, campo con puntos rojos ×3).",
+  "pip a SANGRE COMPLETA sin tarjeta (25.65–30.61) con 1 palabra = 1 plano («Planting / spraying / picking» a 0.63–0.71 s por plano).",
+  "Explicación con time-lapse de planta en tarjeta sin cara + óvalo dibujado a mano sobre el punto de corte (35.87–42.50), intercalada con aroll_plain de 0.7–1.1 s.",
+  "Cifras como rótulo sobre la pieza («180 different arms», «83 plants/second») — con un error observable: el rótulo dice 180 y él dice 108."
+ ]
+}

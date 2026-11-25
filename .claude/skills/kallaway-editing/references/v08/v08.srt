@@ -1,0 +1,279 @@
+1
+00:00:00,000 --> 00:00:02,100
+DoorDash is completely reinventing the
+
+2
+00:00:02,100 --> 00:00:03,560
+food delivery space. And I
+
+3
+00:00:03,560 --> 00:00:04,839
+don't think people fully realize
+
+4
+00:00:04,839 --> 00:00:06,559
+what they're actually working on
+
+5
+00:00:06,559 --> 00:00:07,839
+under the hood. Last week,
+
+6
+00:00:07,940 --> 00:00:08,919
+they announced a ton of
+
+7
+00:00:08,919 --> 00:00:10,179
+new features at their annual
+
+8
+00:00:10,179 --> 00:00:11,259
+event. Now the biggest one
+
+9
+00:00:11,259 --> 00:00:12,380
+to me was their ultra
+
+10
+00:00:12,380 --> 00:00:14,539
+quiet food delivery drone DoorDash
+
+11
+00:00:14,539 --> 00:00:15,439
+Air. This thing can fly
+
+12
+00:00:15,439 --> 00:00:16,899
+straight from a restaurant to
+
+13
+00:00:16,899 --> 00:00:18,460
+your yard, over top of
+
+14
+00:00:18,460 --> 00:00:19,780
+all the traffic and dramatically
+
+15
+00:00:19,780 --> 00:00:21,460
+reduces delivery times. But it
+
+16
+00:00:21,460 --> 00:00:22,859
+turns out this drone program
+
+17
+00:00:22,859 --> 00:00:24,320
+is only a small piece
+
+18
+00:00:24,320 --> 00:00:26,140
+of their overall master plan.
+
+19
+00:00:26,320 --> 00:00:26,940
+So to learn more, I
+
+20
+00:00:26,940 --> 00:00:28,219
+sat down with Stanley Tang,
+
+21
+00:00:28,339 --> 00:00:29,100
+one of the original co
+
+22
+00:00:29,100 --> 00:00:30,539
+-founders and head of labs
+
+23
+00:00:30,539 --> 00:00:31,839
+at DoorDash. He is the
+
+24
+00:00:31,839 --> 00:00:33,240
+mastermind behind the air launch
+
+25
+00:00:33,240 --> 00:00:34,299
+and he runs their R
+
+26
+00:00:34,299 --> 00:00:35,420
+&D lab. And what he
+
+27
+00:00:35,420 --> 00:00:37,039
+said really surprised me. In
+
+28
+00:00:37,039 --> 00:00:37,960
+a large part of what
+
+29
+00:00:37,960 --> 00:00:39,000
+we built, we would call
+
+30
+00:00:39,000 --> 00:00:40,619
+it the autonomous delivery platform.
+
+31
+00:00:40,880 --> 00:00:41,759
+Think of it as the
+
+32
+00:00:41,759 --> 00:00:43,820
+orchestration layer, the brains behind
+
+33
+00:00:43,820 --> 00:00:45,119
+the scenes that actually does
+
+34
+00:00:45,119 --> 00:00:46,280
+all the coordination. Is it
+
+35
+00:00:46,280 --> 00:00:47,280
+a dasher? Is it a
+
+36
+00:00:47,280 --> 00:00:48,380
+drone? Is it a dot?
+
+37
+00:00:48,640 --> 00:00:50,340
+That's what's magical about working
+
+38
+00:00:50,340 --> 00:00:51,380
+with someone like DoorDash. We
+
+39
+00:00:51,380 --> 00:00:52,920
+handle all that complexity. So
+
+40
+00:00:52,920 --> 00:00:54,020
+the secret sauce at DoorDash
+
+41
+00:00:54,020 --> 00:00:55,539
+isn't just the drones, it's
+
+42
+00:00:55,539 --> 00:00:57,619
+the entire delivery operating system
+
+43
+00:00:57,619 --> 00:00:59,079
+layer they've built to sit
+
+44
+00:00:59,079 --> 00:01:00,960
+underneath. Because DoorDash now has
+
+45
+00:01:00,960 --> 00:01:02,359
+lots of different ways to
+
+46
+00:01:02,359 --> 00:01:03,439
+deliver your food. They've got
+
+47
+00:01:03,439 --> 00:01:05,280
+dashers, the human drivers, dot,
+
+48
+00:01:05,579 --> 00:01:07,040
+the autonomous robot, and now
+
+49
+00:01:07,040 --> 00:01:08,620
+air, the delivery drones. So
+
+50
+00:01:08,620 --> 00:01:09,319
+when an order comes in,
+
+51
+00:01:09,480 --> 00:01:11,019
+they're able to intelligently route
+
+52
+00:01:11,019 --> 00:01:12,319
+and deliver it in the
+
+53
+00:01:12,319 --> 00:01:13,980
+fastest and most cost efficient
+
+54
+00:01:13,980 --> 00:01:15,079
+way possible. And as they
+
+55
+00:01:15,079 --> 00:01:16,019
+build more and more methods
+
+56
+00:01:16,019 --> 00:01:17,780
+for delivery, including things like
+
+57
+00:01:17,780 --> 00:01:19,519
+drones and autonomous vehicles, this
+
+58
+00:01:19,519 --> 00:01:21,200
+will increase their ability to
+
+59
+00:01:21,200 --> 00:01:22,920
+serve customers. That orchestration layer
+
+60
+00:01:22,920 --> 00:01:24,579
+underneath is the secret sauce
+
+61
+00:01:24,579 --> 00:01:26,060
+behind why they're so effective.
+
+62
+00:01:26,299 --> 00:01:27,340
+Stanley also broke down how
+
+63
+00:01:27,340 --> 00:01:28,620
+they're using AI in the
+
+64
+00:01:28,620 --> 00:01:30,040
+new Text DoorDash feature, as
+
+65
+00:01:30,040 --> 00:01:31,159
+well as how he runs
+
+66
+00:01:31,159 --> 00:01:32,420
+the R &D lab to
+
+67
+00:01:32,420 --> 00:01:33,780
+drive new breakthroughs. And it's
+
+68
+00:01:33,780 --> 00:01:34,939
+clear they're doing everything they
+
+69
+00:01:34,939 --> 00:01:36,739
+can to pioneer the future
+
+70
+00:01:36,739 --> 00:01:37,420
+of delivery.

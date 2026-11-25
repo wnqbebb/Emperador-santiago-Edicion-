@@ -1,0 +1,191 @@
+[
+ {
+  "t": 8.742,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 7.0,
+  "to_cut": -0.02,
+  "word": "Think",
+  "to_word": -0.06
+ },
+ {
+  "t": 10.472,
+  "dur": 0.12,
+  "kind": "pop",
+  "gain_db": 7.8,
+  "to_cut": -0.71,
+  "word": "assistant",
+  "to_word": -0.13
+ },
+ {
+  "t": 11.401,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 7.6,
+  "to_cut": 0.22,
+  "word": "work",
+  "to_word": -0.06
+ },
+ {
+  "t": 16.649,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 6.2,
+  "to_cut": 0.17,
+  "word": "you",
+  "to_word": 0.03
+ },
+ {
+  "t": 29.768,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 7.4,
+  "to_cut": 0.28,
+  "word": "were",
+  "to_word": 0.01
+ },
+ {
+  "t": 34.505,
+  "dur": 0.12,
+  "kind": "pop",
+  "gain_db": 8.2,
+  "to_cut": -1.0,
+  "word": "cloud",
+  "to_word": -0.12
+ },
+ {
+  "t": 35.422,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 8.0,
+  "to_cut": -0.08,
+  "word": "even",
+  "to_word": -0.06
+ },
+ {
+  "t": 40.693,
+  "dur": 0.28,
+  "kind": "hit/boom",
+  "gain_db": 6.0,
+  "to_cut": -1.4,
+  "word": "apps",
+  "to_word": 0.17
+ },
+ {
+  "t": 46.115,
+  "dur": 0.1,
+  "kind": "pop",
+  "gain_db": 3.8,
+  "to_cut": -0.48,
+  "word": "Gmail,",
+  "to_word": 0.07
+ },
+ {
+  "t": 52.849,
+  "dur": 0.15,
+  "kind": "pop",
+  "gain_db": 8.8,
+  "to_cut": 0.04,
+  "word": "run",
+  "to_word": -0.09
+ },
+ {
+  "t": 53.766,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 7.3,
+  "to_cut": 0.25,
+  "word": "business,",
+  "to_word": 0.13
+ },
+ {
+  "t": 59.176,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 7.9,
+  "to_cut": -0.47,
+  "word": "build",
+  "to_word": -0.08
+ },
+ {
+  "t": 60.093,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 7.9,
+  "to_cut": 0.44,
+  "word": "events",
+  "to_word": -0.17
+ },
+ {
+  "t": 65.364,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 6.1,
+  "to_cut": 1.54,
+  "word": "farmers,",
+  "to_word": -0.08
+ },
+ {
+  "t": 70.798,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 3.8,
+  "to_cut": -1.57,
+  "word": "anytime",
+  "to_word": -0.02
+ },
+ {
+  "t": 75.105,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 3.9,
+  "to_cut": -0.4,
+  "word": "me,",
+  "to_word": -0.12
+ },
+ {
+  "t": 75.256,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 4.9,
+  "to_cut": -0.24,
+  "word": "me,",
+  "to_word": 0.04
+ },
+ {
+  "t": 76.382,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 7.6,
+  "to_cut": 0.01,
+  "word": "With",
+  "to_word": -0.06
+ },
+ {
+  "t": 78.054,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 7.8,
+  "to_cut": 0.17,
+  "word": "sharing",
+  "to_word": 0.05
+ },
+ {
+  "t": 78.994,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 8.1,
+  "to_cut": -0.43,
+  "word": "you",
+  "to_word": -0.03
+ },
+ {
+  "t": 86.877,
+  "dur": 0.14,
+  "kind": "pop",
+  "gain_db": 6.7,
+  "to_cut": 0.83,
+  "word": "users.",
+  "to_word": 0.4
+ }
+]

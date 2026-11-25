@@ -1,0 +1,1060 @@
+{
+ "evidence_note": "Regla REA: tiempos de 'transitions', 'text_fx' y 'camera' son observed (tiras de fotogramas a 15 fps, ±0.07 s); 't_word' viene de evidence.json (derived, whisper); 'why' es inferred; sonido = desconocido (no se analizó el audio).",
+ "triggers": [
+  {
+   "t_word": 0.0,
+   "word": "Elon",
+   "element": "Clip de Elon en el escenario + título «THE TERAFAB IS INSANE» entrando por la derecha",
+   "category": "hook_banner",
+   "offset_s": 0.0,
+   "why": "literal: se nombra a la persona y se la ve; el título añade la promesa"
+  },
+  {
+   "t_word": 1.26,
+   "word": "biggest",
+   "element": "Render aéreo del edificio completo",
+   "category": "hook_banner",
+   "offset_s": -0.13,
+   "why": "literal: «biggest building» → el edificio"
+  },
+  {
+   "t_word": 2.62,
+   "word": "human",
+   "element": "Punch-in a la cara con palabra grande «human»",
+   "category": "face_full_word",
+   "offset_s": -0.12,
+   "why": "énfasis: superlativo dicho a cámara"
+  },
+  {
+   "t_word": 3.58,
+   "word": "TerraFab.",
+   "element": "Render a pantalla completa con rótulo de neón «TERAFAB» + cara en círculo",
+   "category": "pip_broll",
+   "offset_s": -0.08,
+   "why": "literal: el nombre se lee en la imagen"
+  },
+  {
+   "t_word": 4.3,
+   "word": "And",
+   "element": "Punch-in con palabras grandes hasta «realize» en itálica",
+   "category": "face_full_word",
+   "offset_s": 0.0,
+   "why": "cambio de tema: opinión personal → cara"
+  },
+  {
+   "t_word": 5.5,
+   "word": "how",
+   "element": "Montaje lunar/chips a pantalla completa con cara en círculo",
+   "category": "pip_broll",
+   "offset_s": -0.16,
+   "why": "énfasis: «how insane» → ritmo de cortes"
+  },
+  {
+   "t_word": 5.76,
+   "word": "insane",
+   "element": "Destello rojo con glitch (≈6 fotogramas)",
+   "category": "pip_broll",
+   "offset_s": 0.5,
+   "why": "énfasis: la palabra «insane» se alarga y el rojo llega al final de ella"
+  },
+  {
+   "t_word": 8.28,
+   "word": "This",
+   "element": "Mapa oscuro de Manhattan en la mitad superior",
+   "category": "split_graphic",
+   "offset_s": 0.02,
+   "why": "literal: «This is a map of Manhattan»"
+  },
+  {
+   "t_word": 10.04,
+   "word": "TerraFab",
+   "element": "Rectángulo rojo «Terafab, full complex 10.25 km²» con cursor de mano",
+   "category": "split_graphic",
+   "offset_s": 0.03,
+   "why": "dato: superpone la huella del edificio al mapa"
+  },
+  {
+   "t_word": 11.36,
+   "word": "times",
+   "element": "Texto «3X» turquesa/rosa enorme",
+   "category": "split_graphic",
+   "offset_s": 0.17,
+   "why": "dato: el número dicho aparece como titular"
+  },
+  {
+   "t_word": 12.02,
+   "word": "than",
+   "element": "«3X» se abre a «3X BIGGER» + contorno blanco",
+   "category": "split_graphic",
+   "offset_s": 0.05,
+   "why": "dato: completa la comparación"
+  },
+  {
+   "t_word": 13.4,
+   "word": "1700",
+   "element": "«1700» + icono de campo de fútbol dibujándose, a pantalla completa",
+   "category": "pip_broll",
+   "offset_s": -0.07,
+   "why": "dato: cifra + unidad visual"
+  },
+  {
+   "t_word": 13.96,
+   "word": "football",
+   "element": "«football» en serif itálica",
+   "category": "pip_broll",
+   "offset_s": 0.04,
+   "why": "literal por palabra (write-on)"
+  },
+  {
+   "t_word": 15.08,
+   "word": "long",
+   "element": "«long» y render recorriendo el edificio a lo largo",
+   "category": "pip_broll",
+   "offset_s": 0.02,
+   "why": "literal: la longitud se recorre"
+  },
+  {
+   "t_word": 15.8,
+   "word": "one",
+   "element": "«2.5 MILES» en diagonal sobre el edificio + «in one single»",
+   "category": "pip_broll",
+   "offset_s": 0.2,
+   "why": "dato adicional no dicho: la imagen añade la cifra en millas"
+  },
+  {
+   "t_word": 16.7,
+   "word": "Texas",
+   "element": "«Texas building» abajo a la izquierda",
+   "category": "pip_broll",
+   "offset_s": 0.0,
+   "why": "literal por palabra"
+  },
+  {
+   "t_word": 17.78,
+   "word": "It's",
+   "element": "Punch-in «it's» / «insane» (itálica)",
+   "category": "face_full_word",
+   "offset_s": -0.05,
+   "why": "énfasis: veredicto"
+  },
+  {
+   "t_word": 18.4,
+   "word": "But",
+   "element": "Vuelta a pantalla dividida con render nocturno",
+   "category": "split_broll",
+   "offset_s": -0.01,
+   "why": "cambio de tema: «But the wildest part»"
+  },
+  {
+   "t_word": 21.96,
+   "word": "master",
+   "element": "Texto cromado «MASTER PLAN» en la mitad superior",
+   "category": "split_graphic",
+   "offset_s": 0.04,
+   "why": "literal: nombra el concepto"
+  },
+  {
+   "t_word": 25.84,
+   "word": "See,",
+   "element": "Punch-in largo palabra a palabra hasta «companies»",
+   "category": "face_full_word",
+   "offset_s": -0.02,
+   "why": "cambio de tema: empieza la historia"
+  },
+  {
+   "t_word": 28.04,
+   "word": "asked",
+   "element": "Chip AMD en 3D",
+   "category": "split_broll",
+   "offset_s": -0.05,
+   "why": "literal: «chip companies» → AMD"
+  },
+  {
+   "t_word": 28.9,
+   "word": "everything",
+   "element": "Clip de Jensen Huang en escenario",
+   "category": "split_broll",
+   "offset_s": 0.17,
+   "why": "metáfora/evidencia: el CEO de Nvidia representa a los fabricantes"
+  },
+  {
+   "t_word": 30.06,
+   "word": "And",
+   "element": "Punch-in «And even if they would've let him…»",
+   "category": "face_full_word",
+   "offset_s": -0.03,
+   "why": "énfasis/humor: paréntesis a cámara"
+  },
+  {
+   "t_word": 32.16,
+   "word": "the",
+   "element": "Maquinaria de fábrica de chips",
+   "category": "split_broll",
+   "offset_s": 0.0,
+   "why": "literal: «total chip supply»"
+  },
+  {
+   "t_word": 33.78,
+   "word": "only",
+   "element": "Mosaico de chips AMD",
+   "category": "split_broll",
+   "offset_s": -0.12,
+   "why": "dato: «only 2%» sobre imagen de chips (la cifra NO se escribe arriba)"
+  },
+  {
+   "t_word": 35.16,
+   "word": "what",
+   "element": "Clip de Elon con micrófono",
+   "category": "split_broll",
+   "offset_s": -0.13,
+   "why": "literal: «what he needs»"
+  },
+  {
+   "t_word": 36.96,
+   "word": "Tesla,",
+   "element": "Tesla rojo a pantalla completa, sin él",
+   "category": "full_graphic",
+   "offset_s": -0.13,
+   "why": "literal: lista 1/4"
+  },
+  {
+   "t_word": 37.78,
+   "word": "SpaceX,",
+   "element": "Astronauta SpaceX a pantalla completa",
+   "category": "full_graphic",
+   "offset_s": -0.12,
+   "why": "literal: lista 2/4"
+  },
+  {
+   "t_word": 38.46,
+   "word": "Grock,",
+   "element": "Pantalla blanca tecleando «Grok|»",
+   "category": "full_graphic",
+   "offset_s": -0.05,
+   "why": "literal: lista 3/4 (logo-texto)"
+  },
+  {
+   "t_word": 38.94,
+   "word": "Optimus.",
+   "element": "Robot Optimus a pantalla completa",
+   "category": "full_graphic",
+   "offset_s": -0.11,
+   "why": "literal: lista 4/4"
+  },
+  {
+   "t_word": 39.6,
+   "word": "So",
+   "element": "Cara a pantalla completa con subtítulo pequeño",
+   "category": "aroll_plain",
+   "offset_s": -0.02,
+   "why": "cambio de tema: conclusión parcial"
+  },
+  {
+   "t_word": 41.0,
+   "word": "play",
+   "element": "Plano general del evento TeraFab",
+   "category": "split_broll",
+   "offset_s": -0.04,
+   "why": "evidencia: el anuncio real"
+  },
+  {
+   "t_word": 43.72,
+   "word": "only",
+   "element": "Macro de litografía de chips",
+   "category": "split_broll",
+   "offset_s": 0.12,
+   "why": "literal: «make enough chips»"
+  },
+  {
+   "t_word": 46.0,
+   "word": "keep",
+   "element": "Teaser rojo de Tesla + wordmark «TESLA»",
+   "category": "split_broll",
+   "offset_s": -0.08,
+   "why": "literal: «his current projects»"
+  },
+  {
+   "t_word": 48.04,
+   "word": "What",
+   "element": "Cara a pantalla completa",
+   "category": "aroll_plain",
+   "offset_s": 0.01,
+   "why": "cambio de tema: «What this means»"
+  },
+  {
+   "t_word": 49.62,
+   "word": "Elon",
+   "element": "Render aéreo del TeraFab",
+   "category": "split_broll",
+   "offset_s": -0.03,
+   "why": "literal: «world's biggest factory»"
+  },
+  {
+   "t_word": 52.26,
+   "word": "produces",
+   "element": "Montaje de chips (3 planos)",
+   "category": "split_broll",
+   "offset_s": -0.12,
+   "why": "literal: «computer chips»"
+  },
+  {
+   "t_word": 53.84,
+   "word": "all",
+   "element": "Coche Tesla → cohete (54.30) → mano de robot (55.01)",
+   "category": "split_broll",
+   "offset_s": -0.2,
+   "why": "literal: «all of his own companies», una imagen por empresa"
+  },
+  {
+   "t_word": 55.78,
+   "word": "if",
+   "element": "Cara a pantalla completa",
+   "category": "aroll_plain",
+   "offset_s": -0.06,
+   "why": "énfasis: condicional"
+  },
+  {
+   "t_word": 57.34,
+   "word": "ultimate",
+   "element": "Render carretera «TERAFAB»",
+   "category": "split_broll",
+   "offset_s": 0.13,
+   "why": "metáfora: ventaja = el complejo"
+  },
+  {
+   "t_word": 59.18,
+   "word": "At",
+   "element": "Cara a pantalla completa",
+   "category": "aroll_plain",
+   "offset_s": -0.04,
+   "why": "cambio de tema: entra la cifra"
+  },
+  {
+   "t_word": 60.0,
+   "word": "this",
+   "element": "Vista cenital del edificio",
+   "category": "split_broll",
+   "offset_s": -0.02,
+   "why": "literal: «this one building»"
+  },
+  {
+   "t_word": 61.68,
+   "word": "200",
+   "element": "Texto «200 billion / AI chips per year» entrando desde la derecha sobre b-roll de fábrica",
+   "category": "split_graphic",
+   "offset_s": 0.24,
+   "why": "dato: la cifra clave como titular"
+  },
+  {
+   "t_word": 64.42,
+   "word": "And",
+   "element": "Cara a pantalla completa",
+   "category": "aroll_plain",
+   "offset_s": -0.02,
+   "why": "transición antes de «to space»"
+  },
+  {
+   "t_word": 65.4,
+   "word": "directly",
+   "element": "Losa/servidor blanco 3D que se despliega → satélite (67.28)",
+   "category": "split_graphic",
+   "offset_s": 0.12,
+   "why": "metáfora visual: centro de datos orbital"
+  },
+  {
+   "t_word": 68.38,
+   "word": "So",
+   "element": "Punch-in «So the master plan in summary… is this»",
+   "category": "face_full_word",
+   "offset_s": -0.06,
+   "why": "cambio de tema: anuncia el resumen"
+  },
+  {
+   "t_word": 70.68,
+   "word": "Build",
+   "element": "Tarjeta redondeada a pantalla completa con vista cenital",
+   "category": "full_graphic",
+   "offset_s": -0.07,
+   "why": "literal: «biggest building» (recap 1/4)"
+  },
+  {
+   "t_word": 73.14,
+   "word": "produce",
+   "element": "Macro de chip sepia en tarjeta",
+   "category": "full_graphic",
+   "offset_s": -0.07,
+   "why": "literal: «chip supply» (recap 2/4)"
+  },
+  {
+   "t_word": 76.48,
+   "word": "send",
+   "element": "Racks B/N en tarjeta",
+   "category": "full_graphic",
+   "offset_s": -0.07,
+   "why": "literal/cantidad: «billions of AI chips» (recap 3/4)"
+  },
+  {
+   "t_word": 79.48,
+   "word": "create",
+   "element": "Losas blancas flotando → satélite",
+   "category": "full_graphic",
+   "offset_s": -0.07,
+   "why": "literal: «floating data centers» (recap 4/4)"
+  },
+  {
+   "t_word": 82.68,
+   "word": "Never",
+   "element": "Cara a pantalla completa, frase final",
+   "category": "title_cta",
+   "offset_s": -0.01,
+   "why": "cierre: sentencia a cámara"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 0.27,
+   "from": "v05_s01 (hook_banner)",
+   "to": "v05_s01 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: Elon en escenario → bloques 3D blancos; el título sigue deslizándose por encima"
+  },
+  {
+   "t": 1.13,
+   "from": "v05_s01 (hook_banner)",
+   "to": "v05_s01 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: bloques 3D → render aéreo"
+  },
+  {
+   "t": 1.79,
+   "from": "v05_s01 (hook_banner)",
+   "to": "v05_s01 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: render aéreo → vista cenital nocturna"
+  },
+  {
+   "t": 2.5,
+   "from": "v05_s01 (hook_banner)",
+   "to": "v05_s02 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara a pantalla completa; desaparecen título y costura a la vez"
+  },
+  {
+   "t": 3.5,
+   "from": "v05_s02 (face_full_word)",
+   "to": "v05_s03 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → render a pantalla completa con cara en círculo arriba-izquierda (ya colocada)"
+  },
+  {
+   "t": 4.3,
+   "from": "v05_s03 (pip_broll)",
+   "to": "v05_s04 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "PiP → cara completa"
+  },
+  {
+   "t": 5.34,
+   "from": "v05_s04 (face_full_word)",
+   "to": "v05_s05 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → montaje a pantalla completa con círculo"
+  },
+  {
+   "t": 5.63,
+   "from": "v05_s05 (pip_broll)",
+   "to": "v05_s05 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Fondo: forma abstracta → superficie lunar"
+  },
+  {
+   "t": 6.01,
+   "from": "v05_s05 (pip_broll)",
+   "to": "v05_s05 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Fondo: superficie lunar → panel sobre la Luna"
+  },
+  {
+   "t": 6.26,
+   "from": "v05_s05 (pip_broll)",
+   "to": "v05_s05 (corte interno de la mitad superior/fondo)",
+   "type": "flash rojo",
+   "frames": 6,
+   "detail": "El fondo se tiñe de rojo puro y se deforma (≈6.26–6.72, con cortes internos a 6.34/6.42/6.46); funciona como transición-glitch hacia el chip"
+  },
+  {
+   "t": 6.72,
+   "from": "v05_s05 (pip_broll)",
+   "to": "v05_s05 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Fondo: glitch rojo → macro de chip B/N"
+  },
+  {
+   "t": 7.42,
+   "from": "v05_s05 (pip_broll)",
+   "to": "v05_s05 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Fondo: chip → Luna en el espacio"
+  },
+  {
+   "t": 8.3,
+   "from": "v05_s05 (pip_broll)",
+   "to": "v05_s06 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "PiP → pantalla dividida con mapa"
+  },
+  {
+   "t": 13.26,
+   "from": "v05_s08 (split_graphic)",
+   "to": "v05_s09 (pip_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → gráfico a pantalla completa con círculo («1700»)"
+  },
+  {
+   "t": 17.73,
+   "from": "v05_s10 (pip_broll)",
+   "to": "v05_s11 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Gráfico → cara completa"
+  },
+  {
+   "t": 18.39,
+   "from": "v05_s11 (face_full_word)",
+   "to": "v05_s12 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida"
+  },
+  {
+   "t": 19.94,
+   "from": "v05_s12 (split_broll)",
+   "to": "v05_s12 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: render nocturno → render aéreo"
+  },
+  {
+   "t": 21.69,
+   "from": "v05_s12 (split_broll)",
+   "to": "v05_s13 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: render → túnel cromado B/N"
+  },
+  {
+   "t": 22.9,
+   "from": "v05_s13 (split_graphic)",
+   "to": "v05_s13 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: «MASTER PLAN» → prisma negro"
+  },
+  {
+   "t": 23.61,
+   "from": "v05_s13 (split_graphic)",
+   "to": "v05_s14 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: prisma → vista cenital"
+  },
+  {
+   "t": 25.82,
+   "from": "v05_s14 (split_broll)",
+   "to": "v05_s15 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa"
+  },
+  {
+   "t": 27.99,
+   "from": "v05_s15 (face_full_word)",
+   "to": "v05_s16 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (chip AMD)"
+  },
+  {
+   "t": 29.07,
+   "from": "v05_s16 (split_broll)",
+   "to": "v05_s16 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: AMD → Jensen Huang"
+  },
+  {
+   "t": 30.03,
+   "from": "v05_s16 (split_broll)",
+   "to": "v05_s17 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara completa"
+  },
+  {
+   "t": 32.16,
+   "from": "v05_s17 (face_full_word)",
+   "to": "v05_s18 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (fábrica)"
+  },
+  {
+   "t": 33.66,
+   "from": "v05_s18 (split_broll)",
+   "to": "v05_s18 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: fábrica → mosaico AMD"
+  },
+  {
+   "t": 35.03,
+   "from": "v05_s18 (split_broll)",
+   "to": "v05_s18 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: AMD → Elon"
+  },
+  {
+   "t": 36.83,
+   "from": "v05_s18 (split_broll)",
+   "to": "v05_s19 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → b-roll a pantalla completa sin él (Tesla)"
+  },
+  {
+   "t": 37.66,
+   "from": "v05_s19 (full_graphic)",
+   "to": "v05_s19 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tesla → astronauta SpaceX"
+  },
+  {
+   "t": 38.41,
+   "from": "v05_s19 (full_graphic)",
+   "to": "v05_s19 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "SpaceX → pantalla blanca «Grok» (salto de luminosidad total, score de escena 1.00)"
+  },
+  {
+   "t": 38.83,
+   "from": "v05_s19 (full_graphic)",
+   "to": "v05_s19 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "«Grok» blanco → Optimus oscuro"
+  },
+  {
+   "t": 39.58,
+   "from": "v05_s19 (full_graphic)",
+   "to": "v05_s20 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Pantalla completa → cara completa con subtítulo pequeño"
+  },
+  {
+   "t": 40.96,
+   "from": "v05_s20 (aroll_plain)",
+   "to": "v05_s21 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (evento)"
+  },
+  {
+   "t": 43.0,
+   "from": "v05_s21 (split_broll)",
+   "to": "v05_s22 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara"
+  },
+  {
+   "t": 43.84,
+   "from": "v05_s22 (aroll_plain)",
+   "to": "v05_s23 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (litografía)"
+  },
+  {
+   "t": 45.92,
+   "from": "v05_s23 (split_broll)",
+   "to": "v05_s23 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: litografía → teaser rojo Tesla (parpadea 3 veces en 0,3 s)"
+  },
+  {
+   "t": 48.05,
+   "from": "v05_s23 (split_broll)",
+   "to": "v05_s24 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara"
+  },
+  {
+   "t": 49.59,
+   "from": "v05_s24 (aroll_plain)",
+   "to": "v05_s25 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (render aéreo)"
+  },
+  {
+   "t": 52.14,
+   "from": "v05_s25 (split_broll)",
+   "to": "v05_s26 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: render → chips"
+  },
+  {
+   "t": 53.64,
+   "from": "v05_s26 (split_broll)",
+   "to": "v05_s26 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: chips → Tesla"
+  },
+  {
+   "t": 54.3,
+   "from": "v05_s26 (split_broll)",
+   "to": "v05_s26 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: Tesla → cohete"
+  },
+  {
+   "t": 55.01,
+   "from": "v05_s26 (split_broll)",
+   "to": "v05_s26 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: cohete → mano de robot"
+  },
+  {
+   "t": 55.72,
+   "from": "v05_s26 (split_broll)",
+   "to": "v05_s27 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara"
+  },
+  {
+   "t": 57.47,
+   "from": "v05_s27 (aroll_plain)",
+   "to": "v05_s28 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida"
+  },
+  {
+   "t": 58.06,
+   "from": "v05_s28 (split_broll)",
+   "to": "v05_s28 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: carretera → estructura"
+  },
+  {
+   "t": 59.14,
+   "from": "v05_s28 (split_broll)",
+   "to": "v05_s29 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara"
+  },
+  {
+   "t": 59.98,
+   "from": "v05_s29 (aroll_plain)",
+   "to": "v05_s30 (split_broll)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida"
+  },
+  {
+   "t": 61.85,
+   "from": "v05_s30 (split_broll)",
+   "to": "v05_s31 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: cenital → fábrica (y entra el texto «200 billion»)"
+  },
+  {
+   "t": 63.19,
+   "from": "v05_s31 (split_graphic)",
+   "to": "v05_s31 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: cambia el b-roll bajo el texto, que permanece"
+  },
+  {
+   "t": 64.4,
+   "from": "v05_s31 (split_graphic)",
+   "to": "v05_s32 (aroll_plain)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara"
+  },
+  {
+   "t": 65.52,
+   "from": "v05_s32 (aroll_plain)",
+   "to": "v05_s33 (split_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → dividida (render blanco sobre negro)"
+  },
+  {
+   "t": 66.78,
+   "from": "v05_s33 (split_graphic)",
+   "to": "v05_s33 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: losa → piezas desplegadas"
+  },
+  {
+   "t": 67.28,
+   "from": "v05_s33 (split_graphic)",
+   "to": "v05_s33 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Mitad superior: piezas → satélite"
+  },
+  {
+   "t": 68.32,
+   "from": "v05_s33 (split_graphic)",
+   "to": "v05_s34 (face_full_word)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Dividida → cara"
+  },
+  {
+   "t": 70.61,
+   "from": "v05_s34 (face_full_word)",
+   "to": "v05_s35 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Cara → tarjeta redondeada a pantalla completa (aparece ya a tamaño final)"
+  },
+  {
+   "t": 73.07,
+   "from": "v05_s35 (full_graphic)",
+   "to": "v05_s36 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: cenital → macro de chip"
+  },
+  {
+   "t": 76.41,
+   "from": "v05_s36 (full_graphic)",
+   "to": "v05_s37 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: chip → racks"
+  },
+  {
+   "t": 76.95,
+   "from": "v05_s37 (full_graphic)",
+   "to": "v05_s37 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: racks → torres"
+  },
+  {
+   "t": 77.79,
+   "from": "v05_s37 (full_graphic)",
+   "to": "v05_s37 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: torres → rack en primer plano"
+  },
+  {
+   "t": 79.41,
+   "from": "v05_s37 (full_graphic)",
+   "to": "v05_s38 (full_graphic)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: rack → losas flotando"
+  },
+  {
+   "t": 81.04,
+   "from": "v05_s38 (full_graphic)",
+   "to": "v05_s38 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: losas → máquina desplegada"
+  },
+  {
+   "t": 81.71,
+   "from": "v05_s38 (full_graphic)",
+   "to": "v05_s38 (corte interno de la mitad superior/fondo)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta: máquina → satélite"
+  },
+  {
+   "t": 82.67,
+   "from": "v05_s38 (full_graphic)",
+   "to": "v05_s39 (title_cta)",
+   "type": "corte seco",
+   "frames": 1,
+   "detail": "Tarjeta → cara completa (cierre)"
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.0,
+   "fx": "slide",
+   "detail": "Título «THE TERAFAB IS INSANE» entra desde la derecha: cortado por el borde derecho hasta ≈0.9, centrado a ≈1.0; «TERAFAB» en naranja"
+  },
+  {
+   "t": 2.5,
+   "fx": "pop (sustitución por corte)",
+   "detail": "Palabra grande única que se sustituye en cada palabra dicha («in/human/history»); no se aprecia escala ni blur a 15 fps"
+  },
+  {
+   "t": 4.86,
+   "fx": "cambio de fuente",
+   "detail": "«realize» pasa a serif itálica: la palabra clave de cada punch-in cambia de familia, no de color"
+  },
+  {
+   "t": 11.53,
+   "fx": "pop",
+   "detail": "«3X» aparece de golpe con relleno turquesa y sombra rosa; 12.07 se transforma en «3X BIGGER» a todo el ancho"
+  },
+  {
+   "t": 12.3,
+   "fx": "máscara / trazo",
+   "detail": "Contorno blanco que se dibuja alrededor del rectángulo rojo (12.3–12.6)"
+  },
+  {
+   "t": 13.33,
+   "fx": "slide",
+   "detail": "«1700» entra desde la izquierda en ~3 fotogramas; a la vez se dibuja el icono del campo (trazo, ~0,4 s)"
+  },
+  {
+   "t": 14.0,
+   "fx": "write-on por palabra",
+   "detail": "«football» → «fields» (14.7) → «long» (15.1) aparecen con fundido corto al decirse"
+  },
+  {
+   "t": 16.0,
+   "fx": "escala",
+   "detail": "«2.5 MILES» entra gigante y se reduce/rota hasta alinearse con el edificio (16.0–16.5)"
+  },
+  {
+   "t": 22.0,
+   "fx": "pop",
+   "detail": "«MASTER» (22.0) y «PLAN» (22.3) en cromo; «PLAN» parpadea 2 fotogramas a 22.6"
+  },
+  {
+   "t": 27.14,
+   "fx": "cambio de peso",
+   "detail": "«chip» en peso light y «companies» en serif itálica dentro de la serie de palabras grandes"
+  },
+  {
+   "t": 38.41,
+   "fx": "write-on por letra",
+   "detail": "«Grok|» se teclea letra a letra con cursor (G, Gr, Gro, Grok en ~0,3 s)"
+  },
+  {
+   "t": 61.92,
+   "fx": "slide",
+   "detail": "«200 billion» entra desde la derecha y «AI chips per year» desde la izquierda; se encuentran centradas a ≈63.0"
+  },
+  {
+   "t": 70.61,
+   "fx": "caja",
+   "detail": "Desde aquí el subtítulo pequeño lleva pastilla gris cuando el fondo es claro (73.5 «50 times»)"
+  }
+ ],
+ "camera": [
+  {
+   "t": 2.5,
+   "move": "punch-in",
+   "scale_or_dir": "1.0→1.9 (por corte, no animado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 8.3,
+   "move": "push-in lento",
+   "scale_or_dir": "mapa 1.0→1.3",
+   "dur_s": 1.7
+  },
+  {
+   "t": 10.9,
+   "move": "punch-in",
+   "scale_or_dir": "mapa: zoom rápido a Central Park ≈1.3→2.5",
+   "dur_s": 0.5
+  },
+  {
+   "t": 13.5,
+   "move": "slide",
+   "scale_or_dir": "render avanza a lo largo del edificio (travelling hacia delante)",
+   "dur_s": 3.5
+  },
+  {
+   "t": 27.99,
+   "move": "slide",
+   "scale_or_dir": "chip AMD sube desde el borde inferior del plano",
+   "dur_s": 0.5
+  },
+  {
+   "t": 65.52,
+   "move": "slide",
+   "scale_or_dir": "losa blanca sube desde abajo y se despliega",
+   "dur_s": 1.2
+  },
+  {
+   "t": 70.61,
+   "move": "zoom-out",
+   "scale_or_dir": "render cenital dentro de la tarjeta, lento",
+   "dur_s": 2.4
+  },
+  {
+   "t": 73.07,
+   "move": "zoom-out",
+   "scale_or_dir": "macro de chip: de muy cerca y desenfocado a plano abierto",
+   "dur_s": 1.0
+  }
+ ],
+ "rhythm": {
+  "events_per_10s": [
+   15,
+   13,
+   8,
+   9,
+   6,
+   9,
+   8,
+   6,
+   3
+  ],
+  "avg_hold_text_s": 0.55,
+  "notes": "derived: 63 cortes en 84 s (1 cada 1,3 s). Subtítulo pequeño: 1–3 palabras, ~0,5 s en pantalla. Palabra grande: 0,15–0,45 s cada una. La mitad superior cambia cada 0,6–2,5 s (mediana ≈1,5 s). Un punch-in con palabra grande cada 8–13 s en la primera mitad (2.5, 4.3, 17.7, 25.8, 30.0) y ninguno entre 32 y 68 s, donde se sustituye por cara con subtítulo pequeño cada 4–8 s. Sonido: desconocido."
+ },
+ "typography": "observed: (1) subtítulo pequeño sans bold blanco tipo Inter, 1–3 palabras, ~28 px/720; (2) palabra grande de punch-in en sans bold blanca ~62 px con glow, palabra clave en serif itálica de alto contraste (sin color de acento: el énfasis es el cambio de familia); (3) título del hook en sans extendida ultra pesada MAYÚSCULAS, blanco + naranja; (4) gráficos: misma sans extendida para «3X BIGGER», «2.5 MILES», «MASTER PLAN»; mezcla sans bold + serif itálica en «1700 football fields long» y «200 billion AI chips per year»; mono-espaciada en el mapa. Nombres exactos de fuente: desconocidos.",
+ "textures": "observed: sin papel ni grano. Glow blanco en palabras grandes y textos cinéticos; cromo/bandas B/N en «MASTER PLAN»; destello rojo saturado 6.26–6.72; renders blanco-sobre-negro; tarjeta con esquinas redondeadas y margen negro en el recap (70.6–82.7); pastilla gris semitransparente bajo el subtítulo sobre fondos claros.",
+ "distinct": [
+  "El título del hook NO es una franja roja: es texto suelto blanco+naranja que entra con slide desde la derecha (0.0–1.0) y dura 2,5 s",
+  "Recap final en formato propio: 12 s (70.6–82.7) de tarjeta redondeada a pantalla completa SIN él, 4 pasos con 9 planos",
+  "Lista de empresas (36.8–39.6) a pantalla completa sin él: un plano de 0,4–0,8 s por nombre, con «Grok» tecleado sobre blanco",
+  "Bloque de datos de tamaño con mapa interactivo (cursor de mano, rectángulo rojo, «3X BIGGER») y tipografía cinética «1700 football fields long / 2.5 MILES»",
+  "Casi todo el material de arriba son renders 3D y metraje del evento (no hay capturas web, tuits ni grabaciones de pantalla en todo el video)"
+ ]
+}

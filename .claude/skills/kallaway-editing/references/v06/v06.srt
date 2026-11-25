@@ -1,0 +1,463 @@
+1
+00:00:00,000 --> 00:00:01,919
+Google just released Gemini for
+
+2
+00:00:01,919 --> 00:00:03,020
+Argonne. If you're trying to
+
+3
+00:00:03,020 --> 00:00:04,839
+use AI for complex work
+
+4
+00:00:04,839 --> 00:00:06,679
+tasks, this model offers frontier
+
+5
+00:00:06,679 --> 00:00:08,220
+intelligence to help you get
+
+6
+00:00:08,220 --> 00:00:09,320
+more done. And it's especially
+
+7
+00:00:09,320 --> 00:00:10,960
+good at engineering and knowledge
+
+8
+00:00:10,960 --> 00:00:12,000
+work. Now, big reason why
+
+9
+00:00:12,000 --> 00:00:13,359
+Argonne is so good at
+
+10
+00:00:13,359 --> 00:00:14,859
+these complex tasks is because
+
+11
+00:00:14,859 --> 00:00:16,320
+it was specifically designed to
+
+12
+00:00:16,320 --> 00:00:17,859
+work with more depth and
+
+13
+00:00:17,859 --> 00:00:19,059
+precision. This gives it a
+
+14
+00:00:19,059 --> 00:00:20,760
+huge advantage in completing very
+
+15
+00:00:20,760 --> 00:00:22,460
+sophisticated tasks start to finish
+
+16
+00:00:22,460 --> 00:00:24,600
+without losing any context or
+
+17
+00:00:24,600 --> 00:00:26,000
+reasoning. For example, I wanted
+
+18
+00:00:26,000 --> 00:00:27,399
+to design a custom cup
+
+19
+00:00:27,399 --> 00:00:28,899
+holder for my son, Stroller.
+
+20
+00:00:29,120 --> 00:00:30,000
+All I did was describe
+
+21
+00:00:30,000 --> 00:00:31,019
+the make and model of
+
+22
+00:00:31,019 --> 00:00:32,039
+the Stroller and how I
+
+23
+00:00:32,039 --> 00:00:32,880
+wanted the design to look.
+
+24
+00:00:33,039 --> 00:00:34,240
+And Argonne was able, in
+
+25
+00:00:34,240 --> 00:00:36,100
+one shot, to fully 3D
+
+26
+00:00:36,100 --> 00:00:37,920
+model the exact piece so
+
+27
+00:00:37,920 --> 00:00:38,840
+I could 3D print it.
+
+28
+00:00:38,960 --> 00:00:40,119
+I also tried giving Argonne
+
+29
+00:00:40,119 --> 00:00:41,560
+everything about my Callaway marketing
+
+30
+00:00:41,560 --> 00:00:43,420
+YouTube channel. Scripts, my knowledge
+
+31
+00:00:43,420 --> 00:00:45,200
+base, my channel strategy. It
+
+32
+00:00:45,200 --> 00:00:46,119
+was able to build this
+
+33
+00:00:46,119 --> 00:00:47,539
+YouTube dashboard that is now
+
+34
+00:00:47,539 --> 00:00:49,179
+my HQ for everything. And
+
+35
+00:00:49,179 --> 00:00:50,500
+seeing these workflows complete in
+
+36
+00:00:50,500 --> 00:00:51,840
+a single step is pretty
+
+37
+00:00:51,840 --> 00:00:52,859
+mind blowing when you're watching
+
+38
+00:00:52,859 --> 00:00:53,820
+it. Argonne is so capable
+
+39
+00:00:53,820 --> 00:00:55,299
+that Google has also been
+
+40
+00:00:55,299 --> 00:00:56,880
+using it internally to solve
+
+41
+00:00:56,880 --> 00:00:58,359
+their own problems as well.
+
+42
+00:00:58,520 --> 00:00:59,380
+A team of Argonne agents
+
+43
+00:00:59,380 --> 00:01:01,539
+freed up 300 terabytes of
+
+44
+00:01:01,539 --> 00:01:03,259
+memory across Google's data centers
+
+45
+00:01:03,259 --> 00:01:04,400
+on their own. Argonne was
+
+46
+00:01:04,400 --> 00:01:05,980
+also able to rewrite 32
+
+47
+00:01:05,980 --> 00:01:07,640
+,000 lines of code in
+
+48
+00:01:07,640 --> 00:01:09,219
+one of Google's video decoders
+
+49
+00:01:09,219 --> 00:01:10,680
+to make it 2 .7
+
+50
+00:01:10,680 --> 00:01:12,040
+times faster. So, whether it's
+
+51
+00:01:12,040 --> 00:01:14,159
+your complex task or optimizing
+
+52
+00:01:14,159 --> 00:01:16,379
+Google's own data centers, Argonne
+
+53
+00:01:16,379 --> 00:01:17,680
+has just set the new
+
+54
+00:01:17,680 --> 00:01:18,620
+frontier. If you want to
+
+55
+00:01:18,620 --> 00:01:19,560
+try it out, Gemini 4
+
+56
+00:01:19,560 --> 00:01:21,000
+Argonne is now available to
+
+57
+00:01:21,000 --> 00:01:22,579
+Google AI Pro and Ultra
+
+58
+00:01:22,579 --> 00:01:24,280
+Subscribers in the Gemini app.
+
+59
+00:01:24,420 --> 00:01:26,280
+Google just released Gemini 4
+
+60
+00:01:26,280 --> 00:01:27,379
+Argonne. If you're trying to
+
+61
+00:01:27,379 --> 00:01:29,180
+use AI for complex work
+
+62
+00:01:29,180 --> 00:01:31,000
+tasks, this model offers frontier
+
+63
+00:01:31,000 --> 00:01:32,560
+intelligence to help you get
+
+64
+00:01:32,560 --> 00:01:33,680
+more done. And it's especially
+
+65
+00:01:33,680 --> 00:01:35,319
+good at engineering and knowledge
+
+66
+00:01:35,319 --> 00:01:36,359
+work. Now, big reason why
+
+67
+00:01:36,359 --> 00:01:37,719
+Argonne is so good at
+
+68
+00:01:37,719 --> 00:01:39,219
+these complex tasks is because
+
+69
+00:01:39,219 --> 00:01:40,680
+it was specifically designed to
+
+70
+00:01:40,680 --> 00:01:42,219
+work with more depth and
+
+71
+00:01:42,219 --> 00:01:43,379
+precision. This gives it a
+
+72
+00:01:43,379 --> 00:01:45,120
+huge advantage in completing very
+
+73
+00:01:45,120 --> 00:01:46,840
+sophisticated tasks start to finish
+
+74
+00:01:46,840 --> 00:01:48,959
+without losing any context or
+
+75
+00:01:48,959 --> 00:01:50,359
+reasoning. For example, I wanted
+
+76
+00:01:50,359 --> 00:01:51,760
+to design a custom cup
+
+77
+00:01:51,760 --> 00:01:53,219
+holder for my son, Stroller.
+
+78
+00:01:53,420 --> 00:01:54,359
+All I did was describe
+
+79
+00:01:54,359 --> 00:01:55,359
+the make and model of
+
+80
+00:01:55,359 --> 00:01:56,420
+the Stroller and how I
+
+81
+00:01:56,420 --> 00:01:57,239
+wanted the design to look.
+
+82
+00:01:57,420 --> 00:01:58,599
+And Argonne was able in
+
+83
+00:01:58,599 --> 00:02:00,439
+one shot to fully 3D
+
+84
+00:02:00,439 --> 00:02:02,280
+model the exact piece so
+
+85
+00:02:02,280 --> 00:02:03,200
+I could 3D print it.
+
+86
+00:02:03,319 --> 00:02:04,459
+I also tried giving Argonne
+
+87
+00:02:04,459 --> 00:02:05,920
+everything about my Callaway marketing
+
+88
+00:02:05,920 --> 00:02:07,780
+YouTube channel. Scripts, my knowledge
+
+89
+00:02:07,780 --> 00:02:09,539
+base, my channel strategy. It
+
+90
+00:02:09,539 --> 00:02:10,479
+was able to build this
+
+91
+00:02:10,479 --> 00:02:11,879
+YouTube dashboard that is now
+
+92
+00:02:11,879 --> 00:02:13,539
+my HQ for everything. And
+
+93
+00:02:13,539 --> 00:02:14,860
+seeing these workflows complete in
+
+94
+00:02:14,860 --> 00:02:16,199
+a single step is pretty
+
+95
+00:02:16,199 --> 00:02:17,240
+mind blowing when you're watching
+
+96
+00:02:17,240 --> 00:02:18,180
+it. Argonne is so capable
+
+97
+00:02:18,180 --> 00:02:19,639
+that Google has also been
+
+98
+00:02:19,639 --> 00:02:21,219
+using it internally to solve
+
+99
+00:02:21,219 --> 00:02:22,699
+their own problems as well.
+
+100
+00:02:22,860 --> 00:02:23,719
+A team of Argonne agents
+
+101
+00:02:23,719 --> 00:02:25,879
+freed up 300 terabytes of
+
+102
+00:02:25,879 --> 00:02:27,620
+memory across Google's data centers
+
+103
+00:02:27,620 --> 00:02:28,759
+on their own. Argonne was
+
+104
+00:02:28,759 --> 00:02:30,340
+also able to rewrite 32
+
+105
+00:02:30,340 --> 00:02:32,000
+,000 lines of code in
+
+106
+00:02:32,000 --> 00:02:33,599
+one of Google's video decoders
+
+107
+00:02:33,599 --> 00:02:35,020
+to make it 2 .7
+
+108
+00:02:35,020 --> 00:02:36,379
+times faster. So whether it's
+
+109
+00:02:36,379 --> 00:02:38,500
+your complex tasks or optimizing
+
+110
+00:02:38,500 --> 00:02:40,719
+Google's own data centers, Argonne
+
+111
+00:02:40,719 --> 00:02:42,020
+has just set the new
+
+112
+00:02:42,020 --> 00:02:42,960
+frontier. If you want to
+
+113
+00:02:42,960 --> 00:02:43,919
+try it out, Gemini 4
+
+114
+00:02:43,919 --> 00:02:45,300
+Argonne is now available to
+
+115
+00:02:45,300 --> 00:02:46,919
+Google AI Pro and Ultra
+
+116
+00:02:46,919 --> 00:02:48,620
+subscribers in the Gemini app.
