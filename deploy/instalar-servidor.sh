@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Instala Emperador Santiago en un servidor Ubuntu 24.04 (VPS), con HTTPS y contraseña.
-# Uso (como root):  DOMINIO=editor.tudominio.com USUARIO=santi CLAVE='tu-clave' REPO=https://github.com/TU_USUARIO/emperador-santiago.git bash instalar-servidor.sh
+# Uso (como root):  DOMINIO=editor.tudominio.com USUARIO=santi CLAVE='tu-clave' REPO=https://github.com/wnqbebb/Emperador-santiago-Edicion-.git bash instalar-servidor.sh
 set -euo pipefail
 : "${DOMINIO:?Falta DOMINIO (ej. editor.tudominio.com)}"
 : "${USUARIO:?Falta USUARIO para entrar}"

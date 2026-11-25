@@ -18,16 +18,16 @@ Entra al servidor:
 ssh root@IP_DEL_SERVIDOR
 ```
 
-Baja el instalador. Cambia `TU_USUARIO` por tu usuario de GitHub. Como el repositorio es privado, GitHub te pedirá un token (Settings → Developer settings → Personal access tokens).
+Baja el instalador. Como el repositorio es privado, GitHub te pedirá un token (Settings → Developer settings → Personal access tokens).
 
 ```bash
-git clone https://github.com/TU_USUARIO/emperador-santiago.git /opt/emperador-santiago
+git clone https://github.com/wnqbebb/Emperador-santiago-Edicion-.git /opt/emperador-santiago
 ```
 
 Instala todo. Cambia el dominio, el usuario y la clave por los tuyos:
 
 ```bash
-DOMINIO=editor.tudominio.com USUARIO=santi CLAVE='una-clave-larga' REPO=https://github.com/TU_USUARIO/emperador-santiago.git bash /opt/emperador-santiago/deploy/instalar-servidor.sh
+DOMINIO=editor.tudominio.com USUARIO=santi CLAVE='una-clave-larga' REPO=https://github.com/wnqbebb/Emperador-santiago-Edicion-.git bash /opt/emperador-santiago/deploy/instalar-servidor.sh
 ```
 
 Tarda unos 20 minutos. Al final abre **https://editor.tudominio.com**. Te pedirá el usuario y la clave que elegiste.

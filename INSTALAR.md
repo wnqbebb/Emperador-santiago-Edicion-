@@ -23,7 +23,7 @@ git clone emperador-santiago.bundle emperador-santiago
 **Si ya está en tu GitHub:**
 
 ```bash
-git clone https://github.com/wnqbebb/emperador-santiago.git
+git clone https://github.com/wnqbebb/Emperador-santiago-Edicion-.git
 ```
 
 ```bash
