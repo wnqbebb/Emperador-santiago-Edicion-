@@ -30,11 +30,11 @@ export const Transition: React.FC<{ type: string }> = ({ type }) => {
       return <AbsoluteFill>{blocks.map(([x, y, w, h], i) => (
         <div key={i} style={{ position: "absolute", left: `${x * 100}%`, top: `${y * 100}%`, width: `${w * 100}%`, height: `${h * 100}%`,
           backdropFilter: (f + i) % 2 ? "invert(1)" : "none", WebkitBackdropFilter: (f + i) % 2 ? "invert(1)" : "none",
-          background: (f + i) % 2 ? "transparent" : i === 1 ? "#F2C230" : r.accent, transform: `translateX(${((f * 37 + i * 53) % 60) - 30}px)` }} />
+          background: (f + i) % 2 ? "transparent" : i === 1 ? ((ctx.palette as any).highlight ?? "#F2C230") : r.accent, transform: `translateX(${((f * 37 + i * 53) % 60) - 30}px)` }} />
       ))}</AbsoluteFill>;
     }
     case "invert_sandwich": // v08: negativo 1 frame → amarillo 1 frame → escena (entrada a una cita)
-      return f === 0 ? <AbsoluteFill style={{ backdropFilter: "invert(1)", WebkitBackdropFilter: "invert(1)" }} /> : f === 1 ? <AbsoluteFill style={{ background: "#F2C230" }} /> : null;
+      return f === 0 ? <AbsoluteFill style={{ backdropFilter: "invert(1)", WebkitBackdropFilter: "invert(1)" }} /> : f === 1 ? <AbsoluteFill style={{ background: (ctx.palette as any).highlight ?? "#F2C230" }} /> : null;
     case "wipe": // v06/v10: barrido izquierda→derecha con el color de acento
       return <AbsoluteFill style={{ background: r.accent, clipPath: `inset(0 ${interpolate(f, [0, n / 2, n], [100, 0, 0])}% 0 ${interpolate(f, [0, n / 2, n], [0, 0, 100])}%)` }} />;
     case "iris": { // v10: esquinas redondeadas → círculo (abre la escena nueva)

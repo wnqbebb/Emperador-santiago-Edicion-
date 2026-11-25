@@ -89,7 +89,7 @@ export function renderMotionHtml(html: string, seconds: number, job?: MotionJob)
     child.stdout.on("data", (d) => (log += d));
     child.stderr.on("data", (d) => (log += d));
     child.on("close", (code) => {
-      if (code === 0) { j.status = "done"; j.url = `http://localhost:${process.env.SANTI_PORT ?? 8787}/motion/${j.id}.mp4`; resolve(j); }
+      if (code === 0) { j.status = "done"; j.url = `/motion/${j.id}.mp4`; /* relativa al bridge */ resolve(j); }
       else { j.status = "error"; j.error = log.slice(-600); reject(new Error(j.error)); }
     });
   });

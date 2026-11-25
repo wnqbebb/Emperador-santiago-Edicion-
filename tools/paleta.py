@@ -102,6 +102,8 @@ for c in cands:
         L -= 0.03; acc = hls(c["h"], L, sat)
     dark = hls(c["h"], max(0.16, L * 0.5), sat * 0.9)
     black = hls(c["h"], 0.06, 0.12)
+    # resaltado (el "amarillo" de Arthur): mismo tono, más luminoso, para palabras clave y destellos
+    highlight = hls(c["h"] + 0.03, 0.62, min(1, sat * 1.05))
     # subtítulos sobre el A-roll: diferencia de color y de luz con lo que hay en la zona del texto
     de = float(np.linalg.norm(np.array(acc) - zone_med))
     zc = contrast(acc, zone_med)
@@ -112,7 +114,7 @@ for c in cands:
     score = 0.4 * min(1, de / 0.6) + 0.3 * min(1, zc / 4.5) + 0.15 * sat + 0.15 * c["share"]  # preferimos colores del propio video
     opts.append({
         "name": f'{name(c["h"], 0.5, sat).capitalize()} {c["kind"]}', "from": c["src"], "original": c["orig"],
-        "colors": {"vibrant_bright": hexc(acc), "vibrant_dark": hexc(dark), "dull_white": hexc(paper), "dull_black": hexc(black)},
+        "colors": {"vibrant_bright": hexc(acc), "vibrant_dark": hexc(dark), "dull_white": hexc(paper), "dull_black": hexc(black), "highlight": hexc(highlight)},
         "caption": caption, "score": round(float(score), 3),
         "contrast_paper": round(contrast(acc, paper), 2), "contrast_video": round(zc, 2),
     })

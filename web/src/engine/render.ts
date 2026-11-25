@@ -8,7 +8,7 @@ import { drawPixelFx, renderIntro3D, fxBox } from "../../../shared/fx";
 const brolls = new Map<string, HTMLVideoElement>();
 function broll(url: string) {
   let v = brolls.get(url);
-  if (!v) { v = document.createElement("video"); v.src = url; v.muted = true; v.crossOrigin = "anonymous"; v.preload = "auto"; brolls.set(url, v); }
+  if (!v) { v = document.createElement("video"); v.src = url.startsWith("/") ? (import.meta.env.VITE_SANTI_BRIDGE ?? "http://localhost:8787") + url : url; v.muted = true; v.crossOrigin = "anonymous"; v.preload = "auto"; brolls.set(url, v); }
   return v;
 }
 

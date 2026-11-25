@@ -53,7 +53,7 @@ export const ArthurLines: React.FC<{ lines: any[]; bg: string; from?: number; du
               const vis = frame >= at ? 1 : 0;
               const lit = interpolate(frame, [at, at + 6], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
               const hl = ln.accentWord && w.replace(/[^\p{L}\p{N}]/gu, "").toLowerCase() === ln.accentWord.toLowerCase();
-              return <span key={j} style={{ opacity: vis, color: big ? (lit < 1 ? dim : hl ? "#F2C230" : c) : c, transition: "none" }}>{w + " "}</span>;
+              return <span key={j} style={{ opacity: vis, color: big ? (lit < 1 ? dim : hl ? ((ctx.palette as any).highlight ?? "#F2C230") : c) : c, transition: "none" }}>{w + " "}</span>;
             })}
           </div>
         );
@@ -64,11 +64,12 @@ export const ArthurLines: React.FC<{ lines: any[]; bg: string; from?: number; du
 
 /** flash de transición (amarillo de la referencia) al inicio/fin */
 const Flash: React.FC<{ dur: number; mode?: string }> = ({ dur, mode }) => {
+  const HL = ((useStyle().palette as any).highlight as string | undefined) ?? "#F2C230"; // Emperador: resaltado de la paleta del video
   const frame = useCurrentFrame();
   if (!mode) return null;
   const a = (mode === "in" || mode === "both") && frame < 3 ? 1 : 0;
   const b = (mode === "out" || mode === "both") && frame > dur - 3 ? 1 : 0;
-  return a || b ? <AbsoluteFill style={{ background: "#F2C230" }} /> : null;
+  return a || b ? <AbsoluteFill style={{ background: HL }} /> : null;
 };
 const Out: React.FC<{ dur: number; children: React.ReactNode }> = ({ dur, children }) => <AbsoluteFill style={{ opacity: useExit(dur) }}>{children}</AbsoluteFill>;
 

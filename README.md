@@ -8,6 +8,8 @@ El editor personal de Santiago: edición automática en el navegador para clips 
 
 ## Instalar y arrancar
 
+👉 Guía completa (requisitos, sincronizar cambios, dependencias y qué probar): **[INSTALAR.md](INSTALAR.md)**
+
 ```bash
 npm run setup      # todo: paquetes, navegador de Playwright, rea-video (Python) y skills para Claude Code
 npm run dev        # web en http://localhost:5173 + bridge IA en :8787

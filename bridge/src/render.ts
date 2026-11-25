@@ -41,7 +41,9 @@ async function renderRemotion(job: RenderJob, dir: string, a: { videoUrl: string
   const fx = Object.fromEntries(Object.entries(baked).map(([k, f]) => [k, `http://localhost:${port}/fx/${f}`]));
   bundleCache ??= bundle({ entryPoint: join(ROOT, "remotion/src/index.ts") });
   const serveUrl = await bundleCache;
-  const inputProps = { videoSrc: a.videoUrl, plan: a.plan, words: a.words, style: a.style, fx };
+  // los b-roll del editor llegan con ruta relativa (/motion/…): Remotion necesita la URL completa del bridge
+  const plan = { ...a.plan, motion: a.plan.motion.map((m) => (m.kind === "broll" && m.text.startsWith("/") ? { ...m, text: `http://localhost:${port}${m.text}` } : m)) };
+  const inputProps = { videoSrc: a.videoUrl, plan, words: a.words, style: a.style, fx };
   const browserExecutable = process.env.SANTI_CHROME || null;
   const composition = await selectComposition({ serveUrl, id: "SantiEdit", inputProps, browserExecutable });
   const output = join(dir, "santi-remotion.mp4");

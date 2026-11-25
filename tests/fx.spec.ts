@@ -50,6 +50,6 @@ test("HyperFrames renderiza un motion graphic (HTML de prueba) y se inserta como
 <script>const tl = gsap.timeline({ paused: true }); tl.fromTo("#t", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.6 }, 0.1); window.__timelines["main"] = tl;</script></body></html>`;
   const job = await (await request.post("http://localhost:8787/api/motion", { data: { html, seconds: 3 }, timeout: 280_000 })).json();
   expect(job.status).toBe("done");
-  const head = await request.get(job.url);
+  const head = await request.get(`http://localhost:8787${job.url}`, { headers: { origin: "http://localhost:5173" } });
   expect(head.ok()).toBeTruthy();
 });
