@@ -15,6 +15,7 @@ type Cfg = {
   style: string; nombre: string; ejemplo: string;
   tops: boolean;      // sus escenas tienen mitad superior (top.kind media|chat|…): admite originales y capturas
   topSize?: { w: number; h: number };   // tamaño real de esa zona (los originales se generan a esa medida)
+  topSizeFor?: (props: Record<string, unknown>) => { w: number; h: number };   // si cambia según la escena
   face: boolean;      // kal.py face rellena dónde está la cara
   check: boolean;     // kal.py check revisa las reglas medidas
   idea: string; reglas: string; energia: Record<Energia, string>; extra?: string;
@@ -33,7 +34,7 @@ export const SCENE_SKILLS: Record<string, Cfg> = {
     },
   },
   "nick-saraev-editing": {
-    style: "nick-saraev", nombre: "Nick Saraev", ejemplo: "examples/nick-prueba/beats.json", tops: true, topSize: { w: 900, h: 1020 }, face: true, check: false,
+    style: "nick-saraev", nombre: "Nick Saraev", ejemplo: "examples/nick-prueba/beats.json", tops: true, topSize: { w: 900, h: 1020 }, topSizeFor: (p) => (p.face_box === false ? { w: 900, h: 1020 } : { w: 1000, h: 620 }), face: true, check: false,   // topSizeFor: sin cara ventana alta · con cara ancha
     idea: "la herramienta es la protagonista y él el narrador: una ventana enmarcada arriba (con asas tipo Figma) y él en un recuadro redondeado abajo.",
     reglas: `- n_frame es la base: top igual que k_split.top (media|chat|slots|number|list), canvas dark|light|white, face_box true/false (false = solo ventana), title1/title2 solo en el gancho (0–3 s).
 - Dentro de la ventana algo cambia cada 0.5–1.5 s; alterna lienzo claro-con-cara / oscuro-sin-cara cada 2–7 s; cara completa (aroll o p_punch) ≤15 % del video, solo en remate y cierre.

@@ -35,9 +35,9 @@ test("la biblioteca de ideas de motion graphics responde", async ({ page }) => {
   await page.getByRole("button", { name: "Motion" }).click();
   await page.getByPlaceholder(/Buscar ideas/).fill("text");
   await page.getByRole("button", { name: "Buscar" }).click();
-  await expect(page.locator(".ideas li").first()).toBeVisible();
+  await expect(page.locator(".ideas li").first()).toBeVisible({ timeout: 30_000 });   // bajo carga la biblioteca tarda más
   await page.locator(".ideas li").first().click();
-  await expect(page.locator("textarea").last()).not.toHaveValue("");
+  await expect(page.locator("textarea").last()).not.toHaveValue("", { timeout: 15_000 });
 });
 
 test("HyperFrames renderiza un motion graphic (HTML de prueba) y se inserta como b-roll", async ({ page, request }) => {

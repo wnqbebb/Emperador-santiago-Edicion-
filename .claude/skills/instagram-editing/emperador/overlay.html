@@ -43,7 +43,9 @@ function caption(cap, t, st, pal, face) {
   const gap = st === "cine" ? 20 : 18;
   const total = parts.reduce((a, p) => a + p.width, 0) + gap * (parts.length - 1);
   let y;
+  const lowerOn = (window.TL.graphics || []).some((g) => g.region === "lower" && t >= g.t0 && t < g.t1);
   if (st === "split") y = 960;
+  else if (lowerOn) y = 1050;                            // hay panel abajo: el subtítulo sube por encima
   else if (st === "cine") y = 1340;
   else y = Math.min(1540, Math.max(1080, face.y * H + 330));
   ctx.save();
@@ -90,8 +92,8 @@ function graphic(g, t, pal) {
   ctx.save();
   ctx.translate(box[0], box[1]);
   ctx.beginPath(); ctx.rect(0, 0, box[2], box[3]); ctx.clip();
-  if (g.region === "lower") {                           // panel oscuro redondeado (se lee sobre cualquier fondo)
-    ctx.globalAlpha = ease((t - g.t0) / 0.25) * 0.82;
+  if (g.region === "lower") {                           // panel oscuro redondeado (se lee sobre cualquier fondo); entra con su contenido
+    ctx.globalAlpha = ease((t - g.t0 - (g.lead || 0)) / 0.25) * 0.82;
     ctx.fillStyle = "#0d0d10"; ctx.beginPath(); ctx.roundRect(0, 0, box[2], box[3], 36); ctx.fill();
     ctx.globalAlpha = 1;
   }

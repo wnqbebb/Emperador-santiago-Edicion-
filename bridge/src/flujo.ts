@@ -315,7 +315,7 @@ Paleta: resaltado ${pal.highlight ?? pal.vibrant_bright}, franja ${pal.vibrant_d
 Look ${cfg.nombre}: Inter 900, sólidos planos, cifras gigantes, etiquetas limpias, flechas. Sin texturas, sin degradados decorativos.
 Que se lea en el teléfono y algo cambie cada 0.6–1 s; entrada fuerte en el primer cuarto de segundo. Todo el texto con margen de 60 px a cada borde (no se puede cortar nada).`;
     try {
-      const html = await writeMotionHtml(job.provider, motionBrief(brief, secs, { caption: { highlight: pal.highlight ?? pal.vibrant_bright ?? "#F5B942" } } as never, pal.dull_black ?? "#0B0B0D", cfg.topSize ?? { w: 1080, h: 940 }));
+      const html = await writeMotionHtml(job.provider, motionBrief(brief, secs, { caption: { highlight: pal.highlight ?? pal.vibrant_bright ?? "#F5B942" } } as never, pal.dull_black ?? "#0B0B0D", cfg.topSizeFor?.(s.props ?? {}) ?? cfg.topSize ?? { w: 1080, h: 940 }));
       const m = await renderMotionHtml(html, secs);
       const rel = `media/mg/${b.id}s${i}.mp4`;
       mkdirSync(join(dir, "media/mg"), { recursive: true });
