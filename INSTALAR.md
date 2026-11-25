@@ -142,6 +142,8 @@ RENDER=1 FLUJO=1 npm test
 | "Bridge IA conectado" no aparece | ¿Corre `npm run dev`? El bridge usa el puerto 8787 |
 | "rea-video no está instalado" | `npm run setup:rea` |
 | Falla Whisper / Demucs | `npm run setup:ves` (revisa que Python sea 3.10–3.13) |
+| En Linux/WSL falla Chromium (`libnspr4.so`, `libnss3.so`…) | `sudo npx playwright install-deps chromium` |
+| Whisper no descarga el modelo (`Temporary failure in name resolution`) | Es la conexión de WSL: espera un momento o reinicia WSL con `wsl --shutdown` en PowerShell |
 | Remotion/HyperFrames tardan la 1.ª vez | Normal: descargan su navegador |
 | La edición se cortó a medias | Botón **Reintentar** (retoma donde iba) |
 | Mientras programas, el bridge se reinicia | `npm run dev` reinicia el bridge al guardar cambios en `bridge/`; un trabajo en curso se corta y se retoma con Reintentar |
