@@ -1,0 +1,155 @@
+1
+00:00:00,000 --> 00:00:01,060
+Use these five free GitHub
+
+2
+00:00:01,060 --> 00:00:02,240
+repos to save over $1
+
+3
+00:00:02,240 --> 00:00:03,600
+,000 in the ANT tools
+
+4
+00:00:03,600 --> 00:00:04,820
+you're probably already paying for.
+
+5
+00:00:04,900 --> 00:00:06,099
+The first is OpenCode, a
+
+6
+00:00:06,099 --> 00:00:07,179
+free and open source cloud
+
+7
+00:00:07,179 --> 00:00:08,419
+code alternative that gives you
+
+8
+00:00:08,419 --> 00:00:09,679
+free access to top coding
+
+9
+00:00:09,679 --> 00:00:11,619
+models from Kimi, GLM, DeepSeq,
+
+10
+00:00:11,779 --> 00:00:12,699
+and much more. The second
+
+11
+00:00:12,699 --> 00:00:14,279
+is Voice Studio from 11labs.
+
+12
+00:00:14,460 --> 00:00:15,339
+This is an AI voice
+
+13
+00:00:15,339 --> 00:00:16,539
+generator that can clone your
+
+14
+00:00:16,539 --> 00:00:17,699
+voice from just three seconds
+
+15
+00:00:17,699 --> 00:00:18,600
+of audio and it runs
+
+16
+00:00:18,600 --> 00:00:20,000
+fully locally on your machine.
+
+17
+00:00:20,120 --> 00:00:21,620
+The third is OpenSEO, which
+
+18
+00:00:21,620 --> 00:00:22,739
+is a free alternative to
+
+19
+00:00:22,739 --> 00:00:24,359
+Ahrefs and SEMrush to handle
+
+20
+00:00:24,359 --> 00:00:26,179
+your keyword research, rank tracking,
+
+21
+00:00:26,379 --> 00:00:27,780
+backlinks, and even full -site
+
+22
+00:00:27,780 --> 00:00:29,339
+audits. The fourth is OpusBot.
+
+23
+00:00:29,460 --> 00:00:30,480
+It's an open source alternative
+
+24
+00:00:30,480 --> 00:00:32,259
+to Grockbot, Muse, and Claude
+
+25
+00:00:32,259 --> 00:00:33,259
+duet, which gives you AI
+
+26
+00:00:33,259 --> 00:00:34,280
+teammates that you can run
+
+27
+00:00:34,280 --> 00:00:35,579
+on Claude codecs or any
+
+28
+00:00:35,579 --> 00:00:36,640
+model you want instead of
+
+29
+00:00:36,640 --> 00:00:37,600
+having to feel locked into
+
+30
+00:00:37,600 --> 00:00:39,219
+one platform. And finally, Replica.
+
+31
+00:00:39,340 --> 00:00:40,280
+With this, you can clone
+
+32
+00:00:40,280 --> 00:00:41,600
+any app you're already paying
+
+33
+00:00:41,600 --> 00:00:42,740
+for it by reverse engineering
+
+34
+00:00:42,740 --> 00:00:43,759
+it and then building a
+
+35
+00:00:43,759 --> 00:00:44,740
+far better version. So if
+
+36
+00:00:44,740 --> 00:00:45,280
+you want to try all
+
+37
+00:00:45,280 --> 00:00:46,359
+these for yourselves, just comment
+
+38
+00:00:46,359 --> 00:00:47,780
+a repo down below and
+
+39
+00:00:47,780 --> 00:00:48,399
+I'll send you the links.

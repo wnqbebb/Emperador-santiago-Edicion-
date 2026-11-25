@@ -1,0 +1,29 @@
+[
+ {
+  "t": 5.41,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 5.6,
+  "to_cut": 0.27,
+  "word": "Nothing.",
+  "to_word": 0.27
+ },
+ {
+  "t": 26.622,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 5.1,
+  "to_cut": 0.82,
+  "word": "Commas",
+  "to_word": -0.2
+ },
+ {
+  "t": 31.556,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 5.6,
+  "to_cut": 0.62,
+  "word": "No",
+  "to_word": -0.22
+ }
+]

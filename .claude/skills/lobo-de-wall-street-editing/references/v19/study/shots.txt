@@ -1,0 +1,17 @@
+000    0.00-   0.67 (0.7s) | What separates a
+001    0.67-   2.37 (1.7s) | good salesperson from the bad one? Well,
+002    2.37-   9.17 (6.8s) | I'll tell you one thing. A bad salesperson sells the features while a great salesperson sells the benefits. Give
+003    9.17-  10.30 (1.1s) | you an example, right?
+004   10.30-  25.03 (14.7s) | Imagine a gym membership. Want to get someone to join a gym? What do you do? Oh, this gym has got 150 different machines. They have all the latest bells and whistles. They got a sauna. They have this. They're open this time of night, 24 hours a night. Feature, feature. Someone's
+005   25.03-  26.10 (1.1s) | going to sleep, right?
+006   26.10-  26.70 (0.6s) | Expert says,
+007   26.70-  29.73 (3.0s) | imagine how great you're feeling six months from now. Full
+008   29.73-  30.57 (0.8s) | of energy,
+009   30.57-  31.47 (0.9s) | looking great,
+010   31.47-  32.43 (1.0s) | feeling great.
+011   32.43-  33.97 (1.5s) | That's how you close someone.
+012   33.97-  36.47 (2.5s) | I focus on the benefits, what matters to them. OK,
+013   36.47-  37.60 (1.1s) | so it's emotional.
+014   37.60-  51.33 (13.7s) | Yeah, well, it's emotional, but it's also logical. In other words, people don't buy on logic. They buy on emotion and justify the decisions from logic. But if you get caught up in just giving feature app to feature without putting on the benefit, you got no shot at all.
+015   51.33-  52.70 (1.4s) | OK, how can I learn more from you?
+016   52.70-  55.91 (3.2s) | Very simple. Just follow me and I'll show you exactly how.

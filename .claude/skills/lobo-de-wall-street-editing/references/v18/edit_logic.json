@@ -1,0 +1,72 @@
+{
+ "triggers": [
+  {"t_word": 0.0, "word": "Never", "element": "blur-in del primer frame (0.0→0.14)", "category": "icon_overlay", "offset_s": 0.0, "why": "hook: entrada (observed)"},
+  {"t_word": 0.38, "word": "open", "element": "smartphone 3D turquesa rota y entra por detrás de la cabeza", "category": "icon_overlay", "offset_s": 0.19, "why": "literal: llamada (observed 0.57)"},
+  {"t_word": 1.06, "word": "cocoa", "element": "'COLD CALL' amarillo mayúsculas write-on por letras", "category": "icon_overlay", "offset_s": 0.08, "why": "literal + corrige la transcripción (observed 1.14)"},
+  {"t_word": 5.84, "word": "The", "element": "jump cut con zoom-out", "category": "aroll_punch", "offset_s": -0.11, "why": "sale del role-play (observed 5.73)"},
+  {"t_word": 8.40, "word": "salesman.", "element": "'SALESMAN' amarillo mayúsculas letra a letra", "category": "aroll_caption_big", "offset_s": 0.23, "why": "palabra-etiqueta (observed 8.63)"},
+  {"t_word": 8.40, "word": "salesman.", "element": "push-in lento ≈1.0→1.1", "category": "aroll_caption_big", "offset_s": 0.8, "why": "énfasis (observed 9.2–9.8)"},
+  {"t_word": 11.14, "word": "Nobody", "element": "corte a negro y fundido al vendedor con maletín; 'Nobody' amarillo write-on", "category": "full_graphic", "offset_s": -0.01, "why": "metáfora: vendedor genérico (observed 11.13)"},
+  {"t_word": 13.30, "word": "company", "element": "slide con blur al rascacielos", "category": "full_graphic", "offset_s": -0.45, "why": "literal: empresa = edificio (observed 12.85–13.35)"},
+  {"t_word": 14.38, "word": "You've", "element": "vuelta a A-roll + '4s' gigante rayado detrás de la cabeza", "category": "icon_overlay", "offset_s": 0.06, "why": "dato, anticipado a 'four' 14.98 (observed 14.44)"},
+  {"t_word": 17.72, "word": "an", "element": "clip película DiCaprio en despacho", "category": "movie_clip", "offset_s": -0.03, "why": "'expert' = el Wolf (observed 17.69)"},
+  {"t_word": 19.52, "word": "with", "element": "clip DiCaprio al teléfono en la sala", "category": "movie_clip", "offset_s": 0.07, "why": "literal (observed 19.59)"},
+  {"t_word": 21.14, "word": "actually", "element": "primer plano DiCaprio sonriendo con auricular", "category": "movie_clip", "offset_s": -0.02, "why": "emoción (observed 21.12)"},
+  {"t_word": 22.42, "word": "information", "element": "vuelta a A-roll", "category": "aroll_caption_big", "offset_s": 0.2, "why": "observed 22.62"},
+  {"t_word": 23.24, "word": "they", "element": "'THEY WANT' amarillo mayúsculas", "category": "aroll_caption_big", "offset_s": 0.0, "why": "énfasis (observed ≤23.6)"},
+  {"t_word": 25.12, "word": "world,", "element": "globo 3D con marco discontinuo amarillo sobre la cabeza", "category": "icon_overlay", "offset_s": -0.52, "why": "literal (observed 24.6, anticipa con 'with')"},
+  {"t_word": 25.94, "word": "yours.", "element": "'NOT YOURS' amarillo mayúsculas", "category": "icon_overlay", "offset_s": -0.3, "why": "contraste (observed ≤25.5)"},
+  {"t_word": 33.28, "word": "60", "element": "'60s' gigante rayado detrás de la cabeza (fade 0.3 s)", "category": "icon_overlay", "offset_s": -0.08, "why": "dato (observed 33.2)"},
+  {"t_word": 34.82, "word": "Now", "element": "punch-in por corte; desaparece '60s'", "category": "aroll_punch", "offset_s": -0.12, "why": "remate (observed 34.70)"},
+  {"t_word": 39.94, "word": "One", "element": "corte a negro; reloj de arena 3D sube girando; 'One opening' amarillo", "category": "full_graphic", "offset_s": -0.14, "why": "metáfora tiempo (observed 39.8)"},
+  {"t_word": 42.32, "word": "The", "element": "slide con blur: reloj sale, entra diamante 3D", "category": "full_graphic", "offset_s": -0.12, "why": "contraste valor (observed 42.2)"},
+  {"t_word": 43.48, "word": "value", "element": "'it brings value' amarillo write-on", "category": "full_graphic", "offset_s": -0.08, "why": "literal (observed 43.4)"},
+  {"t_word": 44.04, "word": "in", "element": "vuelta al A-roll", "category": "aroll_caption_big", "offset_s": 0.19, "why": "observed 44.23"},
+  {"t_word": 44.56, "word": "first", "element": "'first breath' amarillo", "category": "aroll_caption_big", "offset_s": -0.16, "why": "énfasis (observed 44.4)"},
+  {"t_word": 45.56, "word": "Sound", "element": "jump cut zoom-out", "category": "aroll_caption_big", "offset_s": -0.04, "why": "nuevo par de veredictos (observed 45.52)"},
+  {"t_word": 47.04, "word": "you're", "element": "'You're done' amarillo write-on", "category": "aroll_caption_big", "offset_s": -0.09, "why": "veredicto (observed 46.95)"},
+  {"t_word": 50.98, "word": "a", "element": "'A REAL SHOT' amarillo mayúsculas write-on", "category": "aroll_caption_big", "offset_s": -0.05, "why": "veredicto positivo (observed 50.93)"},
+  {"t_word": 53.44, "word": "You", "element": "'You got it' amarillo", "category": "title_cta", "offset_s": -0.04, "why": "cierre (observed 53.4)"}
+ ],
+ "transitions": [
+  {"t": 0.0, "from": "inicio", "to": "aroll", "type": "zoom-blur", "frames": 4, "detail": "primer frame desenfocado → nítido en ≈0.14 s (observed)"},
+  {"t": 5.73, "from": "aroll", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "jump cut con zoom-out"},
+  {"t": 11.13, "from": "aroll", "to": "full_graphic vendedor", "type": "corte seco", "frames": 0, "detail": "corte a negro + fade-in de la figura ≈0.25 s (observed 11.13–11.35)"},
+  {"t": 13.0, "from": "full_graphic vendedor", "to": "full_graphic rascacielos", "type": "slide", "frames": 9, "detail": "slide horizontal con motion blur 12.85–13.35 (observed)"},
+  {"t": 14.43, "from": "full_graphic", "to": "aroll + 4s", "type": "corte seco", "frames": 0, "detail": "observed"},
+  {"t": 17.69, "from": "aroll", "to": "movie_clip", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 19.59, "from": "movie_clip", "to": "movie_clip", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 21.12, "from": "movie_clip", "to": "movie_clip", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 22.62, "from": "movie_clip", "to": "aroll", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 34.70, "from": "aroll", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "punch-in"},
+  {"t": 39.8, "from": "aroll", "to": "full_graphic reloj", "type": "corte seco", "frames": 0, "detail": "a negro; el reloj entra desde abajo"},
+  {"t": 42.3, "from": "full_graphic reloj", "to": "full_graphic diamante", "type": "slide", "frames": 9, "detail": "slide a la izquierda con blur (observed 42.2–42.5); posible whoosh (−18 dB en la pausa 42.04–42.28)"},
+  {"t": 44.2, "from": "full_graphic", "to": "aroll", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 45.52, "from": "aroll", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "zoom-out"}
+ ],
+ "text_fx": [
+  {"t": 1.14, "fx": "write-on por palabra", "detail": "write-on por LETRAS de la línea amarilla en mayúsculas ≈0.15–0.3 s"},
+  {"t": 8.63, "fx": "write-on por palabra", "detail": "letras en orden no lineal ('AL S' → 'SAL SMAN' → 'SALESMAN')"},
+  {"t": 11.35, "fx": "gris→blanco", "detail": "texto de motion graphic: cada palabra aparece gris tenue y pasa a amarillo/blanco al decirse"},
+  {"t": 14.44, "fx": "blur-in", "detail": "número gigante con rayas aparece con fade+escala"},
+  {"t": 33.2, "fx": "blur-in", "detail": "'60s' fade 0.3 s de transparente a sólido"}
+ ],
+ "camera": [
+  {"t": 5.73, "move": "zoom-out", "scale_or_dir": "≈1.1→1.0", "dur_s": 0.0},
+  {"t": 9.2, "move": "push-in lento", "scale_or_dir": "1.0→1.1", "dur_s": 0.6},
+  {"t": 12.85, "move": "slide", "scale_or_dir": "izquierda", "dur_s": 0.5},
+  {"t": 34.70, "move": "punch-in", "scale_or_dir": "≈1.0→1.1", "dur_s": 0.0},
+  {"t": 42.2, "move": "slide", "scale_or_dir": "izquierda", "dur_s": 0.3},
+  {"t": 45.52, "move": "zoom-out", "scale_or_dir": "≈1.1→1.0", "dur_s": 0.0}
+ ],
+ "rhythm": {"events_per_10s": [10, 11, 9, 6, 11, 7], "avg_hold_text_s": 1.2, "notes": "derived: cortes + overlays + cambios de subtítulo por tramo de 10 s. Valle en 26–33 (role-play solo con subtítulo)."},
+ "typography": "observed: Poppins-like bold. Blanco ≈2.5 % alto sentence case; amarillo ≈#F5DC2E mayúsculas ≈5.5 % (≈2.2×) o una línea amarilla minúscula ≈4 %. En graphics: texto arriba, amarillo + blanco, ≈3 %, write-on por palabra gris→color. Números gigantes blancos con rayas horizontales.",
+ "textures": "A-roll limpio, cálido, franja negra inferior. Motion graphics: negro con grano fino visible, viñeta fuerte, foco cenital, motion blur en los slides.",
+ "distinct": [
+  "Números gigantes rayados ('4s', '60s') detrás de la cabeza para cada dato de tiempo.",
+  "Dos full graphics 3D en negro (vendedor→rascacielos, reloj→diamante) con slide-blur.",
+  "Objetos 3D literales sobre la cabeza (teléfono, globo con marco de selección).",
+  "Role-play: Jordan actúa con un teléfono real el mal opener.",
+  "Cierre sin tarjeta de follow: 'You got it' amarillo."
+ ]
+}

@@ -39,6 +39,11 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
   const estilo = familia?.paletaEstilo;
   const opciones: bridge.Paleta["options"] = [...(paleta?.options ?? []), ...(estilo ? [{ name: "Colores del estilo", from: familia!.name, colors: estilo, caption: estilo.highlight ?? estilo.vibrant_bright }] : [])];
   const color = opciones[pal];
+  // estilos con colores de firma (Nick, Lobo): arrancan con sus colores; los demás con el color recomendado del video
+  useEffect(() => {
+    if (familia?.paletaPorDefecto === "estilo" && estilo) setPal((paleta?.options.length ?? 0));
+    else if (paleta) setPal(Math.max(0, paleta.options.findIndex((o) => o.recommended)));
+  }, [fam, paleta]);
   const links = fuentes.split(/\s+/).filter((u) => /^https?:\/\//.test(u));
   const working = flujo?.status === "running" || sending;
 

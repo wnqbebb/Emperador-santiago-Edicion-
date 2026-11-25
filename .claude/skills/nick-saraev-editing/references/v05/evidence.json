@@ -1,0 +1,1232 @@
+{
+  "video": "v05.mp4",
+  "duration": 40.13,
+  "derived": {
+    "shots": 9,
+    "avg_shot_len": 4.46,
+    "cuts_per_min": 13.5,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "Claude",
+      "start": 0.0,
+      "end": 0.3
+    },
+    {
+      "w": "can",
+      "start": 0.3,
+      "end": 0.42
+    },
+    {
+      "w": "now",
+      "start": 0.42,
+      "end": 0.56
+    },
+    {
+      "w": "turn",
+      "start": 0.56,
+      "end": 0.74
+    },
+    {
+      "w": "your",
+      "start": 0.74,
+      "end": 0.88
+    },
+    {
+      "w": "ugly,",
+      "start": 0.88,
+      "end": 1.2
+    },
+    {
+      "w": "vibe",
+      "start": 1.28,
+      "end": 1.46
+    },
+    {
+      "w": "-coded",
+      "start": 1.46,
+      "end": 1.72
+    },
+    {
+      "w": "apps",
+      "start": 1.72,
+      "end": 1.96
+    },
+    {
+      "w": "into",
+      "start": 1.96,
+      "end": 2.16
+    },
+    {
+      "w": "something",
+      "start": 2.16,
+      "end": 2.34
+    },
+    {
+      "w": "that",
+      "start": 2.34,
+      "end": 2.54
+    },
+    {
+      "w": "looks",
+      "start": 2.54,
+      "end": 2.66
+    },
+    {
+      "w": "like",
+      "start": 2.66,
+      "end": 2.86
+    },
+    {
+      "w": "a",
+      "start": 2.86,
+      "end": 2.98
+    },
+    {
+      "w": "real",
+      "start": 2.98,
+      "end": 3.16
+    },
+    {
+      "w": "designer",
+      "start": 3.16,
+      "end": 3.48
+    },
+    {
+      "w": "made",
+      "start": 3.48,
+      "end": 3.78
+    },
+    {
+      "w": "it",
+      "start": 3.78,
+      "end": 3.88
+    },
+    {
+      "w": "with",
+      "start": 3.88,
+      "end": 4.04
+    },
+    {
+      "w": "just",
+      "start": 4.04,
+      "end": 4.38
+    },
+    {
+      "w": "one",
+      "start": 4.38,
+      "end": 4.66
+    },
+    {
+      "w": "command.",
+      "start": 4.66,
+      "end": 5.02
+    },
+    {
+      "w": "This",
+      "start": 5.24,
+      "end": 5.36
+    },
+    {
+      "w": "is",
+      "start": 5.36,
+      "end": 5.5
+    },
+    {
+      "w": "Unslop,",
+      "start": 5.5,
+      "end": 6.04
+    },
+    {
+      "w": "and",
+      "start": 6.16,
+      "end": 6.22
+    },
+    {
+      "w": "it's",
+      "start": 6.22,
+      "end": 6.36
+    },
+    {
+      "w": "a",
+      "start": 6.36,
+      "end": 6.48
+    },
+    {
+      "w": "free,",
+      "start": 6.48,
+      "end": 6.68
+    },
+    {
+      "w": "anti",
+      "start": 6.82,
+      "end": 7.06
+    },
+    {
+      "w": "-AI",
+      "start": 7.06,
+      "end": 7.38
+    },
+    {
+      "w": "slot",
+      "start": 7.38,
+      "end": 7.68
+    },
+    {
+      "w": "design",
+      "start": 7.68,
+      "end": 8.06
+    },
+    {
+      "w": "skill",
+      "start": 8.06,
+      "end": 8.3
+    },
+    {
+      "w": "built",
+      "start": 8.3,
+      "end": 8.54
+    },
+    {
+      "w": "for",
+      "start": 8.54,
+      "end": 8.74
+    },
+    {
+      "w": "Claude",
+      "start": 8.74,
+      "end": 9.02
+    },
+    {
+      "w": "code",
+      "start": 9.02,
+      "end": 9.2
+    },
+    {
+      "w": "and",
+      "start": 9.2,
+      "end": 9.34
+    },
+    {
+      "w": "codex",
+      "start": 9.34,
+      "end": 9.76
+    },
+    {
+      "w": "that",
+      "start": 9.76,
+      "end": 9.9
+    },
+    {
+      "w": "already",
+      "start": 9.9,
+      "end": 10.14
+    },
+    {
+      "w": "has",
+      "start": 10.14,
+      "end": 10.26
+    },
+    {
+      "w": "crossed",
+      "start": 10.26,
+      "end": 10.44
+    },
+    {
+      "w": "13",
+      "start": 10.44,
+      "end": 10.92
+    },
+    {
+      "w": ",000",
+      "start": 10.92,
+      "end": 11.2
+    },
+    {
+      "w": "stars",
+      "start": 11.2,
+      "end": 11.52
+    },
+    {
+      "w": "on",
+      "start": 11.52,
+      "end": 11.74
+    },
+    {
+      "w": "GitHub.",
+      "start": 11.74,
+      "end": 11.96
+    },
+    {
+      "w": "You",
+      "start": 12.22,
+      "end": 12.28
+    },
+    {
+      "w": "just",
+      "start": 12.28,
+      "end": 12.44
+    },
+    {
+      "w": "install",
+      "start": 12.44,
+      "end": 12.76
+    },
+    {
+      "w": "it",
+      "start": 12.76,
+      "end": 12.92
+    },
+    {
+      "w": "and",
+      "start": 12.92,
+      "end": 12.98
+    },
+    {
+      "w": "point",
+      "start": 12.98,
+      "end": 13.16
+    },
+    {
+      "w": "it",
+      "start": 13.16,
+      "end": 13.28
+    },
+    {
+      "w": "at",
+      "start": 13.28,
+      "end": 13.36
+    },
+    {
+      "w": "your",
+      "start": 13.36,
+      "end": 13.48
+    },
+    {
+      "w": "app",
+      "start": 13.48,
+      "end": 13.68
+    },
+    {
+      "w": "or",
+      "start": 13.68,
+      "end": 13.74
+    },
+    {
+      "w": "website,",
+      "start": 13.74,
+      "end": 14.08
+    },
+    {
+      "w": "and",
+      "start": 14.34,
+      "end": 14.4
+    },
+    {
+      "w": "it'll",
+      "start": 14.4,
+      "end": 14.56
+    },
+    {
+      "w": "catch",
+      "start": 14.56,
+      "end": 14.84
+    },
+    {
+      "w": "every",
+      "start": 14.84,
+      "end": 15.14
+    },
+    {
+      "w": "telltale",
+      "start": 15.14,
+      "end": 15.58
+    },
+    {
+      "w": "sign",
+      "start": 15.58,
+      "end": 15.92
+    },
+    {
+      "w": "of",
+      "start": 15.92,
+      "end": 16.08
+    },
+    {
+      "w": "AI",
+      "start": 16.08,
+      "end": 16.26
+    },
+    {
+      "w": "design",
+      "start": 16.26,
+      "end": 16.6
+    },
+    {
+      "w": "from",
+      "start": 16.6,
+      "end": 16.9
+    },
+    {
+      "w": "glowing",
+      "start": 16.9,
+      "end": 17.36
+    },
+    {
+      "w": "purple",
+      "start": 17.36,
+      "end": 17.6
+    },
+    {
+      "w": "gradients",
+      "start": 17.6,
+      "end": 18.12
+    },
+    {
+      "w": "to",
+      "start": 18.12,
+      "end": 18.3
+    },
+    {
+      "w": "emojis",
+      "start": 18.3,
+      "end": 18.74
+    },
+    {
+      "w": "and",
+      "start": 18.74,
+      "end": 19.0
+    },
+    {
+      "w": "maybe",
+      "start": 19.0,
+      "end": 19.16
+    },
+    {
+      "w": "uneven",
+      "start": 19.16,
+      "end": 19.42
+    },
+    {
+      "w": "spacing.",
+      "start": 19.42,
+      "end": 19.84
+    },
+    {
+      "w": "Then",
+      "start": 20.06,
+      "end": 20.18
+    },
+    {
+      "w": "it'll",
+      "start": 20.18,
+      "end": 20.38
+    },
+    {
+      "w": "pitch",
+      "start": 20.38,
+      "end": 20.52
+    },
+    {
+      "w": "you",
+      "start": 20.52,
+      "end": 20.7
+    },
+    {
+      "w": "a",
+      "start": 20.7,
+      "end": 20.84
+    },
+    {
+      "w": "premium",
+      "start": 20.84,
+      "end": 21.1
+    },
+    {
+      "w": "design",
+      "start": 21.1,
+      "end": 21.44
+    },
+    {
+      "w": "direction",
+      "start": 21.44,
+      "end": 21.84
+    },
+    {
+      "w": "that",
+      "start": 21.84,
+      "end": 22.04
+    },
+    {
+      "w": "actually",
+      "start": 22.04,
+      "end": 22.4
+    },
+    {
+      "w": "fits",
+      "start": 22.4,
+      "end": 22.58
+    },
+    {
+      "w": "your",
+      "start": 22.58,
+      "end": 22.74
+    },
+    {
+      "w": "product.",
+      "start": 22.74,
+      "end": 23.06
+    },
+    {
+      "w": "And",
+      "start": 23.26,
+      "end": 23.3
+    },
+    {
+      "w": "once",
+      "start": 23.3,
+      "end": 23.4
+    },
+    {
+      "w": "you",
+      "start": 23.4,
+      "end": 23.52
+    },
+    {
+      "w": "approve",
+      "start": 23.52,
+      "end": 23.82
+    },
+    {
+      "w": "it,",
+      "start": 23.82,
+      "end": 23.98
+    },
+    {
+      "w": "it'll",
+      "start": 24.04,
+      "end": 24.22
+    },
+    {
+      "w": "rebuild",
+      "start": 24.22,
+      "end": 24.48
+    },
+    {
+      "w": "every",
+      "start": 24.48,
+      "end": 24.9
+    },
+    {
+      "w": "screen",
+      "start": 24.9,
+      "end": 25.3
+    },
+    {
+      "w": "in",
+      "start": 25.3,
+      "end": 25.48
+    },
+    {
+      "w": "nine",
+      "start": 25.48,
+      "end": 25.72
+    },
+    {
+      "w": "steps,",
+      "start": 25.72,
+      "end": 26.06
+    },
+    {
+      "w": "just",
+      "start": 26.14,
+      "end": 26.28
+    },
+    {
+      "w": "like",
+      "start": 26.28,
+      "end": 26.48
+    },
+    {
+      "w": "a",
+      "start": 26.48,
+      "end": 26.56
+    },
+    {
+      "w": "real",
+      "start": 26.56,
+      "end": 26.7
+    },
+    {
+      "w": "designer",
+      "start": 26.7,
+      "end": 27.1
+    },
+    {
+      "w": "would,",
+      "start": 27.1,
+      "end": 27.32
+    },
+    {
+      "w": "fixing",
+      "start": 27.44,
+      "end": 27.66
+    },
+    {
+      "w": "the",
+      "start": 27.66,
+      "end": 27.86
+    },
+    {
+      "w": "spacing",
+      "start": 27.86,
+      "end": 28.14
+    },
+    {
+      "w": "and",
+      "start": 28.14,
+      "end": 28.32
+    },
+    {
+      "w": "colors",
+      "start": 28.32,
+      "end": 28.6
+    },
+    {
+      "w": "first.",
+      "start": 28.6,
+      "end": 28.98
+    },
+    {
+      "w": "Then",
+      "start": 28.98,
+      "end": 29.28
+    },
+    {
+      "w": "the",
+      "start": 29.28,
+      "end": 29.42
+    },
+    {
+      "w": "fonts,",
+      "start": 29.42,
+      "end": 29.68
+    },
+    {
+      "w": "icons,",
+      "start": 29.88,
+      "end": 30.2
+    },
+    {
+      "w": "layout,",
+      "start": 30.42,
+      "end": 30.6
+    },
+    {
+      "w": "and",
+      "start": 30.92,
+      "end": 30.94
+    },
+    {
+      "w": "even",
+      "start": 30.94,
+      "end": 31.08
+    },
+    {
+      "w": "animations.",
+      "start": 31.08,
+      "end": 31.54
+    },
+    {
+      "w": "Claude",
+      "start": 31.86,
+      "end": 32.04
+    },
+    {
+      "w": "can",
+      "start": 32.04,
+      "end": 32.18
+    },
+    {
+      "w": "even",
+      "start": 32.18,
+      "end": 32.32
+    },
+    {
+      "w": "generate",
+      "start": 32.32,
+      "end": 32.62
+    },
+    {
+      "w": "hero",
+      "start": 32.62,
+      "end": 32.9
+    },
+    {
+      "w": "images",
+      "start": 32.9,
+      "end": 33.22
+    },
+    {
+      "w": "and",
+      "start": 33.22,
+      "end": 33.38
+    },
+    {
+      "w": "visuals",
+      "start": 33.38,
+      "end": 33.68
+    },
+    {
+      "w": "for",
+      "start": 33.68,
+      "end": 33.98
+    },
+    {
+      "w": "your",
+      "start": 33.98,
+      "end": 34.12
+    },
+    {
+      "w": "page",
+      "start": 34.12,
+      "end": 34.4
+    },
+    {
+      "w": "through",
+      "start": 34.4,
+      "end": 34.64
+    },
+    {
+      "w": "tools",
+      "start": 34.64,
+      "end": 34.86
+    },
+    {
+      "w": "like",
+      "start": 34.86,
+      "end": 35.1
+    },
+    {
+      "w": "the",
+      "start": 35.1,
+      "end": 35.24
+    },
+    {
+      "w": "Higgs",
+      "start": 35.24,
+      "end": 35.48
+    },
+    {
+      "w": "Field",
+      "start": 35.48,
+      "end": 35.72
+    },
+    {
+      "w": "MCP.",
+      "start": 35.72,
+      "end": 36.36
+    },
+    {
+      "w": "So",
+      "start": 36.52,
+      "end": 36.58
+    },
+    {
+      "w": "if",
+      "start": 36.58,
+      "end": 36.66
+    },
+    {
+      "w": "you",
+      "start": 36.66,
+      "end": 36.7
+    },
+    {
+      "w": "want",
+      "start": 36.7,
+      "end": 36.82
+    },
+    {
+      "w": "to",
+      "start": 36.82,
+      "end": 36.86
+    },
+    {
+      "w": "try",
+      "start": 36.86,
+      "end": 37.04
+    },
+    {
+      "w": "it",
+      "start": 37.04,
+      "end": 37.12
+    },
+    {
+      "w": "for",
+      "start": 37.12,
+      "end": 37.18
+    },
+    {
+      "w": "yourselves,",
+      "start": 37.18,
+      "end": 37.52
+    },
+    {
+      "w": "comment",
+      "start": 37.68,
+      "end": 37.84
+    },
+    {
+      "w": "design",
+      "start": 37.84,
+      "end": 38.18
+    },
+    {
+      "w": "down",
+      "start": 38.18,
+      "end": 38.4
+    },
+    {
+      "w": "below,",
+      "start": 38.4,
+      "end": 38.68
+    },
+    {
+      "w": "and",
+      "start": 38.86,
+      "end": 38.92
+    },
+    {
+      "w": "I'll",
+      "start": 38.92,
+      "end": 39.0
+    },
+    {
+      "w": "send",
+      "start": 39.0,
+      "end": 39.18
+    },
+    {
+      "w": "you",
+      "start": 39.18,
+      "end": 39.3
+    },
+    {
+      "w": "the",
+      "start": 39.3,
+      "end": 39.4
+    },
+    {
+      "w": "link",
+      "start": 39.4,
+      "end": 39.56
+    },
+    {
+      "w": "directly.",
+      "start": 39.56,
+      "end": 39.8
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 5.1,
+      "length": 5.1,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0B2A8F",
+            "share": 0.177
+          },
+          {
+            "hex": "#0C34AC",
+            "share": 0.124
+          },
+          {
+            "hex": "#0A080D",
+            "share": 0.108
+          },
+          {
+            "hex": "#071B6C",
+            "share": 0.063
+          },
+          {
+            "hex": "#0C2476",
+            "share": 0.056
+          }
+        ],
+        "motion_energy": 12.69,
+        "script": "Claude can now turn your ugly, vibe -coded apps into something that looks like a real designer made it with just one command."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 5.1,
+      "end": 8.467,
+      "length": 3.367,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F9F9FA",
+            "share": 0.375
+          },
+          {
+            "hex": "#0B2A8F",
+            "share": 0.242
+          },
+          {
+            "hex": "#0C34AE",
+            "share": 0.131
+          },
+          {
+            "hex": "#092377",
+            "share": 0.083
+          },
+          {
+            "hex": "#041C6B",
+            "share": 0.052
+          }
+        ],
+        "motion_energy": 6.94,
+        "script": "This is Unslop, and it's a free, anti -AI slot design skill built"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 8.467,
+      "end": 12.1,
+      "length": 3.633,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FAF9FA",
+            "share": 0.383
+          },
+          {
+            "hex": "#0A2A8E",
+            "share": 0.236
+          },
+          {
+            "hex": "#0C34AD",
+            "share": 0.131
+          },
+          {
+            "hex": "#092378",
+            "share": 0.082
+          },
+          {
+            "hex": "#041C6B",
+            "share": 0.055
+          }
+        ],
+        "motion_energy": 16.79,
+        "script": "for Claude code and codex that already has crossed 13 ,000 stars on GitHub."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 12.1,
+      "end": 14.2,
+      "length": 2.1,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F7F7F8",
+            "share": 0.247
+          },
+          {
+            "hex": "#0A2A8E",
+            "share": 0.123
+          },
+          {
+            "hex": "#0C34AB",
+            "share": 0.103
+          },
+          {
+            "hex": "#0A080B",
+            "share": 0.095
+          },
+          {
+            "hex": "#0B2477",
+            "share": 0.05
+          }
+        ],
+        "motion_energy": 14.78,
+        "script": "You just install it and point it at your app or website,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 14.2,
+      "end": 19.967,
+      "length": 5.767,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0A2A8E",
+            "share": 0.239
+          },
+          {
+            "hex": "#0F0B30",
+            "share": 0.141
+          },
+          {
+            "hex": "#0C34AD",
+            "share": 0.13
+          },
+          {
+            "hex": "#0B2275",
+            "share": 0.099
+          },
+          {
+            "hex": "#2B276F",
+            "share": 0.069
+          }
+        ],
+        "motion_energy": 12.19,
+        "script": "and it'll catch every telltale sign of AI design from glowing purple gradients to emojis and maybe uneven spacing."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 19.967,
+      "end": 23.133,
+      "length": 3.167,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F8F7F7",
+            "share": 0.223
+          },
+          {
+            "hex": "#0B2B8F",
+            "share": 0.127
+          },
+          {
+            "hex": "#0A070B",
+            "share": 0.096
+          },
+          {
+            "hex": "#0C33AB",
+            "share": 0.093
+          },
+          {
+            "hex": "#CECED0",
+            "share": 0.049
+          }
+        ],
+        "motion_energy": 14.73,
+        "script": "Then it'll pitch you a premium design direction that actually fits your product."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 23.133,
+      "end": 31.767,
+      "length": 8.633,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0A2A8F",
+            "share": 0.236
+          },
+          {
+            "hex": "#0D35AE",
+            "share": 0.151
+          },
+          {
+            "hex": "#100C32",
+            "share": 0.1
+          },
+          {
+            "hex": "#092276",
+            "share": 0.091
+          },
+          {
+            "hex": "#0B0B0C",
+            "share": 0.072
+          }
+        ],
+        "motion_energy": 12.49,
+        "script": "And once you approve it, it'll rebuild every screen in nine steps, just like a real designer would, fixing the spacing and colors first. Then the fonts, icons, layout, and even animations."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 31.767,
+      "end": 36.4,
+      "length": 4.633,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#090A0F",
+            "share": 0.16
+          },
+          {
+            "hex": "#0B2A8E",
+            "share": 0.126
+          },
+          {
+            "hex": "#0C34AB",
+            "share": 0.103
+          },
+          {
+            "hex": "#0A122D",
+            "share": 0.062
+          },
+          {
+            "hex": "#0B2476",
+            "share": 0.053
+          }
+        ],
+        "motion_energy": 18.49,
+        "script": "Claude can even generate hero images and visuals for your page through tools like the Higgs Field MCP."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 36.4,
+      "end": 40.129,
+      "length": 3.729,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D10",
+            "share": 0.256
+          },
+          {
+            "hex": "#AA9498",
+            "share": 0.07
+          },
+          {
+            "hex": "#CC9589",
+            "share": 0.062
+          },
+          {
+            "hex": "#AD766A",
+            "share": 0.05
+          },
+          {
+            "hex": "#B19DA1",
+            "share": 0.043
+          }
+        ],
+        "motion_energy": 22.2,
+        "script": "So if you want to try it for yourselves, comment design down below, and I'll send you the link directly."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

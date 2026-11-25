@@ -1,0 +1,9 @@
+000    0.00-   4.30 (4.3s) | Your Claude code can now build full video games, just like a real developer with one plugin.
+001    4.30-  12.20 (7.9s) | So someone on GitHub just created a repo that gives your coding agent 77 game dev skills for building full games in Unreal Engine, Unity, Godot, and even web games.
+002   12.20-  14.20 (2.0s) | And you never even have to pick the skills yourself. You
+003   14.20-  18.00 (3.8s) | just describe what you're building and it'll pick the right skill for your own engine and task entirely
+004   18.00-  19.00 (1.0s) | on its own.
+005   19.00-  23.97 (5.0s) | It has skills for everything, from player movement to platformer mechanics to dedicated art directions.
+006   23.97-  27.43 (3.5s) | So every game asset looks the exact same as it would in a real AAA
+007   27.43-  33.63 (6.2s) | studio developed game. And with all that, you can build a full game from start to finish, then publish, and even monetize it on the App Store or Steam.
+008   33.63-  37.14 (3.5s) | So if you want to try this for yourselves, just comment game down below and I'll send you the links.

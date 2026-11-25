@@ -1,0 +1,45 @@
+{
+ "triggers": [
+  {"t_word": 0.0, "word": "Did", "element": "tarjeta de comentario blanca arriba (Marcus_Moore) + subtítulo 'Did you really' presentes desde el frame 0", "category": "hook_comment", "offset_s": 0.0, "why": "literal: la pregunta hablada es el comentario mostrado (observado)"},
+  {"t_word": 3.04, "word": "fucking", "element": "subtítulo 'f*cking dinner?' censurado con asterisco", "category": "hook_comment", "offset_s": 0.06, "why": "énfasis/plataforma: censura en el hook (observado 3.1)"},
+  {"t_word": 4.32, "word": "Ah,", "element": "jump cut a 4.10 + subtítulo desaparece durante la risa", "category": "aroll_caption", "offset_s": -0.22, "why": "cambio de tema: de leer a reaccionar (observado)"},
+  {"t_word": 7.86, "word": "Bordeaux", "element": "foto de botella de Bordeaux bajo el subtítulo", "category": "insert_image", "offset_s": -0.09, "why": "literal (observado 7.767)"},
+  {"t_word": 9.72, "word": "via", "element": "botella → foto B/N Iwo Jima; subtítulo 'The year'", "category": "insert_image", "offset_s": 0.35, "why": "dato de época / metáfora histórica del año 1945 (observado ~10.07)"},
+  {"t_word": 11.6, "word": "We", "element": "jump cut + foto sale", "category": "aroll_caption", "offset_s": -0.03, "why": "fin del dato, vuelta a la cara (observado 11.57)"},
+  {"t_word": 16.08, "word": "World", "element": "foto B/N artillería WWI bajo 'of World War I'", "category": "insert_image", "offset_s": -0.15, "why": "literal/época (observado 15.93)"},
+  {"t_word": 17.74, "word": "You", "element": "jump cut + foto sale", "category": "aroll_caption", "offset_s": -0.11, "why": "vuelta a la cara (observado 17.63)"},
+  {"t_word": 29.06, "word": "Steaks", "element": "foto chuletón crudo fondo negro", "category": "insert_image", "offset_s": 0.21, "why": "literal (observado 29.27)"},
+  {"t_word": 30.6, "word": "and", "element": "foto sale", "category": "aroll_caption", "offset_s": -0.23, "why": "fin del objeto (observado 30.37)"},
+  {"t_word": 36.1, "word": "what", "element": "corte a la escena de la película a pantalla completa con Jordan recortado abajo-izquierda", "category": "movie_clip", "offset_s": -0.17, "why": "literal: 'that scene in the movie' → la escena (observado 35.93)"},
+  {"t_word": 40.54, "word": "Guys,", "element": "corte de vuelta al A-roll", "category": "aroll_caption", "offset_s": -0.14, "why": "remate cómico con cara (observado 40.40)"},
+  {"t_word": 52.02, "word": "follow", "element": "barra de perfil wolfofwallst con botón Follow se despliega arriba", "category": "title_cta", "offset_s": -0.02, "why": "literal: CTA mostrado (observado 52.0)"},
+  {"t_word": 52.38, "word": "me.", "element": "cursor hace clic: botón pasa a 'Following' degradado rosa-morado", "category": "title_cta", "offset_s": 0.25, "why": "literal: la acción completada (observado ~52.6)"},
+  {"t_word": 54.84, "word": "without", "element": "botón Following pasa a gris oscuro; barra sale a ~55.2", "category": "title_cta", "offset_s": 0.0, "why": "fin del CTA visual antes de la promesa final (observado 54.8–55.2)"}
+ ],
+ "transitions": [
+  {"t": 4.1, "from": "hook_comment (móvil en mano)", "to": "aroll riendo", "type": "corte seco", "frames": 0, "detail": "jump cut en silencio (−38 dB); se va la tarjeta"},
+  {"t": 11.567, "from": "insert Iwo Jima", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "jump cut + salida de foto en el mismo frame"},
+  {"t": 17.633, "from": "insert WWI", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "jump cut + salida de foto en el mismo frame"},
+  {"t": 35.933, "from": "aroll", "to": "movie_clip", "type": "corte seco", "frames": 0, "detail": "a la escena de la película; él recortado ya dentro desde el 1.er frame"},
+  {"t": 40.4, "from": "movie_clip", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "vuelta en 'Guys'"}
+ ],
+ "text_fx": [
+  {"t": 0.0, "fx": "pop", "detail": "bloques de subtítulo aparecen/cambian en 1 frame, sin escala ni fade (observado 30 fps 0.0–0.47, 7.70–7.73)"},
+  {"t": 3.1, "fx": "máscara", "detail": "censura tipográfica 'f*cking' (no repetida a 49.5)"},
+  {"t": 10.0, "fx": "pop", "detail": "subtítulo reescrito: 'The year' / 'World War Two ended' (número en letras) frente a lo transcrito"},
+  {"t": 52.0, "fx": "máscara", "detail": "barra de perfil se despliega horizontalmente desde la izquierda ~3 fr"}
+ ],
+ "camera": [
+  {"t": 0.0, "move": "ninguno (fija)", "scale_or_dir": "1.0", "dur_s": 57.88}
+ ],
+ "rhythm": {"events_per_10s": [7, 14, 12, 9, 6, 9], "avg_hold_text_s": 1.2, "notes": "Derivado: cambios de bloque de subtítulo detectados en la franja 63–71 % (47) + cortes/overlays; 40–50 s subestimado por el detector. La imagen solo cambia 10 veces en 58 s; el subtítulo es el metrónomo (~1 bloque/1.2 s). Tramos A-roll sin overlay de hasta 8 s (43–51)."},
+ "typography": "Una sola familia: sans geométrica bold (tipo Poppins Bold/SemiBold), blanco #FFFFFF, minúsculas de frase con mayúscula inicial solo al inicio de frase, ~3.1–3.5 % del alto, 1 línea centrada a ~67 % del alto, sombra difusa suave (sin contorno grueso visible). 1–5 palabras por bloque (moda 2–3). Sin amarillo ni palabra clave en color. UI: sans de sistema regular negra pequeña en las tarjetas.",
+ "textures": "Ninguna añadida: ni grano, ni viñeta, ni papel. Imagen de celular nítida con luz natural cálida; fotos insertadas planas sin borde ni sombra; clip de película con su grado original cálido-oscuro.",
+ "distinct": [
+  "Hook con tarjeta de comentario real de un seguidor (Marcus_Moore) y él sosteniendo el móvil como si lo leyera.",
+  "Cadena de fotos de época (botella 1945 → Iwo Jima → WWI) que convierten fechas en imágenes, siempre bajo el subtítulo y en seco.",
+  "Clip de la escena real de la película con él recortado (sin recuadro) dentro de la escena.",
+  "Subtítulo editado a mano con censura selectiva y números en letras (y una errata '1960').",
+  "CTA con barra de perfil animada (clic Follow→Following con degradado de marca Instagram)."
+ ]
+}

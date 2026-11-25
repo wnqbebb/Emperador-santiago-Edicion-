@@ -1,0 +1,250 @@
+{
+ "triggers": [
+  {
+   "t_word": 0.0,
+   "word": "So",
+   "element": "tarjeta de comentario IG arriba (desde frame 0) + él mirando el móvil",
+   "category": "hook_comment",
+   "offset_s": 0.0,
+   "why": "hook: la pregunta del seguidor abre el video (observed)"
+  },
+  {
+   "t_word": 8.04,
+   "word": "Well,",
+   "element": "jump cut; desaparece la tarjeta de comentario; deja el móvil y mira a cámara",
+   "category": "aroll_caption",
+   "offset_s": -0.01,
+   "why": "cambio de tema: pregunta → respuesta (observed 8.03)"
+  },
+  {
+   "t_word": 14.6,
+   "word": "I",
+   "element": "jump cut entre 'Listen' y 'I was there'",
+   "category": "aroll_caption",
+   "offset_s": 0.0,
+   "why": "limpieza de pausa/énfasis de inicio de historia (observed)"
+  },
+  {
+   "t_word": 23.58,
+   "word": "Trank",
+   "element": "foto dardo tranquilizante sobre cuadrado blanco bajo el subtítulo",
+   "category": "insert_image",
+   "offset_s": -0.15,
+   "why": "literal (observed 23.43)"
+  },
+  {
+   "t_word": 24.54,
+   "word": "cattle",
+   "element": "swap a foto de picana de ganado",
+   "category": "insert_image",
+   "offset_s": -0.07,
+   "why": "literal + escalada (observed 24.47)"
+  },
+  {
+   "t_word": 26.38,
+   "word": "right?",
+   "element": "sale la foto (overlay off)",
+   "category": "aroll_caption",
+   "offset_s": -0.05,
+   "why": "fin de la lista de objetos (observed 26.33)"
+  },
+  {
+   "t_word": 26.94,
+   "word": "all",
+   "element": "jump cut",
+   "category": "aroll_caption",
+   "offset_s": 0.06,
+   "why": "ritmo/limpieza (observed 27.00)"
+  },
+  {
+   "t_word": 35.46,
+   "word": "couple",
+   "element": "jump cut",
+   "category": "aroll_caption",
+   "offset_s": 0.01,
+   "why": "ritmo/limpieza (observed 35.47)"
+  },
+  {
+   "t_word": 42.64,
+   "word": "is",
+   "element": "clip de la película full-bleed + él en recuadro abajo-izquierda",
+   "category": "movie_clip",
+   "offset_s": -0.04,
+   "why": "literal/prueba: se adelanta a 'movie' (44.06) 1.46 s; entra en 'is that anything you saw' (observed 42.60)"
+  },
+  {
+   "t_word": 45.0,
+   "word": "we",
+   "element": "corte de vuelta a A-roll full",
+   "category": "aroll_caption",
+   "offset_s": -0.03,
+   "why": "contraste película → él ('we were 10 times wilder')"
+  },
+  {
+   "t_word": 47.4,
+   "word": "head",
+   "element": "fotograma de rapado (mujer en sillón) bajo subtítulo",
+   "category": "insert_image",
+   "offset_s": -0.2,
+   "why": "literal (observed 47.20)"
+  },
+  {
+   "t_word": 48.8,
+   "word": "chimpanzees",
+   "element": "swap a foto de chimpancé",
+   "category": "insert_image",
+   "offset_s": -0.43,
+   "why": "literal; la imagen se adelanta a la palabra (observed 48.37)"
+  },
+  {
+   "t_word": 50.3,
+   "word": "pets",
+   "element": "sale la foto",
+   "category": "aroll_caption",
+   "offset_s": -0.1,
+   "why": "fin del ejemplo visual (observed 50.20)"
+  },
+  {
+   "t_word": 54.7,
+   "word": "It",
+   "element": "jump cut",
+   "category": "aroll_caption",
+   "offset_s": 0.0,
+   "why": "énfasis 'It was insanity' (observed 54.70)"
+  },
+  {
+   "t_word": 58.76,
+   "word": "follow",
+   "element": "jump cut + tarjeta de perfil IG 'wolfofwallst' con botón Follow",
+   "category": "title_cta",
+   "offset_s": 0.06,
+   "why": "literal CTA (observed 58.82)"
+  },
+  {
+   "t_word": 59.86,
+   "word": "inside",
+   "element": "cursor hace clic: botón pasa a 'Following' morado",
+   "category": "title_cta",
+   "offset_s": 0.14,
+   "why": "instrucción visual del gesto de seguir (observed ≈60.0)"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 8.03,
+   "from": "hook_comment",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut, misma escala; la tarjeta desaparece en el mismo frame"
+  },
+  {
+   "t": 14.6,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut sin cambio de escala"
+  },
+  {
+   "t": 27.0,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut"
+  },
+  {
+   "t": 35.47,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut"
+  },
+  {
+   "t": 42.6,
+   "from": "aroll",
+   "to": "movie_clip",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "scene score 0.55; recuadro con él aparece en el mismo frame"
+  },
+  {
+   "t": 44.97,
+   "from": "movie_clip",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "vuelta a pantalla completa"
+  },
+  {
+   "t": 54.7,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut"
+  },
+  {
+   "t": 58.82,
+   "from": "aroll",
+   "to": "title_cta",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut + tarjeta follow"
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.0,
+   "fx": "pop",
+   "detail": "bloques de 1–4 palabras que se reemplazan en corte seco (sin escala/fade visibles a 15 fps), blanco con sombra difusa"
+  },
+  {
+   "t": 58.82,
+   "fx": "escala",
+   "detail": "tarjeta follow entra como barra fina que se expande en vertical en ~2 frames"
+  },
+  {
+   "t": 60.0,
+   "fx": "pop",
+   "detail": "botón 'Follow' gris → 'Following' con degradado morado-magenta tras el clic del cursor"
+  }
+ ],
+ "camera": [
+  {
+   "t": 0.0,
+   "move": "ninguno (trípode)",
+   "scale_or_dir": "1.0",
+   "dur_s": 61.0
+  },
+  {
+   "t": 42.6,
+   "move": "recuadro (PiP)",
+   "scale_or_dir": "A-roll a ≈49 % del ancho, abajo-izquierda",
+   "dur_s": 2.37
+  }
+ ],
+ "rhythm": {
+  "events_per_10s": [
+   1,
+   1,
+   4,
+   1,
+   4,
+   4
+  ],
+  "avg_hold_text_s": 1.0,
+  "notes": "derived: eventos = cortes + entradas/salidas de overlay. Primera mitad casi solo A-roll con jump cuts cada 6–9 s; la acción visual se concentra en las enumeraciones (23–27, 42–50) y en el CTA. El subtítulo cambia cada ~0.6–1.5 s y es lo que mantiene el ritmo."
+ },
+ "typography": "Una sola familia: sans geométrica bold tipo Poppins Bold/SemiBold, blanco #FFFFFF, sombra negra difusa, ~3.5 % del alto, centrada y≈61 %; 1–4 palabras por bloque; minúsculas naturales; sin amarillo ni mayúsculas enfáticas; números en letras. Tarjetas con tipografía de Instagram (sans de sistema).",
+ "textures": "Ninguna añadida (sin grano, papel, viñeta). Grade natural cálido de atardecer; el clip de la película conserva su look frío. Fotos insertadas planas, sin borde ni sombra.",
+ "distinct": [
+  "Hook con tarjeta de comentario IG + él leyendo en el móvil (8 s de pregunta antes de responder).",
+  "Fotos de objetos absurdos encadenadas por swap con cada sustantivo de la lista (dardo → picana; rapado → chimpancé).",
+  "Clip real de la película con él en recuadro abajo-izquierda justo al decir 'anything you saw in the movie'.",
+  "CTA con tarjeta de perfil + cursor + clic que cambia a 'Following' morado.",
+  "Cero amarillo, cero iconos, cero punch-in: todo el ritmo descansa en subtítulos cortos y 4 inserts."
+ ]
+}

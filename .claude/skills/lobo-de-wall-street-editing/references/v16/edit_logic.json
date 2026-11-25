@@ -1,0 +1,48 @@
+{
+ "triggers": [
+  {"t_word": 0.0, "word": "What", "element": "tarjeta-título blanca 'What \"Let Me Think\" Really Means' arriba (ya presente en frame 0) + subtítulo 'What do you say'", "category": "hook_comment", "offset_s": 0.0, "why": "hook: anuncia el tema (observed)"},
+  {"t_word": 2.30, "word": "I", "element": "subtítulo entre comillas '\"I want to think' (objeción citada)", "category": "hook_comment", "offset_s": 0.0, "why": "literal: cita de la objeción (observed 2.3)"},
+  {"t_word": 3.54, "word": "I'm", "element": "la tarjeta-título desaparece de corte (≈3.6)", "category": "aroll_caption", "offset_s": 0.06, "why": "cambio de tema: hook → presentación (observed)"},
+  {"t_word": 4.78, "word": "the", "element": "corte a clip de 'The Wolf of Wall Street' (DiCaprio) full-bleed + Jordan en recuadro abajo-izq", "category": "movie_clip", "offset_s": -0.05, "why": "literal: 'the real Wolf of Wall Street' (observed 4.73)"},
+  {"t_word": 6.26, "word": "and", "element": "vuelta al A-roll limpio", "category": "aroll_caption", "offset_s": -0.02, "why": "fin de la credencial (observed 6.24)"},
+  {"t_word": 13.58, "word": "the", "element": "jump cut de pausa ('the last thing')", "category": "aroll_caption", "offset_s": 0.02, "why": "énfasis/limpieza (observed 13.60)"},
+  {"t_word": 15.20, "word": "getting", "element": "corte a primer plano escéptico de DiCaprio + recuadro de Jordan", "category": "movie_clip", "offset_s": 0.13, "why": "metáfora/emoción: la discusión que no quieres (observed 15.33)"},
+  {"t_word": 18.86, "word": "Is", "element": "vuelta al A-roll + subtítulo 'is a smokescreen'", "category": "aroll_caption", "offset_s": 0.07, "why": "cambio de tema: diagnóstico (observed 18.93)"},
+  {"t_word": 22.52, "word": "whether", "element": "jump cut", "category": "aroll_caption", "offset_s": 0.01, "why": "inicio de la lista de preguntas (observed 22.53)"},
+  {"t_word": 32.06, "word": "company", "element": "jump cut ('the company')", "category": "aroll_caption", "offset_s": -0.03, "why": "tercer nivel de certeza (observed 32.03)"},
+  {"t_word": 34.26, "word": "loop", "element": "recuadro con clip de DiCaprio al teléfono bajo el subtítulo", "category": "insert_image", "offset_s": -0.03, "why": "literal: 'close' = cierre por teléfono (observed 34.23)"},
+  {"t_word": 35.58, "word": "and", "element": "desaparece el recuadro (35.94)", "category": "aroll_caption", "offset_s": 0.36, "why": "fin de la ilustración (observed)"},
+  {"t_word": 40.84, "word": "Wolf", "element": "tarjeta de perfil 'wolfofwallst' con botón Follow entra bajo el subtítulo", "category": "title_cta", "offset_s": 0.03, "why": "CTA (observed 40.87)"},
+  {"t_word": 41.84, "word": "follow", "element": "cursor pulsa: botón pasa a 'Following' morado", "category": "title_cta", "offset_s": 0.1, "why": "literal: demuestra la acción (observed ≈41.95)"}
+ ],
+ "transitions": [
+  {"t": 4.73, "from": "aroll", "to": "movie_clip (DiCaprio oficina)", "type": "corte seco", "frames": 0, "detail": "sin efecto; el recuadro aparece a la vez (observed)"},
+  {"t": 6.24, "from": "movie_clip", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "observed"},
+  {"t": 13.60, "from": "aroll", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "jump cut de pausa, sin cambio de escala apreciable (observed)"},
+  {"t": 15.33, "from": "aroll", "to": "movie_clip (DiCaprio escéptico)", "type": "corte seco", "frames": 0, "detail": "observed"},
+  {"t": 18.93, "from": "movie_clip", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "observed"},
+  {"t": 22.53, "from": "aroll", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "jump cut (observed)"},
+  {"t": 32.03, "from": "aroll", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "jump cut (observed)"},
+  {"t": 34.23, "from": "aroll", "to": "insert_image (recuadro clip)", "type": "corte seco", "frames": 0, "detail": "overlay aparece en 1 frame (observed)"},
+  {"t": 35.94, "from": "insert_image", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "overlay desaparece en 1 frame (observed)"}
+ ],
+ "text_fx": [
+  {"t": 0.0, "fx": "pop", "detail": "subtítulos por frase reemplazados en 1 frame, sin escala ni blur (observed en todas las tiras)"},
+  {"t": 2.3, "fx": "pop", "detail": "objeción entre comillas tipográficas, partida en 2 bloques (observed 2.3/3.0)"},
+  {"t": 40.87, "fx": "escala", "detail": "tarjeta de perfil entra con escala/slide ≈0.15 s (observed 40.87→40.93); el subtítulo no cambia de estilo"}
+ ],
+ "camera": [
+  {"t": 0.0, "move": "push-in lento", "scale_or_dir": "ninguno apreciable (cámara fija de celular)", "dur_s": 0.0},
+  {"t": 13.60, "move": "punch-in", "scale_or_dir": "≈1.0→1.0 (jump cut sin zoom, observed)", "dur_s": 0.0}
+ ],
+ "rhythm": {"events_per_10s": [7, 7, 7, 8, 6], "avg_hold_text_s": 1.2, "notes": "derived: eventos = cambios de subtítulo + cortes + overlays por tramo de 10 s (0–10, 10–20, 20–30, 30–40, 40–42.9). El ritmo visual es bajo (cortes cada ≈4.8 s); lo sostienen los subtítulos y los 3 insertos de película."},
+ "typography": "observed: sans geométrica bold (tipo Poppins Bold) blanca, sentence case, 2–4 palabras por bloque, ≈3.5 % del alto, y≈60 % (≈68 % sobre clips). Sin palabra clave en color ni tamaño. Tarjeta de hook en sans condensada bold negra sobre cajas blancas redondeadas.",
+ "textures": "ninguna: sin grano, sin viñeta, sin papel. Clips de película con su grado original.",
+ "distinct": [
+  "Dos clips de la película a pantalla completa con Jordan en recuadro (4.73 y 15.33), uno literal ('real Wolf') y otro emocional (cara escéptica).",
+  "Inserto pequeño de la película (escena del teléfono) DEBAJO del subtítulo en 'loop back into a close'.",
+  "Tarjeta de hook tipo texto nativo de TikTok con la objeción entre comillas, 3.6 s.",
+  "CTA con tarjeta de perfil animada y click simulado a 'Following'.",
+  "Cero amarillo, cero iconos: es el look A más desnudo; el subtítulo corrige el audio ('smokescreen')."
+ ]
+}

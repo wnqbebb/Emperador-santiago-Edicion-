@@ -1,0 +1,44 @@
+{
+ "triggers": [
+  {"t_word": 0.0, "word": "Hey,", "element": "tarjeta de vidrio 3D con onda azul flotando", "category": "full_graphic", "offset_s": 0.0, "why": "metáfora: voz = onda (observado)"},
+  {"t_word": 3.72, "word": "one.", "element": "fade a crema y reveal 'This Is Tone' (4.5–5.0)", "category": "full_graphic", "offset_s": 0.78, "why": "presentación del producto tras el hook (observado)"},
+  {"t_word": 11.52, "word": "With", "element": "la voz lee la frase ya escrita en la UI; corte a claim 'Your Words. A Realistic AI Voice.' (12.1)", "category": "full_graphic", "offset_s": 0.58, "why": "literal: resultado audible de la demo (observado)"},
+  {"t_word": 15.16, "word": "Turn", "element": "diagrama isométrico de capas", "category": "full_graphic", "offset_s": -0.03, "why": "cambio de tema: tecnología (observado 15.13)"},
+  {"t_word": 18.34, "word": "An", "element": "degradado lila + 'An agent that changes minds.'", "category": "full_graphic", "offset_s": -0.07, "why": "literal: titular = frase dicha (observado 18.27)"},
+  {"t_word": 20.78, "word": "That's", "element": "la onda del reproductor de la UI se activa con la voz del agente", "category": "full_graphic", "offset_s": 0.0, "why": "literal: audio mostrado (observado 21.0–25.5)"},
+  {"t_word": 28.16, "word": "ideas.", "element": "'Your Ideas.' aparece", "category": "full_graphic", "offset_s": -0.16, "why": "literal (observado 28.0)"},
+  {"t_word": 29.52, "word": "words.", "element": "'Your Words.' gris aparece", "category": "full_graphic", "offset_s": -0.85, "why": "literal, anticipado (observado 28.67)"},
+  {"t_word": 30.82, "word": "Powered", "element": "'Powered by' + logo 'Tone' + '@hellotoneai'", "category": "title_cta", "offset_s": 0.5, "why": "literal: firma (observado 31.3)"}
+ ],
+ "transitions": [
+  {"t": 3.9, "from": "tarjeta vidrio", "to": "This Is Tone", "type": "crossfade", "frames": 8, "detail": "fade a crema 3.75–4.0, luego blur-in del nombre"},
+  {"t": 5.9, "from": "This Is Tone", "to": "UI web", "type": "crossfade", "frames": 3, "detail": "aprox.; desconocido exacto"},
+  {"t": 12.1, "from": "UI web", "to": "claim Your Words", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 14.67, "from": "claim", "to": "diagrama isométrico", "type": "corte seco", "frames": 0, "detail": "crema → placas con viñeta oscura (15.13–15.33 detector varios frames: entrada con movimiento)"},
+  {"t": 18.27, "from": "diagrama", "to": "degradado lila", "type": "crossfade", "frames": 5, "detail": "detector 18.27–18.43 (fundido corto)"},
+  {"t": 27.67, "from": "chat UI", "to": "Your Ideas", "type": "slide", "frames": 4, "detail": "la tarjeta de chat se desliza a la izquierda saliendo (27.33)"},
+  {"t": 30.5, "from": "Your Ideas", "to": "Powered by", "type": "crossfade", "frames": 18, "detail": "fade a crema 30.3–31.0"},
+  {"t": 34.53, "from": "Powered by", "to": "negro", "type": "corte seco", "frames": 0, "detail": ""}
+ ],
+ "text_fx": [
+  {"t": 4.5, "fx": "blur-in", "detail": "'Tone' entra desenfocado y algo mayor, se enfoca en ~0.5 s"},
+  {"t": 7.0, "fx": "máscara", "detail": "'Try it yourself. Type a line...' por máscara de palabra"},
+  {"t": 8.5, "fx": "write-on por palabra", "detail": "typing letra a letra en el campo de texto"},
+  {"t": 12.2, "fx": "máscara", "detail": "'A Realistic AI Voice.' se revela izquierda→derecha"},
+  {"t": 28.0, "fx": "máscara", "detail": "'Your Ideas.' y 'Your Words.' suben por línea"}
+ ],
+ "camera": [
+  {"t": 16.5, "move": "zoom-out", "scale_or_dir": "1.0→0.7 (virtual)", "dur_s": 0.3},
+  {"t": 17.0, "move": "push-in lento", "scale_or_dir": "0.7→1.2 hacia capa Inference", "dur_s": 1.0}
+ ],
+ "rhythm": {"events_per_10s": [3, 4, 3, 3], "avg_hold_text_s": 2.5, "notes": "Derivado: pocas escenas largas con animación interna; sin cortes en la demo (6–12 s)."},
+ "typography": "Sans grotesca tipo Inter Display, negro #1E1E1E + gris #8A8A8A en 2.ª línea, ~3–4 % del alto; 'Tone' bold ~9–10 % como logotipo; UI con sans de sistema pequeña. Sin amarillo.",
+ "textures": "Ninguna; vidrio 3D, anillos concéntricos tenues, degradado lila-celeste, viñeta fuerte solo en el diagrama isométrico (15–18).",
+ "distinct": [
+  "FUERA DE ESTILO: anuncio de Tone sin Jordan.",
+  "Hook dicho por la propia voz IA ('I'm not human').",
+  "Demo de escribir→generar con la voz pronunciando lo escrito.",
+  "Diagrama isométrico de capas con cámara virtual.",
+  "Música continua y silencio total desde 33.0."
+ ]
+}

@@ -1,0 +1,1354 @@
+{
+  "video": "v19.mp4",
+  "duration": 42.6,
+  "derived": {
+    "shots": 10,
+    "avg_shot_len": 4.26,
+    "cuts_per_min": 14.1,
+    "hook_shots_first_3s": 2,
+    "high_motion_shots": [
+      2,
+      9
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "Google",
+      "start": 0.0,
+      "end": 0.22
+    },
+    {
+      "w": "just",
+      "start": 0.22,
+      "end": 0.44
+    },
+    {
+      "w": "open",
+      "start": 0.44,
+      "end": 0.68
+    },
+    {
+      "w": "sourced",
+      "start": 0.68,
+      "end": 1.02
+    },
+    {
+      "w": "a",
+      "start": 1.02,
+      "end": 1.1
+    },
+    {
+      "w": "free",
+      "start": 1.1,
+      "end": 1.38
+    },
+    {
+      "w": "plugin",
+      "start": 1.38,
+      "end": 1.68
+    },
+    {
+      "w": "that",
+      "start": 1.68,
+      "end": 1.92
+    },
+    {
+      "w": "stops",
+      "start": 1.92,
+      "end": 2.2
+    },
+    {
+      "w": "your",
+      "start": 2.2,
+      "end": 2.38
+    },
+    {
+      "w": "AI",
+      "start": 2.38,
+      "end": 2.64
+    },
+    {
+      "w": "from",
+      "start": 2.64,
+      "end": 2.92
+    },
+    {
+      "w": "writing",
+      "start": 2.92,
+      "end": 3.1
+    },
+    {
+      "w": "buggy,",
+      "start": 3.1,
+      "end": 3.66
+    },
+    {
+      "w": "sloppy",
+      "start": 3.74,
+      "end": 3.98
+    },
+    {
+      "w": "code,",
+      "start": 3.98,
+      "end": 4.46
+    },
+    {
+      "w": "and",
+      "start": 4.76,
+      "end": 4.82
+    },
+    {
+      "w": "thousands",
+      "start": 4.82,
+      "end": 5.26
+    },
+    {
+      "w": "of",
+      "start": 5.26,
+      "end": 5.5
+    },
+    {
+      "w": "people",
+      "start": 5.5,
+      "end": 5.68
+    },
+    {
+      "w": "at",
+      "start": 5.68,
+      "end": 5.9
+    },
+    {
+      "w": "Google",
+      "start": 5.9,
+      "end": 6.16
+    },
+    {
+      "w": "and",
+      "start": 6.16,
+      "end": 6.44
+    },
+    {
+      "w": "Google's",
+      "start": 6.44,
+      "end": 6.8
+    },
+    {
+      "w": "own",
+      "start": 6.8,
+      "end": 6.88
+    },
+    {
+      "w": "engineers",
+      "start": 6.88,
+      "end": 7.34
+    },
+    {
+      "w": "already",
+      "start": 7.34,
+      "end": 7.8
+    },
+    {
+      "w": "use",
+      "start": 7.8,
+      "end": 8.1
+    },
+    {
+      "w": "it",
+      "start": 8.1,
+      "end": 8.22
+    },
+    {
+      "w": "every",
+      "start": 8.22,
+      "end": 8.38
+    },
+    {
+      "w": "day.",
+      "start": 8.38,
+      "end": 8.62
+    },
+    {
+      "w": "It's",
+      "start": 8.8,
+      "end": 8.88
+    },
+    {
+      "w": "called",
+      "start": 8.88,
+      "end": 9.02
+    },
+    {
+      "w": "the",
+      "start": 9.02,
+      "end": 9.2
+    },
+    {
+      "w": "Elephant",
+      "start": 9.2,
+      "end": 9.6
+    },
+    {
+      "w": "Goldfish",
+      "start": 9.6,
+      "end": 10.08
+    },
+    {
+      "w": "Model,",
+      "start": 10.08,
+      "end": 10.4
+    },
+    {
+      "w": "and",
+      "start": 10.54,
+      "end": 10.6
+    },
+    {
+      "w": "it",
+      "start": 10.6,
+      "end": 10.68
+    },
+    {
+      "w": "works",
+      "start": 10.68,
+      "end": 10.84
+    },
+    {
+      "w": "in",
+      "start": 10.84,
+      "end": 11.02
+    },
+    {
+      "w": "a",
+      "start": 11.02,
+      "end": 11.12
+    },
+    {
+      "w": "two",
+      "start": 11.12,
+      "end": 11.42
+    },
+    {
+      "w": "-agent",
+      "start": 11.42,
+      "end": 11.88
+    },
+    {
+      "w": "setup.",
+      "start": 11.88,
+      "end": 12.18
+    },
+    {
+      "w": "You",
+      "start": 12.32,
+      "end": 12.34
+    },
+    {
+      "w": "just",
+      "start": 12.34,
+      "end": 12.48
+    },
+    {
+      "w": "give",
+      "start": 12.48,
+      "end": 12.6
+    },
+    {
+      "w": "it",
+      "start": 12.6,
+      "end": 12.68
+    },
+    {
+      "w": "a",
+      "start": 12.68,
+      "end": 12.8
+    },
+    {
+      "w": "task",
+      "start": 12.8,
+      "end": 13.1
+    },
+    {
+      "w": "and",
+      "start": 13.1,
+      "end": 13.4
+    },
+    {
+      "w": "an",
+      "start": 13.4,
+      "end": 13.56
+    },
+    {
+      "w": "elephant",
+      "start": 13.56,
+      "end": 13.92
+    },
+    {
+      "w": "agent",
+      "start": 13.92,
+      "end": 14.36
+    },
+    {
+      "w": "who",
+      "start": 14.36,
+      "end": 14.6
+    },
+    {
+      "w": "knows",
+      "start": 14.6,
+      "end": 14.78
+    },
+    {
+      "w": "everything",
+      "start": 14.78,
+      "end": 15.12
+    },
+    {
+      "w": "about",
+      "start": 15.12,
+      "end": 15.32
+    },
+    {
+      "w": "your",
+      "start": 15.32,
+      "end": 15.44
+    },
+    {
+      "w": "project",
+      "start": 15.44,
+      "end": 15.76
+    },
+    {
+      "w": "and",
+      "start": 15.76,
+      "end": 16.08
+    },
+    {
+      "w": "it'll",
+      "start": 16.08,
+      "end": 16.26
+    },
+    {
+      "w": "write",
+      "start": 16.26,
+      "end": 16.4
+    },
+    {
+      "w": "a",
+      "start": 16.4,
+      "end": 16.54
+    },
+    {
+      "w": "full",
+      "start": 16.54,
+      "end": 16.72
+    },
+    {
+      "w": "plan",
+      "start": 16.72,
+      "end": 17.04
+    },
+    {
+      "w": "for",
+      "start": 17.04,
+      "end": 17.26
+    },
+    {
+      "w": "it.",
+      "start": 17.26,
+      "end": 17.38
+    },
+    {
+      "w": "Then",
+      "start": 17.4,
+      "end": 17.56
+    },
+    {
+      "w": "a",
+      "start": 17.56,
+      "end": 17.7
+    },
+    {
+      "w": "bunch",
+      "start": 17.7,
+      "end": 17.86
+    },
+    {
+      "w": "of",
+      "start": 17.86,
+      "end": 18.02
+    },
+    {
+      "w": "goldfish",
+      "start": 18.02,
+      "end": 18.56
+    },
+    {
+      "w": "agents",
+      "start": 18.56,
+      "end": 18.98
+    },
+    {
+      "w": "with",
+      "start": 18.98,
+      "end": 19.26
+    },
+    {
+      "w": "zero",
+      "start": 19.26,
+      "end": 19.54
+    },
+    {
+      "w": "context",
+      "start": 19.54,
+      "end": 20.08
+    },
+    {
+      "w": "of",
+      "start": 20.08,
+      "end": 20.3
+    },
+    {
+      "w": "that",
+      "start": 20.3,
+      "end": 20.48
+    },
+    {
+      "w": "chat",
+      "start": 20.48,
+      "end": 20.78
+    },
+    {
+      "w": "stress",
+      "start": 20.78,
+      "end": 21.16
+    },
+    {
+      "w": "test",
+      "start": 21.16,
+      "end": 21.48
+    },
+    {
+      "w": "your",
+      "start": 21.48,
+      "end": 21.7
+    },
+    {
+      "w": "plan,",
+      "start": 21.7,
+      "end": 21.96
+    },
+    {
+      "w": "tear",
+      "start": 22.16,
+      "end": 22.28
+    },
+    {
+      "w": "it",
+      "start": 22.28,
+      "end": 22.38
+    },
+    {
+      "w": "apart",
+      "start": 22.38,
+      "end": 22.62
+    },
+    {
+      "w": "and",
+      "start": 22.62,
+      "end": 22.84
+    },
+    {
+      "w": "find",
+      "start": 22.84,
+      "end": 23.04
+    },
+    {
+      "w": "every",
+      "start": 23.04,
+      "end": 23.38
+    },
+    {
+      "w": "gap",
+      "start": 23.38,
+      "end": 23.66
+    },
+    {
+      "w": "and",
+      "start": 23.66,
+      "end": 23.9
+    },
+    {
+      "w": "blind",
+      "start": 23.9,
+      "end": 24.16
+    },
+    {
+      "w": "spot",
+      "start": 24.16,
+      "end": 24.46
+    },
+    {
+      "w": "that",
+      "start": 24.46,
+      "end": 24.68
+    },
+    {
+      "w": "it",
+      "start": 24.68,
+      "end": 24.8
+    },
+    {
+      "w": "missed.",
+      "start": 24.8,
+      "end": 25.0
+    },
+    {
+      "w": "And",
+      "start": 25.14,
+      "end": 25.26
+    },
+    {
+      "w": "that's",
+      "start": 25.26,
+      "end": 25.44
+    },
+    {
+      "w": "the",
+      "start": 25.44,
+      "end": 25.54
+    },
+    {
+      "w": "whole",
+      "start": 25.54,
+      "end": 25.66
+    },
+    {
+      "w": "point,",
+      "start": 25.66,
+      "end": 25.92
+    },
+    {
+      "w": "because",
+      "start": 26.0,
+      "end": 26.22
+    },
+    {
+      "w": "it's",
+      "start": 26.22,
+      "end": 26.58
+    },
+    {
+      "w": "almost",
+      "start": 26.58,
+      "end": 26.76
+    },
+    {
+      "w": "impossible",
+      "start": 26.76,
+      "end": 27.22
+    },
+    {
+      "w": "to",
+      "start": 27.22,
+      "end": 27.42
+    },
+    {
+      "w": "spot",
+      "start": 27.42,
+      "end": 27.6
+    },
+    {
+      "w": "your",
+      "start": 27.6,
+      "end": 27.78
+    },
+    {
+      "w": "own",
+      "start": 27.78,
+      "end": 27.96
+    },
+    {
+      "w": "mistakes,",
+      "start": 27.96,
+      "end": 28.28
+    },
+    {
+      "w": "but",
+      "start": 28.68,
+      "end": 28.78
+    },
+    {
+      "w": "a",
+      "start": 28.78,
+      "end": 28.86
+    },
+    {
+      "w": "fresh",
+      "start": 28.86,
+      "end": 29.12
+    },
+    {
+      "w": "pair",
+      "start": 29.12,
+      "end": 29.36
+    },
+    {
+      "w": "of",
+      "start": 29.36,
+      "end": 29.5
+    },
+    {
+      "w": "eyes",
+      "start": 29.5,
+      "end": 29.72
+    },
+    {
+      "w": "like",
+      "start": 29.72,
+      "end": 29.98
+    },
+    {
+      "w": "the",
+      "start": 29.98,
+      "end": 30.14
+    },
+    {
+      "w": "goldfish",
+      "start": 30.14,
+      "end": 30.64
+    },
+    {
+      "w": "will",
+      "start": 30.64,
+      "end": 30.84
+    },
+    {
+      "w": "catch",
+      "start": 30.84,
+      "end": 31.08
+    },
+    {
+      "w": "it",
+      "start": 31.08,
+      "end": 31.2
+    },
+    {
+      "w": "right",
+      "start": 31.2,
+      "end": 31.32
+    },
+    {
+      "w": "away.",
+      "start": 31.32,
+      "end": 31.56
+    },
+    {
+      "w": "Only",
+      "start": 31.68,
+      "end": 31.82
+    },
+    {
+      "w": "then,",
+      "start": 31.82,
+      "end": 32.06
+    },
+    {
+      "w": "once",
+      "start": 32.14,
+      "end": 32.26
+    },
+    {
+      "w": "you",
+      "start": 32.26,
+      "end": 32.42
+    },
+    {
+      "w": "approve",
+      "start": 32.42,
+      "end": 32.68
+    },
+    {
+      "w": "the",
+      "start": 32.68,
+      "end": 32.84
+    },
+    {
+      "w": "final",
+      "start": 32.84,
+      "end": 33.08
+    },
+    {
+      "w": "plan,",
+      "start": 33.08,
+      "end": 33.36
+    },
+    {
+      "w": "does",
+      "start": 33.48,
+      "end": 33.56
+    },
+    {
+      "w": "Claude",
+      "start": 33.56,
+      "end": 33.86
+    },
+    {
+      "w": "actually",
+      "start": 33.86,
+      "end": 34.02
+    },
+    {
+      "w": "start",
+      "start": 34.02,
+      "end": 34.22
+    },
+    {
+      "w": "building,",
+      "start": 34.22,
+      "end": 34.5
+    },
+    {
+      "w": "and",
+      "start": 34.74,
+      "end": 34.8
+    },
+    {
+      "w": "it'll",
+      "start": 34.8,
+      "end": 34.94
+    },
+    {
+      "w": "save",
+      "start": 34.94,
+      "end": 35.1
+    },
+    {
+      "w": "you",
+      "start": 35.1,
+      "end": 35.24
+    },
+    {
+      "w": "hours",
+      "start": 35.24,
+      "end": 35.6
+    },
+    {
+      "w": "of",
+      "start": 35.6,
+      "end": 35.84
+    },
+    {
+      "w": "wasted",
+      "start": 35.84,
+      "end": 36.1
+    },
+    {
+      "w": "time",
+      "start": 36.1,
+      "end": 36.44
+    },
+    {
+      "w": "and",
+      "start": 36.44,
+      "end": 36.54
+    },
+    {
+      "w": "tokens",
+      "start": 36.54,
+      "end": 36.82
+    },
+    {
+      "w": "every",
+      "start": 36.82,
+      "end": 37.18
+    },
+    {
+      "w": "day.",
+      "start": 37.18,
+      "end": 37.42
+    },
+    {
+      "w": "So",
+      "start": 37.56,
+      "end": 37.62
+    },
+    {
+      "w": "if",
+      "start": 37.62,
+      "end": 37.68
+    },
+    {
+      "w": "you",
+      "start": 37.68,
+      "end": 37.76
+    },
+    {
+      "w": "want",
+      "start": 37.76,
+      "end": 37.84
+    },
+    {
+      "w": "to",
+      "start": 37.84,
+      "end": 37.9
+    },
+    {
+      "w": "step",
+      "start": 37.9,
+      "end": 38.1
+    },
+    {
+      "w": "by",
+      "start": 38.1,
+      "end": 38.24
+    },
+    {
+      "w": "step",
+      "start": 38.24,
+      "end": 38.4
+    },
+    {
+      "w": "guide",
+      "start": 38.4,
+      "end": 38.68
+    },
+    {
+      "w": "on",
+      "start": 38.68,
+      "end": 38.8
+    },
+    {
+      "w": "how",
+      "start": 38.8,
+      "end": 38.92
+    },
+    {
+      "w": "to",
+      "start": 38.92,
+      "end": 38.96
+    },
+    {
+      "w": "get",
+      "start": 38.96,
+      "end": 39.1
+    },
+    {
+      "w": "up",
+      "start": 39.1,
+      "end": 39.22
+    },
+    {
+      "w": "and",
+      "start": 39.22,
+      "end": 39.28
+    },
+    {
+      "w": "running",
+      "start": 39.28,
+      "end": 39.46
+    },
+    {
+      "w": "with",
+      "start": 39.46,
+      "end": 39.66
+    },
+    {
+      "w": "this,",
+      "start": 39.66,
+      "end": 39.82
+    },
+    {
+      "w": "just",
+      "start": 39.96,
+      "end": 40.02
+    },
+    {
+      "w": "comment",
+      "start": 40.02,
+      "end": 40.24
+    },
+    {
+      "w": "Google",
+      "start": 40.24,
+      "end": 40.54
+    },
+    {
+      "w": "down",
+      "start": 40.54,
+      "end": 40.84
+    },
+    {
+      "w": "below",
+      "start": 40.84,
+      "end": 41.18
+    },
+    {
+      "w": "and",
+      "start": 41.18,
+      "end": 41.46
+    },
+    {
+      "w": "I'll",
+      "start": 41.46,
+      "end": 41.58
+    },
+    {
+      "w": "DM",
+      "start": 41.58,
+      "end": 41.74
+    },
+    {
+      "w": "you",
+      "start": 41.74,
+      "end": 41.86
+    },
+    {
+      "w": "the",
+      "start": 41.86,
+      "end": 41.96
+    },
+    {
+      "w": "link",
+      "start": 41.96,
+      "end": 42.1
+    },
+    {
+      "w": "directly.",
+      "start": 42.1,
+      "end": 42.34
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 1.8,
+      "length": 1.8,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#EEF0F1",
+            "share": 0.393
+          },
+          {
+            "hex": "#DAE6EC",
+            "share": 0.103
+          },
+          {
+            "hex": "#726969",
+            "share": 0.068
+          },
+          {
+            "hex": "#D2CDD5",
+            "share": 0.051
+          },
+          {
+            "hex": "#CFDBE4",
+            "share": 0.044
+          }
+        ],
+        "motion_energy": 10.6,
+        "script": "Google just open sourced a free plugin that"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 1.8,
+      "end": 4.9,
+      "length": 3.1,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#EAECED",
+            "share": 0.259
+          },
+          {
+            "hex": "#141414",
+            "share": 0.155
+          },
+          {
+            "hex": "#DAE6EC",
+            "share": 0.098
+          },
+          {
+            "hex": "#706868",
+            "share": 0.071
+          },
+          {
+            "hex": "#37312F",
+            "share": 0.057
+          }
+        ],
+        "motion_energy": 7.2,
+        "script": "stops your AI from writing buggy, sloppy code, and thousands"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 4.9,
+      "end": 8.8,
+      "length": 3.9,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FBFBFC",
+            "share": 0.366
+          },
+          {
+            "hex": "#343434",
+            "share": 0.301
+          },
+          {
+            "hex": "#474747",
+            "share": 0.222
+          },
+          {
+            "hex": "#D4E5F1",
+            "share": 0.021
+          },
+          {
+            "hex": "#485768",
+            "share": 0.01
+          }
+        ],
+        "motion_energy": 13.98,
+        "script": "of people at Google and Google's own engineers already use it every day."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 8.8,
+      "end": 12.233,
+      "length": 3.433,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FAFBFC",
+            "share": 0.846
+          },
+          {
+            "hex": "#FBEEDE",
+            "share": 0.081
+          },
+          {
+            "hex": "#F26F00",
+            "share": 0.01
+          },
+          {
+            "hex": "#0C69F6",
+            "share": 0.009
+          },
+          {
+            "hex": "#6F6F70",
+            "share": 0.007
+          }
+        ],
+        "motion_energy": 6.5,
+        "script": "It's called the Elephant Goldfish Model, and it works in a two -agent setup."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 12.233,
+      "end": 17.367,
+      "length": 5.133,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#121211",
+            "share": 0.239
+          },
+          {
+            "hex": "#E9EBED",
+            "share": 0.225
+          },
+          {
+            "hex": "#DAE6EC",
+            "share": 0.086
+          },
+          {
+            "hex": "#34302E",
+            "share": 0.078
+          },
+          {
+            "hex": "#716868",
+            "share": 0.067
+          }
+        ],
+        "motion_energy": 10.33,
+        "script": "You just give it a task and an elephant agent who knows everything about your project and it'll write a full plan for it."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 17.367,
+      "end": 25.133,
+      "length": 7.767,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FBFBFB",
+            "share": 0.356
+          },
+          {
+            "hex": "#323232",
+            "share": 0.273
+          },
+          {
+            "hex": "#494949",
+            "share": 0.24
+          },
+          {
+            "hex": "#D0D1D2",
+            "share": 0.018
+          },
+          {
+            "hex": "#CBDAE5",
+            "share": 0.016
+          }
+        ],
+        "motion_energy": 10.23,
+        "script": "Then a bunch of goldfish agents with zero context of that chat stress test your plan, tear it apart and find every gap and blind spot that it missed."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 25.133,
+      "end": 32.133,
+      "length": 7.0,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F1F2F3",
+            "share": 0.483
+          },
+          {
+            "hex": "#DAE6EC",
+            "share": 0.088
+          },
+          {
+            "hex": "#716869",
+            "share": 0.062
+          },
+          {
+            "hex": "#D3CED5",
+            "share": 0.052
+          },
+          {
+            "hex": "#CEDBE5",
+            "share": 0.049
+          }
+        ],
+        "motion_energy": 7.89,
+        "script": "And that's the whole point, because it's almost impossible to spot your own mistakes, but a fresh pair of eyes like the goldfish will catch it right away. Only then,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 32.133,
+      "end": 34.7,
+      "length": 2.567,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#2E2E2E",
+            "share": 0.458
+          },
+          {
+            "hex": "#131313",
+            "share": 0.374
+          },
+          {
+            "hex": "#494949",
+            "share": 0.036
+          },
+          {
+            "hex": "#0F1C2D",
+            "share": 0.026
+          },
+          {
+            "hex": "#2B3A4C",
+            "share": 0.017
+          }
+        ],
+        "motion_energy": 7.86,
+        "script": "once you approve the final plan, does Claude actually start building,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 34.7,
+      "end": 37.467,
+      "length": 2.767,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#E9EBED",
+            "share": 0.224
+          },
+          {
+            "hex": "#121212",
+            "share": 0.217
+          },
+          {
+            "hex": "#DAE6EC",
+            "share": 0.08
+          },
+          {
+            "hex": "#342F2D",
+            "share": 0.073
+          },
+          {
+            "hex": "#726A6A",
+            "share": 0.068
+          }
+        ],
+        "motion_energy": 6.48,
+        "script": "and it'll save you hours of wasted time and tokens every day."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 37.467,
+      "end": 42.604,
+      "length": 5.137,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#716868",
+            "share": 0.146
+          },
+          {
+            "hex": "#504746",
+            "share": 0.137
+          },
+          {
+            "hex": "#0B0609",
+            "share": 0.114
+          },
+          {
+            "hex": "#D7CAD5",
+            "share": 0.051
+          },
+          {
+            "hex": "#CF958B",
+            "share": 0.049
+          }
+        ],
+        "motion_energy": 18.01,
+        "script": "So if you want to step by step guide on how to get up and running with this, just comment Google down below and I'll DM you the link directly."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

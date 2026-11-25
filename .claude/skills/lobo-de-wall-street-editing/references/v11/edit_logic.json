@@ -1,0 +1,68 @@
+{
+ "triggers": [
+  {"t_word": 0.0, "word": "What", "element": "recuadro con fotograma de la película (DiCaprio con billete) + cursor flecha que lo recorre 0.0–0.3", "category": "insert_image", "offset_s": 0.0, "why": "hook / marca: la película que da nombre al personaje"},
+  {"t_word": 1.04, "word": "tells", "element": "corte al entrevistador; el recuadro sigue", "category": "aroll_caption_big", "offset_s": -0.04, "why": "cambio de hablante (es su pregunta)"},
+  {"t_word": 1.82, "word": "expensive?", "element": "línea amarilla grande 'too expensive?' ('too' ya visible desde ~1.4)", "category": "aroll_caption_big", "offset_s": -0.4, "why": "énfasis: la objeción = tema"},
+  {"t_word": 4.28, "word": "reframe,", "element": "'REFRAME' amarillo MAYÚSCULAS bajo 'called a' (fade/blur 2 fr)", "category": "aroll_caption_big", "offset_s": -0.05, "why": "concepto/nombre de técnica"},
+  {"t_word": 8.66, "word": "budget.", "element": "'BUDGET' amarillo MAYÚSCULAS", "category": "aroll_caption_big", "offset_s": -0.05, "why": "concepto (revelación)"},
+  {"t_word": 9.44, "word": "I'll", "element": "cutaway al entrevistador escuchando", "category": "aroll_punch", "offset_s": -0.11, "why": "respiro/esconder corte"},
+  {"t_word": 17.58, "word": "it's", "element": "corte a clip de película: DiCaprio en traje; 'it's premium' amarillo", "category": "movie_clip", "offset_s": -0.01, "why": "literal + autoridad: el lobo vende 'premium'"},
+  {"t_word": 18.7, "word": "It's", "element": "clip DiCaprio con billete; 'it's got value'", "category": "movie_clip", "offset_s": -0.1, "why": "literal: value = dinero"},
+  {"t_word": 19.74, "word": "it's", "element": "clip DiCaprio en la oficina; 'it's a great deal'", "category": "movie_clip", "offset_s": 0.03, "why": "enumeración: 1 clip por frase"},
+  {"t_word": 21.04, "word": "So", "element": "vuelta a A-roll en plano más cerrado (punch-in por corte)", "category": "aroll_caption", "offset_s": -0.01, "why": "cambio de tema"},
+  {"t_word": 22.82, "word": "price", "element": "'price' en amarillo inline", "category": "aroll_caption", "offset_s": -0.4, "why": "oposición price/value"},
+  {"t_word": 24.34, "word": "value.", "element": "'value' en amarillo inline", "category": "aroll_caption", "offset_s": -0.2, "why": "oposición price/value"},
+  {"t_word": 25.8, "word": "agree?", "element": "cutaway al entrevistador preguntando", "category": "aroll_punch", "offset_s": -0.27, "why": "pregunta-puente"},
+  {"t_word": 29.7, "word": "now", "element": "clip película: DiCaprio bebiendo, push-in 1.0→1.35×", "category": "movie_clip", "offset_s": -0.1, "why": "metáfora: 'filling their need' = beber"},
+  {"t_word": 31.62, "word": "building", "element": "clip película: DiCaprio con micrófono dando discurso", "category": "movie_clip", "offset_s": -0.12, "why": "literal: 'building certainty' = arenga a vendedores"},
+  {"t_word": 31.88, "word": "massive", "element": "'massive' amarillo grande; 'certainty' se añade (gris→amarillo) ~32.4", "category": "movie_clip", "offset_s": -0.08, "why": "frase-concepto de Belfort"},
+  {"t_word": 36.48, "word": "value", "element": "línea amarilla 'the values is there'", "category": "aroll_caption_big", "offset_s": -0.4, "why": "moraleja"},
+  {"t_word": 37.4, "word": "Works", "element": "cutaway entrevistador 'it's works?'", "category": "aroll_caption_big", "offset_s": -0.03, "why": "pregunta de confirmación"},
+  {"t_word": 37.6, "word": "100", "element": "vuelta a Jordan; '100% of the time' entero en amarillo", "category": "aroll_caption_big", "offset_s": 0.3, "why": "dato/garantía"},
+  {"t_word": 39.0, "word": "How", "element": "contraplano entrevistador 'How can I learn more from you?'", "category": "aroll_caption", "offset_s": 0.0, "why": "inicio del CTA"},
+  {"t_word": 41.2, "word": "follow", "element": "tarjeta de perfil IG blanca 'wolfofwallst' bajo el caption (entra 40.77)", "category": "title_cta", "offset_s": -0.43, "why": "literal: CTA mostrado"},
+  {"t_word": 42.04, "word": "and", "element": "botón cambia a 'Following' rosa/morado con cursor (41.97)", "category": "title_cta", "offset_s": -0.07, "why": "cierre de la acción"}
+ ],
+ "transitions": [
+  {"t": 1.0, "from": "aroll Jordan", "to": "entrevistador", "type": "corte seco", "frames": 0, "detail": "el recuadro de película persiste por encima del corte"},
+  {"t": 2.333, "from": "entrevistador + recuadro", "to": "aroll Jordan", "type": "corte seco", "frames": 0, "detail": "recuadro desaparece con el corte"},
+  {"t": 9.333, "from": "aroll", "to": "entrevistador", "type": "corte seco", "frames": 0, "detail": "cutaway"},
+  {"t": 10.233, "from": "entrevistador", "to": "aroll", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 17.567, "from": "aroll", "to": "movie_clip 'premium'", "type": "corte seco", "frames": 0, "detail": "caption entra con blur 1–2 fr sobre el primer fotograma"},
+  {"t": 18.6, "from": "movie_clip", "to": "movie_clip 'value'", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 19.767, "from": "movie_clip", "to": "movie_clip 'great deal'", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 21.033, "from": "movie_clip", "to": "aroll (más cerrado)", "type": "corte seco", "frames": 0, "detail": "vuelve con punch-in de tamaño"},
+  {"t": 25.533, "from": "aroll", "to": "entrevistador", "type": "corte seco", "frames": 0, "detail": "el caption 'And after' cruza el corte 1 fr"},
+  {"t": 26.2, "from": "entrevistador", "to": "aroll", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 29.6, "from": "aroll", "to": "movie_clip bebiendo", "type": "corte seco", "frames": 0, "detail": "el clip empieza ya con push-in"},
+  {"t": 31.5, "from": "movie_clip", "to": "movie_clip discurso", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 33.2, "from": "movie_clip", "to": "aroll", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 37.367, "from": "aroll", "to": "entrevistador", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 37.9, "from": "entrevistador", "to": "aroll", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 39.0, "from": "aroll", "to": "entrevistador", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 40.1, "from": "entrevistador", "to": "aroll CTA", "type": "corte seco", "frames": 0, "detail": ""}
+ ],
+ "text_fx": [
+  {"t": 1.4, "fx": "write-on por palabra", "detail": "'too' amarillo aparece antes y 'expensive?' se añade a ~1.8"},
+  {"t": 4.23, "fx": "blur-in", "detail": "'REFRAME' 2 fr translúcido/borroso → sólido"},
+  {"t": 17.6, "fx": "blur-in", "detail": "'it's premium' amarillo borroso en el 1er fr del clip y nítido al 2º"},
+  {"t": 22.4, "fx": "pop", "detail": "cambio de color directo a amarillo de 'price' dentro de la línea (pop de color)"},
+  {"t": 31.8, "fx": "write-on por palabra", "detail": "'massive' aparece con fade; 'certainty' entra gris/translúcido y pasa a amarillo ~32.4"},
+  {"t": 40.77, "fx": "pop", "detail": "tarjeta de perfil aparece en 1–2 fr"}
+ ],
+ "camera": [
+  {"t": 3.6, "move": "punch-in", "scale_or_dir": "1.0→~1.1 (inferido, sutil)", "dur_s": 0.0},
+  {"t": 21.033, "move": "punch-in", "scale_or_dir": "plano medio → medio-corto (por corte)", "dur_s": 0.0},
+  {"t": 29.6, "move": "push-in lento", "scale_or_dir": "1.0→1.35 sobre clip de película", "dur_s": 1.9}
+ ],
+ "rhythm": {"events_per_10s": [7, 4, 6, 7, 3], "avg_hold_text_s": 0.7, "notes": "Derivado: cortes + cambios de amarillo/overlay por ventana de 10 s (0–10, 10–20, 20–30, 30–40, 40–44). Tramo más largo sin corte: 10.23–17.57 (7.3 s) sostenido solo por bloques de subtítulo cada ~0.6 s. Los clips de película llegan en ráfagas (3×1.1 s, 2×1.8 s)."},
+ "typography": "Una sola familia: sans geométrica extra-bold tipo Poppins ExtraBold. Blanco #FFFFFF ~3 % del alto en y≈61 %, minúsculas tal cual se habla, 1–4 palabras. Amarillo ≈#F2CB1D en tres modos: MAYÚSCULAS ~4 % alto (REFRAME, BUDGET), frase minúsculas grande ~1.4× (too expensive?, massive certainty, the values is there), o palabra inline al mismo tamaño (price, value). En clips de película la línea entera es amarilla. Sombra suave, sin contorno grueso visible.",
+ "textures": "Ninguna textura añadida: A-roll limpio, saturado (verdes #0B2A11). Los clips de película aportan su grado (teal/naranja; grises desaturados en el discurso) y algo de blandura por escalado a 9:16.",
+ "distinct": [
+  "Formato entrevista exterior con entrevistador que pregunta: el hook y el CTA los formula él.",
+  "Recuadro de película con cursor que lo 'pincha' en el hook (0.0–0.3).",
+  "Tríada de clips de película de ~1.1 s con la frase entera en amarillo (17.57–21.03).",
+  "Push-in sobre un clip de película (29.6–31.5) como subida de tensión.",
+  "Sin iconos 3D ni numeración: el énfasis es solo tipográfico + película."
+ ]
+}

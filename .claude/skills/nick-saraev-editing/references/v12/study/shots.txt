@@ -1,0 +1,10 @@
+000    0.00-   3.73 (3.7s) | Meta just open sourced the design system behind over 13 ,000 of its apps,
+001    3.73-   6.60 (2.9s) | so your cloud can now build polished, premium quality apps the
+002    6.60-   8.57 (2.0s) | same way that Meta's own engineers do.
+003    8.57-  11.97 (3.4s) | It's called Asterix, and it's the biggest design system used inside Meta,
+004   11.97-  15.43 (3.5s) | built by their engineers and designers over eight years of daily use.
+005   15.43-  19.30 (3.9s) | And now it's freely available on GitHub with over a hundred and fifty Reddit use components and seven
+006   19.30-  21.40 (2.1s) | fully customizable themes,
+007   21.40-  24.37 (3.0s) | the same ones they use across Facebook, Instagram, and even WhatsApp.
+008   24.37-  30.70 (6.3s) | Plus it has its own MCP server that you can connect to cloud code, so every design it builds uses real components instead of made -up ones.
+009   30.70-  35.05 (4.4s) | So if you want to try this for yourselves, just comment Meta down below and I'll send you all the link directly.

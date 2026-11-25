@@ -1,0 +1,131 @@
+1
+00:00:00,000 --> 00:00:00,880
+Claude can now turn your
+
+2
+00:00:00,880 --> 00:00:02,160
+ugly, vibe -coded apps into
+
+3
+00:00:02,160 --> 00:00:02,980
+something that looks like a
+
+4
+00:00:02,980 --> 00:00:04,040
+real designer made it with
+
+5
+00:00:04,040 --> 00:00:05,500
+just one command. This is
+
+6
+00:00:05,500 --> 00:00:06,679
+Unslop, and it's a free,
+
+7
+00:00:06,820 --> 00:00:08,300
+anti -AI slot design skill
+
+8
+00:00:08,300 --> 00:00:09,339
+built for Claude code and
+
+9
+00:00:09,339 --> 00:00:10,439
+codex that already has crossed
+
+10
+00:00:10,439 --> 00:00:11,960
+13 ,000 stars on GitHub.
+
+11
+00:00:12,220 --> 00:00:12,980
+You just install it and
+
+12
+00:00:12,980 --> 00:00:13,679
+point it at your app
+
+13
+00:00:13,679 --> 00:00:14,839
+or website, and it'll catch
+
+14
+00:00:14,839 --> 00:00:16,260
+every telltale sign of AI
+
+15
+00:00:16,260 --> 00:00:18,120
+design from glowing purple gradients
+
+16
+00:00:18,120 --> 00:00:19,420
+to emojis and maybe uneven
+
+17
+00:00:19,420 --> 00:00:20,699
+spacing. Then it'll pitch you
+
+18
+00:00:20,699 --> 00:00:22,039
+a premium design direction that
+
+19
+00:00:22,039 --> 00:00:23,300
+actually fits your product. And
+
+20
+00:00:23,300 --> 00:00:24,219
+once you approve it, it'll
+
+21
+00:00:24,219 --> 00:00:25,719
+rebuild every screen in nine
+
+22
+00:00:25,719 --> 00:00:26,699
+steps, just like a real
+
+23
+00:00:26,699 --> 00:00:28,140
+designer would, fixing the spacing
+
+24
+00:00:28,140 --> 00:00:29,420
+and colors first. Then the
+
+25
+00:00:29,420 --> 00:00:31,079
+fonts, icons, layout, and even
+
+26
+00:00:31,079 --> 00:00:32,619
+animations. Claude can even generate
+
+27
+00:00:32,619 --> 00:00:33,979
+hero images and visuals for
+
+28
+00:00:33,979 --> 00:00:35,100
+your page through tools like
+
+29
+00:00:35,100 --> 00:00:36,579
+the Higgs Field MCP. So
+
+30
+00:00:36,579 --> 00:00:37,039
+if you want to try
+
+31
+00:00:37,039 --> 00:00:38,179
+it for yourselves, comment design
+
+32
+00:00:38,179 --> 00:00:39,179
+down below, and I'll send
+
+33
+00:00:39,179 --> 00:00:39,799
+you the link directly.

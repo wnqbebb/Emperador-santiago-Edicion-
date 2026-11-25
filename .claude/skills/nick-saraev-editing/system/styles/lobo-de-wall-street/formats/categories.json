@@ -1,0 +1,42 @@
+{
+ "hook_comment": {
+  "name": "01 Gancho con comentario o título",
+  "que": "Arriba, la captura de un comentario o pregunta (tarjeta blanca redondeada) que él responde; o un recuadro de la película con cursor."
+ },
+ "aroll_caption": {
+  "name": "02 Él a cámara con subtítulo",
+  "que": "La base: subtítulo blanco bold tipo Poppins de 1–4 palabras sobre el pecho (60–70 % del alto), con sombra suave; cortes secos que quitan pausas."
+ },
+ "aroll_caption_big": {
+  "name": "03 Subtítulo en dos niveles con amarillo",
+  "que": "Línea blanca pequeña y debajo la frase clave AMARILLA ~2× más grande (#F2D10F aprox.), que se escribe letra a letra. El remate, la objeción, el beneficio."
+ },
+ "aroll_punch": {
+  "name": "04 Cambio de encuadre",
+  "que": "Salto de encuadre por corte (1.0↔1.1) en el inicio de cada regla o remate; zoom-out desenfocado en el primer fotograma."
+ },
+ "icon_overlay": {
+  "name": "05 Objeto 3D o cifra sobre la cabeza",
+  "que": "Billetes, diamante, reloj de arena, logos, «60s» gigante: aparece con la palabra que lo nombra, sobre o detrás de la cabeza, 1–2 s."
+ },
+ "list_number": {
+  "name": "06 Lista numerada",
+  "que": "Número amarillo en itálica a la izquierda + título blanco en itálica mayúsculas; un reencuadre por cada número."
+ },
+ "insert_image": {
+  "name": "07 Foto insertada",
+  "que": "Foto rectangular sin borde bajo el subtítulo (40–66 % del ancho), por corte seco, mientras nombra la cosa; varias seguidas en el mismo sitio."
+ },
+ "movie_clip": {
+  "name": "08 Clip de la película",
+  "que": "Escena de la película a pantalla completa (1–4 s). En el look casual él queda recortado abajo a la izquierda; en estudio, sin recuadro."
+ },
+ "full_graphic": {
+  "name": "09 Gráfico a pantalla completa",
+  "que": "Motion graphic 3D sobre negro con grano (cartera, recibo, rascacielos, reloj→diamante), unidos por deslizamientos con desenfoque."
+ },
+ "title_cta": {
+  "name": "10 Cierre: tarjeta de perfil",
+  "que": "Tarjeta «wolfofwallst» con cursor que pulsa y cambia a Following; o «Now go close»."
+ }
+}

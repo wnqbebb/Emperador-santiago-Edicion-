@@ -1,0 +1,1336 @@
+{
+  "video": "v09.mp4",
+  "duration": 64.22,
+  "derived": {
+    "shots": 10,
+    "avg_shot_len": 6.42,
+    "cuts_per_min": 9.3,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "Here's",
+      "start": 0.0,
+      "end": 0.34
+    },
+    {
+      "w": "40",
+      "start": 0.34,
+      "end": 0.82
+    },
+    {
+      "w": "years",
+      "start": 0.82,
+      "end": 1.28
+    },
+    {
+      "w": "of",
+      "start": 1.28,
+      "end": 1.48
+    },
+    {
+      "w": "sales",
+      "start": 1.48,
+      "end": 1.74
+    },
+    {
+      "w": "experience",
+      "start": 1.74,
+      "end": 2.22
+    },
+    {
+      "w": "in",
+      "start": 2.22,
+      "end": 2.6
+    },
+    {
+      "w": "60",
+      "start": 2.6,
+      "end": 3.12
+    },
+    {
+      "w": "seconds",
+      "start": 3.12,
+      "end": 3.54
+    },
+    {
+      "w": "flat.",
+      "start": 3.54,
+      "end": 3.96
+    },
+    {
+      "w": "You've",
+      "start": 4.2,
+      "end": 4.32
+    },
+    {
+      "w": "got",
+      "start": 4.32,
+      "end": 4.5
+    },
+    {
+      "w": "four",
+      "start": 4.5,
+      "end": 4.92
+    },
+    {
+      "w": "seconds",
+      "start": 4.92,
+      "end": 5.38
+    },
+    {
+      "w": "to",
+      "start": 5.38,
+      "end": 5.58
+    },
+    {
+      "w": "sound",
+      "start": 5.58,
+      "end": 5.78
+    },
+    {
+      "w": "sharp",
+      "start": 5.78,
+      "end": 6.22
+    },
+    {
+      "w": "as",
+      "start": 6.22,
+      "end": 6.38
+    },
+    {
+      "w": "a",
+      "start": 6.38,
+      "end": 6.56
+    },
+    {
+      "w": "tack,",
+      "start": 6.56,
+      "end": 6.8
+    },
+    {
+      "w": "enthusiastic",
+      "start": 6.98,
+      "end": 7.52
+    },
+    {
+      "w": "as",
+      "start": 7.52,
+      "end": 8.04
+    },
+    {
+      "w": "hell,",
+      "start": 8.04,
+      "end": 8.28
+    },
+    {
+      "w": "and",
+      "start": 8.54,
+      "end": 8.58
+    },
+    {
+      "w": "like",
+      "start": 8.58,
+      "end": 8.74
+    },
+    {
+      "w": "an",
+      "start": 8.74,
+      "end": 8.88
+    },
+    {
+      "w": "expert",
+      "start": 8.88,
+      "end": 9.32
+    },
+    {
+      "w": "in",
+      "start": 9.32,
+      "end": 9.64
+    },
+    {
+      "w": "your",
+      "start": 9.64,
+      "end": 9.76
+    },
+    {
+      "w": "field.",
+      "start": 9.76,
+      "end": 10.08
+    },
+    {
+      "w": "Or",
+      "start": 10.32,
+      "end": 10.4
+    },
+    {
+      "w": "you're",
+      "start": 10.4,
+      "end": 10.74
+    },
+    {
+      "w": "done.",
+      "start": 10.74,
+      "end": 11.06
+    },
+    {
+      "w": "Every",
+      "start": 11.34,
+      "end": 11.74
+    },
+    {
+      "w": "sale",
+      "start": 11.74,
+      "end": 12.36
+    },
+    {
+      "w": "is",
+      "start": 12.36,
+      "end": 12.7
+    },
+    {
+      "w": "the",
+      "start": 12.7,
+      "end": 12.86
+    },
+    {
+      "w": "same.",
+      "start": 12.86,
+      "end": 13.18
+    },
+    {
+      "w": "You",
+      "start": 13.44,
+      "end": 13.52
+    },
+    {
+      "w": "take",
+      "start": 13.52,
+      "end": 13.74
+    },
+    {
+      "w": "control,",
+      "start": 13.74,
+      "end": 14.28
+    },
+    {
+      "w": "or",
+      "start": 14.5,
+      "end": 14.74
+    },
+    {
+      "w": "you",
+      "start": 14.74,
+      "end": 14.92
+    },
+    {
+      "w": "get",
+      "start": 14.92,
+      "end": 15.24
+    },
+    {
+      "w": "control.",
+      "start": 15.24,
+      "end": 15.8
+    },
+    {
+      "w": "Ask",
+      "start": 16.02,
+      "end": 16.24
+    },
+    {
+      "w": "questions",
+      "start": 16.24,
+      "end": 16.98
+    },
+    {
+      "w": "before",
+      "start": 16.98,
+      "end": 17.56
+    },
+    {
+      "w": "you",
+      "start": 17.56,
+      "end": 17.82
+    },
+    {
+      "w": "pitch.",
+      "start": 17.82,
+      "end": 18.12
+    },
+    {
+      "w": "You",
+      "start": 18.36,
+      "end": 18.44
+    },
+    {
+      "w": "can't",
+      "start": 18.44,
+      "end": 18.8
+    },
+    {
+      "w": "fill",
+      "start": 18.8,
+      "end": 19.0
+    },
+    {
+      "w": "a",
+      "start": 19.0,
+      "end": 19.14
+    },
+    {
+      "w": "need",
+      "start": 19.14,
+      "end": 19.24
+    },
+    {
+      "w": "you",
+      "start": 19.24,
+      "end": 19.4
+    },
+    {
+      "w": "never",
+      "start": 19.4,
+      "end": 19.6
+    },
+    {
+      "w": "found",
+      "start": 19.6,
+      "end": 19.92
+    },
+    {
+      "w": "out",
+      "start": 19.92,
+      "end": 20.16
+    },
+    {
+      "w": "about.",
+      "start": 20.16,
+      "end": 20.38
+    },
+    {
+      "w": "Sales",
+      "start": 20.62,
+      "end": 20.84
+    },
+    {
+      "w": "is",
+      "start": 20.84,
+      "end": 21.08
+    },
+    {
+      "w": "the",
+      "start": 21.08,
+      "end": 21.18
+    },
+    {
+      "w": "transference",
+      "start": 21.18,
+      "end": 21.9
+    },
+    {
+      "w": "of",
+      "start": 21.9,
+      "end": 22.1
+    },
+    {
+      "w": "emotion",
+      "start": 22.1,
+      "end": 22.56
+    },
+    {
+      "w": "and",
+      "start": 22.56,
+      "end": 22.92
+    },
+    {
+      "w": "that",
+      "start": 22.92,
+      "end": 23.1
+    },
+    {
+      "w": "primary",
+      "start": 23.1,
+      "end": 23.5
+    },
+    {
+      "w": "emotion",
+      "start": 23.5,
+      "end": 23.96
+    },
+    {
+      "w": "is",
+      "start": 23.96,
+      "end": 24.2
+    },
+    {
+      "w": "certainty",
+      "start": 24.2,
+      "end": 24.76
+    },
+    {
+      "w": "that",
+      "start": 24.76,
+      "end": 25.06
+    },
+    {
+      "w": "certainly",
+      "start": 25.06,
+      "end": 25.48
+    },
+    {
+      "w": "travels",
+      "start": 25.48,
+      "end": 25.84
+    },
+    {
+      "w": "through",
+      "start": 25.84,
+      "end": 26.1
+    },
+    {
+      "w": "your",
+      "start": 26.1,
+      "end": 26.22
+    },
+    {
+      "w": "tone,",
+      "start": 26.22,
+      "end": 26.74
+    },
+    {
+      "w": "not",
+      "start": 26.94,
+      "end": 27.18
+    },
+    {
+      "w": "your",
+      "start": 27.18,
+      "end": 27.4
+    },
+    {
+      "w": "words.",
+      "start": 27.4,
+      "end": 27.76
+    },
+    {
+      "w": "90",
+      "start": 27.76,
+      "end": 28.36
+    },
+    {
+      "w": "%",
+      "start": 28.36,
+      "end": 28.8
+    },
+    {
+      "w": "of",
+      "start": 28.8,
+      "end": 28.98
+    },
+    {
+      "w": "communication",
+      "start": 28.98,
+      "end": 29.24
+    },
+    {
+      "w": "is",
+      "start": 29.24,
+      "end": 29.8
+    },
+    {
+      "w": "tonality",
+      "start": 29.8,
+      "end": 30.48
+    },
+    {
+      "w": "and",
+      "start": 30.48,
+      "end": 30.82
+    },
+    {
+      "w": "body",
+      "start": 30.82,
+      "end": 31.22
+    },
+    {
+      "w": "language.",
+      "start": 31.22,
+      "end": 31.72
+    },
+    {
+      "w": "Never",
+      "start": 31.94,
+      "end": 32.16
+    },
+    {
+      "w": "front",
+      "start": 32.16,
+      "end": 32.54
+    },
+    {
+      "w": "-load",
+      "start": 32.54,
+      "end": 32.78
+    },
+    {
+      "w": "your",
+      "start": 32.78,
+      "end": 33.0
+    },
+    {
+      "w": "whole",
+      "start": 33.0,
+      "end": 33.18
+    },
+    {
+      "w": "presentation.",
+      "start": 33.18,
+      "end": 33.7
+    },
+    {
+      "w": "You",
+      "start": 34.18,
+      "end": 34.22
+    },
+    {
+      "w": "save",
+      "start": 34.22,
+      "end": 34.5
+    },
+    {
+      "w": "bullet",
+      "start": 34.5,
+      "end": 34.88
+    },
+    {
+      "w": "points",
+      "start": 34.88,
+      "end": 35.22
+    },
+    {
+      "w": "for",
+      "start": 35.22,
+      "end": 35.5
+    },
+    {
+      "w": "the",
+      "start": 35.5,
+      "end": 35.62
+    },
+    {
+      "w": "objections",
+      "start": 35.62,
+      "end": 36.08
+    },
+    {
+      "w": "because",
+      "start": 36.08,
+      "end": 36.62
+    },
+    {
+      "w": "objections",
+      "start": 36.62,
+      "end": 37.12
+    },
+    {
+      "w": "are",
+      "start": 37.12,
+      "end": 37.36
+    },
+    {
+      "w": "coming",
+      "start": 37.36,
+      "end": 37.6
+    },
+    {
+      "w": "and",
+      "start": 37.6,
+      "end": 37.94
+    },
+    {
+      "w": "they'll",
+      "start": 37.94,
+      "end": 38.14
+    },
+    {
+      "w": "all",
+      "start": 38.14,
+      "end": 38.38
+    },
+    {
+      "w": "be",
+      "start": 38.38,
+      "end": 38.56
+    },
+    {
+      "w": "smoke",
+      "start": 38.56,
+      "end": 39.02
+    },
+    {
+      "w": "streams",
+      "start": 39.02,
+      "end": 39.38
+    },
+    {
+      "w": "for",
+      "start": 39.38,
+      "end": 39.7
+    },
+    {
+      "w": "uncertainty.",
+      "start": 39.7,
+      "end": 40.3
+    },
+    {
+      "w": "Let",
+      "start": 40.7,
+      "end": 40.78
+    },
+    {
+      "w": "me",
+      "start": 40.78,
+      "end": 40.88
+    },
+    {
+      "w": "think",
+      "start": 40.88,
+      "end": 41.16
+    },
+    {
+      "w": "about",
+      "start": 41.16,
+      "end": 41.46
+    },
+    {
+      "w": "it",
+      "start": 41.46,
+      "end": 41.62
+    },
+    {
+      "w": "means",
+      "start": 41.62,
+      "end": 41.92
+    },
+    {
+      "w": "make",
+      "start": 41.92,
+      "end": 42.44
+    },
+    {
+      "w": "me",
+      "start": 42.44,
+      "end": 42.6
+    },
+    {
+      "w": "more",
+      "start": 42.6,
+      "end": 42.78
+    },
+    {
+      "w": "certain.",
+      "start": 42.78,
+      "end": 43.16
+    },
+    {
+      "w": "The",
+      "start": 43.42,
+      "end": 43.48
+    },
+    {
+      "w": "client",
+      "start": 43.48,
+      "end": 43.76
+    },
+    {
+      "w": "must",
+      "start": 43.76,
+      "end": 44.16
+    },
+    {
+      "w": "trust",
+      "start": 44.16,
+      "end": 44.54
+    },
+    {
+      "w": "three",
+      "start": 44.54,
+      "end": 45.02
+    },
+    {
+      "w": "things,",
+      "start": 45.02,
+      "end": 45.54
+    },
+    {
+      "w": "the",
+      "start": 45.68,
+      "end": 45.82
+    },
+    {
+      "w": "product,",
+      "start": 45.82,
+      "end": 46.26
+    },
+    {
+      "w": "you",
+      "start": 46.62,
+      "end": 46.96
+    },
+    {
+      "w": "and",
+      "start": 46.96,
+      "end": 47.4
+    },
+    {
+      "w": "your",
+      "start": 47.4,
+      "end": 47.54
+    },
+    {
+      "w": "company.",
+      "start": 47.54,
+      "end": 47.94
+    },
+    {
+      "w": "You",
+      "start": 48.2,
+      "end": 48.3
+    },
+    {
+      "w": "miss",
+      "start": 48.3,
+      "end": 48.5
+    },
+    {
+      "w": "one,",
+      "start": 48.5,
+      "end": 48.82
+    },
+    {
+      "w": "no",
+      "start": 49.12,
+      "end": 49.36
+    },
+    {
+      "w": "deal.",
+      "start": 49.36,
+      "end": 49.68
+    },
+    {
+      "w": "Rejection",
+      "start": 50.14,
+      "end": 50.74
+    },
+    {
+      "w": "is",
+      "start": 50.74,
+      "end": 50.98
+    },
+    {
+      "w": "the",
+      "start": 50.98,
+      "end": 51.2
+    },
+    {
+      "w": "toll",
+      "start": 51.2,
+      "end": 51.54
+    },
+    {
+      "w": "booth",
+      "start": 51.54,
+      "end": 51.86
+    },
+    {
+      "w": "on",
+      "start": 51.86,
+      "end": 52.26
+    },
+    {
+      "w": "the",
+      "start": 52.26,
+      "end": 52.42
+    },
+    {
+      "w": "road",
+      "start": 52.42,
+      "end": 52.62
+    },
+    {
+      "w": "to",
+      "start": 52.62,
+      "end": 52.86
+    },
+    {
+      "w": "riches.",
+      "start": 52.86,
+      "end": 53.1
+    },
+    {
+      "w": "Act",
+      "start": 53.46,
+      "end": 53.82
+    },
+    {
+      "w": "as",
+      "start": 53.82,
+      "end": 54.26
+    },
+    {
+      "w": "if,",
+      "start": 54.26,
+      "end": 54.68
+    },
+    {
+      "w": "prepare",
+      "start": 54.92,
+      "end": 55.22
+    },
+    {
+      "w": "your",
+      "start": 55.22,
+      "end": 55.52
+    },
+    {
+      "w": "scripts,",
+      "start": 55.52,
+      "end": 55.9
+    },
+    {
+      "w": "ask",
+      "start": 55.9,
+      "end": 56.54
+    },
+    {
+      "w": "for",
+      "start": 56.54,
+      "end": 56.78
+    },
+    {
+      "w": "the",
+      "start": 56.78,
+      "end": 56.9
+    },
+    {
+      "w": "order",
+      "start": 56.9,
+      "end": 57.2
+    },
+    {
+      "w": "and",
+      "start": 57.2,
+      "end": 57.48
+    },
+    {
+      "w": "remember",
+      "start": 57.48,
+      "end": 57.98
+    },
+    {
+      "w": "bottled",
+      "start": 57.98,
+      "end": 58.74
+    },
+    {
+      "w": "enthusiasm",
+      "start": 58.74,
+      "end": 59.5
+    },
+    {
+      "w": "sells",
+      "start": 59.5,
+      "end": 60.04
+    },
+    {
+      "w": "more",
+      "start": 60.04,
+      "end": 60.4
+    },
+    {
+      "w": "than",
+      "start": 60.4,
+      "end": 60.58
+    },
+    {
+      "w": "any",
+      "start": 60.58,
+      "end": 60.96
+    },
+    {
+      "w": "word",
+      "start": 60.96,
+      "end": 61.34
+    },
+    {
+      "w": "ever",
+      "start": 61.34,
+      "end": 61.84
+    },
+    {
+      "w": "invented.",
+      "start": 61.84,
+      "end": 62.52
+    },
+    {
+      "w": "Now",
+      "start": 62.96,
+      "end": 63.12
+    },
+    {
+      "w": "go",
+      "start": 63.12,
+      "end": 63.36
+    },
+    {
+      "w": "close.",
+      "start": 63.36,
+      "end": 63.68
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 15.974,
+      "length": 15.974,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A03",
+            "share": 0.246
+          },
+          {
+            "hex": "#2A2C14",
+            "share": 0.175
+          },
+          {
+            "hex": "#304C2D",
+            "share": 0.056
+          },
+          {
+            "hex": "#27180B",
+            "share": 0.052
+          },
+          {
+            "hex": "#1B240B",
+            "share": 0.049
+          }
+        ],
+        "motion_energy": 22.48,
+        "script": "Here's 40 years of sales experience in 60 seconds flat. You've got four seconds to sound sharp as a tack, enthusiastic as hell, and like an expert in your field. Or you're done. Every sale is the same. You take control, or you get control."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 15.974,
+      "end": 18.352,
+      "length": 2.377,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0B0F13",
+            "share": 0.451
+          },
+          {
+            "hex": "#31272A",
+            "share": 0.08
+          },
+          {
+            "hex": "#4D2F2D",
+            "share": 0.066
+          },
+          {
+            "hex": "#8F8E87",
+            "share": 0.048
+          },
+          {
+            "hex": "#ACA498",
+            "share": 0.042
+          }
+        ],
+        "motion_energy": 14.35,
+        "script": "Ask questions before you pitch."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 18.352,
+      "end": 20.52,
+      "length": 2.169,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A03",
+            "share": 0.24
+          },
+          {
+            "hex": "#2B2D14",
+            "share": 0.178
+          },
+          {
+            "hex": "#1B240B",
+            "share": 0.058
+          },
+          {
+            "hex": "#2F4C2C",
+            "share": 0.057
+          },
+          {
+            "hex": "#323324",
+            "share": 0.037
+          }
+        ],
+        "motion_energy": 12.53,
+        "script": "You can't fill a need you never found out about."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 20.52,
+      "end": 22.773,
+      "length": 2.252,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0E12",
+            "share": 0.453
+          },
+          {
+            "hex": "#2E282C",
+            "share": 0.072
+          },
+          {
+            "hex": "#291919",
+            "share": 0.063
+          },
+          {
+            "hex": "#8C8F8F",
+            "share": 0.062
+          },
+          {
+            "hex": "#4D302B",
+            "share": 0.045
+          }
+        ],
+        "motion_energy": 12.55,
+        "script": "Sales is the transference of emotion and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 22.773,
+      "end": 24.942,
+      "length": 2.169,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A03",
+            "share": 0.243
+          },
+          {
+            "hex": "#2A2D14",
+            "share": 0.177
+          },
+          {
+            "hex": "#1B240B",
+            "share": 0.056
+          },
+          {
+            "hex": "#2F4C2C",
+            "share": 0.054
+          },
+          {
+            "hex": "#313325",
+            "share": 0.038
+          }
+        ],
+        "motion_energy": 5.83,
+        "script": "that primary emotion is certainty that"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 24.942,
+      "end": 26.902,
+      "length": 1.96,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0D11",
+            "share": 0.318
+          },
+          {
+            "hex": "#30292C",
+            "share": 0.093
+          },
+          {
+            "hex": "#93928B",
+            "share": 0.082
+          },
+          {
+            "hex": "#27191A",
+            "share": 0.054
+          },
+          {
+            "hex": "#514B4C",
+            "share": 0.052
+          }
+        ],
+        "motion_energy": 17.07,
+        "script": "certainly travels through your tone,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 26.902,
+      "end": 31.865,
+      "length": 4.963,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#2A2C13",
+            "share": 0.201
+          },
+          {
+            "hex": "#100C04",
+            "share": 0.174
+          },
+          {
+            "hex": "#2F4B2C",
+            "share": 0.065
+          },
+          {
+            "hex": "#323324",
+            "share": 0.047
+          },
+          {
+            "hex": "#1B240B",
+            "share": 0.043
+          }
+        ],
+        "motion_energy": 17.91,
+        "script": "not your words. 90 % of communication is tonality and body language."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 31.865,
+      "end": 34.117,
+      "length": 2.252,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0B10",
+            "share": 0.656
+          },
+          {
+            "hex": "#121528",
+            "share": 0.083
+          },
+          {
+            "hex": "#30282F",
+            "share": 0.032
+          },
+          {
+            "hex": "#989093",
+            "share": 0.029
+          },
+          {
+            "hex": "#B2A9AD",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 20.45,
+        "script": "Never front -load your whole presentation."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 34.117,
+      "end": 48.132,
+      "length": 14.014,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#2B2C14",
+            "share": 0.216
+          },
+          {
+            "hex": "#0F0C05",
+            "share": 0.172
+          },
+          {
+            "hex": "#304C2C",
+            "share": 0.061
+          },
+          {
+            "hex": "#323324",
+            "share": 0.052
+          },
+          {
+            "hex": "#26180B",
+            "share": 0.048
+          }
+        ],
+        "motion_energy": 31.9,
+        "script": "You save bullet points for the objections because objections are coming and they'll all be smoke streams for uncertainty. Let me think about it means make me more certain. The client must trust three things, the product, you and your company."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 48.132,
+      "end": 64.224,
+      "length": 16.092,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0A04",
+            "share": 0.2
+          },
+          {
+            "hex": "#2B2C14",
+            "share": 0.197
+          },
+          {
+            "hex": "#304B2C",
+            "share": 0.056
+          },
+          {
+            "hex": "#313324",
+            "share": 0.049
+          },
+          {
+            "hex": "#1B240B",
+            "share": 0.04
+          }
+        ],
+        "motion_energy": 19.18,
+        "script": "You miss one, no deal. Rejection is the toll booth on the road to riches. Act as if, prepare your scripts, ask for the order and remember bottled enthusiasm sells more than any word ever invented. Now go close."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

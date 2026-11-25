@@ -1,0 +1,139 @@
+1
+00:00:00,000 --> 00:00:00,880
+There's now a free open
+
+2
+00:00:00,880 --> 00:00:02,379
+source alternative to Grockbot and
+
+3
+00:00:02,379 --> 00:00:03,980
+Metamuse, where every AI agent
+
+4
+00:00:03,980 --> 00:00:05,139
+still gets its own computer,
+
+5
+00:00:05,299 --> 00:00:05,940
+and it all runs on
+
+6
+00:00:05,940 --> 00:00:07,259
+the Clauter Chat GPT plan
+
+7
+00:00:07,259 --> 00:00:08,519
+you're already paying for. It's
+
+8
+00:00:08,519 --> 00:00:09,820
+called Open Mousebot, and it's
+
+9
+00:00:09,820 --> 00:00:11,240
+already crossed 20 ,000 stars
+
+10
+00:00:11,240 --> 00:00:12,380
+on GitHub. First you create
+
+11
+00:00:12,380 --> 00:00:13,339
+a bot for every job
+
+12
+00:00:13,339 --> 00:00:14,279
+you want to automate, like
+
+13
+00:00:14,279 --> 00:00:15,699
+maybe an inbox manager, a
+
+14
+00:00:15,699 --> 00:00:16,960
+script researcher, or a video
+
+15
+00:00:16,960 --> 00:00:18,059
+editor. Then you just give
+
+16
+00:00:18,059 --> 00:00:19,059
+it a task, like find
+
+17
+00:00:19,059 --> 00:00:20,199
+me this week's trending AI
+
+18
+00:00:20,199 --> 00:00:21,399
+tools, and it'll open its
+
+19
+00:00:21,399 --> 00:00:22,739
+own computer, search the web,
+
+20
+00:00:22,859 --> 00:00:24,079
+go through every page, and
+
+21
+00:00:24,079 --> 00:00:25,160
+send you back the results
+
+22
+00:00:25,160 --> 00:00:26,760
+all independently. And each bot
+
+23
+00:00:26,760 --> 00:00:27,780
+has its own memory, so
+
+24
+00:00:27,780 --> 00:00:28,800
+it can remember your instructions
+
+25
+00:00:28,800 --> 00:00:29,940
+and what you're working on.
+
+26
+00:00:30,019 --> 00:00:31,140
+Plus it connects over 500
+
+27
+00:00:31,140 --> 00:00:32,500
+apps you already use, like
+
+28
+00:00:32,500 --> 00:00:34,039
+Gmail, Slack, and Notion, and
+
+29
+00:00:34,039 --> 00:00:34,659
+you can set your bots
+
+30
+00:00:34,659 --> 00:00:35,479
+to run on their own,
+
+31
+00:00:35,619 --> 00:00:36,759
+like every morning or every
+
+32
+00:00:36,759 --> 00:00:37,659
+hour. So if you want
+
+33
+00:00:37,659 --> 00:00:38,479
+to try this for yourselves,
+
+34
+00:00:38,700 --> 00:00:39,719
+just comment bots, and we'll
+
+35
+00:00:39,719 --> 00:00:40,460
+send you the link directly.

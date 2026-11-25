@@ -1,0 +1,14 @@
+000    0.00-   4.00 (4.0s) | These five AI plugins will make your cloud code 10 times more powerful, and they're all completely
+001    4.00-   4.70 (0.7s) | free.
+002    4.70-   5.87 (1.2s) | The first is Cloud Mem, which
+003    5.87-  11.73 (5.9s) | gives your cloud memory across every session, so it remembers your projects and your files without you ever having to re -explain anything.
+004   11.73-  18.20 (6.5s) | The second is Free LLM API, which gives your cloud code over 7 billion free AI tokens from over 600 AI models, and
+005   18.20-  22.07 (3.9s) | it automatically switches you to the next best model any time your usage limit runs out.
+006   22.07-  23.47 (1.4s) | The third is Cloud Code Setup.
+007   23.47-  30.70 (7.2s) | It's an official, anthropic plugin that scans your entire code base and sets up the best hooks, skills, MCPs, and sub -agents that your project needs.
+008   30.70-  33.23 (2.5s) | The fourth is Google's new Elephant Goldfish model,
+009   33.23-  35.77 (2.5s) | which stops your AI from writing buggy, sloppy code,
+010   35.77-  40.23 (4.5s) | and thousands of people over at Google and Google's own engineers already use it every day.
+011   40.23-  42.83 (2.6s) | And the last is 21st Dev MCP, which
+012   42.83-  47.93 (5.1s) | gives your AI access to over 10 ,000 premium UI components and templates for apps and websites.
+013   47.93-  51.61 (3.7s) | So if you want them all, just comment Clawed down below and I'll send them to you directly.

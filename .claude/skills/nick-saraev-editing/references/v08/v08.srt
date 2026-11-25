@@ -1,0 +1,119 @@
+1
+00:00:00,000 --> 00:00:01,120
+Somebody just built a free
+
+2
+00:00:01,120 --> 00:00:02,459
+AI tool that finds security
+
+3
+00:00:02,459 --> 00:00:03,540
+holes in your app like
+
+4
+00:00:03,540 --> 00:00:05,000
+a real hacker does, and
+
+5
+00:00:05,000 --> 00:00:06,000
+it already found over 30
+
+6
+00:00:06,000 --> 00:00:07,320
+brand new security holes in
+
+7
+00:00:07,320 --> 00:00:08,759
+Linux. It's called Xero, and
+
+8
+00:00:08,759 --> 00:00:09,720
+it's an open source AI
+
+9
+00:00:09,720 --> 00:00:11,259
+security tool backed by Y
+
+10
+00:00:11,259 --> 00:00:12,580
+Combinator. Now instead of running
+
+11
+00:00:12,580 --> 00:00:13,519
+a scan and handing you
+
+12
+00:00:13,519 --> 00:00:14,400
+a list of potential bugs,
+
+13
+00:00:14,679 --> 00:00:16,079
+Xero will actually deploy a
+
+14
+00:00:16,079 --> 00:00:17,699
+team of specialized AI agents
+
+15
+00:00:17,699 --> 00:00:18,879
+that act like real hackers.
+
+16
+00:00:19,100 --> 00:00:19,800
+Where one goes through your
+
+17
+00:00:19,800 --> 00:00:20,859
+whole code base, one might
+
+18
+00:00:20,859 --> 00:00:21,980
+attack your app live, and
+
+19
+00:00:21,980 --> 00:00:22,920
+another could make sure every
+
+20
+00:00:22,920 --> 00:00:24,280
+flaw it finds is real
+
+21
+00:00:24,280 --> 00:00:25,199
+with some sort of working
+
+22
+00:00:25,199 --> 00:00:26,539
+proof. And finally, we'll hand
+
+23
+00:00:26,539 --> 00:00:27,539
+you a full report of
+
+24
+00:00:27,539 --> 00:00:28,679
+every bug it found, and
+
+25
+00:00:28,679 --> 00:00:30,019
+even write and fix all
+
+26
+00:00:30,019 --> 00:00:30,440
+of them. So if you
+
+27
+00:00:30,440 --> 00:00:31,079
+want to try this for
+
+28
+00:00:31,079 --> 00:00:32,020
+yourselves, just comment the word
+
+29
+00:00:32,020 --> 00:00:33,320
+hack down below and I'll
+
+30
+00:00:33,320 --> 00:00:34,380
+DM you the link directly.

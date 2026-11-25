@@ -76,7 +76,7 @@ El código vive en GitHub. **Tú** y **yo** (Claude, en la web) trabajamos sobre
 
 - Si los dos tocamos el mismo archivo, `git pull` te avisa del conflicto. Pídele a Claude Code: *"resuelve el conflicto de git"*.
 - Tus videos, proyectos y renders **no** se suben a GitHub (carpetas `data/`, `qa/`, `projects/`).
-- En local puedes trabajar con **Claude Code** dentro de la carpeta. Ya trae `.mcp.json` y las skills (Emperador, Arthur Brooks, Kallaway, crear-estilo-edicion, Remotion, HyperFrames, rea-video, Edit Studio…).
+- En local puedes trabajar con **Claude Code** dentro de la carpeta. Ya trae `.mcp.json` y las skills (Emperador, Arthur Brooks, Kallaway, Nick Saraev, Lobo de Wall Street, Skylight, Reels Instagram, crear-estilo-edicion, Remotion, HyperFrames, rea-video, Edit Studio…).
 
 ## 6. Las dependencias y qué hace cada una
 
@@ -106,6 +106,7 @@ El código vive en GitHub. **Tú** y **yo** (Claude, en la web) trabajamos sobre
    - **Empezar edición** → revisa el **tablero** (A/B/C en mini 9:16) y los **assets** con sus prompts → **Construir el borrador**.
    - Prueba también **Kallaway → Noticia con prueba**: pega 1–2 enlaces en *Fuentes y pruebas*; se capturan de verdad y salen arriba con tu cara abajo.
    - Prueba **Skylight → Premium**: sale directo el video final (cara arriba, subtítulo en dos niveles, mundos en el cielo). Pon los créditos de imágenes en la descripción.
+   - Prueba **Nick Saraev** (pega el enlace de la herramienta en Fuentes) y **Lobo de Wall Street** (look estudio o casual); arrancan con los colores de cada estilo.
    - Prueba **Reels Instagram** (cara completa, educativo dividido o cinemático B/N): sale el video final con subtítulos, gráficos y sonido.
    - En el tablero usa **Pedir prompts**: «de lo que sugiere el plan» o escribe lo que quieres y «de lo que pido».
    - Revisa el borrador, el storyboard y la hoja de subtítulos. Si te gusta: **Aprobar** (escribes la frase) → **Render final**.

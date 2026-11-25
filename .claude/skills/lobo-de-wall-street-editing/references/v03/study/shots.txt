@@ -1,0 +1,19 @@
+000    0.00-   7.42 (7.4s) | My name is Jordan Belfort. I am the CEO and founder of Straight
+001    7.42-   8.93 (1.5s) | Line AI.
+002    8.93-  12.64 (3.7s) | We have a product called Tone. We're experts in
+003   12.64-  15.06 (2.4s) | voice and goal -oriented communication.
+004   15.06-  17.14 (2.1s) | Real -time streaming,
+005   17.14-  20.52 (3.4s) | the magic is the intelligence of when it does it.
+006   20.52-  22.40 (1.9s) | When do you lower your voice? When do you raise your
+007   22.40-  27.24 (4.8s) | voice? It's choosing its tonalities on purpose. We took a very different
+008   27.24-  27.28 (0.0s) | —
+009   27.28-  31.91 (4.6s) | approach and that was getting to the actual route of communication. What actually
+010   31.91-  33.20 (1.3s) | makes someone
+011   33.20-  37.25 (4.0s) | listen to you, hang on your every word, take action.
+012   37.25-  38.96 (1.7s) | I know what great sounds
+013   38.96-  39.87 (0.9s) | like.
+014   39.87-  41.08 (1.2s) | It's not just me, but I have a team of
+015   41.08-  45.71 (4.6s) | amazing engineers, seriously brilliant people. Better we do training runs constantly.
+016   45.71-  46.92 (1.2s) | I think everyone on our team is incredibly
+017   46.92-  49.42 (2.5s) | proud of what we have.
+018   49.42-  53.05 (3.6s) | —

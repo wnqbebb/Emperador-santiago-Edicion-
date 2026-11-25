@@ -1,0 +1,1576 @@
+{
+  "video": "v11.mp4",
+  "duration": 44.07,
+  "derived": {
+    "shots": 18,
+    "avg_shot_len": 2.45,
+    "cuts_per_min": 24.5,
+    "hook_shots_first_3s": 3,
+    "high_motion_shots": [
+      2,
+      4,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "What",
+      "start": 0.0,
+      "end": 0.18
+    },
+    {
+      "w": "do",
+      "start": 0.18,
+      "end": 0.32
+    },
+    {
+      "w": "you",
+      "start": 0.32,
+      "end": 0.44
+    },
+    {
+      "w": "say",
+      "start": 0.44,
+      "end": 0.6
+    },
+    {
+      "w": "when",
+      "start": 0.6,
+      "end": 0.76
+    },
+    {
+      "w": "a",
+      "start": 0.76,
+      "end": 0.94
+    },
+    {
+      "w": "client",
+      "start": 0.94,
+      "end": 1.04
+    },
+    {
+      "w": "tells",
+      "start": 1.04,
+      "end": 1.32
+    },
+    {
+      "w": "you",
+      "start": 1.32,
+      "end": 1.5
+    },
+    {
+      "w": "that",
+      "start": 1.5,
+      "end": 1.6
+    },
+    {
+      "w": "it's",
+      "start": 1.6,
+      "end": 1.74
+    },
+    {
+      "w": "too",
+      "start": 1.74,
+      "end": 1.82
+    },
+    {
+      "w": "expensive?",
+      "start": 1.82,
+      "end": 2.16
+    },
+    {
+      "w": "So",
+      "start": 2.54,
+      "end": 2.54
+    },
+    {
+      "w": "what",
+      "start": 2.54,
+      "end": 2.76
+    },
+    {
+      "w": "I",
+      "start": 2.76,
+      "end": 2.86
+    },
+    {
+      "w": "do",
+      "start": 2.86,
+      "end": 3.02
+    },
+    {
+      "w": "there",
+      "start": 3.02,
+      "end": 3.42
+    },
+    {
+      "w": "is",
+      "start": 3.42,
+      "end": 3.6
+    },
+    {
+      "w": "something",
+      "start": 3.6,
+      "end": 3.84
+    },
+    {
+      "w": "called",
+      "start": 3.84,
+      "end": 4.14
+    },
+    {
+      "w": "a",
+      "start": 4.14,
+      "end": 4.28
+    },
+    {
+      "w": "reframe,",
+      "start": 4.28,
+      "end": 5.08
+    },
+    {
+      "w": "right?",
+      "start": 5.24,
+      "end": 5.38
+    },
+    {
+      "w": "When",
+      "start": 5.48,
+      "end": 5.56
+    },
+    {
+      "w": "someone",
+      "start": 5.56,
+      "end": 5.8
+    },
+    {
+      "w": "talks",
+      "start": 5.8,
+      "end": 6.16
+    },
+    {
+      "w": "about",
+      "start": 6.16,
+      "end": 6.34
+    },
+    {
+      "w": "something",
+      "start": 6.34,
+      "end": 6.5
+    },
+    {
+      "w": "being",
+      "start": 6.5,
+      "end": 6.74
+    },
+    {
+      "w": "expensive,",
+      "start": 6.74,
+      "end": 7.36
+    },
+    {
+      "w": "what",
+      "start": 7.46,
+      "end": 7.54
+    },
+    {
+      "w": "they're",
+      "start": 7.54,
+      "end": 7.7
+    },
+    {
+      "w": "really",
+      "start": 7.7,
+      "end": 7.88
+    },
+    {
+      "w": "talking",
+      "start": 7.88,
+      "end": 8.12
+    },
+    {
+      "w": "about",
+      "start": 8.12,
+      "end": 8.4
+    },
+    {
+      "w": "is",
+      "start": 8.4,
+      "end": 8.56
+    },
+    {
+      "w": "a",
+      "start": 8.56,
+      "end": 8.66
+    },
+    {
+      "w": "budget.",
+      "start": 8.66,
+      "end": 9.08
+    },
+    {
+      "w": "So",
+      "start": 9.38,
+      "end": 9.44
+    },
+    {
+      "w": "I'll",
+      "start": 9.44,
+      "end": 9.74
+    },
+    {
+      "w": "reframe",
+      "start": 9.74,
+      "end": 10.1
+    },
+    {
+      "w": "it",
+      "start": 10.1,
+      "end": 10.22
+    },
+    {
+      "w": "to",
+      "start": 10.22,
+      "end": 10.32
+    },
+    {
+      "w": "it's",
+      "start": 10.32,
+      "end": 10.44
+    },
+    {
+      "w": "a",
+      "start": 10.44,
+      "end": 10.58
+    },
+    {
+      "w": "premium",
+      "start": 10.58,
+      "end": 11.12
+    },
+    {
+      "w": "product.",
+      "start": 11.12,
+      "end": 11.62
+    },
+    {
+      "w": "I'm",
+      "start": 11.94,
+      "end": 12.08
+    },
+    {
+      "w": "not",
+      "start": 12.08,
+      "end": 12.22
+    },
+    {
+      "w": "gonna",
+      "start": 12.22,
+      "end": 12.34
+    },
+    {
+      "w": "argue",
+      "start": 12.34,
+      "end": 12.74
+    },
+    {
+      "w": "and",
+      "start": 12.74,
+      "end": 13.0
+    },
+    {
+      "w": "say",
+      "start": 13.0,
+      "end": 13.16
+    },
+    {
+      "w": "it's",
+      "start": 13.16,
+      "end": 13.36
+    },
+    {
+      "w": "cheap,",
+      "start": 13.36,
+      "end": 13.64
+    },
+    {
+      "w": "it's",
+      "start": 13.86,
+      "end": 14.74
+    },
+    {
+      "w": "inexpensive.",
+      "start": 14.74,
+      "end": 14.88
+    },
+    {
+      "w": "That's",
+      "start": 15.7,
+      "end": 15.9
+    },
+    {
+      "w": "not",
+      "start": 15.9,
+      "end": 16.04
+    },
+    {
+      "w": "what",
+      "start": 16.04,
+      "end": 16.2
+    },
+    {
+      "w": "matters.",
+      "start": 16.2,
+      "end": 16.52
+    },
+    {
+      "w": "What",
+      "start": 16.68,
+      "end": 16.72
+    },
+    {
+      "w": "matters",
+      "start": 16.72,
+      "end": 17.12
+    },
+    {
+      "w": "is",
+      "start": 17.12,
+      "end": 17.42
+    },
+    {
+      "w": "that",
+      "start": 17.42,
+      "end": 17.58
+    },
+    {
+      "w": "it's",
+      "start": 17.58,
+      "end": 17.76
+    },
+    {
+      "w": "premium.",
+      "start": 17.76,
+      "end": 18.34
+    },
+    {
+      "w": "It's",
+      "start": 18.7,
+      "end": 18.86
+    },
+    {
+      "w": "got",
+      "start": 18.86,
+      "end": 19.02
+    },
+    {
+      "w": "value,",
+      "start": 19.02,
+      "end": 19.64
+    },
+    {
+      "w": "it's",
+      "start": 19.74,
+      "end": 19.92
+    },
+    {
+      "w": "a",
+      "start": 19.92,
+      "end": 20.02
+    },
+    {
+      "w": "great",
+      "start": 20.02,
+      "end": 20.32
+    },
+    {
+      "w": "deal.",
+      "start": 20.32,
+      "end": 20.8
+    },
+    {
+      "w": "So",
+      "start": 21.04,
+      "end": 21.16
+    },
+    {
+      "w": "I",
+      "start": 21.16,
+      "end": 21.3
+    },
+    {
+      "w": "reframe",
+      "start": 21.3,
+      "end": 21.92
+    },
+    {
+      "w": "that",
+      "start": 21.92,
+      "end": 22.16
+    },
+    {
+      "w": "away",
+      "start": 22.16,
+      "end": 22.5
+    },
+    {
+      "w": "from",
+      "start": 22.5,
+      "end": 22.82
+    },
+    {
+      "w": "price",
+      "start": 22.82,
+      "end": 23.34
+    },
+    {
+      "w": "to",
+      "start": 23.34,
+      "end": 23.8
+    },
+    {
+      "w": "actually",
+      "start": 23.8,
+      "end": 24.34
+    },
+    {
+      "w": "value.",
+      "start": 24.34,
+      "end": 24.9
+    },
+    {
+      "w": "And",
+      "start": 25.14,
+      "end": 25.28
+    },
+    {
+      "w": "after",
+      "start": 25.28,
+      "end": 25.46
+    },
+    {
+      "w": "you",
+      "start": 25.46,
+      "end": 25.64
+    },
+    {
+      "w": "just",
+      "start": 25.64,
+      "end": 25.8
+    },
+    {
+      "w": "agree?",
+      "start": 25.8,
+      "end": 26.04
+    },
+    {
+      "w": "Once",
+      "start": 26.22,
+      "end": 26.46
+    },
+    {
+      "w": "you",
+      "start": 26.46,
+      "end": 26.76
+    },
+    {
+      "w": "reframe",
+      "start": 26.76,
+      "end": 27.38
+    },
+    {
+      "w": "it",
+      "start": 27.38,
+      "end": 27.6
+    },
+    {
+      "w": "and",
+      "start": 27.6,
+      "end": 27.78
+    },
+    {
+      "w": "you",
+      "start": 27.78,
+      "end": 27.88
+    },
+    {
+      "w": "bring",
+      "start": 27.88,
+      "end": 28.08
+    },
+    {
+      "w": "it",
+      "start": 28.08,
+      "end": 28.18
+    },
+    {
+      "w": "about",
+      "start": 28.18,
+      "end": 28.42
+    },
+    {
+      "w": "to",
+      "start": 28.42,
+      "end": 28.64
+    },
+    {
+      "w": "value,",
+      "start": 28.64,
+      "end": 29.14
+    },
+    {
+      "w": "now",
+      "start": 29.7,
+      "end": 29.9
+    },
+    {
+      "w": "it",
+      "start": 29.9,
+      "end": 30.08
+    },
+    {
+      "w": "comes",
+      "start": 30.08,
+      "end": 30.32
+    },
+    {
+      "w": "down",
+      "start": 30.32,
+      "end": 30.6
+    },
+    {
+      "w": "to",
+      "start": 30.6,
+      "end": 30.78
+    },
+    {
+      "w": "filling",
+      "start": 30.78,
+      "end": 31.08
+    },
+    {
+      "w": "their",
+      "start": 31.08,
+      "end": 31.28
+    },
+    {
+      "w": "need",
+      "start": 31.28,
+      "end": 31.46
+    },
+    {
+      "w": "and",
+      "start": 31.46,
+      "end": 31.62
+    },
+    {
+      "w": "building",
+      "start": 31.62,
+      "end": 31.88
+    },
+    {
+      "w": "massive",
+      "start": 31.88,
+      "end": 32.42
+    },
+    {
+      "w": "certainty.",
+      "start": 32.42,
+      "end": 33.0
+    },
+    {
+      "w": "People",
+      "start": 33.22,
+      "end": 33.5
+    },
+    {
+      "w": "are",
+      "start": 33.5,
+      "end": 33.7
+    },
+    {
+      "w": "always",
+      "start": 33.7,
+      "end": 34.2
+    },
+    {
+      "w": "willing",
+      "start": 34.2,
+      "end": 34.58
+    },
+    {
+      "w": "to",
+      "start": 34.58,
+      "end": 34.82
+    },
+    {
+      "w": "pay",
+      "start": 34.82,
+      "end": 35.06
+    },
+    {
+      "w": "for",
+      "start": 35.06,
+      "end": 35.24
+    },
+    {
+      "w": "something",
+      "start": 35.24,
+      "end": 35.62
+    },
+    {
+      "w": "if",
+      "start": 35.62,
+      "end": 35.96
+    },
+    {
+      "w": "they",
+      "start": 35.96,
+      "end": 36.16
+    },
+    {
+      "w": "know",
+      "start": 36.16,
+      "end": 36.34
+    },
+    {
+      "w": "the",
+      "start": 36.34,
+      "end": 36.48
+    },
+    {
+      "w": "value",
+      "start": 36.48,
+      "end": 36.84
+    },
+    {
+      "w": "is",
+      "start": 36.84,
+      "end": 37.02
+    },
+    {
+      "w": "there.",
+      "start": 37.02,
+      "end": 37.22
+    },
+    {
+      "w": "Works",
+      "start": 37.4,
+      "end": 37.6
+    },
+    {
+      "w": "100",
+      "start": 37.6,
+      "end": 38.06
+    },
+    {
+      "w": "%",
+      "start": 38.06,
+      "end": 38.34
+    },
+    {
+      "w": "of",
+      "start": 38.34,
+      "end": 38.5
+    },
+    {
+      "w": "the",
+      "start": 38.5,
+      "end": 38.58
+    },
+    {
+      "w": "time.",
+      "start": 38.58,
+      "end": 38.84
+    },
+    {
+      "w": "How",
+      "start": 39.0,
+      "end": 39.1
+    },
+    {
+      "w": "can",
+      "start": 39.1,
+      "end": 39.24
+    },
+    {
+      "w": "I",
+      "start": 39.24,
+      "end": 39.36
+    },
+    {
+      "w": "learn",
+      "start": 39.36,
+      "end": 39.44
+    },
+    {
+      "w": "more",
+      "start": 39.44,
+      "end": 39.66
+    },
+    {
+      "w": "from",
+      "start": 39.66,
+      "end": 39.82
+    },
+    {
+      "w": "you?",
+      "start": 39.82,
+      "end": 39.96
+    },
+    {
+      "w": "Very",
+      "start": 40.1,
+      "end": 40.42
+    },
+    {
+      "w": "simple,",
+      "start": 40.42,
+      "end": 40.82
+    },
+    {
+      "w": "just",
+      "start": 41.04,
+      "end": 41.2
+    },
+    {
+      "w": "follow",
+      "start": 41.2,
+      "end": 41.68
+    },
+    {
+      "w": "me",
+      "start": 41.68,
+      "end": 42.04
+    },
+    {
+      "w": "and",
+      "start": 42.04,
+      "end": 42.42
+    },
+    {
+      "w": "I'll",
+      "start": 42.42,
+      "end": 42.6
+    },
+    {
+      "w": "show",
+      "start": 42.6,
+      "end": 42.7
+    },
+    {
+      "w": "you",
+      "start": 42.7,
+      "end": 42.84
+    },
+    {
+      "w": "exactly",
+      "start": 42.84,
+      "end": 43.2
+    },
+    {
+      "w": "how",
+      "start": 43.2,
+      "end": 43.46
+    },
+    {
+      "w": "to",
+      "start": 43.46,
+      "end": 43.52
+    },
+    {
+      "w": "do",
+      "start": 43.52,
+      "end": 43.66
+    },
+    {
+      "w": "this.",
+      "start": 43.66,
+      "end": 43.82
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 1.0,
+      "length": 1.0,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#05120A",
+            "share": 0.252
+          },
+          {
+            "hex": "#0B2A11",
+            "share": 0.174
+          },
+          {
+            "hex": "#4A5155",
+            "share": 0.038
+          },
+          {
+            "hex": "#CED1EC",
+            "share": 0.032
+          },
+          {
+            "hex": "#2D3A46",
+            "share": 0.029
+          }
+        ],
+        "motion_energy": 2.19,
+        "script": "What do you say when a client"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 1.0,
+      "end": 2.333,
+      "length": 1.333,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#04120D",
+            "share": 0.13
+          },
+          {
+            "hex": "#052917",
+            "share": 0.105
+          },
+          {
+            "hex": "#093525",
+            "share": 0.082
+          },
+          {
+            "hex": "#8C756C",
+            "share": 0.07
+          },
+          {
+            "hex": "#A7C8EA",
+            "share": 0.059
+          }
+        ],
+        "motion_energy": 4.61,
+        "script": "tells you that it's too expensive?"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 2.333,
+      "end": 9.333,
+      "length": 7.0,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#04120A",
+            "share": 0.228
+          },
+          {
+            "hex": "#0B2911",
+            "share": 0.172
+          },
+          {
+            "hex": "#4A5156",
+            "share": 0.043
+          },
+          {
+            "hex": "#2C3A47",
+            "share": 0.032
+          },
+          {
+            "hex": "#724634",
+            "share": 0.03
+          }
+        ],
+        "motion_energy": 16.85,
+        "script": "So what I do there is something called a reframe, right? When someone talks about something being expensive, what they're really talking about is a budget."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 9.333,
+      "end": 10.233,
+      "length": 0.9,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#02130C",
+            "share": 0.119
+          },
+          {
+            "hex": "#052917",
+            "share": 0.106
+          },
+          {
+            "hex": "#093525",
+            "share": 0.081
+          },
+          {
+            "hex": "#8D756C",
+            "share": 0.068
+          },
+          {
+            "hex": "#A8C8EB",
+            "share": 0.062
+          }
+        ],
+        "motion_energy": 1.38,
+        "script": "So I'll reframe it to"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 10.233,
+      "end": 17.567,
+      "length": 7.333,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#05130A",
+            "share": 0.224
+          },
+          {
+            "hex": "#0B2911",
+            "share": 0.165
+          },
+          {
+            "hex": "#4A5156",
+            "share": 0.041
+          },
+          {
+            "hex": "#CDCFED",
+            "share": 0.039
+          },
+          {
+            "hex": "#2D3A47",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 21.8,
+        "script": "it's a premium product. I'm not gonna argue and say it's cheap, it's inexpensive. That's not what matters. What matters is that"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 17.567,
+      "end": 18.6,
+      "length": 1.033,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#111015",
+            "share": 0.221
+          },
+          {
+            "hex": "#151826",
+            "share": 0.118
+          },
+          {
+            "hex": "#4F2F28",
+            "share": 0.067
+          },
+          {
+            "hex": "#2E282F",
+            "share": 0.056
+          },
+          {
+            "hex": "#315567",
+            "share": 0.048
+          }
+        ],
+        "motion_energy": 10.14,
+        "script": "it's premium."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 18.6,
+      "end": 19.767,
+      "length": 1.167,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#120D13",
+            "share": 0.136
+          },
+          {
+            "hex": "#4F2F2A",
+            "share": 0.099
+          },
+          {
+            "hex": "#2F2631",
+            "share": 0.059
+          },
+          {
+            "hex": "#301717",
+            "share": 0.058
+          },
+          {
+            "hex": "#703611",
+            "share": 0.042
+          }
+        ],
+        "motion_energy": 12.33,
+        "script": "It's got value, it's"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 19.767,
+      "end": 21.033,
+      "length": 1.267,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#131518",
+            "share": 0.358
+          },
+          {
+            "hex": "#2E2A2D",
+            "share": 0.124
+          },
+          {
+            "hex": "#161B23",
+            "share": 0.052
+          },
+          {
+            "hex": "#2C374A",
+            "share": 0.045
+          },
+          {
+            "hex": "#504A4E",
+            "share": 0.037
+          }
+        ],
+        "motion_energy": 12.13,
+        "script": "a great deal."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 21.033,
+      "end": 25.533,
+      "length": 4.5,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#06120A",
+            "share": 0.208
+          },
+          {
+            "hex": "#0C2911",
+            "share": 0.17
+          },
+          {
+            "hex": "#4A5156",
+            "share": 0.043
+          },
+          {
+            "hex": "#74442E",
+            "share": 0.037
+          },
+          {
+            "hex": "#6B3929",
+            "share": 0.034
+          }
+        ],
+        "motion_energy": 14.55,
+        "script": "So I reframe that away from price to actually value. And after you"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 25.533,
+      "end": 26.2,
+      "length": 0.667,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#02130C",
+            "share": 0.122
+          },
+          {
+            "hex": "#062916",
+            "share": 0.115
+          },
+          {
+            "hex": "#0B3525",
+            "share": 0.076
+          },
+          {
+            "hex": "#8F766B",
+            "share": 0.072
+          },
+          {
+            "hex": "#A8C7E8",
+            "share": 0.06
+          }
+        ],
+        "motion_energy": 16.46,
+        "script": "just agree?"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 10,
+      "start": 26.2,
+      "end": 29.6,
+      "length": 3.4,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#04120A",
+            "share": 0.241
+          },
+          {
+            "hex": "#092911",
+            "share": 0.168
+          },
+          {
+            "hex": "#495356",
+            "share": 0.039
+          },
+          {
+            "hex": "#35464C",
+            "share": 0.035
+          },
+          {
+            "hex": "#74442E",
+            "share": 0.031
+          }
+        ],
+        "motion_energy": 10.11,
+        "script": "Once you reframe it and you bring it about to value,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 11,
+      "start": 29.6,
+      "end": 31.5,
+      "length": 1.9,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#131317",
+            "share": 0.13
+          },
+          {
+            "hex": "#2F2A2C",
+            "share": 0.094
+          },
+          {
+            "hex": "#B38776",
+            "share": 0.077
+          },
+          {
+            "hex": "#A97768",
+            "share": 0.07
+          },
+          {
+            "hex": "#4B4C52",
+            "share": 0.058
+          }
+        ],
+        "motion_energy": 39.53,
+        "script": "now it comes down to filling their need and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 12,
+      "start": 31.5,
+      "end": 33.2,
+      "length": 1.7,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#93888D",
+            "share": 0.156
+          },
+          {
+            "hex": "#746A6F",
+            "share": 0.145
+          },
+          {
+            "hex": "#2B2836",
+            "share": 0.117
+          },
+          {
+            "hex": "#373646",
+            "share": 0.082
+          },
+          {
+            "hex": "#4F4956",
+            "share": 0.061
+          }
+        ],
+        "motion_energy": 19.2,
+        "script": "building massive certainty."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 13,
+      "start": 33.2,
+      "end": 37.367,
+      "length": 4.167,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#04120A",
+            "share": 0.248
+          },
+          {
+            "hex": "#092912",
+            "share": 0.158
+          },
+          {
+            "hex": "#495356",
+            "share": 0.041
+          },
+          {
+            "hex": "#75462E",
+            "share": 0.036
+          },
+          {
+            "hex": "#36464D",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 15.79,
+        "script": "People are always willing to pay for something if they know the value is there."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 14,
+      "start": 37.367,
+      "end": 37.9,
+      "length": 0.533,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#02130D",
+            "share": 0.123
+          },
+          {
+            "hex": "#042817",
+            "share": 0.109
+          },
+          {
+            "hex": "#083525",
+            "share": 0.082
+          },
+          {
+            "hex": "#8C756C",
+            "share": 0.078
+          },
+          {
+            "hex": "#114931",
+            "share": 0.052
+          }
+        ],
+        "motion_energy": 15.48,
+        "script": "Works 100"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 15,
+      "start": 37.9,
+      "end": 39.0,
+      "length": 1.1,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#03120A",
+            "share": 0.252
+          },
+          {
+            "hex": "#092911",
+            "share": 0.16
+          },
+          {
+            "hex": "#4A5356",
+            "share": 0.039
+          },
+          {
+            "hex": "#CCD3EF",
+            "share": 0.038
+          },
+          {
+            "hex": "#36464B",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 10.91,
+        "script": "% of the time."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 16,
+      "start": 39.0,
+      "end": 40.1,
+      "length": 1.1,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#02130C",
+            "share": 0.126
+          },
+          {
+            "hex": "#042817",
+            "share": 0.109
+          },
+          {
+            "hex": "#093525",
+            "share": 0.08
+          },
+          {
+            "hex": "#8C756C",
+            "share": 0.073
+          },
+          {
+            "hex": "#114931",
+            "share": 0.049
+          }
+        ],
+        "motion_energy": 4.43,
+        "script": "How can I learn more from you?"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 17,
+      "start": 40.1,
+      "end": 44.069,
+      "length": 3.969,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#031209",
+            "share": 0.25
+          },
+          {
+            "hex": "#082911",
+            "share": 0.158
+          },
+          {
+            "hex": "#485356",
+            "share": 0.036
+          },
+          {
+            "hex": "#F9FAFB",
+            "share": 0.033
+          },
+          {
+            "hex": "#36464C",
+            "share": 0.026
+          }
+        ],
+        "motion_energy": 10.26,
+        "script": "Very simple, just follow me and I'll show you exactly how to do this."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

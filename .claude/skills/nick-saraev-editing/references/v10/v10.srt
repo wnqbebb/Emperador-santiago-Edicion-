@@ -1,0 +1,111 @@
+1
+00:00:00,000 --> 00:00:01,080
+Cloud Code can now control
+
+2
+00:00:01,080 --> 00:00:02,419
+your iPhone for you, opening
+
+3
+00:00:02,419 --> 00:00:03,720
+apps and tapping through screens
+
+4
+00:00:03,720 --> 00:00:04,799
+just like a real person.
+
+5
+00:00:04,919 --> 00:00:06,259
+This is Mirar MCP, and
+
+6
+00:00:06,259 --> 00:00:07,440
+it works through Apple's iPhone
+
+7
+00:00:07,440 --> 00:00:08,519
+mirroring on your Mac, so
+
+8
+00:00:08,519 --> 00:00:09,439
+Cloud can read your phone
+
+9
+00:00:09,439 --> 00:00:10,699
+screen and tap, swipe, and
+
+10
+00:00:10,699 --> 00:00:11,779
+type for you. To install
+
+11
+00:00:11,779 --> 00:00:12,439
+it, you just run this
+
+12
+00:00:12,439 --> 00:00:13,439
+one command and connect it
+
+13
+00:00:13,439 --> 00:00:14,660
+to Cloud Code or Codex.
+
+14
+00:00:14,800 --> 00:00:15,359
+Then you can use it
+
+15
+00:00:15,359 --> 00:00:16,660
+to automate whole workflows, test
+
+16
+00:00:16,660 --> 00:00:17,480
+your own apps, learn a
+
+17
+00:00:17,480 --> 00:00:18,699
+real device, or just hand
+
+18
+00:00:18,699 --> 00:00:19,579
+off all the boring stuff
+
+19
+00:00:19,579 --> 00:00:20,140
+that you have to do
+
+20
+00:00:20,140 --> 00:00:21,179
+in your phone every day.
+
+21
+00:00:21,300 --> 00:00:22,120
+Plus you can block it
+
+22
+00:00:22,120 --> 00:00:23,199
+from apps like Wallet or
+
+23
+00:00:23,199 --> 00:00:24,359
+your banking apps, you always
+
+24
+00:00:24,359 --> 00:00:25,399
+stay in control. If you
+
+25
+00:00:25,399 --> 00:00:26,219
+want the whole setup guide,
+
+26
+00:00:26,359 --> 00:00:27,440
+just comment phone down below
+
+27
+00:00:27,440 --> 00:00:28,199
+and I'll send you the
+
+28
+00:00:28,199 --> 00:00:28,579
+links directly.

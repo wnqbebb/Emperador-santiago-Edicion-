@@ -1,0 +1,331 @@
+{
+ "triggers": [
+  {
+   "t_word": 0.0,
+   "word": "So",
+   "element": "selfie en descapotable + subtítulo blanco (sin tarjeta)",
+   "category": "aroll_caption",
+   "offset_s": 0.0,
+   "why": "hook-objeción"
+  },
+  {
+   "t_word": 5.7,
+   "word": "You're",
+   "element": "jump cut 5.67",
+   "category": "aroll_caption",
+   "offset_s": -0.03,
+   "why": "remate 'already lost'"
+  },
+  {
+   "t_word": 7.16,
+   "word": "My",
+   "element": "clip de la película (discurso con micrófono) + él en recuadro abajo-izq",
+   "category": "movie_clip",
+   "offset_s": -0.03,
+   "why": "presentación de autoridad (metáfora: el original)"
+  },
+  {
+   "t_word": 7.56,
+   "word": "Jordan",
+   "element": "subtítulo 'Jordan Belfort' (corregido)",
+   "category": "movie_clip",
+   "offset_s": 0.0,
+   "why": "nombre"
+  },
+  {
+   "t_word": 9.88,
+   "word": "The",
+   "element": "vuelta a selfie 9.83",
+   "category": "aroll_caption",
+   "offset_s": -0.05,
+   "why": "principio en cara"
+  },
+  {
+   "t_word": 11.82,
+   "word": "you're",
+   "element": "clip (DiCaprio entre corredores) + recuadro 11.77",
+   "category": "movie_clip",
+   "offset_s": -0.05,
+   "why": "emoción: discutir con sentimientos"
+  },
+  {
+   "t_word": 13.7,
+   "word": "You're",
+   "element": "vuelta a selfie 13.70",
+   "category": "aroll_caption",
+   "offset_s": 0.0,
+   "why": "conclusión"
+  },
+  {
+   "t_word": 15.3,
+   "word": "Here's",
+   "element": "jump cut 15.33",
+   "category": "aroll_caption",
+   "offset_s": 0.03,
+   "why": "giro a la solución"
+  },
+  {
+   "t_word": 17.32,
+   "word": "So",
+   "element": "jump cut 17.30",
+   "category": "aroll_caption",
+   "offset_s": -0.02,
+   "why": "ejemplo de guion"
+  },
+  {
+   "t_word": 25.08,
+   "word": "If",
+   "element": "jump cut 25.10",
+   "category": "aroll_caption",
+   "offset_s": 0.02,
+   "why": "condición"
+  },
+  {
+   "t_word": 26.34,
+   "word": "then",
+   "element": "clip (oficina) + recuadro 26.30",
+   "category": "movie_clip",
+   "offset_s": -0.04,
+   "why": "acción: loop back"
+  },
+  {
+   "t_word": 27.86,
+   "word": "more",
+   "element": "clip→clip 27.93, recuadro se mantiene",
+   "category": "movie_clip",
+   "offset_s": 0.07,
+   "why": "build value"
+  },
+  {
+   "t_word": 30.28,
+   "word": "I'm",
+   "element": "vuelta a selfie 29.70",
+   "category": "aroll_caption",
+   "offset_s": -0.58,
+   "why": "segunda rama"
+  },
+  {
+   "t_word": 35.34,
+   "word": "The",
+   "element": "jump cut 35.33",
+   "category": "aroll_caption",
+   "offset_s": -0.01,
+   "why": "regla-resumen"
+  },
+  {
+   "t_word": 42.9,
+   "word": "then",
+   "element": "clip (DiCaprio con billete) + recuadro 42.73",
+   "category": "movie_clip",
+   "offset_s": -0.17,
+   "why": "literal/metáfora: cerrar = dinero"
+  },
+  {
+   "t_word": 44.46,
+   "word": "If",
+   "element": "vuelta a selfie 44.47",
+   "category": "title_cta",
+   "offset_s": 0.01,
+   "why": "CTA"
+  },
+  {
+   "t_word": 45.56,
+   "word": "wolf",
+   "element": "tarjeta de perfil ARRIBA ≈45.5",
+   "category": "title_cta",
+   "offset_s": -0.06,
+   "why": "CTA visual"
+  },
+  {
+   "t_word": 46.7,
+   "word": "follow",
+   "element": "clic del cursor → 'Following' ≈46.6",
+   "category": "title_cta",
+   "offset_s": -0.1,
+   "why": "gesto de seguir"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 5.67,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut"
+  },
+  {
+   "t": 7.13,
+   "from": "aroll",
+   "to": "movie_clip",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "score 0.72; recuadro aparece en el mismo frame"
+  },
+  {
+   "t": 9.83,
+   "from": "movie_clip",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": ""
+  },
+  {
+   "t": 11.77,
+   "from": "aroll",
+   "to": "movie_clip",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": ""
+  },
+  {
+   "t": 13.7,
+   "from": "movie_clip",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": ""
+  },
+  {
+   "t": 15.33,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut"
+  },
+  {
+   "t": 17.3,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut"
+  },
+  {
+   "t": 25.1,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut"
+  },
+  {
+   "t": 26.3,
+   "from": "aroll",
+   "to": "movie_clip",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": ""
+  },
+  {
+   "t": 27.93,
+   "from": "movie_clip",
+   "to": "movie_clip",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "clip→clip, recuadro fijo"
+  },
+  {
+   "t": 29.7,
+   "from": "movie_clip",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": ""
+  },
+  {
+   "t": 35.33,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut"
+  },
+  {
+   "t": 42.73,
+   "from": "aroll",
+   "to": "movie_clip",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": ""
+  },
+  {
+   "t": 44.47,
+   "from": "movie_clip",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": ""
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.0,
+   "fx": "pop",
+   "detail": "bloques de 1–4 palabras reemplazados en corte seco, blanco con sombra difusa, y≈72 %"
+  },
+  {
+   "t": 45.5,
+   "fx": "escala",
+   "detail": "tarjeta follow aparece arriba (entrada rápida, ≤0.2 s; forma exacta no medida)"
+  },
+  {
+   "t": 46.6,
+   "fx": "pop",
+   "detail": "botón 'Follow' → 'Following' morado tras el clic"
+  }
+ ],
+ "camera": [
+  {
+   "t": 0.0,
+   "move": "shake",
+   "scale_or_dir": "selfie handheld, micro-movimiento constante",
+   "dur_s": 47.3
+  },
+  {
+   "t": 7.13,
+   "move": "recuadro (PiP)",
+   "scale_or_dir": "selfie a 48.5 % del ancho, abajo-izquierda (y 48–85 %)",
+   "dur_s": 2.7
+  },
+  {
+   "t": 11.77,
+   "move": "recuadro (PiP)",
+   "scale_or_dir": "selfie a 48.5 % del ancho, abajo-izquierda (y 48–85 %)",
+   "dur_s": 1.93
+  },
+  {
+   "t": 26.3,
+   "move": "recuadro (PiP)",
+   "scale_or_dir": "selfie a 48.5 % del ancho, abajo-izquierda (y 48–85 %)",
+   "dur_s": 3.4
+  },
+  {
+   "t": 42.73,
+   "move": "recuadro (PiP)",
+   "scale_or_dir": "selfie a 48.5 % del ancho, abajo-izquierda (y 48–85 %)",
+   "dur_s": 1.74
+  }
+ ],
+ "rhythm": {
+  "events_per_10s": [
+   3,
+   4,
+   2,
+   5,
+   1
+  ],
+  "avg_hold_text_s": 1.0,
+  "notes": "derived: eventos = cortes + tarjeta. El ritmo depende de los clips (5) y de 5 jump cuts; hay tramos de 5.6–7.8 s sin cambio de plano sostenidos por subtítulos y gestos de manos."
+ },
+ "typography": "Única fuente: sans geométrica bold tipo Poppins, blanco, sombra difusa, ~3.5 % del alto, y≈72 %; 1–4 palabras; sin amarillo, sin itálicas, sin mayúsculas enfáticas.",
+ "textures": "Ninguna añadida. Luz de día nublado (cielo casi quemado), sin viñeta ni grano; clips con su grade original.",
+ "distinct": [
+  "Set selfie en descapotable (cara muy cerca, manos invadiendo el cuadro) en vez del sofá o el estudio.",
+  "Auto-presentación 'My name is Jordan Belfort, the real wolf of Wall Street' sobre la escena del discurso de la película.",
+  "Subtítulo más bajo (y≈72 %) que en los otros looks casuales.",
+  "5 clips de película con recuadro, dos de ellos encadenados (26.30→27.93).",
+  "Tarjeta follow en la parte SUPERIOR de la pantalla."
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "triggers": [
+  {"t_word": 0.0, "word": "You", "element": "[obs] iPhone sube dentro de la ventana (0.0–0.13) y el título empieza write-on ('Uncensored' 0.07)", "category": "hook_title", "offset_s": 0.07, "why": "hook: título y demo arrancan con la voz"},
+  {"t_word": 0.5, "word": "uncensored", "element": "[obs] 'uncensored' en azul (0.75)", "category": "hook_title", "offset_s": 0.25, "why": "énfasis: palabra polémica"},
+  {"t_word": 2.38, "word": "internet", "element": "[obs] 'internet' azul + 'Airplane Mode' en la barra del teléfono (~2.7)", "category": "hook_title", "offset_s": 0.1, "why": "literal: sin internet = modo avión"},
+  {"t_word": 3.02, "word": "and", "element": "[obs] corte a cara completa (3.14)", "category": "face_full", "offset_s": 0.12, "why": "remate a cámara"},
+  {"t_word": 3.68, "word": "free.", "element": "[obs] 'free' azul (gris→azul 3.8)", "category": "face_full", "offset_s": 0.12, "why": "énfasis/dato"},
+  {"t_word": 4.14, "word": "This", "element": "[obs] corte a lienzo blanco (4.16), logo chip verde fade+escala (4.2–4.3), caja 'This Is' se abre (4.3–4.43)", "category": "card_graphic", "offset_s": 0.02, "why": "cambio de tema: presentación del producto"},
+  {"t_word": 4.42, "word": "PrivateLM", "element": "[obs] 'Private' gris → 'Private LLM' negro (4.5–4.75)", "category": "card_graphic", "offset_s": 0.1, "why": "literal: nombre"},
+  {"t_word": 5.82, "word": "free", "element": "[obs] corte a repo GitHub sobre gris con foco (6.09); 'free' azul", "category": "window_only", "offset_s": 0.27, "why": "prueba: open source"},
+  {"t_word": 6.4, "word": "open", "element": "[obs] óvalo azul alrededor de 'Public' (~6.4)", "category": "window_only", "offset_s": 0.0, "why": "literal"},
+  {"t_word": 7.24, "word": "GitHub.", "element": "[obs] 'GitHub' serif itálica azul; sección About con 'Star' resaltado (7.0)", "category": "window_only", "offset_s": -0.24, "why": "literal"},
+  {"t_word": 7.66, "word": "You", "element": "[obs] glitch (7.57–7.7) → iPhone completo sobre negro con ficha de la app", "category": "window_only", "offset_s": -0.09, "why": "cambio de tema: de web a móvil"},
+  {"t_word": 7.8, "word": "install", "element": "[obs] 'install' azul; toggle se activa (~8.2)", "category": "window_only", "offset_s": 0.4, "why": "literal"},
+  {"t_word": 8.78, "word": "check", "element": "[obs] pantalla 'Checking your phone' (8.75) + 'check' azul", "category": "window_only", "offset_s": -0.03, "why": "literal"},
+  {"t_word": 9.38, "word": "phone", "element": "[obs] checks verdes uno a uno (9.25 iPhone 17 Pro Max, 9.5 12 GB RAM, 10.0 A19 Pro)", "category": "window_only", "offset_s": -0.13, "why": "dato: lo que comprueba"},
+  {"t_word": 10.4, "word": "set", "element": "[obs] 'Setting things up' + barra de descarga Qwen 3.5 4B (10.5)", "category": "window_only", "offset_s": 0.1, "why": "literal"},
+  {"t_word": 11.5, "word": "automatically.", "element": "[obs] 'You're all set' + botón verde 'Start chatting' (11.75); palabra azul", "category": "window_only", "offset_s": 0.25, "why": "recompensa: fin del proceso"},
+  {"t_word": 12.28, "word": "Then", "element": "[obs] corte a lienzo claro con cara + recorte del móvil 'Models' (12.24)", "category": "frame_split", "offset_s": -0.04, "why": "nuevo paso → vuelve la cara"},
+  {"t_word": 12.52, "word": "download", "element": "[obs] 'download' azul; toque (círculo blanco) sobre el botón de descarga 12.8–13.3", "category": "frame_split", "offset_s": 0.28, "why": "literal"},
+  {"t_word": 14.5, "word": "unrestricted,", "element": "[obs] tecleo en el buscador 'uncensored' (14.85–15.2)", "category": "window_zoom", "offset_s": 0.35, "why": "literal"},
+  {"t_word": 15.38, "word": "uncensored", "element": "[obs] resultado 'Dolphin 3.0 Llama 3.2 3B' con rectángulo azul (15.5) + 'uncensored' azul", "category": "window_zoom", "offset_s": 0.12, "why": "literal + énfasis"},
+  {"t_word": 16.5, "word": "and", "element": "[obs] corte a móvil sobre negro 'Start a Conversation' (16.83)", "category": "window_only", "offset_s": 0.33, "why": "cambio de función"},
+  {"t_word": 17.1, "word": "chat", "element": "[obs] burbuja 'Roast my code. No filter.' (~17.25), 'chat' azul", "category": "window_only", "offset_s": 0.15, "why": "literal"},
+  {"t_word": 17.94, "word": "offline.", "element": "[obs] 'offline' azul; respuesta tecleándose", "category": "window_only", "offset_s": 0.05, "why": "énfasis"},
+  {"t_word": 19.12, "word": "generate", "element": "[obs] burbuja 'Generate an image: a lighthouse at dusk' sube (19.35)", "category": "window_only", "offset_s": 0.23, "why": "literal"},
+  {"t_word": 19.68, "word": "images", "element": "[obs] imagen del faro se genera de borroso a nítido (19.7–20.1)", "category": "window_only", "offset_s": 0.02, "why": "literal"},
+  {"t_word": 20.94, "word": "So", "element": "[obs] corte a cara completa (20.93)", "category": "face_full", "offset_s": -0.01, "why": "CTA a cámara"},
+  {"t_word": 22.08, "word": "comment", "element": "[obs] 'comment' serif itálica blanca blur-in (22.1)", "category": "title_cta", "offset_s": 0.02, "why": "CTA"},
+  {"t_word": 22.44, "word": "phone", "element": "[obs] '“Phone”' sans black con degradado cálido (22.5)", "category": "title_cta", "offset_s": 0.06, "why": "palabra clave de DM"}
+ ],
+ "transitions": [
+  {"t": 3.14, "from": "hook_title", "to": "face_full", "type": "corte seco", "frames": 0, "detail": "[obs] a mitad de 'and'"},
+  {"t": 4.16, "from": "face_full", "to": "card_graphic lienzo blanco", "type": "corte seco", "frames": 0, "detail": "[obs] 1–2 frames de blanco vacío antes del logo"},
+  {"t": 6.09, "from": "card_graphic", "to": "window_only GitHub", "type": "corte seco", "frames": 0, "detail": "[obs] a mitad de 'free'"},
+  {"t": 7.57, "from": "window_only GitHub", "to": "window_only iPhone", "type": "glitch", "frames": 4, "detail": "[obs] desgarro horizontal sobre la web (7.57) y bloques digitales sobre el teléfono (7.63–7.7)"},
+  {"t": 12.24, "from": "iPhone sobre negro", "to": "frame_split lienzo claro", "type": "corte seco", "frames": 0, "detail": "[obs] cambia color de lienzo negro→claro y vuelve la cara"},
+  {"t": 16.83, "from": "frame_split", "to": "iPhone chat sobre negro", "type": "corte seco", "frames": 0, "detail": "[obs] cara fuera, lienzo negro"},
+  {"t": 20.93, "from": "iPhone imagen", "to": "face_full", "type": "corte seco", "frames": 0, "detail": "[obs]"}
+ ],
+ "text_fx": [
+  {"t": 0.07, "fx": "write-on por palabra", "detail": "[obs] título palabra a palabra desde gris cada ~0.07–0.13 s"},
+  {"t": 0.2, "fx": "máscara", "detail": "[obs] caja azul de la línea 2 se abre en ancho; texto serif itálico entra palabra a palabra dentro"},
+  {"t": 0.07, "fx": "gris→blanco", "detail": "[obs] captions: palabra nueva en gris claro y pasa a su color (negro/blanco/azul) en ~2 frames"},
+  {"t": 4.3, "fx": "máscara", "detail": "[obs] caja 'This Is' nace como línea vertical azul (4.3), se ensancha (4.36) y luego aparece el texto (4.43)"},
+  {"t": 4.5, "fx": "gris→blanco", "detail": "[obs] 'Private' en gris → 'Private LLM' negro"},
+  {"t": 14.85, "fx": "write-on por palabra", "detail": "[obs] tecleo letra a letra en el buscador de la app"},
+  {"t": 22.1, "fx": "blur-in", "detail": "[obs] 'comment' itálica; 'Phone' entra 0.4 s después"}
+ ],
+ "camera": [
+  {"t": 0.0, "move": "slide", "scale_or_dir": "teléfono ↑ dentro de la ventana", "dur_s": 0.13},
+  {"t": 4.2, "move": "push-in lento", "scale_or_dir": "logo 0.9→1.0 con fade", "dur_s": 0.1},
+  {"t": 7.0, "move": "pan", "scale_or_dir": "scroll de la web GitHub ↓", "dur_s": 0.3},
+  {"t": 19.35, "move": "slide", "scale_or_dir": "chat ↑ (scroll de la conversación)", "dur_s": 0.2}
+ ],
+ "rhythm": {"events_per_10s": [17, 15, 6], "avg_hold_text_s": 0.8, "notes": "[der] Algo cambia cada ~0.6–0.7 s en los dos primeros tramos (estados de UI + palabras azules). Último tramo 20–24.85 (CTA) baja a 6 eventos. 7 transiciones: 6 cortes secos + 1 glitch."},
+ "typography": "[obs] Sans bold/black (tipo Inter) para título línea 1, captions, 'Private LLM' y 'Phone'; serif itálica bold (tipo Playfair/Instrument Serif Italic) blanca dentro de caja azul para 'No Internet Needed' y 'This Is'; serif itálica azul para 'GitHub' y blanca para 'comment'. Captions 1–3 palabras ~4 % del alto; título línea 1 ~2.1 % (más pequeña que en v01). Clave en azul #1E80F0 aprox.; caption negra sobre lienzo claro.",
+ "textures": "[obs] Lienzo claro con cuadrícula fina y arcos CAD (baja intensidad); gris con viñeta radial fuerte (GitHub); negro con halo verde difuso bajo el teléfono; glitch digital 4 frames. Sin grano.",
+ "distinct": [
+  "Cuatro colores de lienzo en 25 s (claro, blanco, gris con foco, negro) que codifican el tipo de bloque.",
+  "El 'window' principal es un mockup de iPhone con marco naranja, sin borde azul, a veces recortado con fundido inferior.",
+  "Única transición con efecto: glitch de 4 frames al pasar de la web al móvil (7.57).",
+  "Remate del hook a cámara completa de 1 s ('completely free') a los 3.1 s, antes del nombre.",
+  "Marcos de ventana/cara redondeados y sin asas de selección (no estilo Figma como v01)."
+ ]
+}

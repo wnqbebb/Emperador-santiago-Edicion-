@@ -1,0 +1,10 @@
+000    0.00-   7.13 (7.1s) | So if your client says it's too expensive and you start trying to explain to them why it's not, you know what? You're already lost.
+001    7.13-   9.83 (2.7s) | My name is Jordan Dufford, the real wolf of Wall Street.
+002    9.83-  11.77 (1.9s) | The moment you start defending the price,
+003   11.77-  13.70 (1.9s) | you're arguing with their feelings.
+004   13.70-  26.30 (12.6s) | You're never gonna win that argument. Here's what I do instead. I agree. So you're right, it's premium. So what I've done essentially is taken it from being an argument and I create a fork, right? The question is one about value. If they don't see the value,
+005   26.30-  27.93 (1.6s) | then I have to loop back and create more
+006   27.93-  29.70 (1.8s) | certainty and build value. Otherwise,
+007   29.70-  42.73 (13.0s) | I'm identifying right now, maybe they just can't afford it. It's about budget. Very different situation. The point is you never defend the price. You redirect. You open up the possibility to build more certainty by looping back and
+008   42.73-  44.47 (1.7s) | then you close the deal. If
+009   44.47-  47.34 (2.9s) | you want to learn to select the wolf of Wall Street, follow me.

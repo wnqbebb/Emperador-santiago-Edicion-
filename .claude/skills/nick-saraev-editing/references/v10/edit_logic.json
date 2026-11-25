@@ -1,0 +1,71 @@
+{
+ "triggers": [
+  {"t_word": 0.0, "word": "Cloud", "element": "título write-on 'Claude Code' → 'Can Now' → caja 'Control Your iPhone'; ventana terminal + iPhone espejado", "category": "hook_title", "offset_s": 0.25, "why": "hook"},
+  {"t_word": 0.76, "word": "control", "element": "'control' script itálica en el caption", "category": "hook_title", "offset_s": 0.0, "why": "verbo clave"},
+  {"t_word": 1.28, "word": "iPhone", "element": "'iPhone' script itálica; en la ventana el iPhone abre Mapas (1.5)", "category": "hook_title", "offset_s": 0.2, "why": "literal"},
+  {"t_word": 2.24, "word": "opening", "element": "iPhone espejado cambia de app", "category": "hook_title", "offset_s": 0.0, "why": "literal"},
+  {"t_word": 4.44, "word": "person.", "element": "'person' script itálica", "category": "hook_title", "offset_s": 0.06, "why": "énfasis"},
+  {"t_word": 4.92, "word": "This", "element": "corte a negro con bokeh verde: web mirroir-mcp", "category": "window_only", "offset_s": -0.07, "why": "nombre → web"},
+  {"t_word": 5.16, "word": "Mirar", "element": "'mirroir' script itálica", "category": "window_only", "offset_s": 0.3, "why": "nombre propio"},
+  {"t_word": 7.08, "word": "iPhone", "element": "caja azul de selección sobre 'iPhone Mirroring'", "category": "window_zoom", "offset_s": 0.17, "why": "literal"},
+  {"t_word": 7.96, "word": "your", "element": "cursor baja a 'Needs macOS…'", "category": "window_zoom", "offset_s": 0.04, "why": "requisito Mac"},
+  {"t_word": 8.46, "word": "so", "element": "corte: marco de iPhone grande con app 'Welcome to Pierre'", "category": "full_screen_capture", "offset_s": -0.16, "why": "demo"},
+  {"t_word": 8.9, "word": "read", "element": "cajas azules de accesibilidad sobre cada elemento (9.25)", "category": "full_screen_capture", "offset_s": 0.35, "why": "'leer la pantalla' visualizado"},
+  {"t_word": 9.88, "word": "tap,", "element": "círculo de toque sobre la UI; 'tap' script", "category": "full_screen_capture", "offset_s": -0.13, "why": "literal"},
+  {"t_word": 10.3, "word": "swipe,", "element": "punto que se desliza hacia arriba; 'swipe' script", "category": "full_screen_capture", "offset_s": 0.2, "why": "literal"},
+  {"t_word": 10.7, "word": "type", "element": "email que se escribe en el campo; 'type' script", "category": "full_screen_capture", "offset_s": 0.05, "why": "literal"},
+  {"t_word": 11.48, "word": "To", "element": "corte a naranja con cara; terminal entra con escala ~70→100 %", "category": "frame_split", "offset_s": -0.08, "why": "instalación"},
+  {"t_word": 12.44, "word": "one", "element": "'npx -y mirroir-mcp install' enmarcado en azul con asas; 'one' script", "category": "frame_split", "offset_s": 0.06, "why": "'un comando'"},
+  {"t_word": 13.06, "word": "connect", "element": "cambio a página 'Install mirroir-mcp'", "category": "frame_split", "offset_s": 0.3, "why": "paso 2"},
+  {"t_word": 13.54, "word": "Cloud", "element": "resaltado 'Claude Code, Codex, Cursor'", "category": "frame_split", "offset_s": 0.4, "why": "literal"},
+  {"t_word": 14.8, "word": "Then", "element": "corte a captura Slack a sangre arriba + cara fundida abajo", "category": "frame_split", "offset_s": -0.05, "why": "ejemplo 1"},
+  {"t_word": 15.44, "word": "automate", "element": "canal #mirror-message", "category": "frame_split", "offset_s": -0.2, "why": "flujo automatizado"},
+  {"t_word": 16.5, "word": "test", "element": "app Pierre con autocompletado de contraseña", "category": "frame_split", "offset_s": 0.0, "why": "ejemplo 2"},
+  {"t_word": 17.24, "word": "learn", "element": "partida de ajedrez", "category": "frame_split", "offset_s": 0.0, "why": "ejemplo 3"},
+  {"t_word": 18.22, "word": "or", "element": "corte a naranja con recuadro: ventana vacía 'Ask your agent'", "category": "frame_split", "offset_s": 0.05, "why": "ejemplo 4"},
+  {"t_word": 18.5, "word": "hand", "element": "tarjetas de prompt Calendar y Messages entran (18.5–18.75)", "category": "frame_split", "offset_s": 0.0, "why": "tareas concretas"},
+  {"t_word": 19.08, "word": "boring", "element": "'boring' script; contorno sobre la tarjeta Calendar (19.25)", "category": "frame_split", "offset_s": 0.17, "why": "énfasis"},
+  {"t_word": 21.3, "word": "Plus", "element": "corte: mockup iPhone con zoom de asentamiento ~110→100 %", "category": "card_graphic", "offset_s": -0.08, "why": "seguridad"},
+  {"t_word": 21.68, "word": "block", "element": "'block' script", "category": "card_graphic", "offset_s": 0.07, "why": "énfasis"},
+  {"t_word": 22.68, "word": "Wallet", "element": "círculo/selección sobre el icono Wallet", "category": "card_graphic", "offset_s": -0.18, "why": "literal"},
+  {"t_word": 23.34, "word": "banking", "element": "selección sobre el icono Bank", "category": "card_graphic", "offset_s": -0.1, "why": "literal"},
+  {"t_word": 24.66, "word": "control.", "element": "'control' script", "category": "card_graphic", "offset_s": 0.09, "why": "cierre de la idea"},
+  {"t_word": 25.2, "word": "If", "element": "corte a cara completa", "category": "face_full", "offset_s": -0.08, "why": "CTA"},
+  {"t_word": 26.44, "word": "comment", "element": "'comment' script blanca", "category": "title_cta", "offset_s": 0.06, "why": "CTA"},
+  {"t_word": 26.66, "word": "phone", "element": "caja naranja con asas vacía (26.75) → '\"Phone\"' (27.0)", "category": "title_cta", "offset_s": 0.34, "why": "palabra a comentar"}
+ ],
+ "transitions": [
+  {"t": 4.85, "from": "hook_title naranja", "to": "window_only negro", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 8.3, "from": "window_only", "to": "móvil grande", "type": "slide", "frames": 4, "detail": "el móvil sube con leve escala"},
+  {"t": 11.4, "from": "móvil", "to": "frame_split naranja", "type": "corte seco", "frames": 0, "detail": "ventana crece ~70→100 % en ~0.3 s"},
+  {"t": 13.5, "from": "terminal", "to": "docs instalación", "type": "crossfade", "frames": 4, "detail": "solo cambia la ventana"},
+  {"t": 14.75, "from": "frame_split con recuadro", "to": "captura a sangre + cara fundida", "type": "corte seco", "frames": 0, "detail": "degradado negro fusiona captura y A-roll"},
+  {"t": 16.5, "from": "Slack", "to": "Pierre", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 17.25, "from": "Pierre", "to": "ajedrez", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 18.27, "from": "captura fundida", "to": "frame_split naranja", "type": "corte seco", "frames": 0, "detail": "ventana vacía primero"},
+  {"t": 21.22, "from": "frame_split", "to": "mockup iPhone", "type": "zoom-blur", "frames": 4, "detail": "zoom-out de asentamiento ~110→100 % sin blur apreciable"},
+  {"t": 25.12, "from": "mockup", "to": "face_full", "type": "corte seco", "frames": 0, "detail": ""}
+ ],
+ "text_fx": [
+  {"t": 0.25, "fx": "write-on por palabra", "detail": "título; caja marrón con texto blanco y borde fino"},
+  {"t": 0.5, "fx": "gris→blanco", "detail": "captions palabra a palabra"},
+  {"t": 0.75, "fx": "pop", "detail": "palabra clave en script itálica manuscrita blanca (sin color)"},
+  {"t": 9.25, "fx": "máscara", "detail": "cajas azules de accesibilidad con etiquetas sobre la UI"},
+  {"t": 26.75, "fx": "escala", "detail": "caja naranja con asas vacía → 'Phone'"}
+ ],
+ "camera": [
+  {"t": 6.25, "move": "slide", "scale_or_dir": "web se desplaza hacia arriba dentro del marco", "dur_s": 0.25},
+  {"t": 8.3, "move": "slide", "scale_or_dir": "móvil abajo→arriba", "dur_s": 0.2},
+  {"t": 21.22, "move": "zoom-out", "scale_or_dir": "1.1→1.0", "dur_s": 0.2}
+ ],
+ "rhythm": {"events_per_10s": [14, 13, 9], "avg_hold_text_s": 0.5, "notes": "derivado de triggers (último tramo 20–28.9 s). Sin música ni SFX detectables (huecos −40/−52 dBFS, derivado)."},
+ "typography": "Sans semibold blanca para captions y títulos; caja #502018 para la línea 2 del título; palabras clave en script itálica manuscrita blanca (no serif, no color). 1–3 palabras por bloque.",
+ "textures": "Lienzo naranja con cuadrícula fina, trazos técnicos y viñeta; negro con bokeh verde en la web; degradado negro de fusión entre captura y A-roll (14.8–18.2).",
+ "distinct": [
+  "Lienzo naranja (color de marca de Claude) con iconos pixel-art",
+  "Overlays de acción por verbo: cajas de accesibilidad, toque, swipe, tecleo",
+  "Capturas a sangre fundidas con la cara por degradado, sin recuadro",
+  "Mockup de iPhone con apps sensibles marcadas",
+  "Palabras clave en script manuscrita blanca sin color de acento"
+ ]
+}

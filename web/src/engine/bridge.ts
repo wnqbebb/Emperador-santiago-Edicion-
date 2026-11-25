@@ -70,7 +70,7 @@ export const abs = (path: string) => (path.startsWith("http") ? path : BASE + pa
 
 // ---------- Plantillas de estilo → flujo con preguntas y tablero
 export type Variante = { id: string; name: string; description: string; vesStyle?: string; styleId?: string; preview?: string; ideal?: string; recomendada?: boolean };
-export type Familia = { id: string; name: string; description: string; motor: "ves" | "rapido" | "skylight" | "reels"; originales?: boolean; skill?: string; preview?: string; paletaEstilo?: Record<string, string>; preguntaFuentes?: boolean; texturas?: boolean; variantes: Variante[] };
+export type Familia = { id: string; name: string; description: string; motor: "ves" | "rapido" | "skylight" | "reels"; originales?: boolean; skill?: string; preview?: string; paletaEstilo?: Record<string, string>; paletaPorDefecto?: "estilo" | "video"; preguntaFuentes?: boolean; texturas?: boolean; variantes: Variante[] };
 export type Paleta = { frame: string; options: { name: string; from: string; colors: Record<"vibrant_bright" | "vibrant_dark" | "dull_white" | "dull_black", string>; caption: string; recommended?: boolean }[] };
 export type KScene = { type: string; start?: number; end?: number; s?: number; e?: number; plate?: string; props?: { top?: { kind?: string; media?: string[]; placeholder?: string; original?: string } } & Record<string, unknown> };
 export type Opt = { layout?: string; palabra?: string; grafico?: { brief: string; region: string } | null; title: string; cats?: string; desc?: string; ref?: string; type: string | null; props?: Record<string, unknown>; scenes?: KScene[] };

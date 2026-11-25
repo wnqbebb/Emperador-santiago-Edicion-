@@ -1,0 +1,18 @@
+000    0.00-   4.57 (4.6s) | Brands are now hiring people to make AI drama ads, and some listings are paying up to $5 ,000.
+001    4.57-   6.77 (2.2s) | And here's how you can make them yourself right inside of Claude.
+002    6.77-   9.60 (2.8s) | First, connect a tool like Higgsfield to Claude with its official connector,
+003    9.60-  12.53 (2.9s) | then explain Claude your product and the story that you want, like make
+004   12.53-  15.03 (2.5s) | a 30 -second drama ad for this energy drink,
+005   15.03-  18.20 (3.2s) | and Claude will actually write the whole script and plan every scene for you.
+006   18.20-  21.93 (3.7s) | Next, it'll also create your main character in Higgsfield, with character sheets to keep looking exactly
+007   21.93-  22.50 (0.6s) | the same
+008   22.50-  22.87 (0.4s) | in every shot,
+009   22.87-  23.23 (0.4s) | —
+010   23.23-  25.97 (2.7s) | and it'll build the final storyboard for you. And once you approve it, it
+011   25.97-  26.33 (0.4s) | generates every
+012   26.33-  26.70 (0.4s) | shot,
+013   26.70-  27.07 (0.4s) | —
+014   27.07-  27.43 (0.4s) | adds the voiceover,
+015   27.43-  30.17 (2.7s) | and even puts it all together into the full drama ad,
+016   30.17-  35.37 (5.2s) | without you ever having to leave a chat. After you've made it through, you can apply to those listings yourself or even pitch them to brands directly.
+017   35.37-  39.02 (3.7s) | So if you guys want the full workflow, just come at Drama, and I'll send you guys the link directly.

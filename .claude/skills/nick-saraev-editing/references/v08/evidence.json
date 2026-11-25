@@ -1,0 +1,1028 @@
+{
+  "video": "v08.mp4",
+  "duration": 34.54,
+  "derived": {
+    "shots": 6,
+    "avg_shot_len": 5.76,
+    "cuts_per_min": 10.4,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      2,
+      4,
+      5
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "Somebody",
+      "start": 0.0,
+      "end": 0.26
+    },
+    {
+      "w": "just",
+      "start": 0.26,
+      "end": 0.5
+    },
+    {
+      "w": "built",
+      "start": 0.5,
+      "end": 0.7
+    },
+    {
+      "w": "a",
+      "start": 0.7,
+      "end": 0.88
+    },
+    {
+      "w": "free",
+      "start": 0.88,
+      "end": 1.12
+    },
+    {
+      "w": "AI",
+      "start": 1.12,
+      "end": 1.38
+    },
+    {
+      "w": "tool",
+      "start": 1.38,
+      "end": 1.74
+    },
+    {
+      "w": "that",
+      "start": 1.74,
+      "end": 1.92
+    },
+    {
+      "w": "finds",
+      "start": 1.92,
+      "end": 2.16
+    },
+    {
+      "w": "security",
+      "start": 2.16,
+      "end": 2.46
+    },
+    {
+      "w": "holes",
+      "start": 2.46,
+      "end": 2.76
+    },
+    {
+      "w": "in",
+      "start": 2.76,
+      "end": 2.94
+    },
+    {
+      "w": "your",
+      "start": 2.94,
+      "end": 3.06
+    },
+    {
+      "w": "app",
+      "start": 3.06,
+      "end": 3.26
+    },
+    {
+      "w": "like",
+      "start": 3.26,
+      "end": 3.54
+    },
+    {
+      "w": "a",
+      "start": 3.54,
+      "end": 3.7
+    },
+    {
+      "w": "real",
+      "start": 3.7,
+      "end": 4.04
+    },
+    {
+      "w": "hacker",
+      "start": 4.04,
+      "end": 4.36
+    },
+    {
+      "w": "does,",
+      "start": 4.36,
+      "end": 4.7
+    },
+    {
+      "w": "and",
+      "start": 4.92,
+      "end": 5.0
+    },
+    {
+      "w": "it",
+      "start": 5.0,
+      "end": 5.08
+    },
+    {
+      "w": "already",
+      "start": 5.08,
+      "end": 5.34
+    },
+    {
+      "w": "found",
+      "start": 5.34,
+      "end": 5.56
+    },
+    {
+      "w": "over",
+      "start": 5.56,
+      "end": 5.74
+    },
+    {
+      "w": "30",
+      "start": 5.74,
+      "end": 6.0
+    },
+    {
+      "w": "brand",
+      "start": 6.0,
+      "end": 6.32
+    },
+    {
+      "w": "new",
+      "start": 6.32,
+      "end": 6.52
+    },
+    {
+      "w": "security",
+      "start": 6.52,
+      "end": 6.76
+    },
+    {
+      "w": "holes",
+      "start": 6.76,
+      "end": 7.16
+    },
+    {
+      "w": "in",
+      "start": 7.16,
+      "end": 7.32
+    },
+    {
+      "w": "Linux.",
+      "start": 7.32,
+      "end": 7.58
+    },
+    {
+      "w": "It's",
+      "start": 7.88,
+      "end": 8.0
+    },
+    {
+      "w": "called",
+      "start": 8.0,
+      "end": 8.16
+    },
+    {
+      "w": "Xero,",
+      "start": 8.16,
+      "end": 8.52
+    },
+    {
+      "w": "and",
+      "start": 8.7,
+      "end": 8.76
+    },
+    {
+      "w": "it's",
+      "start": 8.76,
+      "end": 8.88
+    },
+    {
+      "w": "an",
+      "start": 8.88,
+      "end": 8.96
+    },
+    {
+      "w": "open",
+      "start": 8.96,
+      "end": 9.14
+    },
+    {
+      "w": "source",
+      "start": 9.14,
+      "end": 9.44
+    },
+    {
+      "w": "AI",
+      "start": 9.44,
+      "end": 9.72
+    },
+    {
+      "w": "security",
+      "start": 9.72,
+      "end": 10.08
+    },
+    {
+      "w": "tool",
+      "start": 10.08,
+      "end": 10.5
+    },
+    {
+      "w": "backed",
+      "start": 10.5,
+      "end": 10.78
+    },
+    {
+      "w": "by",
+      "start": 10.78,
+      "end": 11.04
+    },
+    {
+      "w": "Y",
+      "start": 11.04,
+      "end": 11.26
+    },
+    {
+      "w": "Combinator.",
+      "start": 11.26,
+      "end": 11.78
+    },
+    {
+      "w": "Now",
+      "start": 11.92,
+      "end": 12.04
+    },
+    {
+      "w": "instead",
+      "start": 12.04,
+      "end": 12.3
+    },
+    {
+      "w": "of",
+      "start": 12.3,
+      "end": 12.44
+    },
+    {
+      "w": "running",
+      "start": 12.44,
+      "end": 12.58
+    },
+    {
+      "w": "a",
+      "start": 12.58,
+      "end": 12.72
+    },
+    {
+      "w": "scan",
+      "start": 12.72,
+      "end": 12.98
+    },
+    {
+      "w": "and",
+      "start": 12.98,
+      "end": 13.16
+    },
+    {
+      "w": "handing",
+      "start": 13.16,
+      "end": 13.36
+    },
+    {
+      "w": "you",
+      "start": 13.36,
+      "end": 13.52
+    },
+    {
+      "w": "a",
+      "start": 13.52,
+      "end": 13.56
+    },
+    {
+      "w": "list",
+      "start": 13.56,
+      "end": 13.72
+    },
+    {
+      "w": "of",
+      "start": 13.72,
+      "end": 13.8
+    },
+    {
+      "w": "potential",
+      "start": 13.8,
+      "end": 14.02
+    },
+    {
+      "w": "bugs,",
+      "start": 14.02,
+      "end": 14.4
+    },
+    {
+      "w": "Xero",
+      "start": 14.68,
+      "end": 14.88
+    },
+    {
+      "w": "will",
+      "start": 14.88,
+      "end": 15.06
+    },
+    {
+      "w": "actually",
+      "start": 15.06,
+      "end": 15.4
+    },
+    {
+      "w": "deploy",
+      "start": 15.4,
+      "end": 15.86
+    },
+    {
+      "w": "a",
+      "start": 15.86,
+      "end": 16.08
+    },
+    {
+      "w": "team",
+      "start": 16.08,
+      "end": 16.34
+    },
+    {
+      "w": "of",
+      "start": 16.34,
+      "end": 16.52
+    },
+    {
+      "w": "specialized",
+      "start": 16.52,
+      "end": 16.96
+    },
+    {
+      "w": "AI",
+      "start": 16.96,
+      "end": 17.38
+    },
+    {
+      "w": "agents",
+      "start": 17.38,
+      "end": 17.7
+    },
+    {
+      "w": "that",
+      "start": 17.7,
+      "end": 17.9
+    },
+    {
+      "w": "act",
+      "start": 17.9,
+      "end": 18.14
+    },
+    {
+      "w": "like",
+      "start": 18.14,
+      "end": 18.3
+    },
+    {
+      "w": "real",
+      "start": 18.3,
+      "end": 18.58
+    },
+    {
+      "w": "hackers.",
+      "start": 18.58,
+      "end": 18.88
+    },
+    {
+      "w": "Where",
+      "start": 19.1,
+      "end": 19.18
+    },
+    {
+      "w": "one",
+      "start": 19.18,
+      "end": 19.34
+    },
+    {
+      "w": "goes",
+      "start": 19.34,
+      "end": 19.52
+    },
+    {
+      "w": "through",
+      "start": 19.52,
+      "end": 19.7
+    },
+    {
+      "w": "your",
+      "start": 19.7,
+      "end": 19.8
+    },
+    {
+      "w": "whole",
+      "start": 19.8,
+      "end": 19.92
+    },
+    {
+      "w": "code",
+      "start": 19.92,
+      "end": 20.12
+    },
+    {
+      "w": "base,",
+      "start": 20.12,
+      "end": 20.44
+    },
+    {
+      "w": "one",
+      "start": 20.62,
+      "end": 20.7
+    },
+    {
+      "w": "might",
+      "start": 20.7,
+      "end": 20.86
+    },
+    {
+      "w": "attack",
+      "start": 20.86,
+      "end": 21.16
+    },
+    {
+      "w": "your",
+      "start": 21.16,
+      "end": 21.34
+    },
+    {
+      "w": "app",
+      "start": 21.34,
+      "end": 21.52
+    },
+    {
+      "w": "live,",
+      "start": 21.52,
+      "end": 21.74
+    },
+    {
+      "w": "and",
+      "start": 21.92,
+      "end": 21.98
+    },
+    {
+      "w": "another",
+      "start": 21.98,
+      "end": 22.16
+    },
+    {
+      "w": "could",
+      "start": 22.16,
+      "end": 22.32
+    },
+    {
+      "w": "make",
+      "start": 22.32,
+      "end": 22.46
+    },
+    {
+      "w": "sure",
+      "start": 22.46,
+      "end": 22.64
+    },
+    {
+      "w": "every",
+      "start": 22.64,
+      "end": 22.92
+    },
+    {
+      "w": "flaw",
+      "start": 22.92,
+      "end": 23.22
+    },
+    {
+      "w": "it",
+      "start": 23.22,
+      "end": 23.46
+    },
+    {
+      "w": "finds",
+      "start": 23.46,
+      "end": 23.78
+    },
+    {
+      "w": "is",
+      "start": 23.78,
+      "end": 23.98
+    },
+    {
+      "w": "real",
+      "start": 23.98,
+      "end": 24.28
+    },
+    {
+      "w": "with",
+      "start": 24.28,
+      "end": 24.56
+    },
+    {
+      "w": "some",
+      "start": 24.56,
+      "end": 24.7
+    },
+    {
+      "w": "sort",
+      "start": 24.7,
+      "end": 24.86
+    },
+    {
+      "w": "of",
+      "start": 24.86,
+      "end": 24.96
+    },
+    {
+      "w": "working",
+      "start": 24.96,
+      "end": 25.2
+    },
+    {
+      "w": "proof.",
+      "start": 25.2,
+      "end": 25.56
+    },
+    {
+      "w": "And",
+      "start": 25.82,
+      "end": 25.96
+    },
+    {
+      "w": "finally,",
+      "start": 25.96,
+      "end": 26.22
+    },
+    {
+      "w": "we'll",
+      "start": 26.3,
+      "end": 26.4
+    },
+    {
+      "w": "hand",
+      "start": 26.4,
+      "end": 26.54
+    },
+    {
+      "w": "you",
+      "start": 26.54,
+      "end": 26.66
+    },
+    {
+      "w": "a",
+      "start": 26.66,
+      "end": 26.8
+    },
+    {
+      "w": "full",
+      "start": 26.8,
+      "end": 27.02
+    },
+    {
+      "w": "report",
+      "start": 27.02,
+      "end": 27.38
+    },
+    {
+      "w": "of",
+      "start": 27.38,
+      "end": 27.54
+    },
+    {
+      "w": "every",
+      "start": 27.54,
+      "end": 27.84
+    },
+    {
+      "w": "bug",
+      "start": 27.84,
+      "end": 28.06
+    },
+    {
+      "w": "it",
+      "start": 28.06,
+      "end": 28.14
+    },
+    {
+      "w": "found,",
+      "start": 28.14,
+      "end": 28.42
+    },
+    {
+      "w": "and",
+      "start": 28.42,
+      "end": 28.68
+    },
+    {
+      "w": "even",
+      "start": 28.68,
+      "end": 28.82
+    },
+    {
+      "w": "write",
+      "start": 28.82,
+      "end": 29.08
+    },
+    {
+      "w": "and",
+      "start": 29.08,
+      "end": 29.36
+    },
+    {
+      "w": "fix",
+      "start": 29.36,
+      "end": 29.7
+    },
+    {
+      "w": "all",
+      "start": 29.7,
+      "end": 30.02
+    },
+    {
+      "w": "of",
+      "start": 30.02,
+      "end": 30.14
+    },
+    {
+      "w": "them.",
+      "start": 30.14,
+      "end": 30.24
+    },
+    {
+      "w": "So",
+      "start": 30.3,
+      "end": 30.34
+    },
+    {
+      "w": "if",
+      "start": 30.34,
+      "end": 30.4
+    },
+    {
+      "w": "you",
+      "start": 30.4,
+      "end": 30.44
+    },
+    {
+      "w": "want",
+      "start": 30.44,
+      "end": 30.58
+    },
+    {
+      "w": "to",
+      "start": 30.58,
+      "end": 30.64
+    },
+    {
+      "w": "try",
+      "start": 30.64,
+      "end": 30.78
+    },
+    {
+      "w": "this",
+      "start": 30.78,
+      "end": 30.94
+    },
+    {
+      "w": "for",
+      "start": 30.94,
+      "end": 31.08
+    },
+    {
+      "w": "yourselves,",
+      "start": 31.08,
+      "end": 31.36
+    },
+    {
+      "w": "just",
+      "start": 31.46,
+      "end": 31.54
+    },
+    {
+      "w": "comment",
+      "start": 31.54,
+      "end": 31.74
+    },
+    {
+      "w": "the",
+      "start": 31.74,
+      "end": 31.88
+    },
+    {
+      "w": "word",
+      "start": 31.88,
+      "end": 32.02
+    },
+    {
+      "w": "hack",
+      "start": 32.02,
+      "end": 32.36
+    },
+    {
+      "w": "down",
+      "start": 32.36,
+      "end": 32.66
+    },
+    {
+      "w": "below",
+      "start": 32.66,
+      "end": 32.96
+    },
+    {
+      "w": "and",
+      "start": 32.96,
+      "end": 33.22
+    },
+    {
+      "w": "I'll",
+      "start": 33.22,
+      "end": 33.32
+    },
+    {
+      "w": "DM",
+      "start": 33.32,
+      "end": 33.52
+    },
+    {
+      "w": "you",
+      "start": 33.52,
+      "end": 33.7
+    },
+    {
+      "w": "the",
+      "start": 33.7,
+      "end": 33.82
+    },
+    {
+      "w": "link",
+      "start": 33.82,
+      "end": 33.98
+    },
+    {
+      "w": "directly.",
+      "start": 33.98,
+      "end": 34.38
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.867,
+      "length": 4.867,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#D7D6D3",
+            "share": 0.228
+          },
+          {
+            "hex": "#101012",
+            "share": 0.217
+          },
+          {
+            "hex": "#E3E3DD",
+            "share": 0.157
+          },
+          {
+            "hex": "#B3A6A5",
+            "share": 0.033
+          },
+          {
+            "hex": "#272627",
+            "share": 0.029
+          }
+        ],
+        "motion_energy": 11.84,
+        "script": "Somebody just built a free AI tool that finds security holes in your app like a real hacker does,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 4.867,
+      "end": 7.833,
+      "length": 2.967,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#050406",
+            "share": 0.872
+          },
+          {
+            "hex": "#F7F7F9",
+            "share": 0.033
+          },
+          {
+            "hex": "#0A1427",
+            "share": 0.031
+          },
+          {
+            "hex": "#4C4D4F",
+            "share": 0.01
+          },
+          {
+            "hex": "#929294",
+            "share": 0.008
+          }
+        ],
+        "motion_energy": 10.11,
+        "script": "and it already found over 30 brand new security holes in Linux."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 7.833,
+      "end": 11.867,
+      "length": 4.033,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#D6D5D3",
+            "share": 0.236
+          },
+          {
+            "hex": "#F9F9F9",
+            "share": 0.221
+          },
+          {
+            "hex": "#E3E3DD",
+            "share": 0.134
+          },
+          {
+            "hex": "#060407",
+            "share": 0.081
+          },
+          {
+            "hex": "#B2A7A7",
+            "share": 0.039
+          }
+        ],
+        "motion_energy": 15.01,
+        "script": "It's called Xero, and it's an open source AI security tool backed by Y Combinator."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 11.867,
+      "end": 25.867,
+      "length": 14.0,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#121011",
+            "share": 0.622
+          },
+          {
+            "hex": "#2A1914",
+            "share": 0.156
+          },
+          {
+            "hex": "#2C2727",
+            "share": 0.036
+          },
+          {
+            "hex": "#37211B",
+            "share": 0.034
+          },
+          {
+            "hex": "#4A271B",
+            "share": 0.033
+          }
+        ],
+        "motion_energy": 5.93,
+        "script": "Now instead of running a scan and handing you a list of potential bugs, Xero will actually deploy a team of specialized AI agents that act like real hackers. Where one goes through your whole code base, one might attack your app live, and another could make sure every flaw it finds is real with some sort of working proof. And"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 25.867,
+      "end": 30.233,
+      "length": 4.367,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#111012",
+            "share": 0.276
+          },
+          {
+            "hex": "#D7D6D2",
+            "share": 0.209
+          },
+          {
+            "hex": "#E3E3DD",
+            "share": 0.132
+          },
+          {
+            "hex": "#2B2A2C",
+            "share": 0.032
+          },
+          {
+            "hex": "#B3A4A4",
+            "share": 0.032
+          }
+        ],
+        "motion_energy": 21.51,
+        "script": "finally, we'll hand you a full report of every bug it found, and even write and fix all of them."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 30.233,
+      "end": 34.54,
+      "length": 4.307,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#070407",
+            "share": 0.268
+          },
+          {
+            "hex": "#897A78",
+            "share": 0.048
+          },
+          {
+            "hex": "#A89695",
+            "share": 0.047
+          },
+          {
+            "hex": "#B07768",
+            "share": 0.045
+          },
+          {
+            "hex": "#CA9789",
+            "share": 0.042
+          }
+        ],
+        "motion_energy": 27.02,
+        "script": "So if you want to try this for yourselves, just comment the word hack down below and I'll DM you the link directly."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

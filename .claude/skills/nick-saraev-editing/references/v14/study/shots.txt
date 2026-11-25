@@ -1,0 +1,11 @@
+000    0.00-   3.90 (3.9s) | Bursell just dropped a free AI tool that lets your coding agent control your browser and
+001    3.90-   6.93 (3.0s) | complete any task without you ever having to touch a thing,
+002    6.93-  11.77 (4.8s) | and it's five times faster and cheaper compared to Playwright MCP and other browser automation tools that
+003   11.77-  13.10 (1.3s) | you probably already use.
+004   13.10-  17.10 (4.0s) | This is called Agent Browser, and it already has almost 50 ,000 stars on GitHub.
+005   17.10-  28.33 (11.2s) | Now while most tools work by taking screenshots and guessing where they click, this one skips that step completely by giving every button and field their own IDs instead. So your agent clicks by using that ID instead of guessing, which
+006   28.33-  31.53 (3.2s) | is why it uses 90 % fewer tokens compared to other methods.
+007   31.53-  35.40 (3.9s) | And the best part is, it runs in the background, so it never actually has to get in the way of your work.
+008   35.40-  37.90 (2.5s) | Plus, it can even use your own logins with your permission,
+009   37.90-  41.40 (3.5s) | and you can watch everything it's doing on a live dashboard that it creates for you.
+010   41.40-  45.72 (4.3s) | So if you want to try this yourselves, just comment browser down below and it'll DM you the link directly.

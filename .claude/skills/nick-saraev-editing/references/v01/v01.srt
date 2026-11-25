@@ -1,0 +1,119 @@
+1
+00:00:00,000 --> 00:00:00,780
+Here's how you can protect
+
+2
+00:00:00,780 --> 00:00:01,919
+your app from getting cloned
+
+3
+00:00:01,919 --> 00:00:03,240
+or reverse engineered by AI
+
+4
+00:00:03,240 --> 00:00:04,360
+by setting up a trap.
+
+5
+00:00:04,559 --> 00:00:05,839
+It's called BLA, a free
+
+6
+00:00:05,839 --> 00:00:06,980
+tool that protects your app,
+
+7
+00:00:07,099 --> 00:00:08,480
+website, or even video game.
+
+8
+00:00:08,580 --> 00:00:09,300
+And using it is really
+
+9
+00:00:09,300 --> 00:00:10,480
+simple. You just install it
+
+10
+00:00:10,480 --> 00:00:11,140
+and point it at your
+
+11
+00:00:11,140 --> 00:00:12,240
+app right before you release
+
+12
+00:00:12,240 --> 00:00:13,400
+it. Then it'll plant fake
+
+13
+00:00:13,400 --> 00:00:15,300
+keys and decoy code inside
+
+14
+00:00:15,300 --> 00:00:16,320
+your app. So when somebody
+
+15
+00:00:16,320 --> 00:00:17,120
+uses AI to try and
+
+16
+00:00:17,120 --> 00:00:18,339
+reverse engineer it, their AI
+
+17
+00:00:18,339 --> 00:00:19,679
+gets confused and it'll burn
+
+18
+00:00:19,679 --> 00:00:20,440
+through all of their tokens
+
+19
+00:00:20,440 --> 00:00:21,820
+without getting anything useful. And
+
+20
+00:00:21,820 --> 00:00:22,640
+the best part is your
+
+21
+00:00:22,640 --> 00:00:23,719
+users still get the exact
+
+22
+00:00:23,719 --> 00:00:24,679
+same app without having to
+
+23
+00:00:24,679 --> 00:00:25,839
+lose any performance at all.
+
+24
+00:00:25,879 --> 00:00:27,079
+Plus it's completely free and
+
+25
+00:00:27,079 --> 00:00:27,960
+it works right inside of
+
+26
+00:00:27,960 --> 00:00:29,179
+Cloudcode and Codex. So if
+
+27
+00:00:29,179 --> 00:00:29,679
+you want to try this
+
+28
+00:00:29,679 --> 00:00:30,899
+for yourselves, just comment Trap
+
+29
+00:00:30,899 --> 00:00:32,000
+down below and it'll DM
+
+30
+00:00:32,000 --> 00:00:32,380
+you the link.

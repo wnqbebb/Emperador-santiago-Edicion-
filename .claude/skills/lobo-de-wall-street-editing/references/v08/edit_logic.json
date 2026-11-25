@@ -1,0 +1,417 @@
+{
+ "triggers": [
+  {
+   "t_word": 0.0,
+   "word": "Is",
+   "element": "él leyendo el móvil + subtítulo 'Is it true that' (sin tarjeta)",
+   "category": "aroll_caption",
+   "offset_s": 0.0,
+   "why": "hook-pregunta"
+  },
+  {
+   "t_word": 1.6,
+   "word": "$25",
+   "element": "subtítulo 'you spent $25k' en cifra",
+   "category": "aroll_caption",
+   "offset_s": 0.0,
+   "why": "dato escandaloso"
+  },
+  {
+   "t_word": 4.32,
+   "word": "Yeah,",
+   "element": "jump cut 4.10",
+   "category": "aroll_caption",
+   "offset_s": -0.22,
+   "why": "respuesta"
+  },
+  {
+   "t_word": 6.84,
+   "word": "$26",
+   "element": "'about $26.200' sostenido ~3 s",
+   "category": "aroll_caption",
+   "offset_s": 0.0,
+   "why": "dato (presume)"
+  },
+  {
+   "t_word": 11.74,
+   "word": "here's",
+   "element": "jump cut 11.73",
+   "category": "aroll_caption",
+   "offset_s": -0.01,
+   "why": "inicio de historia"
+  },
+  {
+   "t_word": 13.78,
+   "word": "drove",
+   "element": "jump cut + fotograma de la película (Jordan y su padre) bajo el subtítulo",
+   "category": "insert_image",
+   "offset_s": -0.05,
+   "why": "literal: el padre"
+  },
+  {
+   "t_word": 17.6,
+   "word": "Absolutely",
+   "element": "jump cut 17.07 y sale la foto",
+   "category": "aroll_caption",
+   "offset_s": -0.53,
+   "why": "reacción"
+  },
+  {
+   "t_word": 18.8,
+   "word": "You",
+   "element": "corte a clip de la película (padre gritando) + él en recuadro abajo-izquierda",
+   "category": "movie_clip",
+   "offset_s": -0.03,
+   "why": "literal: el padre no lo entendía"
+  },
+  {
+   "t_word": 22.04,
+   "word": "of",
+   "element": "corte de vuelta a A-roll 22.07",
+   "category": "aroll_caption",
+   "offset_s": 0.03,
+   "why": "chiste en cara"
+  },
+  {
+   "t_word": 28.18,
+   "word": "all",
+   "element": "jump cut 28.10",
+   "category": "aroll_caption",
+   "offset_s": -0.08,
+   "why": "transición a la lista"
+  },
+  {
+   "t_word": 30.24,
+   "word": "1945",
+   "element": "jump cut 29.97 + botella sobre cuadrado blanco",
+   "category": "insert_image",
+   "offset_s": -0.27,
+   "why": "literal: producto"
+  },
+  {
+   "t_word": 33.28,
+   "word": "I",
+   "element": "jump cut 33.20, sale la botella",
+   "category": "aroll_caption",
+   "offset_s": -0.08,
+   "why": "precio en cara"
+  },
+  {
+   "t_word": 33.82,
+   "word": "$17",
+   "element": "subtítulo 'like $17k'",
+   "category": "aroll_caption",
+   "offset_s": 0.0,
+   "why": "dato"
+  },
+  {
+   "t_word": 35.48,
+   "word": "1912",
+   "element": "jump cut 34.97 + 2.ª botella",
+   "category": "insert_image",
+   "offset_s": -0.51,
+   "why": "literal"
+  },
+  {
+   "t_word": 38.18,
+   "word": "pretty",
+   "element": "jump cut 38.20, sale la botella",
+   "category": "aroll_caption",
+   "offset_s": 0.02,
+   "why": "valoración"
+  },
+  {
+   "t_word": 39.68,
+   "word": "You",
+   "element": "jump cut 39.53",
+   "category": "aroll_caption",
+   "offset_s": -0.15,
+   "why": "ritmo"
+  },
+  {
+   "t_word": 40.02,
+   "word": "Porter",
+   "element": "jump cut 39.90 + foto de chuletón",
+   "category": "insert_image",
+   "offset_s": -0.12,
+   "why": "literal"
+  },
+  {
+   "t_word": 42.62,
+   "word": "Some",
+   "element": "jump cut 42.63, sale la foto",
+   "category": "aroll_caption",
+   "offset_s": 0.01,
+   "why": "callback chiste"
+  },
+  {
+   "t_word": 46.36,
+   "word": "lobster",
+   "element": "jump cut 45.77 + foto de langosta",
+   "category": "insert_image",
+   "offset_s": -0.59,
+   "why": "literal (entra en 'Right,')"
+  },
+  {
+   "t_word": 47.36,
+   "word": "I",
+   "element": "jump cut 47.33, sale la foto",
+   "category": "aroll_caption",
+   "offset_s": -0.03,
+   "why": "remate 'average Tuesday'"
+  },
+  {
+   "t_word": 57.08,
+   "word": "be",
+   "element": "corte a clip (DiCaprio al teléfono) + recuadro",
+   "category": "movie_clip",
+   "offset_s": -0.18,
+   "why": "literal: master closer"
+  },
+  {
+   "t_word": 58.9,
+   "word": "teach",
+   "element": "corte a 2.º clip 58.70",
+   "category": "movie_clip",
+   "offset_s": -0.2,
+   "why": "enseñar a otros"
+  },
+  {
+   "t_word": 60.8,
+   "word": "That's",
+   "element": "corte de vuelta 60.87",
+   "category": "aroll_caption",
+   "offset_s": 0.07,
+   "why": "payoff en cara"
+  },
+  {
+   "t_word": 64.68,
+   "word": "just",
+   "element": "tarjeta de perfil IG (escala vertical) + cursor",
+   "category": "title_cta",
+   "offset_s": 0.01,
+   "why": "CTA"
+  },
+  {
+   "t_word": 65.88,
+   "word": "exactly",
+   "element": "clic → 'Following' morado ≈65.95",
+   "category": "title_cta",
+   "offset_s": 0.07,
+   "why": "gesto de seguir"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 4.1,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut"
+  },
+  {
+   "t": 11.73,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut"
+  },
+  {
+   "t": 13.73,
+   "from": "aroll",
+   "to": "aroll+foto",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut que mete la foto"
+  },
+  {
+   "t": 17.07,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut que quita la foto"
+  },
+  {
+   "t": 18.77,
+   "from": "aroll",
+   "to": "movie_clip",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "clip full-bleed + recuadro abajo-izq"
+  },
+  {
+   "t": 22.07,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "vuelta desde el clip"
+  },
+  {
+   "t": 28.1,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut"
+  },
+  {
+   "t": 29.97,
+   "from": "aroll",
+   "to": "aroll+foto",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut + vino"
+  },
+  {
+   "t": 33.2,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut quita foto"
+  },
+  {
+   "t": 34.97,
+   "from": "aroll",
+   "to": "aroll+foto",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut + vino 2"
+  },
+  {
+   "t": 38.2,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut quita foto"
+  },
+  {
+   "t": 39.53,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut"
+  },
+  {
+   "t": 39.9,
+   "from": "aroll",
+   "to": "aroll+foto",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut + chuletón"
+  },
+  {
+   "t": 42.63,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut quita foto"
+  },
+  {
+   "t": 45.77,
+   "from": "aroll",
+   "to": "aroll+foto",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut + langosta"
+  },
+  {
+   "t": 47.33,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "jump cut quita foto"
+  },
+  {
+   "t": 56.9,
+   "from": "aroll",
+   "to": "movie_clip",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "clip + recuadro"
+  },
+  {
+   "t": 58.7,
+   "from": "aroll",
+   "to": "movie_clip",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "clip→clip, el recuadro se mantiene"
+  },
+  {
+   "t": 60.87,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "vuelta"
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 0.0,
+   "fx": "pop",
+   "detail": "bloques de 1–4 palabras reemplazados en corte seco; blanco Poppins-like bold con sombra difusa"
+  },
+  {
+   "t": 64.69,
+   "fx": "escala",
+   "detail": "tarjeta follow entra como barra fina que se expande en vertical (2 fr)"
+  },
+  {
+   "t": 65.95,
+   "fx": "pop",
+   "detail": "botón Follow → 'Following' degradado morado-magenta tras el clic"
+  }
+ ],
+ "camera": [
+  {
+   "t": 0.0,
+   "move": "ninguno (trípode)",
+   "scale_or_dir": "1.0; jump cuts con micro-cambio de encuadre",
+   "dur_s": 67.0
+  },
+  {
+   "t": 18.77,
+   "move": "recuadro (PiP)",
+   "scale_or_dir": "A-roll a 50 % del ancho, abajo-izquierda (y 45–82 %)",
+   "dur_s": 3.3
+  },
+  {
+   "t": 56.9,
+   "move": "recuadro (PiP)",
+   "scale_or_dir": "igual",
+   "dur_s": 3.97
+  }
+ ],
+ "rhythm": {
+  "events_per_10s": [
+   1,
+   3,
+   2,
+   4,
+   4,
+   2,
+   3
+  ],
+  "avg_hold_text_s": 1.0,
+  "notes": "derived: eventos = cortes + entradas/salidas de foto (las fotos van atadas a los jump cuts, así que cuentan juntos). Máxima densidad en la lista de la cena (28–48 s). Plano de 9.6 s sin cortes (47.33–56.90) antes del payoff."
+ },
+ "typography": "Única fuente: sans geométrica bold tipo Poppins, blanco, sombra difusa, ~3.5 % del alto, y≈63 %; 1–4 palabras; cifras en dígitos con $ y k; sin amarillo.",
+ "textures": "Ninguna añadida. Grade natural cálido. Fotos de producto sobre cuadrado blanco puro; clips con su grade original.",
+ "distinct": [
+  "Hook sin tarjeta: la pregunta se lee del móvil y la cifra '$25k' está en el subtítulo.",
+  "Lista de lujo (2 vinos, chuletón, langosta) con una foto por ítem que entra/sale exactamente en los jump cuts.",
+  "Un fotograma de la película usado como 'foto del padre real' (13.73).",
+  "Dos clips de película consecutivos con el recuadro mantenido (56.90→58.70→60.87).",
+  "Plano largo de 9.6 s sin cortes justo antes del payoff, en contraste con la lista rápida."
+ ]
+}

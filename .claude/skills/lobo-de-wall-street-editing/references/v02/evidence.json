@@ -1,0 +1,106 @@
+{
+  "video": "v02.mp4",
+  "duration": 18.9,
+  "derived": {
+    "shots": 1,
+    "avg_shot_len": 18.9,
+    "cuts_per_min": 3.2,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "Can",
+      "start": 2.74,
+      "end": 4.14
+    },
+    {
+      "w": "we",
+      "start": 4.14,
+      "end": 4.28
+    },
+    {
+      "w": "talk?",
+      "start": 4.28,
+      "end": 4.62
+    },
+    {
+      "w": "Can",
+      "start": 6.72,
+      "end": 7.2
+    },
+    {
+      "w": "we",
+      "start": 7.2,
+      "end": 7.4
+    },
+    {
+      "w": "talk?",
+      "start": 7.4,
+      "end": 8.5
+    },
+    {
+      "w": "Can",
+      "start": 10.24,
+      "end": 11.64
+    },
+    {
+      "w": "we",
+      "start": 11.64,
+      "end": 12.64
+    },
+    {
+      "w": "talk?",
+      "start": 12.64,
+      "end": 12.98
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 18.898,
+      "length": 18.898,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F4F3EA",
+            "share": 0.699
+          },
+          {
+            "hex": "#D2EECA",
+            "share": 0.074
+          },
+          {
+            "hex": "#E4EFD9",
+            "share": 0.034
+          },
+          {
+            "hex": "#69EE72",
+            "share": 0.03
+          },
+          {
+            "hex": "#B2EFB0",
+            "share": 0.02
+          }
+        ],
+        "motion_energy": 20.42,
+        "script": "Can we talk? Can we talk? Can we talk?"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

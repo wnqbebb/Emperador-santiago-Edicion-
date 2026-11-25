@@ -1,0 +1,6 @@
+000    0.00-   4.87 (4.9s) | Somebody just built a free AI tool that finds security holes in your app like a real hacker does,
+001    4.87-   7.83 (3.0s) | and it already found over 30 brand new security holes in Linux.
+002    7.83-  11.87 (4.0s) | It's called Xero, and it's an open source AI security tool backed by Y Combinator.
+003   11.87-  25.87 (14.0s) | Now instead of running a scan and handing you a list of potential bugs, Xero will actually deploy a team of specialized AI agents that act like real hackers. Where one goes through your whole code base, one might attack your app live, and another could make sure every flaw it finds is real with some sort of working proof. And
+004   25.87-  30.23 (4.4s) | finally, we'll hand you a full report of every bug it found, and even write and fix all of them.
+005   30.23-  34.54 (4.3s) | So if you want to try this for yourselves, just comment the word hack down below and I'll DM you the link directly.

@@ -1,0 +1,42 @@
+{
+ "hook_title": {
+  "name": "01 Título del video arriba",
+  "que": "Línea 1 sans y línea 2 serif itálica blanca sobre caja azul (#0282FB), con iconos a los lados; primeros 3 s."
+ },
+ "frame_split": {
+  "name": "02 Ventana arriba + cara en recuadro",
+  "que": "La base: ventana enmarcada (borde azul ~3 px o asas tipo Figma) en y 13–51 %, subtítulo a 54 %, él en recuadro redondeado desde y 70 % cortado abajo."
+ },
+ "window_only": {
+  "name": "03 Solo la ventana",
+  "que": "La herramienta ocupa y 13–66 % sin él; subtítulo a 73 %. Lienzo oscuro con la misma pantalla desenfocada detrás."
+ },
+ "window_zoom": {
+  "name": "04 Dentro de la ventana",
+  "que": "Zoom, scroll con motion-blur, resaltado tipo selección, cursor, contador rodante: algo cambia cada 0.5–1.5 s."
+ },
+ "card_graphic": {
+  "name": "05 Tarjeta o gráfico diseñado",
+  "que": "Cifra gigante con odómetro, «Plugin Number N», rejilla de logos, ranking, logos tachados."
+ },
+ "face_full": {
+  "name": "06 Cara a pantalla completa",
+  "que": "Él completo (micrófono a la vista): casi solo en el cierre."
+ },
+ "face_full_word": {
+  "name": "07 Cara + palabra destacada",
+  "que": "Palabra de valor («free») en serif itálica con degradado, a cámara."
+ },
+ "full_screen_capture": {
+  "name": "08 Captura a pantalla completa",
+  "que": "Captura o video de la herramienta a sangre, fundido hacia su cara."
+ },
+ "transition": {
+  "name": "09 Transición diseñada",
+  "que": "Cambio de lienzo, glitch RGB, barrido, match-cut del móvil a la app."
+ },
+ "title_cta": {
+  "name": "10 Cierre «comment …»",
+  "que": "«comment» en script/itálica + PALABRA en caja de selección o degradado del color del video."
+ }
+}

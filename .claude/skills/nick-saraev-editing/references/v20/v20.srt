@@ -1,0 +1,127 @@
+1
+00:00:00,000 --> 00:00:00,900
+Your Claude code can now
+
+2
+00:00:00,900 --> 00:00:02,419
+build full video games, just
+
+3
+00:00:02,419 --> 00:00:03,580
+like a real developer with
+
+4
+00:00:03,580 --> 00:00:04,759
+one plugin. So someone on
+
+5
+00:00:04,759 --> 00:00:05,759
+GitHub just created a repo
+
+6
+00:00:05,759 --> 00:00:06,620
+that gives your coding agent
+
+7
+00:00:06,620 --> 00:00:08,240
+77 game dev skills for
+
+8
+00:00:08,240 --> 00:00:09,619
+building full games in Unreal
+
+9
+00:00:09,619 --> 00:00:11,539
+Engine, Unity, Godot, and even
+
+10
+00:00:11,539 --> 00:00:12,539
+web games. And you never
+
+11
+00:00:12,539 --> 00:00:13,300
+even have to pick the
+
+12
+00:00:13,300 --> 00:00:14,779
+skills yourself. You just describe
+
+13
+00:00:14,779 --> 00:00:15,699
+what you're building and it'll
+
+14
+00:00:15,699 --> 00:00:16,719
+pick the right skill for
+
+15
+00:00:16,719 --> 00:00:17,980
+your own engine and task
+
+16
+00:00:17,980 --> 00:00:19,120
+entirely on its own. It
+
+17
+00:00:19,120 --> 00:00:20,600
+has skills for everything, from
+
+18
+00:00:20,600 --> 00:00:22,339
+player movement to platformer mechanics
+
+19
+00:00:22,339 --> 00:00:24,120
+to dedicated art directions. So
+
+20
+00:00:24,120 --> 00:00:25,320
+every game asset looks the
+
+21
+00:00:25,320 --> 00:00:26,600
+exact same as it would
+
+22
+00:00:26,600 --> 00:00:28,140
+in a real AAA studio
+
+23
+00:00:28,140 --> 00:00:29,199
+developed game. And with all
+
+24
+00:00:29,199 --> 00:00:29,879
+that, you can build a
+
+25
+00:00:29,879 --> 00:00:30,800
+full game from start to
+
+26
+00:00:30,800 --> 00:00:31,859
+finish, then publish, and even
+
+27
+00:00:31,859 --> 00:00:32,920
+monetize it on the App
+
+28
+00:00:32,920 --> 00:00:33,820
+Store or Steam. So if
+
+29
+00:00:33,820 --> 00:00:34,340
+you want to try this
+
+30
+00:00:34,340 --> 00:00:35,600
+for yourselves, just comment game
+
+31
+00:00:35,600 --> 00:00:36,619
+down below and I'll send
+
+32
+00:00:36,619 --> 00:00:36,979
+you the links.

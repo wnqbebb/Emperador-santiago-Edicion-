@@ -1,0 +1,1212 @@
+{
+  "video": "v03.mp4",
+  "duration": 37.61,
+  "derived": {
+    "shots": 9,
+    "avg_shot_len": 4.18,
+    "cuts_per_min": 14.4,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "You",
+      "start": 0.0,
+      "end": 0.16
+    },
+    {
+      "w": "can",
+      "start": 0.16,
+      "end": 0.26
+    },
+    {
+      "w": "now",
+      "start": 0.26,
+      "end": 0.4
+    },
+    {
+      "w": "reverse",
+      "start": 0.4,
+      "end": 0.66
+    },
+    {
+      "w": "engineer",
+      "start": 0.66,
+      "end": 0.96
+    },
+    {
+      "w": "any",
+      "start": 0.96,
+      "end": 1.28
+    },
+    {
+      "w": "viral",
+      "start": 1.28,
+      "end": 1.6
+    },
+    {
+      "w": "video",
+      "start": 1.6,
+      "end": 1.9
+    },
+    {
+      "w": "down",
+      "start": 1.9,
+      "end": 2.16
+    },
+    {
+      "w": "to",
+      "start": 2.16,
+      "end": 2.32
+    },
+    {
+      "w": "its",
+      "start": 2.32,
+      "end": 2.42
+    },
+    {
+      "w": "frame,",
+      "start": 2.42,
+      "end": 2.74
+    },
+    {
+      "w": "shot",
+      "start": 2.88,
+      "end": 3.06
+    },
+    {
+      "w": "by",
+      "start": 3.06,
+      "end": 3.24
+    },
+    {
+      "w": "shot,",
+      "start": 3.24,
+      "end": 3.52
+    },
+    {
+      "w": "completely",
+      "start": 3.66,
+      "end": 3.96
+    },
+    {
+      "w": "free,",
+      "start": 3.96,
+      "end": 4.38
+    },
+    {
+      "w": "using",
+      "start": 4.54,
+      "end": 4.68
+    },
+    {
+      "w": "this",
+      "start": 4.68,
+      "end": 4.94
+    },
+    {
+      "w": "plugin.",
+      "start": 4.94,
+      "end": 5.22
+    },
+    {
+      "w": "This",
+      "start": 5.36,
+      "end": 5.5
+    },
+    {
+      "w": "is",
+      "start": 5.5,
+      "end": 5.66
+    },
+    {
+      "w": "Reverse",
+      "start": 5.66,
+      "end": 6.06
+    },
+    {
+      "w": "Engineer",
+      "start": 6.06,
+      "end": 6.36
+    },
+    {
+      "w": "Any",
+      "start": 6.36,
+      "end": 6.64
+    },
+    {
+      "w": "Video,",
+      "start": 6.64,
+      "end": 7.02
+    },
+    {
+      "w": "and",
+      "start": 7.16,
+      "end": 7.22
+    },
+    {
+      "w": "it",
+      "start": 7.22,
+      "end": 7.32
+    },
+    {
+      "w": "works",
+      "start": 7.32,
+      "end": 7.44
+    },
+    {
+      "w": "just",
+      "start": 7.44,
+      "end": 7.64
+    },
+    {
+      "w": "like",
+      "start": 7.64,
+      "end": 7.86
+    },
+    {
+      "w": "the",
+      "start": 7.86,
+      "end": 7.98
+    },
+    {
+      "w": "Reverse",
+      "start": 7.98,
+      "end": 8.34
+    },
+    {
+      "w": "Engineer",
+      "start": 8.34,
+      "end": 8.62
+    },
+    {
+      "w": "Anything",
+      "start": 8.62,
+      "end": 8.88
+    },
+    {
+      "w": "project,",
+      "start": 8.88,
+      "end": 9.36
+    },
+    {
+      "w": "but",
+      "start": 9.56,
+      "end": 9.66
+    },
+    {
+      "w": "for",
+      "start": 9.66,
+      "end": 9.82
+    },
+    {
+      "w": "videos.",
+      "start": 9.82,
+      "end": 10.12
+    },
+    {
+      "w": "You",
+      "start": 10.36,
+      "end": 10.44
+    },
+    {
+      "w": "just",
+      "start": 10.44,
+      "end": 10.58
+    },
+    {
+      "w": "give",
+      "start": 10.58,
+      "end": 10.72
+    },
+    {
+      "w": "it",
+      "start": 10.72,
+      "end": 10.8
+    },
+    {
+      "w": "the",
+      "start": 10.8,
+      "end": 10.9
+    },
+    {
+      "w": "video",
+      "start": 10.9,
+      "end": 11.12
+    },
+    {
+      "w": "link,",
+      "start": 11.12,
+      "end": 11.38
+    },
+    {
+      "w": "and",
+      "start": 11.5,
+      "end": 11.56
+    },
+    {
+      "w": "it'll",
+      "start": 11.56,
+      "end": 11.72
+    },
+    {
+      "w": "break",
+      "start": 11.72,
+      "end": 11.92
+    },
+    {
+      "w": "it",
+      "start": 11.92,
+      "end": 12.08
+    },
+    {
+      "w": "down,",
+      "start": 12.08,
+      "end": 12.26
+    },
+    {
+      "w": "shot",
+      "start": 12.36,
+      "end": 12.56
+    },
+    {
+      "w": "by",
+      "start": 12.56,
+      "end": 12.72
+    },
+    {
+      "w": "shot,",
+      "start": 12.72,
+      "end": 13.02
+    },
+    {
+      "w": "and",
+      "start": 13.12,
+      "end": 13.24
+    },
+    {
+      "w": "tell",
+      "start": 13.24,
+      "end": 13.42
+    },
+    {
+      "w": "you",
+      "start": 13.42,
+      "end": 13.56
+    },
+    {
+      "w": "whether",
+      "start": 13.56,
+      "end": 13.7
+    },
+    {
+      "w": "each",
+      "start": 13.7,
+      "end": 13.92
+    },
+    {
+      "w": "one",
+      "start": 13.92,
+      "end": 14.04
+    },
+    {
+      "w": "was",
+      "start": 14.04,
+      "end": 14.2
+    },
+    {
+      "w": "filmed,",
+      "start": 14.2,
+      "end": 14.46
+    },
+    {
+      "w": "AI",
+      "start": 14.66,
+      "end": 14.8
+    },
+    {
+      "w": "generated,",
+      "start": 14.8,
+      "end": 15.24
+    },
+    {
+      "w": "or",
+      "start": 15.42,
+      "end": 15.46
+    },
+    {
+      "w": "built",
+      "start": 15.46,
+      "end": 15.7
+    },
+    {
+      "w": "in",
+      "start": 15.7,
+      "end": 15.84
+    },
+    {
+      "w": "code.",
+      "start": 15.84,
+      "end": 16.04
+    },
+    {
+      "w": "Then",
+      "start": 16.1,
+      "end": 16.18
+    },
+    {
+      "w": "it'll",
+      "start": 16.18,
+      "end": 16.38
+    },
+    {
+      "w": "pull",
+      "start": 16.38,
+      "end": 16.56
+    },
+    {
+      "w": "every",
+      "start": 16.56,
+      "end": 16.74
+    },
+    {
+      "w": "caption",
+      "start": 16.74,
+      "end": 17.1
+    },
+    {
+      "w": "with",
+      "start": 17.1,
+      "end": 17.34
+    },
+    {
+      "w": "its",
+      "start": 17.34,
+      "end": 17.5
+    },
+    {
+      "w": "timing,",
+      "start": 17.5,
+      "end": 17.82
+    },
+    {
+      "w": "every",
+      "start": 18.04,
+      "end": 18.28
+    },
+    {
+      "w": "cut,",
+      "start": 18.28,
+      "end": 18.6
+    },
+    {
+      "w": "the",
+      "start": 18.74,
+      "end": 18.78
+    },
+    {
+      "w": "music's",
+      "start": 18.78,
+      "end": 19.2
+    },
+    {
+      "w": "beats,",
+      "start": 19.2,
+      "end": 19.38
+    },
+    {
+      "w": "and",
+      "start": 19.56,
+      "end": 19.64
+    },
+    {
+      "w": "exactly",
+      "start": 19.64,
+      "end": 20.04
+    },
+    {
+      "w": "where",
+      "start": 20.04,
+      "end": 20.4
+    },
+    {
+      "w": "every",
+      "start": 20.4,
+      "end": 20.7
+    },
+    {
+      "w": "sound",
+      "start": 20.7,
+      "end": 20.92
+    },
+    {
+      "w": "effect",
+      "start": 20.92,
+      "end": 21.14
+    },
+    {
+      "w": "landed.",
+      "start": 21.14,
+      "end": 21.58
+    },
+    {
+      "w": "And",
+      "start": 21.8,
+      "end": 21.88
+    },
+    {
+      "w": "for",
+      "start": 21.88,
+      "end": 22.04
+    },
+    {
+      "w": "each",
+      "start": 22.04,
+      "end": 22.22
+    },
+    {
+      "w": "shot,",
+      "start": 22.22,
+      "end": 22.56
+    },
+    {
+      "w": "it'll",
+      "start": 22.8,
+      "end": 22.98
+    },
+    {
+      "w": "write",
+      "start": 22.98,
+      "end": 23.1
+    },
+    {
+      "w": "a",
+      "start": 23.1,
+      "end": 23.28
+    },
+    {
+      "w": "full",
+      "start": 23.28,
+      "end": 23.46
+    },
+    {
+      "w": "prompt",
+      "start": 23.46,
+      "end": 23.76
+    },
+    {
+      "w": "that",
+      "start": 23.76,
+      "end": 23.9
+    },
+    {
+      "w": "you",
+      "start": 23.9,
+      "end": 24.0
+    },
+    {
+      "w": "can",
+      "start": 24.0,
+      "end": 24.14
+    },
+    {
+      "w": "use",
+      "start": 24.14,
+      "end": 24.3
+    },
+    {
+      "w": "to",
+      "start": 24.3,
+      "end": 24.44
+    },
+    {
+      "w": "recreate",
+      "start": 24.44,
+      "end": 24.88
+    },
+    {
+      "w": "it,",
+      "start": 24.88,
+      "end": 25.18
+    },
+    {
+      "w": "and",
+      "start": 25.22,
+      "end": 25.36
+    },
+    {
+      "w": "in",
+      "start": 25.36,
+      "end": 25.46
+    },
+    {
+      "w": "the",
+      "start": 25.46,
+      "end": 25.58
+    },
+    {
+      "w": "end,",
+      "start": 25.58,
+      "end": 25.74
+    },
+    {
+      "w": "you'll",
+      "start": 25.8,
+      "end": 25.92
+    },
+    {
+      "w": "get",
+      "start": 25.92,
+      "end": 26.02
+    },
+    {
+      "w": "a",
+      "start": 26.02,
+      "end": 26.18
+    },
+    {
+      "w": "full",
+      "start": 26.18,
+      "end": 26.44
+    },
+    {
+      "w": "remake",
+      "start": 26.44,
+      "end": 26.8
+    },
+    {
+      "w": "plan",
+      "start": 26.8,
+      "end": 27.22
+    },
+    {
+      "w": "with",
+      "start": 27.22,
+      "end": 27.42
+    },
+    {
+      "w": "what",
+      "start": 27.42,
+      "end": 27.56
+    },
+    {
+      "w": "to",
+      "start": 27.56,
+      "end": 27.72
+    },
+    {
+      "w": "film,",
+      "start": 27.72,
+      "end": 27.96
+    },
+    {
+      "w": "what",
+      "start": 28.08,
+      "end": 28.2
+    },
+    {
+      "w": "to",
+      "start": 28.2,
+      "end": 28.3
+    },
+    {
+      "w": "generate,",
+      "start": 28.3,
+      "end": 28.66
+    },
+    {
+      "w": "and",
+      "start": 28.86,
+      "end": 28.96
+    },
+    {
+      "w": "what",
+      "start": 28.96,
+      "end": 29.16
+    },
+    {
+      "w": "to",
+      "start": 29.16,
+      "end": 29.3
+    },
+    {
+      "w": "code.",
+      "start": 29.3,
+      "end": 29.56
+    },
+    {
+      "w": "Finally,",
+      "start": 29.56,
+      "end": 29.92
+    },
+    {
+      "w": "it'll",
+      "start": 30.04,
+      "end": 30.14
+    },
+    {
+      "w": "remake",
+      "start": 30.14,
+      "end": 30.38
+    },
+    {
+      "w": "the",
+      "start": 30.38,
+      "end": 30.6
+    },
+    {
+      "w": "video",
+      "start": 30.6,
+      "end": 30.82
+    },
+    {
+      "w": "with",
+      "start": 30.82,
+      "end": 30.98
+    },
+    {
+      "w": "your",
+      "start": 30.98,
+      "end": 31.1
+    },
+    {
+      "w": "own",
+      "start": 31.1,
+      "end": 31.22
+    },
+    {
+      "w": "elements",
+      "start": 31.22,
+      "end": 31.44
+    },
+    {
+      "w": "swapped",
+      "start": 31.44,
+      "end": 31.74
+    },
+    {
+      "w": "in,",
+      "start": 31.74,
+      "end": 31.96
+    },
+    {
+      "w": "keeping",
+      "start": 32.04,
+      "end": 32.18
+    },
+    {
+      "w": "the",
+      "start": 32.18,
+      "end": 32.36
+    },
+    {
+      "w": "original",
+      "start": 32.36,
+      "end": 32.52
+    },
+    {
+      "w": "pacing,",
+      "start": 32.52,
+      "end": 32.88
+    },
+    {
+      "w": "effect,",
+      "start": 33.12,
+      "end": 33.34
+    },
+    {
+      "w": "and",
+      "start": 33.6,
+      "end": 33.72
+    },
+    {
+      "w": "transition.",
+      "start": 33.72,
+      "end": 34.12
+    },
+    {
+      "w": "Want",
+      "start": 34.36,
+      "end": 34.48
+    },
+    {
+      "w": "to",
+      "start": 34.48,
+      "end": 34.58
+    },
+    {
+      "w": "try",
+      "start": 34.58,
+      "end": 34.74
+    },
+    {
+      "w": "it",
+      "start": 34.74,
+      "end": 34.82
+    },
+    {
+      "w": "for",
+      "start": 34.82,
+      "end": 34.88
+    },
+    {
+      "w": "yourselves?",
+      "start": 34.88,
+      "end": 35.2
+    },
+    {
+      "w": "Just",
+      "start": 35.5,
+      "end": 35.62
+    },
+    {
+      "w": "comment",
+      "start": 35.62,
+      "end": 35.86
+    },
+    {
+      "w": "video",
+      "start": 35.86,
+      "end": 36.22
+    },
+    {
+      "w": "down",
+      "start": 36.22,
+      "end": 36.46
+    },
+    {
+      "w": "below,",
+      "start": 36.46,
+      "end": 36.7
+    },
+    {
+      "w": "and",
+      "start": 36.88,
+      "end": 36.98
+    },
+    {
+      "w": "I'll",
+      "start": 36.98,
+      "end": 37.06
+    },
+    {
+      "w": "send",
+      "start": 37.06,
+      "end": 37.2
+    },
+    {
+      "w": "you",
+      "start": 37.2,
+      "end": 37.3
+    },
+    {
+      "w": "the",
+      "start": 37.3,
+      "end": 37.42
+    },
+    {
+      "w": "link.",
+      "start": 37.42,
+      "end": 37.58
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.467,
+      "length": 4.467,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#D7D6D3",
+            "share": 0.234
+          },
+          {
+            "hex": "#0A090D",
+            "share": 0.173
+          },
+          {
+            "hex": "#E3E3DD",
+            "share": 0.158
+          },
+          {
+            "hex": "#746F70",
+            "share": 0.04
+          },
+          {
+            "hex": "#E2DCD9",
+            "share": 0.03
+          }
+        ],
+        "motion_energy": 13.87,
+        "script": "You can now reverse engineer any viral video down to its frame, shot by shot, completely free,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 4.467,
+      "end": 7.067,
+      "length": 2.6,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FBFBFB",
+            "share": 0.273
+          },
+          {
+            "hex": "#302E2C",
+            "share": 0.256
+          },
+          {
+            "hex": "#161515",
+            "share": 0.14
+          },
+          {
+            "hex": "#494849",
+            "share": 0.074
+          },
+          {
+            "hex": "#D0D0D2",
+            "share": 0.024
+          }
+        ],
+        "motion_energy": 25.08,
+        "script": "using this plugin. This is Reverse Engineer Any Video,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 7.067,
+      "end": 10.1,
+      "length": 3.033,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#D7D6D3",
+            "share": 0.223
+          },
+          {
+            "hex": "#F7F8F8",
+            "share": 0.206
+          },
+          {
+            "hex": "#E3E3DD",
+            "share": 0.125
+          },
+          {
+            "hex": "#09070B",
+            "share": 0.1
+          },
+          {
+            "hex": "#B19DA2",
+            "share": 0.029
+          }
+        ],
+        "motion_energy": 12.19,
+        "script": "and it works just like the Reverse Engineer Anything project, but for videos."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 10.1,
+      "end": 16.033,
+      "length": 5.933,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#141313",
+            "share": 0.468
+          },
+          {
+            "hex": "#2C2B2A",
+            "share": 0.215
+          },
+          {
+            "hex": "#24221D",
+            "share": 0.027
+          },
+          {
+            "hex": "#221A18",
+            "share": 0.026
+          },
+          {
+            "hex": "#6F6D6E",
+            "share": 0.026
+          }
+        ],
+        "motion_energy": 16.43,
+        "script": "You just give it the video link, and it'll break it down, shot by shot, and tell you whether each one was filmed, AI generated, or built in code."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 16.033,
+      "end": 21.667,
+      "length": 5.633,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#121113",
+            "share": 0.21
+          },
+          {
+            "hex": "#D7D6D3",
+            "share": 0.203
+          },
+          {
+            "hex": "#E3E3DD",
+            "share": 0.128
+          },
+          {
+            "hex": "#262626",
+            "share": 0.071
+          },
+          {
+            "hex": "#B29EA2",
+            "share": 0.028
+          }
+        ],
+        "motion_energy": 15.8,
+        "script": "Then it'll pull every caption with its timing, every cut, the music's beats, and exactly where every sound effect landed."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 21.667,
+      "end": 25.167,
+      "length": 3.5,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0B090A",
+            "share": 0.767
+          },
+          {
+            "hex": "#132C4A",
+            "share": 0.034
+          },
+          {
+            "hex": "#231B12",
+            "share": 0.034
+          },
+          {
+            "hex": "#2E2A2B",
+            "share": 0.029
+          },
+          {
+            "hex": "#2F2418",
+            "share": 0.016
+          }
+        ],
+        "motion_energy": 8.99,
+        "script": "And for each shot, it'll write a full prompt that you can use to recreate it,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 25.167,
+      "end": 29.6,
+      "length": 4.433,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0B0B0F",
+            "share": 0.356
+          },
+          {
+            "hex": "#D7D6D3",
+            "share": 0.199
+          },
+          {
+            "hex": "#E3E3DD",
+            "share": 0.129
+          },
+          {
+            "hex": "#B29EA2",
+            "share": 0.028
+          },
+          {
+            "hex": "#E2DCD9",
+            "share": 0.024
+          }
+        ],
+        "motion_energy": 19.13,
+        "script": "and in the end, you'll get a full remake plan with what to film, what to generate, and what to code. Finally,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 29.6,
+      "end": 34.3,
+      "length": 4.7,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#15120D",
+            "share": 0.244
+          },
+          {
+            "hex": "#2E2316",
+            "share": 0.151
+          },
+          {
+            "hex": "#251A11",
+            "share": 0.14
+          },
+          {
+            "hex": "#302A2A",
+            "share": 0.106
+          },
+          {
+            "hex": "#112B49",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 15.62,
+        "script": "it'll remake the video with your own elements swapped in, keeping the original pacing, effect, and transition."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 34.3,
+      "end": 37.612,
+      "length": 3.312,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#120E11",
+            "share": 0.229
+          },
+          {
+            "hex": "#CC968A",
+            "share": 0.065
+          },
+          {
+            "hex": "#8D7776",
+            "share": 0.06
+          },
+          {
+            "hex": "#AC766A",
+            "share": 0.057
+          },
+          {
+            "hex": "#E6B7AF",
+            "share": 0.049
+          }
+        ],
+        "motion_energy": 28.36,
+        "script": "Want to try it for yourselves? Just comment video down below, and I'll send you the link."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1169 @@
+{
+  "video": "v20.mp4",
+  "duration": 62.48,
+  "derived": {
+    "shots": 6,
+    "avg_shot_len": 10.41,
+    "cuts_per_min": 5.8,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      2,
+      3,
+      5
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "Here",
+      "start": 0.0,
+      "end": 0.24
+    },
+    {
+      "w": "are",
+      "start": 0.24,
+      "end": 0.4
+    },
+    {
+      "w": "seven",
+      "start": 0.4,
+      "end": 0.96
+    },
+    {
+      "w": "things",
+      "start": 0.96,
+      "end": 1.62
+    },
+    {
+      "w": "you",
+      "start": 1.62,
+      "end": 2.1
+    },
+    {
+      "w": "must",
+      "start": 2.1,
+      "end": 2.44
+    },
+    {
+      "w": "never",
+      "start": 2.44,
+      "end": 3.06
+    },
+    {
+      "w": "say",
+      "start": 3.06,
+      "end": 3.5
+    },
+    {
+      "w": "if",
+      "start": 3.5,
+      "end": 3.82
+    },
+    {
+      "w": "you",
+      "start": 3.82,
+      "end": 3.92
+    },
+    {
+      "w": "want",
+      "start": 3.92,
+      "end": 4.08
+    },
+    {
+      "w": "to",
+      "start": 4.08,
+      "end": 4.18
+    },
+    {
+      "w": "close",
+      "start": 4.18,
+      "end": 4.44
+    },
+    {
+      "w": "more",
+      "start": 4.44,
+      "end": 4.72
+    },
+    {
+      "w": "deals.",
+      "start": 4.72,
+      "end": 5.08
+    },
+    {
+      "w": "One,",
+      "start": 5.36,
+      "end": 5.56
+    },
+    {
+      "w": "just",
+      "start": 5.9,
+      "end": 6.0
+    },
+    {
+      "w": "check",
+      "start": 6.0,
+      "end": 6.34
+    },
+    {
+      "w": "it",
+      "start": 6.34,
+      "end": 6.48
+    },
+    {
+      "w": "in.",
+      "start": 6.48,
+      "end": 6.68
+    },
+    {
+      "w": "Pure",
+      "start": 7.22,
+      "end": 7.52
+    },
+    {
+      "w": "neediness.",
+      "start": 7.52,
+      "end": 8.42
+    },
+    {
+      "w": "Say,",
+      "start": 8.66,
+      "end": 8.86
+    },
+    {
+      "w": "got",
+      "start": 9.2,
+      "end": 9.34
+    },
+    {
+      "w": "a",
+      "start": 9.34,
+      "end": 9.46
+    },
+    {
+      "w": "quick",
+      "start": 9.46,
+      "end": 9.6
+    },
+    {
+      "w": "idea",
+      "start": 9.6,
+      "end": 9.94
+    },
+    {
+      "w": "for",
+      "start": 9.94,
+      "end": 10.3
+    },
+    {
+      "w": "you.",
+      "start": 10.3,
+      "end": 10.52
+    },
+    {
+      "w": "Now",
+      "start": 10.7,
+      "end": 10.88
+    },
+    {
+      "w": "you're",
+      "start": 10.88,
+      "end": 11.06
+    },
+    {
+      "w": "bringing",
+      "start": 11.06,
+      "end": 11.28
+    },
+    {
+      "w": "value.",
+      "start": 11.28,
+      "end": 11.76
+    },
+    {
+      "w": "Number",
+      "start": 12.1,
+      "end": 12.26
+    },
+    {
+      "w": "two,",
+      "start": 12.26,
+      "end": 12.64
+    },
+    {
+      "w": "let",
+      "start": 12.94,
+      "end": 13.06
+    },
+    {
+      "w": "me",
+      "start": 13.06,
+      "end": 13.2
+    },
+    {
+      "w": "know",
+      "start": 13.2,
+      "end": 13.42
+    },
+    {
+      "w": "if",
+      "start": 13.42,
+      "end": 13.54
+    },
+    {
+      "w": "you're",
+      "start": 13.54,
+      "end": 13.66
+    },
+    {
+      "w": "interested.",
+      "start": 13.66,
+      "end": 14.06
+    },
+    {
+      "w": "You",
+      "start": 14.44,
+      "end": 14.5
+    },
+    {
+      "w": "just",
+      "start": 14.5,
+      "end": 14.64
+    },
+    {
+      "w": "hand",
+      "start": 14.64,
+      "end": 14.9
+    },
+    {
+      "w": "them",
+      "start": 14.9,
+      "end": 15.12
+    },
+    {
+      "w": "homework.",
+      "start": 15.12,
+      "end": 15.66
+    },
+    {
+      "w": "Say,",
+      "start": 16.02,
+      "end": 16.22
+    },
+    {
+      "w": "does",
+      "start": 16.56,
+      "end": 16.72
+    },
+    {
+      "w": "Tuesday",
+      "start": 16.72,
+      "end": 17.04
+    },
+    {
+      "w": "or",
+      "start": 17.04,
+      "end": 17.38
+    },
+    {
+      "w": "Thursday",
+      "start": 17.38,
+      "end": 17.56
+    },
+    {
+      "w": "work",
+      "start": 17.56,
+      "end": 17.94
+    },
+    {
+      "w": "for",
+      "start": 17.94,
+      "end": 18.14
+    },
+    {
+      "w": "you?",
+      "start": 18.14,
+      "end": 18.28
+    },
+    {
+      "w": "Three,",
+      "start": 18.52,
+      "end": 18.84
+    },
+    {
+      "w": "to",
+      "start": 19.2,
+      "end": 19.26
+    },
+    {
+      "w": "be",
+      "start": 19.26,
+      "end": 19.4
+    },
+    {
+      "w": "honest.",
+      "start": 19.4,
+      "end": 19.82
+    },
+    {
+      "w": "So",
+      "start": 20.18,
+      "end": 20.28
+    },
+    {
+      "w": "what,",
+      "start": 20.28,
+      "end": 20.5
+    },
+    {
+      "w": "you",
+      "start": 20.62,
+      "end": 20.68
+    },
+    {
+      "w": "were",
+      "start": 20.68,
+      "end": 20.82
+    },
+    {
+      "w": "lying",
+      "start": 20.82,
+      "end": 21.28
+    },
+    {
+      "w": "beforehand?",
+      "start": 21.28,
+      "end": 21.86
+    },
+    {
+      "w": "Kills",
+      "start": 22.38,
+      "end": 22.56
+    },
+    {
+      "w": "trust",
+      "start": 22.56,
+      "end": 23.0
+    },
+    {
+      "w": "instantly.",
+      "start": 23.0,
+      "end": 23.94
+    },
+    {
+      "w": "Four,",
+      "start": 24.44,
+      "end": 24.7
+    },
+    {
+      "w": "are",
+      "start": 25.0,
+      "end": 25.08
+    },
+    {
+      "w": "you",
+      "start": 25.08,
+      "end": 25.2
+    },
+    {
+      "w": "a",
+      "start": 25.2,
+      "end": 25.34
+    },
+    {
+      "w": "decision",
+      "start": 25.34,
+      "end": 25.62
+    },
+    {
+      "w": "maker?",
+      "start": 25.62,
+      "end": 25.96
+    },
+    {
+      "w": "You",
+      "start": 26.3,
+      "end": 26.4
+    },
+    {
+      "w": "just",
+      "start": 26.4,
+      "end": 26.54
+    },
+    {
+      "w": "made",
+      "start": 26.54,
+      "end": 26.76
+    },
+    {
+      "w": "them",
+      "start": 26.76,
+      "end": 26.98
+    },
+    {
+      "w": "feel",
+      "start": 26.98,
+      "end": 27.3
+    },
+    {
+      "w": "small.",
+      "start": 27.3,
+      "end": 27.9
+    },
+    {
+      "w": "Instead",
+      "start": 27.9,
+      "end": 28.46
+    },
+    {
+      "w": "say,",
+      "start": 28.46,
+      "end": 28.86
+    },
+    {
+      "w": "who",
+      "start": 29.08,
+      "end": 29.2
+    },
+    {
+      "w": "else",
+      "start": 29.2,
+      "end": 29.36
+    },
+    {
+      "w": "should",
+      "start": 29.36,
+      "end": 29.54
+    },
+    {
+      "w": "we",
+      "start": 29.54,
+      "end": 29.64
+    },
+    {
+      "w": "bring",
+      "start": 29.64,
+      "end": 29.84
+    },
+    {
+      "w": "in?",
+      "start": 29.84,
+      "end": 30.04
+    },
+    {
+      "w": "Five,",
+      "start": 30.26,
+      "end": 30.5
+    },
+    {
+      "w": "we",
+      "start": 30.84,
+      "end": 30.92
+    },
+    {
+      "w": "can",
+      "start": 30.92,
+      "end": 31.04
+    },
+    {
+      "w": "do",
+      "start": 31.04,
+      "end": 31.16
+    },
+    {
+      "w": "a",
+      "start": 31.16,
+      "end": 31.32
+    },
+    {
+      "w": "discount.",
+      "start": 31.32,
+      "end": 31.68
+    },
+    {
+      "w": "Guess",
+      "start": 32.06,
+      "end": 32.16
+    },
+    {
+      "w": "what?",
+      "start": 32.16,
+      "end": 32.48
+    },
+    {
+      "w": "You",
+      "start": 32.74,
+      "end": 32.84
+    },
+    {
+      "w": "told",
+      "start": 32.84,
+      "end": 33.12
+    },
+    {
+      "w": "them",
+      "start": 33.12,
+      "end": 33.32
+    },
+    {
+      "w": "that",
+      "start": 33.32,
+      "end": 33.44
+    },
+    {
+      "w": "the",
+      "start": 33.44,
+      "end": 33.58
+    },
+    {
+      "w": "first",
+      "start": 33.58,
+      "end": 33.9
+    },
+    {
+      "w": "price",
+      "start": 33.9,
+      "end": 34.24
+    },
+    {
+      "w": "you",
+      "start": 34.24,
+      "end": 34.44
+    },
+    {
+      "w": "offered",
+      "start": 34.44,
+      "end": 34.7
+    },
+    {
+      "w": "was",
+      "start": 34.7,
+      "end": 35.28
+    },
+    {
+      "w": "fake.",
+      "start": 35.28,
+      "end": 35.64
+    },
+    {
+      "w": "Talk",
+      "start": 36.06,
+      "end": 36.22
+    },
+    {
+      "w": "return,",
+      "start": 36.22,
+      "end": 36.88
+    },
+    {
+      "w": "not",
+      "start": 37.12,
+      "end": 37.36
+    },
+    {
+      "w": "rebates.",
+      "start": 37.36,
+      "end": 38.1
+    },
+    {
+      "w": "Six,",
+      "start": 38.46,
+      "end": 38.78
+    },
+    {
+      "w": "sorry",
+      "start": 39.08,
+      "end": 39.42
+    },
+    {
+      "w": "to",
+      "start": 39.42,
+      "end": 39.58
+    },
+    {
+      "w": "bother",
+      "start": 39.58,
+      "end": 39.76
+    },
+    {
+      "w": "you.",
+      "start": 39.76,
+      "end": 40.12
+    },
+    {
+      "w": "Experts",
+      "start": 40.46,
+      "end": 40.92
+    },
+    {
+      "w": "don't",
+      "start": 40.92,
+      "end": 41.12
+    },
+    {
+      "w": "bother",
+      "start": 41.12,
+      "end": 41.62
+    },
+    {
+      "w": "people.",
+      "start": 41.62,
+      "end": 42.12
+    },
+    {
+      "w": "Experts",
+      "start": 42.42,
+      "end": 42.9
+    },
+    {
+      "w": "bring",
+      "start": 42.9,
+      "end": 43.14
+    },
+    {
+      "w": "solutions.",
+      "start": 43.14,
+      "end": 43.64
+    },
+    {
+      "w": "They",
+      "start": 43.88,
+      "end": 43.94
+    },
+    {
+      "w": "deliver",
+      "start": 43.94,
+      "end": 44.18
+    },
+    {
+      "w": "massive",
+      "start": 44.18,
+      "end": 44.84
+    },
+    {
+      "w": "value.",
+      "start": 44.84,
+      "end": 45.36
+    },
+    {
+      "w": "And",
+      "start": 45.62,
+      "end": 45.7
+    },
+    {
+      "w": "seven,",
+      "start": 45.7,
+      "end": 46.06
+    },
+    {
+      "w": "the",
+      "start": 46.44,
+      "end": 46.54
+    },
+    {
+      "w": "worst",
+      "start": 46.54,
+      "end": 46.86
+    },
+    {
+      "w": "one",
+      "start": 46.86,
+      "end": 47.06
+    },
+    {
+      "w": "of",
+      "start": 47.06,
+      "end": 47.2
+    },
+    {
+      "w": "all,",
+      "start": 47.2,
+      "end": 47.4
+    },
+    {
+      "w": "trust",
+      "start": 47.74,
+      "end": 48.04
+    },
+    {
+      "w": "me.",
+      "start": 48.04,
+      "end": 48.44
+    },
+    {
+      "w": "The",
+      "start": 48.68,
+      "end": 48.84
+    },
+    {
+      "w": "second",
+      "start": 48.84,
+      "end": 49.0
+    },
+    {
+      "w": "you",
+      "start": 49.0,
+      "end": 49.2
+    },
+    {
+      "w": "say",
+      "start": 49.2,
+      "end": 49.34
+    },
+    {
+      "w": "trust",
+      "start": 49.34,
+      "end": 49.74
+    },
+    {
+      "w": "me,",
+      "start": 49.74,
+      "end": 50.16
+    },
+    {
+      "w": "they",
+      "start": 50.66,
+      "end": 50.96
+    },
+    {
+      "w": "don't",
+      "start": 50.96,
+      "end": 51.36
+    },
+    {
+      "w": "trust",
+      "start": 51.36,
+      "end": 51.66
+    },
+    {
+      "w": "you.",
+      "start": 51.66,
+      "end": 51.98
+    },
+    {
+      "w": "Show",
+      "start": 52.18,
+      "end": 52.38
+    },
+    {
+      "w": "proof",
+      "start": 52.38,
+      "end": 52.76
+    },
+    {
+      "w": "instead.",
+      "start": 52.76,
+      "end": 53.26
+    },
+    {
+      "w": "Cut",
+      "start": 53.56,
+      "end": 53.7
+    },
+    {
+      "w": "these",
+      "start": 53.7,
+      "end": 53.94
+    },
+    {
+      "w": "seven",
+      "start": 53.94,
+      "end": 54.34
+    },
+    {
+      "w": "and",
+      "start": 54.34,
+      "end": 54.74
+    },
+    {
+      "w": "watch",
+      "start": 54.74,
+      "end": 55.16
+    },
+    {
+      "w": "your",
+      "start": 55.16,
+      "end": 55.34
+    },
+    {
+      "w": "closing",
+      "start": 55.34,
+      "end": 55.78
+    },
+    {
+      "w": "rate",
+      "start": 55.78,
+      "end": 56.02
+    },
+    {
+      "w": "jump.",
+      "start": 56.02,
+      "end": 56.46
+    },
+    {
+      "w": "Watch",
+      "start": 56.46,
+      "end": 57.08
+    },
+    {
+      "w": "it",
+      "start": 57.08,
+      "end": 57.32
+    },
+    {
+      "w": "soar.",
+      "start": 57.32,
+      "end": 57.86
+    },
+    {
+      "w": "You",
+      "start": 58.04,
+      "end": 58.2
+    },
+    {
+      "w": "get",
+      "start": 58.2,
+      "end": 58.34
+    },
+    {
+      "w": "it?",
+      "start": 58.34,
+      "end": 58.46
+    },
+    {
+      "w": "If",
+      "start": 58.72,
+      "end": 58.84
+    },
+    {
+      "w": "you",
+      "start": 58.84,
+      "end": 58.98
+    },
+    {
+      "w": "want",
+      "start": 58.98,
+      "end": 59.16
+    },
+    {
+      "w": "to",
+      "start": 59.16,
+      "end": 59.28
+    },
+    {
+      "w": "learn",
+      "start": 59.28,
+      "end": 59.38
+    },
+    {
+      "w": "to",
+      "start": 59.38,
+      "end": 59.54
+    },
+    {
+      "w": "sell",
+      "start": 59.54,
+      "end": 59.8
+    },
+    {
+      "w": "like",
+      "start": 59.8,
+      "end": 60.0
+    },
+    {
+      "w": "the",
+      "start": 60.0,
+      "end": 60.16
+    },
+    {
+      "w": "Wolf",
+      "start": 60.16,
+      "end": 60.38
+    },
+    {
+      "w": "of",
+      "start": 60.38,
+      "end": 60.5
+    },
+    {
+      "w": "Wall",
+      "start": 60.5,
+      "end": 60.7
+    },
+    {
+      "w": "Street,",
+      "start": 60.7,
+      "end": 60.92
+    },
+    {
+      "w": "follow",
+      "start": 61.2,
+      "end": 61.82
+    },
+    {
+      "w": "me.",
+      "start": 61.82,
+      "end": 62.16
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 42.376,
+      "length": 42.376,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#2F3115",
+            "share": 0.127
+          },
+          {
+            "hex": "#4E4D31",
+            "share": 0.114
+          },
+          {
+            "hex": "#0D0603",
+            "share": 0.076
+          },
+          {
+            "hex": "#363425",
+            "share": 0.056
+          },
+          {
+            "hex": "#E6F1F5",
+            "share": 0.054
+          }
+        ],
+        "motion_energy": 22.89,
+        "script": "Here are seven things you must never say if you want to close more deals. One, just check it in. Pure neediness. Say, got a quick idea for you. Now you're bringing value. Number two, let me know if you're interested. You just hand them homework. Say, does Tuesday or Thursday work for you? Three, to be honest. So what, you were lying beforehand? Kills trust instantly. Four, are you a decision maker? You just made them feel small. Instead say, who else should we bring in? Five, we can do a discount. Guess what? You told them that the first price you offered was fake. Talk return, not rebates. Six, sorry to bother you. Experts don't bother people."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 42.376,
+      "end": 43.794,
+      "length": 1.418,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#131419",
+            "share": 0.184
+          },
+          {
+            "hex": "#2E292D",
+            "share": 0.182
+          },
+          {
+            "hex": "#B1AFAC",
+            "share": 0.072
+          },
+          {
+            "hex": "#171B23",
+            "share": 0.071
+          },
+          {
+            "hex": "#4A3433",
+            "share": 0.063
+          }
+        ],
+        "motion_energy": 9.48,
+        "script": "Experts bring solutions."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 43.794,
+      "end": 45.587,
+      "length": 1.794,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#121318",
+            "share": 0.224
+          },
+          {
+            "hex": "#2F292D",
+            "share": 0.187
+          },
+          {
+            "hex": "#171A23",
+            "share": 0.127
+          },
+          {
+            "hex": "#493532",
+            "share": 0.066
+          },
+          {
+            "hex": "#88766D",
+            "share": 0.042
+          }
+        ],
+        "motion_energy": 19.43,
+        "script": "They deliver massive value."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 45.587,
+      "end": 55.139,
+      "length": 9.551,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#2E3215",
+            "share": 0.129
+          },
+          {
+            "hex": "#4D4B31",
+            "share": 0.107
+          },
+          {
+            "hex": "#0C0703",
+            "share": 0.074
+          },
+          {
+            "hex": "#363425",
+            "share": 0.053
+          },
+          {
+            "hex": "#E6F2F7",
+            "share": 0.046
+          }
+        ],
+        "motion_energy": 20.86,
+        "script": "And seven, the worst one of all, trust me. The second you say trust me, they don't trust you. Show proof instead. Cut these seven and watch"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 55.139,
+      "end": 56.765,
+      "length": 1.627,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#080808",
+            "share": 0.902
+          },
+          {
+            "hex": "#242324",
+            "share": 0.066
+          },
+          {
+            "hex": "#2F2A13",
+            "share": 0.007
+          },
+          {
+            "hex": "#717171",
+            "share": 0.006
+          },
+          {
+            "hex": "#4E461B",
+            "share": 0.003
+          }
+        ],
+        "motion_energy": 2.18,
+        "script": "your closing rate jump. Watch"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 56.765,
+      "end": 62.482,
+      "length": 5.717,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#2D3115",
+            "share": 0.151
+          },
+          {
+            "hex": "#080502",
+            "share": 0.14
+          },
+          {
+            "hex": "#4D4C31",
+            "share": 0.083
+          },
+          {
+            "hex": "#384A2B",
+            "share": 0.049
+          },
+          {
+            "hex": "#E6F1F5",
+            "share": 0.045
+          }
+        ],
+        "motion_energy": 15.63,
+        "script": "it soar. You get it? If you want to learn to sell like the Wolf of Wall Street, follow me."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

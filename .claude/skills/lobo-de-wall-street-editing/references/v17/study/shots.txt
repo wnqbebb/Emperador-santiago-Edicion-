@@ -1,0 +1,18 @@
+000    0.00-   1.00 (1.0s) | What do you say when a client
+001    1.00-   2.33 (1.3s) | tells you that it's too expensive?
+002    2.33-   9.33 (7.0s) | So what I do there is something called a reframe, right? When someone talks about something being expensive, what they're really talking about is a budget.
+003    9.33-  10.23 (0.9s) | So I'll reframe it to
+004   10.23-  17.57 (7.3s) | it's a premium product. I'm not gonna argue and say it's cheap, it's inexpensive. That's not what matters. What matters is that
+005   17.57-  18.60 (1.0s) | it's premium.
+006   18.60-  19.77 (1.2s) | It's got value, it's
+007   19.77-  21.03 (1.3s) | a great deal.
+008   21.03-  25.53 (4.5s) | So I reframe that away from price to actually value. And after you
+009   25.53-  26.20 (0.7s) | just agree?
+010   26.20-  29.60 (3.4s) | Once you reframe it and you bring it about to value,
+011   29.60-  31.50 (1.9s) | now it comes down to filling their need and
+012   31.50-  33.20 (1.7s) | building massive certainty.
+013   33.20-  37.37 (4.2s) | People are always willing to pay for something if they know the value is there.
+014   37.37-  37.90 (0.5s) | Works 100
+015   37.90-  39.00 (1.1s) | % of the time.
+016   39.00-  40.10 (1.1s) | How can I learn more from you?
+017   40.10-  44.07 (4.0s) | Very simple, just follow me and I'll show you exactly how to do this.

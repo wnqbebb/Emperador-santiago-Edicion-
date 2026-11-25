@@ -1,0 +1,38 @@
+[
+ {
+  "t": 0.093,
+  "dur": 0.07,
+  "kind": "click",
+  "gain_db": 12.4,
+  "to_cut": 0.09,
+  "word": "Claude",
+  "to_word": 0.09
+ },
+ {
+  "t": 12.318,
+  "dur": 0.12,
+  "kind": "click",
+  "gain_db": 9.3,
+  "to_cut": 0.1,
+  "word": "just",
+  "to_word": 0.04
+ },
+ {
+  "t": 30.232,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 12.3,
+  "to_cut": 1.25,
+  "word": "layout,",
+  "to_word": -0.19
+ },
+ {
+  "t": 31.707,
+  "dur": 0.09,
+  "kind": "pop",
+  "gain_db": 8.3,
+  "to_cut": -0.15,
+  "word": "Claude",
+  "to_word": -0.15
+ }
+]

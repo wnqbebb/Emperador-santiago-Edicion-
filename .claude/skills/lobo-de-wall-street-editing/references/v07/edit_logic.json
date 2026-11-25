@@ -1,0 +1,643 @@
+{
+ "triggers": [
+  {
+   "t_word": 0.0,
+   "word": "Nike",
+   "element": "A-roll blur→nítido + swoosh Nike blanco detrás de la cabeza (fade-in 0.07–0.4)",
+   "category": "icon_overlay",
+   "offset_s": 0.07,
+   "why": "literal: marca nombrada = logo (observed)"
+  },
+  {
+   "t_word": 1.76,
+   "word": "Nike",
+   "element": "corte de encuadre (punch) y sale el logo (fade 1.78–2.0)",
+   "category": "aroll_caption_big",
+   "offset_s": -0.05,
+   "why": "nueva mitad del patrón"
+  },
+  {
+   "t_word": 2.54,
+   "word": "motivation.",
+   "element": "'motivation' amarillo grande fade+blur-in 2.58",
+   "category": "aroll_caption_big",
+   "offset_s": 0.04,
+   "why": "énfasis: beneficio real"
+  },
+  {
+   "t_word": 3.72,
+   "word": "You're",
+   "element": "punch-out 3.67",
+   "category": "aroll_punch",
+   "offset_s": -0.05,
+   "why": "nuevo bloque"
+  },
+  {
+   "t_word": 5.34,
+   "word": "You're",
+   "element": "punch-in 5.26",
+   "category": "aroll_caption_big",
+   "offset_s": -0.08,
+   "why": "nuevo bloque"
+  },
+  {
+   "t_word": 7.66,
+   "word": "at",
+   "element": "'at 6 am' amarillo",
+   "category": "aroll_caption_big",
+   "offset_s": 0.0,
+   "why": "dato concreto (hora)"
+  },
+  {
+   "t_word": 8.78,
+   "word": "McDonald's",
+   "element": "corte 8.72 + arcos McDonald's detrás de la cabeza fade+scale 8.79→9.06",
+   "category": "icon_overlay",
+   "offset_s": -0.06,
+   "why": "literal: logo"
+  },
+  {
+   "t_word": 10.62,
+   "word": "It",
+   "element": "corte 10.59; arcos salen fade 10.59→10.79",
+   "category": "aroll_caption_big",
+   "offset_s": -0.03,
+   "why": "cambio a beneficio"
+  },
+  {
+   "t_word": 11.9,
+   "word": "happiness.",
+   "element": "'happiness' amarillo",
+   "category": "aroll_caption_big",
+   "offset_s": 0.0,
+   "why": "énfasis emocional"
+  },
+  {
+   "t_word": 12.68,
+   "word": "Amazon",
+   "element": "corte 12.68 + logo amazon blur-in 12.75",
+   "category": "icon_overlay",
+   "offset_s": 0.07,
+   "why": "literal: logo"
+  },
+  {
+   "t_word": 14.64,
+   "word": "convenience.",
+   "element": "'convenience' amarillo",
+   "category": "aroll_caption_big",
+   "offset_s": 0.0,
+   "why": "énfasis"
+  },
+  {
+   "t_word": 16.14,
+   "word": "Rolex",
+   "element": "corte 15.93 + corona Rolex crece detrás de la cabeza 16.0→16.27",
+   "category": "icon_overlay",
+   "offset_s": -0.14,
+   "why": "literal + metáfora (corona = estatus)"
+  },
+  {
+   "t_word": 19.92,
+   "word": "nothing.",
+   "element": "'nothing' amarillo revelado letra a letra aleatoria 19.87→20.33",
+   "category": "aroll_caption_big",
+   "offset_s": -0.05,
+   "why": "remate irónico"
+  },
+  {
+   "t_word": 20.76,
+   "word": "So",
+   "element": "punch-out 20.73",
+   "category": "aroll_punch",
+   "offset_s": -0.03,
+   "why": "cambio de tema: al espectador"
+  },
+  {
+   "t_word": 23.42,
+   "word": "They",
+   "element": "corte 23.40",
+   "category": "aroll_caption_big",
+   "offset_s": -0.02,
+   "why": "nuevo bloque"
+  },
+  {
+   "t_word": 23.74,
+   "word": "certainty",
+   "element": "'certainty' amarillo",
+   "category": "aroll_caption_big",
+   "offset_s": 0.0,
+   "why": "palabra clave del método"
+  },
+  {
+   "t_word": 24.92,
+   "word": "it'll",
+   "element": "corte 24.77",
+   "category": "aroll_caption_big",
+   "offset_s": -0.15,
+   "why": "ritmo"
+  },
+  {
+   "t_word": 27.02,
+   "word": "gym",
+   "element": "corte 26.90 + recuadro amarillo punteado con mancuerna 3D entra deslizando 26.97",
+   "category": "icon_overlay",
+   "offset_s": -0.05,
+   "why": "literal"
+  },
+  {
+   "t_word": 28.06,
+   "word": "body.",
+   "element": "'the body' amarillo",
+   "category": "icon_overlay",
+   "offset_s": 0.0,
+   "why": "beneficio"
+  },
+  {
+   "t_word": 29.0,
+   "word": "course",
+   "element": "corte 28.86 + 2.º recuadro (objeto oscuro) 28.96",
+   "category": "icon_overlay",
+   "offset_s": -0.04,
+   "why": "literal (acumula)"
+  },
+  {
+   "t_word": 30.26,
+   "word": "paycheck.",
+   "element": "'the paycheck' amarillo",
+   "category": "icon_overlay",
+   "offset_s": 0.0,
+   "why": "beneficio"
+  },
+  {
+   "t_word": 31.2,
+   "word": "suit",
+   "element": "corte 30.99 + 3.er recuadro (traje) 31.06",
+   "category": "icon_overlay",
+   "offset_s": -0.14,
+   "why": "literal (cierra la regla de 3)"
+  },
+  {
+   "t_word": 32.26,
+   "word": "respect.",
+   "element": "'the respect' amarillo",
+   "category": "icon_overlay",
+   "offset_s": 0.0,
+   "why": "beneficio"
+  },
+  {
+   "t_word": 33.04,
+   "word": "Stop",
+   "element": "corte a clip de película full-bleed 32.95; iconos fuera",
+   "category": "movie_clip",
+   "offset_s": -0.09,
+   "why": "cambio de tema: orden/regla"
+  },
+  {
+   "t_word": 35.44,
+   "word": "start",
+   "element": "corte a 2.º clip (DiCaprio al teléfono) 35.33",
+   "category": "movie_clip",
+   "offset_s": -0.11,
+   "why": "literal: vender por teléfono"
+  },
+  {
+   "t_word": 37.54,
+   "word": "Paint",
+   "element": "corte a A-roll abierto 37.54",
+   "category": "aroll_caption",
+   "offset_s": 0.0,
+   "why": "nueva regla → cara"
+  },
+  {
+   "t_word": 38.96,
+   "word": "Let",
+   "element": "corte 38.91",
+   "category": "icon_overlay",
+   "offset_s": -0.05,
+   "why": "ritmo"
+  },
+  {
+   "t_word": 39.9,
+   "word": "10",
+   "element": "'10s' gigante blanco semitransparente detrás de la cabeza 39.7",
+   "category": "icon_overlay",
+   "offset_s": -0.2,
+   "why": "dato numérico"
+  },
+  {
+   "t_word": 40.82,
+   "word": "Emotion",
+   "element": "dip a negro 40.71 → gráfico oscuro con cartera 3D; 'Emotion' blur-in 40.98",
+   "category": "full_graphic",
+   "offset_s": -0.11,
+   "why": "aforismo → gráfico"
+  },
+  {
+   "t_word": 42.18,
+   "word": "the",
+   "element": "'the wallet' amarillo blur-in 41.7–42.0",
+   "category": "full_graphic",
+   "offset_s": -0.4,
+   "why": "objeto literal (cartera)"
+  },
+  {
+   "t_word": 43.18,
+   "word": "Logic",
+   "element": "slide+blur a la izquierda 43.17; entra recibo 3D",
+   "category": "full_graphic",
+   "offset_s": -0.01,
+   "why": "segunda mitad literal (recibo)"
+  },
+  {
+   "t_word": 44.24,
+   "word": "receipt.",
+   "element": "'the receipts' amarillo ≈44.0",
+   "category": "full_graphic",
+   "offset_s": -0.2,
+   "why": "énfasis"
+  },
+  {
+   "t_word": 44.86,
+   "word": "That's",
+   "element": "corte a A-roll 44.79",
+   "category": "aroll_caption",
+   "offset_s": -0.07,
+   "why": "conclusión en cara"
+  },
+  {
+   "t_word": 47.06,
+   "word": "and",
+   "element": "punch 47.13",
+   "category": "aroll_punch",
+   "offset_s": 0.07,
+   "why": "aplicación al espectador"
+  },
+  {
+   "t_word": 48.9,
+   "word": "And",
+   "element": "corte 48.84",
+   "category": "aroll_caption_big",
+   "offset_s": -0.06,
+   "why": "CTA setup"
+  },
+  {
+   "t_word": 50.6,
+   "word": "Wolf",
+   "element": "'The Wolf of / Wall Street' amarillo 2 líneas",
+   "category": "aroll_caption_big",
+   "offset_s": 0.0,
+   "why": "marca personal"
+  },
+  {
+   "t_word": 51.78,
+   "word": "follow",
+   "element": "'Follow me' amarillo letra a letra 51.57 + tarjeta perfil + cursor",
+   "category": "title_cta",
+   "offset_s": -0.21,
+   "why": "CTA literal"
+  }
+ ],
+ "transitions": [
+  {
+   "t": 0.0,
+   "from": "inicio",
+   "to": "aroll",
+   "type": "zoom-blur",
+   "frames": 5,
+   "detail": "blur de foco → nítido 0–0.2 s"
+  },
+  {
+   "t": 1.71,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "punch-in/out de encuadre"
+  },
+  {
+   "t": 3.67,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "punch-in/out de encuadre"
+  },
+  {
+   "t": 5.26,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "punch-in/out de encuadre"
+  },
+  {
+   "t": 8.72,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "punch-in/out de encuadre"
+  },
+  {
+   "t": 10.59,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "punch-in/out de encuadre"
+  },
+  {
+   "t": 12.68,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "punch-in/out de encuadre"
+  },
+  {
+   "t": 15.93,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "punch-in/out de encuadre"
+  },
+  {
+   "t": 20.73,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "punch-in/out de encuadre"
+  },
+  {
+   "t": 23.4,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "punch-in/out de encuadre"
+  },
+  {
+   "t": 24.77,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "punch-in/out de encuadre"
+  },
+  {
+   "t": 26.9,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "punch-in/out de encuadre"
+  },
+  {
+   "t": 28.86,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "punch-in/out de encuadre"
+  },
+  {
+   "t": 30.99,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "punch-in/out de encuadre"
+  },
+  {
+   "t": 38.91,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "punch-in/out de encuadre"
+  },
+  {
+   "t": 47.13,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "punch-in/out de encuadre"
+  },
+  {
+   "t": 48.84,
+   "from": "aroll",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "punch-in/out de encuadre"
+  },
+  {
+   "t": 32.95,
+   "from": "aroll + iconos",
+   "to": "movie_clip",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "clip full-bleed, sin PiP"
+  },
+  {
+   "t": 35.33,
+   "from": "movie_clip",
+   "to": "movie_clip",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "otra escena de la película"
+  },
+  {
+   "t": 37.54,
+   "from": "movie_clip",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "vuelve a plano abierto"
+  },
+  {
+   "t": 40.71,
+   "from": "aroll",
+   "to": "full_graphic",
+   "type": "crossfade",
+   "frames": 2,
+   "detail": "dip a negro/oscurecido en 2 fr y aparece el fondo carbón"
+  },
+  {
+   "t": 43.17,
+   "from": "full_graphic cartera",
+   "to": "full_graphic recibo",
+   "type": "slide",
+   "frames": 4,
+   "detail": "texto y cartera salen a la izquierda con motion blur, recibo sube desde abajo"
+  },
+  {
+   "t": 44.79,
+   "from": "full_graphic",
+   "to": "aroll",
+   "type": "corte seco",
+   "frames": 0,
+   "detail": "1 frame con letras residuales abajo ('Dor')"
+  }
+ ],
+ "text_fx": [
+  {
+   "t": 2.58,
+   "fx": "blur-in",
+   "detail": "palabra amarilla aparece con fade+desenfoque en ~6 fr"
+  },
+  {
+   "t": 19.87,
+   "fx": "máscara",
+   "detail": "'nothing' letras aparecen una a una en orden aleatorio, 0.45 s"
+  },
+  {
+   "t": 40.98,
+   "fx": "blur-in",
+   "detail": "'Emotion' blanco bold y 'opens' gris regular entran palabra a palabra con blur"
+  },
+  {
+   "t": 41.7,
+   "fx": "blur-in",
+   "detail": "'the wallet' amarillo más grande bajo la línea blanca"
+  },
+  {
+   "t": 43.17,
+   "fx": "tracking",
+   "detail": "el texto sale deslizando a la izquierda con motion blur"
+  },
+  {
+   "t": 51.57,
+   "fx": "máscara",
+   "detail": "'Follow me' amarillo revelado letra a letra aleatoria"
+  }
+ ],
+ "camera": [
+  {
+   "t": 0.0,
+   "move": "rack-focus",
+   "scale_or_dir": "desenfocado→nítido",
+   "dur_s": 0.2
+  },
+  {
+   "t": 1.71,
+   "move": "punch-in",
+   "scale_or_dir": "alterna ≈1.0↔1.15 (estimado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 5.26,
+   "move": "punch-in",
+   "scale_or_dir": "alterna ≈1.0↔1.15 (estimado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 8.72,
+   "move": "punch-in",
+   "scale_or_dir": "alterna ≈1.0↔1.15 (estimado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 10.59,
+   "move": "punch-in",
+   "scale_or_dir": "alterna ≈1.0↔1.15 (estimado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 12.68,
+   "move": "punch-in",
+   "scale_or_dir": "alterna ≈1.0↔1.15 (estimado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 15.93,
+   "move": "punch-in",
+   "scale_or_dir": "alterna ≈1.0↔1.15 (estimado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 23.4,
+   "move": "punch-in",
+   "scale_or_dir": "alterna ≈1.0↔1.15 (estimado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 24.77,
+   "move": "punch-in",
+   "scale_or_dir": "alterna ≈1.0↔1.15 (estimado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 26.9,
+   "move": "punch-in",
+   "scale_or_dir": "alterna ≈1.0↔1.15 (estimado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 28.86,
+   "move": "punch-in",
+   "scale_or_dir": "alterna ≈1.0↔1.15 (estimado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 30.99,
+   "move": "punch-in",
+   "scale_or_dir": "alterna ≈1.0↔1.15 (estimado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 47.13,
+   "move": "punch-in",
+   "scale_or_dir": "alterna ≈1.0↔1.15 (estimado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 48.84,
+   "move": "punch-in",
+   "scale_or_dir": "alterna ≈1.0↔1.15 (estimado)",
+   "dur_s": 0.0
+  },
+  {
+   "t": 3.67,
+   "move": "zoom-out",
+   "scale_or_dir": "≈1.15→1.0",
+   "dur_s": 0.0
+  },
+  {
+   "t": 20.73,
+   "move": "zoom-out",
+   "scale_or_dir": "≈1.15→1.0",
+   "dur_s": 0.0
+  },
+  {
+   "t": 40.78,
+   "move": "slide",
+   "scale_or_dir": "cartera 3D rota/entra desde abajo-izquierda",
+   "dur_s": 2.3
+  }
+ ],
+ "rhythm": {
+  "events_per_10s": [
+   9,
+   8,
+   9,
+   10,
+   11,
+   5
+  ],
+  "avg_hold_text_s": 0.9,
+  "notes": "derived: eventos = cortes + entradas de icono/amarillo/gráfico. Algo cambia cada ~1 s; el amarillo llega en cada segunda frase (≈cada 2–3 s). Último tramo (45–52) solo cortes y CTA."
+ },
+ "typography": "Sans geométrica bold tipo Poppins: blanca pequeña ~3 % del alto (2–5 palabras) + amarilla #F8D821 ExtraBold ~6.3 % del alto en minúsculas (1–3 palabras, 'The Wolf of Wall Street' en 2 líneas). En el gráfico: 'Emotion' blanco bold + 'opens' gris regular + 'the wallet' amarillo. Logos de marca en blanco plano.",
+ "textures": "Ninguna textura añadida; sombra difusa bajo el texto; gráfico 3D con fondo carbón degradado radial y motion blur; franja negra inferior en los planos abiertos del A-roll.",
+ "distinct": [
+  "Logos blancos de marcas (Nike, McDonald's, Amazon, Rolex) DETRÁS de su cabeza, uno por cada repetición del patrón.",
+  "Iconos 3D en recuadros de selección amarillos punteados que se acumulan (gym/course/suit).",
+  "Revelado letra a letra aleatorio del amarillo ('nothing', 'Follow me').",
+  "Aforismo final como motion graphic 3D (cartera → recibo) con dip a negro y slide con blur.",
+  "Punch-in/out cada ~2.4 s y clips de película full-bleed sin recuadro."
+ ]
+}

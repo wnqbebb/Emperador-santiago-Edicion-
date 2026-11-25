@@ -10,7 +10,7 @@ import { planWithOpenAI, planWithGemini } from "./providers/keys.js";
 import { runCli } from "./providers/subscriptions.js";
 import type { ProviderId } from "./providers/index.js";
 import { ARTHUR_DIR, VES, skillSystem } from "./ves.js";
-import { KAL_SKILL, kalPrompt, sanitizeKal, type Fuente, type KBeats } from "./beats_kal.js";
+import { isSceneSkill, kalPrompt, sanitizeKal, type Fuente, type KBeats } from "./beats_kal.js";
 
 type Opt = { title: string; cats?: string; desc?: string; ref?: string; type: string | null; props?: Record<string, unknown>; enter?: string; exit?: string; start?: number; end?: number; then?: unknown };
 type Beat = { id: string; start: number; end: number; script: string; seen: string; pick: "A" | "B" | "C"; opts: Opt[] };
@@ -192,11 +192,11 @@ export async function ask(provider: ProviderId, system: string, user: string) {
 }
 
 export async function planBeats(provider: ProviderId, vesStyle: string, project: string, po?: PlanOpts, skill?: string): Promise<Beats | KBeats> {
-  if (skill === KAL_SKILL) {
+  if (isSceneSkill(skill)) {
     const o = po ?? { energia: "viral" as const, originales: true, broll: [] };
-    const { system, user, duration } = kalPrompt(project, o);
+    const { system, user, duration } = kalPrompt(project, o, skill);
     const raw = await ask(provider, system, user);
-    return sanitizeKal(extract(raw) as unknown as KBeats, duration, join(skillSystem(skill), "projects", project), o.originales);
+    return sanitizeKal(extract(raw) as unknown as KBeats, duration, join(skillSystem(skill), "projects", project), o.originales, skill);
   }
   PROVIDED = new Set((po?.broll ?? []).map((b) => b.path));
   const { system, user, allowed, duration } = beatsPrompt(vesStyle, project, po);

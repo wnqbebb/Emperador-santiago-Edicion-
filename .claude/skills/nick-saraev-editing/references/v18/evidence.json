@@ -1,0 +1,1392 @@
+{
+  "video": "v18.mp4",
+  "duration": 45.46,
+  "derived": {
+    "shots": 12,
+    "avg_shot_len": 3.79,
+    "cuts_per_min": 15.8,
+    "hook_shots_first_3s": 2,
+    "high_motion_shots": [
+      3,
+      5,
+      9,
+      11
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "You",
+      "start": 0.0,
+      "end": 0.1
+    },
+    {
+      "w": "don't",
+      "start": 0.1,
+      "end": 0.24
+    },
+    {
+      "w": "need",
+      "start": 0.24,
+      "end": 0.34
+    },
+    {
+      "w": "to",
+      "start": 0.34,
+      "end": 0.44
+    },
+    {
+      "w": "pay",
+      "start": 0.44,
+      "end": 0.6
+    },
+    {
+      "w": "for",
+      "start": 0.6,
+      "end": 0.76
+    },
+    {
+      "w": "expensive",
+      "start": 0.76,
+      "end": 1.18
+    },
+    {
+      "w": "SEO",
+      "start": 1.18,
+      "end": 1.62
+    },
+    {
+      "w": "tools",
+      "start": 1.62,
+      "end": 2.04
+    },
+    {
+      "w": "anymore.",
+      "start": 2.04,
+      "end": 2.36
+    },
+    {
+      "w": "Instead,",
+      "start": 2.56,
+      "end": 2.82
+    },
+    {
+      "w": "use",
+      "start": 2.98,
+      "end": 3.1
+    },
+    {
+      "w": "this",
+      "start": 3.1,
+      "end": 3.38
+    },
+    {
+      "w": "free",
+      "start": 3.38,
+      "end": 3.66
+    },
+    {
+      "w": "Claude",
+      "start": 3.66,
+      "end": 4.0
+    },
+    {
+      "w": "plugin",
+      "start": 4.0,
+      "end": 4.32
+    },
+    {
+      "w": "to",
+      "start": 4.32,
+      "end": 4.46
+    },
+    {
+      "w": "turn",
+      "start": 4.46,
+      "end": 4.66
+    },
+    {
+      "w": "your",
+      "start": 4.66,
+      "end": 4.8
+    },
+    {
+      "w": "Claude",
+      "start": 4.8,
+      "end": 5.08
+    },
+    {
+      "w": "code",
+      "start": 5.08,
+      "end": 5.3
+    },
+    {
+      "w": "into",
+      "start": 5.3,
+      "end": 5.54
+    },
+    {
+      "w": "an",
+      "start": 5.54,
+      "end": 5.68
+    },
+    {
+      "w": "SEO",
+      "start": 5.68,
+      "end": 5.96
+    },
+    {
+      "w": "expert",
+      "start": 5.96,
+      "end": 6.44
+    },
+    {
+      "w": "instantly.",
+      "start": 6.44,
+      "end": 6.84
+    },
+    {
+      "w": "This",
+      "start": 7.12,
+      "end": 7.26
+    },
+    {
+      "w": "is",
+      "start": 7.26,
+      "end": 7.4
+    },
+    {
+      "w": "called",
+      "start": 7.4,
+      "end": 7.62
+    },
+    {
+      "w": "Claude",
+      "start": 7.62,
+      "end": 8.02
+    },
+    {
+      "w": "SEO,",
+      "start": 8.02,
+      "end": 8.34
+    },
+    {
+      "w": "and",
+      "start": 8.58,
+      "end": 8.64
+    },
+    {
+      "w": "it's",
+      "start": 8.64,
+      "end": 8.78
+    },
+    {
+      "w": "a",
+      "start": 8.78,
+      "end": 8.86
+    },
+    {
+      "w": "collection",
+      "start": 8.86,
+      "end": 9.1
+    },
+    {
+      "w": "of",
+      "start": 9.1,
+      "end": 9.3
+    },
+    {
+      "w": "26",
+      "start": 9.3,
+      "end": 9.74
+    },
+    {
+      "w": "AI",
+      "start": 9.74,
+      "end": 10.14
+    },
+    {
+      "w": "SEO",
+      "start": 10.14,
+      "end": 10.54
+    },
+    {
+      "w": "skills",
+      "start": 10.54,
+      "end": 10.9
+    },
+    {
+      "w": "that's",
+      "start": 10.9,
+      "end": 11.16
+    },
+    {
+      "w": "already",
+      "start": 11.16,
+      "end": 11.4
+    },
+    {
+      "w": "crossed",
+      "start": 11.4,
+      "end": 11.64
+    },
+    {
+      "w": "23K",
+      "start": 11.64,
+      "end": 12.48
+    },
+    {
+      "w": "stars",
+      "start": 12.48,
+      "end": 12.8
+    },
+    {
+      "w": "on",
+      "start": 12.8,
+      "end": 13.12
+    },
+    {
+      "w": "GitHub.",
+      "start": 13.12,
+      "end": 13.36
+    },
+    {
+      "w": "Where",
+      "start": 13.56,
+      "end": 13.66
+    },
+    {
+      "w": "one",
+      "start": 13.66,
+      "end": 13.86
+    },
+    {
+      "w": "skill",
+      "start": 13.86,
+      "end": 14.06
+    },
+    {
+      "w": "fixes",
+      "start": 14.06,
+      "end": 14.38
+    },
+    {
+      "w": "your",
+      "start": 14.38,
+      "end": 14.58
+    },
+    {
+      "w": "site",
+      "start": 14.58,
+      "end": 14.78
+    },
+    {
+      "w": "speed,",
+      "start": 14.78,
+      "end": 15.08
+    },
+    {
+      "w": "another",
+      "start": 15.24,
+      "end": 15.4
+    },
+    {
+      "w": "might",
+      "start": 15.4,
+      "end": 15.56
+    },
+    {
+      "w": "optimize",
+      "start": 15.56,
+      "end": 15.88
+    },
+    {
+      "w": "your",
+      "start": 15.88,
+      "end": 16.16
+    },
+    {
+      "w": "content,",
+      "start": 16.16,
+      "end": 16.5
+    },
+    {
+      "w": "backlinks,",
+      "start": 16.64,
+      "end": 17.04
+    },
+    {
+      "w": "and",
+      "start": 17.18,
+      "end": 17.24
+    },
+    {
+      "w": "technical",
+      "start": 17.24,
+      "end": 17.54
+    },
+    {
+      "w": "SEO,",
+      "start": 17.54,
+      "end": 17.88
+    },
+    {
+      "w": "and",
+      "start": 18.08,
+      "end": 18.18
+    },
+    {
+      "w": "another",
+      "start": 18.18,
+      "end": 18.44
+    },
+    {
+      "w": "handles",
+      "start": 18.44,
+      "end": 18.8
+    },
+    {
+      "w": "your",
+      "start": 18.8,
+      "end": 18.98
+    },
+    {
+      "w": "entire",
+      "start": 18.98,
+      "end": 19.24
+    },
+    {
+      "w": "local",
+      "start": 19.24,
+      "end": 19.58
+    },
+    {
+      "w": "SEO",
+      "start": 19.58,
+      "end": 20.06
+    },
+    {
+      "w": "on",
+      "start": 20.06,
+      "end": 20.3
+    },
+    {
+      "w": "Google",
+      "start": 20.3,
+      "end": 20.44
+    },
+    {
+      "w": "Maps.",
+      "start": 20.44,
+      "end": 20.78
+    },
+    {
+      "w": "Just",
+      "start": 20.98,
+      "end": 21.1
+    },
+    {
+      "w": "give",
+      "start": 21.1,
+      "end": 21.24
+    },
+    {
+      "w": "it",
+      "start": 21.24,
+      "end": 21.32
+    },
+    {
+      "w": "your",
+      "start": 21.32,
+      "end": 21.42
+    },
+    {
+      "w": "website",
+      "start": 21.42,
+      "end": 21.76
+    },
+    {
+      "w": "and",
+      "start": 21.76,
+      "end": 21.98
+    },
+    {
+      "w": "it'll",
+      "start": 21.98,
+      "end": 22.14
+    },
+    {
+      "w": "spin",
+      "start": 22.14,
+      "end": 22.3
+    },
+    {
+      "w": "up",
+      "start": 22.3,
+      "end": 22.44
+    },
+    {
+      "w": "17",
+      "start": 22.44,
+      "end": 22.88
+    },
+    {
+      "w": "AI",
+      "start": 22.88,
+      "end": 23.32
+    },
+    {
+      "w": "agents",
+      "start": 23.32,
+      "end": 23.64
+    },
+    {
+      "w": "that",
+      "start": 23.64,
+      "end": 23.84
+    },
+    {
+      "w": "work",
+      "start": 23.84,
+      "end": 24.02
+    },
+    {
+      "w": "in",
+      "start": 24.02,
+      "end": 24.18
+    },
+    {
+      "w": "parallel",
+      "start": 24.18,
+      "end": 24.5
+    },
+    {
+      "w": "to",
+      "start": 24.5,
+      "end": 24.7
+    },
+    {
+      "w": "analyze",
+      "start": 24.7,
+      "end": 25.0
+    },
+    {
+      "w": "the",
+      "start": 25.0,
+      "end": 25.22
+    },
+    {
+      "w": "whole",
+      "start": 25.22,
+      "end": 25.34
+    },
+    {
+      "w": "thing",
+      "start": 25.34,
+      "end": 25.6
+    },
+    {
+      "w": "and",
+      "start": 25.6,
+      "end": 25.8
+    },
+    {
+      "w": "then",
+      "start": 25.8,
+      "end": 25.9
+    },
+    {
+      "w": "hand",
+      "start": 25.9,
+      "end": 26.14
+    },
+    {
+      "w": "you",
+      "start": 26.14,
+      "end": 26.24
+    },
+    {
+      "w": "a",
+      "start": 26.24,
+      "end": 26.34
+    },
+    {
+      "w": "prioritized",
+      "start": 26.34,
+      "end": 27.02
+    },
+    {
+      "w": "action",
+      "start": 27.02,
+      "end": 27.36
+    },
+    {
+      "w": "plan",
+      "start": 27.36,
+      "end": 27.68
+    },
+    {
+      "w": "so",
+      "start": 27.68,
+      "end": 27.88
+    },
+    {
+      "w": "you",
+      "start": 27.88,
+      "end": 28.0
+    },
+    {
+      "w": "know",
+      "start": 28.0,
+      "end": 28.06
+    },
+    {
+      "w": "exactly",
+      "start": 28.06,
+      "end": 28.5
+    },
+    {
+      "w": "what",
+      "start": 28.5,
+      "end": 28.78
+    },
+    {
+      "w": "to",
+      "start": 28.78,
+      "end": 28.9
+    },
+    {
+      "w": "fix",
+      "start": 28.9,
+      "end": 29.1
+    },
+    {
+      "w": "first.",
+      "start": 29.1,
+      "end": 29.38
+    },
+    {
+      "w": "Then",
+      "start": 29.38,
+      "end": 29.72
+    },
+    {
+      "w": "it'll",
+      "start": 29.72,
+      "end": 30.02
+    },
+    {
+      "w": "generate",
+      "start": 30.02,
+      "end": 30.32
+    },
+    {
+      "w": "your",
+      "start": 30.32,
+      "end": 30.56
+    },
+    {
+      "w": "site",
+      "start": 30.56,
+      "end": 30.74
+    },
+    {
+      "w": "map,",
+      "start": 30.74,
+      "end": 31.0
+    },
+    {
+      "w": "competitor",
+      "start": 31.16,
+      "end": 31.52
+    },
+    {
+      "w": "comparison",
+      "start": 31.52,
+      "end": 32.04
+    },
+    {
+      "w": "pages,",
+      "start": 32.04,
+      "end": 32.4
+    },
+    {
+      "w": "and",
+      "start": 32.68,
+      "end": 32.82
+    },
+    {
+      "w": "even",
+      "start": 32.82,
+      "end": 33.16
+    },
+    {
+      "w": "fresh",
+      "start": 33.16,
+      "end": 33.44
+    },
+    {
+      "w": "blogs",
+      "start": 33.44,
+      "end": 33.88
+    },
+    {
+      "w": "based",
+      "start": 33.88,
+      "end": 34.16
+    },
+    {
+      "w": "off",
+      "start": 34.16,
+      "end": 34.4
+    },
+    {
+      "w": "your",
+      "start": 34.4,
+      "end": 34.52
+    },
+    {
+      "w": "keyword",
+      "start": 34.52,
+      "end": 34.76
+    },
+    {
+      "w": "research,",
+      "start": 34.76,
+      "end": 35.18
+    },
+    {
+      "w": "all",
+      "start": 35.36,
+      "end": 35.5
+    },
+    {
+      "w": "while",
+      "start": 35.5,
+      "end": 35.62
+    },
+    {
+      "w": "optimizing",
+      "start": 35.62,
+      "end": 36.04
+    },
+    {
+      "w": "your",
+      "start": 36.04,
+      "end": 36.32
+    },
+    {
+      "w": "site",
+      "start": 36.32,
+      "end": 36.56
+    },
+    {
+      "w": "for",
+      "start": 36.56,
+      "end": 36.72
+    },
+    {
+      "w": "AI",
+      "start": 36.72,
+      "end": 36.92
+    },
+    {
+      "w": "search,",
+      "start": 36.92,
+      "end": 37.22
+    },
+    {
+      "w": "so",
+      "start": 37.54,
+      "end": 37.64
+    },
+    {
+      "w": "chat",
+      "start": 37.64,
+      "end": 37.86
+    },
+    {
+      "w": "GPT,",
+      "start": 37.86,
+      "end": 38.38
+    },
+    {
+      "w": "Claude,",
+      "start": 38.56,
+      "end": 38.86
+    },
+    {
+      "w": "and",
+      "start": 38.9,
+      "end": 38.94
+    },
+    {
+      "w": "Google's",
+      "start": 38.94,
+      "end": 39.32
+    },
+    {
+      "w": "AI",
+      "start": 39.32,
+      "end": 39.5
+    },
+    {
+      "w": "can",
+      "start": 39.5,
+      "end": 39.86
+    },
+    {
+      "w": "site",
+      "start": 39.86,
+      "end": 40.18
+    },
+    {
+      "w": "your",
+      "start": 40.18,
+      "end": 40.48
+    },
+    {
+      "w": "site",
+      "start": 40.48,
+      "end": 40.8
+    },
+    {
+      "w": "instead",
+      "start": 40.8,
+      "end": 41.16
+    },
+    {
+      "w": "of",
+      "start": 41.16,
+      "end": 41.34
+    },
+    {
+      "w": "your",
+      "start": 41.34,
+      "end": 41.42
+    },
+    {
+      "w": "competitors.",
+      "start": 41.42,
+      "end": 41.82
+    },
+    {
+      "w": "So",
+      "start": 42.1,
+      "end": 42.2
+    },
+    {
+      "w": "if",
+      "start": 42.2,
+      "end": 42.26
+    },
+    {
+      "w": "you",
+      "start": 42.26,
+      "end": 42.32
+    },
+    {
+      "w": "want",
+      "start": 42.32,
+      "end": 42.44
+    },
+    {
+      "w": "to",
+      "start": 42.44,
+      "end": 42.5
+    },
+    {
+      "w": "try",
+      "start": 42.5,
+      "end": 42.66
+    },
+    {
+      "w": "this",
+      "start": 42.66,
+      "end": 42.82
+    },
+    {
+      "w": "for",
+      "start": 42.82,
+      "end": 42.94
+    },
+    {
+      "w": "yourselves,",
+      "start": 42.94,
+      "end": 43.28
+    },
+    {
+      "w": "just",
+      "start": 43.42,
+      "end": 43.5
+    },
+    {
+      "w": "comment",
+      "start": 43.5,
+      "end": 43.72
+    },
+    {
+      "w": "SEO",
+      "start": 43.72,
+      "end": 44.1
+    },
+    {
+      "w": "down",
+      "start": 44.1,
+      "end": 44.3
+    },
+    {
+      "w": "below",
+      "start": 44.3,
+      "end": 44.54
+    },
+    {
+      "w": "and",
+      "start": 44.54,
+      "end": 44.74
+    },
+    {
+      "w": "I'll",
+      "start": 44.74,
+      "end": 44.84
+    },
+    {
+      "w": "send",
+      "start": 44.84,
+      "end": 45.0
+    },
+    {
+      "w": "you",
+      "start": 45.0,
+      "end": 45.1
+    },
+    {
+      "w": "the",
+      "start": 45.1,
+      "end": 45.18
+    },
+    {
+      "w": "link.",
+      "start": 45.18,
+      "end": 45.34
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 2.567,
+      "length": 2.567,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F1F2F3",
+            "share": 0.425
+          },
+          {
+            "hex": "#D9E6EC",
+            "share": 0.081
+          },
+          {
+            "hex": "#6F6768",
+            "share": 0.062
+          },
+          {
+            "hex": "#CEDBE4",
+            "share": 0.06
+          },
+          {
+            "hex": "#3A3332",
+            "share": 0.039
+          }
+        ],
+        "motion_energy": 7.59,
+        "script": "You don't need to pay for expensive SEO tools anymore. Instead,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 2.567,
+      "end": 7.1,
+      "length": 4.533,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0A0A0A",
+            "share": 0.888
+          },
+          {
+            "hex": "#0F1A2B",
+            "share": 0.035
+          },
+          {
+            "hex": "#2C2C2D",
+            "share": 0.021
+          },
+          {
+            "hex": "#4B4B4E",
+            "share": 0.011
+          },
+          {
+            "hex": "#2B170F",
+            "share": 0.011
+          }
+        ],
+        "motion_energy": 7.29,
+        "script": "use this free Claude plugin to turn your Claude code into an SEO expert instantly."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 7.1,
+      "end": 8.233,
+      "length": 1.133,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FCFCFC",
+            "share": 0.746
+          },
+          {
+            "hex": "#181814",
+            "share": 0.131
+          },
+          {
+            "hex": "#2D2B27",
+            "share": 0.019
+          },
+          {
+            "hex": "#0886FA",
+            "share": 0.01
+          },
+          {
+            "hex": "#25211C",
+            "share": 0.01
+          }
+        ],
+        "motion_energy": 7.59,
+        "script": "This is called Claude SEO,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 8.233,
+      "end": 13.567,
+      "length": 5.333,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#070706",
+            "share": 0.508
+          },
+          {
+            "hex": "#F9F9FA",
+            "share": 0.278
+          },
+          {
+            "hex": "#313945",
+            "share": 0.033
+          },
+          {
+            "hex": "#CDCFD0",
+            "share": 0.031
+          },
+          {
+            "hex": "#B0B1B3",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 31.0,
+        "script": "and it's a collection of 26 AI SEO skills that's already crossed 23K stars on GitHub. Where"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 13.567,
+      "end": 18.067,
+      "length": 4.5,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#111111",
+            "share": 0.242
+          },
+          {
+            "hex": "#EAECEE",
+            "share": 0.23
+          },
+          {
+            "hex": "#D9E6EC",
+            "share": 0.069
+          },
+          {
+            "hex": "#353131",
+            "share": 0.065
+          },
+          {
+            "hex": "#6F6768",
+            "share": 0.06
+          }
+        ],
+        "motion_energy": 7.21,
+        "script": "one skill fixes your site speed, another might optimize your content, backlinks, and technical SEO,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 18.067,
+      "end": 20.967,
+      "length": 2.9,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F1F3F4",
+            "share": 0.462
+          },
+          {
+            "hex": "#DAE6EC",
+            "share": 0.071
+          },
+          {
+            "hex": "#6F6768",
+            "share": 0.063
+          },
+          {
+            "hex": "#D3CED4",
+            "share": 0.051
+          },
+          {
+            "hex": "#CDDAE5",
+            "share": 0.051
+          }
+        ],
+        "motion_energy": 16.7,
+        "script": "and another handles your entire local SEO on Google Maps."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 20.967,
+      "end": 25.7,
+      "length": 4.733,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0B0A0A",
+            "share": 0.896
+          },
+          {
+            "hex": "#0F1A2C",
+            "share": 0.037
+          },
+          {
+            "hex": "#29282B",
+            "share": 0.019
+          },
+          {
+            "hex": "#2B170F",
+            "share": 0.01
+          },
+          {
+            "hex": "#16212E",
+            "share": 0.006
+          }
+        ],
+        "motion_energy": 5.78,
+        "script": "Just give it your website and it'll spin up 17 AI agents that work in parallel to analyze the whole thing and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 25.7,
+      "end": 27.8,
+      "length": 2.1,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#050505",
+            "share": 0.512
+          },
+          {
+            "hex": "#F6F6F6",
+            "share": 0.178
+          },
+          {
+            "hex": "#193055",
+            "share": 0.13
+          },
+          {
+            "hex": "#1C3762",
+            "share": 0.035
+          },
+          {
+            "hex": "#CDCED2",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 4.29,
+        "script": "then hand you a prioritized action plan so"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 27.8,
+      "end": 29.567,
+      "length": 1.767,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#4F4646",
+            "share": 0.139
+          },
+          {
+            "hex": "#706869",
+            "share": 0.128
+          },
+          {
+            "hex": "#0A0509",
+            "share": 0.126
+          },
+          {
+            "hex": "#EDE4EA",
+            "share": 0.058
+          },
+          {
+            "hex": "#E5B5AD",
+            "share": 0.052
+          }
+        ],
+        "motion_energy": 11.83,
+        "script": "you know exactly what to fix first. Then"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 29.567,
+      "end": 35.333,
+      "length": 5.767,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#111111",
+            "share": 0.253
+          },
+          {
+            "hex": "#EAECEE",
+            "share": 0.225
+          },
+          {
+            "hex": "#332F2E",
+            "share": 0.078
+          },
+          {
+            "hex": "#DAE6EC",
+            "share": 0.074
+          },
+          {
+            "hex": "#6C6566",
+            "share": 0.064
+          }
+        ],
+        "motion_energy": 15.24,
+        "script": "it'll generate your site map, competitor comparison pages, and even fresh blogs based off your keyword research,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 10,
+      "start": 35.333,
+      "end": 42.067,
+      "length": 6.733,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F9FAFC",
+            "share": 0.352
+          },
+          {
+            "hex": "#02030C",
+            "share": 0.162
+          },
+          {
+            "hex": "#4B4D51",
+            "share": 0.159
+          },
+          {
+            "hex": "#313235",
+            "share": 0.106
+          },
+          {
+            "hex": "#525965",
+            "share": 0.036
+          }
+        ],
+        "motion_energy": 8.05,
+        "script": "all while optimizing your site for AI search, so chat GPT, Claude, and Google's AI can site your site instead of your competitors."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 11,
+      "start": 42.067,
+      "end": 45.462,
+      "length": 3.395,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#6C6464",
+            "share": 0.182
+          },
+          {
+            "hex": "#0B0509",
+            "share": 0.113
+          },
+          {
+            "hex": "#E5B4AC",
+            "share": 0.063
+          },
+          {
+            "hex": "#D1968B",
+            "share": 0.056
+          },
+          {
+            "hex": "#6B5754",
+            "share": 0.053
+          }
+        ],
+        "motion_energy": 21.05,
+        "script": "So if you want to try this for yourselves, just comment SEO down below and I'll send you the link."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

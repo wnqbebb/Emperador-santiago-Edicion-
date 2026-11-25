@@ -14,6 +14,10 @@ ARTHUR=.claude/skills/arthur-brooks-editing/system
 [ -d "$ARTHUR/render" ] && (cd "$ARTHUR/render" && npm install --no-audit --no-fund >/dev/null)
 KALLAWAY=.claude/skills/kallaway-editing/system
 [ -d "$KALLAWAY/render" ] && (cd "$KALLAWAY/render" && npm install --no-audit --no-fund >/dev/null)
+for S in nick-saraev-editing lobo-de-wall-street-editing; do
+  R=.claude/skills/$S/system/render
+  [ -d "$R" ] && (cd "$R" && npm install --no-audit --no-fund >/dev/null)
+done
 echo "  → Skylight (usa el mismo Python y el HyperFrames del proyecto)"
 tools/.venv/bin/pip install -q soundfile
 PC_PY="$PWD/tools/.venv/bin/python" PC_HYPERFRAMES="$PWD/node_modules/.bin/hyperframes" node .claude/skills/skylight/scripts/pc.mjs setup | tail -3 || true

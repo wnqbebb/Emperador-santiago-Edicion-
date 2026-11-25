@@ -1,0 +1,73 @@
+{
+ "triggers": [
+  {"t_word": 0.0, "word": "Here's", "element": "[obs] título 'Set' empieza write-on (0.13) y el recuadro de cara se dibuja desde abajo-izq con cursor (0.13–0.33)", "category": "hook_title", "offset_s": 0.13, "why": "hook: el título se construye mientras arranca la voz"},
+  {"t_word": 0.54, "word": "protect", "element": "[obs] 'protect' en azul en el caption (0.75)", "category": "hook_title", "offset_s": 0.2, "why": "énfasis: verbo de la promesa"},
+  {"t_word": 4.16, "word": "trap.", "element": "[obs] 'trap' en serif itálica azul (visible 4.25)", "category": "hook_title", "offset_s": 0.09, "why": "énfasis: repite la palabra del título"},
+  {"t_word": 4.56, "word": "It's", "element": "[obs] corte a lienzo vacío (4.40) y escudo BLA con fade+escala (4.47)", "category": "card_graphic", "offset_s": -0.09, "why": "cambio de tema: anuncio del nombre → pantalla limpia"},
+  {"t_word": 4.82, "word": "BLA,", "element": "[obs] texto 'BLA' aparece gris y pasa a blanco (5.0–5.2)", "category": "card_graphic", "offset_s": 0.18, "why": "literal: nombre dicho = nombre escrito"},
+  {"t_word": 5.64, "word": "free", "element": "[obs] píldora 'Free · open source (MIT)' con marco de selección + 'free' azul en caption", "category": "card_graphic", "offset_s": -0.1, "why": "dato: gratis"},
+  {"t_word": 6.7, "word": "app,", "element": "[obs] tarjeta 'Apps' se activa (entra gris 6.47, blanca ~6.6)", "category": "card_graphic", "offset_s": -0.1, "why": "lista literal"},
+  {"t_word": 7.1, "word": "website,", "element": "[obs] tarjeta 'Websites' se activa (~7.0)", "category": "card_graphic", "offset_s": -0.1, "why": "lista literal"},
+  {"t_word": 7.9, "word": "video", "element": "[obs] tarjeta 'Video games' (gris 7.5 → activa 7.75)", "category": "card_graphic", "offset_s": -0.15, "why": "lista literal"},
+  {"t_word": 8.58, "word": "And", "element": "[obs] corte a frame_split; ventana GitHub Quick Start crece desde ~70 % con cursor en el asa (8.53–8.9)", "category": "frame_split", "offset_s": -0.08, "why": "cambio de tema: de qué es a cómo se usa"},
+  {"t_word": 9.3, "word": "simple.", "element": "[obs] 'simple' en azul", "category": "frame_split", "offset_s": 0.15, "why": "énfasis"},
+  {"t_word": 10.6, "word": "point", "element": "[obs] resaltado azul sobre 'Point BLA at any project or release directory' (visible 10.5–11.5)", "category": "window_zoom", "offset_s": -0.1, "why": "literal: instrucción = texto marcado"},
+  {"t_word": 11.94, "word": "release", "element": "[obs] resaltado del comando 'npx bla-agents harden .' + cursor", "category": "window_zoom", "offset_s": 0.0, "why": "literal"},
+  {"t_word": 12.46, "word": "Then", "element": "[obs] corte a window_only VS Code; la cara desaparece (12.25)", "category": "window_zoom", "offset_s": -0.21, "why": "cambio de tema: mecanismo → más espacio al código"},
+  {"t_word": 13.1, "word": "fake", "element": "[obs] líneas con 'fake key' resaltadas en ámbar; 'fake' en azul en caption", "category": "window_zoom", "offset_s": 0.0, "why": "literal"},
+  {"t_word": 14.06, "word": "decoy", "element": "[obs] línea 'decoy' resaltada + 'decoy code' serif itálica azul", "category": "window_zoom", "offset_s": 0.1, "why": "literal + énfasis"},
+  {"t_word": 16.52, "word": "uses", "element": "[obs] tarjeta TOKENS BURNED aparece bajo la ventana (16.55)", "category": "window_only", "offset_s": 0.03, "why": "anticipa la consecuencia"},
+  {"t_word": 16.52, "word": "AI", "element": "[obs] chips-cursor de agentes (Gemini, Claude, ChatGPT) entran (16.6–16.9)", "category": "window_only", "offset_s": 0.1, "why": "metáfora: la IA = cursores con nombre"},
+  {"t_word": 18.54, "word": "confused", "element": "[obs] contador acelera (16,435 → 64,203 en 0.5 s)", "category": "card_graphic", "offset_s": -0.2, "why": "dato en movimiento"},
+  {"t_word": 19.4, "word": "burn", "element": "[obs] contador salta a millones (342,564 → 2,425,674 → 13,500,000 a 20.4)", "category": "card_graphic", "offset_s": -0.1, "why": "dato: quemar tokens"},
+  {"t_word": 21.28, "word": "useful.", "element": "[obs] 'useful' serif itálica blanca; contador congelado, texto rojo 'nothing useful'", "category": "card_graphic", "offset_s": 0.0, "why": "énfasis/remate"},
+  {"t_word": 21.74, "word": "And", "element": "[obs] corte a frame_split con web bla.tools; ventana crece desde ~70 % (21.73–22.1)", "category": "frame_split", "offset_s": -0.04, "why": "cambio de tema: beneficio → vuelve la cara"},
+  {"t_word": 23.72, "word": "same", "element": "[obs] 'same' azul + resaltado sobre '100% of original runtime behavior'", "category": "frame_split", "offset_s": 0.05, "why": "literal + énfasis"},
+  {"t_word": 24.82, "word": "any", "element": "[obs] tarjeta '100% same runtime behavior' pop en la ventana (~25.0)", "category": "window_zoom", "offset_s": 0.15, "why": "dato"},
+  {"t_word": 25.88, "word": "Plus", "element": "[obs] corte a window_only repo GitHub (25.85), cara fuera", "category": "window_only", "offset_s": -0.03, "why": "cambio de tema: argumento extra"},
+  {"t_word": 26.52, "word": "free", "element": "[obs] resaltado 'MIT license' + 'free' azul", "category": "window_only", "offset_s": 0.0, "why": "dato: prueba de gratuidad"},
+  {"t_word": 27.96, "word": "Cloudcode", "element": "[obs] sección MCP del README; 'Claude Code' resaltado + caption serif itálica azul", "category": "window_zoom", "offset_s": 0.0, "why": "literal"},
+  {"t_word": 28.5, "word": "Codex.", "element": "[obs] 'Codex' serif itálica azul", "category": "window_zoom", "offset_s": 0.05, "why": "literal"},
+  {"t_word": 28.9, "word": "So", "element": "[obs] corte seco a cara completa (28.98)", "category": "face_full", "offset_s": 0.08, "why": "CTA a cámara"},
+  {"t_word": 30.28, "word": "comment", "element": "[obs] 'comment' itálica script blanca, blur+fade", "category": "title_cta", "offset_s": 0.03, "why": "CTA"},
+  {"t_word": 30.48, "word": "Trap", "element": "[obs] '“Trap”' sans black con degradado en caja de selección azul (30.6)", "category": "title_cta", "offset_s": 0.12, "why": "palabra clave de DM"}
+ ],
+ "transitions": [
+  {"t": 4.4, "from": "hook_title (frame_split con título)", "to": "card_graphic (logo BLA)", "type": "corte seco", "frames": 0, "detail": "[obs] 1–2 frames de lienzo vacío antes de que entre el escudo (respiro)"},
+  {"t": 6.07, "from": "logo centrado", "to": "logo arriba + lista", "type": "slide", "frames": 7, "detail": "[obs] el bloque logo sube y se reduce ~0.25 s; misma escena (match del logo)"},
+  {"t": 8.5, "from": "card_graphic lista", "to": "frame_split GitHub", "type": "corte seco", "frames": 0, "detail": "[obs] ventana entra pequeña y crece ~0.4 s (redimensionado con cursor)"},
+  {"t": 12.25, "from": "frame_split GitHub", "to": "window_only VS Code", "type": "corte seco", "frames": 0, "detail": "[obs] ventana entra ~105 % y asienta en 2–3 frames; cara fuera"},
+  {"t": 16.55, "from": "VS Code alto", "to": "VS Code + tarjeta contador", "type": "slide", "frames": 5, "detail": "[obs] ventana se acorta y tarjeta aparece debajo con fade desde gris"},
+  {"t": 21.7, "from": "window_only contador", "to": "frame_split web bla.tools", "type": "corte seco", "frames": 0, "detail": "[obs] ventana al ~70 % crece en ~0.35 s con cursor en esquina inf-izq"},
+  {"t": 25.85, "from": "frame_split web", "to": "window_only GitHub repo", "type": "corte seco", "frames": 0, "detail": "[obs] ventana aparece algo grande y se asienta ~0.2 s"},
+  {"t": 27.3, "from": "repo (sidebar)", "to": "README sección MCP", "type": "corte seco", "frames": 0, "detail": "[obs] cambio de contenido dentro de la misma ventana; marco fijo"},
+  {"t": 28.98, "from": "window_only", "to": "face_full", "type": "corte seco", "frames": 0, "detail": "[obs] de lienzo oscuro a cámara a pantalla completa; sin efecto"}
+ ],
+ "text_fx": [
+  {"t": 0.13, "fx": "write-on por palabra", "detail": "[obs] título 'Set'→'Set A'→'Set A Trap'→'Set A Trap For' cada ~0.2 s, cada palabra con fade desde gris"},
+  {"t": 0.33, "fx": "máscara", "detail": "[obs] caja de 'AI Copycats' se abre en ancho (0.33–0.6) como selección de texto, texto aparece dentro"},
+  {"t": 0.07, "fx": "gris→blanco", "detail": "[obs] captions: cada palabra nueva entra gris (~50 %) y se blanquea en ~2 frames; se acumulan 1–3 palabras y se reinician"},
+  {"t": 5.0, "fx": "gris→blanco", "detail": "[obs] 'BLA' grande aparece gris y se blanquea en ~0.2 s"},
+  {"t": 6.47, "fx": "gris→blanco", "detail": "[obs] tarjetas de lista entran translúcidas grises y se activan con borde azul"},
+  {"t": 30.3, "fx": "blur-in", "detail": "[obs] 'comment' itálica script entra con desenfoque+fade ~0.1 s"},
+  {"t": 30.6, "fx": "máscara", "detail": "[obs] '“Trap”' aparece con su caja de selección (barras laterales + punto) dibujándose"}
+ ],
+ "camera": [
+  {"t": 8.53, "move": "zoom-out", "scale_or_dir": "ventana 0.70→1.00 (escala del elemento, no de cámara)", "dur_s": 0.4},
+  {"t": 12.4, "move": "punch-in", "scale_or_dir": "ventana 1.05→1.00 (asentado)", "dur_s": 0.1},
+  {"t": 13.0, "move": "pan", "scale_or_dir": "scroll vertical del código ↓", "dur_s": 2.5},
+  {"t": 21.73, "move": "zoom-out", "scale_or_dir": "ventana 0.70→1.00", "dur_s": 0.35},
+  {"t": 22.6, "move": "pan", "scale_or_dir": "scroll de la web ↓", "dur_s": 0.4},
+  {"t": 28.98, "move": "punch-in", "scale_or_dir": "de recuadro 80 % a cara a pantalla completa (corte)", "dur_s": 0.0}
+ ],
+ "rhythm": {"events_per_10s": [14, 11, 12, 2], "avg_hold_text_s": 0.9, "notes": "[der] Algo cambia cada 0.7–1 s (palabra, resaltado, contador o corte). Cambio de contenido de ventana cada ~1.8 s; 9 transiciones, todas cortes secos o movimientos de elementos, ninguna transición de efecto. El último bloque (cara, 3.7 s) baja a 2 eventos: el CTA respira. Último tramo 30–32.66 incompleto."},
+ "typography": "[obs] Sans geométrica bold/black blanca (tipo Inter Bold/Black) para título línea 1, captions y cifras; título línea 2 sans bold dentro de caja azul marino (no serif — difiere del brief general); serif itálica (tipo Instrument Serif/Playfair Italic) azul claro para palabras-concepto ('trap', 'decoy code', 'Claude Code', 'Codex') o blanca ('useful'); itálica tipo script/brush para 'comment'. Captions 1–3 palabras, ~4.4 % del alto; título ~3.4 %; 'BLA' ~5.5 %. Mayúsculas iniciales en título (Title Case). Palabra clave azul ≈#1E8BFF.",
+ "textures": "[obs] Lienzo negro con cuadrícula gris muy tenue y dibujo técnico (arcos, 'R18', '45°', regla numerada) — intensidad baja, visible sobre todo en los márgenes. Sin grano, sin viñeta marcada, capturas sin grado. Plano final de cámara con fondo liso rosado-gris.",
+ "distinct": [
+  "Contador 'TOKENS BURNED' que corre desde el hook y explota a 13.5 M en el mecanismo: el número es el protagonista.",
+  "Agentes de IA representados como cursores con nombre y logo (Gemini, Claude, ChatGPT, Kimi) moviéndose sobre el código.",
+  "Escena de logo en lienzo vacío con lista de 3 tarjetas que se encienden por palabra (app/website/video game).",
+  "Ventanas que entran 'redimensionadas' con cursor en el asa, como si el editor las arrastrara en vivo.",
+  "Paleta casi monocroma negro+azul; el único color cálido es el ámbar de los resaltados de código y el rojo del contador."
+ ]
+}

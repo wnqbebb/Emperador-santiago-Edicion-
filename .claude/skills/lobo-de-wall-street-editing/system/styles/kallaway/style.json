@@ -1,0 +1,198 @@
+{
+ "id": "kallaway",
+ "name": "Kallaway · pantalla dividida con evidencia",
+ "description": "Noticias y consejos con prueba: evidencia arriba (captura, foto, gráfico, chat), cara abajo, subtítulo pequeño blanco bajo la costura, franja del gancho, cortes secos en la palabra y una palabra gigante con la cara a pantalla completa cada 12–30 s.",
+ "format": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30
+ },
+ "fonts": {
+  "sans": {
+   "family": "Inter",
+   "weight": 800
+  },
+  "sans_bold": {
+   "family": "Inter",
+   "weight": 900
+  },
+  "special": {
+   "family": "Inter",
+   "weight": 900,
+   "style": "normal"
+  }
+ },
+ "palette": {
+  "mode": "fixed",
+  "fixed": {
+   "vibrant_bright": "#F5B942",
+   "vibrant_dark": "#8B1A1E",
+   "dull_white": "#FFFFFF",
+   "dull_black": "#0B0B0D"
+  },
+  "roles": {
+   "primary": "dull_black",
+   "secondary": "dull_white",
+   "accent": "vibrant_bright"
+  },
+  "ratio": [
+   60,
+   30,
+   10
+  ],
+  "_doc": "Medido en 20 reels: franja roja #8B1A1E, cifra/segunda línea amarilla #F5B942, fondo de gráficos casi negro."
+ },
+ "background": {
+  "fullscreen": "primary",
+  "grid": false,
+  "grid_opacity": 0
+ },
+ "texture": {
+  "kind": "none",
+  "opacity": 0
+ },
+ "shapes": {
+  "radius": 0,
+  "stroke": 3,
+  "edge": "rough"
+ },
+ "captions": {
+  "mode": "kallaway",
+  "max_words": 3,
+  "base_size": 48,
+  "below_seam": 0.047,
+  "pip_y": 0.56,
+  "center_y": 0.66,
+  "word_px": 170,
+  "word_y": 0.64,
+  "special_per_phrase": [
+   0,
+   1
+  ],
+  "special_scale": 1,
+  "zone": "seam",
+  "color": "#FFFFFF",
+  "special_color": "#F5B942",
+  "backdrop": {
+   "type": "none"
+  },
+  "animation": "none",
+  "_min_px": {
+   "small": 42,
+   "special": 42
+  },
+  "_doc": "1–3 palabras (media 2), blancas, sans bold, sustitución seca. Centro a 54 % del alto en pantalla dividida (costura + 4.7 %). En k_word, una palabra de ~170 px. La palabra clave va en dorado de marca (regla general del usuario); el resto, blanco."
+ },
+ "speaker": {
+  "eyes_line": "upper_third",
+  "nose_x": "center"
+ },
+ "motion": {
+  "enter_ms": 130,
+  "exit_ms": 0,
+  "easing": [
+   0.45,
+   0,
+   0.15,
+   1
+  ],
+  "pop_from_scale": 0.97,
+  "blur_from_px": 18,
+  "stagger_ms": 120,
+  "feel": "hard_cuts"
+ },
+ "pacing": {
+  "hook_window_s": 3.0,
+  "max_aroll_streak_s": 4.0,
+  "min_scene_s": 0.35,
+  "target_animation_share": 0.85
+ },
+ "scenes_allowed": [
+  "aroll",
+  "k_split",
+  "k_pip",
+  "k_hook",
+  "k_word"
+ ],
+ "sfx": {
+  "aroll": null,
+  "k_split": "click",
+  "k_pip": "whoosh_soft",
+  "k_hook": "whoosh",
+  "k_word": "hit",
+  "min_gap_s": 1.2
+ },
+ "music": {
+  "mood": "tensión tecnológica suave, pulso constante",
+  "folders": [
+   "tag/lo-fi",
+   "mood/inspiring"
+  ],
+  "ducking_db": -24
+ },
+ "safe_zone": {
+  "_doc": "Zona segura Reels/TikTok/Shorts (fracción del alto/ancho). Fuera de aquí la UI de la app tapa el contenido.",
+  "top": 0.14,
+  "bottom": 0.26,
+  "left": 0.07,
+  "right": 0.15
+ },
+ "_evidence": {
+  "videos": [
+   "v01",
+   "v02",
+   "v05",
+   "v06",
+   "v07",
+   "v08",
+   "v09",
+   "v10",
+   "v11",
+   "v12",
+   "v13",
+   "v14",
+   "v15",
+   "v16",
+   "v17",
+   "v18",
+   "v19",
+   "v20"
+  ],
+  "scenes": 830,
+  "note": "v03 y v04 son clips de podcast (otro formato)."
+ },
+ "aroll": {
+  "auto_punch": false,
+  "punch_origin_y": 0.36
+ },
+ "broll_grade": {
+  "contrast": 1.0,
+  "saturate": 1.0,
+  "brightness": 1.0,
+  "tint": "none",
+  "tint_opacity": 0,
+  "grain": 0,
+  "texture": "none",
+  "_doc": "La evidencia va sin grado: debe verse real."
+ },
+ "transitions": {
+  "allowed": [],
+  "min_gap_s": 99
+ },
+ "kallaway": {
+  "split_ratio": 0.49,
+  "word_zoom": 1.22,
+  "top_change_s": [
+   0.7,
+   2.5
+  ],
+  "word_every_s": [
+   12,
+   31
+  ],
+  "hook_banner_s": [
+   2.2,
+   4.1
+  ]
+ }
+}

@@ -1,0 +1,8 @@
+000    0.00-   3.57 (3.6s) | You can now make a stunning product video to sell anything without ever having to touch a camera.
+001    3.57-  11.27 (7.7s) | First, take a clean video of your product and upload it to HiggsField as the image reference. Then describe the scene you want, like maybe a sneaker splashing through water in slow -mo,
+002   11.27-  14.03 (2.8s) | and it'll give you multiple shots of the scene from different camera angles,
+003   14.03-  15.27 (1.2s) | just like a real product shoot.
+004   15.27-  18.23 (3.0s) | And if you want a person in your ad, you can create an AI influencer to hold
+005   18.23-  20.37 (2.1s) | your product and even present that to the camera.
+006   20.37-  25.33 (5.0s) | Finally, put all those shots together in a one full product video right inside of something like HiggsField, and you're done.
+007   25.33-  29.33 (4.0s) | So if you want the exact prompt for this system, just comment video and I'll send it to you directly.

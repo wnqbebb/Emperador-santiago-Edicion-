@@ -1,0 +1,196 @@
+{
+ "id": "lobo-de-wall-street",
+ "name": "Lobo de Wall Street · ventas a cámara",
+ "description": "Él a cámara (celular o estudio con micrófono), subtítulo blanco bold sobre el pecho, frase clave AMARILLA que se escribe letra a letra, objetos/cifras sobre la cabeza, lista numerada amarilla, fotos insertadas, clips de película y tarjeta de perfil con clic.",
+ "format": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30
+ },
+ "fonts": {
+  "sans": {
+   "family": "Inter",
+   "weight": 800
+  },
+  "sans_bold": {
+   "family": "Inter",
+   "weight": 900
+  },
+  "special": {
+   "family": "Inter",
+   "weight": 900,
+   "style": "italic"
+  }
+ },
+ "palette": {
+  "mode": "fixed",
+  "fixed": {
+   "vibrant_bright": "#F2D10F",
+   "vibrant_dark": "#8B5CF6",
+   "dull_white": "#FFFFFF",
+   "dull_black": "#050505"
+  },
+  "roles": {
+   "primary": "dull_black",
+   "secondary": "dull_white",
+   "accent": "vibrant_bright"
+  },
+  "ratio": [
+   60,
+   30,
+   10
+  ],
+  "_doc": "Amarillo medido #F2CB1D–#FBD816; Following morado; negro con grano en los gráficos."
+ },
+ "background": {
+  "fullscreen": "primary",
+  "grid": false,
+  "grid_opacity": 0
+ },
+ "texture": {
+  "kind": "none",
+  "opacity": 0
+ },
+ "shapes": {
+  "radius": 0,
+  "stroke": 3,
+  "edge": "rough"
+ },
+ "captions": {
+  "mode": "lobo",
+  "max_words": 4,
+  "base_size": 60,
+  "center_y": 0.61,
+  "movie_y": 0.68,
+  "only_forced": true,
+  "big_scale": 2.0,
+  "type_s": 0.3,
+  "special_color": "#F2D10F",
+  "special_per_phrase": [
+   0,
+   3
+  ],
+  "special_scale": 2,
+  "zone": "center",
+  "color": "#FFFFFF",
+  "backdrop": {
+   "type": "none"
+  },
+  "animation": "none",
+  "_min_px": {
+   "small": 42,
+   "special": 42
+  },
+  "_doc": "Blanco bold tipo Poppins ~3–3.5 % del alto a 60–70 %, 1–4 palabras, sombra suave, corte seco cada ~1.2 s. La frase clave (captions.special_words del plan) va en dos niveles: blanco itálica pequeño + AMARILLO ~2× que se escribe letra a letra (mayúsculas si es corta). Sobre clip de película baja a 68 %."
+ },
+ "speaker": {
+  "eyes_line": "upper_third",
+  "nose_x": "center"
+ },
+ "motion": {
+  "enter_ms": 200,
+  "exit_ms": 100,
+  "easing": [
+   0.45,
+   0,
+   0.15,
+   1
+  ],
+  "pop_from_scale": 0.97,
+  "blur_from_px": 18,
+  "stagger_ms": 120,
+  "feel": "hard_cuts"
+ },
+ "pacing": {
+  "hook_window_s": 3.0,
+  "max_aroll_streak_s": 8.0,
+  "min_scene_s": 0.5,
+  "target_animation_share": 0.3
+ },
+ "scenes_allowed": [
+  "aroll",
+  "p_punch",
+  "l_icon",
+  "l_list",
+  "l_insert",
+  "l_movie",
+  "l_comment",
+  "l_follow",
+  "l_full"
+ ],
+ "sfx": {
+  "aroll": null,
+  "p_punch": null,
+  "l_icon": "whoosh",
+  "l_list": "hit",
+  "l_insert": null,
+  "l_movie": null,
+  "l_comment": "pop",
+  "l_follow": "click",
+  "l_full": "whoosh",
+  "min_gap_s": 2.0
+ },
+ "music": {
+  "mood": "cama baja con pulso, tensión de ventas",
+  "folders": [
+   "tag/lo-fi",
+   "mood/inspiring"
+  ],
+  "ducking_db": -24
+ },
+ "safe_zone": {
+  "_doc": "Zona segura Reels/TikTok/Shorts (fracción del alto/ancho). Fuera de aquí la UI de la app tapa el contenido.",
+  "top": 0.14,
+  "bottom": 0.26,
+  "left": 0.07,
+  "right": 0.15
+ },
+ "_evidence": {
+  "videos": [
+   "v01",
+   "v05",
+   "v06",
+   "v07",
+   "v08",
+   "v09",
+   "v10",
+   "v11",
+   "v12",
+   "v13",
+   "v14",
+   "v15",
+   "v16",
+   "v17",
+   "v18",
+   "v19",
+   "v20"
+  ],
+  "scenes": 392,
+  "note": "v02, v03 y v04 son anuncios de su producto Tone: fuera de estilo."
+ },
+ "aroll": {
+  "auto_punch": false,
+  "punch_origin_y": 0.35,
+  "drift": {
+   "amount": 0,
+   "period_s": 20,
+   "settle": 0.25,
+   "settle_s": 0.3,
+   "punch": 0.1
+  }
+ },
+ "broll_grade": {
+  "contrast": 1.0,
+  "saturate": 1.0,
+  "brightness": 1.0,
+  "tint": "none",
+  "tint_opacity": 0,
+  "grain": 0,
+  "texture": "none",
+  "_doc": "La evidencia va sin grado: debe verse real."
+ },
+ "transitions": {
+  "allowed": [],
+  "min_gap_s": 99
+ }
+}

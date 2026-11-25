@@ -1,0 +1,11 @@
+000    0.00-   3.07 (3.1s) | There's now a free open source alternative to Grockbot and Metamuse, where
+001    3.07-   5.27 (2.2s) | every AI agent still gets its own computer,
+002    5.27-   8.37 (3.1s) | and it all runs on the Clauter Chat GPT plan you're already paying for.
+003    8.37-   9.67 (1.3s) | It's called Open Mousebot, and
+004    9.67-  11.80 (2.1s) | it's already crossed 20 ,000 stars on GitHub.
+005   11.80-  17.40 (5.6s) | First you create a bot for every job you want to automate, like maybe an inbox manager, a script researcher, or a video editor.
+006   17.40-  26.30 (8.9s) | Then you just give it a task, like find me this week's trending AI tools, and it'll open its own computer, search the web, go through every page, and send you back the results all independently.
+007   26.30-  30.00 (3.7s) | And each bot has its own memory, so it can remember your instructions and what you're working on.
+008   30.00-  33.97 (4.0s) | Plus it connects over 500 apps you already use, like Gmail, Slack, and Notion,
+009   33.97-  37.10 (3.1s) | and you can set your bots to run on their own, like every morning or every hour.
+010   37.10-  40.77 (3.7s) | So if you want to try this for yourselves, just comment bots, and we'll send you the link directly.

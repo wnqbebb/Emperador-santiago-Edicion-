@@ -13,7 +13,7 @@ import { runVes, waitVes, projectStatus, skillSystem } from "./ves.js";
 import { planBeats, ask, extract, type Beats, type PlanOpts } from "./beats.js";
 import { REELS_DATA, REEL_STEPS, reelDir, reelPrepare, reelPlan, reelBuild, reelStatus, reelEstilo, type RBeats } from "./reels.js";
 import { SKY_DATA, skyDir, skyPrepare, injectPalette, skyPrompt, skySanitize, skyBuild, skyStatus, skyBroll, type SBeats } from "./skylight.js";
-import { KAL_SKILL, type KBeats, type Fuente } from "./beats_kal.js";
+import { KAL_SKILL, isSceneSkill, sceneCfg, type KBeats, type Fuente } from "./beats_kal.js";
 import { writeMotionHtml, renderMotionHtml } from "./motion.js";
 import type { ProviderId } from "./providers/index.js";
 
@@ -76,12 +76,12 @@ const dirOf = (job: Pick<FlujoJob, "project" | "skill" | "motor">) => (job.motor
 const isReel = (job: FlujoJob) => job.motor === "reels";
 const isSky = (job: FlujoJob) => job.motor === "skylight";
 const SKY_STEPS = ["Preparando el proyecto", "Palabras y cara arriba (9:16 con seguimiento)", "Tu IA propone los beats A/B/C", "Tablero de preedición (tú eliges)", "Imágenes libres (Wikimedia Commons)", "Plan: mundos, animaciones y subtítulos", "Render HyperFrames y mezcla"];
-const isKal = (job: FlujoJob) => job.skill === KAL_SKILL;
+const isKal = (job: FlujoJob) => job.motor !== "skylight" && job.motor !== "reels" && isSceneSkill(job.skill);   // skills por escenas
 
 async function step(job: FlujoJob, i: number, cmds: { script: Parameters<typeof runVes>[0]; args: string[] }[]) {
   job.current = i; job.step = STEPS[i]; save(job);
   for (const c of cmds) {
-    const j = await waitVes(runVes(c.script, c.args, isKal(job) ? { VES_STYLE: "kallaway" } : {}, job.skill));
+    const j = await waitVes(runVes(c.script, c.args, isKal(job) ? { VES_STYLE: sceneCfg(job.skill!).style } : {}, job.skill));
     job.log.push(`$ ${j.cmd}`, ...j.log.slice(-6));
     job.log = job.log.slice(-60);
     if (j.status === "error") throw new Error(`${j.cmd}: ${j.log.slice(-3).join(" ")}`);
@@ -100,7 +100,7 @@ export function startFlujo(args: { videoPath: string; plantilla: string; provide
     await step(job, 0, [{ script: "ves", args: ["new", project, "--video", args.videoPath, "--style", p.vesStyle!] }]);
     await step(job, 1, [{ script: "ves", args: ["all", project, "--lang", "es"] }]);
     const dir = dirOf(job);
-    // Kallaway: las fuentes que pegó Santiago → capturas reales (1080×940) para la mitad superior
+    // Skills por escenas: las fuentes que pegó Santiago → capturas reales (1080×940) para la mitad superior
     if (isKal(job)) {
       job.evidencia = [];
       const urls = (job.respuestas.fuentes ?? []).filter((u) => /^https?:\/\//.test(u)).slice(0, 8);
@@ -213,7 +213,7 @@ async function plan(job: FlujoJob) {
   writeFileSync(join(dir, "edit_plan.json"), JSON.stringify({
     version: 1, style: job.vesStyle, source: { video: "media/raw_cut.mp4", captions: "captions.json" },
     palette: r.palette ?? null, texture_amount: r.texturas, scenes: [], assets: beats.assets ?? [],
-    captions: { enabled: true, hide_during: ["fullscreen"] }, music: { file: null, volume: 0.16 },
+    captions: { enabled: true, hide_during: ["fullscreen"], special_words: (beats as KBeats).special_words ?? [] }, music: { file: null, volume: 0.16 },
   }, null, 1));
   await step(job, 3, [{ script: "beats", args: ["panel", job.project, "--out", `projects/${job.project}/out/panel`] }]);
   if (r.rapido) return build(job, {});
@@ -293,9 +293,10 @@ Que sea dinámico y viral: algo se mueve todo el tiempo, entrada fuerte en el pr
   job.current = STEPS.length; job.step = "Borrador listo para revisar"; job.status = "review"; save(job);
 }
 
-/** Kallaway: originales en la mitad superior (1080×940), cara medida, revisión de reglas y borrador. */
+/** Skills por escenas (Kallaway, Nick, Lobo…): originales arriba (1080×940), cara medida, revisión de reglas y borrador. */
 async function buildKal(job: FlujoJob, picks: Record<string, string>) {
   const dir = dirOf(job);
+  const cfg = sceneCfg(job.skill!);
   const beats = JSON.parse(readFileSync(join(dir, "beats.json"), "utf8")) as KBeats;
   for (const b of beats.beats) if (picks[b.id]) b.pick = picks[b.id] as "A" | "B" | "C";
   job.current = 4; job.step = STEPS[4]; job.originales = 0; save(job);
@@ -307,14 +308,14 @@ async function buildKal(job: FlujoJob, picks: Record<string, string>) {
     if (!top?.original || top.media?.length) continue;
     const secs = Math.round(Math.max(0.8, s.end - s.start) * 100) / 100;
     const said = words.filter((w) => w.start >= s.start && w.start < s.end).map((w) => `${(w.start - s.start).toFixed(2)}s ${w.w}`).join(" · ");
-    const brief = `Motion graphic ORIGINAL de ${secs} s para la MITAD SUPERIOR de un reel estilo Kallaway (la cara va debajo, no la dibujes).
+    const brief = `Motion graphic ORIGINAL de ${secs} s para la parte de ARRIBA de un reel estilo ${cfg.nombre} (la cara va aparte, no la dibujes).
 Idea: ${top.original}
 Lo que se dice (sincroniza a estas palabras, tiempos desde 0): ${said}
 Paleta: resaltado ${pal.highlight ?? pal.vibrant_bright}, franja ${pal.vibrant_dark}, blanco ${pal.dull_white}, fondo casi negro ${pal.dull_black}.
-Look Kallaway: Inter 900, sólidos planos, cifras gigantes amarillas, etiquetas con borde negro, flechas amarillas. Sin texturas, sin degradados decorativos.
-Que se lea en el teléfono y algo cambie cada 0.6–1 s; entrada fuerte en el primer cuarto de segundo.`;
+Look ${cfg.nombre}: Inter 900, sólidos planos, cifras gigantes, etiquetas limpias, flechas. Sin texturas, sin degradados decorativos.
+Que se lea en el teléfono y algo cambie cada 0.6–1 s; entrada fuerte en el primer cuarto de segundo. Todo el texto con margen de 60 px a cada borde (no se puede cortar nada).`;
     try {
-      const html = await writeMotionHtml(job.provider, motionBrief(brief, secs, { caption: { highlight: pal.highlight ?? pal.vibrant_bright ?? "#F5B942" } } as never, pal.dull_black ?? "#0B0B0D", { w: 1080, h: 940 }));
+      const html = await writeMotionHtml(job.provider, motionBrief(brief, secs, { caption: { highlight: pal.highlight ?? pal.vibrant_bright ?? "#F5B942" } } as never, pal.dull_black ?? "#0B0B0D", cfg.topSize ?? { w: 1080, h: 940 }));
       const m = await renderMotionHtml(html, secs);
       const rel = `media/mg/${b.id}s${i}.mp4`;
       mkdirSync(join(dir, "media/mg"), { recursive: true });
@@ -331,7 +332,7 @@ Que se lea en el teléfono y algo cambie cada 0.6–1 s; entrada fuerte en el pr
   writeFileSync(picksFile, JSON.stringify({ picks: { [job.project]: Object.fromEntries(beats.beats.map((b) => [b.id, b.pick])) } }));
   await step(job, 5, [
     { script: "beats", args: ["apply", job.project, "--picks", picksFile] },
-    { script: "kal", args: ["face", job.project] },
+    ...(cfg.face ? [{ script: "kal" as const, args: ["face", job.project] }] : []),
   ]);
   autofix(job);
   await step(job, 5, [
@@ -340,7 +341,7 @@ Que se lea en el teléfono y algo cambie cada 0.6–1 s; entrada fuerte en el pr
     { script: "ves", args: ["captionsheet", job.project] },
     { script: "ves", args: ["validate", job.project] },
     { script: "ves", args: ["storyboard", job.project] },
-    { script: "kal", args: ["check", job.project] },
+    ...(cfg.check ? [{ script: "kal" as const, args: ["check", job.project] }] : []),
   ]);
   job.scenes = JSON.parse(readFileSync(join(dir, "edit_plan.json"), "utf8")).scenes.length;
   await step(job, 6, [

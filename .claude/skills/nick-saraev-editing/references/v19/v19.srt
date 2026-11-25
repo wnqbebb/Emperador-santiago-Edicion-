@@ -1,0 +1,147 @@
+1
+00:00:00,000 --> 00:00:01,100
+Google just open sourced a
+
+2
+00:00:01,100 --> 00:00:02,379
+free plugin that stops your
+
+3
+00:00:02,379 --> 00:00:03,980
+AI from writing buggy, sloppy
+
+4
+00:00:03,980 --> 00:00:05,679
+code, and thousands of people
+
+5
+00:00:05,679 --> 00:00:06,879
+at Google and Google's own
+
+6
+00:00:06,879 --> 00:00:08,380
+engineers already use it every
+
+7
+00:00:08,380 --> 00:00:09,599
+day. It's called the Elephant
+
+8
+00:00:09,599 --> 00:00:10,839
+Goldfish Model, and it works
+
+9
+00:00:10,839 --> 00:00:12,179
+in a two -agent setup.
+
+10
+00:00:12,320 --> 00:00:12,800
+You just give it a
+
+11
+00:00:12,800 --> 00:00:14,359
+task and an elephant agent
+
+12
+00:00:14,359 --> 00:00:15,439
+who knows everything about your
+
+13
+00:00:15,439 --> 00:00:16,539
+project and it'll write a
+
+14
+00:00:16,539 --> 00:00:17,559
+full plan for it. Then
+
+15
+00:00:17,559 --> 00:00:18,980
+a bunch of goldfish agents
+
+16
+00:00:18,980 --> 00:00:20,480
+with zero context of that
+
+17
+00:00:20,480 --> 00:00:21,960
+chat stress test your plan,
+
+18
+00:00:22,160 --> 00:00:23,039
+tear it apart and find
+
+19
+00:00:23,039 --> 00:00:24,460
+every gap and blind spot
+
+20
+00:00:24,460 --> 00:00:25,440
+that it missed. And that's
+
+21
+00:00:25,440 --> 00:00:26,579
+the whole point, because it's
+
+22
+00:00:26,579 --> 00:00:27,780
+almost impossible to spot your
+
+23
+00:00:27,780 --> 00:00:29,120
+own mistakes, but a fresh
+
+24
+00:00:29,120 --> 00:00:30,140
+pair of eyes like the
+
+25
+00:00:30,140 --> 00:00:31,320
+goldfish will catch it right
+
+26
+00:00:31,320 --> 00:00:32,420
+away. Only then, once you
+
+27
+00:00:32,420 --> 00:00:33,560
+approve the final plan, does
+
+28
+00:00:33,560 --> 00:00:34,799
+Claude actually start building, and
+
+29
+00:00:34,799 --> 00:00:35,840
+it'll save you hours of
+
+30
+00:00:35,840 --> 00:00:37,179
+wasted time and tokens every
+
+31
+00:00:37,179 --> 00:00:37,840
+day. So if you want
+
+32
+00:00:37,840 --> 00:00:38,679
+to step by step guide
+
+33
+00:00:38,679 --> 00:00:39,219
+on how to get up
+
+34
+00:00:39,219 --> 00:00:40,020
+and running with this, just
+
+35
+00:00:40,020 --> 00:00:41,460
+comment Google down below and
+
+36
+00:00:41,460 --> 00:00:42,100
+I'll DM you the link
+
+37
+00:00:42,100 --> 00:00:42,340
+directly.

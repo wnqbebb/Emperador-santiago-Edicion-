@@ -1,0 +1,8 @@
+000    0.00-   2.63 (2.6s) | You don't need to pay hundreds of dollars for API keys anymore.
+001    2.63-   7.37 (4.7s) | Instead, use Apanex, which gives you free API access to over 15 top AI models with
+002    7.37-   9.83 (2.5s) | 3 million tokens you can spend every day.
+003    9.83-  16.87 (7.0s) | This free list includes models like GPT -6, LUNA, DeepSeq v4, GLM 5 .3, Kimmy K3, and way more.
+004   16.87-  18.70 (1.8s) | Just sign up, grab your API key,
+005   18.70-  22.20 (3.5s) | and then plug it straight into Cloud Code, Codex, or whatever it is that you're working on.
+006   22.20-  26.10 (3.9s) | Perfect for AI agents, side projects, or just testing stuff without having to spend any money.
+007   26.10-  29.85 (3.7s) | So if you want the link yourselves, just comment API down below, and I'll send it to you directly.

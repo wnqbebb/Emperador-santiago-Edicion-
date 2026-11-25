@@ -1,0 +1,10 @@
+000    0.00-   4.47 (4.5s) | Claude can now test your business idea on over a hundred simulated AI customers for free before
+001    4.47-   5.77 (1.3s) | you spend a single dollar.
+002    5.77-  11.80 (6.0s) | This is called Founder Skill, and it's a pack of 11 free Claude skills that work like a full startup team inside your Claude code.
+003   11.80-  13.30 (1.5s) | First you explain your idea, and then a
+004   13.30-  18.33 (5.0s) | board of directors judges it using the frameworks of Alex Ramosy, Peter Thiel, and even Steve Jobs.
+005   18.33-  24.03 (5.7s) | Then it maps out your competitors and what their customers complain about. And it builds a hundred different buyers from your target customer,
+006   24.03-  33.07 (9.0s) | each with their own income, habits, and doubts, and pitches your idea to every single one. It then shows you who bought, who walked away, and ultimately what exactly would change their mind.
+007   33.07-  38.03 (5.0s) | And if they say no, it'll rebuild your whole offer around those doubts and test it on the same buyers again and again. Finally,
+008   38.03-  41.67 (3.6s) | it hands you a full business plan with a verdict, profitable, or not yet.
+009   41.67-  45.52 (3.9s) | Wanna try it for yourselves? Just comment Founder down below and I'll DM you the link directly.

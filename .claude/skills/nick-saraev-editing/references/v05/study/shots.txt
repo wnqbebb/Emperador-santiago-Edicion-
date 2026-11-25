@@ -1,0 +1,9 @@
+000    0.00-   5.10 (5.1s) | Claude can now turn your ugly, vibe -coded apps into something that looks like a real designer made it with just one command.
+001    5.10-   8.47 (3.4s) | This is Unslop, and it's a free, anti -AI slot design skill built
+002    8.47-  12.10 (3.6s) | for Claude code and codex that already has crossed 13 ,000 stars on GitHub.
+003   12.10-  14.20 (2.1s) | You just install it and point it at your app or website,
+004   14.20-  19.97 (5.8s) | and it'll catch every telltale sign of AI design from glowing purple gradients to emojis and maybe uneven spacing.
+005   19.97-  23.13 (3.2s) | Then it'll pitch you a premium design direction that actually fits your product.
+006   23.13-  31.77 (8.6s) | And once you approve it, it'll rebuild every screen in nine steps, just like a real designer would, fixing the spacing and colors first. Then the fonts, icons, layout, and even animations.
+007   31.77-  36.40 (4.6s) | Claude can even generate hero images and visuals for your page through tools like the Higgs Field MCP.
+008   36.40-  40.13 (3.7s) | So if you want to try it for yourselves, comment design down below, and I'll send you the link directly.

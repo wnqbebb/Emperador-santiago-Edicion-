@@ -1,0 +1,20 @@
+[
+ {
+  "t": 0.046,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 5.8,
+  "to_cut": 0.05,
+  "word": "What",
+  "to_word": 0.05
+ },
+ {
+  "t": 43.77,
+  "dur": 0.19,
+  "kind": "hit/boom",
+  "gain_db": 5.2,
+  "to_cut": 3.67,
+  "word": "this.",
+  "to_word": 0.11
+ }
+]

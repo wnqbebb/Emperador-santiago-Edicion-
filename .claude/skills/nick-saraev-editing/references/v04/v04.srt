@@ -1,0 +1,111 @@
+1
+00:00:00,000 --> 00:00:00,580
+You can now make a
+
+2
+00:00:00,580 --> 00:00:01,780
+stunning product video to sell
+
+3
+00:00:01,780 --> 00:00:02,940
+anything without ever having to
+
+4
+00:00:02,940 --> 00:00:04,040
+touch a camera. First, take
+
+5
+00:00:04,040 --> 00:00:04,820
+a clean video of your
+
+6
+00:00:04,820 --> 00:00:05,759
+product and upload it to
+
+7
+00:00:05,759 --> 00:00:06,919
+HiggsField as the image reference.
+
+8
+00:00:07,179 --> 00:00:08,160
+Then describe the scene you
+
+9
+00:00:08,160 --> 00:00:09,359
+want, like maybe a sneaker
+
+10
+00:00:09,359 --> 00:00:10,939
+splashing through water in slow
+
+11
+00:00:10,939 --> 00:00:11,759
+-mo, and it'll give you
+
+12
+00:00:11,759 --> 00:00:12,800
+multiple shots of the scene
+
+13
+00:00:12,800 --> 00:00:14,160
+from different camera angles, just
+
+14
+00:00:14,160 --> 00:00:15,179
+like a real product shoot.
+
+15
+00:00:15,300 --> 00:00:15,699
+And if you want a
+
+16
+00:00:15,699 --> 00:00:16,579
+person in your ad, you
+
+17
+00:00:16,579 --> 00:00:17,739
+can create an AI influencer
+
+18
+00:00:17,739 --> 00:00:19,019
+to hold your product and
+
+19
+00:00:19,019 --> 00:00:19,940
+even present that to the
+
+20
+00:00:19,940 --> 00:00:21,100
+camera. Finally, put all those
+
+21
+00:00:21,100 --> 00:00:22,079
+shots together in a one
+
+22
+00:00:22,079 --> 00:00:23,539
+full product video right inside
+
+23
+00:00:23,539 --> 00:00:24,859
+of something like HiggsField, and
+
+24
+00:00:24,859 --> 00:00:25,559
+you're done. So if you
+
+25
+00:00:25,559 --> 00:00:26,600
+want the exact prompt for
+
+26
+00:00:26,600 --> 00:00:27,980
+this system, just comment video
+
+27
+00:00:27,980 --> 00:00:28,719
+and I'll send it to
+
+28
+00:00:28,719 --> 00:00:29,059
+you directly.

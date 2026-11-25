@@ -28,3 +28,5 @@ tools/.venv
 !.claude/skills/skylight
 __pycache__/
 !.claude/skills/instagram-editing
+!.claude/skills/nick-saraev-editing
+!.claude/skills/lobo-de-wall-street-editing

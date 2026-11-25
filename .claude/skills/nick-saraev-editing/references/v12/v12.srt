@@ -1,0 +1,111 @@
+1
+00:00:00,000 --> 00:00:01,120
+Meta just open sourced the
+
+2
+00:00:01,120 --> 00:00:02,720
+design system behind over 13
+
+3
+00:00:02,720 --> 00:00:03,879
+,000 of its apps, so
+
+4
+00:00:03,879 --> 00:00:04,860
+your cloud can now build
+
+5
+00:00:04,860 --> 00:00:06,679
+polished, premium quality apps the
+
+6
+00:00:06,679 --> 00:00:07,879
+same way that Meta's own
+
+7
+00:00:07,879 --> 00:00:09,500
+engineers do. It's called Asterix,
+
+8
+00:00:09,580 --> 00:00:10,560
+and it's the biggest design
+
+9
+00:00:10,560 --> 00:00:12,119
+system used inside Meta, built
+
+10
+00:00:12,119 --> 00:00:13,400
+by their engineers and designers
+
+11
+00:00:13,400 --> 00:00:14,919
+over eight years of daily
+
+12
+00:00:14,919 --> 00:00:16,039
+use. And now it's freely
+
+13
+00:00:16,039 --> 00:00:17,300
+available on GitHub with over
+
+14
+00:00:17,300 --> 00:00:18,339
+a hundred and fifty Reddit
+
+15
+00:00:18,339 --> 00:00:20,140
+use components and seven fully
+
+16
+00:00:20,140 --> 00:00:21,820
+customizable themes, the same ones
+
+17
+00:00:21,820 --> 00:00:23,379
+they use across Facebook, Instagram,
+
+18
+00:00:23,640 --> 00:00:24,679
+and even WhatsApp. Plus it
+
+19
+00:00:24,679 --> 00:00:25,780
+has its own MCP server
+
+20
+00:00:25,780 --> 00:00:26,539
+that you can connect to
+
+21
+00:00:26,539 --> 00:00:28,019
+cloud code, so every design
+
+22
+00:00:28,019 --> 00:00:29,519
+it builds uses real components
+
+23
+00:00:29,519 --> 00:00:30,539
+instead of made -up ones.
+
+24
+00:00:30,780 --> 00:00:31,179
+So if you want to
+
+25
+00:00:31,179 --> 00:00:32,280
+try this for yourselves, just
+
+26
+00:00:32,280 --> 00:00:33,740
+comment Meta down below and
+
+27
+00:00:33,740 --> 00:00:34,320
+I'll send you all the
+
+28
+00:00:34,320 --> 00:00:34,840
+link directly.

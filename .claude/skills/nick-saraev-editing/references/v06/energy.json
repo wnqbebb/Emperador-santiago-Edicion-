@@ -1,0 +1,24 @@
+{
+ "duracion_s": 45.52,
+ "por_segundo": {
+  "corte_seco": 0.198,
+  "transicion": 0.088,
+  "texto": 0.132,
+  "camara": 0.066,
+  "disparadores": 0.901,
+  "escenas": 0.461
+ },
+ "conteo": {
+  "corte_seco": 9,
+  "transicion": 4,
+  "texto": 6,
+  "camara": 3,
+  "disparadores": 41,
+  "escenas": 21
+ },
+ "tipos_transicion": {
+  "corte seco": 9,
+  "zoom-blur": 3,
+  "crossfade": 1
+ }
+}

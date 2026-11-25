@@ -1,0 +1,1370 @@
+{
+  "video": "v06.mp4",
+  "duration": 45.52,
+  "derived": {
+    "shots": 10,
+    "avg_shot_len": 4.55,
+    "cuts_per_min": 13.2,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      9
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "Claude",
+      "start": 0.0,
+      "end": 0.22
+    },
+    {
+      "w": "can",
+      "start": 0.22,
+      "end": 0.36
+    },
+    {
+      "w": "now",
+      "start": 0.36,
+      "end": 0.48
+    },
+    {
+      "w": "test",
+      "start": 0.48,
+      "end": 0.72
+    },
+    {
+      "w": "your",
+      "start": 0.72,
+      "end": 0.92
+    },
+    {
+      "w": "business",
+      "start": 0.92,
+      "end": 1.2
+    },
+    {
+      "w": "idea",
+      "start": 1.2,
+      "end": 1.6
+    },
+    {
+      "w": "on",
+      "start": 1.6,
+      "end": 1.8
+    },
+    {
+      "w": "over",
+      "start": 1.8,
+      "end": 1.96
+    },
+    {
+      "w": "a",
+      "start": 1.96,
+      "end": 2.1
+    },
+    {
+      "w": "hundred",
+      "start": 2.1,
+      "end": 2.34
+    },
+    {
+      "w": "simulated",
+      "start": 2.34,
+      "end": 2.88
+    },
+    {
+      "w": "AI",
+      "start": 2.88,
+      "end": 3.22
+    },
+    {
+      "w": "customers",
+      "start": 3.22,
+      "end": 3.62
+    },
+    {
+      "w": "for",
+      "start": 3.62,
+      "end": 4.08
+    },
+    {
+      "w": "free",
+      "start": 4.08,
+      "end": 4.4
+    },
+    {
+      "w": "before",
+      "start": 4.4,
+      "end": 4.66
+    },
+    {
+      "w": "you",
+      "start": 4.66,
+      "end": 4.84
+    },
+    {
+      "w": "spend",
+      "start": 4.84,
+      "end": 5.06
+    },
+    {
+      "w": "a",
+      "start": 5.06,
+      "end": 5.24
+    },
+    {
+      "w": "single",
+      "start": 5.24,
+      "end": 5.42
+    },
+    {
+      "w": "dollar.",
+      "start": 5.42,
+      "end": 5.7
+    },
+    {
+      "w": "This",
+      "start": 5.8,
+      "end": 5.86
+    },
+    {
+      "w": "is",
+      "start": 5.86,
+      "end": 5.98
+    },
+    {
+      "w": "called",
+      "start": 5.98,
+      "end": 6.2
+    },
+    {
+      "w": "Founder",
+      "start": 6.2,
+      "end": 6.66
+    },
+    {
+      "w": "Skill,",
+      "start": 6.66,
+      "end": 6.86
+    },
+    {
+      "w": "and",
+      "start": 7.12,
+      "end": 7.14
+    },
+    {
+      "w": "it's",
+      "start": 7.14,
+      "end": 7.3
+    },
+    {
+      "w": "a",
+      "start": 7.3,
+      "end": 7.36
+    },
+    {
+      "w": "pack",
+      "start": 7.36,
+      "end": 7.56
+    },
+    {
+      "w": "of",
+      "start": 7.56,
+      "end": 7.66
+    },
+    {
+      "w": "11",
+      "start": 7.66,
+      "end": 7.96
+    },
+    {
+      "w": "free",
+      "start": 7.96,
+      "end": 8.34
+    },
+    {
+      "w": "Claude",
+      "start": 8.34,
+      "end": 8.64
+    },
+    {
+      "w": "skills",
+      "start": 8.64,
+      "end": 8.96
+    },
+    {
+      "w": "that",
+      "start": 8.96,
+      "end": 9.14
+    },
+    {
+      "w": "work",
+      "start": 9.14,
+      "end": 9.38
+    },
+    {
+      "w": "like",
+      "start": 9.38,
+      "end": 9.58
+    },
+    {
+      "w": "a",
+      "start": 9.58,
+      "end": 9.72
+    },
+    {
+      "w": "full",
+      "start": 9.72,
+      "end": 9.94
+    },
+    {
+      "w": "startup",
+      "start": 9.94,
+      "end": 10.28
+    },
+    {
+      "w": "team",
+      "start": 10.28,
+      "end": 10.6
+    },
+    {
+      "w": "inside",
+      "start": 10.6,
+      "end": 11.02
+    },
+    {
+      "w": "your",
+      "start": 11.02,
+      "end": 11.2
+    },
+    {
+      "w": "Claude",
+      "start": 11.2,
+      "end": 11.52
+    },
+    {
+      "w": "code.",
+      "start": 11.52,
+      "end": 11.72
+    },
+    {
+      "w": "First",
+      "start": 11.84,
+      "end": 11.96
+    },
+    {
+      "w": "you",
+      "start": 11.96,
+      "end": 12.16
+    },
+    {
+      "w": "explain",
+      "start": 12.16,
+      "end": 12.48
+    },
+    {
+      "w": "your",
+      "start": 12.48,
+      "end": 12.64
+    },
+    {
+      "w": "idea,",
+      "start": 12.64,
+      "end": 12.9
+    },
+    {
+      "w": "and",
+      "start": 13.12,
+      "end": 13.14
+    },
+    {
+      "w": "then",
+      "start": 13.14,
+      "end": 13.22
+    },
+    {
+      "w": "a",
+      "start": 13.22,
+      "end": 13.36
+    },
+    {
+      "w": "board",
+      "start": 13.36,
+      "end": 13.5
+    },
+    {
+      "w": "of",
+      "start": 13.5,
+      "end": 13.64
+    },
+    {
+      "w": "directors",
+      "start": 13.64,
+      "end": 14.02
+    },
+    {
+      "w": "judges",
+      "start": 14.02,
+      "end": 14.44
+    },
+    {
+      "w": "it",
+      "start": 14.44,
+      "end": 14.66
+    },
+    {
+      "w": "using",
+      "start": 14.66,
+      "end": 14.88
+    },
+    {
+      "w": "the",
+      "start": 14.88,
+      "end": 15.04
+    },
+    {
+      "w": "frameworks",
+      "start": 15.04,
+      "end": 15.4
+    },
+    {
+      "w": "of",
+      "start": 15.4,
+      "end": 15.68
+    },
+    {
+      "w": "Alex",
+      "start": 15.68,
+      "end": 16.0
+    },
+    {
+      "w": "Ramosy,",
+      "start": 16.0,
+      "end": 16.5
+    },
+    {
+      "w": "Peter",
+      "start": 16.62,
+      "end": 16.74
+    },
+    {
+      "w": "Thiel,",
+      "start": 16.74,
+      "end": 17.06
+    },
+    {
+      "w": "and",
+      "start": 17.32,
+      "end": 17.38
+    },
+    {
+      "w": "even",
+      "start": 17.38,
+      "end": 17.5
+    },
+    {
+      "w": "Steve",
+      "start": 17.5,
+      "end": 17.76
+    },
+    {
+      "w": "Jobs.",
+      "start": 17.76,
+      "end": 18.08
+    },
+    {
+      "w": "Then",
+      "start": 18.34,
+      "end": 18.48
+    },
+    {
+      "w": "it",
+      "start": 18.48,
+      "end": 18.6
+    },
+    {
+      "w": "maps",
+      "start": 18.6,
+      "end": 18.78
+    },
+    {
+      "w": "out",
+      "start": 18.78,
+      "end": 18.96
+    },
+    {
+      "w": "your",
+      "start": 18.96,
+      "end": 19.04
+    },
+    {
+      "w": "competitors",
+      "start": 19.04,
+      "end": 19.44
+    },
+    {
+      "w": "and",
+      "start": 19.44,
+      "end": 19.74
+    },
+    {
+      "w": "what",
+      "start": 19.74,
+      "end": 19.88
+    },
+    {
+      "w": "their",
+      "start": 19.88,
+      "end": 20.0
+    },
+    {
+      "w": "customers",
+      "start": 20.0,
+      "end": 20.34
+    },
+    {
+      "w": "complain",
+      "start": 20.34,
+      "end": 20.74
+    },
+    {
+      "w": "about.",
+      "start": 20.74,
+      "end": 21.0
+    },
+    {
+      "w": "And",
+      "start": 21.1,
+      "end": 21.28
+    },
+    {
+      "w": "it",
+      "start": 21.28,
+      "end": 21.42
+    },
+    {
+      "w": "builds",
+      "start": 21.42,
+      "end": 21.6
+    },
+    {
+      "w": "a",
+      "start": 21.6,
+      "end": 21.78
+    },
+    {
+      "w": "hundred",
+      "start": 21.78,
+      "end": 22.06
+    },
+    {
+      "w": "different",
+      "start": 22.06,
+      "end": 22.4
+    },
+    {
+      "w": "buyers",
+      "start": 22.4,
+      "end": 22.74
+    },
+    {
+      "w": "from",
+      "start": 22.74,
+      "end": 23.1
+    },
+    {
+      "w": "your",
+      "start": 23.1,
+      "end": 23.24
+    },
+    {
+      "w": "target",
+      "start": 23.24,
+      "end": 23.46
+    },
+    {
+      "w": "customer,",
+      "start": 23.46,
+      "end": 23.94
+    },
+    {
+      "w": "each",
+      "start": 24.06,
+      "end": 24.22
+    },
+    {
+      "w": "with",
+      "start": 24.22,
+      "end": 24.36
+    },
+    {
+      "w": "their",
+      "start": 24.36,
+      "end": 24.6
+    },
+    {
+      "w": "own",
+      "start": 24.6,
+      "end": 24.86
+    },
+    {
+      "w": "income,",
+      "start": 24.86,
+      "end": 25.16
+    },
+    {
+      "w": "habits,",
+      "start": 25.38,
+      "end": 25.7
+    },
+    {
+      "w": "and",
+      "start": 25.86,
+      "end": 25.98
+    },
+    {
+      "w": "doubts,",
+      "start": 25.98,
+      "end": 26.24
+    },
+    {
+      "w": "and",
+      "start": 26.48,
+      "end": 26.54
+    },
+    {
+      "w": "pitches",
+      "start": 26.54,
+      "end": 26.74
+    },
+    {
+      "w": "your",
+      "start": 26.74,
+      "end": 26.98
+    },
+    {
+      "w": "idea",
+      "start": 26.98,
+      "end": 27.26
+    },
+    {
+      "w": "to",
+      "start": 27.26,
+      "end": 27.44
+    },
+    {
+      "w": "every",
+      "start": 27.44,
+      "end": 27.68
+    },
+    {
+      "w": "single",
+      "start": 27.68,
+      "end": 27.92
+    },
+    {
+      "w": "one.",
+      "start": 27.92,
+      "end": 28.22
+    },
+    {
+      "w": "It",
+      "start": 28.22,
+      "end": 28.38
+    },
+    {
+      "w": "then",
+      "start": 28.38,
+      "end": 28.5
+    },
+    {
+      "w": "shows",
+      "start": 28.5,
+      "end": 28.72
+    },
+    {
+      "w": "you",
+      "start": 28.72,
+      "end": 28.9
+    },
+    {
+      "w": "who",
+      "start": 28.9,
+      "end": 29.1
+    },
+    {
+      "w": "bought,",
+      "start": 29.1,
+      "end": 29.34
+    },
+    {
+      "w": "who",
+      "start": 29.58,
+      "end": 29.68
+    },
+    {
+      "w": "walked",
+      "start": 29.68,
+      "end": 29.9
+    },
+    {
+      "w": "away,",
+      "start": 29.9,
+      "end": 30.18
+    },
+    {
+      "w": "and",
+      "start": 30.42,
+      "end": 30.5
+    },
+    {
+      "w": "ultimately",
+      "start": 30.5,
+      "end": 30.84
+    },
+    {
+      "w": "what",
+      "start": 30.84,
+      "end": 31.3
+    },
+    {
+      "w": "exactly",
+      "start": 31.3,
+      "end": 31.92
+    },
+    {
+      "w": "would",
+      "start": 31.92,
+      "end": 32.2
+    },
+    {
+      "w": "change",
+      "start": 32.2,
+      "end": 32.42
+    },
+    {
+      "w": "their",
+      "start": 32.42,
+      "end": 32.62
+    },
+    {
+      "w": "mind.",
+      "start": 32.62,
+      "end": 32.88
+    },
+    {
+      "w": "And",
+      "start": 33.08,
+      "end": 33.16
+    },
+    {
+      "w": "if",
+      "start": 33.16,
+      "end": 33.26
+    },
+    {
+      "w": "they",
+      "start": 33.26,
+      "end": 33.38
+    },
+    {
+      "w": "say",
+      "start": 33.38,
+      "end": 33.54
+    },
+    {
+      "w": "no,",
+      "start": 33.54,
+      "end": 33.78
+    },
+    {
+      "w": "it'll",
+      "start": 33.9,
+      "end": 34.04
+    },
+    {
+      "w": "rebuild",
+      "start": 34.04,
+      "end": 34.36
+    },
+    {
+      "w": "your",
+      "start": 34.36,
+      "end": 34.6
+    },
+    {
+      "w": "whole",
+      "start": 34.6,
+      "end": 34.76
+    },
+    {
+      "w": "offer",
+      "start": 34.76,
+      "end": 35.1
+    },
+    {
+      "w": "around",
+      "start": 35.1,
+      "end": 35.42
+    },
+    {
+      "w": "those",
+      "start": 35.42,
+      "end": 35.66
+    },
+    {
+      "w": "doubts",
+      "start": 35.66,
+      "end": 35.9
+    },
+    {
+      "w": "and",
+      "start": 35.9,
+      "end": 36.18
+    },
+    {
+      "w": "test",
+      "start": 36.18,
+      "end": 36.42
+    },
+    {
+      "w": "it",
+      "start": 36.42,
+      "end": 36.54
+    },
+    {
+      "w": "on",
+      "start": 36.54,
+      "end": 36.6
+    },
+    {
+      "w": "the",
+      "start": 36.6,
+      "end": 36.72
+    },
+    {
+      "w": "same",
+      "start": 36.72,
+      "end": 36.88
+    },
+    {
+      "w": "buyers",
+      "start": 36.88,
+      "end": 37.16
+    },
+    {
+      "w": "again",
+      "start": 37.16,
+      "end": 37.54
+    },
+    {
+      "w": "and",
+      "start": 37.54,
+      "end": 37.66
+    },
+    {
+      "w": "again.",
+      "start": 37.66,
+      "end": 37.9
+    },
+    {
+      "w": "Finally,",
+      "start": 38.02,
+      "end": 38.26
+    },
+    {
+      "w": "it",
+      "start": 38.34,
+      "end": 38.42
+    },
+    {
+      "w": "hands",
+      "start": 38.42,
+      "end": 38.66
+    },
+    {
+      "w": "you",
+      "start": 38.66,
+      "end": 38.84
+    },
+    {
+      "w": "a",
+      "start": 38.84,
+      "end": 38.98
+    },
+    {
+      "w": "full",
+      "start": 38.98,
+      "end": 39.2
+    },
+    {
+      "w": "business",
+      "start": 39.2,
+      "end": 39.44
+    },
+    {
+      "w": "plan",
+      "start": 39.44,
+      "end": 39.76
+    },
+    {
+      "w": "with",
+      "start": 39.76,
+      "end": 39.96
+    },
+    {
+      "w": "a",
+      "start": 39.96,
+      "end": 40.08
+    },
+    {
+      "w": "verdict,",
+      "start": 40.08,
+      "end": 40.34
+    },
+    {
+      "w": "profitable,",
+      "start": 40.56,
+      "end": 40.82
+    },
+    {
+      "w": "or",
+      "start": 41.2,
+      "end": 41.26
+    },
+    {
+      "w": "not",
+      "start": 41.26,
+      "end": 41.46
+    },
+    {
+      "w": "yet.",
+      "start": 41.46,
+      "end": 41.64
+    },
+    {
+      "w": "Wanna",
+      "start": 41.7,
+      "end": 41.8
+    },
+    {
+      "w": "try",
+      "start": 41.8,
+      "end": 42.04
+    },
+    {
+      "w": "it",
+      "start": 42.04,
+      "end": 42.14
+    },
+    {
+      "w": "for",
+      "start": 42.14,
+      "end": 42.2
+    },
+    {
+      "w": "yourselves?",
+      "start": 42.2,
+      "end": 42.52
+    },
+    {
+      "w": "Just",
+      "start": 42.76,
+      "end": 42.86
+    },
+    {
+      "w": "comment",
+      "start": 42.86,
+      "end": 43.08
+    },
+    {
+      "w": "Founder",
+      "start": 43.08,
+      "end": 43.52
+    },
+    {
+      "w": "down",
+      "start": 43.52,
+      "end": 43.66
+    },
+    {
+      "w": "below",
+      "start": 43.66,
+      "end": 43.9
+    },
+    {
+      "w": "and",
+      "start": 43.9,
+      "end": 44.16
+    },
+    {
+      "w": "I'll",
+      "start": 44.16,
+      "end": 44.26
+    },
+    {
+      "w": "DM",
+      "start": 44.26,
+      "end": 44.44
+    },
+    {
+      "w": "you",
+      "start": 44.44,
+      "end": 44.58
+    },
+    {
+      "w": "the",
+      "start": 44.58,
+      "end": 44.7
+    },
+    {
+      "w": "link",
+      "start": 44.7,
+      "end": 44.82
+    },
+    {
+      "w": "directly.",
+      "start": 44.82,
+      "end": 45.08
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.467,
+      "length": 4.467,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#EAECEE",
+            "share": 0.278
+          },
+          {
+            "hex": "#0B090B",
+            "share": 0.121
+          },
+          {
+            "hex": "#DAE6EC",
+            "share": 0.113
+          },
+          {
+            "hex": "#CFDBE5",
+            "share": 0.052
+          },
+          {
+            "hex": "#4F4E4E",
+            "share": 0.043
+          }
+        ],
+        "motion_energy": 17.28,
+        "script": "Claude can now test your business idea on over a hundred simulated AI customers for free before"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 4.467,
+      "end": 5.767,
+      "length": 1.3,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#060407",
+            "share": 0.347
+          },
+          {
+            "hex": "#918585",
+            "share": 0.092
+          },
+          {
+            "hex": "#8A7B7A",
+            "share": 0.048
+          },
+          {
+            "hex": "#CB9787",
+            "share": 0.046
+          },
+          {
+            "hex": "#AF7767",
+            "share": 0.038
+          }
+        ],
+        "motion_energy": 15.56,
+        "script": "you spend a single dollar."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 5.767,
+      "end": 11.8,
+      "length": 6.033,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F5F5F5",
+            "share": 0.391
+          },
+          {
+            "hex": "#323333",
+            "share": 0.334
+          },
+          {
+            "hex": "#464647",
+            "share": 0.123
+          },
+          {
+            "hex": "#121413",
+            "share": 0.051
+          },
+          {
+            "hex": "#D2D4D6",
+            "share": 0.023
+          }
+        ],
+        "motion_energy": 21.58,
+        "script": "This is called Founder Skill, and it's a pack of 11 free Claude skills that work like a full startup team inside your Claude code."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 11.8,
+      "end": 13.3,
+      "length": 1.5,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100F10",
+            "share": 0.315
+          },
+          {
+            "hex": "#E9ECEE",
+            "share": 0.226
+          },
+          {
+            "hex": "#DAE6EC",
+            "share": 0.113
+          },
+          {
+            "hex": "#B3A5A6",
+            "share": 0.036
+          },
+          {
+            "hex": "#CEDAE3",
+            "share": 0.035
+          }
+        ],
+        "motion_energy": 17.68,
+        "script": "First you explain your idea, and then a"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 13.3,
+      "end": 18.333,
+      "length": 5.033,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#09090B",
+            "share": 0.793
+          },
+          {
+            "hex": "#131A27",
+            "share": 0.064
+          },
+          {
+            "hex": "#2E2E2E",
+            "share": 0.049
+          },
+          {
+            "hex": "#4D4D4C",
+            "share": 0.041
+          },
+          {
+            "hex": "#6A6B6B",
+            "share": 0.012
+          }
+        ],
+        "motion_energy": 7.0,
+        "script": "board of directors judges it using the frameworks of Alex Ramosy, Peter Thiel, and even Steve Jobs."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 18.333,
+      "end": 24.033,
+      "length": 5.7,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#8C8D8F",
+            "share": 0.284
+          },
+          {
+            "hex": "#E9EBED",
+            "share": 0.239
+          },
+          {
+            "hex": "#DAE6EC",
+            "share": 0.115
+          },
+          {
+            "hex": "#060408",
+            "share": 0.089
+          },
+          {
+            "hex": "#B2A7A7",
+            "share": 0.046
+          }
+        ],
+        "motion_energy": 24.95,
+        "script": "Then it maps out your competitors and what their customers complain about. And it builds a hundred different buyers from your target customer,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 24.033,
+      "end": 33.067,
+      "length": 9.033,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#060709",
+            "share": 0.655
+          },
+          {
+            "hex": "#F0EFEE",
+            "share": 0.106
+          },
+          {
+            "hex": "#D0D0D0",
+            "share": 0.06
+          },
+          {
+            "hex": "#AEAFB0",
+            "share": 0.052
+          },
+          {
+            "hex": "#0B172C",
+            "share": 0.033
+          }
+        ],
+        "motion_energy": 27.45,
+        "script": "each with their own income, habits, and doubts, and pitches your idea to every single one. It then shows you who bought, who walked away, and ultimately what exactly would change their mind."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 33.067,
+      "end": 38.033,
+      "length": 4.967,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0E0F",
+            "share": 0.275
+          },
+          {
+            "hex": "#E9ECEE",
+            "share": 0.251
+          },
+          {
+            "hex": "#DAE6ED",
+            "share": 0.1
+          },
+          {
+            "hex": "#CEDAE5",
+            "share": 0.04
+          },
+          {
+            "hex": "#17271A",
+            "share": 0.04
+          }
+        ],
+        "motion_energy": 19.1,
+        "script": "And if they say no, it'll rebuild your whole offer around those doubts and test it on the same buyers again and again. Finally,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 38.033,
+      "end": 41.667,
+      "length": 3.633,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#040506",
+            "share": 0.525
+          },
+          {
+            "hex": "#F8F8F9",
+            "share": 0.374
+          },
+          {
+            "hex": "#D0D1D2",
+            "share": 0.023
+          },
+          {
+            "hex": "#0B162B",
+            "share": 0.015
+          },
+          {
+            "hex": "#CBD9E6",
+            "share": 0.014
+          }
+        ],
+        "motion_energy": 6.86,
+        "script": "it hands you a full business plan with a verdict, profitable, or not yet."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 41.667,
+      "end": 45.524,
+      "length": 3.857,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#060408",
+            "share": 0.346
+          },
+          {
+            "hex": "#948888",
+            "share": 0.053
+          },
+          {
+            "hex": "#A79796",
+            "share": 0.047
+          },
+          {
+            "hex": "#897A78",
+            "share": 0.043
+          },
+          {
+            "hex": "#CC9789",
+            "share": 0.04
+          }
+        ],
+        "motion_energy": 18.72,
+        "script": "Wanna try it for yourselves? Just comment Founder down below and I'll DM you the link directly."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

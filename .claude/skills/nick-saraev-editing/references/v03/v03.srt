@@ -1,0 +1,127 @@
+1
+00:00:00,000 --> 00:00:00,960
+You can now reverse engineer
+
+2
+00:00:00,960 --> 00:00:02,319
+any viral video down to
+
+3
+00:00:02,319 --> 00:00:03,520
+its frame, shot by shot,
+
+4
+00:00:03,660 --> 00:00:05,219
+completely free, using this plugin.
+
+5
+00:00:05,360 --> 00:00:06,639
+This is Reverse Engineer Any
+
+6
+00:00:06,639 --> 00:00:07,639
+Video, and it works just
+
+7
+00:00:07,639 --> 00:00:08,880
+like the Reverse Engineer Anything
+
+8
+00:00:08,880 --> 00:00:10,439
+project, but for videos. You
+
+9
+00:00:10,439 --> 00:00:11,119
+just give it the video
+
+10
+00:00:11,119 --> 00:00:12,080
+link, and it'll break it
+
+11
+00:00:12,080 --> 00:00:13,240
+down, shot by shot, and
+
+12
+00:00:13,240 --> 00:00:14,039
+tell you whether each one
+
+13
+00:00:14,039 --> 00:00:15,460
+was filmed, AI generated, or
+
+14
+00:00:15,460 --> 00:00:16,379
+built in code. Then it'll
+
+15
+00:00:16,379 --> 00:00:17,500
+pull every caption with its
+
+16
+00:00:17,500 --> 00:00:19,199
+timing, every cut, the music's
+
+17
+00:00:19,199 --> 00:00:20,699
+beats, and exactly where every
+
+18
+00:00:20,699 --> 00:00:22,039
+sound effect landed. And for
+
+19
+00:00:22,039 --> 00:00:23,280
+each shot, it'll write a
+
+20
+00:00:23,280 --> 00:00:24,140
+full prompt that you can
+
+21
+00:00:24,140 --> 00:00:25,359
+use to recreate it, and
+
+22
+00:00:25,359 --> 00:00:26,019
+in the end, you'll get
+
+23
+00:00:26,019 --> 00:00:27,420
+a full remake plan with
+
+24
+00:00:27,420 --> 00:00:28,300
+what to film, what to
+
+25
+00:00:28,300 --> 00:00:29,559
+generate, and what to code.
+
+26
+00:00:29,559 --> 00:00:30,820
+Finally, it'll remake the video
+
+27
+00:00:30,820 --> 00:00:31,739
+with your own elements swapped
+
+28
+00:00:31,739 --> 00:00:32,880
+in, keeping the original pacing,
+
+29
+00:00:33,119 --> 00:00:34,579
+effect, and transition. Want to
+
+30
+00:00:34,579 --> 00:00:35,619
+try it for yourselves? Just
+
+31
+00:00:35,619 --> 00:00:36,979
+comment video down below, and
+
+32
+00:00:36,979 --> 00:00:37,579
+I'll send you the link.

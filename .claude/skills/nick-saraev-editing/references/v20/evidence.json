@@ -1,0 +1,1202 @@
+{
+  "video": "v20.mp4",
+  "duration": 37.14,
+  "derived": {
+    "shots": 9,
+    "avg_shot_len": 4.13,
+    "cuts_per_min": 14.5,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "Your",
+      "start": 0.0,
+      "end": 0.1
+    },
+    {
+      "w": "Claude",
+      "start": 0.1,
+      "end": 0.4
+    },
+    {
+      "w": "code",
+      "start": 0.4,
+      "end": 0.58
+    },
+    {
+      "w": "can",
+      "start": 0.58,
+      "end": 0.78
+    },
+    {
+      "w": "now",
+      "start": 0.78,
+      "end": 0.9
+    },
+    {
+      "w": "build",
+      "start": 0.9,
+      "end": 1.12
+    },
+    {
+      "w": "full",
+      "start": 1.12,
+      "end": 1.44
+    },
+    {
+      "w": "video",
+      "start": 1.44,
+      "end": 1.82
+    },
+    {
+      "w": "games,",
+      "start": 1.82,
+      "end": 2.16
+    },
+    {
+      "w": "just",
+      "start": 2.3,
+      "end": 2.42
+    },
+    {
+      "w": "like",
+      "start": 2.42,
+      "end": 2.64
+    },
+    {
+      "w": "a",
+      "start": 2.64,
+      "end": 2.74
+    },
+    {
+      "w": "real",
+      "start": 2.74,
+      "end": 2.86
+    },
+    {
+      "w": "developer",
+      "start": 2.86,
+      "end": 3.28
+    },
+    {
+      "w": "with",
+      "start": 3.28,
+      "end": 3.58
+    },
+    {
+      "w": "one",
+      "start": 3.58,
+      "end": 3.86
+    },
+    {
+      "w": "plugin.",
+      "start": 3.86,
+      "end": 4.18
+    },
+    {
+      "w": "So",
+      "start": 4.34,
+      "end": 4.38
+    },
+    {
+      "w": "someone",
+      "start": 4.38,
+      "end": 4.64
+    },
+    {
+      "w": "on",
+      "start": 4.64,
+      "end": 4.76
+    },
+    {
+      "w": "GitHub",
+      "start": 4.76,
+      "end": 4.94
+    },
+    {
+      "w": "just",
+      "start": 4.94,
+      "end": 5.22
+    },
+    {
+      "w": "created",
+      "start": 5.22,
+      "end": 5.4
+    },
+    {
+      "w": "a",
+      "start": 5.4,
+      "end": 5.56
+    },
+    {
+      "w": "repo",
+      "start": 5.56,
+      "end": 5.76
+    },
+    {
+      "w": "that",
+      "start": 5.76,
+      "end": 5.94
+    },
+    {
+      "w": "gives",
+      "start": 5.94,
+      "end": 6.08
+    },
+    {
+      "w": "your",
+      "start": 6.08,
+      "end": 6.22
+    },
+    {
+      "w": "coding",
+      "start": 6.22,
+      "end": 6.42
+    },
+    {
+      "w": "agent",
+      "start": 6.42,
+      "end": 6.62
+    },
+    {
+      "w": "77",
+      "start": 6.62,
+      "end": 7.22
+    },
+    {
+      "w": "game",
+      "start": 7.22,
+      "end": 7.6
+    },
+    {
+      "w": "dev",
+      "start": 7.6,
+      "end": 7.8
+    },
+    {
+      "w": "skills",
+      "start": 7.8,
+      "end": 8.06
+    },
+    {
+      "w": "for",
+      "start": 8.06,
+      "end": 8.24
+    },
+    {
+      "w": "building",
+      "start": 8.24,
+      "end": 8.46
+    },
+    {
+      "w": "full",
+      "start": 8.46,
+      "end": 8.84
+    },
+    {
+      "w": "games",
+      "start": 8.84,
+      "end": 9.18
+    },
+    {
+      "w": "in",
+      "start": 9.18,
+      "end": 9.34
+    },
+    {
+      "w": "Unreal",
+      "start": 9.34,
+      "end": 9.62
+    },
+    {
+      "w": "Engine,",
+      "start": 9.62,
+      "end": 10.08
+    },
+    {
+      "w": "Unity,",
+      "start": 10.16,
+      "end": 10.48
+    },
+    {
+      "w": "Godot,",
+      "start": 10.76,
+      "end": 11.02
+    },
+    {
+      "w": "and",
+      "start": 11.22,
+      "end": 11.26
+    },
+    {
+      "w": "even",
+      "start": 11.26,
+      "end": 11.54
+    },
+    {
+      "w": "web",
+      "start": 11.54,
+      "end": 11.78
+    },
+    {
+      "w": "games.",
+      "start": 11.78,
+      "end": 12.06
+    },
+    {
+      "w": "And",
+      "start": 12.22,
+      "end": 12.3
+    },
+    {
+      "w": "you",
+      "start": 12.3,
+      "end": 12.38
+    },
+    {
+      "w": "never",
+      "start": 12.38,
+      "end": 12.54
+    },
+    {
+      "w": "even",
+      "start": 12.54,
+      "end": 12.68
+    },
+    {
+      "w": "have",
+      "start": 12.68,
+      "end": 12.82
+    },
+    {
+      "w": "to",
+      "start": 12.82,
+      "end": 12.92
+    },
+    {
+      "w": "pick",
+      "start": 12.92,
+      "end": 13.12
+    },
+    {
+      "w": "the",
+      "start": 13.12,
+      "end": 13.3
+    },
+    {
+      "w": "skills",
+      "start": 13.3,
+      "end": 13.56
+    },
+    {
+      "w": "yourself.",
+      "start": 13.56,
+      "end": 14.0
+    },
+    {
+      "w": "You",
+      "start": 14.16,
+      "end": 14.24
+    },
+    {
+      "w": "just",
+      "start": 14.24,
+      "end": 14.36
+    },
+    {
+      "w": "describe",
+      "start": 14.36,
+      "end": 14.78
+    },
+    {
+      "w": "what",
+      "start": 14.78,
+      "end": 14.94
+    },
+    {
+      "w": "you're",
+      "start": 14.94,
+      "end": 15.06
+    },
+    {
+      "w": "building",
+      "start": 15.06,
+      "end": 15.32
+    },
+    {
+      "w": "and",
+      "start": 15.32,
+      "end": 15.54
+    },
+    {
+      "w": "it'll",
+      "start": 15.54,
+      "end": 15.7
+    },
+    {
+      "w": "pick",
+      "start": 15.7,
+      "end": 15.84
+    },
+    {
+      "w": "the",
+      "start": 15.84,
+      "end": 16.0
+    },
+    {
+      "w": "right",
+      "start": 16.0,
+      "end": 16.1
+    },
+    {
+      "w": "skill",
+      "start": 16.1,
+      "end": 16.42
+    },
+    {
+      "w": "for",
+      "start": 16.42,
+      "end": 16.72
+    },
+    {
+      "w": "your",
+      "start": 16.72,
+      "end": 16.94
+    },
+    {
+      "w": "own",
+      "start": 16.94,
+      "end": 17.12
+    },
+    {
+      "w": "engine",
+      "start": 17.12,
+      "end": 17.38
+    },
+    {
+      "w": "and",
+      "start": 17.38,
+      "end": 17.64
+    },
+    {
+      "w": "task",
+      "start": 17.64,
+      "end": 17.98
+    },
+    {
+      "w": "entirely",
+      "start": 17.98,
+      "end": 18.38
+    },
+    {
+      "w": "on",
+      "start": 18.38,
+      "end": 18.66
+    },
+    {
+      "w": "its",
+      "start": 18.66,
+      "end": 18.78
+    },
+    {
+      "w": "own.",
+      "start": 18.78,
+      "end": 18.96
+    },
+    {
+      "w": "It",
+      "start": 19.04,
+      "end": 19.12
+    },
+    {
+      "w": "has",
+      "start": 19.12,
+      "end": 19.28
+    },
+    {
+      "w": "skills",
+      "start": 19.28,
+      "end": 19.48
+    },
+    {
+      "w": "for",
+      "start": 19.48,
+      "end": 19.76
+    },
+    {
+      "w": "everything,",
+      "start": 19.76,
+      "end": 20.3
+    },
+    {
+      "w": "from",
+      "start": 20.46,
+      "end": 20.6
+    },
+    {
+      "w": "player",
+      "start": 20.6,
+      "end": 20.94
+    },
+    {
+      "w": "movement",
+      "start": 20.94,
+      "end": 21.24
+    },
+    {
+      "w": "to",
+      "start": 21.24,
+      "end": 21.48
+    },
+    {
+      "w": "platformer",
+      "start": 21.48,
+      "end": 22.0
+    },
+    {
+      "w": "mechanics",
+      "start": 22.0,
+      "end": 22.34
+    },
+    {
+      "w": "to",
+      "start": 22.34,
+      "end": 22.62
+    },
+    {
+      "w": "dedicated",
+      "start": 22.62,
+      "end": 23.04
+    },
+    {
+      "w": "art",
+      "start": 23.04,
+      "end": 23.36
+    },
+    {
+      "w": "directions.",
+      "start": 23.36,
+      "end": 23.82
+    },
+    {
+      "w": "So",
+      "start": 24.02,
+      "end": 24.12
+    },
+    {
+      "w": "every",
+      "start": 24.12,
+      "end": 24.4
+    },
+    {
+      "w": "game",
+      "start": 24.4,
+      "end": 24.64
+    },
+    {
+      "w": "asset",
+      "start": 24.64,
+      "end": 24.9
+    },
+    {
+      "w": "looks",
+      "start": 24.9,
+      "end": 25.12
+    },
+    {
+      "w": "the",
+      "start": 25.12,
+      "end": 25.32
+    },
+    {
+      "w": "exact",
+      "start": 25.32,
+      "end": 25.72
+    },
+    {
+      "w": "same",
+      "start": 25.72,
+      "end": 26.12
+    },
+    {
+      "w": "as",
+      "start": 26.12,
+      "end": 26.36
+    },
+    {
+      "w": "it",
+      "start": 26.36,
+      "end": 26.46
+    },
+    {
+      "w": "would",
+      "start": 26.46,
+      "end": 26.6
+    },
+    {
+      "w": "in",
+      "start": 26.6,
+      "end": 26.78
+    },
+    {
+      "w": "a",
+      "start": 26.78,
+      "end": 26.88
+    },
+    {
+      "w": "real",
+      "start": 26.88,
+      "end": 27.3
+    },
+    {
+      "w": "AAA",
+      "start": 27.3,
+      "end": 27.78
+    },
+    {
+      "w": "studio",
+      "start": 27.78,
+      "end": 28.14
+    },
+    {
+      "w": "developed",
+      "start": 28.14,
+      "end": 28.52
+    },
+    {
+      "w": "game.",
+      "start": 28.52,
+      "end": 28.78
+    },
+    {
+      "w": "And",
+      "start": 28.78,
+      "end": 28.92
+    },
+    {
+      "w": "with",
+      "start": 28.92,
+      "end": 29.04
+    },
+    {
+      "w": "all",
+      "start": 29.04,
+      "end": 29.2
+    },
+    {
+      "w": "that,",
+      "start": 29.2,
+      "end": 29.32
+    },
+    {
+      "w": "you",
+      "start": 29.44,
+      "end": 29.46
+    },
+    {
+      "w": "can",
+      "start": 29.46,
+      "end": 29.6
+    },
+    {
+      "w": "build",
+      "start": 29.6,
+      "end": 29.78
+    },
+    {
+      "w": "a",
+      "start": 29.78,
+      "end": 29.88
+    },
+    {
+      "w": "full",
+      "start": 29.88,
+      "end": 30.06
+    },
+    {
+      "w": "game",
+      "start": 30.06,
+      "end": 30.28
+    },
+    {
+      "w": "from",
+      "start": 30.28,
+      "end": 30.44
+    },
+    {
+      "w": "start",
+      "start": 30.44,
+      "end": 30.66
+    },
+    {
+      "w": "to",
+      "start": 30.66,
+      "end": 30.8
+    },
+    {
+      "w": "finish,",
+      "start": 30.8,
+      "end": 31.04
+    },
+    {
+      "w": "then",
+      "start": 31.12,
+      "end": 31.24
+    },
+    {
+      "w": "publish,",
+      "start": 31.24,
+      "end": 31.52
+    },
+    {
+      "w": "and",
+      "start": 31.74,
+      "end": 31.74
+    },
+    {
+      "w": "even",
+      "start": 31.74,
+      "end": 31.86
+    },
+    {
+      "w": "monetize",
+      "start": 31.86,
+      "end": 32.4
+    },
+    {
+      "w": "it",
+      "start": 32.4,
+      "end": 32.5
+    },
+    {
+      "w": "on",
+      "start": 32.5,
+      "end": 32.62
+    },
+    {
+      "w": "the",
+      "start": 32.62,
+      "end": 32.72
+    },
+    {
+      "w": "App",
+      "start": 32.72,
+      "end": 32.92
+    },
+    {
+      "w": "Store",
+      "start": 32.92,
+      "end": 33.14
+    },
+    {
+      "w": "or",
+      "start": 33.14,
+      "end": 33.32
+    },
+    {
+      "w": "Steam.",
+      "start": 33.32,
+      "end": 33.54
+    },
+    {
+      "w": "So",
+      "start": 33.68,
+      "end": 33.74
+    },
+    {
+      "w": "if",
+      "start": 33.74,
+      "end": 33.82
+    },
+    {
+      "w": "you",
+      "start": 33.82,
+      "end": 33.88
+    },
+    {
+      "w": "want",
+      "start": 33.88,
+      "end": 34.0
+    },
+    {
+      "w": "to",
+      "start": 34.0,
+      "end": 34.04
+    },
+    {
+      "w": "try",
+      "start": 34.04,
+      "end": 34.2
+    },
+    {
+      "w": "this",
+      "start": 34.2,
+      "end": 34.34
+    },
+    {
+      "w": "for",
+      "start": 34.34,
+      "end": 34.46
+    },
+    {
+      "w": "yourselves,",
+      "start": 34.46,
+      "end": 34.8
+    },
+    {
+      "w": "just",
+      "start": 35.0,
+      "end": 35.08
+    },
+    {
+      "w": "comment",
+      "start": 35.08,
+      "end": 35.28
+    },
+    {
+      "w": "game",
+      "start": 35.28,
+      "end": 35.6
+    },
+    {
+      "w": "down",
+      "start": 35.6,
+      "end": 35.78
+    },
+    {
+      "w": "below",
+      "start": 35.78,
+      "end": 36.06
+    },
+    {
+      "w": "and",
+      "start": 36.06,
+      "end": 36.4
+    },
+    {
+      "w": "I'll",
+      "start": 36.4,
+      "end": 36.52
+    },
+    {
+      "w": "send",
+      "start": 36.52,
+      "end": 36.62
+    },
+    {
+      "w": "you",
+      "start": 36.62,
+      "end": 36.7
+    },
+    {
+      "w": "the",
+      "start": 36.7,
+      "end": 36.8
+    },
+    {
+      "w": "links.",
+      "start": 36.8,
+      "end": 36.98
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.3,
+      "length": 4.3,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#EAECEE",
+            "share": 0.258
+          },
+          {
+            "hex": "#DAE5EC",
+            "share": 0.082
+          },
+          {
+            "hex": "#726A6B",
+            "share": 0.067
+          },
+          {
+            "hex": "#CEDAE5",
+            "share": 0.048
+          },
+          {
+            "hex": "#393232",
+            "share": 0.042
+          }
+        ],
+        "motion_energy": 17.53,
+        "script": "Your Claude code can now build full video games, just like a real developer with one plugin."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 4.3,
+      "end": 12.2,
+      "length": 7.9,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0B0D0F",
+            "share": 0.286
+          },
+          {
+            "hex": "#2F2D2A",
+            "share": 0.239
+          },
+          {
+            "hex": "#F9FAFA",
+            "share": 0.125
+          },
+          {
+            "hex": "#F9EBD6",
+            "share": 0.042
+          },
+          {
+            "hex": "#0A1929",
+            "share": 0.033
+          }
+        ],
+        "motion_energy": 33.75,
+        "script": "So someone on GitHub just created a repo that gives your coding agent 77 game dev skills for building full games in Unreal Engine, Unity, Godot, and even web games."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 12.2,
+      "end": 14.2,
+      "length": 2.0,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F1F2F4",
+            "share": 0.423
+          },
+          {
+            "hex": "#D8E5ED",
+            "share": 0.086
+          },
+          {
+            "hex": "#6F6667",
+            "share": 0.059
+          },
+          {
+            "hex": "#ACD5F6",
+            "share": 0.049
+          },
+          {
+            "hex": "#CEDBE4",
+            "share": 0.048
+          }
+        ],
+        "motion_energy": 8.78,
+        "script": "And you never even have to pick the skills yourself. You"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 14.2,
+      "end": 18.0,
+      "length": 3.8,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0E12",
+            "share": 0.241
+          },
+          {
+            "hex": "#EAECEE",
+            "share": 0.237
+          },
+          {
+            "hex": "#D9E6EC",
+            "share": 0.072
+          },
+          {
+            "hex": "#6D6567",
+            "share": 0.057
+          },
+          {
+            "hex": "#363131",
+            "share": 0.051
+          }
+        ],
+        "motion_energy": 19.03,
+        "script": "just describe what you're building and it'll pick the right skill for your own engine and task entirely"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 18.0,
+      "end": 19.0,
+      "length": 1.0,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#6E6667",
+            "share": 0.178
+          },
+          {
+            "hex": "#0A0509",
+            "share": 0.116
+          },
+          {
+            "hex": "#4F4647",
+            "share": 0.088
+          },
+          {
+            "hex": "#EDE4EA",
+            "share": 0.056
+          },
+          {
+            "hex": "#E4B3AB",
+            "share": 0.048
+          }
+        ],
+        "motion_energy": 15.27,
+        "script": "on its own."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 19.0,
+      "end": 23.967,
+      "length": 4.967,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#302F2E",
+            "share": 0.257
+          },
+          {
+            "hex": "#0F1114",
+            "share": 0.114
+          },
+          {
+            "hex": "#35444E",
+            "share": 0.097
+          },
+          {
+            "hex": "#4C4946",
+            "share": 0.094
+          },
+          {
+            "hex": "#162632",
+            "share": 0.053
+          }
+        ],
+        "motion_energy": 36.98,
+        "script": "It has skills for everything, from player movement to platformer mechanics to dedicated art directions."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 23.967,
+      "end": 27.433,
+      "length": 3.467,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#EAECEE",
+            "share": 0.24
+          },
+          {
+            "hex": "#6B696C",
+            "share": 0.197
+          },
+          {
+            "hex": "#35312F",
+            "share": 0.078
+          },
+          {
+            "hex": "#DAE6EC",
+            "share": 0.071
+          },
+          {
+            "hex": "#0E0C0F",
+            "share": 0.047
+          }
+        ],
+        "motion_energy": 18.23,
+        "script": "So every game asset looks the exact same as it would in a real AAA"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 27.433,
+      "end": 33.633,
+      "length": 6.2,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#2D3031",
+            "share": 0.247
+          },
+          {
+            "hex": "#060E14",
+            "share": 0.2
+          },
+          {
+            "hex": "#4A4D4F",
+            "share": 0.099
+          },
+          {
+            "hex": "#374450",
+            "share": 0.067
+          },
+          {
+            "hex": "#2F3A44",
+            "share": 0.062
+          }
+        ],
+        "motion_energy": 27.71,
+        "script": "studio developed game. And with all that, you can build a full game from start to finish, then publish, and even monetize it on the App Store or Steam."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 33.633,
+      "end": 37.142,
+      "length": 3.509,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#6C6464",
+            "share": 0.16
+          },
+          {
+            "hex": "#0B0509",
+            "share": 0.11
+          },
+          {
+            "hex": "#EEE4EA",
+            "share": 0.054
+          },
+          {
+            "hex": "#E5B4AC",
+            "share": 0.053
+          },
+          {
+            "hex": "#6B5653",
+            "share": 0.051
+          }
+        ],
+        "motion_energy": 20.06,
+        "script": "So if you want to try this for yourselves, just comment game down below and I'll send you the links."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

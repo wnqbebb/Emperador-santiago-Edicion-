@@ -1,0 +1,155 @@
+[
+ {
+  "t": 0.046,
+  "dur": 0.19,
+  "kind": "hit/boom",
+  "gain_db": 9.3,
+  "to_cut": 0.05,
+  "word": "Here",
+  "to_word": 0.05
+ },
+ {
+  "t": 2.728,
+  "dur": 0.19,
+  "kind": "hit/boom",
+  "gain_db": 7.1,
+  "to_cut": -0.77,
+  "word": "never",
+  "to_word": 0.29
+ },
+ {
+  "t": 8.58,
+  "dur": 0.14,
+  "kind": "pop",
+  "gain_db": 6.4,
+  "to_cut": -0.08,
+  "word": "Say,",
+  "to_word": -0.08
+ },
+ {
+  "t": 10.588,
+  "dur": 0.13,
+  "kind": "pop",
+  "gain_db": 7.5,
+  "to_cut": -1.51,
+  "word": "Now",
+  "to_word": -0.11
+ },
+ {
+  "t": 12.736,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 9.0,
+  "to_cut": 0.64,
+  "word": "let",
+  "to_word": -0.2
+ },
+ {
+  "t": 19.737,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 8.1,
+  "to_cut": 1.22,
+  "word": "honest.",
+  "to_word": 0.34
+ },
+ {
+  "t": 24.427,
+  "dur": 0.14,
+  "kind": "pop",
+  "gain_db": 7.8,
+  "to_cut": -0.01,
+  "word": "Four,",
+  "to_word": -0.01
+ },
+ {
+  "t": 25.426,
+  "dur": 0.2,
+  "kind": "hit/boom",
+  "gain_db": 8.5,
+  "to_cut": 0.99,
+  "word": "decision",
+  "to_word": 0.09
+ },
+ {
+  "t": 27.423,
+  "dur": 0.16,
+  "kind": "pop",
+  "gain_db": 9.3,
+  "to_cut": -0.48,
+  "word": "small.",
+  "to_word": 0.12
+ },
+ {
+  "t": 30.755,
+  "dur": 0.14,
+  "kind": "pop",
+  "gain_db": 8.9,
+  "to_cut": 0.49,
+  "word": "we",
+  "to_word": -0.09
+ },
+ {
+  "t": 38.371,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 6.1,
+  "to_cut": -0.09,
+  "word": "Six,",
+  "to_word": -0.09
+ },
+ {
+  "t": 40.205,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 7.8,
+  "to_cut": 1.75,
+  "word": "Experts",
+  "to_word": -0.25
+ },
+ {
+  "t": 41.239,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 7.5,
+  "to_cut": -1.18,
+  "word": "bother",
+  "to_word": 0.12
+ },
+ {
+  "t": 53.418,
+  "dur": 0.15,
+  "kind": "pop",
+  "gain_db": 7.6,
+  "to_cut": 1.24,
+  "word": "Cut",
+  "to_word": -0.14
+ },
+ {
+  "t": 55.078,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 7.0,
+  "to_cut": 0.34,
+  "word": "your",
+  "to_word": -0.08
+ },
+ {
+  "t": 57.249,
+  "dur": 0.16,
+  "kind": "pop",
+  "gain_db": 9.8,
+  "to_cut": 0.79,
+  "word": "soar.",
+  "to_word": -0.07
+ },
+ {
+  "t": 61.881,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 6.6,
+  "to_cut": 3.16,
+  "word": "me.",
+  "to_word": 0.06
+ }
+]

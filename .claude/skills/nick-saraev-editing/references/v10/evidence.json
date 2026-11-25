@@ -1,0 +1,1094 @@
+{
+  "video": "v10.mp4",
+  "duration": 28.91,
+  "derived": {
+    "shots": 9,
+    "avg_shot_len": 3.21,
+    "cuts_per_min": 18.7,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      1,
+      2,
+      3,
+      4,
+      8
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "Cloud",
+      "start": 0.0,
+      "end": 0.18
+    },
+    {
+      "w": "Code",
+      "start": 0.18,
+      "end": 0.48
+    },
+    {
+      "w": "can",
+      "start": 0.48,
+      "end": 0.64
+    },
+    {
+      "w": "now",
+      "start": 0.64,
+      "end": 0.76
+    },
+    {
+      "w": "control",
+      "start": 0.76,
+      "end": 1.08
+    },
+    {
+      "w": "your",
+      "start": 1.08,
+      "end": 1.28
+    },
+    {
+      "w": "iPhone",
+      "start": 1.28,
+      "end": 1.64
+    },
+    {
+      "w": "for",
+      "start": 1.64,
+      "end": 1.96
+    },
+    {
+      "w": "you,",
+      "start": 1.96,
+      "end": 2.12
+    },
+    {
+      "w": "opening",
+      "start": 2.24,
+      "end": 2.42
+    },
+    {
+      "w": "apps",
+      "start": 2.42,
+      "end": 2.72
+    },
+    {
+      "w": "and",
+      "start": 2.72,
+      "end": 2.9
+    },
+    {
+      "w": "tapping",
+      "start": 2.9,
+      "end": 3.16
+    },
+    {
+      "w": "through",
+      "start": 3.16,
+      "end": 3.38
+    },
+    {
+      "w": "screens",
+      "start": 3.38,
+      "end": 3.72
+    },
+    {
+      "w": "just",
+      "start": 3.72,
+      "end": 3.96
+    },
+    {
+      "w": "like",
+      "start": 3.96,
+      "end": 4.18
+    },
+    {
+      "w": "a",
+      "start": 4.18,
+      "end": 4.28
+    },
+    {
+      "w": "real",
+      "start": 4.28,
+      "end": 4.44
+    },
+    {
+      "w": "person.",
+      "start": 4.44,
+      "end": 4.8
+    },
+    {
+      "w": "This",
+      "start": 4.92,
+      "end": 5.04
+    },
+    {
+      "w": "is",
+      "start": 5.04,
+      "end": 5.16
+    },
+    {
+      "w": "Mirar",
+      "start": 5.16,
+      "end": 5.5
+    },
+    {
+      "w": "MCP,",
+      "start": 5.5,
+      "end": 6.12
+    },
+    {
+      "w": "and",
+      "start": 6.24,
+      "end": 6.26
+    },
+    {
+      "w": "it",
+      "start": 6.26,
+      "end": 6.34
+    },
+    {
+      "w": "works",
+      "start": 6.34,
+      "end": 6.44
+    },
+    {
+      "w": "through",
+      "start": 6.44,
+      "end": 6.64
+    },
+    {
+      "w": "Apple's",
+      "start": 6.64,
+      "end": 7.08
+    },
+    {
+      "w": "iPhone",
+      "start": 7.08,
+      "end": 7.44
+    },
+    {
+      "w": "mirroring",
+      "start": 7.44,
+      "end": 7.86
+    },
+    {
+      "w": "on",
+      "start": 7.86,
+      "end": 7.96
+    },
+    {
+      "w": "your",
+      "start": 7.96,
+      "end": 8.04
+    },
+    {
+      "w": "Mac,",
+      "start": 8.04,
+      "end": 8.26
+    },
+    {
+      "w": "so",
+      "start": 8.46,
+      "end": 8.52
+    },
+    {
+      "w": "Cloud",
+      "start": 8.52,
+      "end": 8.72
+    },
+    {
+      "w": "can",
+      "start": 8.72,
+      "end": 8.9
+    },
+    {
+      "w": "read",
+      "start": 8.9,
+      "end": 9.08
+    },
+    {
+      "w": "your",
+      "start": 9.08,
+      "end": 9.24
+    },
+    {
+      "w": "phone",
+      "start": 9.24,
+      "end": 9.44
+    },
+    {
+      "w": "screen",
+      "start": 9.44,
+      "end": 9.7
+    },
+    {
+      "w": "and",
+      "start": 9.7,
+      "end": 9.88
+    },
+    {
+      "w": "tap,",
+      "start": 9.88,
+      "end": 10.16
+    },
+    {
+      "w": "swipe,",
+      "start": 10.3,
+      "end": 10.38
+    },
+    {
+      "w": "and",
+      "start": 10.62,
+      "end": 10.7
+    },
+    {
+      "w": "type",
+      "start": 10.7,
+      "end": 10.98
+    },
+    {
+      "w": "for",
+      "start": 10.98,
+      "end": 11.22
+    },
+    {
+      "w": "you.",
+      "start": 11.22,
+      "end": 11.4
+    },
+    {
+      "w": "To",
+      "start": 11.48,
+      "end": 11.5
+    },
+    {
+      "w": "install",
+      "start": 11.5,
+      "end": 11.78
+    },
+    {
+      "w": "it,",
+      "start": 11.78,
+      "end": 11.94
+    },
+    {
+      "w": "you",
+      "start": 11.94,
+      "end": 12.0
+    },
+    {
+      "w": "just",
+      "start": 12.0,
+      "end": 12.12
+    },
+    {
+      "w": "run",
+      "start": 12.12,
+      "end": 12.26
+    },
+    {
+      "w": "this",
+      "start": 12.26,
+      "end": 12.44
+    },
+    {
+      "w": "one",
+      "start": 12.44,
+      "end": 12.62
+    },
+    {
+      "w": "command",
+      "start": 12.62,
+      "end": 12.92
+    },
+    {
+      "w": "and",
+      "start": 12.92,
+      "end": 13.06
+    },
+    {
+      "w": "connect",
+      "start": 13.06,
+      "end": 13.3
+    },
+    {
+      "w": "it",
+      "start": 13.3,
+      "end": 13.44
+    },
+    {
+      "w": "to",
+      "start": 13.44,
+      "end": 13.54
+    },
+    {
+      "w": "Cloud",
+      "start": 13.54,
+      "end": 13.74
+    },
+    {
+      "w": "Code",
+      "start": 13.74,
+      "end": 14.0
+    },
+    {
+      "w": "or",
+      "start": 14.0,
+      "end": 14.18
+    },
+    {
+      "w": "Codex.",
+      "start": 14.18,
+      "end": 14.66
+    },
+    {
+      "w": "Then",
+      "start": 14.8,
+      "end": 14.9
+    },
+    {
+      "w": "you",
+      "start": 14.9,
+      "end": 15.02
+    },
+    {
+      "w": "can",
+      "start": 15.02,
+      "end": 15.12
+    },
+    {
+      "w": "use",
+      "start": 15.12,
+      "end": 15.26
+    },
+    {
+      "w": "it",
+      "start": 15.26,
+      "end": 15.36
+    },
+    {
+      "w": "to",
+      "start": 15.36,
+      "end": 15.44
+    },
+    {
+      "w": "automate",
+      "start": 15.44,
+      "end": 15.64
+    },
+    {
+      "w": "whole",
+      "start": 15.64,
+      "end": 15.88
+    },
+    {
+      "w": "workflows,",
+      "start": 15.88,
+      "end": 16.3
+    },
+    {
+      "w": "test",
+      "start": 16.5,
+      "end": 16.66
+    },
+    {
+      "w": "your",
+      "start": 16.66,
+      "end": 16.84
+    },
+    {
+      "w": "own",
+      "start": 16.84,
+      "end": 16.94
+    },
+    {
+      "w": "apps,",
+      "start": 16.94,
+      "end": 17.18
+    },
+    {
+      "w": "learn",
+      "start": 17.24,
+      "end": 17.34
+    },
+    {
+      "w": "a",
+      "start": 17.34,
+      "end": 17.48
+    },
+    {
+      "w": "real",
+      "start": 17.48,
+      "end": 17.62
+    },
+    {
+      "w": "device,",
+      "start": 17.62,
+      "end": 17.92
+    },
+    {
+      "w": "or",
+      "start": 18.22,
+      "end": 18.34
+    },
+    {
+      "w": "just",
+      "start": 18.34,
+      "end": 18.5
+    },
+    {
+      "w": "hand",
+      "start": 18.5,
+      "end": 18.7
+    },
+    {
+      "w": "off",
+      "start": 18.7,
+      "end": 18.86
+    },
+    {
+      "w": "all",
+      "start": 18.86,
+      "end": 18.96
+    },
+    {
+      "w": "the",
+      "start": 18.96,
+      "end": 19.08
+    },
+    {
+      "w": "boring",
+      "start": 19.08,
+      "end": 19.28
+    },
+    {
+      "w": "stuff",
+      "start": 19.28,
+      "end": 19.58
+    },
+    {
+      "w": "that",
+      "start": 19.58,
+      "end": 19.74
+    },
+    {
+      "w": "you",
+      "start": 19.74,
+      "end": 19.78
+    },
+    {
+      "w": "have",
+      "start": 19.78,
+      "end": 19.92
+    },
+    {
+      "w": "to",
+      "start": 19.92,
+      "end": 20.02
+    },
+    {
+      "w": "do",
+      "start": 20.02,
+      "end": 20.14
+    },
+    {
+      "w": "in",
+      "start": 20.14,
+      "end": 20.22
+    },
+    {
+      "w": "your",
+      "start": 20.22,
+      "end": 20.32
+    },
+    {
+      "w": "phone",
+      "start": 20.32,
+      "end": 20.58
+    },
+    {
+      "w": "every",
+      "start": 20.58,
+      "end": 20.9
+    },
+    {
+      "w": "day.",
+      "start": 20.9,
+      "end": 21.18
+    },
+    {
+      "w": "Plus",
+      "start": 21.3,
+      "end": 21.44
+    },
+    {
+      "w": "you",
+      "start": 21.44,
+      "end": 21.58
+    },
+    {
+      "w": "can",
+      "start": 21.58,
+      "end": 21.68
+    },
+    {
+      "w": "block",
+      "start": 21.68,
+      "end": 21.94
+    },
+    {
+      "w": "it",
+      "start": 21.94,
+      "end": 22.12
+    },
+    {
+      "w": "from",
+      "start": 22.12,
+      "end": 22.26
+    },
+    {
+      "w": "apps",
+      "start": 22.26,
+      "end": 22.48
+    },
+    {
+      "w": "like",
+      "start": 22.48,
+      "end": 22.68
+    },
+    {
+      "w": "Wallet",
+      "start": 22.68,
+      "end": 23.08
+    },
+    {
+      "w": "or",
+      "start": 23.08,
+      "end": 23.2
+    },
+    {
+      "w": "your",
+      "start": 23.2,
+      "end": 23.34
+    },
+    {
+      "w": "banking",
+      "start": 23.34,
+      "end": 23.6
+    },
+    {
+      "w": "apps,",
+      "start": 23.6,
+      "end": 23.92
+    },
+    {
+      "w": "you",
+      "start": 24.08,
+      "end": 24.12
+    },
+    {
+      "w": "always",
+      "start": 24.12,
+      "end": 24.36
+    },
+    {
+      "w": "stay",
+      "start": 24.36,
+      "end": 24.58
+    },
+    {
+      "w": "in",
+      "start": 24.58,
+      "end": 24.66
+    },
+    {
+      "w": "control.",
+      "start": 24.66,
+      "end": 24.98
+    },
+    {
+      "w": "If",
+      "start": 25.2,
+      "end": 25.3
+    },
+    {
+      "w": "you",
+      "start": 25.3,
+      "end": 25.4
+    },
+    {
+      "w": "want",
+      "start": 25.4,
+      "end": 25.5
+    },
+    {
+      "w": "the",
+      "start": 25.5,
+      "end": 25.62
+    },
+    {
+      "w": "whole",
+      "start": 25.62,
+      "end": 25.74
+    },
+    {
+      "w": "setup",
+      "start": 25.74,
+      "end": 25.98
+    },
+    {
+      "w": "guide,",
+      "start": 25.98,
+      "end": 26.22
+    },
+    {
+      "w": "just",
+      "start": 26.36,
+      "end": 26.44
+    },
+    {
+      "w": "comment",
+      "start": 26.44,
+      "end": 26.66
+    },
+    {
+      "w": "phone",
+      "start": 26.66,
+      "end": 26.98
+    },
+    {
+      "w": "down",
+      "start": 26.98,
+      "end": 27.16
+    },
+    {
+      "w": "below",
+      "start": 27.16,
+      "end": 27.44
+    },
+    {
+      "w": "and",
+      "start": 27.44,
+      "end": 27.66
+    },
+    {
+      "w": "I'll",
+      "start": 27.66,
+      "end": 27.76
+    },
+    {
+      "w": "send",
+      "start": 27.76,
+      "end": 27.98
+    },
+    {
+      "w": "you",
+      "start": 27.98,
+      "end": 28.08
+    },
+    {
+      "w": "the",
+      "start": 28.08,
+      "end": 28.2
+    },
+    {
+      "w": "links",
+      "start": 28.2,
+      "end": 28.36
+    },
+    {
+      "w": "directly.",
+      "start": 28.36,
+      "end": 28.58
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.833,
+      "length": 4.833,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#070608",
+            "share": 0.209
+          },
+          {
+            "hex": "#B44C26",
+            "share": 0.113
+          },
+          {
+            "hex": "#AB3617",
+            "share": 0.11
+          },
+          {
+            "hex": "#902E15",
+            "share": 0.07
+          },
+          {
+            "hex": "#F8F8F8",
+            "share": 0.056
+          }
+        ],
+        "motion_energy": 11.25,
+        "script": "Cloud Code can now control your iPhone for you, opening apps and tapping through screens just like a real person."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 4.833,
+      "end": 11.4,
+      "length": 6.567,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0803",
+            "share": 0.731
+          },
+          {
+            "hex": "#22180C",
+            "share": 0.052
+          },
+          {
+            "hex": "#524D49",
+            "share": 0.03
+          },
+          {
+            "hex": "#4E443A",
+            "share": 0.025
+          },
+          {
+            "hex": "#F8F8F9",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 18.66,
+        "script": "This is Mirar MCP, and it works through Apple's iPhone mirroring on your Mac, so Cloud can read your phone screen and tap, swipe, and type for you."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 11.4,
+      "end": 14.733,
+      "length": 3.333,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#140D08",
+            "share": 0.207
+          },
+          {
+            "hex": "#22170B",
+            "share": 0.099
+          },
+          {
+            "hex": "#AC3617",
+            "share": 0.097
+          },
+          {
+            "hex": "#B34C27",
+            "share": 0.091
+          },
+          {
+            "hex": "#8F2D16",
+            "share": 0.059
+          }
+        ],
+        "motion_energy": 12.91,
+        "script": "To install it, you just run this one command and connect it to Cloud Code or Codex."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 14.733,
+      "end": 16.467,
+      "length": 1.733,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#120906",
+            "share": 0.317
+          },
+          {
+            "hex": "#FAFAFA",
+            "share": 0.299
+          },
+          {
+            "hex": "#241A16",
+            "share": 0.048
+          },
+          {
+            "hex": "#312C2B",
+            "share": 0.041
+          },
+          {
+            "hex": "#CDCCCC",
+            "share": 0.033
+          }
+        ],
+        "motion_energy": 16.84,
+        "script": "Then you can use it to automate whole workflows,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 16.467,
+      "end": 17.167,
+      "length": 0.7,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100A0C",
+            "share": 0.65
+          },
+          {
+            "hex": "#171524",
+            "share": 0.103
+          },
+          {
+            "hex": "#2C2831",
+            "share": 0.021
+          },
+          {
+            "hex": "#271613",
+            "share": 0.017
+          },
+          {
+            "hex": "#973719",
+            "share": 0.014
+          }
+        ],
+        "motion_energy": 18.83,
+        "script": "test your own apps,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 17.167,
+      "end": 18.267,
+      "length": 1.1,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#110806",
+            "share": 0.416
+          },
+          {
+            "hex": "#ECECD3",
+            "share": 0.088
+          },
+          {
+            "hex": "#789159",
+            "share": 0.085
+          },
+          {
+            "hex": "#514F4A",
+            "share": 0.024
+          },
+          {
+            "hex": "#CED2B4",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 10.47,
+        "script": "learn a real device, or"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 18.267,
+      "end": 21.2,
+      "length": 2.933,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0D10",
+            "share": 0.262
+          },
+          {
+            "hex": "#AD3617",
+            "share": 0.103
+          },
+          {
+            "hex": "#B24C28",
+            "share": 0.093
+          },
+          {
+            "hex": "#912D15",
+            "share": 0.066
+          },
+          {
+            "hex": "#2B2B2F",
+            "share": 0.056
+          }
+        ],
+        "motion_energy": 10.3,
+        "script": "just hand off all the boring stuff that you have to do in your phone every day."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 21.2,
+      "end": 25.133,
+      "length": 3.933,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#922E17",
+            "share": 0.252
+          },
+          {
+            "hex": "#A83618",
+            "share": 0.135
+          },
+          {
+            "hex": "#B24924",
+            "share": 0.114
+          },
+          {
+            "hex": "#F6F8F7",
+            "share": 0.055
+          },
+          {
+            "hex": "#132573",
+            "share": 0.048
+          }
+        ],
+        "motion_energy": 4.88,
+        "script": "Plus you can block it from apps like Wallet or your banking apps, you always stay in control."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 25.133,
+      "end": 28.908,
+      "length": 3.775,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100D11",
+            "share": 0.285
+          },
+          {
+            "hex": "#A99598",
+            "share": 0.098
+          },
+          {
+            "hex": "#CD9689",
+            "share": 0.059
+          },
+          {
+            "hex": "#B19DA1",
+            "share": 0.045
+          },
+          {
+            "hex": "#AC766A",
+            "share": 0.045
+          }
+        ],
+        "motion_energy": 26.67,
+        "script": "If you want the whole setup guide, just comment phone down below and I'll send you the links directly."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

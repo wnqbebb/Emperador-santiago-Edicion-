@@ -1,0 +1,1693 @@
+{
+  "video": "v07.mp4",
+  "duration": 39.02,
+  "derived": {
+    "shots": 18,
+    "avg_shot_len": 2.17,
+    "cuts_per_min": 27.7,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      2,
+      3,
+      7,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "Brands",
+      "start": 0.0,
+      "end": 0.32
+    },
+    {
+      "w": "are",
+      "start": 0.32,
+      "end": 0.36
+    },
+    {
+      "w": "now",
+      "start": 0.36,
+      "end": 0.5
+    },
+    {
+      "w": "hiring",
+      "start": 0.5,
+      "end": 0.72
+    },
+    {
+      "w": "people",
+      "start": 0.72,
+      "end": 0.98
+    },
+    {
+      "w": "to",
+      "start": 0.98,
+      "end": 1.1
+    },
+    {
+      "w": "make",
+      "start": 1.1,
+      "end": 1.22
+    },
+    {
+      "w": "AI",
+      "start": 1.22,
+      "end": 1.52
+    },
+    {
+      "w": "drama",
+      "start": 1.52,
+      "end": 1.88
+    },
+    {
+      "w": "ads,",
+      "start": 1.88,
+      "end": 2.18
+    },
+    {
+      "w": "and",
+      "start": 2.32,
+      "end": 2.36
+    },
+    {
+      "w": "some",
+      "start": 2.36,
+      "end": 2.52
+    },
+    {
+      "w": "listings",
+      "start": 2.52,
+      "end": 2.78
+    },
+    {
+      "w": "are",
+      "start": 2.78,
+      "end": 2.98
+    },
+    {
+      "w": "paying",
+      "start": 2.98,
+      "end": 3.12
+    },
+    {
+      "w": "up",
+      "start": 3.12,
+      "end": 3.34
+    },
+    {
+      "w": "to",
+      "start": 3.34,
+      "end": 3.5
+    },
+    {
+      "w": "$5",
+      "start": 3.5,
+      "end": 3.76
+    },
+    {
+      "w": ",000.",
+      "start": 3.76,
+      "end": 4.12
+    },
+    {
+      "w": "And",
+      "start": 4.6,
+      "end": 4.7
+    },
+    {
+      "w": "here's",
+      "start": 4.7,
+      "end": 4.9
+    },
+    {
+      "w": "how",
+      "start": 4.9,
+      "end": 4.96
+    },
+    {
+      "w": "you",
+      "start": 4.96,
+      "end": 5.04
+    },
+    {
+      "w": "can",
+      "start": 5.04,
+      "end": 5.12
+    },
+    {
+      "w": "make",
+      "start": 5.12,
+      "end": 5.28
+    },
+    {
+      "w": "them",
+      "start": 5.28,
+      "end": 5.36
+    },
+    {
+      "w": "yourself",
+      "start": 5.36,
+      "end": 5.72
+    },
+    {
+      "w": "right",
+      "start": 5.72,
+      "end": 6.02
+    },
+    {
+      "w": "inside",
+      "start": 6.02,
+      "end": 6.3
+    },
+    {
+      "w": "of",
+      "start": 6.3,
+      "end": 6.44
+    },
+    {
+      "w": "Claude.",
+      "start": 6.44,
+      "end": 6.7
+    },
+    {
+      "w": "First,",
+      "start": 6.78,
+      "end": 6.88
+    },
+    {
+      "w": "connect",
+      "start": 7.06,
+      "end": 7.16
+    },
+    {
+      "w": "a",
+      "start": 7.16,
+      "end": 7.3
+    },
+    {
+      "w": "tool",
+      "start": 7.3,
+      "end": 7.42
+    },
+    {
+      "w": "like",
+      "start": 7.42,
+      "end": 7.6
+    },
+    {
+      "w": "Higgsfield",
+      "start": 7.6,
+      "end": 7.98
+    },
+    {
+      "w": "to",
+      "start": 7.98,
+      "end": 8.18
+    },
+    {
+      "w": "Claude",
+      "start": 8.18,
+      "end": 8.44
+    },
+    {
+      "w": "with",
+      "start": 8.44,
+      "end": 8.56
+    },
+    {
+      "w": "its",
+      "start": 8.56,
+      "end": 8.66
+    },
+    {
+      "w": "official",
+      "start": 8.66,
+      "end": 9.0
+    },
+    {
+      "w": "connector,",
+      "start": 9.0,
+      "end": 9.46
+    },
+    {
+      "w": "then",
+      "start": 9.62,
+      "end": 9.82
+    },
+    {
+      "w": "explain",
+      "start": 9.82,
+      "end": 10.2
+    },
+    {
+      "w": "Claude",
+      "start": 10.2,
+      "end": 10.62
+    },
+    {
+      "w": "your",
+      "start": 10.62,
+      "end": 10.72
+    },
+    {
+      "w": "product",
+      "start": 10.72,
+      "end": 11.06
+    },
+    {
+      "w": "and",
+      "start": 11.06,
+      "end": 11.32
+    },
+    {
+      "w": "the",
+      "start": 11.32,
+      "end": 11.44
+    },
+    {
+      "w": "story",
+      "start": 11.44,
+      "end": 11.66
+    },
+    {
+      "w": "that",
+      "start": 11.66,
+      "end": 11.8
+    },
+    {
+      "w": "you",
+      "start": 11.8,
+      "end": 11.92
+    },
+    {
+      "w": "want,",
+      "start": 11.92,
+      "end": 12.16
+    },
+    {
+      "w": "like",
+      "start": 12.24,
+      "end": 12.38
+    },
+    {
+      "w": "make",
+      "start": 12.38,
+      "end": 12.62
+    },
+    {
+      "w": "a",
+      "start": 12.62,
+      "end": 12.78
+    },
+    {
+      "w": "30",
+      "start": 12.78,
+      "end": 13.08
+    },
+    {
+      "w": "-second",
+      "start": 13.08,
+      "end": 13.42
+    },
+    {
+      "w": "drama",
+      "start": 13.42,
+      "end": 13.76
+    },
+    {
+      "w": "ad",
+      "start": 13.76,
+      "end": 14.06
+    },
+    {
+      "w": "for",
+      "start": 14.06,
+      "end": 14.22
+    },
+    {
+      "w": "this",
+      "start": 14.22,
+      "end": 14.38
+    },
+    {
+      "w": "energy",
+      "start": 14.38,
+      "end": 14.68
+    },
+    {
+      "w": "drink,",
+      "start": 14.68,
+      "end": 14.96
+    },
+    {
+      "w": "and",
+      "start": 15.06,
+      "end": 15.14
+    },
+    {
+      "w": "Claude",
+      "start": 15.14,
+      "end": 15.34
+    },
+    {
+      "w": "will",
+      "start": 15.34,
+      "end": 15.44
+    },
+    {
+      "w": "actually",
+      "start": 15.44,
+      "end": 15.62
+    },
+    {
+      "w": "write",
+      "start": 15.62,
+      "end": 15.84
+    },
+    {
+      "w": "the",
+      "start": 15.84,
+      "end": 16.0
+    },
+    {
+      "w": "whole",
+      "start": 16.0,
+      "end": 16.18
+    },
+    {
+      "w": "script",
+      "start": 16.18,
+      "end": 16.5
+    },
+    {
+      "w": "and",
+      "start": 16.5,
+      "end": 16.76
+    },
+    {
+      "w": "plan",
+      "start": 16.76,
+      "end": 17.08
+    },
+    {
+      "w": "every",
+      "start": 17.08,
+      "end": 17.4
+    },
+    {
+      "w": "scene",
+      "start": 17.4,
+      "end": 17.7
+    },
+    {
+      "w": "for",
+      "start": 17.7,
+      "end": 17.94
+    },
+    {
+      "w": "you.",
+      "start": 17.94,
+      "end": 18.14
+    },
+    {
+      "w": "Next,",
+      "start": 18.2,
+      "end": 18.4
+    },
+    {
+      "w": "it'll",
+      "start": 18.52,
+      "end": 18.6
+    },
+    {
+      "w": "also",
+      "start": 18.6,
+      "end": 18.82
+    },
+    {
+      "w": "create",
+      "start": 18.82,
+      "end": 19.08
+    },
+    {
+      "w": "your",
+      "start": 19.08,
+      "end": 19.22
+    },
+    {
+      "w": "main",
+      "start": 19.22,
+      "end": 19.4
+    },
+    {
+      "w": "character",
+      "start": 19.4,
+      "end": 19.76
+    },
+    {
+      "w": "in",
+      "start": 19.76,
+      "end": 19.94
+    },
+    {
+      "w": "Higgsfield,",
+      "start": 19.94,
+      "end": 20.4
+    },
+    {
+      "w": "with",
+      "start": 20.46,
+      "end": 20.6
+    },
+    {
+      "w": "character",
+      "start": 20.6,
+      "end": 20.82
+    },
+    {
+      "w": "sheets",
+      "start": 20.82,
+      "end": 21.14
+    },
+    {
+      "w": "to",
+      "start": 21.14,
+      "end": 21.3
+    },
+    {
+      "w": "keep",
+      "start": 21.3,
+      "end": 21.42
+    },
+    {
+      "w": "looking",
+      "start": 21.42,
+      "end": 21.58
+    },
+    {
+      "w": "exactly",
+      "start": 21.58,
+      "end": 22.12
+    },
+    {
+      "w": "the",
+      "start": 22.12,
+      "end": 22.4
+    },
+    {
+      "w": "same",
+      "start": 22.4,
+      "end": 22.6
+    },
+    {
+      "w": "in",
+      "start": 22.6,
+      "end": 22.7
+    },
+    {
+      "w": "every",
+      "start": 22.7,
+      "end": 22.86
+    },
+    {
+      "w": "shot,",
+      "start": 22.86,
+      "end": 23.16
+    },
+    {
+      "w": "and",
+      "start": 23.24,
+      "end": 23.42
+    },
+    {
+      "w": "it'll",
+      "start": 23.42,
+      "end": 23.6
+    },
+    {
+      "w": "build",
+      "start": 23.6,
+      "end": 23.76
+    },
+    {
+      "w": "the",
+      "start": 23.76,
+      "end": 23.92
+    },
+    {
+      "w": "final",
+      "start": 23.92,
+      "end": 24.12
+    },
+    {
+      "w": "storyboard",
+      "start": 24.12,
+      "end": 24.56
+    },
+    {
+      "w": "for",
+      "start": 24.56,
+      "end": 24.8
+    },
+    {
+      "w": "you.",
+      "start": 24.8,
+      "end": 25.02
+    },
+    {
+      "w": "And",
+      "start": 25.12,
+      "end": 25.2
+    },
+    {
+      "w": "once",
+      "start": 25.2,
+      "end": 25.32
+    },
+    {
+      "w": "you",
+      "start": 25.32,
+      "end": 25.46
+    },
+    {
+      "w": "approve",
+      "start": 25.46,
+      "end": 25.7
+    },
+    {
+      "w": "it,",
+      "start": 25.7,
+      "end": 25.88
+    },
+    {
+      "w": "it",
+      "start": 25.92,
+      "end": 26.02
+    },
+    {
+      "w": "generates",
+      "start": 26.02,
+      "end": 26.32
+    },
+    {
+      "w": "every",
+      "start": 26.32,
+      "end": 26.62
+    },
+    {
+      "w": "shot,",
+      "start": 26.62,
+      "end": 26.96
+    },
+    {
+      "w": "adds",
+      "start": 27.08,
+      "end": 27.24
+    },
+    {
+      "w": "the",
+      "start": 27.24,
+      "end": 27.42
+    },
+    {
+      "w": "voiceover,",
+      "start": 27.42,
+      "end": 27.88
+    },
+    {
+      "w": "and",
+      "start": 28.06,
+      "end": 28.2
+    },
+    {
+      "w": "even",
+      "start": 28.2,
+      "end": 28.3
+    },
+    {
+      "w": "puts",
+      "start": 28.3,
+      "end": 28.5
+    },
+    {
+      "w": "it",
+      "start": 28.5,
+      "end": 28.62
+    },
+    {
+      "w": "all",
+      "start": 28.62,
+      "end": 28.7
+    },
+    {
+      "w": "together",
+      "start": 28.7,
+      "end": 28.94
+    },
+    {
+      "w": "into",
+      "start": 28.94,
+      "end": 29.14
+    },
+    {
+      "w": "the",
+      "start": 29.14,
+      "end": 29.28
+    },
+    {
+      "w": "full",
+      "start": 29.28,
+      "end": 29.48
+    },
+    {
+      "w": "drama",
+      "start": 29.48,
+      "end": 29.84
+    },
+    {
+      "w": "ad,",
+      "start": 29.84,
+      "end": 30.1
+    },
+    {
+      "w": "without",
+      "start": 30.28,
+      "end": 30.34
+    },
+    {
+      "w": "you",
+      "start": 30.34,
+      "end": 30.48
+    },
+    {
+      "w": "ever",
+      "start": 30.48,
+      "end": 30.64
+    },
+    {
+      "w": "having",
+      "start": 30.64,
+      "end": 30.74
+    },
+    {
+      "w": "to",
+      "start": 30.74,
+      "end": 30.9
+    },
+    {
+      "w": "leave",
+      "start": 30.9,
+      "end": 31.02
+    },
+    {
+      "w": "a",
+      "start": 31.02,
+      "end": 31.12
+    },
+    {
+      "w": "chat.",
+      "start": 31.12,
+      "end": 31.4
+    },
+    {
+      "w": "After",
+      "start": 31.58,
+      "end": 31.8
+    },
+    {
+      "w": "you've",
+      "start": 31.8,
+      "end": 31.92
+    },
+    {
+      "w": "made",
+      "start": 31.92,
+      "end": 32.04
+    },
+    {
+      "w": "it",
+      "start": 32.04,
+      "end": 32.1
+    },
+    {
+      "w": "through,",
+      "start": 32.1,
+      "end": 32.2
+    },
+    {
+      "w": "you",
+      "start": 32.32,
+      "end": 32.38
+    },
+    {
+      "w": "can",
+      "start": 32.38,
+      "end": 32.48
+    },
+    {
+      "w": "apply",
+      "start": 32.48,
+      "end": 32.74
+    },
+    {
+      "w": "to",
+      "start": 32.74,
+      "end": 32.86
+    },
+    {
+      "w": "those",
+      "start": 32.86,
+      "end": 33.02
+    },
+    {
+      "w": "listings",
+      "start": 33.02,
+      "end": 33.28
+    },
+    {
+      "w": "yourself",
+      "start": 33.28,
+      "end": 33.72
+    },
+    {
+      "w": "or",
+      "start": 33.72,
+      "end": 33.98
+    },
+    {
+      "w": "even",
+      "start": 33.98,
+      "end": 34.14
+    },
+    {
+      "w": "pitch",
+      "start": 34.14,
+      "end": 34.3
+    },
+    {
+      "w": "them",
+      "start": 34.3,
+      "end": 34.48
+    },
+    {
+      "w": "to",
+      "start": 34.48,
+      "end": 34.58
+    },
+    {
+      "w": "brands",
+      "start": 34.58,
+      "end": 34.8
+    },
+    {
+      "w": "directly.",
+      "start": 34.8,
+      "end": 35.26
+    },
+    {
+      "w": "So",
+      "start": 35.4,
+      "end": 35.48
+    },
+    {
+      "w": "if",
+      "start": 35.48,
+      "end": 35.54
+    },
+    {
+      "w": "you",
+      "start": 35.54,
+      "end": 35.6
+    },
+    {
+      "w": "guys",
+      "start": 35.6,
+      "end": 35.74
+    },
+    {
+      "w": "want",
+      "start": 35.74,
+      "end": 35.88
+    },
+    {
+      "w": "the",
+      "start": 35.88,
+      "end": 36.0
+    },
+    {
+      "w": "full",
+      "start": 36.0,
+      "end": 36.16
+    },
+    {
+      "w": "workflow,",
+      "start": 36.16,
+      "end": 36.46
+    },
+    {
+      "w": "just",
+      "start": 36.58,
+      "end": 36.66
+    },
+    {
+      "w": "come",
+      "start": 36.66,
+      "end": 36.86
+    },
+    {
+      "w": "at",
+      "start": 36.86,
+      "end": 36.94
+    },
+    {
+      "w": "Drama,",
+      "start": 36.94,
+      "end": 37.24
+    },
+    {
+      "w": "and",
+      "start": 37.54,
+      "end": 37.58
+    },
+    {
+      "w": "I'll",
+      "start": 37.58,
+      "end": 37.7
+    },
+    {
+      "w": "send",
+      "start": 37.7,
+      "end": 37.86
+    },
+    {
+      "w": "you",
+      "start": 37.86,
+      "end": 38.0
+    },
+    {
+      "w": "guys",
+      "start": 38.0,
+      "end": 38.14
+    },
+    {
+      "w": "the",
+      "start": 38.14,
+      "end": 38.28
+    },
+    {
+      "w": "link",
+      "start": 38.28,
+      "end": 38.42
+    },
+    {
+      "w": "directly.",
+      "start": 38.42,
+      "end": 38.78
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.567,
+      "length": 4.567,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#C8F510",
+            "share": 0.389
+          },
+          {
+            "hex": "#080D15",
+            "share": 0.087
+          },
+          {
+            "hex": "#BBE613",
+            "share": 0.062
+          },
+          {
+            "hex": "#ADD515",
+            "share": 0.048
+          },
+          {
+            "hex": "#B0B3CC",
+            "share": 0.044
+          }
+        ],
+        "motion_energy": 30.06,
+        "script": "Brands are now hiring people to make AI drama ads, and some listings are paying up to $5 ,000."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 4.567,
+      "end": 6.767,
+      "length": 2.2,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#C6F30F",
+            "share": 0.666
+          },
+          {
+            "hex": "#BCE910",
+            "share": 0.075
+          },
+          {
+            "hex": "#2F170B",
+            "share": 0.052
+          },
+          {
+            "hex": "#4D2A0E",
+            "share": 0.04
+          },
+          {
+            "hex": "#100808",
+            "share": 0.025
+          }
+        ],
+        "motion_energy": 3.49,
+        "script": "And here's how you can make them yourself right inside of Claude."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 6.767,
+      "end": 9.6,
+      "length": 2.833,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#C7F510",
+            "share": 0.514
+          },
+          {
+            "hex": "#080B15",
+            "share": 0.119
+          },
+          {
+            "hex": "#BBE613",
+            "share": 0.089
+          },
+          {
+            "hex": "#ADD516",
+            "share": 0.052
+          },
+          {
+            "hex": "#AEB2C9",
+            "share": 0.044
+          }
+        ],
+        "motion_energy": 13.88,
+        "script": "First, connect a tool like Higgsfield to Claude with its official connector,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 9.6,
+      "end": 12.533,
+      "length": 2.933,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#D9D9D9",
+            "share": 0.509
+          },
+          {
+            "hex": "#AEB309",
+            "share": 0.059
+          },
+          {
+            "hex": "#E3E4DB",
+            "share": 0.037
+          },
+          {
+            "hex": "#E2E2E2",
+            "share": 0.037
+          },
+          {
+            "hex": "#8A9608",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 14.58,
+        "script": "then explain Claude your product and the story that you want, like make"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 12.533,
+      "end": 15.033,
+      "length": 2.5,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#C8F510",
+            "share": 0.285
+          },
+          {
+            "hex": "#FAF9F8",
+            "share": 0.246
+          },
+          {
+            "hex": "#060915",
+            "share": 0.083
+          },
+          {
+            "hex": "#BBE613",
+            "share": 0.052
+          },
+          {
+            "hex": "#AFB2C9",
+            "share": 0.044
+          }
+        ],
+        "motion_energy": 6.14,
+        "script": "a 30 -second drama ad for this energy drink,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 15.033,
+      "end": 18.2,
+      "length": 3.167,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#C6F310",
+            "share": 0.492
+          },
+          {
+            "hex": "#FBFBFB",
+            "share": 0.294
+          },
+          {
+            "hex": "#BCE80F",
+            "share": 0.083
+          },
+          {
+            "hex": "#AAD30F",
+            "share": 0.022
+          },
+          {
+            "hex": "#0D0F14",
+            "share": 0.011
+          }
+        ],
+        "motion_energy": 4.15,
+        "script": "and Claude will actually write the whole script and plan every scene for you."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 18.2,
+      "end": 21.933,
+      "length": 3.733,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#101217",
+            "share": 0.752
+          },
+          {
+            "hex": "#181A20",
+            "share": 0.123
+          },
+          {
+            "hex": "#F8F8F8",
+            "share": 0.028
+          },
+          {
+            "hex": "#2A2A2A",
+            "share": 0.017
+          },
+          {
+            "hex": "#1E2121",
+            "share": 0.008
+          }
+        ],
+        "motion_energy": 9.55,
+        "script": "Next, it'll also create your main character in Higgsfield, with character sheets to keep looking exactly"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 21.933,
+      "end": 22.5,
+      "length": 0.567,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#121113",
+            "share": 0.197
+          },
+          {
+            "hex": "#F5F4F5",
+            "share": 0.149
+          },
+          {
+            "hex": "#4B352D",
+            "share": 0.051
+          },
+          {
+            "hex": "#D0D649",
+            "share": 0.045
+          },
+          {
+            "hex": "#C99576",
+            "share": 0.043
+          }
+        ],
+        "motion_energy": 20.83,
+        "script": "the same"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 22.5,
+      "end": 22.867,
+      "length": 0.367,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#05070A",
+            "share": 0.455
+          },
+          {
+            "hex": "#302E2F",
+            "share": 0.059
+          },
+          {
+            "hex": "#4E4D50",
+            "share": 0.027
+          },
+          {
+            "hex": "#90AF52",
+            "share": 0.027
+          },
+          {
+            "hex": "#08364C",
+            "share": 0.022
+          }
+        ],
+        "motion_energy": 11.25,
+        "script": "in every shot,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 22.867,
+      "end": 23.233,
+      "length": 0.367,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#060B12",
+            "share": 0.217
+          },
+          {
+            "hex": "#312D2E",
+            "share": 0.047
+          },
+          {
+            "hex": "#0D4559",
+            "share": 0.042
+          },
+          {
+            "hex": "#112731",
+            "share": 0.041
+          },
+          {
+            "hex": "#0A1A24",
+            "share": 0.039
+          }
+        ],
+        "motion_energy": 22.17,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 10,
+      "start": 23.233,
+      "end": 25.967,
+      "length": 2.733,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#C8F510",
+            "share": 0.286
+          },
+          {
+            "hex": "#0A0E15",
+            "share": 0.242
+          },
+          {
+            "hex": "#BBE713",
+            "share": 0.051
+          },
+          {
+            "hex": "#B0B3CA",
+            "share": 0.044
+          },
+          {
+            "hex": "#ABD315",
+            "share": 0.042
+          }
+        ],
+        "motion_energy": 9.66,
+        "script": "and it'll build the final storyboard for you. And once you approve it, it"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 11,
+      "start": 25.967,
+      "end": 26.333,
+      "length": 0.367,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#02090F",
+            "share": 0.366
+          },
+          {
+            "hex": "#0C2733",
+            "share": 0.176
+          },
+          {
+            "hex": "#051A24",
+            "share": 0.103
+          },
+          {
+            "hex": "#123646",
+            "share": 0.075
+          },
+          {
+            "hex": "#2D4854",
+            "share": 0.064
+          }
+        ],
+        "motion_energy": 14.0,
+        "script": "generates every"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 12,
+      "start": 26.333,
+      "end": 26.7,
+      "length": 0.367,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#041015",
+            "share": 0.227
+          },
+          {
+            "hex": "#0B292F",
+            "share": 0.161
+          },
+          {
+            "hex": "#041B22",
+            "share": 0.069
+          },
+          {
+            "hex": "#304951",
+            "share": 0.051
+          },
+          {
+            "hex": "#113A44",
+            "share": 0.035
+          }
+        ],
+        "motion_energy": 22.15,
+        "script": "shot,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 13,
+      "start": 26.7,
+      "end": 27.067,
+      "length": 0.367,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#01050B",
+            "share": 0.445
+          },
+          {
+            "hex": "#0B2733",
+            "share": 0.168
+          },
+          {
+            "hex": "#041926",
+            "share": 0.11
+          },
+          {
+            "hex": "#0C3646",
+            "share": 0.077
+          },
+          {
+            "hex": "#104556",
+            "share": 0.03
+          }
+        ],
+        "motion_energy": 12.83,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 14,
+      "start": 27.067,
+      "end": 27.433,
+      "length": 0.367,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#040C11",
+            "share": 0.33
+          },
+          {
+            "hex": "#122A31",
+            "share": 0.163
+          },
+          {
+            "hex": "#0B1B23",
+            "share": 0.059
+          },
+          {
+            "hex": "#2B4C4E",
+            "share": 0.048
+          },
+          {
+            "hex": "#273630",
+            "share": 0.036
+          }
+        ],
+        "motion_energy": 13.01,
+        "script": "adds the voiceover,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 15,
+      "start": 27.433,
+      "end": 30.167,
+      "length": 2.733,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0A0D11",
+            "share": 0.512
+          },
+          {
+            "hex": "#0B3747",
+            "share": 0.065
+          },
+          {
+            "hex": "#0B2935",
+            "share": 0.05
+          },
+          {
+            "hex": "#302C2D",
+            "share": 0.044
+          },
+          {
+            "hex": "#504D4E",
+            "share": 0.026
+          }
+        ],
+        "motion_energy": 13.28,
+        "script": "and even puts it all together into the full drama ad,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 16,
+      "start": 30.167,
+      "end": 35.367,
+      "length": 5.2,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#C8F510",
+            "share": 0.417
+          },
+          {
+            "hex": "#060A14",
+            "share": 0.094
+          },
+          {
+            "hex": "#BBE712",
+            "share": 0.085
+          },
+          {
+            "hex": "#FAFAF9",
+            "share": 0.083
+          },
+          {
+            "hex": "#ADD515",
+            "share": 0.045
+          }
+        ],
+        "motion_energy": 17.71,
+        "script": "without you ever having to leave a chat. After you've made it through, you can apply to those listings yourself or even pitch them to brands directly."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 17,
+      "start": 35.367,
+      "end": 39.02,
+      "length": 3.653,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0D16",
+            "share": 0.197
+          },
+          {
+            "hex": "#AFB2C9",
+            "share": 0.14
+          },
+          {
+            "hex": "#131824",
+            "share": 0.113
+          },
+          {
+            "hex": "#D2ADAE",
+            "share": 0.094
+          },
+          {
+            "hex": "#8E96AE",
+            "share": 0.085
+          }
+        ],
+        "motion_energy": 18.77,
+        "script": "So if you guys want the full workflow, just come at Drama, and I'll send you guys the link directly."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

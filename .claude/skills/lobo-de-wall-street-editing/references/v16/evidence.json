@@ -1,0 +1,1067 @@
+{
+  "video": "v16.mp4",
+  "duration": 42.93,
+  "derived": {
+    "shots": 5,
+    "avg_shot_len": 8.59,
+    "cuts_per_min": 7.0,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "What",
+      "start": 0.0,
+      "end": 0.2
+    },
+    {
+      "w": "do",
+      "start": 0.2,
+      "end": 0.3
+    },
+    {
+      "w": "you",
+      "start": 0.3,
+      "end": 0.4
+    },
+    {
+      "w": "say",
+      "start": 0.4,
+      "end": 0.72
+    },
+    {
+      "w": "when",
+      "start": 0.72,
+      "end": 0.86
+    },
+    {
+      "w": "you",
+      "start": 0.86,
+      "end": 0.94
+    },
+    {
+      "w": "get",
+      "start": 0.94,
+      "end": 1.06
+    },
+    {
+      "w": "hit",
+      "start": 1.06,
+      "end": 1.24
+    },
+    {
+      "w": "with",
+      "start": 1.24,
+      "end": 1.4
+    },
+    {
+      "w": "the",
+      "start": 1.4,
+      "end": 1.54
+    },
+    {
+      "w": "objection?",
+      "start": 1.54,
+      "end": 1.92
+    },
+    {
+      "w": "I",
+      "start": 2.3,
+      "end": 2.4
+    },
+    {
+      "w": "want",
+      "start": 2.4,
+      "end": 2.62
+    },
+    {
+      "w": "to",
+      "start": 2.62,
+      "end": 2.76
+    },
+    {
+      "w": "think",
+      "start": 2.76,
+      "end": 2.96
+    },
+    {
+      "w": "about",
+      "start": 2.96,
+      "end": 3.24
+    },
+    {
+      "w": "it.",
+      "start": 3.24,
+      "end": 3.44
+    },
+    {
+      "w": "I'm",
+      "start": 3.54,
+      "end": 3.82
+    },
+    {
+      "w": "Jordan",
+      "start": 3.82,
+      "end": 4.12
+    },
+    {
+      "w": "Belfort,",
+      "start": 4.12,
+      "end": 4.56
+    },
+    {
+      "w": "the",
+      "start": 4.78,
+      "end": 4.86
+    },
+    {
+      "w": "real",
+      "start": 4.86,
+      "end": 5.28
+    },
+    {
+      "w": "Wolf",
+      "start": 5.28,
+      "end": 5.58
+    },
+    {
+      "w": "of",
+      "start": 5.58,
+      "end": 5.74
+    },
+    {
+      "w": "Wall",
+      "start": 5.74,
+      "end": 5.94
+    },
+    {
+      "w": "Street,",
+      "start": 5.94,
+      "end": 6.14
+    },
+    {
+      "w": "and",
+      "start": 6.26,
+      "end": 6.36
+    },
+    {
+      "w": "I",
+      "start": 6.36,
+      "end": 6.52
+    },
+    {
+      "w": "will",
+      "start": 6.52,
+      "end": 6.66
+    },
+    {
+      "w": "tell",
+      "start": 6.66,
+      "end": 6.98
+    },
+    {
+      "w": "you",
+      "start": 6.98,
+      "end": 7.24
+    },
+    {
+      "w": "that",
+      "start": 7.24,
+      "end": 7.62
+    },
+    {
+      "w": "this",
+      "start": 7.62,
+      "end": 8.02
+    },
+    {
+      "w": "is",
+      "start": 8.02,
+      "end": 8.36
+    },
+    {
+      "w": "the",
+      "start": 8.36,
+      "end": 8.54
+    },
+    {
+      "w": "easiest",
+      "start": 8.54,
+      "end": 9.26
+    },
+    {
+      "w": "objection",
+      "start": 9.26,
+      "end": 9.94
+    },
+    {
+      "w": "in",
+      "start": 9.94,
+      "end": 10.38
+    },
+    {
+      "w": "the",
+      "start": 10.38,
+      "end": 10.52
+    },
+    {
+      "w": "book.",
+      "start": 10.52,
+      "end": 10.74
+    },
+    {
+      "w": "Bottom",
+      "start": 10.94,
+      "end": 11.12
+    },
+    {
+      "w": "line",
+      "start": 11.12,
+      "end": 11.4
+    },
+    {
+      "w": "is",
+      "start": 11.4,
+      "end": 11.6
+    },
+    {
+      "w": "this,",
+      "start": 11.6,
+      "end": 11.8
+    },
+    {
+      "w": "when",
+      "start": 11.88,
+      "end": 11.96
+    },
+    {
+      "w": "someone",
+      "start": 11.96,
+      "end": 12.22
+    },
+    {
+      "w": "says",
+      "start": 12.22,
+      "end": 12.42
+    },
+    {
+      "w": "they",
+      "start": 12.42,
+      "end": 12.58
+    },
+    {
+      "w": "want",
+      "start": 12.58,
+      "end": 12.74
+    },
+    {
+      "w": "to",
+      "start": 12.74,
+      "end": 12.84
+    },
+    {
+      "w": "think",
+      "start": 12.84,
+      "end": 13.02
+    },
+    {
+      "w": "about",
+      "start": 13.02,
+      "end": 13.32
+    },
+    {
+      "w": "it,",
+      "start": 13.32,
+      "end": 13.5
+    },
+    {
+      "w": "the",
+      "start": 13.58,
+      "end": 13.68
+    },
+    {
+      "w": "last",
+      "start": 13.68,
+      "end": 14.14
+    },
+    {
+      "w": "thing",
+      "start": 14.14,
+      "end": 14.38
+    },
+    {
+      "w": "you",
+      "start": 14.38,
+      "end": 14.48
+    },
+    {
+      "w": "want",
+      "start": 14.48,
+      "end": 14.64
+    },
+    {
+      "w": "to",
+      "start": 14.64,
+      "end": 14.74
+    },
+    {
+      "w": "do",
+      "start": 14.74,
+      "end": 14.88
+    },
+    {
+      "w": "is",
+      "start": 14.88,
+      "end": 15.04
+    },
+    {
+      "w": "start",
+      "start": 15.04,
+      "end": 15.2
+    },
+    {
+      "w": "getting",
+      "start": 15.2,
+      "end": 15.46
+    },
+    {
+      "w": "to",
+      "start": 15.46,
+      "end": 15.68
+    },
+    {
+      "w": "an",
+      "start": 15.68,
+      "end": 15.8
+    },
+    {
+      "w": "argument",
+      "start": 15.8,
+      "end": 16.1
+    },
+    {
+      "w": "about",
+      "start": 16.1,
+      "end": 16.36
+    },
+    {
+      "w": "what",
+      "start": 16.36,
+      "end": 16.62
+    },
+    {
+      "w": "do",
+      "start": 16.62,
+      "end": 16.7
+    },
+    {
+      "w": "you",
+      "start": 16.7,
+      "end": 16.72
+    },
+    {
+      "w": "need",
+      "start": 16.72,
+      "end": 16.86
+    },
+    {
+      "w": "to",
+      "start": 16.86,
+      "end": 16.96
+    },
+    {
+      "w": "think",
+      "start": 16.96,
+      "end": 17.16
+    },
+    {
+      "w": "about,",
+      "start": 17.16,
+      "end": 17.46
+    },
+    {
+      "w": "what",
+      "start": 17.56,
+      "end": 17.66
+    },
+    {
+      "w": "don't",
+      "start": 17.66,
+      "end": 17.9
+    },
+    {
+      "w": "you",
+      "start": 17.9,
+      "end": 18.08
+    },
+    {
+      "w": "need",
+      "start": 18.08,
+      "end": 18.18
+    },
+    {
+      "w": "to",
+      "start": 18.18,
+      "end": 18.26
+    },
+    {
+      "w": "think",
+      "start": 18.26,
+      "end": 18.44
+    },
+    {
+      "w": "about?",
+      "start": 18.44,
+      "end": 18.72
+    },
+    {
+      "w": "Is",
+      "start": 18.86,
+      "end": 18.94
+    },
+    {
+      "w": "a",
+      "start": 18.94,
+      "end": 19.08
+    },
+    {
+      "w": "smoke",
+      "start": 19.08,
+      "end": 19.36
+    },
+    {
+      "w": "stream",
+      "start": 19.36,
+      "end": 19.68
+    },
+    {
+      "w": "for",
+      "start": 19.68,
+      "end": 19.96
+    },
+    {
+      "w": "uncertainty?",
+      "start": 19.96,
+      "end": 20.5
+    },
+    {
+      "w": "So",
+      "start": 20.64,
+      "end": 20.72
+    },
+    {
+      "w": "the",
+      "start": 20.72,
+      "end": 20.84
+    },
+    {
+      "w": "first",
+      "start": 20.84,
+      "end": 21.18
+    },
+    {
+      "w": "question",
+      "start": 21.18,
+      "end": 21.62
+    },
+    {
+      "w": "I",
+      "start": 21.62,
+      "end": 21.8
+    },
+    {
+      "w": "ask",
+      "start": 21.8,
+      "end": 22.12
+    },
+    {
+      "w": "is,",
+      "start": 22.12,
+      "end": 22.36
+    },
+    {
+      "w": "whether",
+      "start": 22.52,
+      "end": 22.66
+    },
+    {
+      "w": "or",
+      "start": 22.66,
+      "end": 22.86
+    },
+    {
+      "w": "not",
+      "start": 22.86,
+      "end": 22.96
+    },
+    {
+      "w": "they",
+      "start": 22.96,
+      "end": 23.14
+    },
+    {
+      "w": "actually",
+      "start": 23.14,
+      "end": 23.54
+    },
+    {
+      "w": "like",
+      "start": 23.54,
+      "end": 23.9
+    },
+    {
+      "w": "the",
+      "start": 23.9,
+      "end": 24.14
+    },
+    {
+      "w": "idea?",
+      "start": 24.14,
+      "end": 24.5
+    },
+    {
+      "w": "Does",
+      "start": 24.72,
+      "end": 24.92
+    },
+    {
+      "w": "the",
+      "start": 24.92,
+      "end": 25.08
+    },
+    {
+      "w": "idea",
+      "start": 25.08,
+      "end": 25.42
+    },
+    {
+      "w": "make",
+      "start": 25.42,
+      "end": 25.78
+    },
+    {
+      "w": "sense",
+      "start": 25.78,
+      "end": 26.02
+    },
+    {
+      "w": "to",
+      "start": 26.02,
+      "end": 26.18
+    },
+    {
+      "w": "them?",
+      "start": 26.18,
+      "end": 26.3
+    },
+    {
+      "w": "Does",
+      "start": 26.38,
+      "end": 26.46
+    },
+    {
+      "w": "the",
+      "start": 26.46,
+      "end": 26.64
+    },
+    {
+      "w": "product",
+      "start": 26.64,
+      "end": 26.98
+    },
+    {
+      "w": "make",
+      "start": 26.98,
+      "end": 27.24
+    },
+    {
+      "w": "sense",
+      "start": 27.24,
+      "end": 27.46
+    },
+    {
+      "w": "to",
+      "start": 27.46,
+      "end": 27.66
+    },
+    {
+      "w": "them?",
+      "start": 27.66,
+      "end": 27.78
+    },
+    {
+      "w": "What",
+      "start": 27.78,
+      "end": 27.98
+    },
+    {
+      "w": "I",
+      "start": 27.98,
+      "end": 28.08
+    },
+    {
+      "w": "do",
+      "start": 28.08,
+      "end": 28.2
+    },
+    {
+      "w": "is",
+      "start": 28.2,
+      "end": 28.32
+    },
+    {
+      "w": "I",
+      "start": 28.32,
+      "end": 28.44
+    },
+    {
+      "w": "raise",
+      "start": 28.44,
+      "end": 28.98
+    },
+    {
+      "w": "their",
+      "start": 28.98,
+      "end": 29.3
+    },
+    {
+      "w": "level",
+      "start": 29.3,
+      "end": 29.64
+    },
+    {
+      "w": "of",
+      "start": 29.64,
+      "end": 29.78
+    },
+    {
+      "w": "certainty",
+      "start": 29.78,
+      "end": 30.14
+    },
+    {
+      "w": "for",
+      "start": 30.14,
+      "end": 30.42
+    },
+    {
+      "w": "the",
+      "start": 30.42,
+      "end": 30.56
+    },
+    {
+      "w": "product,",
+      "start": 30.56,
+      "end": 31.0
+    },
+    {
+      "w": "for",
+      "start": 31.14,
+      "end": 31.24
+    },
+    {
+      "w": "myself,",
+      "start": 31.24,
+      "end": 31.74
+    },
+    {
+      "w": "the",
+      "start": 31.92,
+      "end": 32.06
+    },
+    {
+      "w": "company",
+      "start": 32.06,
+      "end": 32.48
+    },
+    {
+      "w": "that",
+      "start": 32.48,
+      "end": 32.68
+    },
+    {
+      "w": "stands",
+      "start": 32.68,
+      "end": 32.96
+    },
+    {
+      "w": "behind",
+      "start": 32.96,
+      "end": 33.34
+    },
+    {
+      "w": "the",
+      "start": 33.34,
+      "end": 33.58
+    },
+    {
+      "w": "product.",
+      "start": 33.58,
+      "end": 33.98
+    },
+    {
+      "w": "I",
+      "start": 34.18,
+      "end": 34.26
+    },
+    {
+      "w": "loop",
+      "start": 34.26,
+      "end": 34.5
+    },
+    {
+      "w": "back",
+      "start": 34.5,
+      "end": 34.8
+    },
+    {
+      "w": "into",
+      "start": 34.8,
+      "end": 35.06
+    },
+    {
+      "w": "a",
+      "start": 35.06,
+      "end": 35.2
+    },
+    {
+      "w": "close",
+      "start": 35.2,
+      "end": 35.58
+    },
+    {
+      "w": "and",
+      "start": 35.58,
+      "end": 36.08
+    },
+    {
+      "w": "I",
+      "start": 36.08,
+      "end": 36.2
+    },
+    {
+      "w": "watch",
+      "start": 36.2,
+      "end": 36.58
+    },
+    {
+      "w": "the",
+      "start": 36.58,
+      "end": 36.96
+    },
+    {
+      "w": "objection",
+      "start": 36.96,
+      "end": 37.46
+    },
+    {
+      "w": "literally",
+      "start": 37.46,
+      "end": 38.14
+    },
+    {
+      "w": "melt",
+      "start": 38.14,
+      "end": 38.98
+    },
+    {
+      "w": "away.",
+      "start": 38.98,
+      "end": 39.54
+    },
+    {
+      "w": "If",
+      "start": 39.86,
+      "end": 39.92
+    },
+    {
+      "w": "you",
+      "start": 39.92,
+      "end": 40.02
+    },
+    {
+      "w": "want",
+      "start": 40.02,
+      "end": 40.16
+    },
+    {
+      "w": "one",
+      "start": 40.16,
+      "end": 40.28
+    },
+    {
+      "w": "to",
+      "start": 40.28,
+      "end": 40.42
+    },
+    {
+      "w": "sell",
+      "start": 40.42,
+      "end": 40.6
+    },
+    {
+      "w": "like",
+      "start": 40.6,
+      "end": 40.72
+    },
+    {
+      "w": "the",
+      "start": 40.72,
+      "end": 40.84
+    },
+    {
+      "w": "Wolf",
+      "start": 40.84,
+      "end": 41.02
+    },
+    {
+      "w": "of",
+      "start": 41.02,
+      "end": 41.12
+    },
+    {
+      "w": "Wall",
+      "start": 41.12,
+      "end": 41.3
+    },
+    {
+      "w": "Street,",
+      "start": 41.3,
+      "end": 41.52
+    },
+    {
+      "w": "follow",
+      "start": 41.84,
+      "end": 42.36
+    },
+    {
+      "w": "me.",
+      "start": 42.36,
+      "end": 42.62
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.7,
+      "length": 4.7,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#CECFD2",
+            "share": 0.132
+          },
+          {
+            "hex": "#948A6C",
+            "share": 0.09
+          },
+          {
+            "hex": "#B0B1B5",
+            "share": 0.056
+          },
+          {
+            "hex": "#F3F5F6",
+            "share": 0.045
+          },
+          {
+            "hex": "#D18775",
+            "share": 0.045
+          }
+        ],
+        "motion_energy": 23.65,
+        "script": "What do you say when you get hit with the objection? I want to think about it. I'm Jordan Belfort,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 4.7,
+      "end": 6.267,
+      "length": 1.567,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#030102",
+            "share": 0.282
+          },
+          {
+            "hex": "#534C58",
+            "share": 0.113
+          },
+          {
+            "hex": "#30110A",
+            "share": 0.062
+          },
+          {
+            "hex": "#5A5464",
+            "share": 0.052
+          },
+          {
+            "hex": "#CECFD2",
+            "share": 0.05
+          }
+        ],
+        "motion_energy": 20.2,
+        "script": "the real Wolf of Wall Street, and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 6.267,
+      "end": 15.3,
+      "length": 9.033,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#CFD1D4",
+            "share": 0.114
+          },
+          {
+            "hex": "#958A6C",
+            "share": 0.079
+          },
+          {
+            "hex": "#33312E",
+            "share": 0.065
+          },
+          {
+            "hex": "#504D47",
+            "share": 0.046
+          },
+          {
+            "hex": "#B0AFB1",
+            "share": 0.043
+          }
+        ],
+        "motion_energy": 20.27,
+        "script": "I will tell you that this is the easiest objection in the book. Bottom line is this, when someone says they want to think about it, the last thing you want to do is start getting"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 15.3,
+      "end": 18.9,
+      "length": 3.6,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#040307",
+            "share": 0.383
+          },
+          {
+            "hex": "#CECCC7",
+            "share": 0.113
+          },
+          {
+            "hex": "#2C1513",
+            "share": 0.084
+          },
+          {
+            "hex": "#B1B5B1",
+            "share": 0.047
+          },
+          {
+            "hex": "#31292C",
+            "share": 0.028
+          }
+        ],
+        "motion_energy": 21.16,
+        "script": "to an argument about what do you need to think about, what don't you need to think about? Is"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 18.9,
+      "end": 42.931,
+      "length": 24.031,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#CDD0D3",
+            "share": 0.11
+          },
+          {
+            "hex": "#938A6E",
+            "share": 0.087
+          },
+          {
+            "hex": "#302E2D",
+            "share": 0.051
+          },
+          {
+            "hex": "#0D0A08",
+            "share": 0.051
+          },
+          {
+            "hex": "#736B54",
+            "share": 0.045
+          }
+        ],
+        "motion_energy": 20.32,
+        "script": "a smoke stream for uncertainty? So the first question I ask is, whether or not they actually like the idea? Does the idea make sense to them? Does the product make sense to them? What I do is I raise their level of certainty for the product, for myself, the company that stands behind the product. I loop back into a close and I watch the objection literally melt away. If you want one to sell like the Wolf of Wall Street, follow me."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

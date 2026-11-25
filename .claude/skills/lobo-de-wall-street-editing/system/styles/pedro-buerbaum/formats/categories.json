@@ -1,0 +1,42 @@
+{
+ "hook_title": {
+  "name": "01 Gancho y título",
+  "que": "Los primeros segundos: zoom-out desenfocado de 3–4 fotogramas y, a veces, un título fijo arriba o una palabra grande detrás de la cabeza."
+ },
+ "aroll_caption": {
+  "name": "02 Él a cámara con subtítulo fino",
+  "que": "La base: plano único con micrófono, subtítulo blanco muy pequeño y fino de 1–3 palabras en el centro, sobre el pecho. Sin cortes; el zoom deriva despacio."
+ },
+ "aroll_punch": {
+  "name": "03 Golpe de zoom",
+  "que": "Acercamiento animado de +6–14 % en 0.2–0.6 s sobre la palabra con más carga o el conector de bloque («Luego», «Ahora»). Uno cada 11–19 s."
+ },
+ "aroll_text_overlay": {
+  "name": "04 Palabra grande detrás de la cabeza",
+  "que": "Palabra o cifra en sans bold color arena/dorado, en el tercio superior y DETRÁS de él; se llena de izquierda a derecha con la voz. A veces serif itálica, logo o contador."
+ },
+ "split_graphic_top": {
+  "name": "05 Gráfico minimal arriba, él abajo",
+  "que": "Panel negro en el tercio superior con un gráfico de línea fina (iconos, flechas, tarjetas); él queda abajo más abierto. Un bloque por video como mucho."
+ },
+ "card_video": {
+  "name": "06 Video en tarjeta redondeada",
+  "que": "Todo el video encogido dentro de una tarjeta de esquinas redondeadas sobre negro puro; rótulos serif o texto alrededor."
+ },
+ "full_graphic": {
+  "name": "07 Gráfico a pantalla completa",
+  "que": "Sin él: negro (o blanco roto) con cifra, cuadrícula, iconos o frases que se tachan. Raro y corto."
+ },
+ "whiteboard": {
+  "name": "08 Pizarra o papel a mano",
+  "que": "El gráfico es real: escribe y dibuja en pizarra o papel, a veces con cámara cenital y título fijo arriba."
+ },
+ "broll": {
+  "name": "09 B-roll o foto insertada",
+  "que": "Stock en blanco y negro o fotos en tarjetas pequeñas detrás de la cabeza; clips de 0.8–2.7 s."
+ },
+ "title_cta": {
+  "name": "10 Cierre",
+  "que": "Termina en la última frase, sin llamado a la acción; corte seco o fundido corto a negro."
+ }
+}

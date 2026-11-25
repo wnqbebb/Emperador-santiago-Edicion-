@@ -1,0 +1,1118 @@
+{
+  "video": "v18.mp4",
+  "duration": 54.26,
+  "derived": {
+    "shots": 8,
+    "avg_shot_len": 6.78,
+    "cuts_per_min": 8.8,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "Never",
+      "start": 0.0,
+      "end": 0.38
+    },
+    {
+      "w": "open",
+      "start": 0.38,
+      "end": 0.86
+    },
+    {
+      "w": "a",
+      "start": 0.86,
+      "end": 1.06
+    },
+    {
+      "w": "cocoa",
+      "start": 1.06,
+      "end": 1.38
+    },
+    {
+      "w": "with",
+      "start": 1.38,
+      "end": 1.78
+    },
+    {
+      "w": "hi,",
+      "start": 1.78,
+      "end": 2.28
+    },
+    {
+      "w": "I'm",
+      "start": 2.36,
+      "end": 2.7
+    },
+    {
+      "w": "Jordan",
+      "start": 2.7,
+      "end": 2.98
+    },
+    {
+      "w": "from",
+      "start": 2.98,
+      "end": 3.26
+    },
+    {
+      "w": "XYZ",
+      "start": 3.26,
+      "end": 4.0
+    },
+    {
+      "w": "Corporation.",
+      "start": 4.0,
+      "end": 4.32
+    },
+    {
+      "w": "How",
+      "start": 4.68,
+      "end": 4.92
+    },
+    {
+      "w": "are",
+      "start": 4.92,
+      "end": 5.1
+    },
+    {
+      "w": "you",
+      "start": 5.1,
+      "end": 5.28
+    },
+    {
+      "w": "today?",
+      "start": 5.28,
+      "end": 5.6
+    },
+    {
+      "w": "The",
+      "start": 5.84,
+      "end": 5.96
+    },
+    {
+      "w": "second",
+      "start": 5.96,
+      "end": 6.34
+    },
+    {
+      "w": "you",
+      "start": 6.34,
+      "end": 6.6
+    },
+    {
+      "w": "say",
+      "start": 6.6,
+      "end": 6.84
+    },
+    {
+      "w": "that,",
+      "start": 6.84,
+      "end": 7.1
+    },
+    {
+      "w": "they",
+      "start": 7.32,
+      "end": 7.56
+    },
+    {
+      "w": "hear",
+      "start": 7.56,
+      "end": 7.78
+    },
+    {
+      "w": "one",
+      "start": 7.78,
+      "end": 8.08
+    },
+    {
+      "w": "word",
+      "start": 8.08,
+      "end": 8.4
+    },
+    {
+      "w": "salesman.",
+      "start": 8.4,
+      "end": 9.7
+    },
+    {
+      "w": "Stop",
+      "start": 9.92,
+      "end": 10.52
+    },
+    {
+      "w": "it.",
+      "start": 10.52,
+      "end": 10.96
+    },
+    {
+      "w": "Nobody",
+      "start": 11.14,
+      "end": 11.62
+    },
+    {
+      "w": "cares",
+      "start": 11.62,
+      "end": 12.14
+    },
+    {
+      "w": "about",
+      "start": 12.14,
+      "end": 12.38
+    },
+    {
+      "w": "your",
+      "start": 12.38,
+      "end": 12.6
+    },
+    {
+      "w": "name,",
+      "start": 12.6,
+      "end": 13.04
+    },
+    {
+      "w": "the",
+      "start": 13.26,
+      "end": 13.3
+    },
+    {
+      "w": "company",
+      "start": 13.3,
+      "end": 13.7
+    },
+    {
+      "w": "name.",
+      "start": 13.7,
+      "end": 14.18
+    },
+    {
+      "w": "You've",
+      "start": 14.38,
+      "end": 14.72
+    },
+    {
+      "w": "got",
+      "start": 14.72,
+      "end": 14.98
+    },
+    {
+      "w": "four",
+      "start": 14.98,
+      "end": 15.44
+    },
+    {
+      "w": "seconds",
+      "start": 15.44,
+      "end": 15.86
+    },
+    {
+      "w": "to",
+      "start": 15.86,
+      "end": 16.1
+    },
+    {
+      "w": "sound",
+      "start": 16.1,
+      "end": 16.48
+    },
+    {
+      "w": "like",
+      "start": 16.48,
+      "end": 16.72
+    },
+    {
+      "w": "something",
+      "start": 16.72,
+      "end": 17.16
+    },
+    {
+      "w": "else,",
+      "start": 17.16,
+      "end": 17.6
+    },
+    {
+      "w": "an",
+      "start": 17.72,
+      "end": 17.92
+    },
+    {
+      "w": "expert",
+      "start": 17.92,
+      "end": 18.6
+    },
+    {
+      "w": "in",
+      "start": 18.6,
+      "end": 19.0
+    },
+    {
+      "w": "your",
+      "start": 19.0,
+      "end": 19.12
+    },
+    {
+      "w": "field",
+      "start": 19.12,
+      "end": 19.52
+    },
+    {
+      "w": "with",
+      "start": 19.52,
+      "end": 19.8
+    },
+    {
+      "w": "information",
+      "start": 19.8,
+      "end": 20.5
+    },
+    {
+      "w": "they",
+      "start": 20.5,
+      "end": 20.96
+    },
+    {
+      "w": "can",
+      "start": 20.96,
+      "end": 21.14
+    },
+    {
+      "w": "actually",
+      "start": 21.14,
+      "end": 21.84
+    },
+    {
+      "w": "use",
+      "start": 21.84,
+      "end": 22.42
+    },
+    {
+      "w": "information",
+      "start": 22.42,
+      "end": 23.24
+    },
+    {
+      "w": "they",
+      "start": 23.24,
+      "end": 23.64
+    },
+    {
+      "w": "want.",
+      "start": 23.64,
+      "end": 23.92
+    },
+    {
+      "w": "So",
+      "start": 24.0,
+      "end": 24.1
+    },
+    {
+      "w": "open",
+      "start": 24.1,
+      "end": 24.56
+    },
+    {
+      "w": "with",
+      "start": 24.56,
+      "end": 24.8
+    },
+    {
+      "w": "their",
+      "start": 24.8,
+      "end": 25.12
+    },
+    {
+      "w": "world,",
+      "start": 25.12,
+      "end": 25.58
+    },
+    {
+      "w": "not",
+      "start": 25.64,
+      "end": 25.94
+    },
+    {
+      "w": "yours.",
+      "start": 25.94,
+      "end": 26.3
+    },
+    {
+      "w": "Hey,",
+      "start": 26.5,
+      "end": 26.64
+    },
+    {
+      "w": "John,",
+      "start": 26.64,
+      "end": 26.88
+    },
+    {
+      "w": "quick",
+      "start": 26.98,
+      "end": 27.08
+    },
+    {
+      "w": "question.",
+      "start": 27.08,
+      "end": 27.5
+    },
+    {
+      "w": "I",
+      "start": 27.72,
+      "end": 27.72
+    },
+    {
+      "w": "was",
+      "start": 27.72,
+      "end": 27.8
+    },
+    {
+      "w": "looking",
+      "start": 27.8,
+      "end": 28.04
+    },
+    {
+      "w": "at",
+      "start": 28.04,
+      "end": 28.16
+    },
+    {
+      "w": "your",
+      "start": 28.16,
+      "end": 28.3
+    },
+    {
+      "w": "operation",
+      "start": 28.3,
+      "end": 28.8
+    },
+    {
+      "w": "and",
+      "start": 28.8,
+      "end": 29.04
+    },
+    {
+      "w": "I'm",
+      "start": 29.04,
+      "end": 29.14
+    },
+    {
+      "w": "calling",
+      "start": 29.14,
+      "end": 29.38
+    },
+    {
+      "w": "about",
+      "start": 29.38,
+      "end": 29.7
+    },
+    {
+      "w": "your",
+      "start": 29.7,
+      "end": 29.92
+    },
+    {
+      "w": "competitor.",
+      "start": 29.92,
+      "end": 30.46
+    },
+    {
+      "w": "You",
+      "start": 30.8,
+      "end": 30.82
+    },
+    {
+      "w": "want",
+      "start": 30.82,
+      "end": 30.88
+    },
+    {
+      "w": "to",
+      "start": 30.88,
+      "end": 30.98
+    },
+    {
+      "w": "just",
+      "start": 30.98,
+      "end": 31.12
+    },
+    {
+      "w": "open",
+      "start": 31.12,
+      "end": 31.44
+    },
+    {
+      "w": "two",
+      "start": 31.44,
+      "end": 31.72
+    },
+    {
+      "w": "new",
+      "start": 31.72,
+      "end": 31.88
+    },
+    {
+      "w": "locations",
+      "start": 31.88,
+      "end": 32.3
+    },
+    {
+      "w": "in",
+      "start": 32.3,
+      "end": 32.62
+    },
+    {
+      "w": "your",
+      "start": 32.62,
+      "end": 32.72
+    },
+    {
+      "w": "market?",
+      "start": 32.72,
+      "end": 33.04
+    },
+    {
+      "w": "60",
+      "start": 33.28,
+      "end": 33.52
+    },
+    {
+      "w": "seconds",
+      "start": 33.52,
+      "end": 33.88
+    },
+    {
+      "w": "is",
+      "start": 33.88,
+      "end": 34.1
+    },
+    {
+      "w": "all",
+      "start": 34.1,
+      "end": 34.26
+    },
+    {
+      "w": "I",
+      "start": 34.26,
+      "end": 34.4
+    },
+    {
+      "w": "need.",
+      "start": 34.4,
+      "end": 34.56
+    },
+    {
+      "w": "Now",
+      "start": 34.82,
+      "end": 35.06
+    },
+    {
+      "w": "you've",
+      "start": 35.06,
+      "end": 35.32
+    },
+    {
+      "w": "got",
+      "start": 35.32,
+      "end": 35.54
+    },
+    {
+      "w": "their",
+      "start": 35.54,
+      "end": 35.76
+    },
+    {
+      "w": "full",
+      "start": 35.76,
+      "end": 35.98
+    },
+    {
+      "w": "attention",
+      "start": 35.98,
+      "end": 36.36
+    },
+    {
+      "w": "because",
+      "start": 36.36,
+      "end": 36.68
+    },
+    {
+      "w": "everybody",
+      "start": 36.68,
+      "end": 37.54
+    },
+    {
+      "w": "wants",
+      "start": 37.54,
+      "end": 37.9
+    },
+    {
+      "w": "intel",
+      "start": 37.9,
+      "end": 38.42
+    },
+    {
+      "w": "on",
+      "start": 38.42,
+      "end": 38.82
+    },
+    {
+      "w": "their",
+      "start": 38.82,
+      "end": 38.98
+    },
+    {
+      "w": "competition.",
+      "start": 38.98,
+      "end": 39.6
+    },
+    {
+      "w": "One",
+      "start": 39.94,
+      "end": 40.22
+    },
+    {
+      "w": "opening",
+      "start": 40.22,
+      "end": 40.78
+    },
+    {
+      "w": "begs",
+      "start": 40.78,
+      "end": 41.46
+    },
+    {
+      "w": "for",
+      "start": 41.46,
+      "end": 41.62
+    },
+    {
+      "w": "time.",
+      "start": 41.62,
+      "end": 42.0
+    },
+    {
+      "w": "The",
+      "start": 42.32,
+      "end": 42.44
+    },
+    {
+      "w": "other,",
+      "start": 42.44,
+      "end": 42.8
+    },
+    {
+      "w": "it",
+      "start": 43.0,
+      "end": 43.18
+    },
+    {
+      "w": "brings",
+      "start": 43.18,
+      "end": 43.48
+    },
+    {
+      "w": "value",
+      "start": 43.48,
+      "end": 44.04
+    },
+    {
+      "w": "in",
+      "start": 44.04,
+      "end": 44.42
+    },
+    {
+      "w": "the",
+      "start": 44.42,
+      "end": 44.56
+    },
+    {
+      "w": "first",
+      "start": 44.56,
+      "end": 44.86
+    },
+    {
+      "w": "breath.",
+      "start": 44.86,
+      "end": 45.32
+    },
+    {
+      "w": "Sound",
+      "start": 45.56,
+      "end": 45.92
+    },
+    {
+      "w": "like",
+      "start": 45.92,
+      "end": 46.14
+    },
+    {
+      "w": "a",
+      "start": 46.14,
+      "end": 46.24
+    },
+    {
+      "w": "pitcher,",
+      "start": 46.24,
+      "end": 46.6
+    },
+    {
+      "w": "you're",
+      "start": 47.04,
+      "end": 47.22
+    },
+    {
+      "w": "done.",
+      "start": 47.22,
+      "end": 47.6
+    },
+    {
+      "w": "Sound",
+      "start": 47.9,
+      "end": 48.3
+    },
+    {
+      "w": "like",
+      "start": 48.3,
+      "end": 48.54
+    },
+    {
+      "w": "a",
+      "start": 48.54,
+      "end": 48.66
+    },
+    {
+      "w": "man",
+      "start": 48.66,
+      "end": 48.84
+    },
+    {
+      "w": "with",
+      "start": 48.84,
+      "end": 49.04
+    },
+    {
+      "w": "relevant",
+      "start": 49.04,
+      "end": 49.4
+    },
+    {
+      "w": "information,",
+      "start": 49.4,
+      "end": 50.22
+    },
+    {
+      "w": "you've",
+      "start": 50.66,
+      "end": 50.86
+    },
+    {
+      "w": "got",
+      "start": 50.86,
+      "end": 50.98
+    },
+    {
+      "w": "a",
+      "start": 50.98,
+      "end": 51.12
+    },
+    {
+      "w": "real",
+      "start": 51.12,
+      "end": 51.4
+    },
+    {
+      "w": "shot.",
+      "start": 51.4,
+      "end": 51.82
+    },
+    {
+      "w": "Don't",
+      "start": 52.04,
+      "end": 52.22
+    },
+    {
+      "w": "waste",
+      "start": 52.22,
+      "end": 52.44
+    },
+    {
+      "w": "four",
+      "start": 52.44,
+      "end": 52.74
+    },
+    {
+      "w": "seconds.",
+      "start": 52.74,
+      "end": 53.12
+    },
+    {
+      "w": "You",
+      "start": 53.44,
+      "end": 53.52
+    },
+    {
+      "w": "got",
+      "start": 53.52,
+      "end": 53.84
+    },
+    {
+      "w": "it.",
+      "start": 53.84,
+      "end": 54.04
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 11.136,
+      "length": 11.136,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100E05",
+            "share": 0.258
+          },
+          {
+            "hex": "#2A2A13",
+            "share": 0.179
+          },
+          {
+            "hex": "#313324",
+            "share": 0.045
+          },
+          {
+            "hex": "#27180A",
+            "share": 0.042
+          },
+          {
+            "hex": "#1B2612",
+            "share": 0.041
+          }
+        ],
+        "motion_energy": 23.29,
+        "script": "Never open a cocoa with hi, I'm Jordan from XYZ Corporation. How are you today? The second you say that, they hear one word salesman. Stop it."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 11.136,
+      "end": 14.431,
+      "length": 3.295,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#090808",
+            "share": 0.717
+          },
+          {
+            "hex": "#2C2725",
+            "share": 0.102
+          },
+          {
+            "hex": "#463731",
+            "share": 0.056
+          },
+          {
+            "hex": "#261916",
+            "share": 0.035
+          },
+          {
+            "hex": "#2F221C",
+            "share": 0.018
+          }
+        ],
+        "motion_energy": 14.16,
+        "script": "Nobody cares about your name, the company name. You've"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 14.431,
+      "end": 17.726,
+      "length": 3.295,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#2A2914",
+            "share": 0.211
+          },
+          {
+            "hex": "#121005",
+            "share": 0.191
+          },
+          {
+            "hex": "#28180B",
+            "share": 0.057
+          },
+          {
+            "hex": "#333324",
+            "share": 0.056
+          },
+          {
+            "hex": "#1B2712",
+            "share": 0.042
+          }
+        ],
+        "motion_energy": 15.88,
+        "script": "got four seconds to sound like something else, an"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 17.726,
+      "end": 21.146,
+      "length": 3.42,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0B0B11",
+            "share": 0.399
+          },
+          {
+            "hex": "#364B57",
+            "share": 0.081
+          },
+          {
+            "hex": "#2B1814",
+            "share": 0.069
+          },
+          {
+            "hex": "#4E4D56",
+            "share": 0.055
+          },
+          {
+            "hex": "#53342B",
+            "share": 0.037
+          }
+        ],
+        "motion_energy": 28.14,
+        "script": "expert in your field with information they can actually"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 21.146,
+      "end": 22.648,
+      "length": 1.502,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#101014",
+            "share": 0.366
+          },
+          {
+            "hex": "#26191A",
+            "share": 0.155
+          },
+          {
+            "hex": "#2D2727",
+            "share": 0.084
+          },
+          {
+            "hex": "#4F302A",
+            "share": 0.062
+          },
+          {
+            "hex": "#90736B",
+            "share": 0.036
+          }
+        ],
+        "motion_energy": 24.15,
+        "script": "use information"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 22.648,
+      "end": 39.831,
+      "length": 17.184,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0D05",
+            "share": 0.239
+          },
+          {
+            "hex": "#292913",
+            "share": 0.194
+          },
+          {
+            "hex": "#28180B",
+            "share": 0.059
+          },
+          {
+            "hex": "#333223",
+            "share": 0.053
+          },
+          {
+            "hex": "#1B2713",
+            "share": 0.044
+          }
+        ],
+        "motion_energy": 20.36,
+        "script": "they want. So open with their world, not yours. Hey, John, quick question. I was looking at your operation and I'm calling about your competitor. You want to just open two new locations in your market? 60 seconds is all I need. Now you've got their full attention because everybody wants intel on their competition."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 39.831,
+      "end": 44.169,
+      "length": 4.338,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#090808",
+            "share": 0.807
+          },
+          {
+            "hex": "#252323",
+            "share": 0.069
+          },
+          {
+            "hex": "#291913",
+            "share": 0.032
+          },
+          {
+            "hex": "#4E3427",
+            "share": 0.019
+          },
+          {
+            "hex": "#2F251B",
+            "share": 0.014
+          }
+        ],
+        "motion_energy": 9.02,
+        "script": "One opening begs for time. The other, it brings value in"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 44.169,
+      "end": 54.262,
+      "length": 10.093,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0E05",
+            "share": 0.27
+          },
+          {
+            "hex": "#2A2914",
+            "share": 0.169
+          },
+          {
+            "hex": "#27180A",
+            "share": 0.053
+          },
+          {
+            "hex": "#333324",
+            "share": 0.051
+          },
+          {
+            "hex": "#1A2712",
+            "share": 0.04
+          }
+        ],
+        "motion_energy": 16.7,
+        "script": "the first breath. Sound like a pitcher, you're done. Sound like a man with relevant information, you've got a real shot. Don't waste four seconds. You got it."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

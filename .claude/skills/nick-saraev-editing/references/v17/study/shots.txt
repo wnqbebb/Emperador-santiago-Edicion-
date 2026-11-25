@@ -1,0 +1,14 @@
+000    0.00-   4.83 (4.8s) | Use these five free GitHub repos to save over $1 ,000 in the ANT tools you're probably already paying for.
+001    4.83-   6.00 (1.2s) | The first is OpenCode,
+002    6.00-  12.37 (6.4s) | a free and open source cloud code alternative that gives you free access to top coding models from Kimi, GLM, DeepSeq, and much more.
+003   12.37-  13.67 (1.3s) | The second is Voice Studio from
+004   13.67-  14.97 (1.3s) | 11labs. This is an AI
+005   14.97-  20.10 (5.1s) | voice generator that can clone your voice from just three seconds of audio and it runs fully locally on your machine.
+006   20.10-  24.53 (4.4s) | The third is OpenSEO, which is a free alternative to Ahrefs and SEMrush to handle your
+007   24.53-  28.30 (3.8s) | keyword research, rank tracking, backlinks, and even full -site audits. The
+008   28.30-  29.43 (1.1s) | fourth is OpusBot.
+009   29.43-  32.53 (3.1s) | It's an open source alternative to Grockbot, Muse, and Claude duet,
+010   32.53-  38.30 (5.8s) | which gives you AI teammates that you can run on Claude codecs or any model you want instead of having to feel locked into one platform.
+011   38.30-  39.30 (1.0s) | And finally, Replica.
+012   39.30-  44.53 (5.2s) | With this, you can clone any app you're already paying for it by reverse engineering it and then building a far better version.
+013   44.53-  48.53 (4.0s) | So if you want to try all these for yourselves, just comment a repo down below and I'll send you the links.

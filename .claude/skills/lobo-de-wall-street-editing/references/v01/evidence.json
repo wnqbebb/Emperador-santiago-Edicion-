@@ -1,0 +1,1083 @@
+{
+  "video": "v01.mp4",
+  "duration": 57.88,
+  "derived": {
+    "shots": 3,
+    "avg_shot_len": 19.29,
+    "cuts_per_min": 3.1,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      1
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "Did",
+      "start": 0.0,
+      "end": 0.18
+    },
+    {
+      "w": "you",
+      "start": 0.18,
+      "end": 0.32
+    },
+    {
+      "w": "really",
+      "start": 0.32,
+      "end": 0.66
+    },
+    {
+      "w": "spend",
+      "start": 0.66,
+      "end": 0.98
+    },
+    {
+      "w": "26",
+      "start": 0.98,
+      "end": 1.78
+    },
+    {
+      "w": "grand",
+      "start": 1.78,
+      "end": 2.18
+    },
+    {
+      "w": "on",
+      "start": 2.18,
+      "end": 2.62
+    },
+    {
+      "w": "one",
+      "start": 2.62,
+      "end": 3.04
+    },
+    {
+      "w": "fucking",
+      "start": 3.04,
+      "end": 3.52
+    },
+    {
+      "w": "dinner?",
+      "start": 3.52,
+      "end": 3.88
+    },
+    {
+      "w": "Ah,",
+      "start": 4.32,
+      "end": 4.5
+    },
+    {
+      "w": "yeah,",
+      "start": 4.56,
+      "end": 4.84
+    },
+    {
+      "w": "but",
+      "start": 5.06,
+      "end": 5.18
+    },
+    {
+      "w": "y",
+      "start": 5.18,
+      "end": 5.3
+    },
+    {
+      "w": "'all,",
+      "start": 5.3,
+      "end": 5.38
+    },
+    {
+      "w": "most",
+      "start": 5.56,
+      "end": 5.74
+    },
+    {
+      "w": "of",
+      "start": 5.74,
+      "end": 5.9
+    },
+    {
+      "w": "it",
+      "start": 5.9,
+      "end": 6.02
+    },
+    {
+      "w": "thought",
+      "start": 6.02,
+      "end": 6.18
+    },
+    {
+      "w": "was",
+      "start": 6.18,
+      "end": 6.42
+    },
+    {
+      "w": "wine.",
+      "start": 6.42,
+      "end": 6.86
+    },
+    {
+      "w": "We",
+      "start": 7.08,
+      "end": 7.1
+    },
+    {
+      "w": "ordered",
+      "start": 7.1,
+      "end": 7.26
+    },
+    {
+      "w": "a",
+      "start": 7.26,
+      "end": 7.46
+    },
+    {
+      "w": "bottle",
+      "start": 7.46,
+      "end": 7.72
+    },
+    {
+      "w": "of",
+      "start": 7.72,
+      "end": 7.86
+    },
+    {
+      "w": "Bortdough",
+      "start": 7.86,
+      "end": 8.3
+    },
+    {
+      "w": "from",
+      "start": 8.3,
+      "end": 8.58
+    },
+    {
+      "w": "1945",
+      "start": 8.58,
+      "end": 9.72
+    },
+    {
+      "w": "via",
+      "start": 9.72,
+      "end": 10.3
+    },
+    {
+      "w": "World",
+      "start": 10.3,
+      "end": 10.64
+    },
+    {
+      "w": "War",
+      "start": 10.64,
+      "end": 10.86
+    },
+    {
+      "w": "II",
+      "start": 10.86,
+      "end": 11.1
+    },
+    {
+      "w": "ended.",
+      "start": 11.1,
+      "end": 11.44
+    },
+    {
+      "w": "We",
+      "start": 11.6,
+      "end": 11.72
+    },
+    {
+      "w": "finished",
+      "start": 11.72,
+      "end": 12.06
+    },
+    {
+      "w": "it.",
+      "start": 12.06,
+      "end": 12.28
+    },
+    {
+      "w": "You",
+      "start": 12.46,
+      "end": 12.5
+    },
+    {
+      "w": "know",
+      "start": 12.5,
+      "end": 12.6
+    },
+    {
+      "w": "what",
+      "start": 12.6,
+      "end": 12.68
+    },
+    {
+      "w": "we",
+      "start": 12.68,
+      "end": 12.76
+    },
+    {
+      "w": "did",
+      "start": 12.76,
+      "end": 12.92
+    },
+    {
+      "w": "next?",
+      "start": 12.92,
+      "end": 13.18
+    },
+    {
+      "w": "Well,",
+      "start": 13.44,
+      "end": 13.6
+    },
+    {
+      "w": "we",
+      "start": 13.7,
+      "end": 13.8
+    },
+    {
+      "w": "went",
+      "start": 13.8,
+      "end": 13.88
+    },
+    {
+      "w": "looking",
+      "start": 13.88,
+      "end": 14.1
+    },
+    {
+      "w": "for",
+      "start": 14.1,
+      "end": 14.36
+    },
+    {
+      "w": "another",
+      "start": 14.36,
+      "end": 14.66
+    },
+    {
+      "w": "bottle.",
+      "start": 14.66,
+      "end": 15.04
+    },
+    {
+      "w": "This",
+      "start": 15.16,
+      "end": 15.24
+    },
+    {
+      "w": "one",
+      "start": 15.24,
+      "end": 15.36
+    },
+    {
+      "w": "from",
+      "start": 15.36,
+      "end": 15.5
+    },
+    {
+      "w": "the",
+      "start": 15.5,
+      "end": 15.68
+    },
+    {
+      "w": "end",
+      "start": 15.68,
+      "end": 15.88
+    },
+    {
+      "w": "of",
+      "start": 15.88,
+      "end": 16.08
+    },
+    {
+      "w": "World",
+      "start": 16.08,
+      "end": 16.46
+    },
+    {
+      "w": "War",
+      "start": 16.46,
+      "end": 17.08
+    },
+    {
+      "w": "I.",
+      "start": 17.08,
+      "end": 17.52
+    },
+    {
+      "w": "You",
+      "start": 17.74,
+      "end": 17.78
+    },
+    {
+      "w": "know,",
+      "start": 17.78,
+      "end": 17.92
+    },
+    {
+      "w": "don't",
+      "start": 18.24,
+      "end": 18.42
+    },
+    {
+      "w": "ask",
+      "start": 18.42,
+      "end": 18.62
+    },
+    {
+      "w": "me",
+      "start": 18.62,
+      "end": 18.76
+    },
+    {
+      "w": "for",
+      "start": 18.76,
+      "end": 18.88
+    },
+    {
+      "w": "the",
+      "start": 18.88,
+      "end": 18.98
+    },
+    {
+      "w": "year.",
+      "start": 18.98,
+      "end": 19.06
+    },
+    {
+      "w": "I",
+      "start": 19.12,
+      "end": 19.12
+    },
+    {
+      "w": "think",
+      "start": 19.12,
+      "end": 19.18
+    },
+    {
+      "w": "it",
+      "start": 19.18,
+      "end": 19.26
+    },
+    {
+      "w": "was",
+      "start": 19.26,
+      "end": 19.36
+    },
+    {
+      "w": "like",
+      "start": 19.36,
+      "end": 19.46
+    },
+    {
+      "w": "maybe",
+      "start": 19.46,
+      "end": 19.64
+    },
+    {
+      "w": "in",
+      "start": 19.64,
+      "end": 19.82
+    },
+    {
+      "w": "1916.",
+      "start": 19.82,
+      "end": 20.68
+    },
+    {
+      "w": "I",
+      "start": 20.82,
+      "end": 21.18
+    },
+    {
+      "w": "don't",
+      "start": 21.18,
+      "end": 21.46
+    },
+    {
+      "w": "know",
+      "start": 21.46,
+      "end": 21.58
+    },
+    {
+      "w": "what",
+      "start": 21.58,
+      "end": 21.7
+    },
+    {
+      "w": "happened.",
+      "start": 21.7,
+      "end": 21.84
+    },
+    {
+      "w": "Second",
+      "start": 21.98,
+      "end": 22.18
+    },
+    {
+      "w": "bottle.",
+      "start": 22.18,
+      "end": 22.52
+    },
+    {
+      "w": "I",
+      "start": 22.68,
+      "end": 22.8
+    },
+    {
+      "w": "don't",
+      "start": 22.8,
+      "end": 22.96
+    },
+    {
+      "w": "really",
+      "start": 22.96,
+      "end": 23.24
+    },
+    {
+      "w": "remember.",
+      "start": 23.24,
+      "end": 23.56
+    },
+    {
+      "w": "I",
+      "start": 24.04,
+      "end": 24.06
+    },
+    {
+      "w": "mean,",
+      "start": 24.06,
+      "end": 24.18
+    },
+    {
+      "w": "imagine",
+      "start": 24.2,
+      "end": 24.54
+    },
+    {
+      "w": "spending",
+      "start": 24.54,
+      "end": 24.94
+    },
+    {
+      "w": "that",
+      "start": 24.94,
+      "end": 25.36
+    },
+    {
+      "w": "kind",
+      "start": 25.36,
+      "end": 25.7
+    },
+    {
+      "w": "of",
+      "start": 25.7,
+      "end": 25.88
+    },
+    {
+      "w": "money",
+      "start": 25.88,
+      "end": 26.24
+    },
+    {
+      "w": "on",
+      "start": 26.24,
+      "end": 26.62
+    },
+    {
+      "w": "dinner",
+      "start": 26.62,
+      "end": 26.94
+    },
+    {
+      "w": "and",
+      "start": 26.94,
+      "end": 27.08
+    },
+    {
+      "w": "having",
+      "start": 27.08,
+      "end": 27.18
+    },
+    {
+      "w": "to",
+      "start": 27.18,
+      "end": 27.32
+    },
+    {
+      "w": "look",
+      "start": 27.32,
+      "end": 27.48
+    },
+    {
+      "w": "up",
+      "start": 27.48,
+      "end": 27.66
+    },
+    {
+      "w": "what",
+      "start": 27.66,
+      "end": 27.86
+    },
+    {
+      "w": "the",
+      "start": 27.86,
+      "end": 28.1
+    },
+    {
+      "w": "hell",
+      "start": 28.1,
+      "end": 28.36
+    },
+    {
+      "w": "you",
+      "start": 28.36,
+      "end": 28.56
+    },
+    {
+      "w": "drank.",
+      "start": 28.56,
+      "end": 29.06
+    },
+    {
+      "w": "Steaks",
+      "start": 29.06,
+      "end": 29.7
+    },
+    {
+      "w": "were",
+      "start": 29.7,
+      "end": 29.88
+    },
+    {
+      "w": "great,",
+      "start": 29.88,
+      "end": 30.18
+    },
+    {
+      "w": "and",
+      "start": 30.6,
+      "end": 30.7
+    },
+    {
+      "w": "of",
+      "start": 30.7,
+      "end": 30.84
+    },
+    {
+      "w": "course,",
+      "start": 30.84,
+      "end": 31.18
+    },
+    {
+      "w": "so",
+      "start": 31.32,
+      "end": 31.46
+    },
+    {
+      "w": "were",
+      "start": 31.46,
+      "end": 31.6
+    },
+    {
+      "w": "the",
+      "start": 31.6,
+      "end": 31.72
+    },
+    {
+      "w": "sides.",
+      "start": 31.72,
+      "end": 32.14
+    },
+    {
+      "w": "When",
+      "start": 32.46,
+      "end": 32.6
+    },
+    {
+      "w": "people",
+      "start": 32.6,
+      "end": 32.98
+    },
+    {
+      "w": "see",
+      "start": 32.98,
+      "end": 33.32
+    },
+    {
+      "w": "that",
+      "start": 33.32,
+      "end": 33.62
+    },
+    {
+      "w": "scene",
+      "start": 33.62,
+      "end": 34.06
+    },
+    {
+      "w": "in",
+      "start": 34.06,
+      "end": 34.32
+    },
+    {
+      "w": "the",
+      "start": 34.32,
+      "end": 34.44
+    },
+    {
+      "w": "movie,",
+      "start": 34.44,
+      "end": 34.84
+    },
+    {
+      "w": "they",
+      "start": 35.02,
+      "end": 35.2
+    },
+    {
+      "w": "ask,",
+      "start": 35.2,
+      "end": 35.7
+    },
+    {
+      "w": "what",
+      "start": 36.1,
+      "end": 36.28
+    },
+    {
+      "w": "kind",
+      "start": 36.28,
+      "end": 36.62
+    },
+    {
+      "w": "of",
+      "start": 36.62,
+      "end": 36.8
+    },
+    {
+      "w": "side",
+      "start": 36.8,
+      "end": 37.3
+    },
+    {
+      "w": "dishes",
+      "start": 37.3,
+      "end": 37.94
+    },
+    {
+      "w": "could",
+      "start": 37.94,
+      "end": 38.24
+    },
+    {
+      "w": "you",
+      "start": 38.24,
+      "end": 38.42
+    },
+    {
+      "w": "order",
+      "start": 38.42,
+      "end": 38.74
+    },
+    {
+      "w": "that",
+      "start": 38.74,
+      "end": 38.98
+    },
+    {
+      "w": "cost",
+      "start": 38.98,
+      "end": 39.18
+    },
+    {
+      "w": "26",
+      "start": 39.18,
+      "end": 39.9
+    },
+    {
+      "w": "grand?",
+      "start": 39.9,
+      "end": 40.24
+    },
+    {
+      "w": "Guys,",
+      "start": 40.54,
+      "end": 40.76
+    },
+    {
+      "w": "it",
+      "start": 41.2,
+      "end": 41.32
+    },
+    {
+      "w": "wasn't",
+      "start": 41.32,
+      "end": 41.88
+    },
+    {
+      "w": "the",
+      "start": 41.88,
+      "end": 42.14
+    },
+    {
+      "w": "potatoes.",
+      "start": 42.14,
+      "end": 42.64
+    },
+    {
+      "w": "And",
+      "start": 43.06,
+      "end": 43.26
+    },
+    {
+      "w": "here's",
+      "start": 43.26,
+      "end": 43.68
+    },
+    {
+      "w": "the",
+      "start": 43.68,
+      "end": 43.8
+    },
+    {
+      "w": "part",
+      "start": 43.8,
+      "end": 44.08
+    },
+    {
+      "w": "that",
+      "start": 44.08,
+      "end": 44.54
+    },
+    {
+      "w": "really",
+      "start": 44.54,
+      "end": 45.1
+    },
+    {
+      "w": "kills",
+      "start": 45.1,
+      "end": 45.62
+    },
+    {
+      "w": "me.",
+      "start": 45.62,
+      "end": 45.88
+    },
+    {
+      "w": "I",
+      "start": 45.98,
+      "end": 46.1
+    },
+    {
+      "w": "kind",
+      "start": 46.1,
+      "end": 46.38
+    },
+    {
+      "w": "of",
+      "start": 46.38,
+      "end": 46.5
+    },
+    {
+      "w": "fell",
+      "start": 46.5,
+      "end": 46.8
+    },
+    {
+      "w": "asleep",
+      "start": 46.8,
+      "end": 47.3
+    },
+    {
+      "w": "at",
+      "start": 47.3,
+      "end": 47.8
+    },
+    {
+      "w": "the",
+      "start": 47.8,
+      "end": 48.04
+    },
+    {
+      "w": "dinner.",
+      "start": 48.04,
+      "end": 48.3
+    },
+    {
+      "w": "It's",
+      "start": 48.5,
+      "end": 48.54
+    },
+    {
+      "w": "an",
+      "start": 48.54,
+      "end": 48.6
+    },
+    {
+      "w": "expensive",
+      "start": 48.6,
+      "end": 49.24
+    },
+    {
+      "w": "way",
+      "start": 49.24,
+      "end": 49.6
+    },
+    {
+      "w": "to",
+      "start": 49.6,
+      "end": 49.74
+    },
+    {
+      "w": "take",
+      "start": 49.74,
+      "end": 49.94
+    },
+    {
+      "w": "a",
+      "start": 49.94,
+      "end": 50.14
+    },
+    {
+      "w": "fucking",
+      "start": 50.14,
+      "end": 50.36
+    },
+    {
+      "w": "nap,",
+      "start": 50.36,
+      "end": 50.72
+    },
+    {
+      "w": "right?",
+      "start": 50.86,
+      "end": 51.04
+    },
+    {
+      "w": "Anyway,",
+      "start": 51.26,
+      "end": 51.52
+    },
+    {
+      "w": "follow",
+      "start": 52.02,
+      "end": 52.38
+    },
+    {
+      "w": "me.",
+      "start": 52.38,
+      "end": 52.7
+    },
+    {
+      "w": "I'll",
+      "start": 53.18,
+      "end": 53.4
+    },
+    {
+      "w": "teach",
+      "start": 53.4,
+      "end": 53.62
+    },
+    {
+      "w": "you",
+      "start": 53.62,
+      "end": 53.82
+    },
+    {
+      "w": "how",
+      "start": 53.82,
+      "end": 53.96
+    },
+    {
+      "w": "to",
+      "start": 53.96,
+      "end": 54.04
+    },
+    {
+      "w": "close",
+      "start": 54.04,
+      "end": 54.34
+    },
+    {
+      "w": "a",
+      "start": 54.34,
+      "end": 54.52
+    },
+    {
+      "w": "sale",
+      "start": 54.52,
+      "end": 54.84
+    },
+    {
+      "w": "without",
+      "start": 54.84,
+      "end": 55.44
+    },
+    {
+      "w": "buying",
+      "start": 55.44,
+      "end": 55.96
+    },
+    {
+      "w": "anybody",
+      "start": 55.96,
+      "end": 56.82
+    },
+    {
+      "w": "a",
+      "start": 56.82,
+      "end": 57.0
+    },
+    {
+      "w": "bottle",
+      "start": 57.0,
+      "end": 57.28
+    },
+    {
+      "w": "of",
+      "start": 57.28,
+      "end": 57.44
+    },
+    {
+      "w": "wine.",
+      "start": 57.44,
+      "end": 57.64
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 35.933,
+      "length": 35.933,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#332F31",
+            "share": 0.243
+          },
+          {
+            "hex": "#B8B0A9",
+            "share": 0.091
+          },
+          {
+            "hex": "#D3CEC6",
+            "share": 0.073
+          },
+          {
+            "hex": "#121009",
+            "share": 0.071
+          },
+          {
+            "hex": "#C3BAB1",
+            "share": 0.045
+          }
+        ],
+        "motion_energy": 15.73,
+        "script": "Did you really spend 26 grand on one fucking dinner? Ah, yeah, but y 'all, most of it thought was wine. We ordered a bottle of Bortdough from 1945 via World War II ended. We finished it. You know what we did next? Well, we went looking for another bottle. This one from the end of World War I. You know, don't ask me for the year. I think it was like maybe in 1916. I don't know what happened. Second bottle. I don't really remember. I mean, imagine spending that kind of money on dinner and having to look up what the hell you drank. Steaks were great, and of course, so were the sides. When people see that scene in the movie, they ask,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 35.933,
+      "end": 40.4,
+      "length": 4.467,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0C0C",
+            "share": 0.314
+          },
+          {
+            "hex": "#342F2C",
+            "share": 0.105
+          },
+          {
+            "hex": "#473A2B",
+            "share": 0.069
+          },
+          {
+            "hex": "#2D2419",
+            "share": 0.058
+          },
+          {
+            "hex": "#271A11",
+            "share": 0.048
+          }
+        ],
+        "motion_energy": 15.2,
+        "script": "what kind of side dishes could you order that cost 26 grand?"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 40.4,
+      "end": 57.884,
+      "length": 17.484,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#332F31",
+            "share": 0.253
+          },
+          {
+            "hex": "#B9B1A9",
+            "share": 0.082
+          },
+          {
+            "hex": "#D3CEC6",
+            "share": 0.072
+          },
+          {
+            "hex": "#12100A",
+            "share": 0.065
+          },
+          {
+            "hex": "#C3BAB0",
+            "share": 0.045
+          }
+        ],
+        "motion_energy": 8.88,
+        "script": "Guys, it wasn't the potatoes. And here's the part that really kills me. I kind of fell asleep at the dinner. It's an expensive way to take a fucking nap, right? Anyway, follow me. I'll teach you how to close a sale without buying anybody a bottle of wine."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

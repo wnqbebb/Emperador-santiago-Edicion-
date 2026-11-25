@@ -1,0 +1,73 @@
+{
+ "triggers": [
+  {"t_word": 0.0, "word": "Never", "element": "A-roll empieza a 1.25× y salta a 1.0 (zoom-out brusco)", "category": "aroll_caption_big", "offset_s": 0.0, "why": "hook: movimiento en el frame 0"},
+  {"t_word": 1.2, "word": "soon", "element": "'AS SOON AS' blanco itálica MAYÚSCULAS", "category": "aroll_caption_big", "offset_s": -0.3, "why": "cita (frase prohibida)"},
+  {"t_word": 1.9, "word": "pay", "element": "'YOU PAY' amarillo itálica MAYÚSCULAS", "category": "aroll_caption_big", "offset_s": -0.2, "why": "énfasis de la frase prohibida"},
+  {"t_word": 4.36, "word": "get", "element": "'GET YOU STARTED' amarillo itálica con fade/blur", "category": "aroll_caption_big", "offset_s": 0.1, "why": "frase alternativa"},
+  {"t_word": 6.38, "word": "picture", "element": "recuadro 1 con figura y borde discontinuo amarillo arriba-izq. (entra 6.13)", "category": "icon_overlay", "offset_s": -0.25, "why": "literal: 'picture' = cuadro mental"},
+  {"t_word": 7.24, "word": "leaving", "element": "'LEAVING' amarillo MAYÚSCULAS", "category": "icon_overlay", "offset_s": 0.0, "why": "concepto"},
+  {"t_word": 9.44, "word": "picture", "element": "recuadro 2 a la derecha del primero (fade lento 9.0→9.9)", "category": "icon_overlay", "offset_s": -0.4, "why": "segunda imagen mental (contraste)"},
+  {"t_word": 10.42, "word": "arriving", "element": "'ARRIVING' revelado aleatorio de letras", "category": "icon_overlay", "offset_s": -0.02, "why": "concepto opuesto a 'leaving'"},
+  {"t_word": 11.12, "word": "never", "element": "jump-cut de escala (11.23) y desaparecen los recuadros", "category": "aroll_caption_big", "offset_s": 0.11, "why": "cambio de tema (par 2)"},
+  {"t_word": 11.78, "word": "sign", "element": "'SIGN THE' blanco itálica + 'CONTRACT' amarillo itálica", "category": "aroll_caption_big", "offset_s": 0.0, "why": "cita"},
+  {"t_word": 13.82, "word": "scare", "element": "contrato 3D sobre la cabeza (13.67)", "category": "icon_overlay", "offset_s": -0.15, "why": "literal: el objeto que asusta"},
+  {"t_word": 16.42, "word": "commitment", "element": "jump-cut 16.52; contrato desaparece", "category": "aroll_caption_big", "offset_s": 0.1, "why": "fin del objeto"},
+  {"t_word": 17.66, "word": "approve", "element": "'APPROVE THE' + 'AGREEMENT' amarillo itálica", "category": "aroll_caption_big", "offset_s": 0.1, "why": "cita alternativa"},
+  {"t_word": 21.32, "word": "same", "element": "'the same team' amarillo minúsculas", "category": "aroll_caption_big", "offset_s": -0.1, "why": "beneficio emocional"},
+  {"t_word": 22.08, "word": "and", "element": "jump-cut de escala 22.19", "category": "aroll_caption_big", "offset_s": 0.11, "why": "par 3"},
+  {"t_word": 23.26, "word": "cost", "element": "'COST' amarillo revelado aleatorio", "category": "aroll_caption_big", "offset_s": -0.05, "why": "palabra prohibida"},
+  {"t_word": 24.52, "word": "investment", "element": "'INVESTMENT' amarillo MAYÚSCULAS 81 % ancho, letras aleatorias", "category": "aroll_caption_big", "offset_s": 0.3, "why": "palabra sustituta"},
+  {"t_word": 30.36, "word": "bigger", "element": "saco de dinero 3D crece detrás de la cabeza + 'EVEN BIGGER'", "category": "icon_overlay", "offset_s": -0.03, "why": "literal + escala"},
+  {"t_word": 31.42, "word": "word", "element": "jump-cut 31.03 (saco desaparece)", "category": "aroll_caption", "offset_s": -0.39, "why": "tesis"},
+  {"t_word": 34.78, "word": "the", "element": "fundido a negro + polaroid 'pain' entra rotando", "category": "full_graphic", "offset_s": 0.05, "why": "literal: 'picture in your head' = foto"},
+  {"t_word": 35.7, "word": "money", "element": "'losing money' amarillo", "category": "full_graphic", "offset_s": -0.2, "why": "emoción negativa"},
+  {"t_word": 36.04, "word": "or", "element": "whip ← a polaroid 'pleasure' (yate)", "category": "full_graphic", "offset_s": 0.12, "why": "contraste dolor/placer"},
+  {"t_word": 37.34, "word": "getting", "element": "'of getting a result' amarillo", "category": "full_graphic", "offset_s": 0.0, "why": "emoción positiva"},
+  {"t_word": 38.16, "word": "same", "element": "corte a A-roll; 'same deal' amarillo", "category": "aroll_caption_big", "offset_s": 0.13, "why": "remate"},
+  {"t_word": 41.62, "word": "in", "element": "'in their head' amarillo", "category": "aroll_caption_big", "offset_s": 0.0, "why": "metáfora"}
+ ],
+ "transitions": [
+  {"t": 0.2, "from": "aroll 1.25×", "to": "aroll 1.0×", "type": "zoom-out", "frames": 6, "detail": "escala cae en ~6 fr al inicio"},
+  {"t": 2.83, "from": "aroll", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "jump-cut de escala"},
+  {"t": 7.97, "from": "aroll", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "jump-cut de escala"},
+  {"t": 11.23, "from": "aroll + recuadros", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "jump-cut; recuadros salen en seco"},
+  {"t": 16.52, "from": "aroll + contrato", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "jump-cut"},
+  {"t": 22.19, "from": "aroll", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "jump-cut zoom-out"},
+  {"t": 25.57, "from": "aroll", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "jump-cut"},
+  {"t": 31.03, "from": "aroll + saco", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "jump-cut"},
+  {"t": 34.83, "from": "aroll", "to": "polaroid pain (negro)", "type": "crossfade", "frames": 3, "detail": "A-roll se funde a negro y la polaroid entra deslizando con rotación y motion blur"},
+  {"t": 36.16, "from": "polaroid pain", "to": "polaroid pleasure", "type": "whip-pan", "frames": 6, "detail": "barrido horizontal ← con motion blur"},
+  {"t": 38.29, "from": "polaroid", "to": "aroll", "type": "corte seco", "frames": 0, "detail": ""}
+ ],
+ "text_fx": [
+  {"t": 1.2, "fx": "pop", "detail": "línea blanca itálica MAYÚSCULAS aparece completa"},
+  {"t": 4.45, "fx": "blur-in", "detail": "'GET YOU STARTED' borroso/translúcido 2–3 fr"},
+  {"t": 10.4, "fx": "máscara", "detail": "revelado aleatorio de letras 'R V' → 'ARRIVIN' → 'ARRIVING' (~0.3 s)"},
+  {"t": 23.2, "fx": "máscara", "detail": "'C' → 'OST' → 'COST' letras aleatorias"},
+  {"t": 24.85, "fx": "máscara", "detail": "'V T EN' → 'INVES T' → 'INVESTMENT' en ~0.35 s"},
+  {"t": 30.35, "fx": "blur-in", "detail": "'EVEN BIGGER' entra con el saco"},
+  {"t": 35.0, "fx": "write-on por palabra", "detail": "'The' → 'The pain' → 'The pain of' con blur, luego 'losing money' amarillo"},
+  {"t": 36.4, "fx": "gris→blanco", "detail": "'pleasure' aparece gris y pasa a blanco"}
+ ],
+ "camera": [
+  {"t": 0.0, "move": "zoom-out", "scale_or_dir": "1.25→1.0", "dur_s": 0.2},
+  {"t": 2.83, "move": "punch-in", "scale_or_dir": "jump-cut de escala (out)", "dur_s": 0.0},
+  {"t": 7.97, "move": "punch-in", "scale_or_dir": "jump-cut de escala", "dur_s": 0.0},
+  {"t": 11.23, "move": "zoom-out", "scale_or_dir": "jump-cut más abierto", "dur_s": 0.0},
+  {"t": 16.52, "move": "punch-in", "scale_or_dir": "jump-cut más cerrado", "dur_s": 0.0},
+  {"t": 22.19, "move": "zoom-out", "scale_or_dir": "jump-cut más abierto", "dur_s": 0.0},
+  {"t": 25.57, "move": "punch-in", "scale_or_dir": "jump-cut", "dur_s": 0.0},
+  {"t": 31.03, "move": "punch-in", "scale_or_dir": "jump-cut", "dur_s": 0.0},
+  {"t": 36.16, "move": "slide", "scale_or_dir": "horizontal ←", "dur_s": 0.25}
+ ],
+ "rhythm": {"events_per_10s": [7, 7, 6, 6, 3], "avg_hold_text_s": 0.8, "notes": "Derivado (jump-cuts + iconos + amarillos por ventana 0–10, 10–20, 20–30, 30–40, 40–47). Un solo plano de cámara troceado por jump-cuts de escala cada 3–5 s; cada icono vive entre dos jump-cuts. Último tramo (38.3–46.9) sin eventos gráficos: cierre calmado."},
+ "typography": "Sans geométrica extra-bold (Poppins ExtraBold/Black-like). Blanco minúsculas ~3 % alto en y≈56 %. Citas en ITÁLICA MAYÚSCULAS en 2 niveles escalonados (blanco pequeño izq. + amarillo grande der.). Conceptos en amarillo MAYÚSCULAS rectas ~4.5–5 % alto. Frases emocionales en amarillo minúsculas. Amarillo ≈#F6D117. En las polaroids el caption sube a y≈28–30 %.",
+ "textures": "A-roll limpio, cálido. Polaroids con marco blanco grueso, sombra y motion blur sobre negro con degradado radial gris (viñeta fuerte). Recuadros con fondo negro translúcido y borde amarillo discontinuo. Objetos 3D con render realista.",
+ "distinct": [
+  "Itálica MAYÚSCULAS en 2 niveles reservada a frases citadas ('never say' / 'say').",
+  "Revelado aleatorio de letras en las palabras clave (ARRIVING, COST, INVESTMENT).",
+  "Recuadros de 'imagen mental' con borde discontinuo amarillo sobre la cabeza.",
+  "Secuencia de polaroids sobre negro con whip lateral (pain → pleasure).",
+  "Un único plano: todo el ritmo sale de jump-cuts de escala cada 3–5 s; sin CTA final."
+ ]
+}

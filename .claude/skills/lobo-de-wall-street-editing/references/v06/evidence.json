@@ -1,0 +1,1184 @@
+{
+  "video": "v06.mp4",
+  "duration": 61.0,
+  "derived": {
+    "shots": 3,
+    "avg_shot_len": 20.33,
+    "cuts_per_min": 3.0,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      1,
+      2
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "So",
+      "start": 0.0,
+      "end": 0.32
+    },
+    {
+      "w": "is",
+      "start": 0.32,
+      "end": 0.5
+    },
+    {
+      "w": "it",
+      "start": 0.5,
+      "end": 0.66
+    },
+    {
+      "w": "true",
+      "start": 0.66,
+      "end": 1.1
+    },
+    {
+      "w": "that",
+      "start": 1.1,
+      "end": 1.34
+    },
+    {
+      "w": "you",
+      "start": 1.34,
+      "end": 1.54
+    },
+    {
+      "w": "actually",
+      "start": 1.54,
+      "end": 2.2
+    },
+    {
+      "w": "tossed",
+      "start": 2.2,
+      "end": 2.78
+    },
+    {
+      "w": "little",
+      "start": 2.78,
+      "end": 3.54
+    },
+    {
+      "w": "people,",
+      "start": 3.54,
+      "end": 4.04
+    },
+    {
+      "w": "AKA",
+      "start": 4.36,
+      "end": 4.7
+    },
+    {
+      "w": "midgets,",
+      "start": 4.7,
+      "end": 5.9
+    },
+    {
+      "w": "at",
+      "start": 6.2,
+      "end": 6.4
+    },
+    {
+      "w": "a",
+      "start": 6.4,
+      "end": 6.56
+    },
+    {
+      "w": "target",
+      "start": 6.56,
+      "end": 6.96
+    },
+    {
+      "w": "in",
+      "start": 6.96,
+      "end": 7.26
+    },
+    {
+      "w": "the",
+      "start": 7.26,
+      "end": 7.38
+    },
+    {
+      "w": "office?",
+      "start": 7.38,
+      "end": 7.7
+    },
+    {
+      "w": "Well,",
+      "start": 8.04,
+      "end": 8.22
+    },
+    {
+      "w": "I",
+      "start": 8.62,
+      "end": 8.76
+    },
+    {
+      "w": "gotta",
+      "start": 8.76,
+      "end": 8.9
+    },
+    {
+      "w": "say,",
+      "start": 8.9,
+      "end": 9.22
+    },
+    {
+      "w": "you",
+      "start": 9.4,
+      "end": 9.44
+    },
+    {
+      "w": "know,",
+      "start": 9.44,
+      "end": 9.54
+    },
+    {
+      "w": "like",
+      "start": 9.66,
+      "end": 9.78
+    },
+    {
+      "w": "I",
+      "start": 9.78,
+      "end": 9.9
+    },
+    {
+      "w": "gotta",
+      "start": 9.9,
+      "end": 10.06
+    },
+    {
+      "w": "kind",
+      "start": 10.06,
+      "end": 10.4
+    },
+    {
+      "w": "of",
+      "start": 10.4,
+      "end": 10.5
+    },
+    {
+      "w": "take",
+      "start": 10.5,
+      "end": 10.64
+    },
+    {
+      "w": "the",
+      "start": 10.64,
+      "end": 10.82
+    },
+    {
+      "w": "fifth",
+      "start": 10.82,
+      "end": 11.06
+    },
+    {
+      "w": "amendment",
+      "start": 11.06,
+      "end": 11.4
+    },
+    {
+      "w": "on",
+      "start": 11.4,
+      "end": 11.64
+    },
+    {
+      "w": "this",
+      "start": 11.64,
+      "end": 11.88
+    },
+    {
+      "w": "one",
+      "start": 11.88,
+      "end": 12.12
+    },
+    {
+      "w": "here,",
+      "start": 12.12,
+      "end": 12.36
+    },
+    {
+      "w": "you",
+      "start": 12.48,
+      "end": 12.58
+    },
+    {
+      "w": "know?",
+      "start": 12.58,
+      "end": 12.8
+    },
+    {
+      "w": "Sorry,",
+      "start": 12.98,
+      "end": 13.16
+    },
+    {
+      "w": "that's",
+      "start": 13.24,
+      "end": 13.4
+    },
+    {
+      "w": "something",
+      "start": 13.4,
+      "end": 13.52
+    },
+    {
+      "w": "I'm",
+      "start": 13.52,
+      "end": 13.74
+    },
+    {
+      "w": "proud",
+      "start": 13.74,
+      "end": 14.0
+    },
+    {
+      "w": "of.",
+      "start": 14.0,
+      "end": 14.2
+    },
+    {
+      "w": "Listen,",
+      "start": 14.36,
+      "end": 14.42
+    },
+    {
+      "w": "I",
+      "start": 14.6,
+      "end": 14.8
+    },
+    {
+      "w": "was",
+      "start": 14.8,
+      "end": 15.02
+    },
+    {
+      "w": "there",
+      "start": 15.02,
+      "end": 15.4
+    },
+    {
+      "w": "when",
+      "start": 15.4,
+      "end": 15.88
+    },
+    {
+      "w": "we",
+      "start": 15.88,
+      "end": 16.04
+    },
+    {
+      "w": "spoke",
+      "start": 16.04,
+      "end": 16.52
+    },
+    {
+      "w": "about",
+      "start": 16.52,
+      "end": 17.0
+    },
+    {
+      "w": "forcing",
+      "start": 17.0,
+      "end": 17.46
+    },
+    {
+      "w": "the",
+      "start": 17.46,
+      "end": 17.66
+    },
+    {
+      "w": "midgets,",
+      "start": 17.66,
+      "end": 18.0
+    },
+    {
+      "w": "okay?",
+      "start": 18.26,
+      "end": 18.5
+    },
+    {
+      "w": "No",
+      "start": 18.68,
+      "end": 18.78
+    },
+    {
+      "w": "doubt",
+      "start": 18.78,
+      "end": 18.94
+    },
+    {
+      "w": "we",
+      "start": 18.94,
+      "end": 19.12
+    },
+    {
+      "w": "added",
+      "start": 19.12,
+      "end": 19.26
+    },
+    {
+      "w": "a",
+      "start": 19.26,
+      "end": 19.44
+    },
+    {
+      "w": "really,",
+      "start": 19.44,
+      "end": 19.94
+    },
+    {
+      "w": "really",
+      "start": 20.04,
+      "end": 20.32
+    },
+    {
+      "w": "interesting",
+      "start": 20.32,
+      "end": 20.74
+    },
+    {
+      "w": "debate",
+      "start": 20.74,
+      "end": 21.14
+    },
+    {
+      "w": "on",
+      "start": 21.14,
+      "end": 21.46
+    },
+    {
+      "w": "that.",
+      "start": 21.46,
+      "end": 21.66
+    },
+    {
+      "w": "You",
+      "start": 21.82,
+      "end": 21.82
+    },
+    {
+      "w": "know,",
+      "start": 21.82,
+      "end": 21.92
+    },
+    {
+      "w": "things",
+      "start": 22.0,
+      "end": 22.14
+    },
+    {
+      "w": "we",
+      "start": 22.14,
+      "end": 22.3
+    },
+    {
+      "w": "should",
+      "start": 22.3,
+      "end": 22.44
+    },
+    {
+      "w": "have",
+      "start": 22.44,
+      "end": 22.68
+    },
+    {
+      "w": "just",
+      "start": 22.68,
+      "end": 22.86
+    },
+    {
+      "w": "in",
+      "start": 22.86,
+      "end": 23.06
+    },
+    {
+      "w": "case.",
+      "start": 23.06,
+      "end": 23.3
+    },
+    {
+      "w": "Trank",
+      "start": 23.58,
+      "end": 23.84
+    },
+    {
+      "w": "darts,",
+      "start": 23.84,
+      "end": 24.26
+    },
+    {
+      "w": "cattle",
+      "start": 24.54,
+      "end": 24.76
+    },
+    {
+      "w": "prod,",
+      "start": 24.76,
+      "end": 25.16
+    },
+    {
+      "w": "electric",
+      "start": 25.42,
+      "end": 25.58
+    },
+    {
+      "w": "cattle",
+      "start": 25.58,
+      "end": 26.02
+    },
+    {
+      "w": "prod,",
+      "start": 26.02,
+      "end": 26.2
+    },
+    {
+      "w": "right?",
+      "start": 26.38,
+      "end": 26.48
+    },
+    {
+      "w": "Of",
+      "start": 26.58,
+      "end": 26.7
+    },
+    {
+      "w": "course,",
+      "start": 26.7,
+      "end": 26.88
+    },
+    {
+      "w": "all",
+      "start": 26.94,
+      "end": 27.16
+    },
+    {
+      "w": "the",
+      "start": 27.16,
+      "end": 27.3
+    },
+    {
+      "w": "precautions",
+      "start": 27.3,
+      "end": 27.78
+    },
+    {
+      "w": "we",
+      "start": 27.78,
+      "end": 28.02
+    },
+    {
+      "w": "wanted",
+      "start": 28.02,
+      "end": 28.28
+    },
+    {
+      "w": "to",
+      "start": 28.28,
+      "end": 28.46
+    },
+    {
+      "w": "take.",
+      "start": 28.46,
+      "end": 28.68
+    },
+    {
+      "w": "And",
+      "start": 28.76,
+      "end": 28.82
+    },
+    {
+      "w": "here's",
+      "start": 28.82,
+      "end": 29.06
+    },
+    {
+      "w": "the",
+      "start": 29.06,
+      "end": 29.18
+    },
+    {
+      "w": "deal",
+      "start": 29.18,
+      "end": 29.4
+    },
+    {
+      "w": "though.",
+      "start": 29.4,
+      "end": 29.62
+    },
+    {
+      "w": "You",
+      "start": 29.62,
+      "end": 29.84
+    },
+    {
+      "w": "know,",
+      "start": 29.84,
+      "end": 29.9
+    },
+    {
+      "w": "the",
+      "start": 29.92,
+      "end": 30.04
+    },
+    {
+      "w": "plan",
+      "start": 30.04,
+      "end": 30.32
+    },
+    {
+      "w": "was",
+      "start": 30.32,
+      "end": 30.46
+    },
+    {
+      "w": "we're",
+      "start": 30.46,
+      "end": 30.64
+    },
+    {
+      "w": "gonna",
+      "start": 30.64,
+      "end": 30.74
+    },
+    {
+      "w": "pay",
+      "start": 30.74,
+      "end": 31.14
+    },
+    {
+      "w": "them,",
+      "start": 31.14,
+      "end": 31.6
+    },
+    {
+      "w": "not",
+      "start": 31.6,
+      "end": 31.98
+    },
+    {
+      "w": "enslave",
+      "start": 31.98,
+      "end": 32.42
+    },
+    {
+      "w": "them,",
+      "start": 32.42,
+      "end": 32.76
+    },
+    {
+      "w": "right?",
+      "start": 32.86,
+      "end": 33.02
+    },
+    {
+      "w": "So,",
+      "start": 33.18,
+      "end": 33.3
+    },
+    {
+      "w": "you",
+      "start": 33.4,
+      "end": 33.46
+    },
+    {
+      "w": "know,",
+      "start": 33.46,
+      "end": 33.58
+    },
+    {
+      "w": "great",
+      "start": 33.66,
+      "end": 33.82
+    },
+    {
+      "w": "money,",
+      "start": 33.82,
+      "end": 34.26
+    },
+    {
+      "w": "you",
+      "start": 34.44,
+      "end": 34.48
+    },
+    {
+      "w": "know,",
+      "start": 34.48,
+      "end": 34.52
+    },
+    {
+      "w": "five,",
+      "start": 34.64,
+      "end": 34.82
+    },
+    {
+      "w": "10",
+      "start": 34.92,
+      "end": 35.1
+    },
+    {
+      "w": "grand,",
+      "start": 35.1,
+      "end": 35.32
+    },
+    {
+      "w": "couple",
+      "start": 35.46,
+      "end": 35.68
+    },
+    {
+      "w": "of",
+      "start": 35.68,
+      "end": 35.84
+    },
+    {
+      "w": "torsos",
+      "start": 35.84,
+      "end": 36.18
+    },
+    {
+      "w": "down",
+      "start": 36.18,
+      "end": 36.4
+    },
+    {
+      "w": "the",
+      "start": 36.4,
+      "end": 36.62
+    },
+    {
+      "w": "lane.",
+      "start": 36.62,
+      "end": 36.78
+    },
+    {
+      "w": "Now,",
+      "start": 36.9,
+      "end": 37.04
+    },
+    {
+      "w": "I",
+      "start": 37.24,
+      "end": 37.44
+    },
+    {
+      "w": "was",
+      "start": 37.44,
+      "end": 37.62
+    },
+    {
+      "w": "not",
+      "start": 37.62,
+      "end": 37.84
+    },
+    {
+      "w": "there",
+      "start": 37.84,
+      "end": 38.2
+    },
+    {
+      "w": "when",
+      "start": 38.2,
+      "end": 38.42
+    },
+    {
+      "w": "it",
+      "start": 38.42,
+      "end": 38.54
+    },
+    {
+      "w": "happened,",
+      "start": 38.54,
+      "end": 38.92
+    },
+    {
+      "w": "right?",
+      "start": 39.12,
+      "end": 39.28
+    },
+    {
+      "w": "This",
+      "start": 39.4,
+      "end": 39.56
+    },
+    {
+      "w": "is",
+      "start": 39.56,
+      "end": 39.7
+    },
+    {
+      "w": "strattin'",
+      "start": 39.7,
+      "end": 40.26
+    },
+    {
+      "w": "folklore,",
+      "start": 40.26,
+      "end": 40.66
+    },
+    {
+      "w": "but",
+      "start": 40.68,
+      "end": 40.88
+    },
+    {
+      "w": "what",
+      "start": 40.88,
+      "end": 41.04
+    },
+    {
+      "w": "I",
+      "start": 41.04,
+      "end": 41.2
+    },
+    {
+      "w": "can",
+      "start": 41.2,
+      "end": 41.44
+    },
+    {
+      "w": "tell",
+      "start": 41.44,
+      "end": 41.74
+    },
+    {
+      "w": "you",
+      "start": 41.74,
+      "end": 41.92
+    },
+    {
+      "w": "is",
+      "start": 41.92,
+      "end": 42.18
+    },
+    {
+      "w": "this,",
+      "start": 42.18,
+      "end": 42.44
+    },
+    {
+      "w": "is",
+      "start": 42.64,
+      "end": 42.76
+    },
+    {
+      "w": "that",
+      "start": 42.76,
+      "end": 42.92
+    },
+    {
+      "w": "anything",
+      "start": 42.92,
+      "end": 43.24
+    },
+    {
+      "w": "you",
+      "start": 43.24,
+      "end": 43.64
+    },
+    {
+      "w": "saw",
+      "start": 43.64,
+      "end": 43.8
+    },
+    {
+      "w": "in",
+      "start": 43.8,
+      "end": 43.96
+    },
+    {
+      "w": "the",
+      "start": 43.96,
+      "end": 44.06
+    },
+    {
+      "w": "movie,",
+      "start": 44.06,
+      "end": 44.38
+    },
+    {
+      "w": "we",
+      "start": 45.0,
+      "end": 45.14
+    },
+    {
+      "w": "were",
+      "start": 45.14,
+      "end": 45.32
+    },
+    {
+      "w": "10",
+      "start": 45.32,
+      "end": 45.52
+    },
+    {
+      "w": "times",
+      "start": 45.52,
+      "end": 45.96
+    },
+    {
+      "w": "wilder",
+      "start": 45.96,
+      "end": 46.54
+    },
+    {
+      "w": "than",
+      "start": 46.54,
+      "end": 46.68
+    },
+    {
+      "w": "that.",
+      "start": 46.68,
+      "end": 46.88
+    },
+    {
+      "w": "I",
+      "start": 47.0,
+      "end": 47.08
+    },
+    {
+      "w": "mean,",
+      "start": 47.08,
+      "end": 47.2
+    },
+    {
+      "w": "head",
+      "start": 47.4,
+      "end": 47.58
+    },
+    {
+      "w": "shavings,",
+      "start": 47.58,
+      "end": 48.24
+    },
+    {
+      "w": "chimpanzees",
+      "start": 48.8,
+      "end": 49.16
+    },
+    {
+      "w": "on",
+      "start": 49.16,
+      "end": 49.4
+    },
+    {
+      "w": "roll",
+      "start": 49.4,
+      "end": 49.66
+    },
+    {
+      "w": "sets,",
+      "start": 49.66,
+      "end": 49.98
+    },
+    {
+      "w": "pets",
+      "start": 50.3,
+      "end": 50.48
+    },
+    {
+      "w": "to",
+      "start": 50.48,
+      "end": 50.72
+    },
+    {
+      "w": "an",
+      "start": 50.72,
+      "end": 50.84
+    },
+    {
+      "w": "all",
+      "start": 50.84,
+      "end": 51.12
+    },
+    {
+      "w": "crazed",
+      "start": 51.12,
+      "end": 51.52
+    },
+    {
+      "w": "dicks,",
+      "start": 51.52,
+      "end": 51.74
+    },
+    {
+      "w": "eating",
+      "start": 51.88,
+      "end": 52.12
+    },
+    {
+      "w": "goldfish.",
+      "start": 52.12,
+      "end": 52.9
+    },
+    {
+      "w": "True",
+      "start": 53.24,
+      "end": 53.42
+    },
+    {
+      "w": "story",
+      "start": 53.42,
+      "end": 53.8
+    },
+    {
+      "w": "again,",
+      "start": 53.8,
+      "end": 54.18
+    },
+    {
+      "w": "right?",
+      "start": 54.2,
+      "end": 54.56
+    },
+    {
+      "w": "It",
+      "start": 54.7,
+      "end": 54.82
+    },
+    {
+      "w": "was",
+      "start": 54.82,
+      "end": 55.04
+    },
+    {
+      "w": "insanity,",
+      "start": 55.04,
+      "end": 55.88
+    },
+    {
+      "w": "right?",
+      "start": 56.18,
+      "end": 56.34
+    },
+    {
+      "w": "And",
+      "start": 56.42,
+      "end": 56.5
+    },
+    {
+      "w": "if",
+      "start": 56.5,
+      "end": 56.6
+    },
+    {
+      "w": "you",
+      "start": 56.6,
+      "end": 56.72
+    },
+    {
+      "w": "wanna",
+      "start": 56.72,
+      "end": 56.92
+    },
+    {
+      "w": "know",
+      "start": 56.92,
+      "end": 57.14
+    },
+    {
+      "w": "the",
+      "start": 57.14,
+      "end": 57.3
+    },
+    {
+      "w": "true",
+      "start": 57.3,
+      "end": 57.56
+    },
+    {
+      "w": "story",
+      "start": 57.56,
+      "end": 58.0
+    },
+    {
+      "w": "more",
+      "start": 58.0,
+      "end": 58.3
+    },
+    {
+      "w": "of",
+      "start": 58.3,
+      "end": 58.62
+    },
+    {
+      "w": "it,",
+      "start": 58.62,
+      "end": 58.76
+    },
+    {
+      "w": "follow",
+      "start": 58.76,
+      "end": 59.08
+    },
+    {
+      "w": "me,",
+      "start": 59.08,
+      "end": 59.32
+    },
+    {
+      "w": "I'll",
+      "start": 59.4,
+      "end": 59.5
+    },
+    {
+      "w": "give",
+      "start": 59.5,
+      "end": 59.6
+    },
+    {
+      "w": "you",
+      "start": 59.6,
+      "end": 59.7
+    },
+    {
+      "w": "some",
+      "start": 59.7,
+      "end": 59.86
+    },
+    {
+      "w": "inside",
+      "start": 59.86,
+      "end": 60.2
+    },
+    {
+      "w": "details.",
+      "start": 60.2,
+      "end": 60.56
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 42.6,
+      "length": 42.6,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#090705",
+            "share": 0.201
+          },
+          {
+            "hex": "#302F2E",
+            "share": 0.088
+          },
+          {
+            "hex": "#AAB2D1",
+            "share": 0.063
+          },
+          {
+            "hex": "#29374D",
+            "share": 0.052
+          },
+          {
+            "hex": "#503231",
+            "share": 0.051
+          }
+        ],
+        "motion_energy": 16.94,
+        "script": "So is it true that you actually tossed little people, AKA midgets, at a target in the office? Well, I gotta say, you know, like I gotta kind of take the fifth amendment on this one here, you know? Sorry, that's something I'm proud of. Listen, I was there when we spoke about forcing the midgets, okay? No doubt we added a really, really interesting debate on that. You know, things we should have just in case. Trank darts, cattle prod, electric cattle prod, right? Of course, all the precautions we wanted to take. And here's the deal though. You know, the plan was we're gonna pay them, not enslave them, right? So, you know, great money, you know, five, 10 grand, couple of torsos down the lane. Now, I was not there when it happened, right? This is strattin' folklore, but what I can tell you is this,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 42.6,
+      "end": 44.967,
+      "length": 2.367,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0C0F",
+            "share": 0.28
+          },
+          {
+            "hex": "#514A50",
+            "share": 0.139
+          },
+          {
+            "hex": "#271A19",
+            "share": 0.068
+          },
+          {
+            "hex": "#2F262A",
+            "share": 0.05
+          },
+          {
+            "hex": "#4F332F",
+            "share": 0.047
+          }
+        ],
+        "motion_energy": 19.47,
+        "script": "is that anything you saw in the movie,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 44.967,
+      "end": 60.996,
+      "length": 16.029,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0A0705",
+            "share": 0.175
+          },
+          {
+            "hex": "#2F2F2E",
+            "share": 0.083
+          },
+          {
+            "hex": "#513430",
+            "share": 0.064
+          },
+          {
+            "hex": "#8B92B2",
+            "share": 0.045
+          },
+          {
+            "hex": "#28364E",
+            "share": 0.043
+          }
+        ],
+        "motion_energy": 16.25,
+        "script": "we were 10 times wilder than that. I mean, head shavings, chimpanzees on roll sets, pets to an all crazed dicks, eating goldfish. True story again, right? It was insanity, right? And if you wanna know the true story more of it, follow me, I'll give you some inside details."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

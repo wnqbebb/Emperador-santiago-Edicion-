@@ -1,0 +1,67 @@
+{
+ "triggers": [
+  {"t_word": 0.0, "word": "Six", "element": "zoom-out 1.3→1.0 + cronómetro 01:00 en el portátil", "category": "list_number", "offset_s": 0.0, "why": "hook de reto"},
+  {"t_word": 0.34, "word": "objections", "element": "'6' amarillo pop (0.27) + 'OBJECTIONS' write-on", "category": "list_number", "offset_s": -0.07, "why": "número de la lista"},
+  {"t_word": 1.24, "word": "60", "element": "'60s' gigante detrás de Jordan (1.37)", "category": "icon_overlay", "offset_s": 0.13, "why": "dato/límite"},
+  {"t_word": 2.24, "word": "and", "element": "jump-cut (2.25); '1 I NEED TO THINK ABOUT IT' (2.57)", "category": "list_number", "offset_s": 0.01, "why": "ítem 1"},
+  {"t_word": 4.14, "word": "information", "element": "'information' amarillo inline", "category": "aroll_caption_big", "offset_s": 0.0, "why": "palabra de la objeción"},
+  {"t_word": 5.54, "word": "now.", "element": "'NOW' amarillo MAYÚSCULAS (~5.2)", "category": "aroll_caption_big", "offset_s": -0.3, "why": "urgencia"},
+  {"t_word": 7.72, "word": "product,", "element": "recuadro 1: caja de cartón (7.87)", "category": "icon_overlay", "offset_s": 0.15, "why": "literal"},
+  {"t_word": 8.3, "word": "me,", "element": "recuadro 2: foto de Jordan (8.50)", "category": "icon_overlay", "offset_s": 0.2, "why": "literal"},
+  {"t_word": 9.0, "word": "money?", "element": "recuadro 3: fajo de billetes (8.95)", "category": "icon_overlay", "offset_s": -0.05, "why": "literal"},
+  {"t_word": 9.52, "word": "It's", "element": "jump-cut 9.38 (iconos salen) + '2 IT'S TOO EXPENSIVE'", "category": "list_number", "offset_s": -0.14, "why": "ítem 2"},
+  {"t_word": 10.52, "word": "Price", "element": "'Prices' amarillo gigante abajo, letras aleatorias (10.7)", "category": "aroll_caption_big", "offset_s": 0.18, "why": "concepto"},
+  {"t_word": 12.24, "word": "Cost", "element": "'Cost' sustituye a 'Prices'", "category": "aroll_caption_big", "offset_s": 0.05, "why": "contraste price/cost"},
+  {"t_word": 15.94, "word": "And", "element": "'3 I NEED TO TALK TO MY WIFE'", "category": "list_number", "offset_s": 0.05, "why": "ítem 3"},
+  {"t_word": 19.68, "word": "right", "element": "'right now' amarillo", "category": "aroll_caption", "offset_s": 0.0, "why": "urgencia"},
+  {"t_word": 20.8, "word": "It's", "element": "'4 IT'S NOT THE RIGHT TIME'", "category": "list_number", "offset_s": 0.0, "why": "ítem 4"},
+  {"t_word": 22.02, "word": "What", "element": "fundido a negro (21.97) + figura holograma pensando", "category": "full_graphic", "offset_s": -0.05, "why": "pregunta reflexiva"},
+  {"t_word": 23.44, "word": "right", "element": "despertador 3D verde entra (23.3) + 'time' amarillo", "category": "full_graphic", "offset_s": -0.14, "why": "literal: time = reloj"},
+  {"t_word": 24.2, "word": "Send", "element": "corte a A-roll (24.15) + '5 SEND ME SOME INFORMATION'", "category": "list_number", "offset_s": -0.05, "why": "ítem 5"},
+  {"t_word": 29.18, "word": "email.", "element": "'EMAIL' amarillo MAYÚSCULAS", "category": "aroll_caption_big", "offset_s": 0.0, "why": "objeto concreto"},
+  {"t_word": 29.44, "word": "I", "element": "'6 I CAN FIGURE IT OUT MYSELF' (~29.9)", "category": "list_number", "offset_s": 0.45, "why": "ítem 6"},
+  {"t_word": 32.86, "word": "this", "element": "'this time?' amarillo", "category": "aroll_caption", "offset_s": 0.0, "why": "énfasis"},
+  {"t_word": 35.62, "word": "for", "element": "'for uncertainty' amarillo write-on", "category": "aroll_caption_big", "offset_s": 0.0, "why": "concepto clave"},
+  {"t_word": 37.08, "word": "Build", "element": "corte a clip de película (DiCaprio con papel)", "category": "movie_clip", "offset_s": 0.0, "why": "autoridad/cierre"},
+  {"t_word": 38.34, "word": "ask", "element": "clip al teléfono (38.12)", "category": "movie_clip", "offset_s": -0.22, "why": "literal: pedir = llamada"},
+  {"t_word": 39.6, "word": "and", "element": "primer plano DiCaprio (39.37) 'and close'", "category": "movie_clip", "offset_s": -0.23, "why": "remate"}
+ ],
+ "transitions": [
+  {"t": 0.2, "from": "aroll 1.3×", "to": "aroll 1.0×", "type": "zoom-out", "frames": 6, "detail": "zoom-out brusco de hook"},
+  {"t": 2.25, "from": "aroll", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "jump-cut de escala; '60s' sale"},
+  {"t": 4.96, "from": "aroll", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "jump-cut"},
+  {"t": 9.38, "from": "aroll + iconos", "to": "aroll", "type": "corte seco", "frames": 0, "detail": "jump-cut; iconos salen"},
+  {"t": 21.97, "from": "aroll", "to": "figura en negro", "type": "crossfade", "frames": 3, "detail": "fundido a negro y entrada de la figura con blur"},
+  {"t": 23.3, "from": "figura", "to": "figura desenfocada + reloj", "type": "zoom-blur", "frames": 6, "detail": "la figura se agranda/desenfoca y entra el despertador"},
+  {"t": 24.15, "from": "reloj", "to": "aroll", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 37.08, "from": "aroll", "to": "movie_clip", "type": "corte seco", "frames": 0, "detail": "desaparece el cronómetro"},
+  {"t": 38.12, "from": "movie_clip", "to": "movie_clip", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 39.37, "from": "movie_clip", "to": "movie_clip", "type": "corte seco", "frames": 0, "detail": ""}
+ ],
+ "text_fx": [
+  {"t": 0.27, "fx": "pop", "detail": "'6' amarillo itálico"},
+  {"t": 0.53, "fx": "gris→blanco", "detail": "'OBJECTIONS' write-on gris→blanco"},
+  {"t": 1.37, "fx": "blur-in", "detail": "'60s' gigante con fade + escala, detrás del sujeto"},
+  {"t": 2.57, "fx": "write-on por palabra", "detail": "título de la objeción 1 gris→blanco"},
+  {"t": 10.7, "fx": "máscara", "detail": "'Prices' revelado aleatorio de letras ~0.3 s"},
+  {"t": 22.1, "fx": "blur-in", "detail": "'What has to / happen before' write-on con blur"},
+  {"t": 35.6, "fx": "write-on por palabra", "detail": "'for' → 'for uncertainty'"}
+ ],
+ "camera": [
+  {"t": 0.0, "move": "zoom-out", "scale_or_dir": "1.3→1.0", "dur_s": 0.2},
+  {"t": 2.25, "move": "punch-in", "scale_or_dir": "jump-cut de escala", "dur_s": 0.0},
+  {"t": 4.96, "move": "punch-in", "scale_or_dir": "jump-cut de escala", "dur_s": 0.0},
+  {"t": 9.38, "move": "punch-in", "scale_or_dir": "jump-cut (más cerrado)", "dur_s": 0.0},
+  {"t": 23.3, "move": "push-in lento", "scale_or_dir": "figura 1.0→~1.3 con desenfoque", "dur_s": 0.3}
+ ],
+ "rhythm": {"events_per_10s": [9, 6, 7, 6, 3], "avg_hold_text_s": 0.8, "notes": "Derivado (cabeceras + iconos + amarillos + cortes por ventana 0–10…40–40.7). La cabecera numerada marca el compás: una cada ~4–7 s. El cronómetro aporta movimiento continuo aunque no haya corte."},
+ "typography": "Poppins-like extra-bold. Subtítulo blanco minúsculas ~2.5 % ARRIBA (y≈12–14 %). Cabecera de lista: número amarillo ITÁLICA ~5 % + título blanco ITÁLICA MAYÚSCULAS 2 líneas ~2.2 %. Palabra-concepto amarilla gigante abajo (~7 % alto, y≈78 %). Cronómetro en sans condensada oscura sobre blanco. Amarillo ≈#F8CC12.",
+ "textures": "A-roll limpio cálido. Escena conceptual: negro con viñeta y glow tipo holograma. Recuadros-icono con fondo oscuro translúcido y borde amarillo discontinuo. Objeto 3D (reloj) render realista.",
+ "distinct": [
+  "Cronómetro diegético en la pantalla del portátil durante todo el A-roll.",
+  "Subtítulos arriba y palabra-concepto gigante abajo (inverso a los demás).",
+  "'60s' gigante detrás del sujeto (texto entre fondo y persona).",
+  "Listicle 1–6 con cabeceras itálicas arriba-izq.",
+  "Escena conceptual en negro (figura pensando + despertador 3D) en mitad del video."
+ ]
+}

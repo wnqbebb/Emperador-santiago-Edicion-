@@ -1,0 +1,8 @@
+000    0.00-   3.17 (3.2s) | You can now run uncensored AI on your phone with no internet at all and
+001    3.17-   4.13 (1.0s) | it's completely free.
+002    4.13-   6.10 (2.0s) | This is PrivateLM and it's a fully free
+003    6.10-   7.63 (1.5s) | and open source app on GitHub.
+004    7.63-  12.27 (4.6s) | You just install the app and it'll check what your phone can handle and set everything up for you completely automatically.
+005   12.27-  16.83 (4.6s) | Then you download any open source model you want including unrestricted, uncensored ones, whatever and
+006   16.83-  20.90 (4.1s) | you can chat with it completely offline. Plus it can even generate AI images right in your phone.
+007   20.90-  24.85 (4.0s) | So if you wanna try it yourselves just comment a phone down below and I'll send you all the links directly.

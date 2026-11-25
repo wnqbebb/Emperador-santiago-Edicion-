@@ -1,0 +1,20 @@
+[
+ {
+  "t": 48.1,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 7.1,
+  "to_cut": -0.1,
+  "word": "You",
+  "to_word": -0.1
+ },
+ {
+  "t": 63.762,
+  "dur": 0.0,
+  "kind": "click",
+  "gain_db": 7.4,
+  "to_cut": 0.8,
+  "word": "close.",
+  "to_word": 0.4
+ }
+]

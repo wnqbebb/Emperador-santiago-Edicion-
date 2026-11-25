@@ -1,0 +1,753 @@
+{
+  "video": "v12.mp4",
+  "duration": 46.92,
+  "derived": {
+    "shots": 3,
+    "avg_shot_len": 15.64,
+    "cuts_per_min": 3.8,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      1
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "Never",
+      "start": 0.0,
+      "end": 0.46
+    },
+    {
+      "w": "say",
+      "start": 0.46,
+      "end": 0.86
+    },
+    {
+      "w": "as",
+      "start": 0.86,
+      "end": 1.2
+    },
+    {
+      "w": "soon",
+      "start": 1.2,
+      "end": 1.52
+    },
+    {
+      "w": "as",
+      "start": 1.52,
+      "end": 1.74
+    },
+    {
+      "w": "you",
+      "start": 1.74,
+      "end": 1.9
+    },
+    {
+      "w": "pay",
+      "start": 1.9,
+      "end": 2.2
+    },
+    {
+      "w": "say",
+      "start": 2.2,
+      "end": 2.74
+    },
+    {
+      "w": "as",
+      "start": 2.74,
+      "end": 3.18
+    },
+    {
+      "w": "soon",
+      "start": 3.18,
+      "end": 3.66
+    },
+    {
+      "w": "as",
+      "start": 3.66,
+      "end": 4.1
+    },
+    {
+      "w": "we",
+      "start": 4.1,
+      "end": 4.36
+    },
+    {
+      "w": "get",
+      "start": 4.36,
+      "end": 4.72
+    },
+    {
+      "w": "you",
+      "start": 4.72,
+      "end": 4.94
+    },
+    {
+      "w": "started",
+      "start": 4.94,
+      "end": 5.44
+    },
+    {
+      "w": "pay",
+      "start": 5.44,
+      "end": 5.82
+    },
+    {
+      "w": "makes",
+      "start": 5.82,
+      "end": 6.16
+    },
+    {
+      "w": "them",
+      "start": 6.16,
+      "end": 6.38
+    },
+    {
+      "w": "picture",
+      "start": 6.38,
+      "end": 6.74
+    },
+    {
+      "w": "money",
+      "start": 6.74,
+      "end": 7.24
+    },
+    {
+      "w": "leaving",
+      "start": 7.24,
+      "end": 7.86
+    },
+    {
+      "w": "get",
+      "start": 7.86,
+      "end": 8.16
+    },
+    {
+      "w": "you",
+      "start": 8.16,
+      "end": 8.34
+    },
+    {
+      "w": "started",
+      "start": 8.34,
+      "end": 8.86
+    },
+    {
+      "w": "makes",
+      "start": 8.86,
+      "end": 9.22
+    },
+    {
+      "w": "them",
+      "start": 9.22,
+      "end": 9.44
+    },
+    {
+      "w": "picture",
+      "start": 9.44,
+      "end": 9.78
+    },
+    {
+      "w": "the",
+      "start": 9.78,
+      "end": 10.0
+    },
+    {
+      "w": "result",
+      "start": 10.0,
+      "end": 10.42
+    },
+    {
+      "w": "arriving",
+      "start": 10.42,
+      "end": 11.12
+    },
+    {
+      "w": "never",
+      "start": 11.12,
+      "end": 11.5
+    },
+    {
+      "w": "say",
+      "start": 11.5,
+      "end": 11.78
+    },
+    {
+      "w": "sign",
+      "start": 11.78,
+      "end": 12.4
+    },
+    {
+      "w": "the",
+      "start": 12.4,
+      "end": 12.74
+    },
+    {
+      "w": "contract",
+      "start": 12.74,
+      "end": 13.2
+    },
+    {
+      "w": "contract",
+      "start": 13.2,
+      "end": 13.82
+    },
+    {
+      "w": "scare",
+      "start": 13.82,
+      "end": 14.28
+    },
+    {
+      "w": "people",
+      "start": 14.28,
+      "end": 14.78
+    },
+    {
+      "w": "lawyers",
+      "start": 14.78,
+      "end": 15.54
+    },
+    {
+      "w": "fine",
+      "start": 15.54,
+      "end": 16.02
+    },
+    {
+      "w": "print",
+      "start": 16.02,
+      "end": 16.42
+    },
+    {
+      "w": "commitment",
+      "start": 16.42,
+      "end": 17.12
+    },
+    {
+      "w": "say",
+      "start": 17.12,
+      "end": 17.66
+    },
+    {
+      "w": "approve",
+      "start": 17.66,
+      "end": 18.4
+    },
+    {
+      "w": "the",
+      "start": 18.4,
+      "end": 18.72
+    },
+    {
+      "w": "agreement",
+      "start": 18.72,
+      "end": 19.18
+    },
+    {
+      "w": "an",
+      "start": 19.18,
+      "end": 19.52
+    },
+    {
+      "w": "agreement",
+      "start": 19.52,
+      "end": 19.78
+    },
+    {
+      "w": "is",
+      "start": 19.78,
+      "end": 20.08
+    },
+    {
+      "w": "two",
+      "start": 20.08,
+      "end": 20.32
+    },
+    {
+      "w": "people",
+      "start": 20.32,
+      "end": 20.78
+    },
+    {
+      "w": "on",
+      "start": 20.78,
+      "end": 21.14
+    },
+    {
+      "w": "the",
+      "start": 21.14,
+      "end": 21.32
+    },
+    {
+      "w": "same",
+      "start": 21.32,
+      "end": 21.7
+    },
+    {
+      "w": "team",
+      "start": 21.7,
+      "end": 22.08
+    },
+    {
+      "w": "and",
+      "start": 22.08,
+      "end": 22.38
+    },
+    {
+      "w": "never",
+      "start": 22.38,
+      "end": 22.76
+    },
+    {
+      "w": "say",
+      "start": 22.76,
+      "end": 23.26
+    },
+    {
+      "w": "cost",
+      "start": 23.26,
+      "end": 24.0
+    },
+    {
+      "w": "say",
+      "start": 24.0,
+      "end": 24.52
+    },
+    {
+      "w": "investment",
+      "start": 24.52,
+      "end": 25.36
+    },
+    {
+      "w": "a",
+      "start": 25.36,
+      "end": 25.7
+    },
+    {
+      "w": "cost",
+      "start": 25.7,
+      "end": 26.2
+    },
+    {
+      "w": "is",
+      "start": 26.2,
+      "end": 26.52
+    },
+    {
+      "w": "money",
+      "start": 26.52,
+      "end": 26.9
+    },
+    {
+      "w": "gone",
+      "start": 26.9,
+      "end": 27.38
+    },
+    {
+      "w": "leaving",
+      "start": 27.38,
+      "end": 27.94
+    },
+    {
+      "w": "that",
+      "start": 27.94,
+      "end": 28.16
+    },
+    {
+      "w": "pocket",
+      "start": 28.16,
+      "end": 28.48
+    },
+    {
+      "w": "an",
+      "start": 28.48,
+      "end": 28.74
+    },
+    {
+      "w": "investment",
+      "start": 28.74,
+      "end": 29.18
+    },
+    {
+      "w": "comes",
+      "start": 29.18,
+      "end": 29.54
+    },
+    {
+      "w": "back",
+      "start": 29.54,
+      "end": 29.94
+    },
+    {
+      "w": "even",
+      "start": 29.94,
+      "end": 30.36
+    },
+    {
+      "w": "bigger",
+      "start": 30.36,
+      "end": 30.84
+    },
+    {
+      "w": "every",
+      "start": 30.84,
+      "end": 31.42
+    },
+    {
+      "w": "word",
+      "start": 31.42,
+      "end": 31.76
+    },
+    {
+      "w": "you",
+      "start": 31.76,
+      "end": 31.98
+    },
+    {
+      "w": "say",
+      "start": 31.98,
+      "end": 32.32
+    },
+    {
+      "w": "paints",
+      "start": 32.32,
+      "end": 32.78
+    },
+    {
+      "w": "a",
+      "start": 32.78,
+      "end": 32.98
+    },
+    {
+      "w": "picture",
+      "start": 32.98,
+      "end": 33.36
+    },
+    {
+      "w": "in",
+      "start": 33.36,
+      "end": 33.84
+    },
+    {
+      "w": "your",
+      "start": 33.84,
+      "end": 33.94
+    },
+    {
+      "w": "client's",
+      "start": 33.94,
+      "end": 34.62
+    },
+    {
+      "w": "head",
+      "start": 34.62,
+      "end": 34.78
+    },
+    {
+      "w": "the",
+      "start": 34.78,
+      "end": 35.06
+    },
+    {
+      "w": "pain",
+      "start": 35.06,
+      "end": 35.34
+    },
+    {
+      "w": "of",
+      "start": 35.34,
+      "end": 35.46
+    },
+    {
+      "w": "losing",
+      "start": 35.46,
+      "end": 35.7
+    },
+    {
+      "w": "money",
+      "start": 35.7,
+      "end": 36.04
+    },
+    {
+      "w": "or",
+      "start": 36.04,
+      "end": 36.42
+    },
+    {
+      "w": "the",
+      "start": 36.42,
+      "end": 36.56
+    },
+    {
+      "w": "pleasure",
+      "start": 36.56,
+      "end": 37.0
+    },
+    {
+      "w": "of",
+      "start": 37.0,
+      "end": 37.34
+    },
+    {
+      "w": "getting",
+      "start": 37.34,
+      "end": 37.64
+    },
+    {
+      "w": "a",
+      "start": 37.64,
+      "end": 37.78
+    },
+    {
+      "w": "result",
+      "start": 37.78,
+      "end": 38.16
+    },
+    {
+      "w": "same",
+      "start": 38.16,
+      "end": 38.66
+    },
+    {
+      "w": "deal",
+      "start": 38.66,
+      "end": 38.98
+    },
+    {
+      "w": "same",
+      "start": 38.98,
+      "end": 39.48
+    },
+    {
+      "w": "price",
+      "start": 39.48,
+      "end": 39.9
+    },
+    {
+      "w": "totally",
+      "start": 39.9,
+      "end": 40.46
+    },
+    {
+      "w": "different",
+      "start": 40.46,
+      "end": 40.92
+    },
+    {
+      "w": "movie",
+      "start": 40.92,
+      "end": 41.24
+    },
+    {
+      "w": "playing",
+      "start": 41.24,
+      "end": 41.62
+    },
+    {
+      "w": "in",
+      "start": 41.62,
+      "end": 41.78
+    },
+    {
+      "w": "their",
+      "start": 41.78,
+      "end": 41.92
+    },
+    {
+      "w": "head",
+      "start": 41.92,
+      "end": 42.18
+    },
+    {
+      "w": "the",
+      "start": 42.18,
+      "end": 42.46
+    },
+    {
+      "w": "best",
+      "start": 42.46,
+      "end": 42.86
+    },
+    {
+      "w": "clothes",
+      "start": 42.86,
+      "end": 43.34
+    },
+    {
+      "w": "on",
+      "start": 43.34,
+      "end": 43.64
+    },
+    {
+      "w": "earth",
+      "start": 43.64,
+      "end": 43.92
+    },
+    {
+      "w": "are",
+      "start": 43.92,
+      "end": 44.2
+    },
+    {
+      "w": "just",
+      "start": 44.2,
+      "end": 44.4
+    },
+    {
+      "w": "a",
+      "start": 44.4,
+      "end": 44.56
+    },
+    {
+      "w": "world",
+      "start": 44.56,
+      "end": 44.9
+    },
+    {
+      "w": "-class",
+      "start": 44.9,
+      "end": 45.46
+    },
+    {
+      "w": "movie",
+      "start": 45.46,
+      "end": 45.98
+    },
+    {
+      "w": "directors",
+      "start": 45.98,
+      "end": 46.52
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 34.827,
+      "length": 34.827,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0803",
+            "share": 0.189
+          },
+          {
+            "hex": "#2B3113",
+            "share": 0.161
+          },
+          {
+            "hex": "#364D29",
+            "share": 0.048
+          },
+          {
+            "hex": "#354716",
+            "share": 0.048
+          },
+          {
+            "hex": "#E5F5FA",
+            "share": 0.045
+          }
+        ],
+        "motion_energy": 20.52,
+        "script": "Never say as soon as you pay say as soon as we get you started pay makes them picture money leaving get you started makes them picture the result arriving never say sign the contract contract scare people lawyers fine print commitment say approve the agreement an agreement is two people on the same team and never say cost say investment a cost is money gone leaving that pocket an investment comes back even bigger every word you say paints a picture in your client's head the"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 34.827,
+      "end": 38.288,
+      "length": 3.462,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0C0C",
+            "share": 0.819
+          },
+          {
+            "hex": "#252423",
+            "share": 0.08
+          },
+          {
+            "hex": "#6A584D",
+            "share": 0.016
+          },
+          {
+            "hex": "#766558",
+            "share": 0.013
+          },
+          {
+            "hex": "#736D68",
+            "share": 0.011
+          }
+        ],
+        "motion_energy": 34.08,
+        "script": "pain of losing money or the pleasure of getting a result same"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 38.288,
+      "end": 46.925,
+      "length": 8.636,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0A0703",
+            "share": 0.203
+          },
+          {
+            "hex": "#2A2F13",
+            "share": 0.184
+          },
+          {
+            "hex": "#364D2A",
+            "share": 0.057
+          },
+          {
+            "hex": "#E5F5FA",
+            "share": 0.042
+          },
+          {
+            "hex": "#353325",
+            "share": 0.037
+          }
+        ],
+        "motion_energy": 11.21,
+        "script": "deal same price totally different movie playing in their head the best clothes on earth are just a world -class movie directors"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

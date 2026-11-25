@@ -1,0 +1,1050 @@
+{
+  "video": "v04.mp4",
+  "duration": 29.33,
+  "derived": {
+    "shots": 8,
+    "avg_shot_len": 3.67,
+    "cuts_per_min": 16.4,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      1,
+      3,
+      7
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "You",
+      "start": 0.0,
+      "end": 0.1
+    },
+    {
+      "w": "can",
+      "start": 0.1,
+      "end": 0.2
+    },
+    {
+      "w": "now",
+      "start": 0.2,
+      "end": 0.32
+    },
+    {
+      "w": "make",
+      "start": 0.32,
+      "end": 0.5
+    },
+    {
+      "w": "a",
+      "start": 0.5,
+      "end": 0.58
+    },
+    {
+      "w": "stunning",
+      "start": 0.58,
+      "end": 0.86
+    },
+    {
+      "w": "product",
+      "start": 0.86,
+      "end": 1.18
+    },
+    {
+      "w": "video",
+      "start": 1.18,
+      "end": 1.48
+    },
+    {
+      "w": "to",
+      "start": 1.48,
+      "end": 1.6
+    },
+    {
+      "w": "sell",
+      "start": 1.6,
+      "end": 1.78
+    },
+    {
+      "w": "anything",
+      "start": 1.78,
+      "end": 2.2
+    },
+    {
+      "w": "without",
+      "start": 2.2,
+      "end": 2.5
+    },
+    {
+      "w": "ever",
+      "start": 2.5,
+      "end": 2.72
+    },
+    {
+      "w": "having",
+      "start": 2.72,
+      "end": 2.84
+    },
+    {
+      "w": "to",
+      "start": 2.84,
+      "end": 2.94
+    },
+    {
+      "w": "touch",
+      "start": 2.94,
+      "end": 3.1
+    },
+    {
+      "w": "a",
+      "start": 3.1,
+      "end": 3.18
+    },
+    {
+      "w": "camera.",
+      "start": 3.18,
+      "end": 3.44
+    },
+    {
+      "w": "First,",
+      "start": 3.64,
+      "end": 3.8
+    },
+    {
+      "w": "take",
+      "start": 3.98,
+      "end": 4.04
+    },
+    {
+      "w": "a",
+      "start": 4.04,
+      "end": 4.2
+    },
+    {
+      "w": "clean",
+      "start": 4.2,
+      "end": 4.4
+    },
+    {
+      "w": "video",
+      "start": 4.4,
+      "end": 4.6
+    },
+    {
+      "w": "of",
+      "start": 4.6,
+      "end": 4.76
+    },
+    {
+      "w": "your",
+      "start": 4.76,
+      "end": 4.82
+    },
+    {
+      "w": "product",
+      "start": 4.82,
+      "end": 5.08
+    },
+    {
+      "w": "and",
+      "start": 5.08,
+      "end": 5.26
+    },
+    {
+      "w": "upload",
+      "start": 5.26,
+      "end": 5.52
+    },
+    {
+      "w": "it",
+      "start": 5.52,
+      "end": 5.68
+    },
+    {
+      "w": "to",
+      "start": 5.68,
+      "end": 5.76
+    },
+    {
+      "w": "HiggsField",
+      "start": 5.76,
+      "end": 6.18
+    },
+    {
+      "w": "as",
+      "start": 6.18,
+      "end": 6.32
+    },
+    {
+      "w": "the",
+      "start": 6.32,
+      "end": 6.42
+    },
+    {
+      "w": "image",
+      "start": 6.42,
+      "end": 6.56
+    },
+    {
+      "w": "reference.",
+      "start": 6.56,
+      "end": 6.92
+    },
+    {
+      "w": "Then",
+      "start": 7.18,
+      "end": 7.3
+    },
+    {
+      "w": "describe",
+      "start": 7.3,
+      "end": 7.6
+    },
+    {
+      "w": "the",
+      "start": 7.6,
+      "end": 7.84
+    },
+    {
+      "w": "scene",
+      "start": 7.84,
+      "end": 8.02
+    },
+    {
+      "w": "you",
+      "start": 8.02,
+      "end": 8.16
+    },
+    {
+      "w": "want,",
+      "start": 8.16,
+      "end": 8.42
+    },
+    {
+      "w": "like",
+      "start": 8.54,
+      "end": 8.64
+    },
+    {
+      "w": "maybe",
+      "start": 8.64,
+      "end": 8.84
+    },
+    {
+      "w": "a",
+      "start": 8.84,
+      "end": 8.96
+    },
+    {
+      "w": "sneaker",
+      "start": 8.96,
+      "end": 9.36
+    },
+    {
+      "w": "splashing",
+      "start": 9.36,
+      "end": 9.8
+    },
+    {
+      "w": "through",
+      "start": 9.8,
+      "end": 10.22
+    },
+    {
+      "w": "water",
+      "start": 10.22,
+      "end": 10.48
+    },
+    {
+      "w": "in",
+      "start": 10.48,
+      "end": 10.66
+    },
+    {
+      "w": "slow",
+      "start": 10.66,
+      "end": 10.94
+    },
+    {
+      "w": "-mo,",
+      "start": 10.94,
+      "end": 11.12
+    },
+    {
+      "w": "and",
+      "start": 11.3,
+      "end": 11.38
+    },
+    {
+      "w": "it'll",
+      "start": 11.38,
+      "end": 11.54
+    },
+    {
+      "w": "give",
+      "start": 11.54,
+      "end": 11.64
+    },
+    {
+      "w": "you",
+      "start": 11.64,
+      "end": 11.76
+    },
+    {
+      "w": "multiple",
+      "start": 11.76,
+      "end": 11.98
+    },
+    {
+      "w": "shots",
+      "start": 11.98,
+      "end": 12.32
+    },
+    {
+      "w": "of",
+      "start": 12.32,
+      "end": 12.5
+    },
+    {
+      "w": "the",
+      "start": 12.5,
+      "end": 12.58
+    },
+    {
+      "w": "scene",
+      "start": 12.58,
+      "end": 12.8
+    },
+    {
+      "w": "from",
+      "start": 12.8,
+      "end": 13.0
+    },
+    {
+      "w": "different",
+      "start": 13.0,
+      "end": 13.28
+    },
+    {
+      "w": "camera",
+      "start": 13.28,
+      "end": 13.58
+    },
+    {
+      "w": "angles,",
+      "start": 13.58,
+      "end": 13.94
+    },
+    {
+      "w": "just",
+      "start": 14.06,
+      "end": 14.16
+    },
+    {
+      "w": "like",
+      "start": 14.16,
+      "end": 14.32
+    },
+    {
+      "w": "a",
+      "start": 14.32,
+      "end": 14.42
+    },
+    {
+      "w": "real",
+      "start": 14.42,
+      "end": 14.6
+    },
+    {
+      "w": "product",
+      "start": 14.6,
+      "end": 14.9
+    },
+    {
+      "w": "shoot.",
+      "start": 14.9,
+      "end": 15.18
+    },
+    {
+      "w": "And",
+      "start": 15.3,
+      "end": 15.36
+    },
+    {
+      "w": "if",
+      "start": 15.36,
+      "end": 15.44
+    },
+    {
+      "w": "you",
+      "start": 15.44,
+      "end": 15.52
+    },
+    {
+      "w": "want",
+      "start": 15.52,
+      "end": 15.62
+    },
+    {
+      "w": "a",
+      "start": 15.62,
+      "end": 15.7
+    },
+    {
+      "w": "person",
+      "start": 15.7,
+      "end": 16.0
+    },
+    {
+      "w": "in",
+      "start": 16.0,
+      "end": 16.14
+    },
+    {
+      "w": "your",
+      "start": 16.14,
+      "end": 16.28
+    },
+    {
+      "w": "ad,",
+      "start": 16.28,
+      "end": 16.44
+    },
+    {
+      "w": "you",
+      "start": 16.54,
+      "end": 16.58
+    },
+    {
+      "w": "can",
+      "start": 16.58,
+      "end": 16.7
+    },
+    {
+      "w": "create",
+      "start": 16.7,
+      "end": 16.84
+    },
+    {
+      "w": "an",
+      "start": 16.84,
+      "end": 17.0
+    },
+    {
+      "w": "AI",
+      "start": 17.0,
+      "end": 17.28
+    },
+    {
+      "w": "influencer",
+      "start": 17.28,
+      "end": 17.74
+    },
+    {
+      "w": "to",
+      "start": 17.74,
+      "end": 18.0
+    },
+    {
+      "w": "hold",
+      "start": 18.0,
+      "end": 18.32
+    },
+    {
+      "w": "your",
+      "start": 18.32,
+      "end": 18.5
+    },
+    {
+      "w": "product",
+      "start": 18.5,
+      "end": 18.82
+    },
+    {
+      "w": "and",
+      "start": 18.82,
+      "end": 19.02
+    },
+    {
+      "w": "even",
+      "start": 19.02,
+      "end": 19.16
+    },
+    {
+      "w": "present",
+      "start": 19.16,
+      "end": 19.48
+    },
+    {
+      "w": "that",
+      "start": 19.48,
+      "end": 19.7
+    },
+    {
+      "w": "to",
+      "start": 19.7,
+      "end": 19.82
+    },
+    {
+      "w": "the",
+      "start": 19.82,
+      "end": 19.94
+    },
+    {
+      "w": "camera.",
+      "start": 19.94,
+      "end": 20.22
+    },
+    {
+      "w": "Finally,",
+      "start": 20.38,
+      "end": 20.62
+    },
+    {
+      "w": "put",
+      "start": 20.8,
+      "end": 20.86
+    },
+    {
+      "w": "all",
+      "start": 20.86,
+      "end": 20.98
+    },
+    {
+      "w": "those",
+      "start": 20.98,
+      "end": 21.1
+    },
+    {
+      "w": "shots",
+      "start": 21.1,
+      "end": 21.32
+    },
+    {
+      "w": "together",
+      "start": 21.32,
+      "end": 21.62
+    },
+    {
+      "w": "in",
+      "start": 21.62,
+      "end": 21.82
+    },
+    {
+      "w": "a",
+      "start": 21.82,
+      "end": 21.9
+    },
+    {
+      "w": "one",
+      "start": 21.9,
+      "end": 22.08
+    },
+    {
+      "w": "full",
+      "start": 22.08,
+      "end": 22.34
+    },
+    {
+      "w": "product",
+      "start": 22.34,
+      "end": 22.64
+    },
+    {
+      "w": "video",
+      "start": 22.64,
+      "end": 22.98
+    },
+    {
+      "w": "right",
+      "start": 22.98,
+      "end": 23.26
+    },
+    {
+      "w": "inside",
+      "start": 23.26,
+      "end": 23.54
+    },
+    {
+      "w": "of",
+      "start": 23.54,
+      "end": 23.68
+    },
+    {
+      "w": "something",
+      "start": 23.68,
+      "end": 23.84
+    },
+    {
+      "w": "like",
+      "start": 23.84,
+      "end": 24.12
+    },
+    {
+      "w": "HiggsField,",
+      "start": 24.12,
+      "end": 24.64
+    },
+    {
+      "w": "and",
+      "start": 24.8,
+      "end": 24.86
+    },
+    {
+      "w": "you're",
+      "start": 24.86,
+      "end": 25.0
+    },
+    {
+      "w": "done.",
+      "start": 25.0,
+      "end": 25.2
+    },
+    {
+      "w": "So",
+      "start": 25.36,
+      "end": 25.44
+    },
+    {
+      "w": "if",
+      "start": 25.44,
+      "end": 25.5
+    },
+    {
+      "w": "you",
+      "start": 25.5,
+      "end": 25.56
+    },
+    {
+      "w": "want",
+      "start": 25.56,
+      "end": 25.68
+    },
+    {
+      "w": "the",
+      "start": 25.68,
+      "end": 25.8
+    },
+    {
+      "w": "exact",
+      "start": 25.8,
+      "end": 26.02
+    },
+    {
+      "w": "prompt",
+      "start": 26.02,
+      "end": 26.36
+    },
+    {
+      "w": "for",
+      "start": 26.36,
+      "end": 26.6
+    },
+    {
+      "w": "this",
+      "start": 26.6,
+      "end": 26.78
+    },
+    {
+      "w": "system,",
+      "start": 26.78,
+      "end": 27.2
+    },
+    {
+      "w": "just",
+      "start": 27.34,
+      "end": 27.44
+    },
+    {
+      "w": "comment",
+      "start": 27.44,
+      "end": 27.66
+    },
+    {
+      "w": "video",
+      "start": 27.66,
+      "end": 27.98
+    },
+    {
+      "w": "and",
+      "start": 27.98,
+      "end": 28.26
+    },
+    {
+      "w": "I'll",
+      "start": 28.26,
+      "end": 28.36
+    },
+    {
+      "w": "send",
+      "start": 28.36,
+      "end": 28.52
+    },
+    {
+      "w": "it",
+      "start": 28.52,
+      "end": 28.6
+    },
+    {
+      "w": "to",
+      "start": 28.6,
+      "end": 28.72
+    },
+    {
+      "w": "you",
+      "start": 28.72,
+      "end": 28.76
+    },
+    {
+      "w": "directly.",
+      "start": 28.76,
+      "end": 29.06
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 3.567,
+      "length": 3.567,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#C8F510",
+            "share": 0.43
+          },
+          {
+            "hex": "#070B12",
+            "share": 0.131
+          },
+          {
+            "hex": "#BBE613",
+            "share": 0.068
+          },
+          {
+            "hex": "#ADD515",
+            "share": 0.047
+          },
+          {
+            "hex": "#B0B3CA",
+            "share": 0.045
+          }
+        ],
+        "motion_energy": 15.49,
+        "script": "You can now make a stunning product video to sell anything without ever having to touch a camera."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 3.567,
+      "end": 11.267,
+      "length": 7.7,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#C8F610",
+            "share": 0.33
+          },
+          {
+            "hex": "#101117",
+            "share": 0.25
+          },
+          {
+            "hex": "#BBE613",
+            "share": 0.047
+          },
+          {
+            "hex": "#ABD316",
+            "share": 0.045
+          },
+          {
+            "hex": "#B0B2CA",
+            "share": 0.042
+          }
+        ],
+        "motion_energy": 29.12,
+        "script": "First, take a clean video of your product and upload it to HiggsField as the image reference. Then describe the scene you want, like maybe a sneaker splashing through water in slow -mo,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 11.267,
+      "end": 14.033,
+      "length": 2.767,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F1115",
+            "share": 0.867
+          },
+          {
+            "hex": "#2A2F30",
+            "share": 0.035
+          },
+          {
+            "hex": "#1B2426",
+            "share": 0.01
+          },
+          {
+            "hex": "#4A4E50",
+            "share": 0.009
+          },
+          {
+            "hex": "#8C8D90",
+            "share": 0.008
+          }
+        ],
+        "motion_energy": 5.4,
+        "script": "and it'll give you multiple shots of the scene from different camera angles,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 14.033,
+      "end": 15.267,
+      "length": 1.233,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#080A10",
+            "share": 0.388
+          },
+          {
+            "hex": "#9096AD",
+            "share": 0.092
+          },
+          {
+            "hex": "#AAAFC6",
+            "share": 0.05
+          },
+          {
+            "hex": "#2B282F",
+            "share": 0.048
+          },
+          {
+            "hex": "#6E6A74",
+            "share": 0.044
+          }
+        ],
+        "motion_energy": 12.44,
+        "script": "just like a real product shoot."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 15.267,
+      "end": 18.233,
+      "length": 2.967,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#101216",
+            "share": 0.616
+          },
+          {
+            "hex": "#B4B5B6",
+            "share": 0.112
+          },
+          {
+            "hex": "#4C382B",
+            "share": 0.027
+          },
+          {
+            "hex": "#5A4435",
+            "share": 0.026
+          },
+          {
+            "hex": "#181A20",
+            "share": 0.021
+          }
+        ],
+        "motion_energy": 6.77,
+        "script": "And if you want a person in your ad, you can create an AI influencer to hold"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 18.233,
+      "end": 20.367,
+      "length": 2.133,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0D10",
+            "share": 0.406
+          },
+          {
+            "hex": "#B7A795",
+            "share": 0.12
+          },
+          {
+            "hex": "#AA9A8A",
+            "share": 0.051
+          },
+          {
+            "hex": "#B7ADA6",
+            "share": 0.034
+          },
+          {
+            "hex": "#6E6A69",
+            "share": 0.034
+          }
+        ],
+        "motion_energy": 11.1,
+        "script": "your product and even present that to the camera."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 20.367,
+      "end": 25.333,
+      "length": 4.967,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#C8F610",
+            "share": 0.308
+          },
+          {
+            "hex": "#0C0F15",
+            "share": 0.231
+          },
+          {
+            "hex": "#BBE613",
+            "share": 0.046
+          },
+          {
+            "hex": "#B1B3CB",
+            "share": 0.045
+          },
+          {
+            "hex": "#ABD315",
+            "share": 0.044
+          }
+        ],
+        "motion_energy": 11.72,
+        "script": "Finally, put all those shots together in a one full product video right inside of something like HiggsField, and you're done."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 25.333,
+      "end": 29.334,
+      "length": 4.001,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0D16",
+            "share": 0.22
+          },
+          {
+            "hex": "#131724",
+            "share": 0.144
+          },
+          {
+            "hex": "#AFB2CA",
+            "share": 0.111
+          },
+          {
+            "hex": "#9097AF",
+            "share": 0.095
+          },
+          {
+            "hex": "#D3ADAE",
+            "share": 0.069
+          }
+        ],
+        "motion_energy": 20.28,
+        "script": "So if you want the exact prompt for this system, just comment video and I'll send it to you directly."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

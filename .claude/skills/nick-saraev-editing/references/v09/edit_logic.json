@@ -1,0 +1,68 @@
+{
+ "triggers": [
+  {"t_word": 0.0, "word": "You", "element": "'Stop' + ventana vacía negra que se rellena con 3 tarjetas de precio", "category": "hook_title", "offset_s": 0.0, "why": "hook"},
+  {"t_word": 0.56, "word": "hundreds", "element": "precios ruedan $0 → $140/$100/$60; 'hundreds' amarillo", "category": "hook_title", "offset_s": 0.19, "why": "dato de dolor"},
+  {"t_word": 2.18, "word": "anymore.", "element": "precios ruedan de vuelta a $0", "category": "hook_title", "offset_s": 0.07, "why": "negación = $0"},
+  {"t_word": 2.68, "word": "Instead,", "element": "corte: desaparecen título y cara; landing APInex entra con escala ~60→100 %; logo tecleado", "category": "window_only", "offset_s": 0.02, "why": "giro hacia la solución"},
+  {"t_word": 3.28, "word": "Apanex,", "element": "marco amarillo con asas sobre 'APInex'; caption 'APInex' script itálica amarilla", "category": "window_only", "offset_s": 0.22, "why": "nombre propio"},
+  {"t_word": 4.44, "word": "free", "element": "marco amarillo sobre '$0'; 'free' amarillo", "category": "window_only", "offset_s": 0.06, "why": "literal (gratis = $0)"},
+  {"t_word": 5.78, "word": "15", "element": "chip '15+ top AI models for free' baja desde arriba; '15' amarillo", "category": "window_zoom", "offset_s": 0.22, "why": "dato"},
+  {"t_word": 6.26, "word": "top", "element": "marco amarillo sobre la fila de chips de modelos", "category": "window_zoom", "offset_s": 0.0, "why": "literal"},
+  {"t_word": 7.26, "word": "with", "element": "corte: vuelve la cara; tarjeta contador vacía '0, ,'", "category": "frame_split", "offset_s": 0.0, "why": "nuevo dato"},
+  {"t_word": 7.56, "word": "3", "element": "contador rueda hasta 3,000,000; '3 million' amarillo", "category": "frame_split", "offset_s": 0.1, "why": "dato animado"},
+  {"t_word": 9.24, "word": "every", "element": "chip 'refills daily'", "category": "frame_split", "offset_s": 0.0, "why": "literal"},
+  {"t_word": 9.94, "word": "This", "element": "corte: ventana 'Models & Pricing' crece desde pequeño, sin cara", "category": "window_only", "offset_s": -0.19, "why": "lista"},
+  {"t_word": 11.36, "word": "GPT", "element": "scroll y marco amarillo sobre 'Gpt 6 Luna'; nombre en script amarilla", "category": "window_only", "offset_s": 0.39, "why": "literal"},
+  {"t_word": 12.6, "word": "DeepSeq", "element": "lista 'Free models' se reconstruye: fila DeepSeek V4 con marco", "category": "window_zoom", "offset_s": 0.0, "why": "enumeración"},
+  {"t_word": 13.78, "word": "GLM", "element": "fila GLM 5.3 con marco", "category": "window_zoom", "offset_s": -0.03, "why": "enumeración"},
+  {"t_word": 15.16, "word": "Kimmy", "element": "fila Kimi K3 con marco", "category": "window_zoom", "offset_s": 0.04, "why": "enumeración"},
+  {"t_word": 16.36, "word": "way", "element": "fila de chips de más modelos", "category": "window_zoom", "offset_s": -0.1, "why": "'muchos más'"},
+  {"t_word": 16.94, "word": "Just", "element": "corte: cara + ventana 'Continue with Google' que crece", "category": "frame_split", "offset_s": -0.09, "why": "paso 1"},
+  {"t_word": 17.64, "word": "grab", "element": "página API Keys; cursor pulsa Copy → Copied (18.4)", "category": "frame_split", "offset_s": 0.11, "why": "literal"},
+  {"t_word": 18.76, "word": "and", "element": "corte: sin cara, 'IDE & Agent Integrations'", "category": "window_only", "offset_s": -0.06, "why": "paso 3"},
+  {"t_word": 19.7, "word": "Cloud", "element": "marco amarillo sobre 'Claude Code CLI'", "category": "window_only", "offset_s": 0.05, "why": "literal"},
+  {"t_word": 20.4, "word": "Codex,", "element": "scroll + marco amarillo sobre 'Codex CLI'", "category": "window_only", "offset_s": 0.1, "why": "literal"},
+  {"t_word": 22.26, "word": "Perfect", "element": "corte: cara + ventana oscura vacía", "category": "frame_split", "offset_s": -0.06, "why": "casos de uso"},
+  {"t_word": 22.64, "word": "AI", "element": "fila 'AI agents' (borde morado)", "category": "frame_split", "offset_s": 0.11, "why": "enumeración"},
+  {"t_word": 23.42, "word": "side", "element": "fila 'Side projects' (borde rosa)", "category": "frame_split", "offset_s": 0.08, "why": "enumeración"},
+  {"t_word": 24.46, "word": "testing", "element": "fila 'Testing stuff' (borde azul)", "category": "frame_split", "offset_s": -0.21, "why": "enumeración"},
+  {"t_word": 25.52, "word": "spend", "element": "tarjeta 'Spent so far $0' sube desde abajo; 'money' amarillo (25.9)", "category": "frame_split", "offset_s": 0.0, "why": "remate de beneficio"},
+  {"t_word": 26.22, "word": "So", "element": "corte a cara completa", "category": "face_full", "offset_s": -0.12, "why": "CTA"},
+  {"t_word": 27.42, "word": "comment", "element": "'comment' script blanca", "category": "title_cta", "offset_s": 0.08, "why": "CTA"},
+  {"t_word": 27.64, "word": "API", "element": "caja verde con asas vacía (27.75) → '\"API\"' (28.0)", "category": "title_cta", "offset_s": 0.36, "why": "palabra a comentar"}
+ ],
+ "transitions": [
+  {"t": 2.65, "from": "hook_title con cara", "to": "window_only", "type": "corte seco", "frames": 0, "detail": "la nueva ventana entra con escala ~60→100 % en ~0.3 s"},
+  {"t": 7.25, "from": "window_only", "to": "frame_split", "type": "corte seco", "frames": 0, "detail": "tarjeta contador con dígitos vacíos"},
+  {"t": 9.75, "from": "frame_split", "to": "window_only Models", "type": "corte seco", "frames": 0, "detail": "escala de entrada ~0.3 s"},
+  {"t": 12.55, "from": "lista Models & Pricing", "to": "lista Free models", "type": "crossfade", "frames": 3, "detail": "la ventana cambia de alto y la lista se reconstruye"},
+  {"t": 16.85, "from": "window_only", "to": "frame_split sign-in", "type": "corte seco", "frames": 0, "detail": "ventana crece desde pequeño ~0.25 s"},
+  {"t": 18.7, "from": "frame_split", "to": "window_only integraciones", "type": "corte seco", "frames": 0, "detail": ""},
+  {"t": 22.2, "from": "window_only", "to": "frame_split casos de uso", "type": "corte seco", "frames": 0, "detail": "ventana vacía primero"},
+  {"t": 26.1, "from": "frame_split", "to": "face_full", "type": "corte seco", "frames": 0, "detail": ""}
+ ],
+ "text_fx": [
+  {"t": 0.0, "fx": "write-on por palabra", "detail": "título: 'Stop' solo y luego el resto; caja amarilla con asas"},
+  {"t": 0.25, "fx": "gris→blanco", "detail": "captions palabra a palabra"},
+  {"t": 0.75, "fx": "tracking", "detail": "precios con dígitos rodantes $0→$140 y vuelta a $0 (2.25)"},
+  {"t": 2.95, "fx": "write-on por palabra", "detail": "logo 'APInex' letra a letra en la cabecera"},
+  {"t": 7.5, "fx": "tracking", "detail": "contador 0 → 3,000,000 con separadores visibles desde el inicio"},
+  {"t": 12.6, "fx": "pop", "detail": "nombres de modelo en script itálica blanca grande, uno por bloque"},
+  {"t": 27.75, "fx": "escala", "detail": "caja verde con asas vacía → texto 'API'"}
+ ],
+ "camera": [
+  {"t": 2.7, "move": "zoom-out", "scale_or_dir": "ventana 0.6→1.0 (entrada)", "dur_s": 0.3},
+  {"t": 10.5, "move": "pan", "scale_or_dir": "scroll vertical de la lista", "dur_s": 1.0},
+  {"t": 19.6, "move": "pan", "scale_or_dir": "scroll vertical de docs", "dur_s": 1.5}
+ ],
+ "rhythm": {"events_per_10s": [11, 9, 11], "avg_hold_text_s": 0.5, "notes": "derivado de triggers (3 tramos de 10 s). Cara en recuadro alterna con ventana sola en cada paso; cara completa solo en el CTA (3.6 s). Sin música ni SFX detectables (derivado)."},
+ "typography": "Sans semibold blanca para captions; sans bold blanca + negra en caja amarilla para el título; cifras en amarillo; nombres propios en script itálica manuscrita (amarilla o blanca); CTA 'comment' en script + palabra en caja verde. 1–3 palabras por bloque.",
+ "textures": "Lienzo verde con cuadrícula clara, trazos técnicos y luz radial/viñeta; sin grano. UI oscura dentro de las ventanas con degradados verdes.",
+ "distinct": [
+  "Lienzo verde con caja amarilla (paleta verde/amarillo de 'dinero')",
+  "Precios que suben y caen a $0 en el hook",
+  "Nombres de modelos en script itálica manuscrita, uno por bloque",
+  "Marcos de selección amarillos con asas cuadradas sobre cada elemento nombrado",
+  "Ventanas que entran creciendo desde ~60 % (escala) en vez de fade"
+ ]
+}

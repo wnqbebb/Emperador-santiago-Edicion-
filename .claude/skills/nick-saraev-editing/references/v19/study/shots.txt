@@ -1,0 +1,10 @@
+000    0.00-   1.80 (1.8s) | Google just open sourced a free plugin that
+001    1.80-   4.90 (3.1s) | stops your AI from writing buggy, sloppy code, and thousands
+002    4.90-   8.80 (3.9s) | of people at Google and Google's own engineers already use it every day.
+003    8.80-  12.23 (3.4s) | It's called the Elephant Goldfish Model, and it works in a two -agent setup.
+004   12.23-  17.37 (5.1s) | You just give it a task and an elephant agent who knows everything about your project and it'll write a full plan for it.
+005   17.37-  25.13 (7.8s) | Then a bunch of goldfish agents with zero context of that chat stress test your plan, tear it apart and find every gap and blind spot that it missed.
+006   25.13-  32.13 (7.0s) | And that's the whole point, because it's almost impossible to spot your own mistakes, but a fresh pair of eyes like the goldfish will catch it right away. Only then,
+007   32.13-  34.70 (2.6s) | once you approve the final plan, does Claude actually start building,
+008   34.70-  37.47 (2.8s) | and it'll save you hours of wasted time and tokens every day.
+009   37.47-  42.60 (5.1s) | So if you want to step by step guide on how to get up and running with this, just comment Google down below and I'll DM you the link directly.

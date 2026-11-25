@@ -1,0 +1,1726 @@
+{
+  "video": "v19.mp4",
+  "duration": 55.91,
+  "derived": {
+    "shots": 17,
+    "avg_shot_len": 3.29,
+    "cuts_per_min": 18.2,
+    "hook_shots_first_3s": 3,
+    "high_motion_shots": [
+      0,
+      4,
+      6,
+      7,
+      8,
+      10,
+      11,
+      14
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "What",
+      "start": 0.0,
+      "end": 0.24
+    },
+    {
+      "w": "separates",
+      "start": 0.24,
+      "end": 0.58
+    },
+    {
+      "w": "a",
+      "start": 0.58,
+      "end": 0.82
+    },
+    {
+      "w": "good",
+      "start": 0.82,
+      "end": 0.94
+    },
+    {
+      "w": "salesperson",
+      "start": 0.94,
+      "end": 1.5
+    },
+    {
+      "w": "from",
+      "start": 1.5,
+      "end": 1.7
+    },
+    {
+      "w": "the",
+      "start": 1.7,
+      "end": 1.86
+    },
+    {
+      "w": "bad",
+      "start": 1.86,
+      "end": 1.98
+    },
+    {
+      "w": "one?",
+      "start": 1.98,
+      "end": 2.2
+    },
+    {
+      "w": "Well,",
+      "start": 2.32,
+      "end": 2.48
+    },
+    {
+      "w": "I'll",
+      "start": 2.52,
+      "end": 2.6
+    },
+    {
+      "w": "tell",
+      "start": 2.6,
+      "end": 2.7
+    },
+    {
+      "w": "you",
+      "start": 2.7,
+      "end": 2.78
+    },
+    {
+      "w": "one",
+      "start": 2.78,
+      "end": 3.02
+    },
+    {
+      "w": "thing.",
+      "start": 3.02,
+      "end": 3.28
+    },
+    {
+      "w": "A",
+      "start": 3.56,
+      "end": 3.66
+    },
+    {
+      "w": "bad",
+      "start": 3.66,
+      "end": 3.94
+    },
+    {
+      "w": "salesperson",
+      "start": 3.94,
+      "end": 4.8
+    },
+    {
+      "w": "sells",
+      "start": 4.8,
+      "end": 5.26
+    },
+    {
+      "w": "the",
+      "start": 5.26,
+      "end": 5.5
+    },
+    {
+      "w": "features",
+      "start": 5.5,
+      "end": 5.84
+    },
+    {
+      "w": "while",
+      "start": 5.84,
+      "end": 6.5
+    },
+    {
+      "w": "a",
+      "start": 6.5,
+      "end": 6.88
+    },
+    {
+      "w": "great",
+      "start": 6.88,
+      "end": 7.14
+    },
+    {
+      "w": "salesperson",
+      "start": 7.14,
+      "end": 7.92
+    },
+    {
+      "w": "sells",
+      "start": 7.92,
+      "end": 8.32
+    },
+    {
+      "w": "the",
+      "start": 8.32,
+      "end": 8.52
+    },
+    {
+      "w": "benefits.",
+      "start": 8.52,
+      "end": 8.84
+    },
+    {
+      "w": "Give",
+      "start": 9.14,
+      "end": 9.26
+    },
+    {
+      "w": "you",
+      "start": 9.26,
+      "end": 9.32
+    },
+    {
+      "w": "an",
+      "start": 9.32,
+      "end": 9.4
+    },
+    {
+      "w": "example,",
+      "start": 9.4,
+      "end": 9.74
+    },
+    {
+      "w": "right?",
+      "start": 9.92,
+      "end": 10.06
+    },
+    {
+      "w": "Imagine",
+      "start": 10.66,
+      "end": 10.66
+    },
+    {
+      "w": "a",
+      "start": 10.66,
+      "end": 10.84
+    },
+    {
+      "w": "gym",
+      "start": 10.84,
+      "end": 11.04
+    },
+    {
+      "w": "membership.",
+      "start": 11.04,
+      "end": 11.36
+    },
+    {
+      "w": "Want",
+      "start": 11.68,
+      "end": 11.76
+    },
+    {
+      "w": "to",
+      "start": 11.76,
+      "end": 11.84
+    },
+    {
+      "w": "get",
+      "start": 11.84,
+      "end": 11.92
+    },
+    {
+      "w": "someone",
+      "start": 11.92,
+      "end": 12.1
+    },
+    {
+      "w": "to",
+      "start": 12.1,
+      "end": 12.24
+    },
+    {
+      "w": "join",
+      "start": 12.24,
+      "end": 12.42
+    },
+    {
+      "w": "a",
+      "start": 12.42,
+      "end": 12.54
+    },
+    {
+      "w": "gym?",
+      "start": 12.54,
+      "end": 12.76
+    },
+    {
+      "w": "What",
+      "start": 13.02,
+      "end": 13.1
+    },
+    {
+      "w": "do",
+      "start": 13.1,
+      "end": 13.16
+    },
+    {
+      "w": "you",
+      "start": 13.16,
+      "end": 13.24
+    },
+    {
+      "w": "do?",
+      "start": 13.24,
+      "end": 13.46
+    },
+    {
+      "w": "Oh,",
+      "start": 13.76,
+      "end": 13.92
+    },
+    {
+      "w": "this",
+      "start": 14.02,
+      "end": 14.2
+    },
+    {
+      "w": "gym",
+      "start": 14.2,
+      "end": 14.4
+    },
+    {
+      "w": "has",
+      "start": 14.4,
+      "end": 14.52
+    },
+    {
+      "w": "got",
+      "start": 14.52,
+      "end": 14.74
+    },
+    {
+      "w": "150",
+      "start": 14.74,
+      "end": 15.36
+    },
+    {
+      "w": "different",
+      "start": 15.36,
+      "end": 15.88
+    },
+    {
+      "w": "machines.",
+      "start": 15.88,
+      "end": 16.54
+    },
+    {
+      "w": "They",
+      "start": 16.96,
+      "end": 17.06
+    },
+    {
+      "w": "have",
+      "start": 17.06,
+      "end": 17.18
+    },
+    {
+      "w": "all",
+      "start": 17.18,
+      "end": 17.4
+    },
+    {
+      "w": "the",
+      "start": 17.4,
+      "end": 17.5
+    },
+    {
+      "w": "latest",
+      "start": 17.5,
+      "end": 17.72
+    },
+    {
+      "w": "bells",
+      "start": 17.72,
+      "end": 18.2
+    },
+    {
+      "w": "and",
+      "start": 18.2,
+      "end": 18.52
+    },
+    {
+      "w": "whistles.",
+      "start": 18.52,
+      "end": 18.84
+    },
+    {
+      "w": "They",
+      "start": 19.06,
+      "end": 19.1
+    },
+    {
+      "w": "got",
+      "start": 19.1,
+      "end": 19.26
+    },
+    {
+      "w": "a",
+      "start": 19.26,
+      "end": 19.36
+    },
+    {
+      "w": "sauna.",
+      "start": 19.36,
+      "end": 19.64
+    },
+    {
+      "w": "They",
+      "start": 20.14,
+      "end": 20.24
+    },
+    {
+      "w": "have",
+      "start": 20.24,
+      "end": 20.38
+    },
+    {
+      "w": "this.",
+      "start": 20.38,
+      "end": 20.56
+    },
+    {
+      "w": "They're",
+      "start": 20.72,
+      "end": 20.84
+    },
+    {
+      "w": "open",
+      "start": 20.84,
+      "end": 21.08
+    },
+    {
+      "w": "this",
+      "start": 21.08,
+      "end": 21.36
+    },
+    {
+      "w": "time",
+      "start": 21.36,
+      "end": 21.64
+    },
+    {
+      "w": "of",
+      "start": 21.64,
+      "end": 21.82
+    },
+    {
+      "w": "night,",
+      "start": 21.82,
+      "end": 22.1
+    },
+    {
+      "w": "24",
+      "start": 22.4,
+      "end": 22.68
+    },
+    {
+      "w": "hours",
+      "start": 22.68,
+      "end": 22.96
+    },
+    {
+      "w": "a",
+      "start": 22.96,
+      "end": 23.1
+    },
+    {
+      "w": "night.",
+      "start": 23.1,
+      "end": 23.26
+    },
+    {
+      "w": "Feature,",
+      "start": 23.42,
+      "end": 23.76
+    },
+    {
+      "w": "feature.",
+      "start": 23.94,
+      "end": 24.04
+    },
+    {
+      "w": "Someone's",
+      "start": 24.68,
+      "end": 25.08
+    },
+    {
+      "w": "going",
+      "start": 25.08,
+      "end": 25.24
+    },
+    {
+      "w": "to",
+      "start": 25.24,
+      "end": 25.36
+    },
+    {
+      "w": "sleep,",
+      "start": 25.36,
+      "end": 25.6
+    },
+    {
+      "w": "right?",
+      "start": 25.7,
+      "end": 25.88
+    },
+    {
+      "w": "Expert",
+      "start": 26.14,
+      "end": 26.42
+    },
+    {
+      "w": "says,",
+      "start": 26.42,
+      "end": 26.68
+    },
+    {
+      "w": "imagine",
+      "start": 26.7,
+      "end": 27.02
+    },
+    {
+      "w": "how",
+      "start": 27.02,
+      "end": 27.4
+    },
+    {
+      "w": "great",
+      "start": 27.4,
+      "end": 27.74
+    },
+    {
+      "w": "you're",
+      "start": 27.74,
+      "end": 28.0
+    },
+    {
+      "w": "feeling",
+      "start": 28.0,
+      "end": 28.32
+    },
+    {
+      "w": "six",
+      "start": 28.32,
+      "end": 28.7
+    },
+    {
+      "w": "months",
+      "start": 28.7,
+      "end": 29.04
+    },
+    {
+      "w": "from",
+      "start": 29.04,
+      "end": 29.28
+    },
+    {
+      "w": "now.",
+      "start": 29.28,
+      "end": 29.58
+    },
+    {
+      "w": "Full",
+      "start": 29.58,
+      "end": 29.9
+    },
+    {
+      "w": "of",
+      "start": 29.9,
+      "end": 30.08
+    },
+    {
+      "w": "energy,",
+      "start": 30.08,
+      "end": 30.42
+    },
+    {
+      "w": "looking",
+      "start": 30.64,
+      "end": 30.94
+    },
+    {
+      "w": "great,",
+      "start": 30.94,
+      "end": 31.34
+    },
+    {
+      "w": "feeling",
+      "start": 31.58,
+      "end": 31.94
+    },
+    {
+      "w": "great.",
+      "start": 31.94,
+      "end": 32.28
+    },
+    {
+      "w": "That's",
+      "start": 32.56,
+      "end": 32.8
+    },
+    {
+      "w": "how",
+      "start": 32.8,
+      "end": 32.92
+    },
+    {
+      "w": "you",
+      "start": 32.92,
+      "end": 33.04
+    },
+    {
+      "w": "close",
+      "start": 33.04,
+      "end": 33.34
+    },
+    {
+      "w": "someone.",
+      "start": 33.34,
+      "end": 33.7
+    },
+    {
+      "w": "I",
+      "start": 33.98,
+      "end": 34.04
+    },
+    {
+      "w": "focus",
+      "start": 34.04,
+      "end": 34.34
+    },
+    {
+      "w": "on",
+      "start": 34.34,
+      "end": 34.58
+    },
+    {
+      "w": "the",
+      "start": 34.58,
+      "end": 34.74
+    },
+    {
+      "w": "benefits,",
+      "start": 34.74,
+      "end": 35.18
+    },
+    {
+      "w": "what",
+      "start": 35.24,
+      "end": 35.38
+    },
+    {
+      "w": "matters",
+      "start": 35.38,
+      "end": 35.76
+    },
+    {
+      "w": "to",
+      "start": 35.76,
+      "end": 36.0
+    },
+    {
+      "w": "them.",
+      "start": 36.0,
+      "end": 36.26
+    },
+    {
+      "w": "OK,",
+      "start": 36.46,
+      "end": 36.68
+    },
+    {
+      "w": "so",
+      "start": 36.78,
+      "end": 36.86
+    },
+    {
+      "w": "it's",
+      "start": 36.86,
+      "end": 37.0
+    },
+    {
+      "w": "emotional.",
+      "start": 37.0,
+      "end": 37.28
+    },
+    {
+      "w": "Yeah,",
+      "start": 37.6,
+      "end": 37.76
+    },
+    {
+      "w": "well,",
+      "start": 37.8,
+      "end": 37.92
+    },
+    {
+      "w": "it's",
+      "start": 37.96,
+      "end": 38.02
+    },
+    {
+      "w": "emotional,",
+      "start": 38.02,
+      "end": 38.36
+    },
+    {
+      "w": "but",
+      "start": 38.48,
+      "end": 38.54
+    },
+    {
+      "w": "it's",
+      "start": 38.54,
+      "end": 38.7
+    },
+    {
+      "w": "also",
+      "start": 38.7,
+      "end": 38.96
+    },
+    {
+      "w": "logical.",
+      "start": 38.96,
+      "end": 39.52
+    },
+    {
+      "w": "In",
+      "start": 39.64,
+      "end": 39.72
+    },
+    {
+      "w": "other",
+      "start": 39.72,
+      "end": 39.8
+    },
+    {
+      "w": "words,",
+      "start": 39.8,
+      "end": 40.06
+    },
+    {
+      "w": "people",
+      "start": 40.28,
+      "end": 40.72
+    },
+    {
+      "w": "don't",
+      "start": 40.72,
+      "end": 41.3
+    },
+    {
+      "w": "buy",
+      "start": 41.3,
+      "end": 41.54
+    },
+    {
+      "w": "on",
+      "start": 41.54,
+      "end": 41.74
+    },
+    {
+      "w": "logic.",
+      "start": 41.74,
+      "end": 42.14
+    },
+    {
+      "w": "They",
+      "start": 42.28,
+      "end": 42.38
+    },
+    {
+      "w": "buy",
+      "start": 42.38,
+      "end": 42.68
+    },
+    {
+      "w": "on",
+      "start": 42.68,
+      "end": 43.0
+    },
+    {
+      "w": "emotion",
+      "start": 43.0,
+      "end": 43.46
+    },
+    {
+      "w": "and",
+      "start": 43.46,
+      "end": 43.82
+    },
+    {
+      "w": "justify",
+      "start": 43.82,
+      "end": 44.38
+    },
+    {
+      "w": "the",
+      "start": 44.38,
+      "end": 44.64
+    },
+    {
+      "w": "decisions",
+      "start": 44.64,
+      "end": 44.9
+    },
+    {
+      "w": "from",
+      "start": 44.9,
+      "end": 45.16
+    },
+    {
+      "w": "logic.",
+      "start": 45.16,
+      "end": 45.42
+    },
+    {
+      "w": "But",
+      "start": 45.54,
+      "end": 45.58
+    },
+    {
+      "w": "if",
+      "start": 45.58,
+      "end": 45.68
+    },
+    {
+      "w": "you",
+      "start": 45.68,
+      "end": 45.76
+    },
+    {
+      "w": "get",
+      "start": 45.76,
+      "end": 45.9
+    },
+    {
+      "w": "caught",
+      "start": 45.9,
+      "end": 46.2
+    },
+    {
+      "w": "up",
+      "start": 46.2,
+      "end": 46.6
+    },
+    {
+      "w": "in",
+      "start": 46.6,
+      "end": 46.92
+    },
+    {
+      "w": "just",
+      "start": 46.92,
+      "end": 47.1
+    },
+    {
+      "w": "giving",
+      "start": 47.1,
+      "end": 47.34
+    },
+    {
+      "w": "feature",
+      "start": 47.34,
+      "end": 47.78
+    },
+    {
+      "w": "app",
+      "start": 47.78,
+      "end": 48.06
+    },
+    {
+      "w": "to",
+      "start": 48.06,
+      "end": 48.24
+    },
+    {
+      "w": "feature",
+      "start": 48.24,
+      "end": 48.44
+    },
+    {
+      "w": "without",
+      "start": 48.44,
+      "end": 48.8
+    },
+    {
+      "w": "putting",
+      "start": 48.8,
+      "end": 49.18
+    },
+    {
+      "w": "on",
+      "start": 49.18,
+      "end": 49.44
+    },
+    {
+      "w": "the",
+      "start": 49.44,
+      "end": 49.58
+    },
+    {
+      "w": "benefit,",
+      "start": 49.58,
+      "end": 49.94
+    },
+    {
+      "w": "you",
+      "start": 50.22,
+      "end": 50.26
+    },
+    {
+      "w": "got",
+      "start": 50.26,
+      "end": 50.4
+    },
+    {
+      "w": "no",
+      "start": 50.4,
+      "end": 50.6
+    },
+    {
+      "w": "shot",
+      "start": 50.6,
+      "end": 50.84
+    },
+    {
+      "w": "at",
+      "start": 50.84,
+      "end": 51.0
+    },
+    {
+      "w": "all.",
+      "start": 51.0,
+      "end": 51.16
+    },
+    {
+      "w": "OK,",
+      "start": 51.34,
+      "end": 51.54
+    },
+    {
+      "w": "how",
+      "start": 51.64,
+      "end": 51.78
+    },
+    {
+      "w": "can",
+      "start": 51.78,
+      "end": 51.94
+    },
+    {
+      "w": "I",
+      "start": 51.94,
+      "end": 52.02
+    },
+    {
+      "w": "learn",
+      "start": 52.02,
+      "end": 52.1
+    },
+    {
+      "w": "more",
+      "start": 52.1,
+      "end": 52.3
+    },
+    {
+      "w": "from",
+      "start": 52.3,
+      "end": 52.46
+    },
+    {
+      "w": "you?",
+      "start": 52.46,
+      "end": 52.6
+    },
+    {
+      "w": "Very",
+      "start": 52.7,
+      "end": 52.86
+    },
+    {
+      "w": "simple.",
+      "start": 52.86,
+      "end": 53.2
+    },
+    {
+      "w": "Just",
+      "start": 53.36,
+      "end": 53.44
+    },
+    {
+      "w": "follow",
+      "start": 53.44,
+      "end": 53.8
+    },
+    {
+      "w": "me",
+      "start": 53.8,
+      "end": 54.02
+    },
+    {
+      "w": "and",
+      "start": 54.02,
+      "end": 54.22
+    },
+    {
+      "w": "I'll",
+      "start": 54.22,
+      "end": 54.4
+    },
+    {
+      "w": "show",
+      "start": 54.4,
+      "end": 54.56
+    },
+    {
+      "w": "you",
+      "start": 54.56,
+      "end": 54.68
+    },
+    {
+      "w": "exactly",
+      "start": 54.68,
+      "end": 55.18
+    },
+    {
+      "w": "how.",
+      "start": 55.18,
+      "end": 55.6
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 0.667,
+      "length": 0.667,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#04120A",
+            "share": 0.246
+          },
+          {
+            "hex": "#0A2A11",
+            "share": 0.169
+          },
+          {
+            "hex": "#D3D5E9",
+            "share": 0.035
+          },
+          {
+            "hex": "#CDC8D1",
+            "share": 0.033
+          },
+          {
+            "hex": "#485256",
+            "share": 0.033
+          }
+        ],
+        "motion_energy": 13.07,
+        "script": "What separates a"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 0.667,
+      "end": 2.367,
+      "length": 1.7,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#02120D",
+            "share": 0.154
+          },
+          {
+            "hex": "#032717",
+            "share": 0.112
+          },
+          {
+            "hex": "#053326",
+            "share": 0.101
+          },
+          {
+            "hex": "#958C8F",
+            "share": 0.048
+          },
+          {
+            "hex": "#CBD7F0",
+            "share": 0.033
+          }
+        ],
+        "motion_energy": 8.59,
+        "script": "good salesperson from the bad one? Well,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 2.367,
+      "end": 9.167,
+      "length": 6.8,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#04130A",
+            "share": 0.237
+          },
+          {
+            "hex": "#0A2A11",
+            "share": 0.165
+          },
+          {
+            "hex": "#475559",
+            "share": 0.047
+          },
+          {
+            "hex": "#384951",
+            "share": 0.043
+          },
+          {
+            "hex": "#58686B",
+            "share": 0.037
+          }
+        ],
+        "motion_energy": 11.3,
+        "script": "I'll tell you one thing. A bad salesperson sells the features while a great salesperson sells the benefits. Give"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 9.167,
+      "end": 10.3,
+      "length": 1.133,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#01130D",
+            "share": 0.142
+          },
+          {
+            "hex": "#032717",
+            "share": 0.113
+          },
+          {
+            "hex": "#053326",
+            "share": 0.105
+          },
+          {
+            "hex": "#958C91",
+            "share": 0.048
+          },
+          {
+            "hex": "#ADCCEF",
+            "share": 0.033
+          }
+        ],
+        "motion_energy": 1.39,
+        "script": "you an example, right?"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 10.3,
+      "end": 25.033,
+      "length": 14.733,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#05130A",
+            "share": 0.212
+          },
+          {
+            "hex": "#0B2911",
+            "share": 0.164
+          },
+          {
+            "hex": "#57676B",
+            "share": 0.041
+          },
+          {
+            "hex": "#374A52",
+            "share": 0.039
+          },
+          {
+            "hex": "#C4B5AE",
+            "share": 0.035
+          }
+        ],
+        "motion_energy": 19.58,
+        "script": "Imagine a gym membership. Want to get someone to join a gym? What do you do? Oh, this gym has got 150 different machines. They have all the latest bells and whistles. They got a sauna. They have this. They're open this time of night, 24 hours a night. Feature, feature. Someone's"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 25.033,
+      "end": 26.1,
+      "length": 1.067,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#01130C",
+            "share": 0.141
+          },
+          {
+            "hex": "#032817",
+            "share": 0.116
+          },
+          {
+            "hex": "#063426",
+            "share": 0.103
+          },
+          {
+            "hex": "#958C91",
+            "share": 0.051
+          },
+          {
+            "hex": "#ADCCEF",
+            "share": 0.035
+          }
+        ],
+        "motion_energy": 1.61,
+        "script": "going to sleep, right?"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 26.1,
+      "end": 26.7,
+      "length": 0.6,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#041309",
+            "share": 0.224
+          },
+          {
+            "hex": "#0B2A11",
+            "share": 0.17
+          },
+          {
+            "hex": "#58686B",
+            "share": 0.043
+          },
+          {
+            "hex": "#374A52",
+            "share": 0.041
+          },
+          {
+            "hex": "#46555A",
+            "share": 0.04
+          }
+        ],
+        "motion_energy": 22.96,
+        "script": "Expert says,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 26.7,
+      "end": 29.733,
+      "length": 3.033,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#131318",
+            "share": 0.2
+          },
+          {
+            "hex": "#2F292E",
+            "share": 0.132
+          },
+          {
+            "hex": "#4D322E",
+            "share": 0.098
+          },
+          {
+            "hex": "#756F70",
+            "share": 0.071
+          },
+          {
+            "hex": "#181A24",
+            "share": 0.055
+          }
+        ],
+        "motion_energy": 21.47,
+        "script": "imagine how great you're feeling six months from now. Full"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 29.733,
+      "end": 30.567,
+      "length": 0.833,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#131017",
+            "share": 0.148
+          },
+          {
+            "hex": "#93918E",
+            "share": 0.127
+          },
+          {
+            "hex": "#2F2732",
+            "share": 0.092
+          },
+          {
+            "hex": "#AFADA9",
+            "share": 0.081
+          },
+          {
+            "hex": "#A8A499",
+            "share": 0.059
+          }
+        ],
+        "motion_energy": 15.52,
+        "script": "of energy,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 30.567,
+      "end": 31.467,
+      "length": 0.9,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#121518",
+            "share": 0.424
+          },
+          {
+            "hex": "#2F2A2C",
+            "share": 0.125
+          },
+          {
+            "hex": "#171B23",
+            "share": 0.07
+          },
+          {
+            "hex": "#1B222C",
+            "share": 0.048
+          },
+          {
+            "hex": "#52494D",
+            "share": 0.04
+          }
+        ],
+        "motion_energy": 11.74,
+        "script": "looking great,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 10,
+      "start": 31.467,
+      "end": 32.433,
+      "length": 0.967,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0A070C",
+            "share": 0.411
+          },
+          {
+            "hex": "#2D1210",
+            "share": 0.175
+          },
+          {
+            "hex": "#D3CACA",
+            "share": 0.031
+          },
+          {
+            "hex": "#AE958E",
+            "share": 0.026
+          },
+          {
+            "hex": "#2C1729",
+            "share": 0.025
+          }
+        ],
+        "motion_energy": 27.19,
+        "script": "feeling great."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 11,
+      "start": 32.433,
+      "end": 33.967,
+      "length": 1.533,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#2F2A2D",
+            "share": 0.246
+          },
+          {
+            "hex": "#121519",
+            "share": 0.163
+          },
+          {
+            "hex": "#4A3432",
+            "share": 0.054
+          },
+          {
+            "hex": "#524B4C",
+            "share": 0.053
+          },
+          {
+            "hex": "#171B23",
+            "share": 0.046
+          }
+        ],
+        "motion_energy": 26.47,
+        "script": "That's how you close someone."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 12,
+      "start": 33.967,
+      "end": 36.467,
+      "length": 2.5,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#041309",
+            "share": 0.233
+          },
+          {
+            "hex": "#0B2A10",
+            "share": 0.165
+          },
+          {
+            "hex": "#57686B",
+            "share": 0.042
+          },
+          {
+            "hex": "#C6B5AF",
+            "share": 0.039
+          },
+          {
+            "hex": "#374A52",
+            "share": 0.039
+          }
+        ],
+        "motion_energy": 6.53,
+        "script": "I focus on the benefits, what matters to them. OK,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 13,
+      "start": 36.467,
+      "end": 37.6,
+      "length": 1.133,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#01130C",
+            "share": 0.142
+          },
+          {
+            "hex": "#032817",
+            "share": 0.12
+          },
+          {
+            "hex": "#063426",
+            "share": 0.099
+          },
+          {
+            "hex": "#958B90",
+            "share": 0.054
+          },
+          {
+            "hex": "#C9D7F1",
+            "share": 0.037
+          }
+        ],
+        "motion_energy": 4.52,
+        "script": "so it's emotional."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 14,
+      "start": 37.6,
+      "end": 51.333,
+      "length": 13.733,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#051309",
+            "share": 0.229
+          },
+          {
+            "hex": "#0B2A10",
+            "share": 0.171
+          },
+          {
+            "hex": "#475559",
+            "share": 0.044
+          },
+          {
+            "hex": "#58676A",
+            "share": 0.039
+          },
+          {
+            "hex": "#384A51",
+            "share": 0.038
+          }
+        ],
+        "motion_energy": 16.98,
+        "script": "Yeah, well, it's emotional, but it's also logical. In other words, people don't buy on logic. They buy on emotion and justify the decisions from logic. But if you get caught up in just giving feature app to feature without putting on the benefit, you got no shot at all."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 15,
+      "start": 51.333,
+      "end": 52.7,
+      "length": 1.367,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#01130C",
+            "share": 0.143
+          },
+          {
+            "hex": "#032817",
+            "share": 0.123
+          },
+          {
+            "hex": "#063426",
+            "share": 0.094
+          },
+          {
+            "hex": "#958B90",
+            "share": 0.052
+          },
+          {
+            "hex": "#C9D6F2",
+            "share": 0.034
+          }
+        ],
+        "motion_energy": 4.74,
+        "script": "OK, how can I learn more from you?"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 16,
+      "start": 52.7,
+      "end": 55.911,
+      "length": 3.211,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#041309",
+            "share": 0.23
+          },
+          {
+            "hex": "#0B2A10",
+            "share": 0.166
+          },
+          {
+            "hex": "#C7B5AE",
+            "share": 0.047
+          },
+          {
+            "hex": "#D3D6EC",
+            "share": 0.04
+          },
+          {
+            "hex": "#58676A",
+            "share": 0.04
+          }
+        ],
+        "motion_energy": 5.95,
+        "script": "Very simple. Just follow me and I'll show you exactly how."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

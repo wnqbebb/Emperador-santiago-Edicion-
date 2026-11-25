@@ -99,6 +99,93 @@
       "texturas": false
     },
     {
+      "id": "nick",
+      "name": "Nick Saraev",
+      "skill": "nick-saraev-editing",
+      "motor": "ves",
+      "preguntaFuentes": true,
+      "texturas": false,
+      "paletaEstilo": {
+        "vibrant_bright": "#0282FB",
+        "vibrant_dark": "#5276D5",
+        "dull_white": "#DFEAF0",
+        "dull_black": "#0C0C0C",
+        "highlight": "#0282FB"
+      },
+      "description": "La herramienta es la protagonista: lienzo de diseño con una ventana enmarcada (asas tipo Figma) que muestra lo que nombras, tú en un recuadro redondeado abajo, subtítulo que se enciende palabra a palabra y cierre «comment PALABRA». 347 escenas de referencia.",
+      "preview": ".claude/skills/nick-saraev-editing/examples/nick-prueba/PREVIEW.jpg",
+      "variantes": [
+        {
+          "id": "nick-tutorial",
+          "name": "Tutorial de herramienta",
+          "vesStyle": "nick-saraev",
+          "recomendada": true,
+          "ideal": "Apps, IA, software, «haz esto en 30 s»",
+          "description": "La herramienta en la ventana, cambiando cada segundo con lo que dices.",
+          "preview": ".claude/skills/nick-saraev-editing/library/window_only/v01_s08.jpg",
+          "enfoque": "Formato TUTORIAL: la herramienta en uso dentro de la ventana, paso a paso en la palabra; cierre comment PALABRA."
+        },
+        {
+          "id": "nick-noticia",
+          "name": "Noticia de IA / tech",
+          "vesStyle": "nick-saraev",
+          "ideal": "«Acaba de salir…», lanzamientos",
+          "description": "Titular y capturas reales en la ventana, cifras y chats; tu cara en el remate.",
+          "preview": ".claude/skills/nick-saraev-editing/library/frame_split/v06_s10.jpg",
+          "enfoque": "Formato NOTICIA: gancho con title1/title2 y la captura más fuerte; cada cifra y nombre con su captura."
+        },
+        {
+          "id": "nick-lista",
+          "name": "Lista de herramientas",
+          "vesStyle": "nick-saraev",
+          "ideal": "Top 3/5, recursos, comparativas",
+          "description": "Una ventana por elemento con su número y tarjetas; alterna lienzo claro y oscuro.",
+          "preview": ".claude/skills/nick-saraev-editing/library/card_graphic/v01_s09.jpg",
+          "enfoque": "Formato LISTA: un elemento por ventana con su número (slots/list/number), alternando lienzo claro y oscuro."
+        }
+      ],
+      "paletaPorDefecto": "estilo"
+    },
+    {
+      "id": "lobo",
+      "name": "Lobo de Wall Street",
+      "skill": "lobo-de-wall-street-editing",
+      "motor": "ves",
+      "texturas": false,
+      "originales": false,
+      "paletaEstilo": {
+        "vibrant_bright": "#F2D10F",
+        "vibrant_dark": "#8B5CF6",
+        "dull_white": "#FFFFFF",
+        "dull_black": "#050505",
+        "highlight": "#F2D10F"
+      },
+      "description": "Hablas directo y cada promesa se vuelve visible: subtítulo blanco bold sobre el pecho, frase clave AMARILLA que se escribe letra a letra, cifras u objetos 3D sobre tu cabeza, lista numerada, fotos insertadas, clips de película y cierre «Follow → Following». 392 escenas de referencia.",
+      "preview": ".claude/skills/lobo-de-wall-street-editing/examples/lobo-prueba/PREVIEW.jpg",
+      "variantes": [
+        {
+          "id": "lobo-estudio",
+          "name": "Look B · estudio",
+          "vesStyle": "lobo-de-wall-street",
+          "recomendada": true,
+          "ideal": "Reglas, listas, objeciones de venta",
+          "description": "Subtítulo de dos niveles con amarillo, objetos 3D sobre la cabeza, lista numerada y gráfico sobre negro.",
+          "preview": ".claude/skills/lobo-de-wall-street-editing/library/icon_overlay/v05_s04.jpg",
+          "enfoque": "LOOK B · ESTUDIO: subtítulo de dos niveles con amarillo en el remate, l_icon sobre la cabeza, l_list numerada, l_full sobre negro."
+        },
+        {
+          "id": "lobo-casual",
+          "name": "Look A · casual",
+          "vesStyle": "lobo-de-wall-street",
+          "ideal": "Respuestas, historias (celular, coche, sofá)",
+          "description": "Subtítulo blanco solo, tarjeta de comentario, fotos insertadas y clip de película, sin amarillo.",
+          "preview": ".claude/skills/lobo-de-wall-street-editing/library/insert_image/v01_s03.jpg",
+          "enfoque": "LOOK A · CASUAL: sin amarillo (special_words vacío), l_comment de gancho, l_insert con fotos, l_movie con él abajo a la izquierda."
+        }
+      ],
+      "paletaPorDefecto": "estilo"
+    },
+    {
       "id": "skylight",
       "name": "Skylight",
       "skill": "skylight",

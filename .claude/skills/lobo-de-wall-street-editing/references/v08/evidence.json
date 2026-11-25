@@ -1,0 +1,1405 @@
+{
+  "video": "v08.mp4",
+  "duration": 66.99,
+  "derived": {
+    "shots": 6,
+    "avg_shot_len": 11.16,
+    "cuts_per_min": 5.4,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "Is",
+      "start": 0.0,
+      "end": 0.14
+    },
+    {
+      "w": "it",
+      "start": 0.14,
+      "end": 0.3
+    },
+    {
+      "w": "true",
+      "start": 0.3,
+      "end": 0.8
+    },
+    {
+      "w": "that",
+      "start": 0.8,
+      "end": 1.08
+    },
+    {
+      "w": "you",
+      "start": 1.08,
+      "end": 1.26
+    },
+    {
+      "w": "spend",
+      "start": 1.26,
+      "end": 1.6
+    },
+    {
+      "w": "$25",
+      "start": 1.6,
+      "end": 2.36
+    },
+    {
+      "w": ",000",
+      "start": 2.36,
+      "end": 2.9
+    },
+    {
+      "w": "on",
+      "start": 2.9,
+      "end": 3.38
+    },
+    {
+      "w": "one",
+      "start": 3.38,
+      "end": 3.6
+    },
+    {
+      "w": "dinner?",
+      "start": 3.6,
+      "end": 3.88
+    },
+    {
+      "w": "Yeah,",
+      "start": 4.32,
+      "end": 4.76
+    },
+    {
+      "w": "well,",
+      "start": 4.88,
+      "end": 5.18
+    },
+    {
+      "w": "it's",
+      "start": 5.26,
+      "end": 5.5
+    },
+    {
+      "w": "actually",
+      "start": 5.5,
+      "end": 6.02
+    },
+    {
+      "w": "about",
+      "start": 6.02,
+      "end": 6.84
+    },
+    {
+      "w": "$26",
+      "start": 6.84,
+      "end": 7.98
+    },
+    {
+      "w": ",200.",
+      "start": 7.98,
+      "end": 8.48
+    },
+    {
+      "w": "It",
+      "start": 9.74,
+      "end": 9.84
+    },
+    {
+      "w": "was",
+      "start": 9.84,
+      "end": 9.96
+    },
+    {
+      "w": "absolutely",
+      "start": 9.96,
+      "end": 10.64
+    },
+    {
+      "w": "true,",
+      "start": 10.64,
+      "end": 11.04
+    },
+    {
+      "w": "and",
+      "start": 11.12,
+      "end": 11.3
+    },
+    {
+      "w": "you",
+      "start": 11.3,
+      "end": 11.42
+    },
+    {
+      "w": "know,",
+      "start": 11.42,
+      "end": 11.6
+    },
+    {
+      "w": "here's",
+      "start": 11.74,
+      "end": 11.94
+    },
+    {
+      "w": "the",
+      "start": 11.94,
+      "end": 12.02
+    },
+    {
+      "w": "deal.",
+      "start": 12.02,
+      "end": 12.26
+    },
+    {
+      "w": "I",
+      "start": 12.4,
+      "end": 12.42
+    },
+    {
+      "w": "remember",
+      "start": 12.42,
+      "end": 12.64
+    },
+    {
+      "w": "the",
+      "start": 12.64,
+      "end": 12.78
+    },
+    {
+      "w": "day",
+      "start": 12.78,
+      "end": 12.92
+    },
+    {
+      "w": "like",
+      "start": 12.92,
+      "end": 13.02
+    },
+    {
+      "w": "it",
+      "start": 13.02,
+      "end": 13.08
+    },
+    {
+      "w": "was",
+      "start": 13.08,
+      "end": 13.18
+    },
+    {
+      "w": "yesterday,",
+      "start": 13.18,
+      "end": 13.54
+    },
+    {
+      "w": "drove",
+      "start": 13.78,
+      "end": 13.94
+    },
+    {
+      "w": "my",
+      "start": 13.94,
+      "end": 14.3
+    },
+    {
+      "w": "father",
+      "start": 14.3,
+      "end": 14.74
+    },
+    {
+      "w": "Mad",
+      "start": 14.74,
+      "end": 15.22
+    },
+    {
+      "w": "Max,",
+      "start": 15.22,
+      "end": 15.6
+    },
+    {
+      "w": "made",
+      "start": 15.7,
+      "end": 15.86
+    },
+    {
+      "w": "me",
+      "start": 15.86,
+      "end": 15.98
+    },
+    {
+      "w": "rest",
+      "start": 15.98,
+      "end": 16.22
+    },
+    {
+      "w": "in",
+      "start": 16.22,
+      "end": 16.36
+    },
+    {
+      "w": "peace.",
+      "start": 16.36,
+      "end": 16.58
+    },
+    {
+      "w": "Absolutely",
+      "start": 17.6,
+      "end": 18.04
+    },
+    {
+      "w": "bananas.",
+      "start": 18.04,
+      "end": 18.48
+    },
+    {
+      "w": "You",
+      "start": 18.8,
+      "end": 18.86
+    },
+    {
+      "w": "didn't",
+      "start": 18.86,
+      "end": 19.0
+    },
+    {
+      "w": "understand",
+      "start": 19.0,
+      "end": 19.22
+    },
+    {
+      "w": "how",
+      "start": 19.22,
+      "end": 19.5
+    },
+    {
+      "w": "you",
+      "start": 19.5,
+      "end": 19.68
+    },
+    {
+      "w": "could",
+      "start": 19.68,
+      "end": 19.82
+    },
+    {
+      "w": "spend",
+      "start": 19.82,
+      "end": 20.2
+    },
+    {
+      "w": "that",
+      "start": 20.2,
+      "end": 20.62
+    },
+    {
+      "w": "much",
+      "start": 20.62,
+      "end": 20.86
+    },
+    {
+      "w": "money",
+      "start": 20.86,
+      "end": 21.12
+    },
+    {
+      "w": "on",
+      "start": 21.12,
+      "end": 21.32
+    },
+    {
+      "w": "one",
+      "start": 21.32,
+      "end": 21.52
+    },
+    {
+      "w": "dinner,",
+      "start": 21.52,
+      "end": 21.84
+    },
+    {
+      "w": "and",
+      "start": 21.92,
+      "end": 22.04
+    },
+    {
+      "w": "of",
+      "start": 22.04,
+      "end": 22.14
+    },
+    {
+      "w": "course",
+      "start": 22.14,
+      "end": 22.4
+    },
+    {
+      "w": "he",
+      "start": 22.4,
+      "end": 22.64
+    },
+    {
+      "w": "didn't",
+      "start": 22.64,
+      "end": 22.88
+    },
+    {
+      "w": "understand",
+      "start": 22.88,
+      "end": 23.26
+    },
+    {
+      "w": "about",
+      "start": 23.26,
+      "end": 23.62
+    },
+    {
+      "w": "the",
+      "start": 23.62,
+      "end": 23.9
+    },
+    {
+      "w": "size,",
+      "start": 23.9,
+      "end": 24.24
+    },
+    {
+      "w": "which",
+      "start": 24.4,
+      "end": 24.64
+    },
+    {
+      "w": "cured",
+      "start": 24.64,
+      "end": 24.98
+    },
+    {
+      "w": "cancer,",
+      "start": 24.98,
+      "end": 25.44
+    },
+    {
+      "w": "right?",
+      "start": 25.6,
+      "end": 25.74
+    },
+    {
+      "w": "And",
+      "start": 25.86,
+      "end": 25.96
+    },
+    {
+      "w": "then",
+      "start": 25.96,
+      "end": 26.08
+    },
+    {
+      "w": "you",
+      "start": 26.08,
+      "end": 26.2
+    },
+    {
+      "w": "go,",
+      "start": 26.2,
+      "end": 26.34
+    },
+    {
+      "w": "that's",
+      "start": 26.4,
+      "end": 26.6
+    },
+    {
+      "w": "very",
+      "start": 26.6,
+      "end": 26.84
+    },
+    {
+      "w": "expensive",
+      "start": 26.84,
+      "end": 27.24
+    },
+    {
+      "w": "to",
+      "start": 27.24,
+      "end": 27.44
+    },
+    {
+      "w": "cure",
+      "start": 27.44,
+      "end": 27.58
+    },
+    {
+      "w": "cancer.",
+      "start": 27.58,
+      "end": 27.92
+    },
+    {
+      "w": "And",
+      "start": 27.92,
+      "end": 28.18
+    },
+    {
+      "w": "all",
+      "start": 28.18,
+      "end": 28.3
+    },
+    {
+      "w": "seriously",
+      "start": 28.3,
+      "end": 28.48
+    },
+    {
+      "w": "though,",
+      "start": 28.48,
+      "end": 28.72
+    },
+    {
+      "w": "how",
+      "start": 28.76,
+      "end": 28.88
+    },
+    {
+      "w": "did",
+      "start": 28.88,
+      "end": 28.92
+    },
+    {
+      "w": "I",
+      "start": 28.92,
+      "end": 29.04
+    },
+    {
+      "w": "do",
+      "start": 29.04,
+      "end": 29.2
+    },
+    {
+      "w": "it",
+      "start": 29.2,
+      "end": 29.28
+    },
+    {
+      "w": "very",
+      "start": 29.28,
+      "end": 29.44
+    },
+    {
+      "w": "simple?",
+      "start": 29.44,
+      "end": 29.78
+    },
+    {
+      "w": "It",
+      "start": 30.02,
+      "end": 30.04
+    },
+    {
+      "w": "was",
+      "start": 30.04,
+      "end": 30.1
+    },
+    {
+      "w": "a",
+      "start": 30.1,
+      "end": 30.24
+    },
+    {
+      "w": "1945",
+      "start": 30.24,
+      "end": 30.88
+    },
+    {
+      "w": "bottle",
+      "start": 30.88,
+      "end": 31.64
+    },
+    {
+      "w": "of",
+      "start": 31.64,
+      "end": 31.82
+    },
+    {
+      "w": "Chateau",
+      "start": 31.82,
+      "end": 32.22
+    },
+    {
+      "w": "Lafite",
+      "start": 32.22,
+      "end": 32.52
+    },
+    {
+      "w": "Rothschild.",
+      "start": 32.52,
+      "end": 33.16
+    },
+    {
+      "w": "I",
+      "start": 33.28,
+      "end": 33.28
+    },
+    {
+      "w": "think",
+      "start": 33.28,
+      "end": 33.38
+    },
+    {
+      "w": "that",
+      "start": 33.38,
+      "end": 33.52
+    },
+    {
+      "w": "was",
+      "start": 33.52,
+      "end": 33.62
+    },
+    {
+      "w": "like",
+      "start": 33.62,
+      "end": 33.82
+    },
+    {
+      "w": "$17",
+      "start": 33.82,
+      "end": 34.22
+    },
+    {
+      "w": ",000.",
+      "start": 34.22,
+      "end": 34.82
+    },
+    {
+      "w": "Then",
+      "start": 35.0,
+      "end": 35.1
+    },
+    {
+      "w": "we",
+      "start": 35.1,
+      "end": 35.2
+    },
+    {
+      "w": "had",
+      "start": 35.2,
+      "end": 35.36
+    },
+    {
+      "w": "a",
+      "start": 35.36,
+      "end": 35.48
+    },
+    {
+      "w": "1912",
+      "start": 35.48,
+      "end": 36.34
+    },
+    {
+      "w": "bottle",
+      "start": 36.34,
+      "end": 37.0
+    },
+    {
+      "w": "of",
+      "start": 37.0,
+      "end": 37.18
+    },
+    {
+      "w": "Chateau",
+      "start": 37.18,
+      "end": 37.58
+    },
+    {
+      "w": "La",
+      "start": 37.58,
+      "end": 37.76
+    },
+    {
+      "w": "Tour,",
+      "start": 37.76,
+      "end": 38.0
+    },
+    {
+      "w": "pretty",
+      "start": 38.18,
+      "end": 38.38
+    },
+    {
+      "w": "damn",
+      "start": 38.38,
+      "end": 38.66
+    },
+    {
+      "w": "great",
+      "start": 38.66,
+      "end": 38.9
+    },
+    {
+      "w": "as",
+      "start": 38.9,
+      "end": 39.08
+    },
+    {
+      "w": "well.",
+      "start": 39.08,
+      "end": 39.38
+    },
+    {
+      "w": "You",
+      "start": 39.68,
+      "end": 39.78
+    },
+    {
+      "w": "know,",
+      "start": 39.78,
+      "end": 39.88
+    },
+    {
+      "w": "the",
+      "start": 40.02,
+      "end": 40.02
+    },
+    {
+      "w": "Porter",
+      "start": 40.02,
+      "end": 40.36
+    },
+    {
+      "w": "House,",
+      "start": 40.36,
+      "end": 40.76
+    },
+    {
+      "w": "just",
+      "start": 40.94,
+      "end": 41.06
+    },
+    {
+      "w": "absolutely",
+      "start": 41.06,
+      "end": 41.84
+    },
+    {
+      "w": "awesome.",
+      "start": 41.84,
+      "end": 42.3
+    },
+    {
+      "w": "Some",
+      "start": 42.62,
+      "end": 42.78
+    },
+    {
+      "w": "great,",
+      "start": 42.78,
+      "end": 43.38
+    },
+    {
+      "w": "can't",
+      "start": 43.48,
+      "end": 43.92
+    },
+    {
+      "w": "-securing",
+      "start": 43.92,
+      "end": 44.3
+    },
+    {
+      "w": "sides",
+      "start": 44.3,
+      "end": 44.74
+    },
+    {
+      "w": "on",
+      "start": 44.74,
+      "end": 44.98
+    },
+    {
+      "w": "top",
+      "start": 44.98,
+      "end": 45.18
+    },
+    {
+      "w": "of",
+      "start": 45.18,
+      "end": 45.4
+    },
+    {
+      "w": "that.",
+      "start": 45.4,
+      "end": 45.66
+    },
+    {
+      "w": "Right,",
+      "start": 45.82,
+      "end": 46.02
+    },
+    {
+      "w": "a",
+      "start": 46.16,
+      "end": 46.22
+    },
+    {
+      "w": "little",
+      "start": 46.22,
+      "end": 46.36
+    },
+    {
+      "w": "lobster",
+      "start": 46.36,
+      "end": 46.78
+    },
+    {
+      "w": "tail.",
+      "start": 46.78,
+      "end": 47.1
+    },
+    {
+      "w": "I",
+      "start": 47.36,
+      "end": 47.38
+    },
+    {
+      "w": "think",
+      "start": 47.38,
+      "end": 47.48
+    },
+    {
+      "w": "the",
+      "start": 47.48,
+      "end": 47.64
+    },
+    {
+      "w": "best",
+      "start": 47.64,
+      "end": 47.86
+    },
+    {
+      "w": "part",
+      "start": 47.86,
+      "end": 48.1
+    },
+    {
+      "w": "of",
+      "start": 48.1,
+      "end": 48.24
+    },
+    {
+      "w": "all",
+      "start": 48.24,
+      "end": 48.46
+    },
+    {
+      "w": "those,",
+      "start": 48.46,
+      "end": 48.68
+    },
+    {
+      "w": "that",
+      "start": 48.82,
+      "end": 48.94
+    },
+    {
+      "w": "was",
+      "start": 48.94,
+      "end": 49.12
+    },
+    {
+      "w": "like",
+      "start": 49.12,
+      "end": 49.32
+    },
+    {
+      "w": "just",
+      "start": 49.32,
+      "end": 49.56
+    },
+    {
+      "w": "like",
+      "start": 49.56,
+      "end": 49.8
+    },
+    {
+      "w": "an",
+      "start": 49.8,
+      "end": 49.92
+    },
+    {
+      "w": "average",
+      "start": 49.92,
+      "end": 50.18
+    },
+    {
+      "w": "Tuesday.",
+      "start": 50.18,
+      "end": 50.58
+    },
+    {
+      "w": "Now,",
+      "start": 51.1,
+      "end": 51.32
+    },
+    {
+      "w": "question,",
+      "start": 51.58,
+      "end": 51.94
+    },
+    {
+      "w": "how",
+      "start": 52.22,
+      "end": 52.36
+    },
+    {
+      "w": "could",
+      "start": 52.36,
+      "end": 52.54
+    },
+    {
+      "w": "I",
+      "start": 52.54,
+      "end": 52.66
+    },
+    {
+      "w": "afford",
+      "start": 52.66,
+      "end": 52.94
+    },
+    {
+      "w": "those",
+      "start": 52.94,
+      "end": 53.42
+    },
+    {
+      "w": "type",
+      "start": 53.42,
+      "end": 53.72
+    },
+    {
+      "w": "of",
+      "start": 53.72,
+      "end": 53.9
+    },
+    {
+      "w": "dinners",
+      "start": 53.9,
+      "end": 54.26
+    },
+    {
+      "w": "when",
+      "start": 54.26,
+      "end": 54.46
+    },
+    {
+      "w": "I",
+      "start": 54.46,
+      "end": 54.56
+    },
+    {
+      "w": "was",
+      "start": 54.56,
+      "end": 54.68
+    },
+    {
+      "w": "in",
+      "start": 54.68,
+      "end": 54.78
+    },
+    {
+      "w": "my",
+      "start": 54.78,
+      "end": 54.9
+    },
+    {
+      "w": "20s?",
+      "start": 54.9,
+      "end": 55.48
+    },
+    {
+      "w": "Answer",
+      "start": 55.48,
+      "end": 55.9
+    },
+    {
+      "w": "is,",
+      "start": 55.9,
+      "end": 56.12
+    },
+    {
+      "w": "because",
+      "start": 56.16,
+      "end": 56.24
+    },
+    {
+      "w": "I",
+      "start": 56.24,
+      "end": 56.4
+    },
+    {
+      "w": "learned",
+      "start": 56.4,
+      "end": 56.76
+    },
+    {
+      "w": "how",
+      "start": 56.76,
+      "end": 56.98
+    },
+    {
+      "w": "to",
+      "start": 56.98,
+      "end": 57.08
+    },
+    {
+      "w": "be",
+      "start": 57.08,
+      "end": 57.24
+    },
+    {
+      "w": "a",
+      "start": 57.24,
+      "end": 57.36
+    },
+    {
+      "w": "master",
+      "start": 57.36,
+      "end": 57.88
+    },
+    {
+      "w": "closer",
+      "start": 57.88,
+      "end": 58.34
+    },
+    {
+      "w": "and",
+      "start": 58.34,
+      "end": 58.9
+    },
+    {
+      "w": "teach",
+      "start": 58.9,
+      "end": 59.16
+    },
+    {
+      "w": "others",
+      "start": 59.16,
+      "end": 59.66
+    },
+    {
+      "w": "to",
+      "start": 59.66,
+      "end": 59.94
+    },
+    {
+      "w": "do",
+      "start": 59.94,
+      "end": 60.06
+    },
+    {
+      "w": "the",
+      "start": 60.06,
+      "end": 60.22
+    },
+    {
+      "w": "same.",
+      "start": 60.22,
+      "end": 60.5
+    },
+    {
+      "w": "That's",
+      "start": 60.8,
+      "end": 61.12
+    },
+    {
+      "w": "the",
+      "start": 61.12,
+      "end": 61.28
+    },
+    {
+      "w": "secret.",
+      "start": 61.28,
+      "end": 61.6
+    },
+    {
+      "w": "So",
+      "start": 61.76,
+      "end": 61.86
+    },
+    {
+      "w": "if",
+      "start": 61.86,
+      "end": 61.94
+    },
+    {
+      "w": "you",
+      "start": 61.94,
+      "end": 62.02
+    },
+    {
+      "w": "want",
+      "start": 62.02,
+      "end": 62.24
+    },
+    {
+      "w": "to",
+      "start": 62.24,
+      "end": 62.38
+    },
+    {
+      "w": "learn",
+      "start": 62.38,
+      "end": 62.52
+    },
+    {
+      "w": "how",
+      "start": 62.52,
+      "end": 62.64
+    },
+    {
+      "w": "to",
+      "start": 62.64,
+      "end": 62.72
+    },
+    {
+      "w": "close",
+      "start": 62.72,
+      "end": 63.02
+    },
+    {
+      "w": "like",
+      "start": 63.02,
+      "end": 63.32
+    },
+    {
+      "w": "me,",
+      "start": 63.32,
+      "end": 63.58
+    },
+    {
+      "w": "close",
+      "start": 63.68,
+      "end": 63.86
+    },
+    {
+      "w": "like",
+      "start": 63.86,
+      "end": 64.1
+    },
+    {
+      "w": "the",
+      "start": 64.1,
+      "end": 64.24
+    },
+    {
+      "w": "wolf,",
+      "start": 64.24,
+      "end": 64.5
+    },
+    {
+      "w": "just",
+      "start": 64.68,
+      "end": 64.82
+    },
+    {
+      "w": "follow",
+      "start": 64.82,
+      "end": 65.2
+    },
+    {
+      "w": "me",
+      "start": 65.2,
+      "end": 65.42
+    },
+    {
+      "w": "and",
+      "start": 65.42,
+      "end": 65.5
+    },
+    {
+      "w": "I'll",
+      "start": 65.5,
+      "end": 65.64
+    },
+    {
+      "w": "show",
+      "start": 65.64,
+      "end": 65.78
+    },
+    {
+      "w": "you",
+      "start": 65.78,
+      "end": 65.88
+    },
+    {
+      "w": "exactly",
+      "start": 65.88,
+      "end": 66.32
+    },
+    {
+      "w": "how.",
+      "start": 66.32,
+      "end": 66.76
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 18.767,
+      "length": 18.767,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0A0706",
+            "share": 0.173
+          },
+          {
+            "hex": "#C8D1E8",
+            "share": 0.074
+          },
+          {
+            "hex": "#32312E",
+            "share": 0.066
+          },
+          {
+            "hex": "#B0B5CE",
+            "share": 0.058
+          },
+          {
+            "hex": "#28374C",
+            "share": 0.054
+          }
+        ],
+        "motion_energy": 15.31,
+        "script": "Is it true that you spend $25 ,000 on one dinner? Yeah, well, it's actually about $26 ,200. It was absolutely true, and you know, here's the deal. I remember the day like it was yesterday, drove my father Mad Max, made me rest in peace. Absolutely bananas."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 18.767,
+      "end": 22.067,
+      "length": 3.3,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0D0D",
+            "share": 0.305
+          },
+          {
+            "hex": "#473A2A",
+            "share": 0.074
+          },
+          {
+            "hex": "#332F28",
+            "share": 0.068
+          },
+          {
+            "hex": "#2D2419",
+            "share": 0.053
+          },
+          {
+            "hex": "#D4C7AC",
+            "share": 0.049
+          }
+        ],
+        "motion_energy": 13.43,
+        "script": "You didn't understand how you could spend that much money on one dinner, and of"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 22.067,
+      "end": 56.9,
+      "length": 34.833,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0A0706",
+            "share": 0.186
+          },
+          {
+            "hex": "#B0B5CE",
+            "share": 0.078
+          },
+          {
+            "hex": "#31302E",
+            "share": 0.069
+          },
+          {
+            "hex": "#C8D1E9",
+            "share": 0.066
+          },
+          {
+            "hex": "#28364C",
+            "share": 0.052
+          }
+        ],
+        "motion_energy": 14.61,
+        "script": "course he didn't understand about the size, which cured cancer, right? And then you go, that's very expensive to cure cancer. And all seriously though, how did I do it very simple? It was a 1945 bottle of Chateau Lafite Rothschild. I think that was like $17 ,000. Then we had a 1912 bottle of Chateau La Tour, pretty damn great as well. You know, the Porter House, just absolutely awesome. Some great, can't -securing sides on top of that. Right, a little lobster tail. I think the best part of all those, that was like just like an average Tuesday. Now, question, how could I afford those type of dinners when I was in my 20s? Answer is, because I learned how"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 56.9,
+      "end": 58.7,
+      "length": 1.8,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0E0E12",
+            "share": 0.294
+          },
+          {
+            "hex": "#2A1918",
+            "share": 0.07
+          },
+          {
+            "hex": "#2E292E",
+            "share": 0.066
+          },
+          {
+            "hex": "#4F3029",
+            "share": 0.062
+          },
+          {
+            "hex": "#777071",
+            "share": 0.062
+          }
+        ],
+        "motion_energy": 13.44,
+        "script": "to be a master closer and"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 58.7,
+      "end": 60.867,
+      "length": 2.167,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C0C11",
+            "share": 0.275
+          },
+          {
+            "hex": "#847979",
+            "share": 0.107
+          },
+          {
+            "hex": "#776F71",
+            "share": 0.071
+          },
+          {
+            "hex": "#2A1713",
+            "share": 0.06
+          },
+          {
+            "hex": "#0F192E",
+            "share": 0.046
+          }
+        ],
+        "motion_energy": 12.99,
+        "script": "teach others to do the same. That's"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 60.867,
+      "end": 66.987,
+      "length": 6.12,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0A0706",
+            "share": 0.196
+          },
+          {
+            "hex": "#AEB5D0",
+            "share": 0.092
+          },
+          {
+            "hex": "#32302E",
+            "share": 0.073
+          },
+          {
+            "hex": "#C7D2EA",
+            "share": 0.05
+          },
+          {
+            "hex": "#28364B",
+            "share": 0.047
+          }
+        ],
+        "motion_energy": 5.62,
+        "script": "the secret. So if you want to learn how to close like me, close like the wolf, just follow me and I'll show you exactly how."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}

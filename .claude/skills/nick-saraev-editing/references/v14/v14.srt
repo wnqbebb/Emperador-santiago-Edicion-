@@ -1,0 +1,151 @@
+1
+00:00:00,000 --> 00:00:01,240
+Bursell just dropped a free
+
+2
+00:00:01,240 --> 00:00:02,480
+AI tool that lets your
+
+3
+00:00:02,480 --> 00:00:03,819
+coding agent control your browser
+
+4
+00:00:03,819 --> 00:00:05,280
+and complete any task without
+
+5
+00:00:05,280 --> 00:00:06,440
+you ever having to touch
+
+6
+00:00:06,440 --> 00:00:07,419
+a thing, and it's five
+
+7
+00:00:07,419 --> 00:00:09,060
+times faster and cheaper compared
+
+8
+00:00:09,060 --> 00:00:10,699
+to Playwright MCP and other
+
+9
+00:00:10,699 --> 00:00:11,880
+browser automation tools that you
+
+10
+00:00:11,880 --> 00:00:13,400
+probably already use. This is
+
+11
+00:00:13,400 --> 00:00:14,740
+called Agent Browser, and it
+
+12
+00:00:14,740 --> 00:00:16,179
+already has almost 50 ,000
+
+13
+00:00:16,179 --> 00:00:17,339
+stars on GitHub. Now while
+
+14
+00:00:17,339 --> 00:00:18,500
+most tools work by taking
+
+15
+00:00:18,500 --> 00:00:20,000
+screenshots and guessing where they
+
+16
+00:00:20,000 --> 00:00:21,500
+click, this one skips that
+
+17
+00:00:21,500 --> 00:00:22,960
+step completely by giving every
+
+18
+00:00:22,960 --> 00:00:24,359
+button and field their own
+
+19
+00:00:24,359 --> 00:00:26,019
+IDs instead. So your agent
+
+20
+00:00:26,019 --> 00:00:27,420
+clicks by using that ID
+
+21
+00:00:27,420 --> 00:00:28,500
+instead of guessing, which is
+
+22
+00:00:28,500 --> 00:00:29,620
+why it uses 90 %
+
+23
+00:00:29,620 --> 00:00:30,980
+fewer tokens compared to other
+
+24
+00:00:30,980 --> 00:00:32,039
+methods. And the best part
+
+25
+00:00:32,039 --> 00:00:32,700
+is, it runs in the
+
+26
+00:00:32,700 --> 00:00:33,939
+background, so it never actually
+
+27
+00:00:33,939 --> 00:00:34,600
+has to get in the
+
+28
+00:00:34,600 --> 00:00:35,500
+way of your work. Plus,
+
+29
+00:00:35,619 --> 00:00:36,320
+it can even use your
+
+30
+00:00:36,320 --> 00:00:37,679
+own logins with your permission,
+
+31
+00:00:37,899 --> 00:00:38,759
+and you can watch everything
+
+32
+00:00:38,759 --> 00:00:39,740
+it's doing on a live
+
+33
+00:00:39,740 --> 00:00:41,119
+dashboard that it creates for
+
+34
+00:00:41,119 --> 00:00:41,780
+you. So if you want
+
+35
+00:00:41,780 --> 00:00:42,899
+to try this yourselves, just
+
+36
+00:00:42,899 --> 00:00:44,359
+comment browser down below and
+
+37
+00:00:44,359 --> 00:00:45,079
+it'll DM you the link
+
+38
+00:00:45,079 --> 00:00:45,460
+directly.

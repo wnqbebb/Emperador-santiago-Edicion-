@@ -1,0 +1,9 @@
+000    0.00-   4.47 (4.5s) | You can now reverse engineer any viral video down to its frame, shot by shot, completely free,
+001    4.47-   7.07 (2.6s) | using this plugin. This is Reverse Engineer Any Video,
+002    7.07-  10.10 (3.0s) | and it works just like the Reverse Engineer Anything project, but for videos.
+003   10.10-  16.03 (5.9s) | You just give it the video link, and it'll break it down, shot by shot, and tell you whether each one was filmed, AI generated, or built in code.
+004   16.03-  21.67 (5.6s) | Then it'll pull every caption with its timing, every cut, the music's beats, and exactly where every sound effect landed.
+005   21.67-  25.17 (3.5s) | And for each shot, it'll write a full prompt that you can use to recreate it,
+006   25.17-  29.60 (4.4s) | and in the end, you'll get a full remake plan with what to film, what to generate, and what to code. Finally,
+007   29.60-  34.30 (4.7s) | it'll remake the video with your own elements swapped in, keeping the original pacing, effect, and transition.
+008   34.30-  37.61 (3.3s) | Want to try it for yourselves? Just comment video down below, and I'll send you the link.

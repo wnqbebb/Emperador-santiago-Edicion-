@@ -1,0 +1,20 @@
+{
+ "duracion_s": 18.9,
+ "por_segundo": {
+  "transicion": 0.212,
+  "texto": 0.212,
+  "camara": 0.053,
+  "disparadores": 0.212,
+  "escenas": 0.265
+ },
+ "conteo": {
+  "transicion": 4,
+  "texto": 4,
+  "camara": 1,
+  "disparadores": 4,
+  "escenas": 5
+ },
+ "tipos_transicion": {
+  "crossfade": 4
+ }
+}

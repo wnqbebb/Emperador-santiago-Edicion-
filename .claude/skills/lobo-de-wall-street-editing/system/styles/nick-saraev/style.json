@@ -1,0 +1,185 @@
+{
+ "id": "nick-saraev",
+ "name": "Nick Saraev · herramienta enmarcada",
+ "description": "Lienzo oscuro/claro, título con caja azul, ventana enmarcada con asas tipo Figma que muestra la herramienta, él en recuadro redondeado abajo, subtítulo que se enciende palabra a palabra, cierre «comment PALABRA».",
+ "format": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30
+ },
+ "fonts": {
+  "sans": {
+   "family": "Inter",
+   "weight": 600
+  },
+  "sans_bold": {
+   "family": "Inter",
+   "weight": 800
+  },
+  "special": {
+   "family": "Instrument Serif",
+   "weight": 400,
+   "style": "italic"
+  }
+ },
+ "palette": {
+  "mode": "fixed",
+  "fixed": {
+   "vibrant_bright": "#0282FB",
+   "vibrant_dark": "#5276D5",
+   "dull_white": "#DFEAF0",
+   "dull_black": "#0C0C0C"
+  },
+  "roles": {
+   "primary": "dull_black",
+   "secondary": "dull_white",
+   "accent": "vibrant_bright"
+  },
+  "ratio": [
+   60,
+   30,
+   10
+  ],
+  "_doc": "Caja título #0282FB, borde ventana #1D82E0, borde cara #5276D5, clave #2898F8, lienzo oscuro #0C0C0C / claro #DFEAF0."
+ },
+ "background": {
+  "fullscreen": "primary",
+  "grid": false,
+  "grid_opacity": 0
+ },
+ "texture": {
+  "kind": "none",
+  "opacity": 0
+ },
+ "shapes": {
+  "radius": 0,
+  "stroke": 3,
+  "edge": "rough"
+ },
+ "captions": {
+  "mode": "nick",
+  "max_words": 3,
+  "base_size": 58,
+  "face_y": 0.545,
+  "noface_y": 0.73,
+  "full_y": 0.74,
+  "special_color": "#2898F8",
+  "special_per_phrase": [
+   0,
+   1
+  ],
+  "only_forced": true,
+  "special_scale": 1.25,
+  "zone": "center",
+  "color": "#FFFFFF",
+  "backdrop": {
+   "type": "none"
+  },
+  "animation": "word_light",
+  "_min_px": {
+   "small": 42,
+   "special": 42
+  },
+  "_doc": "1–3 palabras que se acumulan; cada palabra entra gris y pasa a color en ~2 fotogramas. Sans semibold blanca (negra sobre lienzo claro). A 54 % entre ventana y recuadro de cara; 73 % sin cara. Marcas y palabras de valor en serif itálica azul."
+ },
+ "speaker": {
+  "eyes_line": "upper_third",
+  "nose_x": "center"
+ },
+ "motion": {
+  "enter_ms": 350,
+  "exit_ms": 100,
+  "easing": [
+   0.45,
+   0,
+   0.15,
+   1
+  ],
+  "pop_from_scale": 0.97,
+  "blur_from_px": 18,
+  "stagger_ms": 120,
+  "feel": "resize_snap"
+ },
+ "pacing": {
+  "hook_window_s": 3.0,
+  "max_aroll_streak_s": 4.0,
+  "min_scene_s": 0.5,
+  "target_animation_share": 0.85
+ },
+ "scenes_allowed": [
+  "aroll",
+  "p_punch",
+  "n_frame",
+  "n_cta"
+ ],
+ "sfx": {
+  "aroll": null,
+  "n_frame": "click",
+  "n_cta": "pop",
+  "min_gap_s": 1.5
+ },
+ "music": {
+  "mood": "sin música o cama casi inaudible",
+  "folders": [
+   "tag/lo-fi"
+  ],
+  "ducking_db": -30
+ },
+ "safe_zone": {
+  "_doc": "Zona segura Reels/TikTok/Shorts (fracción del alto/ancho). Fuera de aquí la UI de la app tapa el contenido.",
+  "top": 0.14,
+  "bottom": 0.26,
+  "left": 0.07,
+  "right": 0.15
+ },
+ "_evidence": {
+  "videos": [
+   "v01",
+   "v02",
+   "v03",
+   "v04",
+   "v05",
+   "v06",
+   "v07",
+   "v08",
+   "v09",
+   "v10",
+   "v11",
+   "v12",
+   "v13",
+   "v14",
+   "v15",
+   "v16",
+   "v17",
+   "v18",
+   "v19",
+   "v20"
+  ],
+  "scenes": "≈340"
+ },
+ "aroll": {
+  "auto_punch": false,
+  "punch_origin_y": 0.35,
+  "drift": {
+   "amount": 0,
+   "period_s": 20,
+   "settle": 0,
+   "settle_s": 0.01,
+   "punch": 0.1
+  }
+ },
+ "broll_grade": {
+  "contrast": 1.0,
+  "saturate": 1.0,
+  "brightness": 1.0,
+  "tint": "none",
+  "tint_opacity": 0,
+  "grain": 0,
+  "texture": "none",
+  "_doc": "La evidencia va sin grado: debe verse real."
+ },
+ "transitions": {
+  "allowed": [],
+  "min_gap_s": 99
+ }
+}

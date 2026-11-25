@@ -1,0 +1,1493 @@
+{
+  "video": "v03.mp4",
+  "duration": 53.05,
+  "derived": {
+    "shots": 19,
+    "avg_shot_len": 2.79,
+    "cuts_per_min": 21.5,
+    "hook_shots_first_3s": 1,
+    "high_motion_shots": [
+      0,
+      2,
+      3,
+      5,
+      6,
+      7,
+      11,
+      12,
+      13
+    ]
+  },
+  "method": "ffmpeg scene>0.32 + keyframes 5/plano + paleta cuantizada + energía de movimiento",
+  "words": [
+    {
+      "w": "My",
+      "start": 2.18,
+      "end": 2.78
+    },
+    {
+      "w": "name",
+      "start": 2.78,
+      "end": 3.02
+    },
+    {
+      "w": "is",
+      "start": 3.02,
+      "end": 3.16
+    },
+    {
+      "w": "Jordan",
+      "start": 3.16,
+      "end": 3.52
+    },
+    {
+      "w": "Belfort.",
+      "start": 3.52,
+      "end": 4.0
+    },
+    {
+      "w": "I",
+      "start": 4.74,
+      "end": 4.92
+    },
+    {
+      "w": "am",
+      "start": 4.92,
+      "end": 5.04
+    },
+    {
+      "w": "the",
+      "start": 5.04,
+      "end": 5.28
+    },
+    {
+      "w": "CEO",
+      "start": 5.28,
+      "end": 5.9
+    },
+    {
+      "w": "and",
+      "start": 5.9,
+      "end": 6.2
+    },
+    {
+      "w": "founder",
+      "start": 6.2,
+      "end": 6.78
+    },
+    {
+      "w": "of",
+      "start": 6.78,
+      "end": 7.36
+    },
+    {
+      "w": "Straight",
+      "start": 7.36,
+      "end": 8.02
+    },
+    {
+      "w": "Line",
+      "start": 8.02,
+      "end": 8.42
+    },
+    {
+      "w": "AI.",
+      "start": 8.42,
+      "end": 8.82
+    },
+    {
+      "w": "We",
+      "start": 9.8,
+      "end": 10.12
+    },
+    {
+      "w": "have",
+      "start": 10.12,
+      "end": 10.26
+    },
+    {
+      "w": "a",
+      "start": 10.26,
+      "end": 10.34
+    },
+    {
+      "w": "product",
+      "start": 10.34,
+      "end": 10.56
+    },
+    {
+      "w": "called",
+      "start": 10.56,
+      "end": 10.84
+    },
+    {
+      "w": "Tone.",
+      "start": 10.84,
+      "end": 11.22
+    },
+    {
+      "w": "We're",
+      "start": 11.74,
+      "end": 12.04
+    },
+    {
+      "w": "experts",
+      "start": 12.04,
+      "end": 12.46
+    },
+    {
+      "w": "in",
+      "start": 12.46,
+      "end": 12.76
+    },
+    {
+      "w": "voice",
+      "start": 12.76,
+      "end": 13.1
+    },
+    {
+      "w": "and",
+      "start": 13.1,
+      "end": 13.66
+    },
+    {
+      "w": "goal",
+      "start": 13.66,
+      "end": 13.98
+    },
+    {
+      "w": "-oriented",
+      "start": 13.98,
+      "end": 14.34
+    },
+    {
+      "w": "communication.",
+      "start": 14.34,
+      "end": 14.9
+    },
+    {
+      "w": "Real",
+      "start": 16.08,
+      "end": 16.48
+    },
+    {
+      "w": "-time",
+      "start": 16.48,
+      "end": 16.62
+    },
+    {
+      "w": "streaming,",
+      "start": 16.62,
+      "end": 16.96
+    },
+    {
+      "w": "the",
+      "start": 17.2,
+      "end": 17.3
+    },
+    {
+      "w": "magic",
+      "start": 17.3,
+      "end": 17.64
+    },
+    {
+      "w": "is",
+      "start": 17.64,
+      "end": 17.86
+    },
+    {
+      "w": "the",
+      "start": 17.86,
+      "end": 18.02
+    },
+    {
+      "w": "intelligence",
+      "start": 18.02,
+      "end": 18.8
+    },
+    {
+      "w": "of",
+      "start": 18.8,
+      "end": 19.62
+    },
+    {
+      "w": "when",
+      "start": 19.62,
+      "end": 19.9
+    },
+    {
+      "w": "it",
+      "start": 19.9,
+      "end": 20.04
+    },
+    {
+      "w": "does",
+      "start": 20.04,
+      "end": 20.22
+    },
+    {
+      "w": "it.",
+      "start": 20.22,
+      "end": 20.42
+    },
+    {
+      "w": "When",
+      "start": 20.6,
+      "end": 20.74
+    },
+    {
+      "w": "do",
+      "start": 20.74,
+      "end": 20.94
+    },
+    {
+      "w": "you",
+      "start": 20.94,
+      "end": 21.02
+    },
+    {
+      "w": "lower",
+      "start": 21.02,
+      "end": 21.28
+    },
+    {
+      "w": "your",
+      "start": 21.28,
+      "end": 21.42
+    },
+    {
+      "w": "voice?",
+      "start": 21.42,
+      "end": 21.66
+    },
+    {
+      "w": "When",
+      "start": 21.74,
+      "end": 21.84
+    },
+    {
+      "w": "do",
+      "start": 21.84,
+      "end": 22.06
+    },
+    {
+      "w": "you",
+      "start": 22.06,
+      "end": 22.18
+    },
+    {
+      "w": "raise",
+      "start": 22.18,
+      "end": 22.36
+    },
+    {
+      "w": "your",
+      "start": 22.36,
+      "end": 22.5
+    },
+    {
+      "w": "voice?",
+      "start": 22.5,
+      "end": 22.64
+    },
+    {
+      "w": "It's",
+      "start": 22.94,
+      "end": 23.34
+    },
+    {
+      "w": "choosing",
+      "start": 23.34,
+      "end": 23.78
+    },
+    {
+      "w": "its",
+      "start": 23.78,
+      "end": 24.02
+    },
+    {
+      "w": "tonalities",
+      "start": 24.02,
+      "end": 24.94
+    },
+    {
+      "w": "on",
+      "start": 24.94,
+      "end": 25.28
+    },
+    {
+      "w": "purpose.",
+      "start": 25.28,
+      "end": 25.76
+    },
+    {
+      "w": "We",
+      "start": 26.22,
+      "end": 26.64
+    },
+    {
+      "w": "took",
+      "start": 26.64,
+      "end": 26.82
+    },
+    {
+      "w": "a",
+      "start": 26.82,
+      "end": 26.96
+    },
+    {
+      "w": "very",
+      "start": 26.96,
+      "end": 27.18
+    },
+    {
+      "w": "different",
+      "start": 27.18,
+      "end": 27.48
+    },
+    {
+      "w": "approach",
+      "start": 27.48,
+      "end": 27.94
+    },
+    {
+      "w": "and",
+      "start": 27.94,
+      "end": 28.24
+    },
+    {
+      "w": "that",
+      "start": 28.24,
+      "end": 28.44
+    },
+    {
+      "w": "was",
+      "start": 28.44,
+      "end": 28.62
+    },
+    {
+      "w": "getting",
+      "start": 28.62,
+      "end": 29.06
+    },
+    {
+      "w": "to",
+      "start": 29.06,
+      "end": 29.26
+    },
+    {
+      "w": "the",
+      "start": 29.26,
+      "end": 29.42
+    },
+    {
+      "w": "actual",
+      "start": 29.42,
+      "end": 29.82
+    },
+    {
+      "w": "route",
+      "start": 29.82,
+      "end": 30.28
+    },
+    {
+      "w": "of",
+      "start": 30.28,
+      "end": 30.52
+    },
+    {
+      "w": "communication.",
+      "start": 30.52,
+      "end": 31.24
+    },
+    {
+      "w": "What",
+      "start": 31.66,
+      "end": 31.8
+    },
+    {
+      "w": "actually",
+      "start": 31.8,
+      "end": 32.18
+    },
+    {
+      "w": "makes",
+      "start": 32.18,
+      "end": 32.66
+    },
+    {
+      "w": "someone",
+      "start": 32.66,
+      "end": 33.44
+    },
+    {
+      "w": "listen",
+      "start": 33.44,
+      "end": 34.42
+    },
+    {
+      "w": "to",
+      "start": 34.42,
+      "end": 34.7
+    },
+    {
+      "w": "you,",
+      "start": 34.7,
+      "end": 34.9
+    },
+    {
+      "w": "hang",
+      "start": 35.06,
+      "end": 35.2
+    },
+    {
+      "w": "on",
+      "start": 35.2,
+      "end": 35.34
+    },
+    {
+      "w": "your",
+      "start": 35.34,
+      "end": 35.46
+    },
+    {
+      "w": "every",
+      "start": 35.46,
+      "end": 35.66
+    },
+    {
+      "w": "word,",
+      "start": 35.66,
+      "end": 35.94
+    },
+    {
+      "w": "take",
+      "start": 36.36,
+      "end": 36.54
+    },
+    {
+      "w": "action.",
+      "start": 36.54,
+      "end": 36.98
+    },
+    {
+      "w": "I",
+      "start": 37.42,
+      "end": 37.54
+    },
+    {
+      "w": "know",
+      "start": 37.54,
+      "end": 37.74
+    },
+    {
+      "w": "what",
+      "start": 37.74,
+      "end": 37.96
+    },
+    {
+      "w": "great",
+      "start": 37.96,
+      "end": 38.48
+    },
+    {
+      "w": "sounds",
+      "start": 38.48,
+      "end": 39.18
+    },
+    {
+      "w": "like.",
+      "start": 39.18,
+      "end": 39.56
+    },
+    {
+      "w": "It's",
+      "start": 39.92,
+      "end": 40.0
+    },
+    {
+      "w": "not",
+      "start": 40.0,
+      "end": 40.14
+    },
+    {
+      "w": "just",
+      "start": 40.14,
+      "end": 40.3
+    },
+    {
+      "w": "me,",
+      "start": 40.3,
+      "end": 40.46
+    },
+    {
+      "w": "but",
+      "start": 40.52,
+      "end": 40.58
+    },
+    {
+      "w": "I",
+      "start": 40.58,
+      "end": 40.64
+    },
+    {
+      "w": "have",
+      "start": 40.64,
+      "end": 40.72
+    },
+    {
+      "w": "a",
+      "start": 40.72,
+      "end": 40.78
+    },
+    {
+      "w": "team",
+      "start": 40.78,
+      "end": 40.98
+    },
+    {
+      "w": "of",
+      "start": 40.98,
+      "end": 41.14
+    },
+    {
+      "w": "amazing",
+      "start": 41.14,
+      "end": 41.44
+    },
+    {
+      "w": "engineers,",
+      "start": 41.44,
+      "end": 42.04
+    },
+    {
+      "w": "seriously",
+      "start": 42.22,
+      "end": 42.42
+    },
+    {
+      "w": "brilliant",
+      "start": 42.42,
+      "end": 42.86
+    },
+    {
+      "w": "people.",
+      "start": 42.86,
+      "end": 43.42
+    },
+    {
+      "w": "Better",
+      "start": 43.66,
+      "end": 43.8
+    },
+    {
+      "w": "we",
+      "start": 43.8,
+      "end": 43.98
+    },
+    {
+      "w": "do",
+      "start": 43.98,
+      "end": 44.12
+    },
+    {
+      "w": "training",
+      "start": 44.12,
+      "end": 44.54
+    },
+    {
+      "w": "runs",
+      "start": 44.54,
+      "end": 44.82
+    },
+    {
+      "w": "constantly.",
+      "start": 44.82,
+      "end": 45.44
+    },
+    {
+      "w": "I",
+      "start": 45.84,
+      "end": 45.92
+    },
+    {
+      "w": "think",
+      "start": 45.92,
+      "end": 46.1
+    },
+    {
+      "w": "everyone",
+      "start": 46.1,
+      "end": 46.42
+    },
+    {
+      "w": "on",
+      "start": 46.42,
+      "end": 46.58
+    },
+    {
+      "w": "our",
+      "start": 46.58,
+      "end": 46.66
+    },
+    {
+      "w": "team",
+      "start": 46.66,
+      "end": 46.8
+    },
+    {
+      "w": "is",
+      "start": 46.8,
+      "end": 46.9
+    },
+    {
+      "w": "incredibly",
+      "start": 46.9,
+      "end": 47.28
+    },
+    {
+      "w": "proud",
+      "start": 47.28,
+      "end": 47.84
+    },
+    {
+      "w": "of",
+      "start": 47.84,
+      "end": 48.56
+    },
+    {
+      "w": "what",
+      "start": 48.56,
+      "end": 48.68
+    },
+    {
+      "w": "we",
+      "start": 48.68,
+      "end": 48.86
+    },
+    {
+      "w": "have.",
+      "start": 48.86,
+      "end": 49.18
+    }
+  ],
+  "shots": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 7.424,
+      "length": 7.424,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#6F6C71",
+            "share": 0.163
+          },
+          {
+            "hex": "#8E8D92",
+            "share": 0.127
+          },
+          {
+            "hex": "#2F2D32",
+            "share": 0.121
+          },
+          {
+            "hex": "#514D51",
+            "share": 0.115
+          },
+          {
+            "hex": "#0F0E12",
+            "share": 0.079
+          }
+        ],
+        "motion_energy": 50.78,
+        "script": "My name is Jordan Belfort. I am the CEO and founder of Straight"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 1,
+      "start": 7.424,
+      "end": 8.926,
+      "length": 1.502,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#131112",
+            "share": 0.178
+          },
+          {
+            "hex": "#322E29",
+            "share": 0.154
+          },
+          {
+            "hex": "#55514C",
+            "share": 0.097
+          },
+          {
+            "hex": "#504737",
+            "share": 0.088
+          },
+          {
+            "hex": "#6D6554",
+            "share": 0.075
+          }
+        ],
+        "motion_energy": 0.83,
+        "script": "Line AI."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 8.926,
+      "end": 12.638,
+      "length": 3.712,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#020202",
+            "share": 0.524
+          },
+          {
+            "hex": "#2D2D30",
+            "share": 0.066
+          },
+          {
+            "hex": "#CFD1D5",
+            "share": 0.062
+          },
+          {
+            "hex": "#AAAFB2",
+            "share": 0.049
+          },
+          {
+            "hex": "#8C9094",
+            "share": 0.045
+          }
+        ],
+        "motion_energy": 58.37,
+        "script": "We have a product called Tone. We're experts in"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 12.638,
+      "end": 15.057,
+      "length": 2.419,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#716854",
+            "share": 0.159
+          },
+          {
+            "hex": "#131112",
+            "share": 0.15
+          },
+          {
+            "hex": "#746F68",
+            "share": 0.115
+          },
+          {
+            "hex": "#302C29",
+            "share": 0.087
+          },
+          {
+            "hex": "#54504C",
+            "share": 0.075
+          }
+        ],
+        "motion_energy": 15.32,
+        "script": "voice and goal -oriented communication."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 15.057,
+      "end": 17.142,
+      "length": 2.085,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#E5EBF7",
+            "share": 0.492
+          },
+          {
+            "hex": "#888C96",
+            "share": 0.051
+          },
+          {
+            "hex": "#C8CDD7",
+            "share": 0.044
+          },
+          {
+            "hex": "#DAE6F2",
+            "share": 0.041
+          },
+          {
+            "hex": "#6A6D74",
+            "share": 0.04
+          }
+        ],
+        "motion_energy": 0.98,
+        "script": "Real -time streaming,"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 17.142,
+      "end": 20.52,
+      "length": 3.378,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0D0A0D",
+            "share": 0.215
+          },
+          {
+            "hex": "#4B3732",
+            "share": 0.114
+          },
+          {
+            "hex": "#98908B",
+            "share": 0.109
+          },
+          {
+            "hex": "#8D8479",
+            "share": 0.085
+          },
+          {
+            "hex": "#8A766E",
+            "share": 0.081
+          }
+        ],
+        "motion_energy": 17.01,
+        "script": "the magic is the intelligence of when it does it."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 20.52,
+      "end": 22.397,
+      "length": 1.877,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#100C0F",
+            "share": 0.247
+          },
+          {
+            "hex": "#4B3631",
+            "share": 0.13
+          },
+          {
+            "hex": "#887870",
+            "share": 0.1
+          },
+          {
+            "hex": "#352927",
+            "share": 0.086
+          },
+          {
+            "hex": "#787068",
+            "share": 0.073
+          }
+        ],
+        "motion_energy": 15.78,
+        "script": "When do you lower your voice? When do you raise your"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 22.397,
+      "end": 27.236,
+      "length": 4.838,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#08100E",
+            "share": 0.562
+          },
+          {
+            "hex": "#0C2216",
+            "share": 0.203
+          },
+          {
+            "hex": "#0A2B26",
+            "share": 0.132
+          },
+          {
+            "hex": "#0C5448",
+            "share": 0.016
+          },
+          {
+            "hex": "#0A443A",
+            "share": 0.01
+          }
+        ],
+        "motion_energy": 27.96,
+        "script": "voice? It's choosing its tonalities on purpose. We took a very different"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 27.236,
+      "end": 27.277,
+      "length": 0.042,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F7F3F0",
+            "share": 0.985
+          },
+          {
+            "hex": "#E6E1DD",
+            "share": 0.005
+          },
+          {
+            "hex": "#908E8A",
+            "share": 0.003
+          },
+          {
+            "hex": "#777570",
+            "share": 0.002
+          },
+          {
+            "hex": "#D8D7D1",
+            "share": 0.002
+          }
+        ],
+        "motion_energy": 0.0,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 27.277,
+      "end": 31.907,
+      "length": 4.63,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#F7F3F0",
+            "share": 0.777
+          },
+          {
+            "hex": "#ECE4DB",
+            "share": 0.147
+          },
+          {
+            "hex": "#D6CED2",
+            "share": 0.02
+          },
+          {
+            "hex": "#E3DBD9",
+            "share": 0.008
+          },
+          {
+            "hex": "#D9CBE1",
+            "share": 0.007
+          }
+        ],
+        "motion_energy": 3.99,
+        "script": "approach and that was getting to the actual route of communication. What actually"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 10,
+      "start": 31.907,
+      "end": 33.2,
+      "length": 1.293,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0F0B0E",
+            "share": 0.259
+          },
+          {
+            "hex": "#69514B",
+            "share": 0.11
+          },
+          {
+            "hex": "#4D3732",
+            "share": 0.09
+          },
+          {
+            "hex": "#88756E",
+            "share": 0.088
+          },
+          {
+            "hex": "#322827",
+            "share": 0.068
+          }
+        ],
+        "motion_energy": 9.37,
+        "script": "makes someone"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 11,
+      "start": 33.2,
+      "end": 37.246,
+      "length": 4.046,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#EAF2F9",
+            "share": 0.328
+          },
+          {
+            "hex": "#D5E4F1",
+            "share": 0.055
+          },
+          {
+            "hex": "#494D53",
+            "share": 0.035
+          },
+          {
+            "hex": "#C9CFD5",
+            "share": 0.035
+          },
+          {
+            "hex": "#2A2D31",
+            "share": 0.034
+          }
+        ],
+        "motion_energy": 13.69,
+        "script": "listen to you, hang on your every word, take action."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 12,
+      "start": 37.246,
+      "end": 38.956,
+      "length": 1.71,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0C090C",
+            "share": 0.214
+          },
+          {
+            "hex": "#312926",
+            "share": 0.15
+          },
+          {
+            "hex": "#4B3832",
+            "share": 0.114
+          },
+          {
+            "hex": "#6A504B",
+            "share": 0.098
+          },
+          {
+            "hex": "#918579",
+            "share": 0.086
+          }
+        ],
+        "motion_energy": 14.84,
+        "script": "I know what great sounds"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 13,
+      "start": 38.956,
+      "end": 39.873,
+      "length": 0.918,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#FCF4EA",
+            "share": 0.268
+          },
+          {
+            "hex": "#FBF0DB",
+            "share": 0.168
+          },
+          {
+            "hex": "#EBD5CD",
+            "share": 0.057
+          },
+          {
+            "hex": "#C9B6AF",
+            "share": 0.056
+          },
+          {
+            "hex": "#0A0608",
+            "share": 0.05
+          }
+        ],
+        "motion_energy": 36.63,
+        "script": "like."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 14,
+      "start": 39.873,
+      "end": 41.083,
+      "length": 1.21,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#0A0B0F",
+            "share": 0.27
+          },
+          {
+            "hex": "#A5ABB9",
+            "share": 0.097
+          },
+          {
+            "hex": "#B1B7C5",
+            "share": 0.093
+          },
+          {
+            "hex": "#2F2E33",
+            "share": 0.08
+          },
+          {
+            "hex": "#4D474D",
+            "share": 0.069
+          }
+        ],
+        "motion_energy": 7.36,
+        "script": "It's not just me, but I have a team of"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 15,
+      "start": 41.083,
+      "end": 45.712,
+      "length": 4.63,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#121011",
+            "share": 0.135
+          },
+          {
+            "hex": "#736A56",
+            "share": 0.114
+          },
+          {
+            "hex": "#747069",
+            "share": 0.105
+          },
+          {
+            "hex": "#8C8675",
+            "share": 0.092
+          },
+          {
+            "hex": "#2F2C2A",
+            "share": 0.081
+          }
+        ],
+        "motion_energy": 11.39,
+        "script": "amazing engineers, seriously brilliant people. Better we do training runs constantly."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 16,
+      "start": 45.712,
+      "end": 46.922,
+      "length": 1.209,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#101114",
+            "share": 0.316
+          },
+          {
+            "hex": "#2B2F2F",
+            "share": 0.21
+          },
+          {
+            "hex": "#6C7070",
+            "share": 0.06
+          },
+          {
+            "hex": "#4E504F",
+            "share": 0.046
+          },
+          {
+            "hex": "#1C2526",
+            "share": 0.038
+          }
+        ],
+        "motion_energy": 9.11,
+        "script": "I think everyone on our team is incredibly"
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 17,
+      "start": 46.922,
+      "end": 49.424,
+      "length": 2.502,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#D0CAC7",
+            "share": 0.383
+          },
+          {
+            "hex": "#0D0E0D",
+            "share": 0.177
+          },
+          {
+            "hex": "#B2ADAB",
+            "share": 0.099
+          },
+          {
+            "hex": "#909090",
+            "share": 0.069
+          },
+          {
+            "hex": "#282A29",
+            "share": 0.047
+          }
+        ],
+        "motion_energy": 5.69,
+        "script": "proud of what we have."
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    },
+    {
+      "id": 18,
+      "start": 49.424,
+      "end": 53.055,
+      "length": 3.63,
+      "observed": {
+        "palette": [
+          {
+            "hex": "#000000",
+            "share": 0.926
+          },
+          {
+            "hex": "#FAFAFA",
+            "share": 0.028
+          },
+          {
+            "hex": "#2F2E2F",
+            "share": 0.016
+          },
+          {
+            "hex": "#4A4A4A",
+            "share": 0.009
+          },
+          {
+            "hex": "#B0AFB0",
+            "share": 0.008
+          }
+        ],
+        "motion_energy": 4.98,
+        "script": null
+      },
+      "inferred": {
+        "scene_type": null,
+        "layer": null,
+        "animation": null,
+        "why_here": null
+      },
+      "unknown": [
+        "easing exacta",
+        "assets fuente",
+        "fuentes tipográficas exactas"
+      ]
+    }
+  ]
+}
