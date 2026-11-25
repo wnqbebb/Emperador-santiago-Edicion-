@@ -99,6 +99,40 @@
       "texturas": false
     },
     {
+      "id": "skylight",
+      "name": "Skylight",
+      "skill": "skylight",
+      "motor": "skylight",
+      "texturas": false,
+      "originales": false,
+      "description": "Clip premium hecho en código: tu cara arriba con subtítulo en dos niveles (fino + palabra clave que se desenfoca o hace glitch), b-roll con flechas a mano, animaciones en papel claro y «mundos»: un objeto flotando en el cielo, un atardecer, un estudio o el espacio.",
+      "preview": "",
+      "variantes": [
+        {
+          "id": "sky-premium",
+          "name": "Premium (el estilo tal cual)",
+          "recomendada": true,
+          "ideal": "Ideas, consejos y frases con peso",
+          "description": "~40 % cara, ~25 % b-roll, ~35 % pantallas completas con 2–4 mundos. Cortes que aterrizan desenfocados y enfocan.",
+          "enfoque": "Variante PREMIUM: reparte como el estilo (40/25/35) con 2–4 mundos en lo recomendado."
+        },
+        {
+          "id": "sky-mundos",
+          "name": "Mundos",
+          "ideal": "Historias e imágenes potentes",
+          "description": "Más mundos generados: cada cosa que nombras flota en un cielo, atardecer, estudio o espacio.",
+          "enfoque": "Variante MUNDOS: cada vez que se nombra un objeto o una imagen, un world (4–6 en lo recomendado), alternando sky, sunset, studio, night y space."
+        },
+        {
+          "id": "sky-datos",
+          "name": "Datos claros",
+          "ideal": "Cifras, comparaciones, pasos",
+          "description": "Animaciones en papel claro: barras, línea con umbral, orbes que se unen, casillas que se encienden.",
+          "enfoque": "Variante DATOS: cada cifra, comparación, cambio o lista con una animación blanca (bars, line, orbs, days) y la palabra clave en el resaltado [ ] o la píldora { }."
+        }
+      ]
+    },
+    {
       "id": "imperial",
       "name": "Imperial Santi",
       "description": "El estilo firma del Emperador: subtítulos dorados palabra a palabra, corona 3D, efectos y punch-ins. Sale en segundos.",

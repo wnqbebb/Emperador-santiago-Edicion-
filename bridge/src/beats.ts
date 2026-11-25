@@ -129,7 +129,7 @@ Devuelve SOLO el JSON de beats.json dentro de un bloque \`\`\`json.`;
   return { system, user, allowed, duration };
 }
 
-function extract(raw: string): Beats {
+export function extract(raw: string): Beats {
   const body = raw.match(/```json\s*([\s\S]*?)```/)?.[1] ?? raw;
   return JSON.parse(body.slice(body.indexOf("{"), body.lastIndexOf("}") + 1));
 }
@@ -175,7 +175,7 @@ export function sanitize(b: Beats, allowed: string[], duration: number, original
 }
 
 /** Pide el JSON al proveedor elegido (API o suscripción). */
-async function ask(provider: ProviderId, system: string, user: string) {
+export async function ask(provider: ProviderId, system: string, user: string) {
   if (provider === "claude-api") {
     const msg = await new Anthropic().beta.messages.stream({
       model: ANTHROPIC_MODEL, max_tokens: 64000,

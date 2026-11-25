@@ -12,6 +12,9 @@ test("las plantillas son familias con variantes (Arthur Brooks tiene 5)", async 
   expect(kal.skill).toBe("kallaway-editing");
   expect(kal.variantes.map((v: { vesStyle: string }) => v.vesStyle)).toEqual(["kallaway", "kallaway", "kallaway"]);
   expect(kal.paletaEstilo.vibrant_dark).toBe("#8B1A1E");
+  const sky = fams.find((f: { id: string }) => f.id === "skylight");
+  expect(sky.motor).toBe("skylight");
+  expect(sky.variantes).toHaveLength(3);
   expect(fams.map((f: { id: string }) => f.id)).toContain("imperial");
 });
 

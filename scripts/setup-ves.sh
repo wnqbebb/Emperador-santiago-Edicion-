@@ -14,6 +14,9 @@ ARTHUR=.claude/skills/arthur-brooks-editing/system
 [ -d "$ARTHUR/render" ] && (cd "$ARTHUR/render" && npm install --no-audit --no-fund >/dev/null)
 KALLAWAY=.claude/skills/kallaway-editing/system
 [ -d "$KALLAWAY/render" ] && (cd "$KALLAWAY/render" && npm install --no-audit --no-fund >/dev/null)
+echo "  → Skylight (usa el mismo Python y el HyperFrames del proyecto)"
+tools/.venv/bin/pip install -q soundfile
+PC_PY="$PWD/tools/.venv/bin/python" PC_HYPERFRAMES="$PWD/node_modules/.bin/hyperframes" node .claude/skills/skylight/scripts/pc.mjs setup | tail -3 || true
 echo "  → Plugin Edit Studio (movimientos, géneros, voz) → .claude/skills"
 for s in edit-director edit-voice; do rm -rf ".claude/skills/$s"; cp -R "$SKILL/plugins/edit-studio/skills/$s" ".claude/skills/$s"; done
 # edit-gen no se instala: la regla 2 del método prohíbe generar con IA de pago.

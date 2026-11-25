@@ -1,0 +1,391 @@
+{
+ "title": "The moment that would make him shut AI down",
+ "duration": 41.1,
+ "palette": 2,
+ "special_font": "sans",
+ "people": {
+  "roman": {
+   "name": "Roman Yampolskiy",
+   "title": "AI safety researcher"
+  },
+  "andy": {
+   "name": "Andrew McAfee",
+   "title": "Research scientist, MIT"
+  }
+ },
+ "scenes": [
+  {
+   "type": "aroll",
+   "s": 0.0,
+   "e": 2.18,
+   "in": "focus",
+   "namecard": {
+    "who": "roman",
+    "side": "left",
+    "t": 0.3,
+    "e": 3.7
+   }
+  },
+  {
+   "type": "aroll",
+   "s": 2.18,
+   "e": 4.13,
+   "in": "focus",
+   "punch": 1.35
+  },
+  {
+   "type": "aroll",
+   "s": 4.13,
+   "e": 6.65,
+   "in": "pan",
+   "namecard": {
+    "who": "andy",
+    "side": "right",
+    "t": 4.4,
+    "e": 6.5
+   }
+  },
+  {
+   "type": "broll",
+   "s": 6.65,
+   "e": 8.8,
+   "in": "pan",
+   "img": "assets/img/waymo.jpg",
+   "drift": [
+    0.05,
+    0,
+    0
+   ],
+   "box": [
+    560,
+    470,
+    470,
+    300,
+    7.5
+   ]
+  },
+  {
+   "type": "broll",
+   "s": 8.8,
+   "e": 12.6,
+   "in": "pan",
+   "img": "assets/img/crossing.jpg",
+   "drift": [
+    0.04,
+    0,
+    0
+   ],
+   "arrow": {
+    "from": [
+     900,
+     430
+    ],
+    "to": [
+     640,
+     730
+    ],
+    "t": 11.15,
+    "bend": 0.3
+   }
+  },
+  {
+   "type": "days",
+   "s": 12.6,
+   "e": 17.0,
+   "in": "pan",
+   "n": 30,
+   "top": 700,
+   "keys": [
+    [
+     13.4,
+     30,
+     1.8
+    ],
+    [
+     16.45,
+     7,
+     0.5
+    ]
+   ]
+  },
+  {
+   "type": "aroll",
+   "s": 17.0,
+   "e": 19.57,
+   "in": "return"
+  },
+  {
+   "type": "aroll",
+   "s": 19.57,
+   "e": 22.2,
+   "in": "pan"
+  },
+  {
+   "type": "orbs",
+   "s": 22.2,
+   "e": 24.15,
+   "in": "pan",
+   "labels": [
+    "month",
+    "week"
+   ],
+   "merge": 23.45
+  },
+  {
+   "type": "world",
+   "s": 24.15,
+   "e": 25.75,
+   "in": "pan",
+   "plate": "sky",
+   "clouds": true,
+   "objects": [
+    {
+     "img": "assets/img/hourglass.png",
+     "x": 690,
+     "y": 860,
+     "w": 560,
+     "r": -32,
+     "spin": 1.6,
+     "bob": 8,
+     "enter": "rise"
+    }
+   ]
+  },
+  {
+   "type": "world",
+   "s": 25.75,
+   "e": 26.85,
+   "in": "whipup",
+   "plate": "night",
+   "clouds": false,
+   "sparkle": 16
+  },
+  {
+   "type": "duo",
+   "s": 26.85,
+   "e": 29.0,
+   "in": "pan",
+   "img": "assets/img/andy.png",
+   "w": 980,
+   "left": "assets/img/mit.png",
+   "lw": 200,
+   "ly": 900,
+   "shape": true
+  },
+  {
+   "type": "aroll",
+   "s": 29.0,
+   "e": 30.93,
+   "in": "return"
+  },
+  {
+   "type": "line",
+   "s": 30.93,
+   "e": 34.4,
+   "in": "pan",
+   "pts": [
+    [
+     0,
+     0.12
+    ],
+    [
+     0.2,
+     0.2
+    ],
+    [
+     0.4,
+     0.3
+    ],
+    [
+     0.6,
+     0.45
+    ],
+    [
+     0.8,
+     0.68
+    ],
+    [
+     1,
+     0.9
+    ]
+   ],
+   "t": 31.45,
+   "dur": 2.4,
+   "threshold": [
+    0.6,
+    "demonstrable harm",
+    33.45
+   ],
+   "box": [
+    120,
+    760,
+    840,
+    720
+   ]
+  },
+  {
+   "type": "broll",
+   "s": 34.4,
+   "e": 36.95,
+   "in": "pan",
+   "img": "assets/img/street.jpg",
+   "drift": [
+    0.05,
+    0,
+    0
+   ],
+   "box": [
+    300,
+    600,
+    330,
+    330,
+    35.85
+   ]
+  },
+  {
+   "type": "broll",
+   "s": 36.95,
+   "e": 38.95,
+   "in": "pan",
+   "img": "assets/img/umbrellas.jpg",
+   "drift": [
+    0.05,
+    0,
+    0
+   ],
+   "arrow": {
+    "from": [
+     900,
+     380
+    ],
+    "to": [
+     690,
+     840
+    ],
+    "t": 37.3,
+    "bend": 0.3
+   }
+  },
+  {
+   "type": "aroll",
+   "s": 38.95,
+   "e": 39.5,
+   "in": "return"
+  },
+  {
+   "type": "aroll",
+   "s": 39.5,
+   "e": 41.1,
+   "in": "focus",
+   "punch": 1.35
+  }
+ ],
+ "captions": [
+  {
+   "s": 0.0,
+   "at": "what would / !!g convince you?"
+  },
+  {
+   "s": 0.84,
+   "at": "what piece of / !evidence"
+  },
+  {
+   "s": 2.18,
+   "at": "would make you go / !!shut it down / right now?"
+  },
+  {
+   "s": 4.32,
+   "at": "you know, if AI / !!g took over"
+  },
+  {
+   "s": 6.7,
+   "at": "all of the / !!Waymos / in San Francisco",
+   "pos": "bl"
+  },
+  {
+   "s": 8.84,
+   "at": "and started telling them to / !!crash into people",
+   "pos": "tl"
+  },
+  {
+   "s": 12.62,
+   "at": "and we couldn't / !!shut it down / for a month.",
+   "pos": "top",
+   "ink": "dark"
+  },
+  {
+   "s": 15.86,
+   "at": "what if it's only / !!a week?",
+   "pos": "top",
+   "ink": "dark"
+  },
+  {
+   "s": 17.08,
+   "at": "okay. now we're just / !!g haggling."
+  },
+  {
+   "s": 19.18,
+   "at": "but I'm trying to understand"
+  },
+  {
+   "s": 19.78,
+   "at": "the / !!absolute minimum / where you would go."
+  },
+  {
+   "s": 21.64,
+   "at": "this is / !!g insane."
+  },
+  {
+   "s": 22.26,
+   "at": "to me, / !!month or week / makes no difference.",
+   "pos": "top",
+   "ink": "dark"
+  },
+  {
+   "s": 24.18,
+   "at": "if something like this / !happens,",
+   "pos": "top"
+  },
+  {
+   "s": 25.44,
+   "at": "like, it's maybe / !!too late.",
+   "pos": "mid"
+  },
+  {
+   "s": 26.82,
+   "at": "okay, if a week or a month / !!doesn't make / any difference,",
+   "pos": "top",
+   "ink": "dark"
+  },
+  {
+   "s": 29.0,
+   "at": "let me continue / !with my answer."
+  },
+  {
+   "s": 31.26,
+   "at": "then I would say, / !!g wow,",
+   "pos": "top",
+   "ink": "dark"
+  },
+  {
+   "s": 32.46,
+   "at": "this does feel like we've / !!crossed some path",
+   "pos": "top",
+   "ink": "dark"
+  },
+  {
+   "s": 34.44,
+   "at": "where there's / !!demonstrable harm",
+   "pos": "bl"
+  },
+  {
+   "s": 36.98,
+   "at": "to human beings / !out there in the world,",
+   "pos": "bl"
+  },
+  {
+   "s": 39.04,
+   "at": "which has / !!not yet / been the case."
+  }
+ ]
+}

@@ -9,7 +9,8 @@ import { DATA } from "./store.js";
 import { startRender, getRender, type Engine } from "./render.js";
 import { FX_DIR } from "./fxbake.js";
 import { startMontaje, getMontaje, analizarMontaje, renderMontaje, MONTAJE_DIR } from "./montaje.js";
-import { plantillas, familias, startFlujo, getFlujo, elegir, replanificar, tablero, flujoFiles, paletaDeVideo, cuadro } from "./flujo.js";
+import { plantillas, familias, startFlujo, getFlujo, elegir, replanificar, tablero, flujoFiles, paletaDeVideo, cuadro, pedirPrompts } from "./flujo.js";
+import { skyPath } from "./skylight.js";
 import { searchIdeas, startMotion, getMotion, renderMotionHtml, MOTION_DIR } from "./motion.js";
 import { startAnalysis, getAnalysis, reaInstalled } from "./analyze.js";
 import { runVes, getVesJob, humanAction, confirmPhrase, listVesStyles, listProjects, projectStatus, vesPath, vesInstalled, type VesScript } from "./ves.js";
@@ -147,8 +148,9 @@ createServer(async (req, res) => {
       const respuestas = { energia: r.energia ?? "viral", texturas: Number(r.texturas ?? 0.4), palette: r.palette, originales: r.originales !== false, broll: [], rapido: !!r.rapido, notas: r.notas, fuentes: Array.isArray(r.fuentes) ? r.fuentes.map(String).slice(0, 8) : undefined };
       return send(res, 200, startFlujo({ videoPath, plantilla: String(b.plantilla), provider: b.provider, name: b.name, respuestas, brollFiles }));
     }
-    const fl = p.match(/^\/api\/flujo\/([\w-]+)(?:\/(elegir|tablero|replan|cuadro))?$/);
+    const fl = p.match(/^\/api\/flujo\/([\w-]+)(?:\/(elegir|tablero|replan|cuadro|prompts))?$/);
     if (fl) {
+      if (fl[2] === "prompts" && req.method === "POST") { const b = await body(req); return send(res, 200, pedirPrompts(fl[1], b.base === "pedido" ? "pedido" : "sugerencia", String(b.pedido ?? ""), b.beat ? String(b.beat) : undefined)); }
       if (fl[2] === "elegir" && req.method === "POST") return send(res, 200, elegir(fl[1], (await body(req)).picks ?? {}));
       if (fl[2] === "replan" && req.method === "POST") return send(res, 200, replanificar(fl[1], await body(req)));
       if (fl[2] === "tablero") return send(res, 200, tablero(fl[1]));
@@ -179,6 +181,13 @@ createServer(async (req, res) => {
     if (vj) return send(res, 200, getVesJob(vj[1]) ?? { error: "No existe" });
     const vp = p.match(/^\/api\/ves\/project\/([\w.-]+)$/);
     if (vp) return send(res, 200, projectStatus(vp[1], url.searchParams.get("skill") ?? undefined));
+    const sf = p.match(/^\/skylight-files\/([\w.-]+)\/(.+)$/);
+    if (sf) {
+      const full = skyPath(sf[1], decodeURIComponent(sf[2]));
+      if (!existsSync(full)) return send(res, 404, { error: "No existe" });
+      const ext = extname(full).slice(1);
+      return serveFile(req, res, full, ({ mp4: "video/mp4", html: "text/html; charset=utf-8", md: "text/markdown; charset=utf-8", png: "image/png", jpg: "image/jpeg" } as Record<string, string>)[ext] ?? "application/octet-stream");
+    }
     if (p.startsWith("/ves-files/")) {
       const full = vesPath(decodeURIComponent(p.slice("/ves-files/".length)), url.searchParams.get("skill") ?? undefined);
       if (!existsSync(full) || statSync(full).isDirectory()) return send(res, 404, { error: "No existe" });

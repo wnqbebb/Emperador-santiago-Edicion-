@@ -70,18 +70,19 @@ export const abs = (path: string) => (path.startsWith("http") ? path : BASE + pa
 
 // ---------- Plantillas de estilo → flujo con preguntas y tablero
 export type Variante = { id: string; name: string; description: string; vesStyle?: string; styleId?: string; preview?: string; ideal?: string; recomendada?: boolean };
-export type Familia = { id: string; name: string; description: string; motor: "ves" | "rapido"; skill?: string; preview?: string; paletaEstilo?: Record<string, string>; preguntaFuentes?: boolean; texturas?: boolean; variantes: Variante[] };
+export type Familia = { id: string; name: string; description: string; motor: "ves" | "rapido" | "skylight"; originales?: boolean; skill?: string; preview?: string; paletaEstilo?: Record<string, string>; preguntaFuentes?: boolean; texturas?: boolean; variantes: Variante[] };
 export type Paleta = { frame: string; options: { name: string; from: string; colors: Record<"vibrant_bright" | "vibrant_dark" | "dull_white" | "dull_black", string>; caption: string; recommended?: boolean }[] };
-export type KScene = { type: string; start: number; end: number; props?: { top?: { kind?: string; media?: string[]; placeholder?: string; original?: string } } & Record<string, unknown> };
+export type KScene = { type: string; start?: number; end?: number; s?: number; e?: number; plate?: string; props?: { top?: { kind?: string; media?: string[]; placeholder?: string; original?: string } } & Record<string, unknown> };
 export type Opt = { title: string; cats?: string; desc?: string; ref?: string; type: string | null; props?: Record<string, unknown>; scenes?: KScene[] };
 export type Beats = { title: string; beats: { id: string; start: number; end: number; script: string; seen: string; pick: "A" | "B" | "C"; opts: Opt[] }[];
   assets?: Asset[] };
-export type Asset = { id: string; name: string; kind: string; ar: string; prompt: string; negative?: string; for_beat?: string; is_ref?: boolean;
+export type Asset = { origen?: string; id: string; name: string; kind: string; ar: string; prompt: string; negative?: string; for_beat?: string; is_ref?: boolean;
   modelo?: string; resolucion?: string; duracion?: string; referencia?: string; archivo?: string; en_pantalla?: string; resumen?: string;
   bloques?: Record<"referencias" | "contexto" | "mapa_espacial" | "accion" | "camara" | "luz_textura" | "bloqueos", string> };
 export type Tablero = { beats: Beats; thumbs: Record<string, string> };
 export type FlujoJob = { id: string; project: string; plantilla: string; status: "running" | "tablero" | "review" | "error"; step: string; steps: string[]; current: number; log: string[]; error?: string;
-  beats?: number; scenes?: number; assets?: number; originales?: number; project_status?: VesProject; skill?: string; evidencia?: { id: string; url: string; title: string; path: string }[] };
+  beats?: number; scenes?: number; assets?: number; originales?: number; project_status?: VesProject; skill?: string; motor?: "ves" | "skylight";
+  prompts?: { status: "running" | "done" | "error"; base: string; pedido?: string; nuevos?: string[]; error?: string }; evidencia?: { id: string; url: string; title: string; path: string }[] };
 export const familias = () => j<Familia[]>("/api/familias");
 export type Fuente = { montajeId?: string; mediaId?: string };
 export const paleta = (src: Fuente) => j<Paleta>("/api/paleta", { method: "POST", body: JSON.stringify(src) });
@@ -93,4 +94,6 @@ export const tablero = (id: string) => j<Tablero>(`/api/flujo/${id}/tablero`);
 export const elegir = (id: string, picks: Record<string, string>) => j<FlujoJob>(`/api/flujo/${id}/elegir`, { method: "POST", body: JSON.stringify({ picks }) });
 export const replan = (id: string, cambios: Record<string, unknown>) => j<FlujoJob>(`/api/flujo/${id}/replan`, { method: "POST", body: JSON.stringify(cambios) });
 
+export const skyFileUrl = (project: string, rel: string) => `${BASE}/skylight-files/${project}/${rel.split("/").map(encodeURIComponent).join("/")}`;
+export const pedirPrompts = (id: string, b: { base: "sugerencia" | "pedido"; pedido?: string; beat?: string }) => j<FlujoJob>(`/api/flujo/${id}/prompts`, { method: "POST", body: JSON.stringify(b) });
 export const cuadroUrl = (id: string, t: number) => `${BASE}/api/flujo/${id}/cuadro?t=${t.toFixed(1)}`;

@@ -10,7 +10,8 @@ import { fileURLToPath } from "node:url";
 import { randomUUID } from "node:crypto";
 import { execFileSync } from "node:child_process";
 import { runVes, waitVes, projectStatus, skillSystem } from "./ves.js";
-import { planBeats, type Beats, type PlanOpts } from "./beats.js";
+import { planBeats, ask, extract, type Beats, type PlanOpts } from "./beats.js";
+import { SKY_DATA, skyDir, skyPrepare, injectPalette, skyPrompt, skySanitize, skyBuild, skyStatus, skyBroll, type SBeats } from "./skylight.js";
 import { KAL_SKILL, type KBeats, type Fuente } from "./beats_kal.js";
 import { writeMotionHtml, renderMotionHtml } from "./motion.js";
 import type { ProviderId } from "./providers/index.js";
@@ -20,9 +21,9 @@ const PY = join(ROOT, "tools/.venv/bin/python");
 
 // Plantillas = familias de estilo (Arthur Brooks, Imperial Santi y las que vengan) con sus variantes (formatos)
 export type Variante = { id: string; name: string; description: string; enfoque?: string; vesStyle?: string; styleId?: string; preview?: string; ideal?: string; recomendada?: boolean };
-export type Familia = { id: string; name: string; description: string; motor: "ves" | "rapido"; skill?: string; preview?: string; paletaEstilo?: Record<string, string>; preguntaFuentes?: boolean; variantes: Variante[] };
+export type Familia = { id: string; name: string; description: string; motor: "ves" | "rapido" | "skylight"; skill?: string; preview?: string; paletaEstilo?: Record<string, string>; preguntaFuentes?: boolean; variantes: Variante[] };
 export const familias = (): Familia[] => JSON.parse(readFileSync(join(ROOT, "plantillas/plantillas.json"), "utf8")).familias;
-export type Plantilla = Variante & { motor: "ves" | "rapido"; familia: string; familiaName: string; skill?: string };
+export type Plantilla = Variante & { motor: "ves" | "rapido" | "skylight"; familia: string; familiaName: string; skill?: string };
 export const plantillas = (): Plantilla[] => familias().flatMap((f) => f.variantes.map((v) => ({ ...v, motor: f.motor, familia: f.id, familiaName: f.name, skill: f.skill, preview: v.preview || f.preview })));
 /** Skills con motor VES propio (cada una guarda sus proyectos en su system/projects). */
 const skills = () => [...new Set(familias().filter((f) => f.motor === "ves").map((f) => f.skill))];
@@ -47,15 +48,15 @@ export type Respuestas = {
 export type FlujoJob = {
   id: string; project: string; plantilla: string; status: "running" | "tablero" | "review" | "error";
   step: string; steps: string[]; current: number; log: string[]; error?: string; beats?: number; scenes?: number; assets?: number; originales?: number;
-  provider: ProviderId; respuestas: Respuestas; vesStyle: string; skill?: string; evidencia?: Fuente[];
+  provider: ProviderId; respuestas: Respuestas; vesStyle: string; skill?: string; evidencia?: Fuente[]; motor?: "ves" | "skylight";
+  prompts?: { status: "running" | "done" | "error"; base: "sugerencia" | "pedido"; pedido?: string; nuevos?: string[]; error?: string };
 };
 const jobs = new Map<string, FlujoJob>();
 // El flujo se guarda en el proyecto: si el bridge se reinicia, se retoma donde iba
 function save(job: FlujoJob) { try { writeFileSync(join(dirOf(job), "flujo.json"), JSON.stringify(job)); } catch { /* aún sin carpeta */ } }
 export function getFlujo(id: string) {
   if (jobs.has(id)) return jobs.get(id);
-  for (const sk of skills()) {
-  const root = join(skillSystem(sk), "projects");
+  for (const root of [...skills().map((sk) => join(skillSystem(sk), "projects")), SKY_DATA]) {
   for (const p of existsSync(root) ? readdirSync(root) : []) {
     const f = join(root, p, "flujo.json");
     if (!existsSync(f)) continue;
@@ -70,7 +71,9 @@ export function getFlujo(id: string) {
 const fail = (job: FlujoJob) => (e: unknown) => { job.status = "error"; job.error = (e as Error).message; save(job); };
 
 const STEPS = ["Preparando el proyecto", "Transcribiendo y cortando a 30 ms", "Tu IA propone los beats A/B/C", "Tablero de preedición (tú eliges)", "Motion graphics originales", "Subtítulos, validación y storyboard", "Borrador con sonido"];
-const dirOf = (job: Pick<FlujoJob, "project" | "skill">) => join(skillSystem(job.skill), "projects", job.project);
+const dirOf = (job: Pick<FlujoJob, "project" | "skill" | "motor">) => (job.motor === "skylight" ? skyDir(job.project) : join(skillSystem(job.skill), "projects", job.project));
+const isSky = (job: FlujoJob) => job.motor === "skylight";
+const SKY_STEPS = ["Preparando el proyecto", "Palabras y cara arriba (9:16 con seguimiento)", "Tu IA propone los beats A/B/C", "Tablero de preedición (tú eliges)", "Imágenes libres (Wikimedia Commons)", "Plan: mundos, animaciones y subtítulos", "Render HyperFrames y mezcla"];
 const isKal = (job: FlujoJob) => job.skill === KAL_SKILL;
 
 async function step(job: FlujoJob, i: number, cmds: { script: Parameters<typeof runVes>[0]; args: string[] }[]) {
@@ -85,9 +88,10 @@ async function step(job: FlujoJob, i: number, cmds: { script: Parameters<typeof 
 
 export function startFlujo(args: { videoPath: string; plantilla: string; provider: ProviderId; name?: string; respuestas: Respuestas; brollFiles?: { path: string; desc: string }[] }) {
   const p = plantillas().find((x) => x.id === args.plantilla);
-  if (!p || p.motor !== "ves" || !p.vesStyle) throw new Error("Plantilla desconocida o no es del motor VES");
+  if (!p || (p.motor === "ves" && !p.vesStyle) || p.motor === "rapido") throw new Error("Plantilla desconocida o no es una edición por flujo");
+  if (p.motor === "skylight") return startSky(p, args);
   const project = (args.name ?? `video-${new Date().toISOString().slice(5, 16).replace(/[-:T]/g, "")}`).replace(/[^\w.-]/g, "-");
-  const job: FlujoJob = { id: randomUUID().slice(0, 8), project, plantilla: p.id, status: "running", step: STEPS[0], steps: STEPS, current: 0, log: [], provider: args.provider, respuestas: args.respuestas, vesStyle: p.vesStyle, skill: p.skill };
+  const job: FlujoJob = { id: randomUUID().slice(0, 8), project, plantilla: p.id, status: "running", step: STEPS[0], steps: STEPS, current: 0, log: [], provider: args.provider, respuestas: args.respuestas, vesStyle: p.vesStyle!, skill: p.skill };
   jobs.set(job.id, job);
   (async () => {
     await step(job, 0, [{ script: "ves", args: ["new", project, "--video", args.videoPath, "--style", p.vesStyle!] }]);
@@ -122,6 +126,22 @@ export function startFlujo(args: { videoPath: string; plantilla: string; provide
   return job;
 }
 
+/** Skylight: el clip completo → palabras, cara arriba con seguimiento, paleta; después el plan con la IA. */
+function startSky(p: Plantilla, args: { videoPath: string; provider: ProviderId; name?: string; respuestas: Respuestas; brollFiles?: { path: string; desc: string }[] }) {
+  const project = (args.name ?? `sky-${new Date().toISOString().slice(5, 16).replace(/[-:T]/g, "")}`).replace(/[^\w.-]/g, "-");
+  const job: FlujoJob = { id: randomUUID().slice(0, 8), project, plantilla: p.id, status: "running", step: SKY_STEPS[0], steps: SKY_STEPS, current: 0, log: [], provider: args.provider, respuestas: args.respuestas, vesStyle: "", skill: p.skill, motor: "skylight" };
+  jobs.set(job.id, job);
+  (async () => {
+    const dir = await skyPrepare(project, args.videoPath, job.log, (i) => { job.current = i; job.step = SKY_STEPS[i]; save(job); });
+    const pal = job.respuestas.palette ?? paletaDeVideo(join(dir, "raw/podcast.mp4"), join(dir, "_paleta")).options[0]?.colors;
+    injectPalette(dir, pal);
+    const broll = skyBroll(project, args.brollFiles ?? []);
+    job.respuestas = { ...job.respuestas, palette: pal, broll };
+    await plan(job);
+  })().catch(fail(job));
+  return job;
+}
+
 /** Ajustes automáticos antes de validar: escenas más cortas que el mínimo del estilo se alargan hasta la
  *  siguiente o se quitan (queda la cara); nada pasa del final del video. */
 function autofix(job: FlujoJob) {
@@ -144,8 +164,19 @@ function autofix(job: FlujoJob) {
 }
 
 async function plan(job: FlujoJob) {
-  job.status = "running"; job.current = 2; job.step = STEPS[2];
+  job.status = "running"; job.current = 2; job.step = job.steps[2];
   const r = job.respuestas;
+  if (isSky(job)) {
+    const enfoque = plantillas().find((x) => x.id === job.plantilla)?.enfoque;
+    const po: PlanOpts = { energia: r.energia, originales: false, broll: r.broll, notas: [enfoque, r.notas].filter(Boolean).join("\n") || undefined, palette: r.palette };
+    const { system, user, duration } = skyPrompt(job.project, po);
+    const beats = skySanitize(extract(await ask(job.provider, system, user)) as unknown as SBeats, duration, r.broll);
+    writeFileSync(join(dirOf(job), "beats.json"), JSON.stringify(beats, null, 1));
+    job.beats = beats.beats.length; job.assets = beats.assets?.length ?? 0;
+    if (r.rapido) return build(job, {});
+    job.current = 3; job.status = "tablero"; job.step = "Tablero de preedición: elige A/B/C en cada beat"; save(job);
+    return;
+  }
   const enfoque = plantillas().find((x) => x.id === job.plantilla)?.enfoque;
   const po: PlanOpts = { energia: r.energia, originales: r.originales, broll: r.broll, notas: [enfoque, r.notas].filter(Boolean).join("\n") || undefined, palette: r.palette, fuentes: job.evidencia };
   const beats = await planBeats(job.provider, job.vesStyle, job.project, po, job.skill);
@@ -167,6 +198,15 @@ async function build(job: FlujoJob, picks: Record<string, string>) {
   job.status = "running";
   const dir = dirOf(job);
   if (isKal(job)) return buildKal(job, picks);
+  if (isSky(job)) {
+    const beats = JSON.parse(readFileSync(join(dir, "beats.json"), "utf8")) as SBeats;
+    for (const b of beats.beats) if (picks[b.id]) b.pick = picks[b.id] as "A" | "B" | "C";
+    writeFileSync(join(dir, "beats.json"), JSON.stringify(beats, null, 1));
+    const r = await skyBuild(job.project, beats, job.log, (i) => { job.current = i; job.step = job.steps[i]; save(job); }, job.provider);
+    job.scenes = r.scenes;
+    job.current = job.steps.length; job.step = "Video listo para revisar"; job.status = "review"; save(job);
+    return;
+  }
   const beats = JSON.parse(readFileSync(join(dir, "beats.json"), "utf8")) as Beats;
   for (const b of beats.beats) if (picks[b.id]) b.pick = picks[b.id] as "A" | "B" | "C";
   // motion graphics originales: la IA los escribe para HyperFrames en la paleta del video y se renderizan
@@ -299,7 +339,7 @@ export function tablero(id: string) {
   return { beats, thumbs };
 }
 
-export const flujoFiles = (job: FlujoJob) => projectStatus(job.project, job.skill);
+export const flujoFiles = (job: FlujoJob) => (isSky(job) ? skyStatus(job.project) : projectStatus(job.project, job.skill));
 
 /** Cuadro real del video en un segundo (para "quedarse en la cara" en el tablero). */
 export function cuadro(id: string, t: number) {
@@ -308,6 +348,56 @@ export function cuadro(id: string, t: number) {
   const dir = join(dirOf(job), "_cuadros");
   mkdirSync(dir, { recursive: true });
   const f = join(dir, `${t.toFixed(1)}.jpg`);
-  if (!existsSync(f)) execFileSync("ffmpeg", ["-v", "error", "-y", "-ss", t.toFixed(2), "-i", join(dirOf(job), "media/raw_cut.mp4"), "-frames:v", "1", "-vf", "scale=180:-2", "-q:v", "4", f]);
+  if (!existsSync(f)) execFileSync("ffmpeg", ["-v", "error", "-y", "-ss", t.toFixed(2), "-i", join(dirOf(job), isSky(job) ? "work/aroll.mp4" : "media/raw_cut.mp4"), "-frames:v", "1", "-vf", "scale=180:-2", "-q:v", "4", f]);
   return f;
+}
+
+/** Pedir prompts: de lo que SUGIERE el plan (las opciones elegidas) o de lo que Santiago PIDE con sus palabras.
+ *  La IA escribe encargos profesionales en 7 bloques (no genera nada: regla 2) y se suman a la lista de assets. */
+export function pedirPrompts(id: string, base: "sugerencia" | "pedido", pedido = "", beatId?: string) {
+  const job = getFlujo(id);
+  if (!job) throw new Error("No existe ese flujo");
+  if (job.prompts?.status === "running") throw new Error("Ya estoy escribiendo prompts");
+  if (base === "pedido" && !pedido.trim()) throw new Error("Escribe qué prompts quieres");
+  job.prompts = { status: "running", base, pedido: pedido.slice(0, 2000) }; save(job);
+  (async () => {
+    const dir = dirOf(job);
+    const bf = join(dir, "beats.json");
+    const beats = JSON.parse(readFileSync(bf, "utf8")) as { title: string; beats: { id: string; start: number; end: number; script: string; pick: string; opts: unknown[] }[]; assets?: { id: string; name?: string; resumen?: string }[] };
+    const wf = isSky(job) ? join(dir, "work/words.json") : join(dir, "transcript_cut.json");
+    const words = existsSync(wf) ? (JSON.parse(readFileSync(wf, "utf8")).words as { w: string }[]).map((w) => w.w).join(" ") : "";
+    const elegidas = beats.beats.filter((b) => !beatId || b.id === beatId).map((b) => `${b.id} ${b.start.toFixed(1)}–${b.end.toFixed(1)} s «${b.script}» → opción ${b.pick}: ${JSON.stringify(b.opts["ABC".indexOf(b.pick)]).slice(0, 900)}`).join("\n");
+    const pal = job.respuestas.palette ?? {};
+    const ya = (beats.assets ?? []).map((a) => `${a.id} ${a.name ?? ""}: ${a.resumen ?? ""}`).join("\n") || "(ninguno)";
+    const fam = plantillas().find((x) => x.id === job.plantilla);
+    const system = `Eres director de arte y prompt engineer de "Emperador Santiago · Edición de Videos". Escribes encargos de material (imagen o video) PROFESIONALES y específicos, listos para copiar en el modelo indicado. Nunca generas nada tú (lo genera Santiago).
+Formato de cada asset (JSON): {"id":"P01","name","kind":"image|video|illustration|texture","modelo":"el más adecuado: imagen Nano Banana Pro / GPT Image; video Seedance 2.5 / Kling / Veo",
+ "ar":"9:16|4:5|1:1|1080x940","resolucion","duracion":"solo video: el doble de lo que sale en pantalla, mín. 4 s","en_pantalla":"b03 · 7.2–8.4 s","referencia":"qué usar de referencia para la consistencia","is_ref":true|false,
+ "bloques":{"referencias":"función de cada referencia","contexto":"qué es, para qué marca y video, estilo","mapa_espacial":"dónde va cada cosa en el cuadro","accion":"UNA acción concreta","camara":"lente, plano, movimiento + dosis + límite","luz_textura":"luz, paleta con HEX, textura y grano","bloqueos":"lo que no puede cambiar"},
+ "prompt":"el prompt completo EN INGLÉS uniendo los 7 bloques en un párrafo fluido","resumen":"una línea en español","negative":"en inglés","archivo":"P01_nombre.png","for_beat":"b03"}`;
+    const user = `Video: «${beats.title}» · estilo ${fam?.familiaName ?? ""} · ${fam?.name ?? ""}
+Paleta del video: ${JSON.stringify(pal)}
+Lo que se dice: ${words.slice(0, 6000)}
+Lo elegido en el tablero:
+${elegidas}
+Assets que ya tienen prompt (no los repitas):
+${ya}
+
+${base === "pedido" ? `PEDIDO DE SANTIAGO (manda; haz exactamente esto, con el número de prompts que pida): ${pedido}` : "Escribe los prompts del material que SUGIERE el plan elegido y que todavía no tiene prompt: b-roll, objetos, fondos, mundos, capturas a recrear, planos que le darían más fuerza viral. Máximo 6, los más importantes primero."}
+Devuelve SOLO {"assets": [ … ]} en un bloque \`\`\`json.`;
+    const out = extract(await ask(job.provider, system, user)) as unknown as { assets?: Record<string, unknown>[] };
+    const n0 = (beats.assets ?? []).length;
+    const nuevos = (out.assets ?? []).slice(0, 10).map((a, i) => {
+      const idn = `P${String(n0 + i + 1).padStart(2, "0")}`;
+      const bl = a.bloques as Record<string, string> | undefined;
+      const prompt = (a.prompt as string) || (bl ? Object.values(bl).filter(Boolean).join(" ") : "");
+      const ar = String(a.ar ?? "").match(/\d+\s*[:x/]\s*\d+/)?.[0]?.replace(/\s/g, "") ?? "9:16";
+      return { ...a, id: idn, ar, prompt, origen: base, archivo: (a.archivo as string)?.replace(/^\w+?_/, `${idn}_`) || `${idn}_${String(a.name ?? "asset").replace(/[^\w-]+/g, "-")}.${/video/.test(String(a.kind)) ? "mp4" : "png"}` };
+    });
+    beats.assets = [...(beats.assets ?? []), ...nuevos] as typeof beats.assets;
+    writeFileSync(bf, JSON.stringify(beats, null, 1));
+    job.assets = beats.assets!.length;
+    job.prompts = { ...job.prompts!, status: "done", nuevos: nuevos.map((a) => a.id) }; save(job);
+  })().catch((e) => { job.prompts = { ...job.prompts!, status: "error", error: (e as Error).message }; save(job); });
+  return job;
 }

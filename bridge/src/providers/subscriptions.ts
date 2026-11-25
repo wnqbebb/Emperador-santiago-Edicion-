@@ -13,10 +13,12 @@ const COMMANDS: Record<CliId, [string, string[]]> = {
   "gemini-cli": ["gemini", ["-p", ORDER]],
 };
 
-export function runCli(id: CliId, prompt: string, timeoutMs = 10 * 60_000): Promise<string> {
-  const [cmd, args] = COMMANDS[id];
+/** opts.mirar: carpeta con imágenes que el modelo puede abrir (solo lectura) para elegir con la vista. */
+export function runCli(id: CliId, prompt: string, timeoutMs = 10 * 60_000, opts: { mirar?: string } = {}): Promise<string> {
+  const [cmd, base] = COMMANDS[id];
+  const args = opts.mirar && id === "claude-cli" ? [...base, "--allowedTools", "Read"] : base;
   return new Promise((resolve, reject) => {
-    const child = spawn(cmd, args, { stdio: ["pipe", "pipe", "pipe"] });
+    const child = spawn(cmd, args, { stdio: ["pipe", "pipe", "pipe"], cwd: opts.mirar });
     let out = "";
     let err = "";
     const timer = setTimeout(() => child.kill("SIGTERM"), timeoutMs);

@@ -1,0 +1,438 @@
+{
+ "title": "What business idea should I pursue?",
+ "duration": 46.2,
+ "palette": 0,
+ "special_font": "sans",
+ "people": {
+  "alex": {
+   "name": "Alex Hormozi",
+   "title": "Founder, Acquisition.com"
+  }
+ },
+ "scenes": [
+  {
+   "type": "broll",
+   "s": 0.0,
+   "e": 1.52,
+   "in": "focus",
+   "img": "assets/img/street.jpg",
+   "drift": [
+    0.05,
+    0,
+    0
+   ],
+   "box": [
+    300,
+    600,
+    330,
+    330,
+    0.55
+   ]
+  },
+  {
+   "type": "duo",
+   "s": 1.52,
+   "e": 3.42,
+   "in": "pan",
+   "img": "assets/img/alex.png",
+   "w": 1080,
+   "shape": true
+  },
+  {
+   "type": "aroll",
+   "s": 3.42,
+   "e": 6.25,
+   "in": "pan",
+   "namecard": {
+    "who": "alex",
+    "side": "right",
+    "t": 3.7,
+    "e": 6.1
+   }
+  },
+  {
+   "type": "orbs",
+   "s": 6.25,
+   "e": 8.7,
+   "in": "pan",
+   "labels": [
+    "pain",
+    "profession",
+    "passion"
+   ],
+   "pos": [
+    [
+     290,
+     1000
+    ],
+    [
+     790,
+     900
+    ],
+    [
+     560,
+     1330
+    ]
+   ],
+   "c": [
+    540,
+    1060
+   ]
+  },
+  {
+   "type": "world",
+   "s": 8.7,
+   "e": 10.9,
+   "in": "pan",
+   "plate": "studio",
+   "sparkle": 10,
+   "objects": [
+    {
+     "img": "assets/img/kit.png",
+     "x": 540,
+     "y": 760,
+     "w": 520,
+     "r": -8,
+     "spin": 2.2,
+     "enter": "drop",
+     "glow": true
+    }
+   ]
+  },
+  {
+   "type": "world",
+   "s": 10.9,
+   "e": 15.0,
+   "in": "pan",
+   "plate": "sky",
+   "objects": [
+    {
+     "img": "assets/img/chair.png",
+     "x": 560,
+     "y": 720,
+     "w": 600,
+     "r": 12,
+     "spin": -2.5,
+     "enter": "rise"
+    }
+   ]
+  },
+  {
+   "type": "world",
+   "s": 15.0,
+   "e": 16.45,
+   "in": "pan",
+   "plate": "sunset",
+   "sparkle": 12,
+   "objects": [
+    {
+     "img": "assets/img/guitar.png",
+     "x": 600,
+     "y": 560,
+     "w": 480,
+     "r": -24,
+     "spin": 3,
+     "enter": "drop"
+    }
+   ]
+  },
+  {
+   "type": "aroll",
+   "s": 16.45,
+   "e": 19.4,
+   "in": "return"
+  },
+  {
+   "type": "broll",
+   "s": 19.4,
+   "e": 23.55,
+   "in": "pan",
+   "img": "assets/img/office.jpg",
+   "drift": [
+    0.05,
+    0,
+    0
+   ],
+   "arrow": {
+    "from": [
+     880,
+     640
+    ],
+    "to": [
+     600,
+     1110
+    ],
+    "t": 20.9,
+    "bend": 0.3
+   }
+  },
+  {
+   "type": "world",
+   "s": 23.55,
+   "e": 25.85,
+   "in": "pan",
+   "plate": "sky",
+   "objects": [
+    {
+     "img": "assets/img/bill.png",
+     "x": 330,
+     "y": 560,
+     "w": 560,
+     "r": -18,
+     "spin": 7,
+     "enter": "drop",
+     "t": 23.62
+    },
+    {
+     "img": "assets/img/bill.png",
+     "x": 760,
+     "y": 820,
+     "w": 560,
+     "r": 16,
+     "spin": -6,
+     "enter": "drop",
+     "t": 23.84
+    },
+    {
+     "img": "assets/img/bill.png",
+     "x": 420,
+     "y": 1080,
+     "w": 560,
+     "r": 7,
+     "spin": 5,
+     "enter": "drop",
+     "t": 24.06
+    },
+    {
+     "img": "assets/img/bill.png",
+     "x": 720,
+     "y": 1330,
+     "w": 560,
+     "r": -11,
+     "spin": -7,
+     "enter": "drop",
+     "t": 24.28
+    }
+   ]
+  },
+  {
+   "type": "aroll",
+   "s": 25.85,
+   "e": 29.5,
+   "in": "return"
+  },
+  {
+   "type": "broll",
+   "s": 29.5,
+   "e": 32.8,
+   "in": "pan",
+   "img": "assets/img/laptop.jpg",
+   "drift": [
+    0.05,
+    0,
+    0
+   ],
+   "box": [
+    600,
+    560,
+    420,
+    330,
+    30.9
+   ]
+  },
+  {
+   "type": "days",
+   "s": 32.8,
+   "e": 38.05,
+   "in": "pan",
+   "top": 720,
+   "labels": [
+    "Sales",
+    "Marketing",
+    "Support",
+    "Product",
+    "Design",
+    "Web pages",
+    "Finance",
+    "Hiring",
+    "Content"
+   ],
+   "keys": [
+    [
+     33.4,
+     9,
+     1.4
+    ]
+   ]
+  },
+  {
+   "type": "aroll",
+   "s": 38.05,
+   "e": 40.25,
+   "in": "return"
+  },
+  {
+   "type": "days",
+   "s": 40.25,
+   "e": 41.6,
+   "in": "pan",
+   "top": 720,
+   "labels": [
+    "Sales",
+    "Marketing",
+    "Support",
+    "Product",
+    "Design",
+    "Web pages",
+    "Finance",
+    "Hiring",
+    "Content"
+   ],
+   "keys": [
+    [
+     40.25,
+     9,
+     0.01
+    ],
+    [
+     40.62,
+     1,
+     0.45
+    ]
+   ]
+  },
+  {
+   "type": "aroll",
+   "s": 41.6,
+   "e": 42.05,
+   "in": "return"
+  },
+  {
+   "type": "aroll",
+   "s": 42.05,
+   "e": 46.2,
+   "in": "focus",
+   "punch": 1.16
+  }
+ ],
+ "captions": [
+  {
+   "s": 0.0,
+   "at": "someone looks at you / !in the street / and they say,",
+   "pos": "bl"
+  },
+  {
+   "s": 1.56,
+   "at": "Alex, what idea / !!should I pursue?",
+   "pos": "top",
+   "ink": "dark"
+  },
+  {
+   "s": 2.76,
+   "at": "I've just / !!quit my job.",
+   "pos": "top",
+   "ink": "dark"
+  },
+  {
+   "s": 4.22,
+   "at": "so I would say, / !business ideas"
+  },
+  {
+   "s": 6.3,
+   "at": "typically come from one of / !!three P's.",
+   "pos": "top",
+   "ink": "dark"
+  },
+  {
+   "s": 8.06,
+   "at": "so it comes from a / !!g pain / that you're currently experiencing,",
+   "pos": "top"
+  },
+  {
+   "s": 10.94,
+   "at": "a past / !!profession,",
+   "pos": "top"
+  },
+  {
+   "s": 12.14,
+   "at": "so the thing that / !you just quit",
+   "pos": "top"
+  },
+  {
+   "s": 13.36,
+   "at": "or some of the jobs / !that you just quit,",
+   "pos": "top"
+  },
+  {
+   "s": 15.04,
+   "at": "or / !!g passion.",
+   "pos": "top"
+  },
+  {
+   "s": 16.5,
+   "at": "so something that you're / !inherently interested in"
+  },
+  {
+   "s": 17.76,
+   "at": "that you would spend your time / !doing anyways."
+  },
+  {
+   "s": 19.46,
+   "at": "some skill that you learned / !!in the workforce,",
+   "pos": "bl"
+  },
+  {
+   "s": 21.44,
+   "at": "which by the way is one of the / !!most proven ways / of making money",
+   "pos": "bl"
+  },
+  {
+   "s": 23.58,
+   "at": "because the economy / !!has already showed you",
+   "pos": "top"
+  },
+  {
+   "s": 25.84,
+   "at": "that people are willing to / ![exchange money] / for that specific job."
+  },
+  {
+   "s": 29.58,
+   "at": "and so in the world of / !!gig economies / and solopreneurs,",
+   "pos": "bl"
+  },
+  {
+   "s": 32.84,
+   "at": "every business can be / !!dismantled into jobs",
+   "pos": "top",
+   "ink": "dark"
+  },
+  {
+   "s": 35.82,
+   "at": "and all of those jobs can be / !!g fractionalized.",
+   "pos": "top",
+   "ink": "dark"
+  },
+  {
+   "s": 38.1,
+   "at": "there's so many different / !components to a business,"
+  },
+  {
+   "s": 40.3,
+   "at": "you just need to / !!learn one of them.",
+   "pos": "top",
+   "ink": "dark"
+  },
+  {
+   "s": 41.66,
+   "at": "and then it's like, / !!g boom,"
+  },
+  {
+   "s": 42.24,
+   "at": "you have a skill that you can / !![trade for money]"
+  },
+  {
+   "s": 43.72,
+   "at": "that you don't have / !!anybody else / to report to."
+  }
+ ]
+}
