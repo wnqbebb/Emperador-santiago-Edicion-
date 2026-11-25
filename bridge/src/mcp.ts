@@ -1,5 +1,6 @@
 // Servidor MCP de Santi. Regístralo en Claude Desktop/Claude Code, ChatGPT (conectores MCP) o Gemini CLI.
 // Así el modelo de TU suscripción hace de director: lee el brief y entrega el plan con submit_plan.
+import "./env.js";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";

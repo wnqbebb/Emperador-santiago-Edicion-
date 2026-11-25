@@ -1,0 +1,16 @@
+# Servicio del bridge (se enciende solo y se reinicia si se cae).
+[Unit]
+Description=Emperador Santiago · bridge
+After=network.target
+
+[Service]
+Type=simple
+User=emperador
+WorkingDirectory=/opt/emperador-santiago
+ExecStart=/usr/bin/npm start
+Restart=always
+RestartSec=5
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target

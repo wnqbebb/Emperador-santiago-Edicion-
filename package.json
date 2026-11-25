@@ -19,7 +19,9 @@
     "setup:rea": "bash scripts/setup-rea.sh",
     "skills": "bash scripts/instalar-skills.sh",
     "setup:ves": "bash scripts/setup-ves.sh",
-    "unir": "npm run unir -w bridge --"
+    "unir": "npm run unir -w bridge --",
+    "start": "npm run start -w bridge",
+    "build:nube": "VITE_SANTI_BRIDGE= npm run build -w web"
   },
   "devDependencies": {
     "@playwright/test": "1.63.0"

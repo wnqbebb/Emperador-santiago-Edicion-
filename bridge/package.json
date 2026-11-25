@@ -6,7 +6,8 @@
     "dev": "tsx watch src/server.ts",
     "mcp": "tsx src/mcp.ts",
     "learn": "tsx src/learn.ts",
-    "unir": "tsx src/unir.ts"
+    "unir": "tsx src/unir.ts",
+    "start": "tsx src/server.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "1.13.0",

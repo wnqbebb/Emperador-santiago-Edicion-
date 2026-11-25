@@ -1,0 +1,25 @@
+# Emperador Santiago en la nube: una sola dirección con HTTPS automático y contraseña.
+# La interfaz sale de web/dist; las rutas del bridge van a 127.0.0.1:8787 (el bridge nunca queda expuesto).
+{$DOMINIO} {
+	basic_auth {
+		{$USUARIO} {$CLAVE_HASH}
+	}
+	request_body {
+		max_size 4GB
+	}
+	@bridge path /api/* /media/* /motion/* /montaje/* /plantilla-preview/* /ves-files/* /fx/* /skylight-files/* /reels-files/*
+	handle @bridge {
+		reverse_proxy 127.0.0.1:8787 {
+			flush_interval -1
+			transport http {
+				read_timeout 30m
+				write_timeout 30m
+			}
+		}
+	}
+	handle {
+		root * /opt/emperador-santiago/web/dist
+		try_files {path} /index.html
+		file_server
+	}
+}

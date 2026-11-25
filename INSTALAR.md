@@ -14,6 +14,14 @@
 
 ## 2. Instalar (una vez)
 
+**Si tienes el paquete `emperador-santiago.bundle`** (te lo da Claude), sácalo así:
+
+```bash
+git clone emperador-santiago.bundle emperador-santiago
+```
+
+**Si ya está en tu GitHub:**
+
 ```bash
 git clone https://github.com/wnqbebb/emperador-santiago.git
 ```
@@ -46,6 +54,8 @@ npm run setup:ves
 ```bash
 npm run skills
 ```
+
+Para usar una clave de API, copia `.env.example` a `.env` y ponla ahí (el sistema lo lee al arrancar).
 
 ## 3. Arrancar
 
@@ -135,3 +145,7 @@ RENDER=1 FLUJO=1 npm test
 | Remotion/HyperFrames tardan la 1.ª vez | Normal: descargan su navegador |
 | La edición se cortó a medias | Botón **Reintentar** (retoma donde iba) |
 | Mientras programas, el bridge se reinicia | `npm run dev` reinicia el bridge al guardar cambios en `bridge/`; un trabajo en curso se corta y se retoma con Reintentar |
+
+## 9. Subirlo a la nube
+
+Mira **`NUBE.md`**: necesitas un servidor (VPS) con Ubuntu. Un solo comando lo instala todo, con HTTPS y contraseña.

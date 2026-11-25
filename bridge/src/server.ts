@@ -1,4 +1,5 @@
 // Bridge local: la web habla con él en http://localhost:8787. Sin él, la web sigue funcionando offline.
+import "./env.js";
 import { createServer, type IncomingMessage, type ServerResponse } from "node:http";
 import { createReadStream, createWriteStream, existsSync, mkdirSync, statSync } from "node:fs";
 import { join, extname, basename, dirname } from "node:path";
@@ -250,4 +251,4 @@ createServer(async (req, res) => {
   } catch (e) {
     send(res, 500, { error: (e as Error).message });
   }
-}).listen(PORT, () => console.log(`Santi bridge en http://localhost:${PORT}`));
+}).listen(PORT, process.env.SANTI_HOST ?? "localhost", () => console.log(`Santi bridge en http://${process.env.SANTI_HOST ?? "localhost"}:${PORT}`));   // en la nube: SANTI_HOST=127.0.0.1 detrás de Caddy
