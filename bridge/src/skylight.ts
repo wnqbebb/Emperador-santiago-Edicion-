@@ -121,7 +121,7 @@ ${ex("hormozi-ideas-1123")}
 - Imágenes: tú NO las ves; das palabras de búsqueda en INGLÉS para Wikimedia Commons (cortas). Para objetos de un "world" o un "duo" pide fotos de producto: añade "white background" o "isolated" a la búsqueda y como "white" (o "glass").
 - Las rutas de imagen son assets/img/<slot>.png (white/glass/person/logo) o assets/img/<slot>.jpg (cover).
 - Colores: la paleta ya está elegida (${JSON.stringify(po.palette ?? {})}).
-- CREATIVIDAD (manda Santiago): los ejemplos son inspiración, no plantilla. Esto es para redes: lo viral manda.`;
+- CREATIVIDAD (manda Santiago): los ejemplos son inspiración, no plantilla. Esto es para redes: lo viral manda.${po.plugins ?? ""}`;
 
   const user = `Clip (${duration.toFixed(2)} s). Palabras con tiempos (inicio fin palabra):
 ${words.map((x) => `${x.s.toFixed(2)} ${x.e.toFixed(2)} ${x.w}`).join("\n")}

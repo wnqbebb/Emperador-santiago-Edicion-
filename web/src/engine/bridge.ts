@@ -82,7 +82,9 @@ export type Asset = { origen?: string; id: string; name: string; kind: string; a
 export type Tablero = { beats: Beats; thumbs: Record<string, string> };
 export type FlujoJob = { id: string; project: string; plantilla: string; status: "running" | "tablero" | "review" | "error"; step: string; steps: string[]; current: number; log: string[]; error?: string;
   beats?: number; scenes?: number; assets?: number; originales?: number; project_status?: VesProject; skill?: string; motor?: "ves" | "skylight" | "reels";
-  prompts?: { status: "running" | "done" | "error"; base: string; pedido?: string; nuevos?: string[]; error?: string }; evidencia?: { id: string; url: string; title: string; path: string }[] };
+  prompts?: { status: "running" | "done" | "error"; base: string; pedido?: string; nuevos?: string[]; error?: string };
+  revision?: { video: string; duracion: number; checks: { id: string; ok: boolean; titulo: string; detalle: string }[] };
+  efectos?: { status: "running" | "done" | "error"; texto: string; aplicados?: string[]; dudas?: string[]; video?: string; error?: string }; evidencia?: { id: string; url: string; title: string; path: string }[] };
 export const familias = () => j<Familia[]>("/api/familias");
 export type Fuente = { montajeId?: string; mediaId?: string };
 export const paleta = (src: Fuente) => j<Paleta>("/api/paleta", { method: "POST", body: JSON.stringify(src) });
@@ -97,4 +99,6 @@ export const replan = (id: string, cambios: Record<string, unknown>) => j<FlujoJ
 export const reelFileUrl = (project: string, rel: string) => `${BASE}/reels-files/${project}/${rel.split("/").map(encodeURIComponent).join("/")}`;
 export const skyFileUrl = (project: string, rel: string) => `${BASE}/skylight-files/${project}/${rel.split("/").map(encodeURIComponent).join("/")}`;
 export const pedirPrompts = (id: string, b: { base: "sugerencia" | "pedido"; pedido?: string; beat?: string }) => j<FlujoJob>(`/api/flujo/${id}/prompts`, { method: "POST", body: JSON.stringify(b) });
+export const efectos = (id: string, texto: string) => j<FlujoJob>(`/api/flujo/${id}/efectos`, { method: "POST", body: JSON.stringify({ texto }) });
+export const listaEfectos = () => j<{ id: string; nombre: string }[]>("/api/efectos");
 export const cuadroUrl = (id: string, t: number) => `${BASE}/api/flujo/${id}/cuadro?t=${t.toFixed(1)}`;

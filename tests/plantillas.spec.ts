@@ -33,7 +33,13 @@ test("después de unir, la app pregunta: estilo, color del propio video, energí
   await page.getByRole("button", { name: "Crear video", exact: true }).click();
   await page.locator(".c-source input[type=file]").setInputFiles("tests/fixtures/voz.mp4");   // clip directo, sin pasar por Unir clips
   await expect(page.locator(".pal-list button").first()).toBeVisible({ timeout: 200_000 });
-  await expect(page.locator(".p-card")).toHaveCount(5);
+  await expect(page.locator(".gal-card")).toHaveCount(20);            // galería: todas las variantes de todos los estilos
+  await page.locator(".gal-chips button", { hasText: "Nick Saraev" }).click();
+  await expect(page.locator(".gal-card")).toHaveCount(3);
+  await page.locator(".gal-chips button", { hasText: "Todos" }).click();
+  await page.locator(".gal-card").first().click();                                  // vista previa grande
+  await expect(page.locator(".gal-modal video")).toBeVisible();
+  await page.getByRole("button", { name: "Usar este estilo" }).click();
   await expect(page.locator(".pal-list button.on")).toContainText("recomendado");
   for (const q of ["Energía", "Texturas", "Creatividad", "b-roll", "Indicaciones"]) await expect(page.locator(".q h4", { hasText: q })).toBeVisible();
 });

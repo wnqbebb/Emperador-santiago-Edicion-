@@ -10,7 +10,8 @@ import { DATA } from "./store.js";
 import { startRender, getRender, type Engine } from "./render.js";
 import { FX_DIR } from "./fxbake.js";
 import { startMontaje, getMontaje, analizarMontaje, renderMontaje, MONTAJE_DIR } from "./montaje.js";
-import { plantillas, familias, startFlujo, getFlujo, elegir, replanificar, tablero, flujoFiles, paletaDeVideo, cuadro, pedirPrompts } from "./flujo.js";
+import { plantillas, familias, startFlujo, getFlujo, elegir, replanificar, tablero, flujoFiles, paletaDeVideo, cuadro, pedirPrompts, efectos } from "./flujo.js";
+import { EFECTOS } from "./plugins.js";
 import { skyPath } from "./skylight.js";
 import { reelPath } from "./reels.js";
 import { searchIdeas, startMotion, getMotion, renderMotionHtml, MOTION_DIR } from "./motion.js";
@@ -119,6 +120,7 @@ createServer(async (req, res) => {
 
     // ---------- Plantillas de estilo de edición → flujo automático
     if (p === "/api/plantillas") return send(res, 200, plantillas());
+    if (p === "/api/efectos") return send(res, 200, EFECTOS.map(({ id, nombre }) => ({ id, nombre })));
     if (p === "/api/familias") return send(res, 200, familias());
     if (p.startsWith("/plantilla-preview/")) {
       const t = plantillas().find((x) => x.id === p.split("/")[2]);
@@ -150,8 +152,9 @@ createServer(async (req, res) => {
       const respuestas = { energia: r.energia ?? "viral", texturas: Number(r.texturas ?? 0.4), palette: r.palette, originales: r.originales !== false, broll: [], rapido: !!r.rapido, notas: r.notas, fuentes: Array.isArray(r.fuentes) ? r.fuentes.map(String).slice(0, 8) : undefined };
       return send(res, 200, startFlujo({ videoPath, plantilla: String(b.plantilla), provider: b.provider, name: b.name, respuestas, brollFiles }));
     }
-    const fl = p.match(/^\/api\/flujo\/([\w-]+)(?:\/(elegir|tablero|replan|cuadro|prompts))?$/);
+    const fl = p.match(/^\/api\/flujo\/([\w-]+)(?:\/(elegir|tablero|replan|cuadro|prompts|efectos))?$/);
     if (fl) {
+      if (fl[2] === "efectos" && req.method === "POST") return send(res, 200, efectos(fl[1], String((await body(req)).texto ?? "")));
       if (fl[2] === "prompts" && req.method === "POST") { const b = await body(req); return send(res, 200, pedirPrompts(fl[1], b.base === "pedido" ? "pedido" : "sugerencia", String(b.pedido ?? ""), b.beat ? String(b.beat) : undefined)); }
       if (fl[2] === "elegir" && req.method === "POST") return send(res, 200, elegir(fl[1], (await body(req)).picks ?? {}));
       if (fl[2] === "replan" && req.method === "POST") return send(res, 200, replanificar(fl[1], await body(req)));

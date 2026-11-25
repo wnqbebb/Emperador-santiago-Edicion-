@@ -84,7 +84,7 @@ ${read(join(REELS, "references/graphics.md"), 2500)}
 # Estilo elegido
 ${ESTILO[estilo]}
 # CREATIVIDAD (manda Santiago): las referencias son inspiración; esto es para redes y lo viral manda. Lo que se ve SIEMPRE coincide con lo que se dice, con sus palabras.
-Paleta del video: ${JSON.stringify(po.palette ?? {})}. La cara está en x=${face.x?.toFixed?.(2)}, y=${face.y?.toFixed?.(2)} (fracción del cuadro).`;
+Paleta del video: ${JSON.stringify(po.palette ?? {})}. La cara está en x=${face.x?.toFixed?.(2)}, y=${face.y?.toFixed?.(2)} (fracción del cuadro).${po.plugins ?? ""}`;
   const user = `Clip ya limpio (${duration.toFixed(2)} s). Palabras (inicio fin palabra):
 ${words.map((w) => `${w.t0.toFixed(2)} ${w.t1.toFixed(2)} ${w.w}`).join("\n")}
 Energía: ${po.energia.toUpperCase()} → ${ENERGIA[po.energia]}

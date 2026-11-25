@@ -120,7 +120,7 @@ ${example}
 - Esto es para redes: la edición viral es clave.
 - A = la mejor adaptación del patrón ${cfg.nombre} a ESTE contenido. B = una variación propia (otra escena u otra forma de mostrarlo). C = otra idea fuerte o la más sobria (scenes: [] = quedarse en la cara).
 - ${po.originales && cfg.tops ? 'En los 2–3 momentos más fuertes puedes proponer un motion graphic ORIGINAL para la parte de arriba: top {"kind":"media","media":[],"original":"brief: qué se ve, cómo se mueve, qué texto entra en qué palabra"}. Se genera con HyperFrames en la paleta del video. Úsalo cuando no haya prueba real y un gráfico animado explique mejor.' : "No propongas motion graphics originales."}
-- Colores: ${JSON.stringify(po.palette ?? {})}.`;
+- Colores: ${JSON.stringify(po.palette ?? {})}.${po.plugins ?? ""}`;
 
   const user = `Clip de Santiago ya cortado (${duration.toFixed(2)} s). Transcripción palabra a palabra (inicio fin palabra, segundos ABSOLUTOS):
 ${words.map((w) => `${w.start.toFixed(2)} ${w.end.toFixed(2)} ${w.w}`).join("\n")}

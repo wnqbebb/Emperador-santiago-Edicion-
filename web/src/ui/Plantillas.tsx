@@ -106,28 +106,9 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
     <div className="plantillas">
       <h2><span className="m-step">2</span> ¿Cómo quieres editarlo? <small className="h-sub">te pregunto antes de editar</small></h2>
 
-      {/* 1 · Estilo y variante */}
-      <div className="q">
-        <h4>1 · Estilo de edición</h4>
-        <div className="fam-row">
-          {familias.map((fa) => (
-            <button key={fa.id} className={`fam ${fam === fa.id ? "on" : ""}`} disabled={started} onClick={() => { setFam(fa.id); setVari(fa.variantes.find((v) => v.recomendada)?.id ?? fa.variantes[0].id); }}>
-              <b>{fa.name}</b><small>{fa.description}</small>
-            </button>
-          ))}
-        </div>
-        {familia && familia.variantes.length > 1 && (
-          <div className="p-grid">
-            {familia.variantes.map((v) => (
-              <button key={v.id} className={`p-card ${variante?.id === v.id ? "on" : ""}`} disabled={started} onClick={() => setVari(v.id)}>
-                <div className="p-img">{v.preview ? <img src={bridge.abs(`/plantilla-preview/${v.id}`)} alt="" /> : <span>Aa</span>}</div>
-                <b>{v.name}</b><small>{v.description}</small><em>Ideal: {v.ideal}</em>
-                {v.recomendada && <i className="p-badge">Recomendada</i>}
-              </button>
-            ))}
-          </div>
-        )}
-      </div>
+      {/* 1 · Estilo: galería visual (todas las variantes de todas las skills) */}
+      <Galeria familias={familias} fam={fam} vari={variante?.id} disabled={started}
+        onPick={(f, v) => { setFam(f); setVari(v); }} />
 
       {familia && familia.motor !== "rapido" && (
         <>
@@ -248,7 +229,7 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
               <p className="hint">Tu IA propuso {tab.beats.beats.length} beats. En cada uno elige A, B o C (marcada la recomendada). ✦ = motion graphic original · 📎 = necesita un asset.</p>
               {tab.beats.beats.map((b) => (
                 <div key={b.id} className="beat">
-                  <div className="beat-head"><span>{b.start.toFixed(1)}–{b.end.toFixed(1)} s</span><b>«{b.script}»</b><small>{b.seen}</small></div>
+                  <div className="beat-head"><span>{b.start.toFixed(1)}–{b.end.toFixed(1)} s</span>{(b as { rol?: string }).rol && <em className="rol">{(b as { rol?: string }).rol}</em>}<b>«{b.script}»</b><small>{b.seen}</small></div>
                   <div className="opts">
                     {b.opts.map((o, k) => {
                       const L = "ABC"[k];
@@ -300,6 +281,8 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
                   <a href={url(f("caption_sheet.jpg"))} target="_blank" rel="noreferrer">Hoja de subtítulos</a>
                   {f(`ASSETS_${flujo.project}.md`) && <a href={url(f(`ASSETS_${flujo.project}.md`))} target="_blank" rel="noreferrer">Assets que faltan ({flujo.assets})</a>}
                 </div>)}
+                {flujo.revision && <KatanaCard rev={flujo.revision} />}
+                <EfectosBox flujo={flujo} url={url} onDone={async () => setFlujo(await bridge.getFlujo(flujo.id))} />
                 <PromptBox flujo={flujo} onDone={async () => { setTab(await bridge.tablero(flujo.id)); setFlujo(await bridge.getFlujo(flujo.id)); }} />
                 {tab?.beats.assets?.length ? (
                   <details open>
@@ -328,10 +311,105 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
   );
 }
 
+/** Galería de estilos tipo Captions: tarjetas 9:16 que se mueven al pasar el ratón, filtros por familia y vista previa grande. */
+function Galeria({ familias, fam, vari, disabled, onPick }: { familias: bridge.Familia[]; fam: string; vari?: string; disabled: boolean; onPick: (fam: string, vari: string) => void }) {
+  const [filtro, setFiltro] = useState("todos");
+  const [q, setQ] = useState("");
+  const [ver, setVer] = useState<{ f: bridge.Familia; v: bridge.Variante } | null>(null);
+  const todas = familias.flatMap((f) => f.variantes.map((v) => ({ f, v })));
+  const lista = todas.filter(({ f, v }) => (filtro === "todos" || f.id === filtro) && (!q || `${f.name} ${v.name} ${v.ideal ?? ""} ${v.description}`.toLowerCase().includes(q.toLowerCase())));
+  const elegida = todas.find(({ v }) => v.id === vari);
+  return (
+    <div className="galeria">
+      <div className="gal-head">
+        <div><h4>1 · Elige el estilo de edición</h4><small>Pasa el ratón para verlo en movimiento · clic para la vista previa</small></div>
+        <input className="gal-search" placeholder="Buscar estilos…" value={q} onChange={(e) => setQ(e.target.value)} />
+      </div>
+      <div className="gal-chips">
+        <button className={filtro === "todos" ? "on" : ""} onClick={() => setFiltro("todos")}>Todos <i>{todas.length}</i></button>
+        {familias.map((f) => <button key={f.id} className={filtro === f.id ? "on" : ""} onClick={() => setFiltro(f.id)}>{f.name} <i>{f.variantes.length}</i></button>)}
+      </div>
+      <div className="gal-grid">
+        {lista.map(({ f, v }) => (
+          <button key={v.id} className={`gal-card ${vari === v.id ? "on" : ""}`} disabled={disabled} onClick={() => setVer({ f, v })}
+            onMouseEnter={(e) => e.currentTarget.querySelector("video")?.play().catch(() => null)}
+            onMouseLeave={(e) => { const vd = e.currentTarget.querySelector("video"); if (vd && vari !== v.id) { vd.pause(); vd.currentTime = 0; } }}>
+            <video src={`/estilos/${v.id}.mp4`} poster={`/estilos/${v.id}.jpg`} muted loop playsInline preload="none" autoPlay={vari === v.id} />
+            {v.recomendada && <span className="gal-badge">Recomendada</span>}
+            {vari === v.id && <span className="gal-check">✓</span>}
+            <div className="gal-label"><b>{v.name}</b><small>{f.name}</small></div>
+          </button>
+        ))}
+      </div>
+      {elegida && <p className="gal-sel">Estilo elegido: <b>{elegida.f.name} · {elegida.v.name}</b> — {elegida.v.description}</p>}
+      {ver && (
+        <div className="gal-modal" onClick={() => setVer(null)}>
+          <div className="gal-sheet" onClick={(e) => e.stopPropagation()}>
+            <video src={`/estilos/${ver.v.id}.mp4`} poster={`/estilos/${ver.v.id}.jpg`} muted loop playsInline autoPlay />
+            <div className="gal-info">
+              <small className="gal-fam">{ver.f.name}</small>
+              <h3>{ver.v.name}</h3>
+              <p>{ver.v.description}</p>
+              {ver.v.ideal && <p className="gal-ideal"><b>Ideal para:</b> {ver.v.ideal}</p>}
+              <p className="gal-desc">{ver.f.description}</p>
+              <p className="hint">La vista previa está hecha con tu propio clip: así se ve tu video en este estilo.</p>
+              <div className="row">
+                <button className="btn primary big" onClick={() => { onPick(ver.f.id, ver.v.id); setVer(null); }}>Usar este estilo</button>
+                <button className="btn ghost" onClick={() => setVer(null)}>Seguir viendo</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
 const REEL_ICON: Record<string, string> = { cara: "◉", split: "◧", grande: "A", negro: "■" };
 const REEL_NAME: Record<string, string> = { cara: "cara + gráfico", split: "dividido", grande: "palabra grande", negro: "corte a negro" };
 const SKY_ICON: Record<string, string> = { world: "☁", broll: "🎞", bars: "▮▮", line: "↗", orbs: "●●", days: "▦", duo: "◐", still: "▣" };
 const SKY_NAME: Record<string, string> = { aroll: "cara", world: "mundo", broll: "b-roll con trazos", bars: "barras", line: "línea", orbs: "orbes", days: "casillas", duo: "recorte + logos", still: "imagen" };
+
+/** Plugin Katana: la revisión medida del video terminado (vale para cualquier estilo). */
+function KatanaCard({ rev }: { rev: NonNullable<bridge.FlujoJob["revision"]> }) {
+  const ok = rev.checks.filter((c) => c.ok).length;
+  return (
+    <div className="katana">
+      <h4>⚔ Revisión Katana <small>{ok}/{rev.checks.length} bien · medido sobre el video</small></h4>
+      <ul>{rev.checks.map((c) => <li key={c.id} className={c.ok ? "ok" : "warn"}><i>{c.ok ? "✓" : "!"}</i><div><b>{c.titulo}</b><small>{c.detalle}</small></div></li>)}</ul>
+    </div>
+  );
+}
+
+/** Plugin Edit Studio: efectos con nombre en un momento exacto sobre el video terminado (cualquier estilo, cualquier IA). */
+function EfectosBox({ flujo, url, onDone }: { flujo: bridge.FlujoJob; url: (r?: string) => string; onDone: () => void }) {
+  const [texto, setTexto] = useState("");
+  const [lista, setLista] = useState<{ id: string; nombre: string }[]>([]);
+  const [msg, setMsg] = useState("");
+  useEffect(() => { bridge.listaEfectos().then(setLista).catch(() => null); }, []);
+  const ef = flujo.efectos;
+  async function aplicar() {
+    setMsg("Aplicando efectos con Edit Studio… (unos minutos)");
+    try {
+      let j = await bridge.efectos(flujo.id, texto);
+      while (j.efectos?.status === "running") { await new Promise((r) => setTimeout(r, 3000)); j = await bridge.getFlujo(flujo.id); }
+      setMsg(j.efectos?.status === "done" ? `✓ ${j.efectos.aplicados?.join(" · ")}` : `Error: ${j.efectos?.error ?? ""}`);
+      onDone();
+    } catch (e) { setMsg((e as Error).message); }
+  }
+  return (
+    <div className="efectos-box">
+      <h4>✦ Efectos (Edit Studio) <small>escribe qué efecto y cuándo</small></h4>
+      <textarea placeholder={"crash zoom en 0:07, destello en 0:12 y glitch donde dice «sola»"} value={texto} onChange={(e) => setTexto(e.target.value)} />
+      <div className="ef-chips">{lista.map((e) => <button key={e.id} className="link" onClick={() => setTexto((t) => `${t ? `${t}, ` : ""}${e.nombre.toLowerCase()} en 0:00`)}>{e.nombre}</button>)}</div>
+      <div className="row">
+        <button className="btn primary" disabled={!texto.trim() || ef?.status === "running"} onClick={aplicar}>Aplicar efectos</button>
+        {ef?.status === "done" && ef.video && <a className="btn" href={url(ef.video)} target="_blank" rel="noreferrer">Ver la versión con efectos</a>}
+      </div>
+      {(msg || ef?.status === "running") && <small className="hint">{msg || "Aplicando efectos…"}</small>}
+    </div>
+  );
+}
 
 /** Pedir prompts: de lo que sugiere el plan o de lo que pide Santiago con sus palabras. */
 function PromptBox({ flujo, onDone }: { flujo: bridge.FlujoJob; onDone: () => void }) {

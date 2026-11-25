@@ -22,7 +22,7 @@ export type Asset = {
 };
 export type Beats = { title: string; beats: Beat[]; assets?: Asset[] };
 export type Energia = "calma" | "media" | "viral";
-export type PlanOpts = { energia: Energia; originales: boolean; broll: { path: string; desc: string }[]; notas?: string; palette?: Record<string, string>; fuentes?: Fuente[] };
+export type PlanOpts = { energia: Energia; originales: boolean; broll: { path: string; desc: string }[]; notas?: string; palette?: Record<string, string>; fuentes?: Fuente[]; plugins?: string };
 
 const ENERGIA: Record<Energia, string> = {
   calma: "Beats de 3–6 s. Respira: cara con subtítulos entre escenas. Algo cambia cada 3–4 s.",
@@ -93,7 +93,7 @@ ${example}
 - B = una variación creativa propia: otra escena, inversión de color, forma distinta, combinación de dos principios, ritmo distinto.
 - C = ${po.originales ? 'en los 2–3 momentos más fuertes del video, un motion graphic ORIGINAL: type "mg_original" con props.brief (qué se ve, cómo se mueve, qué texto y en qué palabra entra; inspirado en el estilo pero nuevo). En el resto, quedarse en la cara (type null) o una tercera idea.' : "quedarse en la cara (type null) o una tercera idea."}
 - No repitas el mismo type en dos beats seguidos (salvo cara/aroll). Máximo 2 veces el mismo type en todo el video.
-- Colores: la paleta del video ya está elegida (no es azul por defecto): ${JSON.stringify(po.palette ?? {})}. Usa bg "accent"/"white"/"black" para alternar y no texturices todo.`;
+- Colores: la paleta del video ya está elegida (no es azul por defecto): ${JSON.stringify(po.palette ?? {})}. Usa bg "accent"/"white"/"black" para alternar y no texturices todo.${po.plugins ?? ""}`;
 
   const user = `Clip de Santiago ya cortado (${duration.toFixed(2)} s). Transcripción palabra a palabra (inicio fin palabra, segundos ABSOLUTOS):
 ${words.map((w) => `${w.start.toFixed(2)} ${w.end.toFixed(2)} ${w.w}`).join("\n")}

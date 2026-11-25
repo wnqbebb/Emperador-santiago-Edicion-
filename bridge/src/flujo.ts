@@ -15,6 +15,7 @@ import { REELS_DATA, REEL_STEPS, reelDir, reelPrepare, reelPlan, reelBuild, reel
 import { SKY_DATA, skyDir, skyPrepare, injectPalette, skyPrompt, skySanitize, skyBuild, skyStatus, skyBroll, type SBeats } from "./skylight.js";
 import { KAL_SKILL, isSceneSkill, sceneCfg, type KBeats, type Fuente } from "./beats_kal.js";
 import { writeMotionHtml, renderMotionHtml } from "./motion.js";
+import { pluginsPrompt, revisar, leerEfectos, aplicarEfectos, type Revision } from "./plugins.js";
 import type { ProviderId } from "./providers/index.js";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..", "..");
@@ -51,6 +52,8 @@ export type FlujoJob = {
   step: string; steps: string[]; current: number; log: string[]; error?: string; beats?: number; scenes?: number; assets?: number; originales?: number;
   provider: ProviderId; respuestas: Respuestas; vesStyle: string; skill?: string; evidencia?: Fuente[]; motor?: "ves" | "skylight" | "reels";
   prompts?: { status: "running" | "done" | "error"; base: "sugerencia" | "pedido"; pedido?: string; nuevos?: string[]; error?: string };
+  revision?: Revision;   // Katana medido sobre el video terminado
+  efectos?: { status: "running" | "done" | "error"; texto: string; aplicados?: string[]; dudas?: string[]; video?: string; error?: string };
 };
 const jobs = new Map<string, FlujoJob>();
 // El flujo se guarda en el proyecto: si el bridge se reinicia, se retoma donde iba
@@ -183,9 +186,11 @@ function autofix(job: FlujoJob) {
 async function plan(job: FlujoJob) {
   job.status = "running"; job.current = 2; job.step = job.steps[2];
   const r = job.respuestas;
+  const fam = plantillas().find((x) => x.id === job.plantilla);
+  const plugins = pluginsPrompt({ energia: r.energia, familia: fam?.familia ?? "", variante: job.plantilla, notas: r.notas });
   if (isReel(job)) {
     const enfoque = plantillas().find((x) => x.id === job.plantilla)?.enfoque;
-    const po: PlanOpts = { energia: r.energia, originales: false, broll: r.broll, notas: [enfoque, r.notas].filter(Boolean).join("\n") || undefined, palette: r.palette };
+    const po: PlanOpts = { energia: r.energia, originales: false, broll: r.broll, notas: [enfoque, r.notas].filter(Boolean).join("\n") || undefined, palette: r.palette, plugins };
     const beats = await reelPlan(job.project, reelEstilo(job.plantilla), po, job.provider);
     writeFileSync(join(dirOf(job), "beats.json"), JSON.stringify(beats, null, 1));
     job.beats = beats.beats.length; job.assets = 0;
@@ -195,7 +200,7 @@ async function plan(job: FlujoJob) {
   }
   if (isSky(job)) {
     const enfoque = plantillas().find((x) => x.id === job.plantilla)?.enfoque;
-    const po: PlanOpts = { energia: r.energia, originales: false, broll: r.broll, notas: [enfoque, r.notas].filter(Boolean).join("\n") || undefined, palette: r.palette };
+    const po: PlanOpts = { energia: r.energia, originales: false, broll: r.broll, notas: [enfoque, r.notas].filter(Boolean).join("\n") || undefined, palette: r.palette, plugins };
     const { system, user, duration } = skyPrompt(job.project, po);
     const beats = skySanitize(extract(await ask(job.provider, system, user)) as unknown as SBeats, duration, r.broll);
     writeFileSync(join(dirOf(job), "beats.json"), JSON.stringify(beats, null, 1));
@@ -205,7 +210,7 @@ async function plan(job: FlujoJob) {
     return;
   }
   const enfoque = plantillas().find((x) => x.id === job.plantilla)?.enfoque;
-  const po: PlanOpts = { energia: r.energia, originales: r.originales, broll: r.broll, notas: [enfoque, r.notas].filter(Boolean).join("\n") || undefined, palette: r.palette, fuentes: job.evidencia };
+  const po: PlanOpts = { energia: r.energia, originales: r.originales, broll: r.broll, notas: [enfoque, r.notas].filter(Boolean).join("\n") || undefined, palette: r.palette, fuentes: job.evidencia, plugins };
   const beats = await planBeats(job.provider, job.vesStyle, job.project, po, job.skill);
   const dir = dirOf(job);
   writeFileSync(join(dir, "beats.json"), JSON.stringify(beats, null, 1));
@@ -233,7 +238,7 @@ async function build(job: FlujoJob, picks: Record<string, string>) {
     if (existsSync(gf) && Object.keys(picks).length) (await import("node:fs")).rmSync(gf);   // elecciones nuevas → gráficos nuevos
     const r = await reelBuild(job.project, beats, job.log, (i) => { job.current = i; job.step = job.steps[i]; save(job); }, job.provider, job.respuestas.palette);
     job.scenes = r.scenes; job.originales = r.graficos;
-    job.current = job.steps.length; job.step = "Video listo para revisar"; job.status = "review"; save(job);
+    job.current = job.steps.length; job.step = "Video listo para revisar"; job.status = "review"; katana(job); save(job);
     return;
   }
   if (isSky(job)) {
@@ -242,7 +247,7 @@ async function build(job: FlujoJob, picks: Record<string, string>) {
     writeFileSync(join(dir, "beats.json"), JSON.stringify(beats, null, 1));
     const r = await skyBuild(job.project, beats, job.log, (i) => { job.current = i; job.step = job.steps[i]; save(job); }, job.provider);
     job.scenes = r.scenes;
-    job.current = job.steps.length; job.step = "Video listo para revisar"; job.status = "review"; save(job);
+    job.current = job.steps.length; job.step = "Video listo para revisar"; job.status = "review"; katana(job); save(job);
     return;
   }
   const beats = JSON.parse(readFileSync(join(dir, "beats.json"), "utf8")) as Beats;
@@ -290,7 +295,7 @@ Que sea dinámico y viral: algo se mueve todo el tiempo, entrada fuerte en el pr
     { script: "ves", args: ["render", job.project, "--draft"] },
     { script: "ves", args: ["sound", job.project, "--draft"] },
   ]);
-  job.current = STEPS.length; job.step = "Borrador listo para revisar"; job.status = "review"; save(job);
+  job.current = STEPS.length; job.step = "Borrador listo para revisar"; job.status = "review"; katana(job); save(job);
 }
 
 /** Skills por escenas (Kallaway, Nick, Lobo…): originales arriba (1080×940), cara medida, revisión de reglas y borrador. */
@@ -348,7 +353,7 @@ Que se lea en el teléfono y algo cambie cada 0.6–1 s; entrada fuerte en el pr
     { script: "ves", args: ["render", job.project, "--draft", "--force"] },
     { script: "ves", args: ["sound", job.project, "--draft"] },
   ]);
-  job.current = STEPS.length; job.step = "Borrador listo para revisar"; job.status = "review"; save(job);
+  job.current = STEPS.length; job.step = "Borrador listo para revisar"; job.status = "review"; katana(job); save(job);
 }
 
 export function elegir(id: string, picks: Record<string, string>) {
@@ -438,5 +443,47 @@ Devuelve SOLO {"assets": [ … ]} en un bloque \`\`\`json.`;
     job.assets = beats.assets!.length;
     job.prompts = { ...job.prompts!, status: "done", nuevos: nuevos.map((a) => a.id) }; save(job);
   })().catch((e) => { job.prompts = { ...job.prompts!, status: "error", error: (e as Error).message }; save(job); });
+  return job;
+}
+
+/** El video terminado de cada motor (para los plugins que trabajan después del render). */
+function videoFinal(job: FlujoJob) {
+  const dir = dirOf(job);
+  const c = isSky(job) || isReel(job) ? [`out/${job.project}.mp4`] : ["out/master.mp4", "out/BORRADOR.mp4", "out/BORRADOR_web.mp4"];
+  const f = c.map((x) => join(dir, x)).find((x) => existsSync(x));
+  if (!f) throw new Error("Todavía no hay un video terminado");
+  return f;
+}
+
+/** Plugin Katana: revisión medida del video terminado (energía, tramos quietos, gancho, pausas, volumen). */
+function katana(job: FlujoJob) {
+  try {
+    job.revision = revisar(videoFinal(job), job.respuestas.energia);
+    writeFileSync(join(dirOf(job), "revision_katana.json"), JSON.stringify(job.revision, null, 1));
+  } catch (e) { job.log.push(`⚠ revisión Katana: ${(e as Error).message}`); }
+}
+
+/** Palabras con su tiempo, sea cual sea el motor (para «donde dice …»). */
+function palabras(job: FlujoJob): { w: string; t: number }[] {
+  const dir = dirOf(job);
+  const f = [join(dir, "work/words.json"), join(dir, "transcript_cut.json")].find((x) => existsSync(x));
+  if (!f) return [];
+  const j = JSON.parse(readFileSync(f, "utf8"));
+  return ((Array.isArray(j) ? j : j.words) as { w: string; t0?: number; s?: number; start?: number }[]).map((w) => ({ w: w.w, t: w.t0 ?? w.s ?? w.start ?? 0 }));
+}
+
+/** Plugin Edit Studio: efectos con nombre en un momento exacto sobre el video terminado → versión nueva. */
+export function efectos(id: string, texto: string) {
+  const job = getFlujo(id);
+  if (!job) throw new Error("No existe ese flujo");
+  if (job.efectos?.status === "running") throw new Error("Ya estoy aplicando efectos");
+  const { efectos: lista, dudas } = leerEfectos(texto, palabras(job));
+  if (!lista.length) throw new Error(dudas[0] ?? "No entendí qué efecto poner. Ej.: «crash zoom en 0:07»");
+  job.efectos = { status: "running", texto, aplicados: lista.map((e) => `${e.nombre} en ${e.at.toFixed(2)} s`), dudas }; save(job);
+  (async () => {
+    const out = await aplicarEfectos(videoFinal(job), lista, job.log);
+    job.efectos = { ...job.efectos!, status: "done", video: out.slice(dirOf(job).length + 1) };
+    save(job);
+  })().catch((e) => { job.efectos = { ...job.efectos!, status: "error", error: (e as Error).message.slice(0, 300) }; save(job); });
   return job;
 }
