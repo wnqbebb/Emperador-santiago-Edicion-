@@ -29,12 +29,12 @@ export function searchIdeas(q = "", category = "", limit = 60) {
     .slice(0, limit);
 }
 
-export function motionBrief(idea: string, seconds: number, style: Style, fondo = "#0b0b0f") {
-  return `Escribe UNA composición HyperFrames (un solo archivo index.html) para un motion graphic vertical de la marca
+export function motionBrief(idea: string, seconds: number, style: Style, fondo = "#0b0b0f", size: { w: number; h: number } = { w: 1080, h: 1920 }) {
+  return `Escribe UNA composición HyperFrames (un solo archivo index.html) para un motion graphic de ${size.w}×${size.h} de la marca
 "Emperador Santiago". Idea: ${idea}
 
 Reglas de HyperFrames (obligatorias):
-- <div id="root" data-composition-id="main" data-start="0" data-duration="${seconds}" data-width="1080" data-height="1920">
+- <div id="root" data-composition-id="main" data-start="0" data-duration="${seconds}" data-width="${size.w}" data-height="${size.h}">
 - Todo elemento con tiempo lleva class="clip", data-start y data-duration (segundos) y un id único.
 - Carga GSAP con <script src="assets/gsap.min.js"></script>. Construye UNA línea de tiempo pausada y regístrala al final:
   const tl = gsap.timeline({ paused: true }); …tweens…; window.__timelines["main"] = tl;

@@ -144,7 +144,7 @@ createServer(async (req, res) => {
       if (!existsSync(videoPath)) return send(res, 400, { error: "No encuentro el video" });
       const brollFiles = (b.broll ?? []).map((x: { mediaId: string; desc: string }) => ({ path: join(MEDIA, basename(x.mediaId)), desc: String(x.desc ?? "") })).filter((x: { path: string }) => existsSync(x.path));
       const r = b.respuestas ?? {};
-      const respuestas = { energia: r.energia ?? "viral", texturas: Number(r.texturas ?? 0.4), palette: r.palette, originales: r.originales !== false, broll: [], rapido: !!r.rapido, notas: r.notas };
+      const respuestas = { energia: r.energia ?? "viral", texturas: Number(r.texturas ?? 0.4), palette: r.palette, originales: r.originales !== false, broll: [], rapido: !!r.rapido, notas: r.notas, fuentes: Array.isArray(r.fuentes) ? r.fuentes.map(String).slice(0, 8) : undefined };
       return send(res, 200, startFlujo({ videoPath, plantilla: String(b.plantilla), provider: b.provider, name: b.name, respuestas, brollFiles }));
     }
     const fl = p.match(/^\/api\/flujo\/([\w-]+)(?:\/(elegir|tablero|replan|cuadro))?$/);
@@ -172,15 +172,15 @@ createServer(async (req, res) => {
     // STOP 3: solo con la frase de confirmación que escribe Santiago
     if (p === "/api/ves/human" && req.method === "POST") {
       const b = await body(req);
-      return send(res, 200, humanAction(String(b.project), b.action, String(b.confirm ?? "")));
+      return send(res, 200, humanAction(String(b.project), b.action, String(b.confirm ?? ""), b.skill ? String(b.skill) : undefined));
     }
     if (p === "/api/ves/confirm-phrase") return send(res, 200, { phrase: confirmPhrase(url.searchParams.get("action") as "approve", url.searchParams.get("project") ?? "") });
     const vj = p.match(/^\/api\/ves\/run\/([\w-]+)$/);
     if (vj) return send(res, 200, getVesJob(vj[1]) ?? { error: "No existe" });
     const vp = p.match(/^\/api\/ves\/project\/([\w.-]+)$/);
-    if (vp) return send(res, 200, projectStatus(vp[1]));
+    if (vp) return send(res, 200, projectStatus(vp[1], url.searchParams.get("skill") ?? undefined));
     if (p.startsWith("/ves-files/")) {
-      const full = vesPath(decodeURIComponent(p.slice("/ves-files/".length)));
+      const full = vesPath(decodeURIComponent(p.slice("/ves-files/".length)), url.searchParams.get("skill") ?? undefined);
       if (!existsSync(full) || statSync(full).isDirectory()) return send(res, 404, { error: "No existe" });
       const type = ({ ".html": "text/html; charset=utf-8", ".png": "image/png", ".jpg": "image/jpeg", ".mp4": "video/mp4", ".json": "application/json", ".md": "text/markdown; charset=utf-8", ".zip": "application/zip" } as Record<string, string>)[extname(full)] ?? "application/octet-stream";
       return serveFile(req, res, full, type);

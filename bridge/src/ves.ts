@@ -16,10 +16,19 @@ export const LAB = join(SKILL_DIR, "system");
 /** Edición: el sistema de la skill arthur-brooks-editing (trae la biblioteca de 339 animaciones y el panel de beats). */
 export const ARTHUR_DIR = join(ROOT, ".claude/skills/arthur-brooks-editing");
 export const VES = existsSync(join(ARTHUR_DIR, "system/pipeline/ves.py")) ? join(ARTHUR_DIR, "system") : LAB;
+/** Cada skill de estilo trae su propio motor VES (system/): Arthur, Kallaway y las que vengan. */
+export function skillDir(skill?: string) {
+  if (!skill) return dirname(VES);
+  if (!/^[\w.-]+$/.test(skill)) throw new Error("Skill inválida");
+  const d = join(ROOT, ".claude/skills", skill);
+  if (!existsSync(join(d, "system/pipeline/ves.py"))) throw new Error(`La skill ${skill} no trae motor VES`);
+  return d;
+}
+export const skillSystem = (skill?: string) => join(skillDir(skill), "system");
 const VENV = join(ROOT, "tools/.venv/bin");
 export const vesInstalled = () => existsSync(join(VES, "pipeline/ves.py")) && existsSync(join(VENV, "python"));
 
-const SCRIPTS = { ves: "ves.py", lab: "style_lab.py", beats: "beats.py", assets: "assetpack.py", sheets: "review_sheets.py", fixwords: "fixwords.py", cutout: "cutout.py", classify: "../reverse/classify.py" } as const;
+const SCRIPTS = { ves: "ves.py", lab: "style_lab.py", beats: "beats.py", assets: "assetpack.py", sheets: "review_sheets.py", fixwords: "fixwords.py", cutout: "cutout.py", classify: "../reverse/classify.py", kal: "kal.py", evidence: "evidence.py" } as const;
 export type VesScript = keyof typeof SCRIPTS;
 
 /** Comandos que solo el humano puede ordenar (contrato VES: STOP 3). */
@@ -33,6 +42,8 @@ const ALLOWED: Partial<Record<VesScript, string[]>> = {
   lab: ["nuevo", "preparar", "estado", "briefs", "sonido", "energia", "biblioteca", "empaquetar"],
   beats: ["panel", "apply"],
   sheets: ["palette", "music", "pick-palette", "pick-music"],
+  kal: ["face", "check"],
+  evidence: ["shot", "list"],
 };
 export function checkArgs(script: VesScript, args: string[]) {
   if (!(script in SCRIPTS)) throw new Error(`Script desconocido: ${script}`);
@@ -44,24 +55,24 @@ export function checkArgs(script: VesScript, args: string[]) {
 /** STOP 3: aprobar / render final / sonido final. Exige que el humano escriba la frase de confirmación. */
 export const confirmPhrase = (action: "approve" | "render" | "sound", project: string) =>
   `${{ approve: "APROBAR", render: "RENDER FINAL", sound: "SONIDO FINAL" }[action]} ${project}`;
-export function humanAction(project: string, action: "approve" | "render" | "sound", confirm: string) {
+export function humanAction(project: string, action: "approve" | "render" | "sound", confirm: string, skill?: string) {
   if (!/^[\w.-]+$/.test(project)) throw new Error("Proyecto inválido");
   if (confirm.trim() !== confirmPhrase(action, project)) throw new Error(`Para confirmar escribe exactamente: ${confirmPhrase(action, project)}`);
-  return startJob("ves", [action, project]);
+  return startJob("ves", [action, project], {}, skill);
 }
 
 export type VesJob = { id: string; cmd: string; status: "running" | "done" | "error"; log: string[]; code?: number };
 const jobs = new Map<string, VesJob>();
 export const getVesJob = (id: string) => jobs.get(id);
 
-export function runVes(script: VesScript, args: string[], env: Record<string, string> = {}): VesJob {
+export function runVes(script: VesScript, args: string[], env: Record<string, string> = {}, skill?: string): VesJob {
   checkArgs(script, args);
-  return startJob(script, args, env);
+  return startJob(script, args, env, skill);
 }
 
-function startJob(script: VesScript, args: string[], env: Record<string, string> = {}): VesJob {
+function startJob(script: VesScript, args: string[], env: Record<string, string> = {}, skill?: string): VesJob {
   const id = randomUUID().slice(0, 8);
-  const root = script === "lab" || script === "classify" ? LAB : VES;
+  const root = script === "lab" || script === "classify" ? LAB : skillSystem(skill);
   const file = join(root, "pipeline", SCRIPTS[script]);
   const job: VesJob = { id, cmd: `${SCRIPTS[script]} ${args.join(" ")}`, status: "running", log: [] };
   jobs.set(id, job);
@@ -132,14 +143,14 @@ export function vesToSanti(v: VesStyleJson): Style {
 }
 
 // ---------- Proyectos y archivos
-export function listProjects() {
-  const dir = join(VES, "projects");
+export function listProjects(skill?: string) {
+  const dir = join(skillSystem(skill), "projects");
   if (!existsSync(dir)) return [];
-  return readdirSync(dir).filter((p) => statSync(join(dir, p)).isDirectory()).map((p) => projectStatus(p));
+  return readdirSync(dir).filter((p) => statSync(join(dir, p)).isDirectory()).map((p) => projectStatus(p, skill));
 }
 
-export function projectStatus(p: string) {
-  const dir = join(VES, "projects", p);
+export function projectStatus(p: string, skill?: string) {
+  const dir = join(skillSystem(skill), "projects", p);
   if (!existsSync(dir)) return { name: p, style: undefined, transcript: false, plan: false, beats: false, approved: false, files: [] as string[] };
   const has = (f: string) => existsSync(join(dir, f));
   const outs = existsSync(join(dir, "out")) ? readdirSync(join(dir, "out")).filter((o) => /\.(html|png|jpg|mp4|json)$/.test(o)) : [];
@@ -156,9 +167,10 @@ export function projectStatus(p: string) {
 }
 
 /** Ruta segura dentro de VES (para servir y escribir archivos). */
-export function vesPath(rel: string) {
-  const full = resolve(VES, normalize(rel));
-  if (relative(VES, full).startsWith("..")) throw new Error("Ruta fuera de VES");
+export function vesPath(rel: string, skill?: string) {
+  const base = skillSystem(skill);
+  const full = resolve(base, normalize(rel));
+  if (relative(base, full).startsWith("..")) throw new Error("Ruta fuera de VES");
   return full;
 }
 

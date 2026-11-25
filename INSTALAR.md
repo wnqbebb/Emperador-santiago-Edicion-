@@ -76,7 +76,7 @@ El código vive en GitHub. **Tú** y **yo** (Claude, en la web) trabajamos sobre
 
 - Si los dos tocamos el mismo archivo, `git pull` te avisa del conflicto. Pídele a Claude Code: *"resuelve el conflicto de git"*.
 - Tus videos, proyectos y renders **no** se suben a GitHub (carpetas `data/`, `qa/`, `projects/`).
-- En local puedes trabajar con **Claude Code** dentro de la carpeta. Ya trae `.mcp.json` y las skills (Emperador, Arthur Brooks, crear-estilo-edicion, Remotion, HyperFrames, rea-video, Edit Studio…).
+- En local puedes trabajar con **Claude Code** dentro de la carpeta. Ya trae `.mcp.json` y las skills (Emperador, Arthur Brooks, Kallaway, crear-estilo-edicion, Remotion, HyperFrames, rea-video, Edit Studio…).
 
 ## 6. Las dependencias y qué hace cada una
 
@@ -104,6 +104,7 @@ El código vive en GitHub. **Tú** y **yo** (Claude, en la web) trabajamos sobre
    - Sube un clip hablando a cámara (o "Editarlo con una plantilla" desde Unir clips).
    - Responde las preguntas: Arthur Brooks → Talking head, el color recomendado de tu video, energía Viral, texturas Suaves.
    - **Empezar edición** → revisa el **tablero** (A/B/C en mini 9:16) y los **assets** con sus prompts → **Construir el borrador**.
+   - Prueba también **Kallaway → Noticia con prueba**: pega 1–2 enlaces en *Fuentes y pruebas*; se capturan de verdad y salen arriba con tu cara abajo.
    - Revisa el borrador, el storyboard y la hoja de subtítulos. Si te gusta: **Aprobar** (escribes la frase) → **Render final**.
 3. **Editor rápido:** sube un clip → Director IA → *Edición automática (offline)* → prueba Estilos de Santi y Motion (corona 3D, monedas) → Exportar con Navegador, Remotion y HyperFrames.
 4. **Laboratorio:** "Crear un estilo nuevo" con 10–20 videos de un creador (fase 1 y 2).

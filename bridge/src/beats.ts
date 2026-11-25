@@ -9,7 +9,8 @@ import { ANTHROPIC_MODEL } from "./providers/anthropic.js";
 import { planWithOpenAI, planWithGemini } from "./providers/keys.js";
 import { runCli } from "./providers/subscriptions.js";
 import type { ProviderId } from "./providers/index.js";
-import { ARTHUR_DIR, VES } from "./ves.js";
+import { ARTHUR_DIR, VES, skillSystem } from "./ves.js";
+import { KAL_SKILL, kalPrompt, sanitizeKal, type Fuente, type KBeats } from "./beats_kal.js";
 
 type Opt = { title: string; cats?: string; desc?: string; ref?: string; type: string | null; props?: Record<string, unknown>; enter?: string; exit?: string; start?: number; end?: number; then?: unknown };
 type Beat = { id: string; start: number; end: number; script: string; seen: string; pick: "A" | "B" | "C"; opts: Opt[] };
@@ -21,7 +22,7 @@ export type Asset = {
 };
 export type Beats = { title: string; beats: Beat[]; assets?: Asset[] };
 export type Energia = "calma" | "media" | "viral";
-export type PlanOpts = { energia: Energia; originales: boolean; broll: { path: string; desc: string }[]; notas?: string; palette?: Record<string, string> };
+export type PlanOpts = { energia: Energia; originales: boolean; broll: { path: string; desc: string }[]; notas?: string; palette?: Record<string, string>; fuentes?: Fuente[] };
 
 const ENERGIA: Record<Energia, string> = {
   calma: "Beats de 3–6 s. Respira: cara con subtítulos entre escenas. Algo cambia cada 3–4 s.",
@@ -167,15 +168,14 @@ export function sanitize(b: Beats, allowed: string[], duration: number, original
     const bl = a.bloques;
     const prompt = a.prompt || (bl ? [bl.referencias, bl.contexto, bl.mapa_espacial, bl.accion, bl.camara, bl.luz_textura, bl.bloqueos].filter(Boolean).join(" ") : "");
     const ext = /video|broll/.test(a.kind) ? "mp4" : "png";
-    return { ...a, id, prompt, archivo: a.archivo || `${id}_${(a.name || "asset").replace(/[^\w-]+/g, "-")}.${ext}` };
+    const ar = String(a.ar ?? "").match(/\d+\s*[:x/]\s*\d+/)?.[0]?.replace(/\s/g, "") ?? "9:16";
+    return { ...a, id, ar, prompt, archivo: a.archivo || `${id}_${(a.name || "asset").replace(/[^\w-]+/g, "-")}.${ext}` };
   });
   return { title: b.title || "Plan por beats", beats, assets };
 }
 
-export async function planBeats(provider: ProviderId, vesStyle: string, project: string, po?: PlanOpts): Promise<Beats> {
-  PROVIDED = new Set((po?.broll ?? []).map((b) => b.path));
-  const { system, user, allowed, duration } = beatsPrompt(vesStyle, project, po);
-  let raw: string;
+/** Pide el JSON al proveedor elegido (API o suscripción). */
+async function ask(provider: ProviderId, system: string, user: string) {
   if (provider === "claude-api") {
     const msg = await new Anthropic().beta.messages.stream({
       model: ANTHROPIC_MODEL, max_tokens: 64000,
@@ -184,9 +184,22 @@ export async function planBeats(provider: ProviderId, vesStyle: string, project:
       system, messages: [{ role: "user", content: user }],
     }).finalMessage();
     if (msg.stop_reason === "refusal") throw new Error("Claude rechazó la petición");
-    raw = msg.content.flatMap((c) => (c.type === "text" ? [c.text] : [])).join("");
-  } else if (provider === "openai-api") raw = await planWithOpenAI(system, user + "\n(Devuelve un objeto JSON)");
-  else if (provider === "gemini-api") raw = await planWithGemini(system, user);
-  else raw = await runCli(provider, `${system}\n\n---\n\n${user}`, 20 * 60_000);
+    return msg.content.flatMap((c) => (c.type === "text" ? [c.text] : [])).join("");
+  }
+  if (provider === "openai-api") return planWithOpenAI(system, user + "\n(Devuelve un objeto JSON)");
+  if (provider === "gemini-api") return planWithGemini(system, user);
+  return runCli(provider, `${system}\n\n---\n\n${user}`, 20 * 60_000);
+}
+
+export async function planBeats(provider: ProviderId, vesStyle: string, project: string, po?: PlanOpts, skill?: string): Promise<Beats | KBeats> {
+  if (skill === KAL_SKILL) {
+    const o = po ?? { energia: "viral" as const, originales: true, broll: [] };
+    const { system, user, duration } = kalPrompt(project, o);
+    const raw = await ask(provider, system, user);
+    return sanitizeKal(extract(raw) as unknown as KBeats, duration, join(skillSystem(skill), "projects", project), o.originales);
+  }
+  PROVIDED = new Set((po?.broll ?? []).map((b) => b.path));
+  const { system, user, allowed, duration } = beatsPrompt(vesStyle, project, po);
+  const raw = await ask(provider, system, user);
   return sanitize(extract(raw), allowed, duration, po?.originales ?? true);
 }

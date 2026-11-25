@@ -8,6 +8,10 @@ test("las plantillas son familias con variantes (Arthur Brooks tiene 5)", async 
   const fams = await (await request.get(`${API}/api/familias`, { headers: WEB })).json();
   const arthur = fams.find((f: { id: string }) => f.id === "arthur");
   expect(arthur.variantes).toHaveLength(5);
+  const kal = fams.find((f: { id: string }) => f.id === "kallaway");
+  expect(kal.skill).toBe("kallaway-editing");
+  expect(kal.variantes.map((v: { vesStyle: string }) => v.vesStyle)).toEqual(["kallaway", "kallaway", "kallaway"]);
+  expect(kal.paletaEstilo.vibrant_dark).toBe("#8B1A1E");
   expect(fams.map((f: { id: string }) => f.id)).toContain("imperial");
 });
 

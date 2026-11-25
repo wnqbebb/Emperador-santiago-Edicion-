@@ -8,12 +8,95 @@
       "motor": "ves",
       "preview": ".claude/skills/arthur-brooks-editing/examples/v1/PREVIEW_v1.jpg",
       "variantes": [
-        { "id": "arthur-talking", "name": "Talking head + minimal", "vesStyle": "arthur-talking-minimal", "ideal": "Hablando a cámara: consejos, ideas, ventas", "description": "Tu cara como hilo conductor, intercalada con escenas minimal.", "preview": ".claude/skills/arthur-brooks-editing/examples/v1/PREVIEW_v1.jpg", "recomendada": true },
-        { "id": "arthur-documental", "name": "Documental", "vesStyle": "arthur-documental", "ideal": "Tu historia, antes y después", "description": "Historia de vida: fotos de archivo, collages en papel, línea de tiempo, b-roll cálido.", "preview": ".claude/skills/arthur-brooks-editing/examples/v3/PREVIEW_v3.jpg" },
-        { "id": "arthur-minimal-vo", "name": "Animación con voz en off", "vesStyle": "arthur-minimal-vo", "ideal": "Explicaciones sin salir en cámara", "description": "Casi todo animación minimal sobre papel con tu voz.", "preview": ".claude/skills/arthur-brooks-editing/library/07 Ilustración central + texto/v03_s01.jpg" },
-        { "id": "arthur-podcast", "name": "Clip de podcast", "vesStyle": "arthur-podcast-clip", "ideal": "Entrevistas y conversaciones", "description": "Fragmento de conversación con cortes por tema y textos clave.", "preview": ".claude/skills/arthur-brooks-editing/examples/v2/PREVIEW_v2.jpg" },
-        { "id": "arthur-split", "name": "Pantalla dividida", "vesStyle": "arthur-podcast-split", "ideal": "Dos planos a la vez, enumerar", "description": "Primer plano arriba y plano abierto abajo, subtítulos en la costura.", "preview": ".claude/skills/arthur-brooks-editing/library/13 Pantalla dividida/v02_s01.jpg" }
+        {
+          "id": "arthur-talking",
+          "name": "Talking head + minimal",
+          "vesStyle": "arthur-talking-minimal",
+          "ideal": "Hablando a cámara: consejos, ideas, ventas",
+          "description": "Tu cara como hilo conductor, intercalada con escenas minimal.",
+          "preview": ".claude/skills/arthur-brooks-editing/examples/v1/PREVIEW_v1.jpg",
+          "recomendada": true
+        },
+        {
+          "id": "arthur-documental",
+          "name": "Documental",
+          "vesStyle": "arthur-documental",
+          "ideal": "Tu historia, antes y después",
+          "description": "Historia de vida: fotos de archivo, collages en papel, línea de tiempo, b-roll cálido.",
+          "preview": ".claude/skills/arthur-brooks-editing/examples/v3/PREVIEW_v3.jpg"
+        },
+        {
+          "id": "arthur-minimal-vo",
+          "name": "Animación con voz en off",
+          "vesStyle": "arthur-minimal-vo",
+          "ideal": "Explicaciones sin salir en cámara",
+          "description": "Casi todo animación minimal sobre papel con tu voz.",
+          "preview": ".claude/skills/arthur-brooks-editing/library/07 Ilustración central + texto/v03_s01.jpg"
+        },
+        {
+          "id": "arthur-podcast",
+          "name": "Clip de podcast",
+          "vesStyle": "arthur-podcast-clip",
+          "ideal": "Entrevistas y conversaciones",
+          "description": "Fragmento de conversación con cortes por tema y textos clave.",
+          "preview": ".claude/skills/arthur-brooks-editing/examples/v2/PREVIEW_v2.jpg"
+        },
+        {
+          "id": "arthur-split",
+          "name": "Pantalla dividida",
+          "vesStyle": "arthur-podcast-split",
+          "ideal": "Dos planos a la vez, enumerar",
+          "description": "Primer plano arriba y plano abierto abajo, subtítulos en la costura.",
+          "preview": ".claude/skills/arthur-brooks-editing/library/13 Pantalla dividida/v02_s01.jpg"
+        }
       ]
+    },
+    {
+      "id": "kallaway",
+      "name": "Kallaway",
+      "description": "Pantalla dividida con la PRUEBA arriba y tu cara abajo: capturas reales, gráficos en código, franja del gancho, cortes secos en la palabra y una palabra gigante cada 12–31 s. 389 escenas de referencia.",
+      "skill": "kallaway-editing",
+      "motor": "ves",
+      "preview": ".claude/skills/kallaway-editing/library/split_headline/v06_s34.jpg",
+      "preguntaFuentes": true,
+      "paletaEstilo": {
+        "vibrant_bright": "#F5B942",
+        "vibrant_dark": "#8B1A1E",
+        "dull_white": "#FFFFFF",
+        "dull_black": "#0B0B0D",
+        "highlight": "#F5B942"
+      },
+      "variantes": [
+        {
+          "id": "kal-noticia",
+          "name": "Noticia con prueba",
+          "vesStyle": "kallaway",
+          "recomendada": true,
+          "ideal": "Noticias, tendencias, «acaba de pasar…»",
+          "description": "Cada afirmación con su captura: titular resaltado, tuit, cifra de la fuente.",
+          "preview": ".claude/skills/kallaway-editing/library/split_headline/v06_s34.jpg",
+          "enfoque": "Formato NOTICIA: gancho con la prueba más rara + franja; cada cifra y nombre propio con su captura resaltada; cierre con por qué importa y CTA."
+        },
+        {
+          "id": "kal-consejo",
+          "name": "Consejo con prueba",
+          "vesStyle": "kallaway",
+          "ideal": "Tips, errores, «haz esto»",
+          "description": "Cada paso se ve: listas, números gigantes, antes/después y tu cara en los remates.",
+          "preview": ".claude/skills/kallaway-editing/library/split_graphic/v01_s20.jpg",
+          "enfoque": "Formato CONSEJO: enumerar con number → media, comparaciones con number+vs, slots/list para resumir; k_word en la opinión o promesa."
+        },
+        {
+          "id": "kal-producto",
+          "name": "Producto / demo",
+          "vesStyle": "kallaway",
+          "ideal": "Mostrar una app, una tienda o un producto",
+          "description": "Fórmula de 4 golpes: qué es → qué le pides → qué devuelve → por qué importa. Demo grande con tu cara en círculo.",
+          "preview": ".claude/skills/kallaway-editing/library/pip_broll/v01_s16.jpg",
+          "enfoque": "Formato DEMO: fórmula de 4 golpes (logo/página → acción/prompt → resultado → cifra o cara+palabra); usa k_pip para la grabación de pantalla."
+        }
+      ],
+      "texturas": false
     },
     {
       "id": "imperial",
@@ -22,7 +105,13 @@
       "motor": "rapido",
       "preview": "",
       "variantes": [
-        { "id": "imperial", "name": "Rápido", "styleId": "imperial", "ideal": "Reels rápidos y de alta energía", "description": "Editor rápido con la plantilla Imperial." }
+        {
+          "id": "imperial",
+          "name": "Rápido",
+          "styleId": "imperial",
+          "ideal": "Reels rápidos y de alta energía",
+          "description": "Editor rápido con la plantilla Imperial."
+        }
       ]
     }
   ]

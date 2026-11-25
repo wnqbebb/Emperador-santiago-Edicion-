@@ -19,6 +19,7 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
   const [originales, setOriginales] = useState(true);
   const [broll, setBroll] = useState<BrollItem[]>([]);
   const [notas, setNotas] = useState("");
+  const [fuentes, setFuentes] = useState("");
   const [rapido, setRapido] = useState(false);
   const ready = (providers ?? []).filter((p) => p.ready);
   const [provider, setProvider] = useState("");
@@ -34,7 +35,11 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
 
   const familia = familias.find((f) => f.id === fam);
   const variante = familia?.variantes.find((v) => v.id === vari) ?? familia?.variantes[0];
-  const color = paleta?.options[pal];
+  // opciones de color: las del propio video y, si el estilo tiene firma (Kallaway), sus colores originales
+  const estilo = familia?.paletaEstilo;
+  const opciones: bridge.Paleta["options"] = [...(paleta?.options ?? []), ...(estilo ? [{ name: "Colores del estilo", from: familia!.name, colors: estilo, caption: estilo.highlight ?? estilo.vibrant_bright }] : [])];
+  const color = opciones[pal];
+  const links = fuentes.split(/\s+/).filter((u) => /^https?:\/\//.test(u));
   const working = flujo?.status === "running" || sending;
 
   async function poll(id: string) {
@@ -59,7 +64,7 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
       const up = [];
       for (const b of broll) up.push({ mediaId: (await bridge.uploadMedia(b.file)).mediaId, desc: b.desc || b.file.name });
       const j = await bridge.startFlujo({ ...fuente, plantilla: variante.id, provider, broll: up,
-        respuestas: { energia, texturas, palette: color?.colors, originales, rapido, notas } });
+        respuestas: { energia, texturas: familia.texturas === false ? 0 : texturas, palette: color?.colors, originales, rapido, notas, fuentes: familia.preguntaFuentes ? links : undefined } });
       setSending(false);
       poll(j.id);
     } catch (e) {
@@ -78,7 +83,7 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
     if (!typed) return;
     setHuman(`${action}…`);
     try {
-      let j = await bridge.vesHuman({ project: flujo.project, action, confirm: typed });
+      let j = await bridge.vesHuman({ project: flujo.project, action, confirm: typed, skill: flujo.skill });
       while (j.status === "running") { await new Promise((r) => setTimeout(r, 1500)); j = await bridge.vesJob(j.id); }
       setHuman(j.status === "done" ? `${action} ✓` : `Error: ${j.log.slice(-2).join(" ")}`);
       setFlujo(await bridge.getFlujo(flujo.id));
@@ -87,7 +92,7 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
 
   const files = flujo?.project_status?.files ?? [];
   const f = (name: string) => files.find((x) => x.endsWith(name));
-  const url = (rel?: string) => (rel ? bridge.vesFileUrl(rel) : "");
+  const url = (rel?: string) => (rel ? bridge.vesFileUrl(rel, flujo?.skill) : "");
   const started = !!flujo;
 
   return (
@@ -133,7 +138,7 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
                   <div className="card" style={{ background: color.colors.vibrant_bright }}><small style={{ color: "#fff" }}>escena en</small><b style={{ color: "#fff" }}>color pleno</b></div>
                 </div>
                 <div className="pal-list">
-                  {paleta.options.map((o, i) => (
+                  {opciones.map((o, i) => (
                     <button key={i} className={pal === i ? "on" : ""} disabled={started} onClick={() => setPal(i)}>
                       <span className="sw">{(["vibrant_bright", "vibrant_dark", "dull_white", "dull_black"] as const).map((k) => <i key={k} style={{ background: o.colors[k] }} />)}</span>
                       <b>{o.name}{o.recommended ? " · recomendado" : ""}</b><small>De {o.from}</small>
@@ -154,14 +159,14 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
                 ))}
               </div>
             </div>
-            <div>
+            {familia.texturas !== false && <div>
               <h4>4 · Texturas</h4>
               <div className="seg">
                 {([[0, "Limpio", "Colores sólidos"], [0.4, "Suaves", "Un toque de papel"], [1, "Como Arthur", "Papel y tela marcados"]] as const).map(([v, l, s]) => (
                   <button key={v} className={texturas === v ? "on" : ""} disabled={started} onClick={() => setTexturas(v)}><b>{l}</b><small>{s}</small></button>
                 ))}
               </div>
-            </div>
+            </div>}
             <div>
               <h4>5 · Creatividad</h4>
               <label className="toggle">
@@ -188,6 +193,13 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
             <div>
               <h4>7 · Indicaciones para el editor <small>(opcional)</small></h4>
               <textarea placeholder="Ej: que el gancho sea «tres fotos», resalta las prendas, cierre con la palabra FOTOS en grande…" value={notas} disabled={started} onChange={(e) => setNotas(e.target.value)} />
+              {familia.preguntaFuentes && (
+                <>
+                  <h4>8 · Fuentes y pruebas <small>enlaces de la noticia, el producto o el post (uno por línea)</small></h4>
+                  <textarea className="fuentes" placeholder={"https://… (el titular)\nhttps://… (la página del producto)"} value={fuentes} disabled={started} onChange={(e) => setFuentes(e.target.value)} />
+                  <p className="hint">{links.length ? `${links.length} enlace(s): se capturan de verdad y van arriba, con el dato resaltado.` : "Sin enlaces: usará gráficos en código, tu b-roll y te pedirá las capturas que falten."}</p>
+                </>
+              )}
             </div>
           </div>
 
@@ -236,8 +248,9 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
                       const media = (o.props as { media?: string } | undefined)?.media;
                       return (
                         <button key={k} className={`opt ${picks[b.id] === L ? "on" : ""}`} onClick={() => setPicks((p) => ({ ...p, [b.id]: L }))}>
-                          <div className="thumb">{o.type === "mg_original" ? <span>✦<small>original</small></span> : o.type === null || o.type === "aroll" ? <img src={bridge.cuadroUrl(flujo.id, (b.start + b.end) / 2)} alt="" /> : tab.thumbs[o.ref ?? ""] ? <img src={tab.thumbs[o.ref ?? ""]} alt="" /> : <span>Aa</span>}</div>
-                          <div className="opt-txt"><div><i>{L}</i> <b>{o.title}</b>{o.type === "mg_original" && <em> ✦ original</em>}{media && String(media).includes("assets/") && <em> 📎 asset</em>}</div>
+                          <div className="thumb">{o.scenes ? (o.scenes.some((x) => x.props?.top?.original) ? <span>✦<small>original</small></span> : !o.scenes.length || o.scenes.every((x) => x.type === "k_word") ? <img src={bridge.cuadroUrl(flujo.id, (b.start + b.end) / 2)} alt="" /> : tab.thumbs[o.ref ?? ""] ? <img src={tab.thumbs[o.ref ?? ""]} alt="" /> : <span>Aa</span>) : o.type === "mg_original" ? <span>✦<small>original</small></span> : o.type === null || o.type === "aroll" ? <img src={bridge.cuadroUrl(flujo.id, (b.start + b.end) / 2)} alt="" /> : tab.thumbs[o.ref ?? ""] ? <img src={tab.thumbs[o.ref ?? ""]} alt="" /> : <span>Aa</span>}</div>
+                          <div className="opt-txt"><div><i>{L}</i> <b>{o.title}</b>{o.type === "mg_original" && <em> ✦ original</em>}{media && String(media).includes("assets/") && <em> 📎 asset</em>}{o.scenes?.some((x) => x.props?.top?.original) && <em> ✦ original</em>}{o.scenes?.some((x) => x.props?.top?.placeholder && !x.props?.top?.media?.length && !x.props?.top?.original) && <em> 📎 asset</em>}{o.scenes?.some((x) => x.props?.top?.media?.some((m) => m.includes("evidence/"))) && <em> 🔎 prueba</em>}</div>
+                          {o.scenes && o.scenes.length > 0 && <small className="ref">{o.scenes.length} escena(s): {[...new Set(o.scenes.map((x) => x.type === "k_split" ? `arriba ${x.props?.top?.kind ?? "media"}` : x.type === "k_pip" ? "pantalla completa + cara" : x.type === "k_hook" ? "franja gancho" : "palabra gigante"))].join(" · ")}</small>}
                           <small>{o.desc || o.cats}</small>
                           {o.ref && o.type !== "mg_original" && <small className="ref">inspirado en {o.ref}</small>}</div>
                         </button>
