@@ -15,6 +15,9 @@ test("las plantillas son familias con variantes (Arthur Brooks tiene 5)", async 
   const sky = fams.find((f: { id: string }) => f.id === "skylight");
   expect(sky.motor).toBe("skylight");
   expect(sky.variantes).toHaveLength(3);
+  const reels = fams.find((f: { id: string }) => f.id === "reels");
+  expect(reels.motor).toBe("reels");
+  expect(reels.variantes.map((v: { id: string }) => v.id)).toEqual(["reel-cara", "reel-split", "reel-cine"]);
   expect(fams.map((f: { id: string }) => f.id)).toContain("imperial");
 });
 

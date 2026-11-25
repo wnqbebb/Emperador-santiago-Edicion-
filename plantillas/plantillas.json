@@ -133,6 +133,40 @@
       ]
     },
     {
+      "id": "reels",
+      "name": "Reels Instagram",
+      "skill": "instagram-editing",
+      "motor": "reels",
+      "texturas": false,
+      "originales": false,
+      "description": "Edición general de reels con los 3 estilos probados: cara completa, educativo en pantalla dividida y cinemático en blanco y negro. Subtítulos en la palabra, gráficos en código que coinciden con lo que dices y diseño sonoro por capas.",
+      "preview": "",
+      "variantes": [
+        {
+          "id": "reel-cara",
+          "name": "Cara completa",
+          "recomendada": true,
+          "ideal": "Consejos rápidos, opinión, ventas",
+          "description": "Tu cara llena la pantalla con un empuje lento; 1–2 palabras bajo la boca; gráficos simples en el tercio inferior.",
+          "enfoque": "Estilo cara completa: calma, limpio y legible."
+        },
+        {
+          "id": "reel-split",
+          "name": "Educativo dividido",
+          "ideal": "Explicar pasos, herramientas, datos",
+          "description": "Gráfico arriba que cambia con cada palabra, tú abajo; palabras grandes a pantalla completa en lo importante.",
+          "enfoque": "Estilo educativo dividido 50/50."
+        },
+        {
+          "id": "reel-cine",
+          "name": "Cinemático B/N",
+          "ideal": "Historias, reflexiones, frases potentes",
+          "description": "Blanco y negro con grano y viñeta, texto que se construye palabra a palabra, palabras rojas enormes y cortes a negro con quemados de película.",
+          "enfoque": "Estilo cinemático en blanco y negro."
+        }
+      ]
+    },
+    {
       "id": "imperial",
       "name": "Imperial Santi",
       "description": "El estilo firma del Emperador: subtítulos dorados palabra a palabra, corona 3D, efectos y punch-ins. Sale en segundos.",

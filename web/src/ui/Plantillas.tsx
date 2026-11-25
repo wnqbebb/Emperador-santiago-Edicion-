@@ -92,8 +92,9 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
 
   const files = flujo?.project_status?.files ?? [];
   const f = (name: string) => files.find((x) => x.endsWith(name));
-  const sky = flujo?.motor === "skylight";
-  const url = (rel?: string) => (rel ? (sky ? bridge.skyFileUrl(flujo!.project, rel) : bridge.vesFileUrl(rel, flujo?.skill)) : "");
+  const reel = flujo?.motor === "reels";
+  const sky = flujo?.motor === "skylight" || reel;
+  const url = (rel?: string) => (rel ? (reel ? bridge.reelFileUrl(flujo!.project, rel) : sky ? bridge.skyFileUrl(flujo!.project, rel) : bridge.vesFileUrl(rel, flujo?.skill)) : "");
   const started = !!flujo;
 
   return (
@@ -123,7 +124,7 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
         )}
       </div>
 
-      {(familia?.motor === "ves" || familia?.motor === "skylight") && (
+      {familia && familia.motor !== "rapido" && (
         <>
           {/* 2 · Color sacado del video */}
           <div className="q">
@@ -249,7 +250,7 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
                       const media = (o.props as { media?: string } | undefined)?.media;
                       return (
                         <button key={k} className={`opt ${picks[b.id] === L ? "on" : ""}`} onClick={() => setPicks((p) => ({ ...p, [b.id]: L }))}>
-                          <div className="thumb">{sky && o.scenes ? (o.scenes.every((x) => x.type === "aroll") ? <img src={bridge.cuadroUrl(flujo.id, (b.start + b.end) / 2)} alt="" /> : <span className="sky-ico">{SKY_ICON[o.scenes.find((x) => x.type !== "aroll")!.type] ?? "▦"}<small>{SKY_NAME[o.scenes.find((x) => x.type !== "aroll")!.type]}</small></span>) : o.scenes ? (o.scenes.some((x) => x.props?.top?.original) ? <span>✦<small>original</small></span> : !o.scenes.length || o.scenes.every((x) => x.type === "k_word") ? <img src={bridge.cuadroUrl(flujo.id, (b.start + b.end) / 2)} alt="" /> : tab.thumbs[o.ref ?? ""] ? <img src={tab.thumbs[o.ref ?? ""]} alt="" /> : <span>Aa</span>) : o.type === "mg_original" ? <span>✦<small>original</small></span> : o.type === null || o.type === "aroll" ? <img src={bridge.cuadroUrl(flujo.id, (b.start + b.end) / 2)} alt="" /> : tab.thumbs[o.ref ?? ""] ? <img src={tab.thumbs[o.ref ?? ""]} alt="" /> : <span>Aa</span>}</div>
+                          <div className="thumb">{o.layout ? (o.layout === "cara" && !o.grafico ? <img src={bridge.cuadroUrl(flujo.id, (b.start + b.end) / 2)} alt="" /> : <span className="sky-ico">{REEL_ICON[o.layout] ?? "▦"}<small>{o.layout === "grande" ? (o.palabra ?? "").toUpperCase() : REEL_NAME[o.layout]}</small></span>) : sky && o.scenes ? (o.scenes.every((x) => x.type === "aroll") ? <img src={bridge.cuadroUrl(flujo.id, (b.start + b.end) / 2)} alt="" /> : <span className="sky-ico">{SKY_ICON[o.scenes.find((x) => x.type !== "aroll")!.type] ?? "▦"}<small>{SKY_NAME[o.scenes.find((x) => x.type !== "aroll")!.type]}</small></span>) : o.scenes ? (o.scenes.some((x) => x.props?.top?.original) ? <span>✦<small>original</small></span> : !o.scenes.length || o.scenes.every((x) => x.type === "k_word") ? <img src={bridge.cuadroUrl(flujo.id, (b.start + b.end) / 2)} alt="" /> : tab.thumbs[o.ref ?? ""] ? <img src={tab.thumbs[o.ref ?? ""]} alt="" /> : <span>Aa</span>) : o.type === "mg_original" ? <span>✦<small>original</small></span> : o.type === null || o.type === "aroll" ? <img src={bridge.cuadroUrl(flujo.id, (b.start + b.end) / 2)} alt="" /> : tab.thumbs[o.ref ?? ""] ? <img src={tab.thumbs[o.ref ?? ""]} alt="" /> : <span>Aa</span>}</div>
                           <div className="opt-txt"><div><i>{L}</i> <b>{o.title}</b>{o.type === "mg_original" && <em> ✦ original</em>}{media && String(media).includes("assets/") && <em> 📎 asset</em>}{o.scenes?.some((x) => x.props?.top?.original) && <em> ✦ original</em>}{o.scenes?.some((x) => x.props?.top?.placeholder && !x.props?.top?.media?.length && !x.props?.top?.original) && <em> 📎 asset</em>}{o.scenes?.some((x) => x.props?.top?.media?.some((m) => m.includes("evidence/"))) && <em> 🔎 prueba</em>}</div>
                           {o.scenes && o.scenes.length > 0 && <small className="ref">{o.scenes.length} escena(s): {[...new Set(o.scenes.map((x) => SKY_NAME[x.type] ? (x.type === "world" ? `mundo ${x.plate ?? ""}`.trim() : SKY_NAME[x.type]) : x.type === "k_split" ? `arriba ${x.props?.top?.kind ?? "media"}` : x.type === "k_pip" ? "pantalla completa + cara" : x.type === "k_hook" ? "franja gancho" : "palabra gigante"))].join(" · ")}</small>}
                           <small>{o.desc || o.cats}</small>
@@ -279,7 +280,11 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
               <video src={url(sky ? f(`${flujo.project}.mp4`) : f("BORRADOR_web.mp4"))} controls playsInline />
               <div className="p-side">
                 <p className="hint">Borrador al 60–70 % (así dice el método). {flujo.scenes} escenas{flujo.originales ? ` · ${flujo.originales} motion graphics originales` : ""}.</p>
-                {sky ? (
+                {reel ? (
+                <div className="p-links">
+                  {f("hoja.jpg") && <a href={url(f("hoja.jpg"))} target="_blank" rel="noreferrer">Hoja de cuadros (1 por segundo)</a>}
+                  {f(`${flujo.project}.mp4`) && <a href={url(f(`${flujo.project}.mp4`))} download>Descargar el video</a>}
+                </div>) : sky ? (
                 <div className="p-links">
                   <a href={url(f("plan.html"))} target="_blank" rel="noreferrer">Plan línea a línea</a>
                   {f("IMAGE_CREDITS.md") && <a href={url(f("IMAGE_CREDITS.md"))} target="_blank" rel="noreferrer">Créditos de imágenes (ponlos en la descripción)</a>}
@@ -318,6 +323,8 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
   );
 }
 
+const REEL_ICON: Record<string, string> = { cara: "◉", split: "◧", grande: "A", negro: "■" };
+const REEL_NAME: Record<string, string> = { cara: "cara + gráfico", split: "dividido", grande: "palabra grande", negro: "corte a negro" };
 const SKY_ICON: Record<string, string> = { world: "☁", broll: "🎞", bars: "▮▮", line: "↗", orbs: "●●", days: "▦", duo: "◐", still: "▣" };
 const SKY_NAME: Record<string, string> = { aroll: "cara", world: "mundo", broll: "b-roll con trazos", bars: "barras", line: "línea", orbs: "orbes", days: "casillas", duo: "recorte + logos", still: "imagen" };
 

@@ -106,6 +106,7 @@ El código vive en GitHub. **Tú** y **yo** (Claude, en la web) trabajamos sobre
    - **Empezar edición** → revisa el **tablero** (A/B/C en mini 9:16) y los **assets** con sus prompts → **Construir el borrador**.
    - Prueba también **Kallaway → Noticia con prueba**: pega 1–2 enlaces en *Fuentes y pruebas*; se capturan de verdad y salen arriba con tu cara abajo.
    - Prueba **Skylight → Premium**: sale directo el video final (cara arriba, subtítulo en dos niveles, mundos en el cielo). Pon los créditos de imágenes en la descripción.
+   - Prueba **Reels Instagram** (cara completa, educativo dividido o cinemático B/N): sale el video final con subtítulos, gráficos y sonido.
    - En el tablero usa **Pedir prompts**: «de lo que sugiere el plan» o escribe lo que quieres y «de lo que pido».
    - Revisa el borrador, el storyboard y la hoja de subtítulos. Si te gusta: **Aprobar** (escribes la frase) → **Render final**.
 3. **Editor rápido:** sube un clip → Director IA → *Edición automática (offline)* → prueba Estilos de Santi y Motion (corona 3D, monedas) → Exportar con Navegador, Remotion y HyperFrames.

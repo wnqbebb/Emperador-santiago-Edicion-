@@ -1,0 +1,130 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: "Inter"; src: url("fonts/Inter.woff2") format("woff2"); font-weight: 100 900; }
+@font-face { font-family: "Serif"; src: url("fonts/InstrumentSerif-Italic.woff2") format("woff2"); font-style: italic; }
+@font-face { font-family: "Anton"; src: url("fonts/Anton.ttf") format("truetype"); }
+html, body { margin: 0; background: transparent; }
+</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script>
+// Capa de Emperador para la skill instagram-editing: todo lo que va ENCIMA del video, cuadro a cuadro.
+// window.TL (la línea de tiempo) y window.G (los gráficos que escribe la IA) los inyecta el bridge antes de renderizar.
+const c = document.getElementById("c"), ctx = c.getContext("2d");
+const W = 1080, H = 1920;
+const ease = (k) => 1 - Math.pow(1 - Math.min(1, Math.max(0, k)), 3);
+const at = (list, t) => (list || []).find((x) => t >= x.t0 && t < x.t1);
+window.ready = Promise.all([
+  document.fonts.load('800 80px "Inter"'), document.fonts.load('italic 80px "Serif"'), document.fonts.load('80px "Anton"'),
+]);
+window.errors = [];
+
+function fitFont(text, family, weight, max, width) {
+  let s = max;
+  while (s > 20) { ctx.font = `${weight} ${s}px ${family}`; if (ctx.measureText(text).width <= width) break; s -= 4; }
+  return s;
+}
+
+// subtítulo: palabras en línea, la palabra clave con su estilo
+function caption(cap, t, st, pal, face) {
+  const showAll = st !== "cine";                       // cine: se construye palabra a palabra
+  const words = cap.words.filter((w) => showAll || w.t <= t + 0.02);
+  if (!words.length) return;
+  const k = ease((t - cap.t0) / 0.12);
+  const parts = words.map((w) => {
+    const key = cap.keys && cap.keys.includes(w.i);
+    let font;
+    if (st === "split") font = `700 52px "Inter"`;
+    else if (st === "cine") font = key ? `italic 96px "Serif"` : `600 60px "Inter"`;
+    else font = `800 ${key ? 92 : 78}px "Inter"`;
+    ctx.font = font;
+    return { w: w.w, font, key, width: ctx.measureText(w.w).width };
+  });
+  const gap = st === "cine" ? 20 : 18;
+  const total = parts.reduce((a, p) => a + p.width, 0) + gap * (parts.length - 1);
+  let y;
+  if (st === "split") y = 960;
+  else if (st === "cine") y = 1340;
+  else y = Math.min(1540, Math.max(1080, face.y * H + 330));
+  ctx.save();
+  ctx.globalAlpha = k;
+  ctx.filter = k < 1 ? `blur(${(1 - k) * 6}px)` : "none";
+  ctx.textBaseline = "middle";
+  if (st === "split") {                                 // caja negra pequeña sobre la costura
+    ctx.fillStyle = "rgba(0,0,0,0.88)";
+    const bw = total + 44, bh = 78;
+    ctx.beginPath(); ctx.roundRect(W / 2 - bw / 2, y - bh / 2, bw, bh, 12); ctx.fill();
+  }
+  let x = W / 2 - total / 2;
+  for (const p of parts) {
+    ctx.font = p.font;
+    if (st !== "split") { ctx.shadowColor = "rgba(0,0,0,0.55)"; ctx.shadowBlur = 18; ctx.shadowOffsetY = 3; }
+    ctx.fillStyle = p.key ? pal.key : "#ffffff";
+    ctx.fillText(p.w, x, y + (st === "cine" && p.key ? 6 : 0));
+    x += p.width + gap;
+  }
+  ctx.restore();
+}
+
+// palabra grande a pantalla completa sobre el pecho
+function bigWord(b, t, st, pal, frame) {
+  const k = ease((t - b.t0) / 0.18);
+  const text = b.text.toUpperCase();
+  const size = fitFont(text, '"Anton"', "", st === "cine" ? 260 : 230, 960);
+  ctx.save();
+  ctx.font = `${size}px "Anton"`;
+  ctx.textAlign = "center"; ctx.textBaseline = "middle";
+  const flick = st === "cine" ? 0.9 + 0.1 * Math.abs(Math.sin(frame * 12.9898) * 43758.5453 % 1) : 1;
+  ctx.globalAlpha = k * flick;
+  ctx.filter = k < 1 ? `blur(${(1 - k) * 10}px)` : "none";
+  ctx.shadowColor = "rgba(0,0,0,0.5)"; ctx.shadowBlur = 30;
+  ctx.fillStyle = st === "cine" ? "#E0262B" : pal.key;
+  ctx.fillText(text, W / 2, 1290);
+  ctx.restore();
+}
+
+function graphic(g, t, pal) {
+  const fn = (window.G || {})[g.id];
+  if (!fn) return;
+  const box = g.region === "top" ? [0, 0, 1080, 960] : g.region === "lower" ? [90, 1120, 900, 440] : [0, 0, 1080, 1920];
+  ctx.save();
+  ctx.translate(box[0], box[1]);
+  ctx.beginPath(); ctx.rect(0, 0, box[2], box[3]); ctx.clip();
+  if (g.region === "lower") {                           // panel oscuro redondeado (se lee sobre cualquier fondo)
+    ctx.globalAlpha = ease((t - g.t0) / 0.25) * 0.82;
+    ctx.fillStyle = "#0d0d10"; ctx.beginPath(); ctx.roundRect(0, 0, box[2], box[3], 36); ctx.fill();
+    ctx.globalAlpha = 1;
+  }
+  try { fn(ctx, t - g.t0, box[2], box[3], pal, ease, g.t1 - g.t0); }
+  catch (e) { if (!window.errors.includes(g.id)) window.errors.push(g.id); }
+  ctx.restore();
+}
+
+function flash(f, t) {
+  const d = t - f.t;
+  if (f.kind === "burn") {                              // quemado de película: luz cálida que cruza
+    if (d < 0 || d > 0.45) return;
+    const a = Math.sin((d / 0.45) * Math.PI) * 0.75;
+    const gx = W * (0.2 + d * 1.4), gy = H * 0.4;
+    const gr = ctx.createRadialGradient(gx, gy, 40, gx, gy, 1100);
+    gr.addColorStop(0, `rgba(255,170,70,${a})`); gr.addColorStop(0.5, `rgba(255,90,20,${a * 0.5})`); gr.addColorStop(1, "rgba(255,60,0,0)");
+    ctx.fillStyle = gr; ctx.fillRect(0, 0, W, H);
+  } else {
+    if (d < 0 || d > 0.13) return;
+    ctx.fillStyle = `rgba(255,255,255,${1 - d / 0.13})`; ctx.fillRect(0, 0, W, H);
+  }
+}
+
+window.renderAt = (t) => {
+  const TL = window.TL, st = TL.style, pal = TL.pal, frame = Math.round(t * 30);
+  ctx.clearRect(0, 0, W, H);
+  const L = at(TL.layouts, t);
+  if (L && L.kind === "split") { ctx.fillStyle = pal.black; ctx.fillRect(0, 0, W, 960); }
+  if (L && L.kind === "negro") { ctx.fillStyle = "#000"; ctx.fillRect(0, 0, W, H); }
+  for (const g of TL.graphics) if (t >= g.t0 && t < g.t1) graphic(g, t, pal);
+  const b = at(TL.big, t);
+  if (b) bigWord(b, t, st, pal, frame);
+  else { const cap = at(TL.captions, t); if (cap) caption(cap, t, L && L.kind === "split" ? "split" : st === "split" ? "cara" : st, pal, TL.face); }
+  for (const f of TL.flashes) flash(f, t);
+};
+</script></body></html>

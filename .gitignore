@@ -27,3 +27,4 @@ tools/.venv
 !.claude/skills/kallaway-editing
 !.claude/skills/skylight
 __pycache__/
+!.claude/skills/instagram-editing

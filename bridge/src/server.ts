@@ -11,6 +11,7 @@ import { FX_DIR } from "./fxbake.js";
 import { startMontaje, getMontaje, analizarMontaje, renderMontaje, MONTAJE_DIR } from "./montaje.js";
 import { plantillas, familias, startFlujo, getFlujo, elegir, replanificar, tablero, flujoFiles, paletaDeVideo, cuadro, pedirPrompts } from "./flujo.js";
 import { skyPath } from "./skylight.js";
+import { reelPath } from "./reels.js";
 import { searchIdeas, startMotion, getMotion, renderMotionHtml, MOTION_DIR } from "./motion.js";
 import { startAnalysis, getAnalysis, reaInstalled } from "./analyze.js";
 import { runVes, getVesJob, humanAction, confirmPhrase, listVesStyles, listProjects, projectStatus, vesPath, vesInstalled, type VesScript } from "./ves.js";
@@ -181,12 +182,12 @@ createServer(async (req, res) => {
     if (vj) return send(res, 200, getVesJob(vj[1]) ?? { error: "No existe" });
     const vp = p.match(/^\/api\/ves\/project\/([\w.-]+)$/);
     if (vp) return send(res, 200, projectStatus(vp[1], url.searchParams.get("skill") ?? undefined));
-    const sf = p.match(/^\/skylight-files\/([\w.-]+)\/(.+)$/);
+    const sf = p.match(/^\/(skylight|reels)-files\/([\w.-]+)\/(.+)$/);
     if (sf) {
-      const full = skyPath(sf[1], decodeURIComponent(sf[2]));
+      const full = (sf[1] === "reels" ? reelPath : skyPath)(sf[2], decodeURIComponent(sf[3]));
       if (!existsSync(full)) return send(res, 404, { error: "No existe" });
       const ext = extname(full).slice(1);
-      return serveFile(req, res, full, ({ mp4: "video/mp4", html: "text/html; charset=utf-8", md: "text/markdown; charset=utf-8", png: "image/png", jpg: "image/jpeg" } as Record<string, string>)[ext] ?? "application/octet-stream");
+      return serveFile(req, res, full, ({ mp4: "video/mp4", html: "text/html; charset=utf-8", md: "text/markdown; charset=utf-8", png: "image/png", jpg: "image/jpeg", json: "application/json" } as Record<string, string>)[ext] ?? "application/octet-stream");
     }
     if (p.startsWith("/ves-files/")) {
       const full = vesPath(decodeURIComponent(p.slice("/ves-files/".length)), url.searchParams.get("skill") ?? undefined);
