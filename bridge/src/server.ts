@@ -8,8 +8,8 @@ import { pipeline } from "node:stream/promises";
 import { DATA } from "./store.js";
 import { startRender, getRender, type Engine } from "./render.js";
 import { FX_DIR } from "./fxbake.js";
-import { startMontaje, getMontaje, MONTAJE_DIR } from "./montaje.js";
-import { plantillas, familias, startFlujo, getFlujo, elegir, replanificar, tablero, flujoFiles, paletaDeVideo } from "./flujo.js";
+import { startMontaje, getMontaje, analizarMontaje, renderMontaje, MONTAJE_DIR } from "./montaje.js";
+import { plantillas, familias, startFlujo, getFlujo, elegir, replanificar, tablero, flujoFiles, paletaDeVideo, cuadro } from "./flujo.js";
 import { searchIdeas, startMotion, getMotion, renderMotionHtml, MOTION_DIR } from "./motion.js";
 import { startAnalysis, getAnalysis, reaInstalled } from "./analyze.js";
 import { runVes, getVesJob, humanAction, confirmPhrase, listVesStyles, listProjects, projectStatus, vesPath, vesInstalled, type VesScript } from "./ves.js";
@@ -95,20 +95,24 @@ createServer(async (req, res) => {
     if (an) return send(res, 200, getAnalysis(an[1]) ?? { error: "No existe" });
 
     // ---------- Unión de clips y recortes de silencio
-    if (p === "/api/montaje" && req.method === "POST") {
+    if ((p === "/api/montaje" || p === "/api/montaje/analizar") && req.method === "POST") {
       const b = await body(req);
       const files = (b.clips ?? []).map((c: { mediaId: string; name: string }) => ({ path: join(MEDIA, basename(c.mediaId)), name: String(c.name) }));
       if (!files.length || files.some((f: { path: string }) => !existsSync(f.path))) return send(res, 400, { error: "Faltan clips por subir" });
-      return send(res, 200, startMontaje(files, { ritmo: b.ritmo ?? "dinamico", muletillas: !!b.muletillas, formato: b.formato ?? "vertical", idioma: b.idioma ?? "es" }));
+      const opts = { ritmo: b.ritmo ?? "dinamico", muletillas: !!b.muletillas, formato: b.formato ?? "vertical", idioma: b.idioma ?? "es",
+        repetidas: !!b.repetidas, mejorarAudio: !!b.mejorarAudio, velocidad: Number(b.velocidad ?? 1), srt: !!b.srt };
+      return send(res, 200, p.endsWith("analizar") ? analizarMontaje(files, opts) : startMontaje(files, opts));
     }
+    const mr = p.match(/^\/api\/montaje\/([\w-]+)\/render$/);
+    if (mr && req.method === "POST") { const b = await body(req); return send(res, 200, renderMontaje(mr[1], b.restaurar ?? {}, b.cambios ?? {})); }
     const mt = p.match(/^\/api\/montaje\/([\w-]+)$/);
     if (mt) {
       const j = getMontaje(mt[1]);
       if (!j) return send(res, 404, { error: "No existe" });
-      return send(res, 200, { ...j, master: j.master && `/montaje/${j.id}/video-completo.mp4`, web: j.web && `/montaje/${j.id}/video-completo-redes.mp4` });
+      return send(res, 200, { ...j, master: j.master && `/montaje/${j.id}/video-completo.mp4`, web: j.web && `/montaje/${j.id}/video-completo-redes.mp4`, srt: j.srt && `/montaje/${j.id}/video-completo.srt` });
     }
-    const mtf = p.match(/^\/montaje\/([\w-]+)\/(video-completo(?:-redes)?\.mp4)$/);
-    if (mtf && existsSync(join(MONTAJE_DIR, mtf[1], mtf[2]))) return serveFile(req, res, join(MONTAJE_DIR, mtf[1], mtf[2]), "video/mp4");
+    const mtf = p.match(/^\/montaje\/([\w-]+)\/(video-completo(?:-redes)?\.(mp4|srt))$/);
+    if (mtf && existsSync(join(MONTAJE_DIR, mtf[1], mtf[2]))) return serveFile(req, res, join(MONTAJE_DIR, mtf[1], mtf[2]), mtf[3] === "srt" ? "application/x-subrip" : "video/mp4");
 
     // ---------- Plantillas de estilo de edición → flujo automático
     if (p === "/api/plantillas") return send(res, 200, plantillas());
@@ -122,9 +126,11 @@ createServer(async (req, res) => {
     // Paleta del propio video (para preguntarle a Santiago con vista previa)
     if (p === "/api/paleta" && req.method === "POST") {
       const b = await body(req);
-      const id = basename(String(b.montajeId ?? ""));
-      const video = join(MONTAJE_DIR, id, "video-completo.mp4");
+      // del video unido (montajeId) o de un clip subido directo (mediaId)
+      const id = basename(String(b.montajeId ?? b.mediaId ?? "")).replace(/\.\w+$/, "");
+      const video = b.montajeId ? join(MONTAJE_DIR, id, "video-completo.mp4") : join(MEDIA, basename(String(b.mediaId ?? "")));
       if (!existsSync(video)) return send(res, 400, { error: "No encuentro el video" });
+      mkdirSync(join(MONTAJE_DIR, id), { recursive: true });
       const r = paletaDeVideo(video, join(MONTAJE_DIR, id, "paleta"));
       return send(res, 200, { ...r, frame: `/montaje/${id}/paleta/cuadro.jpg` });
     }
@@ -146,6 +152,7 @@ createServer(async (req, res) => {
       if (fl[2] === "elegir" && req.method === "POST") return send(res, 200, elegir(fl[1], (await body(req)).picks ?? {}));
       if (fl[2] === "replan" && req.method === "POST") return send(res, 200, replanificar(fl[1], await body(req)));
       if (fl[2] === "tablero") return send(res, 200, tablero(fl[1]));
+      if (fl[2] === "cuadro") return serveFile(req, res, cuadro(fl[1], Number(url.searchParams.get("t") ?? 0)), "image/jpeg");
       const j = getFlujo(fl[1]);
       return j ? send(res, 200, { ...j, project_status: flujoFiles(j) }) : send(res, 404, { error: "No existe" });
     }

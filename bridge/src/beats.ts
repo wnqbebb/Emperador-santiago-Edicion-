@@ -13,7 +13,12 @@ import { ARTHUR_DIR, VES } from "./ves.js";
 
 type Opt = { title: string; cats?: string; desc?: string; ref?: string; type: string | null; props?: Record<string, unknown>; enter?: string; exit?: string; start?: number; end?: number; then?: unknown };
 type Beat = { id: string; start: number; end: number; script: string; seen: string; pick: "A" | "B" | "C"; opts: Opt[] };
-export type Asset = { id: string; name: string; kind: string; ar: string; prompt: string; negative?: string; for_beat?: string; is_ref?: boolean };
+/** Prompt de asset profesional en 7 bloques (Katana, regla 21 de las Reglas Generales). */
+export type Bloques = { referencias: string; contexto: string; mapa_espacial: string; accion: string; camara: string; luz_textura: string; bloqueos: string };
+export type Asset = {
+  id: string; name: string; kind: string; ar: string; prompt: string; negative?: string; for_beat?: string; is_ref?: boolean;
+  modelo?: string; resolucion?: string; duracion?: string; referencia?: string; archivo?: string; en_pantalla?: string; bloques?: Bloques; resumen?: string;
+};
 export type Beats = { title: string; beats: Beat[]; assets?: Asset[] };
 export type Energia = "calma" | "media" | "viral";
 export type PlanOpts = { energia: Energia; originales: boolean; broll: { path: string; desc: string }[]; notas?: string; palette?: Record<string, string> };
@@ -98,7 +103,25 @@ Escribe beats.json para este clip:
 - Una idea = un beat de 1.5–6 s que cubren el video de principio a fin sin huecos ni solapes. El primer beat abre en la cara (type null o aroll).
 - Cada beat: id (b01…), start, end, script (el texto dicho), seen (el patrón de Arthur que justifica la elección, con su ref), pick y exactamente 3 opts A/B/C con title, cats, desc, ref (un ID real de la biblioteca), type, props (con tiempos ABSOLUTOS de palabra en t / text_t / points[].t cuando el tipo los use) y enter/exit solo con transiciones permitidas y separadas.
 - Assets: la opción que marques en "pick" debe poder renderizarse con lo que hay (sin assets nuevos, o con el b-roll subido, o mg_original). Las otras opciones pueden necesitar assets nuevos: ponles props.media = "media/assets/A01.png" (o .mp4) y descríbelos en "assets".
-- Añade al JSON una lista "assets": [{id: "A01", name, kind: "image|broll|illustration|painting", ar: "9:16|4:5|1:1", prompt (7 bloques Katana: función de la referencia, contexto, mapa espacial, una acción, cámara, luz/textura, bloqueos), negative, for_beat: "b03"}] con cada asset que pidan las opciones B/C (máx. 8).
+- Añade al JSON una lista "assets" (máx. 8) con cada asset que pidan las opciones B/C. Cada asset es un encargo PROFESIONAL listo para copiar y generar, en la marca y la paleta de ESTE video:
+  {"id": "A01", "name": "macro-costura", "kind": "image|video|illustration|painting|texture",
+   "modelo": "el más adecuado (imagen: Nano Banana Pro / GPT Image; video: Seedance 2.5 / Kling / Veo; pintura: dominio público en Wikimedia, no se genera)",
+   "ar": "9:16|4:5|1:1", "resolucion": "1080x1920", "duracion": "solo video: el DOBLE de lo que sale en pantalla, mínimo 4 s",
+   "en_pantalla": "b11 · 24.3–27.4 s", "referencia": "qué imagen usar de referencia para la consistencia (p. ej. A01 hero, o el cuadro del video a 0:12)",
+   "is_ref": true si es el hero que los demás usan de referencia (se genera PRIMERO),
+   "bloques": {
+     "referencias": "función de cada referencia: @image1 = identidad y ropa del hero…",
+     "contexto": "qué es, para qué marca/video, estilo visual",
+     "mapa_espacial": "dónde está cada cosa en el cuadro (primer plano, fondo, tercios, zona segura centrada)",
+     "accion": "UNA sola acción concreta",
+     "camara": "lente, plano, movimiento + dosis + límite (p. ej. push-in lento 5 %, sin giros)",
+     "luz_textura": "luz (dirección, dureza, temperatura), paleta del video con HEX, textura y grano",
+     "bloqueos": "lo que no puede cambiar: ropa del hero, sin texto, sin logos, sin manos deformes, sin look de IA, hiperrealista tipo UGC"
+   },
+   "prompt": "el prompt completo EN INGLÉS uniendo los 7 bloques en un párrafo fluido (los modelos rinden mejor en inglés)",
+   "resumen": "una línea en español: qué es y por qué",
+   "negative": "lista en inglés de lo que se evita",
+   "archivo": "A01_macro-costura.png", "for_beat": "b11"}
 - Textos cortos en español (menos texto = más premium): "big" máx. 3 palabras; "small" y "after" máx. 4 palabras cada uno (más largo se sale del cuadro). Las palabras de "big" deben salir de lo que dice el clip.
 - Respeta: cuando anuncia algo nuevo → cara; cuando lo describe → se muestra. Corte seco por defecto.
 Devuelve SOLO el JSON de beats.json dentro de un bloque \`\`\`json.`;
@@ -138,7 +161,15 @@ export function sanitize(b: Beats, allowed: string[], duration: number, original
   // máximo 3 originales elegidos (cada uno se genera con IA + HyperFrames)
   let n = 0;
   for (const x of beats) { const o = x.opts["ABC".indexOf(x.pick)]; if (o?.type === "mg_original" && ++n > 3) x.pick = (["A", "B", "C"] as const)[x.opts.findIndex((q) => q.type !== "mg_original" && !needsMedia(q))] ?? "C"; }
-  return { title: b.title || "Plan por beats", beats, assets: (b.assets ?? []).slice(0, 8) };
+  // prompts de assets completos: si la IA dejó los bloques sin unir, se unen aquí
+  const assets = (b.assets ?? []).slice(0, 8).map((a, i) => {
+    const id = a.id || `A${String(i + 1).padStart(2, "0")}`;
+    const bl = a.bloques;
+    const prompt = a.prompt || (bl ? [bl.referencias, bl.contexto, bl.mapa_espacial, bl.accion, bl.camara, bl.luz_textura, bl.bloqueos].filter(Boolean).join(" ") : "");
+    const ext = /video|broll/.test(a.kind) ? "mp4" : "png";
+    return { ...a, id, prompt, archivo: a.archivo || `${id}_${(a.name || "asset").replace(/[^\w-]+/g, "-")}.${ext}` };
+  });
+  return { title: b.title || "Plan por beats", beats, assets };
 }
 
 export async function planBeats(provider: ProviderId, vesStyle: string, project: string, po?: PlanOpts): Promise<Beats> {

@@ -221,3 +221,14 @@ export function tablero(id: string) {
 }
 
 export const flujoFiles = (job: FlujoJob) => projectStatus(job.project);
+
+/** Cuadro real del video en un segundo (para "quedarse en la cara" en el tablero). */
+export function cuadro(id: string, t: number) {
+  const job = getFlujo(id);
+  if (!job) throw new Error("No existe ese flujo");
+  const dir = join(dirOf(job.project), "_cuadros");
+  mkdirSync(dir, { recursive: true });
+  const f = join(dir, `${t.toFixed(1)}.jpg`);
+  if (!existsSync(f)) execFileSync("ffmpeg", ["-v", "error", "-y", "-ss", t.toFixed(2), "-i", join(dirOf(job.project), "media/raw_cut.mp4"), "-frames:v", "1", "-vf", "scale=180:-2", "-q:v", "4", f]);
+  return f;
+}

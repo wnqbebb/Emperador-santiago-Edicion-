@@ -14,7 +14,7 @@ export function sampleWords() {
 export async function loadClipAndEdit(page: Page) {
   await page.goto("/");
   await expect(page.getByText("Emperador Santiago").first()).toBeVisible();
-  await page.setInputFiles("input[type=file]", "tests/fixtures/clip.mp4");
+  await page.setInputFiles(".panel .drop input[type=file]", "tests/fixtures/clip.mp4");
   await page.waitForFunction(() => (document.querySelector("video") as HTMLVideoElement)?.readyState >= 1);
   await page.evaluate((w) => { (window as any).__santi.setDuration(12); (window as any).__santi.setWords(w); }, sampleWords());
   await page.getByRole("button", { name: "Director IA" }).click();

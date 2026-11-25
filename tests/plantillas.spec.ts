@@ -16,8 +16,7 @@ test("después de unir, la app pregunta: estilo, color del propio video, energí
   test.setTimeout(240_000);
   await page.goto("/");
   await page.getByRole("button", { name: "Crear video", exact: true }).click();
-  await page.locator(".m-drop input[type=file][accept]").first().setInputFiles("tests/fixtures/voz.mp4");
-  await page.getByRole("button", { name: /Crear video completo/ }).click();
+  await page.locator(".c-source input[type=file]").setInputFiles("tests/fixtures/voz.mp4");   // clip directo, sin pasar por Unir clips
   await expect(page.locator(".pal-list button").first()).toBeVisible({ timeout: 200_000 });
   await expect(page.locator(".p-card")).toHaveCount(5);
   await expect(page.locator(".pal-list button.on")).toContainText("recomendado");
@@ -30,8 +29,7 @@ test("Crear video con Arthur Brooks: tablero de preedición y borrador", async (
   test.setTimeout(1_800_000);
   await page.goto("/");
   await page.getByRole("button", { name: "Crear video", exact: true }).click();
-  await page.locator(".m-drop input[type=file][accept]").first().setInputFiles("tests/fixtures/voz.mp4");
-  await page.getByRole("button", { name: /Crear video completo/ }).click();
+  await page.locator(".c-source input[type=file]").setInputFiles("tests/fixtures/voz.mp4");   // clip directo, sin pasar por Unir clips
   await expect(page.locator(".pal-list button").first()).toBeVisible({ timeout: 200_000 });
   await page.getByRole("button", { name: /Empezar edición/ }).click();
   await expect(page.locator(".board .beat").first()).toBeVisible({ timeout: 900_000 });

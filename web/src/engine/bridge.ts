@@ -55,11 +55,16 @@ export const vesConfirmPhrase = (action: string, project: string) => j<{ phrase:
 export const vesFileUrl = (rel: string) => `${BASE}/ves-files/${rel.split("/").map(encodeURIComponent).join("/")}`;
 
 // ---------- Unión de clips y recortes de silencio
-export type MontajeJob = { id: string; status: "running" | "done" | "error"; step: string; progress: number; error?: string;
-  clips: { name: string; before: number; after: number; cuts: number; fillers: number; keep: [number, number][] }[];
-  master?: string; web?: string; masterMB?: number; webMB?: number };
-export const startMontaje = (b: { clips: { mediaId: string; name: string }[]; ritmo: string; muletillas: boolean; formato: string }) =>
-  j<MontajeJob>("/api/montaje", { method: "POST", body: JSON.stringify(b) });
+export type Corte = { start: number; end: number; reason: "silencio" | "muletilla" | "toma repetida"; text?: string };
+export type MontajeJob = { id: string; status: "running" | "analizado" | "done" | "error"; step: string; progress: number; error?: string;
+  clips: { name: string; before: number; after: number; cuts: number; fillers: number; repeated?: number; keep: [number, number][]; cortes?: Corte[]; peaks?: number[] }[];
+  master?: string; web?: string; srt?: string; masterMB?: number; webMB?: number };
+export type MontajeOpts = { clips: { mediaId: string; name: string }[]; ritmo: string; muletillas: boolean; formato: string;
+  repetidas?: boolean; mejorarAudio?: boolean; velocidad?: number; srt?: boolean };
+export const startMontaje = (b: MontajeOpts) => j<MontajeJob>("/api/montaje", { method: "POST", body: JSON.stringify(b) });
+export const analizarMontaje = (b: MontajeOpts) => j<MontajeJob>("/api/montaje/analizar", { method: "POST", body: JSON.stringify(b) });
+export const renderMontaje = (id: string, restaurar: Record<number, number[]>, cambios: Record<string, unknown>) =>
+  j<MontajeJob>(`/api/montaje/${id}/render`, { method: "POST", body: JSON.stringify({ restaurar, cambios }) });
 export const getMontaje = (id: string) => j<MontajeJob>(`/api/montaje/${id}`);
 export const abs = (path: string) => (path.startsWith("http") ? path : BASE + path);
 
@@ -69,16 +74,22 @@ export type Familia = { id: string; name: string; description: string; motor: "v
 export type Paleta = { frame: string; options: { name: string; from: string; colors: Record<"vibrant_bright" | "vibrant_dark" | "dull_white" | "dull_black", string>; caption: string; recommended?: boolean }[] };
 export type Opt = { title: string; cats?: string; desc?: string; ref?: string; type: string | null; props?: Record<string, unknown> };
 export type Beats = { title: string; beats: { id: string; start: number; end: number; script: string; seen: string; pick: "A" | "B" | "C"; opts: Opt[] }[];
-  assets?: { id: string; name: string; kind: string; ar: string; prompt: string; for_beat?: string }[] };
+  assets?: Asset[] };
+export type Asset = { id: string; name: string; kind: string; ar: string; prompt: string; negative?: string; for_beat?: string; is_ref?: boolean;
+  modelo?: string; resolucion?: string; duracion?: string; referencia?: string; archivo?: string; en_pantalla?: string; resumen?: string;
+  bloques?: Record<"referencias" | "contexto" | "mapa_espacial" | "accion" | "camara" | "luz_textura" | "bloqueos", string> };
 export type Tablero = { beats: Beats; thumbs: Record<string, string> };
 export type FlujoJob = { id: string; project: string; plantilla: string; status: "running" | "tablero" | "review" | "error"; step: string; steps: string[]; current: number; log: string[]; error?: string;
   beats?: number; scenes?: number; assets?: number; originales?: number; project_status?: VesProject };
 export const familias = () => j<Familia[]>("/api/familias");
-export const paleta = (montajeId: string) => j<Paleta>("/api/paleta", { method: "POST", body: JSON.stringify({ montajeId }) });
-export const startFlujo = (b: { montajeId: string; plantilla: string; provider: string; broll: { mediaId: string; desc: string }[];
+export type Fuente = { montajeId?: string; mediaId?: string };
+export const paleta = (src: Fuente) => j<Paleta>("/api/paleta", { method: "POST", body: JSON.stringify(src) });
+export const startFlujo = (b: Fuente & { plantilla: string; provider: string; broll: { mediaId: string; desc: string }[];
   respuestas: { energia: string; texturas: number; palette?: Record<string, string>; originales: boolean; rapido: boolean; notas?: string } }) =>
   j<FlujoJob>("/api/flujo", { method: "POST", body: JSON.stringify(b) });
 export const getFlujo = (id: string) => j<FlujoJob>(`/api/flujo/${id}`);
 export const tablero = (id: string) => j<Tablero>(`/api/flujo/${id}/tablero`);
 export const elegir = (id: string, picks: Record<string, string>) => j<FlujoJob>(`/api/flujo/${id}/elegir`, { method: "POST", body: JSON.stringify({ picks }) });
 export const replan = (id: string, cambios: Record<string, unknown>) => j<FlujoJob>(`/api/flujo/${id}/replan`, { method: "POST", body: JSON.stringify(cambios) });
+
+export const cuadroUrl = (id: string, t: number) => `${BASE}/api/flujo/${id}/cuadro?t=${t.toFixed(1)}`;

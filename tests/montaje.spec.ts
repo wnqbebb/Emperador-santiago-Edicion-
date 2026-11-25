@@ -7,7 +7,7 @@ const files = ["clip 10.mp4", "clip 2.mp4", "clip 1.mp4"].map((f) => `${DIR}/${f
 test("Unir clips: ordena por nombre, permite reordenar y no procesa al subir", async ({ page }) => {
   test.skip(!existsSync(files[0]), "Faltan los clips de prueba");
   await page.goto("/");
-  await page.getByRole("button", { name: "Crear video", exact: true }).click();
+  await page.getByRole("button", { name: "Unir clips", exact: true }).click();
   await page.locator(".m-drop input[type=file][accept]").setInputFiles(files);
   await expect(page.locator(".m-list li")).toHaveCount(3);
   await expect(page.locator(".m-info b")).toHaveText(["clip 1.mp4", "clip 2.mp4", "clip 10.mp4"]); // 1, 2, 10 (no 1, 10, 2)
@@ -18,13 +18,16 @@ test("Unir clips: ordena por nombre, permite reordenar y no procesa al subir", a
   await expect(page.locator(".m-info b")).toHaveText(["clip 1.mp4", "clip 2.mp4", "clip 10.mp4"]);
 });
 
-test("Unir clips: un botón busca silencios, recorta, renderiza y comprime", async ({ page }) => {
+test("Unir clips: analiza, deja revisar los cortes y luego renderiza y comprime", async ({ page }) => {
   test.skip(!existsSync(files[0]), "Faltan los clips de prueba");
   test.setTimeout(300_000);
   await page.goto("/");
-  await page.getByRole("button", { name: "Crear video", exact: true }).click();
+  await page.getByRole("button", { name: "Unir clips", exact: true }).click();
   await page.locator(".m-drop input[type=file][accept]").setInputFiles(files);
-  await page.getByRole("button", { name: /Crear video completo/ }).click();
+  await page.getByRole("button", { name: /Analizar cortes/ }).click();
+  await expect(page.locator(".wave").first()).toBeVisible({ timeout: 200_000 });   // revisión de cortes antes de renderizar
+  await expect(page.locator(".wave .cut").first()).toBeVisible();
+  await page.getByRole("button", { name: /Renderizar video/ }).click();
   await expect(page.locator(".m-result video")).toBeVisible({ timeout: 280_000 });
   await expect(page.locator(".m-saved")).toHaveCount(3);
   const dur = await page.locator(".m-result video").evaluate((v: HTMLVideoElement) => new Promise<number>((r) => (v.readyState ? r(v.duration) : (v.onloadedmetadata = () => r(v.duration)))));

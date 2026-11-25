@@ -4,7 +4,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import * as bridge from "../engine/bridge";
 import { Icon } from "./Icon";
-import { Plantillas } from "./Plantillas";
 
 type Item = { id: string; file: File; url: string; duration: number; w: number; h: number; thumb: string };
 type Ritmo = "natural" | "dinamico" | "agresivo";
@@ -28,12 +27,17 @@ async function describe(file: File): Promise<Item> {
   return { id: crypto.randomUUID(), file, url, duration: v.duration, w: v.videoWidth, h: v.videoHeight, thumb: c.toDataURL("image/jpeg", 0.75) };
 }
 
-export function Montaje({ online, providers, onOpenInEditor }: { online: boolean; providers: bridge.Provider[] | null; onOpenInEditor: (f: File, styleId?: string) => void }) {
+export function Montaje({ online, onOpenInEditor, onCrearVideo }: { online: boolean; onOpenInEditor: (f: File) => void; onCrearVideo: (montajeId: string) => void }) {
   const [items, setItems] = useState<Item[]>([]);
   const [ritmo, setRitmo] = useState<Ritmo>("dinamico");
   const [muletillas, setMuletillas] = useState(false);
   const [formato, setFormato] = useState<"vertical" | "original">("vertical");
-  const [phase, setPhase] = useState<"idle" | "uploading" | "working" | "done" | "error">("idle");
+  const [repetidas, setRepetidas] = useState(true);
+  const [mejorarAudio, setMejorarAudio] = useState(true);
+  const [velocidad, setVelocidad] = useState(1);
+  const [srt, setSrt] = useState(true);
+  const [restaurar, setRestaurar] = useState<Record<number, number[]>>({});
+  const [phase, setPhase] = useState<"idle" | "uploading" | "working" | "review" | "done" | "error">("idle");
   const [upload, setUpload] = useState(0);
   const [job, setJob] = useState<bridge.MontajeJob | null>(null);
   const [drag, setDrag] = useState<string | null>(null);
@@ -59,8 +63,16 @@ export function Montaje({ online, providers, onOpenInEditor }: { online: boolean
     n.splice(at, 0, cur.find((x) => x.id === drag)!); return n;
   });
 
-  async function create() {
-    setPhase("uploading"); setUpload(0); setJob(null);
+  const usaWhisper = muletillas || repetidas || srt;
+  async function waitJob(j: bridge.MontajeJob) {
+    setJob(j);
+    while (j.status === "running") { await new Promise((r) => setTimeout(r, 800)); j = await bridge.getMontaje(j.id); setJob(j); }
+    return j;
+  }
+
+  /** revisar = true: analiza y se detiene para que revises cada corte; false: todo de una. */
+  async function create(revisar: boolean) {
+    setPhase("uploading"); setUpload(0); setJob(null); setRestaurar({});
     try {
       const clips: { mediaId: string; name: string }[] = [];
       for (const [i, it] of items.entries()) {
@@ -69,23 +81,35 @@ export function Montaje({ online, providers, onOpenInEditor }: { online: boolean
         setUpload((i + 1) / items.length);
       }
       setPhase("working");
-      let j = await bridge.startMontaje({ clips, ritmo, muletillas, formato });
-      setJob(j);
-      while (j.status === "running") { await new Promise((r) => setTimeout(r, 800)); j = await bridge.getMontaje(j.id); setJob(j); }
-      setPhase(j.status === "done" ? "done" : "error");
+      const opts = { clips, ritmo, muletillas, formato, repetidas, mejorarAudio, velocidad, srt };
+      const j = await waitJob(revisar ? await bridge.analizarMontaje(opts) : await bridge.startMontaje(opts));
+      setPhase(j.status === "analizado" ? "review" : j.status === "done" ? "done" : "error");
     } catch (e) {
       setJob({ id: "", status: "error", step: "", progress: 0, clips: [], error: (e as Error).message });
       setPhase("error");
     }
   }
 
-  async function openInEditor(styleId?: string) {
+  async function renderizar() {
+    if (!job) return;
+    setPhase("working");
+    const j = await waitJob(await bridge.renderMontaje(job.id, restaurar, { mejorarAudio, velocidad, srt }));
+    setPhase(j.status === "done" ? "done" : "error");
+  }
+  const toggleCorte = (ci: number, k: number) => setRestaurar((r) => {
+    const cur = new Set(r[ci] ?? []); cur.has(k) ? cur.delete(k) : cur.add(k);
+    return { ...r, [ci]: [...cur] };
+  });
+
+  async function openInEditor() {
     if (!job?.master) return;
     const blob = await (await fetch(bridge.abs(job.master))).blob();
-    onOpenInEditor(new File([blob], "video-completo.mp4", { type: "video/mp4" }), styleId);
+    onOpenInEditor(new File([blob], "video-completo.mp4", { type: "video/mp4" }));
   }
 
   const busy = phase === "uploading" || phase === "working";
+  const quitados = (ci: number) => (job?.clips[ci]?.cortes ?? []).filter((_, k) => !(restaurar[ci] ?? []).includes(k));
+  const estimado = job?.clips.reduce((t, c, ci) => t + c.before - quitados(ci).reduce((x, q) => x + q.end - q.start, 0), 0) ?? 0;
   const before = job?.clips.reduce((t, c) => t + c.before, 0) ?? 0;
   const after = job?.clips.reduce((t, c) => t + c.after, 0) ?? 0;
   const current = stepIndex(job?.step ?? "", phase === "uploading");
@@ -96,12 +120,13 @@ export function Montaje({ online, providers, onOpenInEditor }: { online: boolean
       <section className="m-main">
         <header className="m-head">
           <div>
-            <h1>Crear video</h1>
-            <p>Sube tus clips en bruto → se unen y se cortan los silencios → eliges la plantilla de edición → se edita solo.</p>
+            <h1>Unir clips y recortar</h1>
+            <p>Sube tus tomas en bruto: se ordenan solas, analizo silencios, muletillas y tomas repetidas, revisas cada corte y sale el video unido, con la voz mejorada y listo para redes.</p>
             <ol className="wizard">
-              <li className={phase === "done" ? "ok" : "now"}>1 · Unir clips y cortar silencios</li>
-              <li className={phase === "done" ? "now" : ""}>2 · Plantilla de edición</li>
-              <li>3 · Edición y aprobación</li>
+              <li className={phase === "idle" ? "now" : "ok"}>1 · Subir y ordenar</li>
+              <li className={phase === "working" && !job?.clips.length ? "now" : job?.clips.length ? "ok" : ""}>2 · Analizar</li>
+              <li className={phase === "review" ? "now" : phase === "done" ? "ok" : ""}>3 · Revisar cortes</li>
+              <li className={phase === "done" ? "ok" : ""}>4 · Video final</li>
             </ol>
           </div>
           {items.length > 0 && <div className="m-count"><b>{items.length}</b> clips · {fmt(total)}</div>}
@@ -119,8 +144,6 @@ export function Montaje({ online, providers, onOpenInEditor }: { online: boolean
           <button type="button" className="btn ghost" disabled={busy} onClick={(e) => { e.preventDefault(); folderRef.current?.click(); }}>Elegir carpeta</button>
           <input ref={folderRef} type="file" hidden multiple {...({ webkitdirectory: "" } as object)} onChange={(e) => e.target.files && add(e.target.files)} />
         </label>
-
-        {phase === "done" && job && <Plantillas montajeId={job.id} providers={providers} onRapido={(styleId) => openInEditor(styleId)} />}
 
         {items.length > 0 && (
           <>
@@ -144,11 +167,22 @@ export function Montaje({ online, providers, onOpenInEditor }: { online: boolean
                       <b title={it.file.name}>{it.file.name}</b>
                       <small>{fmt(it.duration)} · {it.w}×{it.h}{it.w > it.h ? " · horizontal" : ""}</small>
                       {rep && (
-                        <div className="m-bar" title={`${rep.cuts} cortes`}>
-                          {rep.keep.map(([a, b], k) => <i key={k} style={{ left: `${(a / rep.before) * 100}%`, width: `${((b - a) / rep.before) * 100}%` }} />)}
+                        <div className="wave" title="Dorado = se queda · rojo = silencio · ámbar = muletilla · violeta = toma repetida">
+                          <div className="peaks">{(rep.peaks ?? []).map((v, k) => <i key={k} style={{ height: `${8 + v * 92}%` }} />)}</div>
+                          {(rep.cortes ?? []).map((c, k) => {
+                            const back = (restaurar[i] ?? []).includes(k);
+                            return <button key={k} className={`cut ${c.reason.replace(" ", "-")} ${back ? "back" : ""}`} disabled={phase !== "review"} onClick={() => toggleCorte(i, k)}
+                              title={`${c.reason}${c.text ? ` «${c.text}»` : ""} · ${(c.end - c.start).toFixed(2)} s — ${back ? "se queda (clic para quitar)" : "se quita (clic para conservar)"}`}
+                              style={{ left: `${(c.start / rep.before) * 100}%`, width: `${Math.max(0.4, ((c.end - c.start) / rep.before) * 100)}%` }} />;
+                          })}
                         </div>
                       )}
-                      {rep && <small className="m-saved">{rep.before.toFixed(1)} s → {rep.after.toFixed(1)} s · {rep.cuts} cortes{rep.fillers ? ` · ${rep.fillers} muletillas` : ""}</small>}
+                      {rep && phase === "review" && (rep.cortes ?? []).some((c) => c.reason !== "silencio") && (
+                        <div className="cut-chips">{(rep.cortes ?? []).map((c, k) => c.reason === "silencio" ? null : (
+                          <button key={k} className={`chip-cut ${c.reason.replace(" ", "-")} ${(restaurar[i] ?? []).includes(k) ? "back" : ""}`} onClick={() => toggleCorte(i, k)}>
+                            {c.reason}{c.text ? ` «${c.text.slice(0, 40)}»` : ""} {(restaurar[i] ?? []).includes(k) ? "· se queda" : "· se quita"}</button>))}</div>
+                      )}
+                      {rep && <small className="m-saved">{rep.before.toFixed(1)} s → {(rep.before - quitados(i).reduce((x, q) => x + q.end - q.start, 0)).toFixed(1)} s · {quitados(i).length} cortes{rep.fillers ? ` · ${rep.fillers} muletillas` : ""}{rep.repeated ? ` · ${rep.repeated} tomas repetidas` : ""}</small>}
                     </div>
                     <div className="m-actions">
                       <button title="Subir" disabled={busy || i === 0} onClick={() => move(i, -1)}>↑</button>
@@ -172,8 +206,24 @@ export function Montaje({ online, providers, onOpenInEditor }: { online: boolean
           ))}
         </div>
         <label className="toggle">
+          <input type="checkbox" checked={repetidas} disabled={busy} onChange={(e) => setRepetidas(e.target.checked)} />
+          <span><b>Quitar tomas repetidas</b><small>Si empezaste una frase y la repetiste, se queda la última toma.</small></span>
+        </label>
+        <label className="toggle">
           <input type="checkbox" checked={muletillas} disabled={busy} onChange={(e) => setMuletillas(e.target.checked)} />
-          <span><b>Quitar muletillas</b><small>eh, mmm… con Whisper. Más lento, cortes más precisos.</small></span>
+          <span><b>Quitar muletillas</b><small>eh, mmm… Nunca corta a mitad de palabra.</small></span>
+        </label>
+        <h3>Audio y ritmo</h3>
+        <label className="toggle">
+          <input type="checkbox" checked={mejorarAudio} disabled={busy} onChange={(e) => setMejorarAudio(e.target.checked)} />
+          <span><b>Mejorar la voz</b><small>Quita ruido de fondo, da presencia y compresión. Volumen de redes (−14 LUFS).</small></span>
+        </label>
+        <div className="seg three">
+          {[1, 1.1, 1.2].map((v) => <button key={v} className={velocidad === v ? "on" : ""} disabled={busy} onClick={() => setVelocidad(v)}><b>{v === 1 ? "Normal" : `${v}×`}</b><small>{v === 1 ? "como se grabó" : v === 1.1 ? "más ágil" : "ritmo TikTok"}</small></button>)}
+        </div>
+        <label className="toggle">
+          <input type="checkbox" checked={srt} disabled={busy} onChange={(e) => setSrt(e.target.checked)} />
+          <span><b>Subtítulos .srt</b><small>Para subir a YouTube, CapCut o Premiere.</small></span>
         </label>
         <h3>Formato</h3>
         <div className="seg two">
@@ -181,15 +231,26 @@ export function Montaje({ online, providers, onOpenInEditor }: { online: boolean
           <button className={formato === "original" ? "on" : ""} disabled={busy} onClick={() => setFormato("original")}><b>Original</b><small>Tamaño del clip 1</small></button>
         </div>
 
-        <button className="btn primary big" disabled={!online || busy || !items.length} onClick={create}>
-          <Icon name="bolt" /> {busy ? "Trabajando…" : "Crear video completo"}
-        </button>
+        {phase === "review" ? (
+          <>
+            <p className="hint">Revisa los cortes de cada clip a la izquierda (clic en un tramo para conservarlo). Quedará en ≈ {fmt(estimado)}.</p>
+            <button className="btn primary big" onClick={renderizar}><Icon name="bolt" /> Renderizar video</button>
+          </>
+        ) : (
+          <>
+            <button className="btn primary big" disabled={!online || busy || !items.length} onClick={() => create(true)}>
+              <Icon name="bolt" /> {busy ? "Trabajando…" : "Analizar cortes"}
+            </button>
+            <button className="btn ghost" disabled={!online || busy || !items.length} onClick={() => create(false)}>Hacer todo de una (sin revisar)</button>
+            {usaWhisper && <p className="hint">Usa Whisper para leer las palabras: el análisis tarda un poco más.</p>}
+          </>
+        )}
         {!online && <p className="hint">Enciende el bridge (<code>npm run dev</code>) para procesar.</p>}
 
         {phase !== "idle" && (
           <div className="m-progress">
             <ol>
-              {STEPS.map((s, i) => (
+              {STEPS.filter((st) => phase !== "review" || st !== "Listo").map((s, i) => (
                 <li key={s} className={phase === "done" || i < current ? "ok" : i === current && phase !== "error" ? "now" : ""}>{s}</li>
               ))}
             </ol>
@@ -202,7 +263,7 @@ export function Montaje({ online, providers, onOpenInEditor }: { online: boolean
         {phase === "done" && job?.web && (
           <div className="m-result">
             <video src={bridge.abs(job.web)} controls playsInline />
-            <p className="hint">✓ Paso 1 listo. Elige la plantilla de edición a la izquierda.</p>
+
             <div className="stats">
               <div><b>{fmt(before)}</b><small>antes</small></div>
               <div><b>{fmt(after)}</b><small>después</small></div>
@@ -210,7 +271,9 @@ export function Montaje({ online, providers, onOpenInEditor }: { online: boolean
             </div>
             <a className="btn primary" href={bridge.abs(job.web)} download="video-completo-redes.mp4"><Icon name="export" /> Descargar para redes · {job.webMB} MB</a>
             <a className="btn" href={bridge.abs(job.master!)} download="video-completo.mp4">Descargar master · {job.masterMB} MB</a>
-            <button className="btn ghost" onClick={() => openInEditor()}>Abrir en el editor (subtítulos y estilo)</button>
+            {job.srt && <a className="btn" href={bridge.abs(job.srt)} download="video-completo.srt">Descargar subtítulos .srt</a>}
+            <button className="btn primary" onClick={() => onCrearVideo(job.id)}><Icon name="spark" /> Editarlo con una plantilla (Crear video)</button>
+            <button className="btn ghost" onClick={() => openInEditor()}>Abrir en el editor rápido</button>
           </div>
         )}
       </aside>

@@ -4,11 +4,11 @@ import { useEffect, useState } from "react";
 import * as bridge from "../engine/bridge";
 import { Icon } from "./Icon";
 
-type Props = { montajeId: string; providers: bridge.Provider[] | null; onRapido: (styleId: string) => void };
+type Props = { fuente: bridge.Fuente; providers: bridge.Provider[] | null; onRapido: (styleId: string) => void };
 type Energia = "calma" | "media" | "viral";
 type BrollItem = { file: File; desc: string };
 
-export function Plantillas({ montajeId, providers, onRapido }: Props) {
+export function Plantillas({ fuente, providers, onRapido }: Props) {
   const [familias, setFamilias] = useState<bridge.Familia[]>([]);
   const [fam, setFam] = useState("arthur");
   const [vari, setVari] = useState("arthur-talking");
@@ -29,7 +29,7 @@ export function Plantillas({ montajeId, providers, onRapido }: Props) {
   const [sending, setSending] = useState(false);
 
   useEffect(() => { bridge.familias().then(setFamilias).catch(() => null); }, []);
-  useEffect(() => { bridge.paleta(montajeId).then((p) => { setPaleta(p); setPal(Math.max(0, p.options.findIndex((o) => o.recommended))); }).catch(() => null); }, [montajeId]);
+  useEffect(() => { bridge.paleta(fuente).then((p) => { setPaleta(p); setPal(Math.max(0, p.options.findIndex((o) => o.recommended))); }).catch(() => null); }, [fuente.montajeId, fuente.mediaId]);
   useEffect(() => { if (!provider && ready[0]) setProvider(ready[0].id); }, [providers]);
 
   const familia = familias.find((f) => f.id === fam);
@@ -58,7 +58,7 @@ export function Plantillas({ montajeId, providers, onRapido }: Props) {
     try {
       const up = [];
       for (const b of broll) up.push({ mediaId: (await bridge.uploadMedia(b.file)).mediaId, desc: b.desc || b.file.name });
-      const j = await bridge.startFlujo({ montajeId, plantilla: variante.id, provider, broll: up,
+      const j = await bridge.startFlujo({ ...fuente, plantilla: variante.id, provider, broll: up,
         respuestas: { energia, texturas, palette: color?.colors, originales, rapido, notas } });
       setSending(false);
       poll(j.id);
@@ -92,7 +92,7 @@ export function Plantillas({ montajeId, providers, onRapido }: Props) {
 
   return (
     <div className="plantillas">
-      <h2><span className="m-step">2</span> ¿Cómo quieres editarlo?</h2>
+      <h2><span className="m-step">2</span> ¿Cómo quieres editarlo? <small className="h-sub">te pregunto antes de editar</small></h2>
 
       {/* 1 · Estilo y variante */}
       <div className="q">
@@ -236,16 +236,22 @@ export function Plantillas({ montajeId, providers, onRapido }: Props) {
                       const media = (o.props as { media?: string } | undefined)?.media;
                       return (
                         <button key={k} className={`opt ${picks[b.id] === L ? "on" : ""}`} onClick={() => setPicks((p) => ({ ...p, [b.id]: L }))}>
-                          <div className="thumb">{o.type === "mg_original" ? <span>✦</span> : o.type === null ? <span>🙂</span> : tab.thumbs[o.ref ?? ""] ? <img src={tab.thumbs[o.ref ?? ""]} alt="" /> : <span>Aa</span>}</div>
-                          <div><i>{L}</i> <b>{o.title}</b>{o.type === "mg_original" && <em> ✦ original</em>}{media && String(media).includes("assets/") && <em> 📎 asset</em>}</div>
+                          <div className="thumb">{o.type === "mg_original" ? <span>✦<small>original</small></span> : o.type === null || o.type === "aroll" ? <img src={bridge.cuadroUrl(flujo.id, (b.start + b.end) / 2)} alt="" /> : tab.thumbs[o.ref ?? ""] ? <img src={tab.thumbs[o.ref ?? ""]} alt="" /> : <span>Aa</span>}</div>
+                          <div className="opt-txt"><div><i>{L}</i> <b>{o.title}</b>{o.type === "mg_original" && <em> ✦ original</em>}{media && String(media).includes("assets/") && <em> 📎 asset</em>}</div>
                           <small>{o.desc || o.cats}</small>
-                          {o.ref && o.type !== "mg_original" && <small className="ref">inspirado en {o.ref}</small>}
+                          {o.ref && o.type !== "mg_original" && <small className="ref">inspirado en {o.ref}</small>}</div>
                         </button>
                       );
                     })}
                   </div>
                 </div>
               ))}
+              {tab.beats.assets?.length ? (
+                <details>
+                  <summary>📎 {tab.beats.assets.length} assets que piden las opciones B/C · prompts en 7 bloques</summary>
+                  <div className="assets">{tab.beats.assets.map((a) => <AssetCard key={a.id} a={a} />)}</div>
+                </details>
+              ) : null}
               <div className="row">
                 <button className="btn ghost" onClick={otraPropuesta}>Pedir otra propuesta</button>
                 <button className="btn primary" onClick={construir}><Icon name="bolt" /> Construir el borrador con estas elecciones</button>
@@ -265,13 +271,9 @@ export function Plantillas({ montajeId, providers, onRapido }: Props) {
                 </div>
                 {tab?.beats.assets?.length ? (
                   <details open>
-                    <summary>📎 Assets sugeridos para las opciones B/C ({tab.beats.assets.length})</summary>
-                    <ul className="assets">
-                      {tab.beats.assets.map((a) => (
-                        <li key={a.id}><b>{a.id} · {a.name}</b> <small>{a.kind} · {a.ar} · para {a.for_beat}</small><p>{a.prompt}</p>
-                          <button className="link" onClick={() => navigator.clipboard?.writeText(a.prompt)}>Copiar prompt</button></li>
-                      ))}
-                    </ul>
+                    <summary>📎 Assets para generar ({tab.beats.assets.length}) · prompts profesionales en 7 bloques</summary>
+                    <p className="hint">Genera primero el que dice HERO (los demás lo usan de referencia). Entrega todo en un zip con estos nombres de archivo.</p>
+                    <div className="assets">{tab.beats.assets.map((a) => <AssetCard key={a.id} a={a} />)}</div>
                   </details>
                 ) : null}
                 <button className="btn ghost" onClick={() => setFlujo({ ...flujo, status: "tablero" })}>Volver al tablero y cambiar escenas</button>
@@ -290,6 +292,38 @@ export function Plantillas({ montajeId, providers, onRapido }: Props) {
           )}
         </section>
       )}
+    </div>
+  );
+}
+
+const BLOQUES: [keyof NonNullable<bridge.Asset["bloques"]>, string][] = [
+  ["referencias", "1 · Referencias"], ["contexto", "2 · Contexto"], ["mapa_espacial", "3 · Mapa espacial"], ["accion", "4 · Acción"],
+  ["camara", "5 · Cámara"], ["luz_textura", "6 · Luz y textura"], ["bloqueos", "7 · Bloqueos"],
+];
+function AssetCard({ a }: { a: bridge.Asset }) {
+  const copy = (t?: string) => t && navigator.clipboard?.writeText(t);
+  return (
+    <div className="asset-card">
+      <div className="asset-head">
+        <b>{a.id} · {a.name}</b>{a.is_ref && <span className="hero">HERO · primero</span>}
+        <small>{a.kind} · {a.ar} · {a.resolucion ?? ""}{a.duracion ? ` · ${a.duracion}` : ""}{a.en_pantalla ? ` · ${a.en_pantalla}` : ""}</small>
+      </div>
+      {a.resumen && <p className="asset-sum">{a.resumen}</p>}
+      <div className="asset-meta">
+        {a.modelo && <span><em>Modelo</em>{a.modelo}</span>}
+        {a.referencia && <span><em>Referencia</em>{a.referencia}</span>}
+        {a.archivo && <span><em>Archivo</em><code>{a.archivo}</code></span>}
+      </div>
+      {a.bloques && (
+        <dl className="bloques">{BLOQUES.map(([k, l]) => a.bloques?.[k] ? (<div key={k}><dt>{l}</dt><dd>{a.bloques[k]}</dd></div>) : null)}</dl>
+      )}
+      <div className="asset-prompt"><em>Prompt completo</em><p>{a.prompt}</p></div>
+      {a.negative && <div className="asset-prompt neg"><em>Negativo</em><p>{a.negative}</p></div>}
+      <div className="row">
+        <button className="btn" onClick={() => copy(a.prompt)}>Copiar prompt</button>
+        {a.negative && <button className="btn ghost" onClick={() => copy(a.negative)}>Copiar negativo</button>}
+        <button className="btn ghost" onClick={() => copy(`${a.prompt}\n\nNegative: ${a.negative ?? ""}\nAspect ratio: ${a.ar} · ${a.resolucion ?? ""}${a.duracion ? ` · ${a.duracion}` : ""}\nFile: ${a.archivo ?? ""}`)}>Copiar todo</button>
+      </div>
     </div>
   );
 }

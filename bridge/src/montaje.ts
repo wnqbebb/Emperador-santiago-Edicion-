@@ -18,12 +18,24 @@ mkdirSync(MONTAJE_DIR, { recursive: true });
 
 export type Ritmo = "natural" | "dinamico" | "agresivo";
 export type Formato = "vertical" | "original";
-export type MontajeOpts = { ritmo: Ritmo; muletillas: boolean; formato: Formato; idioma?: string };
+export type MontajeOpts = {
+  ritmo: Ritmo; muletillas: boolean; formato: Formato; idioma?: string;
+  repetidas?: boolean;        // quitar tomas repetidas / arranques en falso (se queda la última toma)
+  mejorarAudio?: boolean;     // quitar ruido de fondo, EQ de voz y compresión
+  velocidad?: number;         // 1 · 1.1 · 1.2 (ritmo de redes)
+  srt?: boolean;              // subtítulos .srt del video final
+};
 type Range = [number, number];
-export type ClipReport = { name: string; before: number; after: number; cuts: number; keep: Range[]; threshold: number; fillers: number };
+type Word = { w: string; t0: number; t1: number };
+export type Corte = { start: number; end: number; reason: "silencio" | "muletilla" | "toma repetida"; text?: string };
+export type ClipReport = {
+  name: string; before: number; after: number; cuts: number; keep: Range[]; threshold: number; fillers: number;
+  repeated?: number; cortes?: Corte[]; peaks?: number[];
+};
 export type MontajeJob = {
-  id: string; status: "running" | "done" | "error"; step: string; progress: number;
-  clips: ClipReport[]; master?: string; web?: string; masterMB?: number; webMB?: number; error?: string;
+  id: string; status: "running" | "analizado" | "done" | "error"; step: string; progress: number;
+  clips: ClipReport[]; master?: string; web?: string; srt?: string; masterMB?: number; webMB?: number; error?: string;
+  opts?: MontajeOpts;
 };
 const jobs = new Map<string, MontajeJob>();
 export const getMontaje = (id: string) => jobs.get(id);
@@ -136,49 +148,106 @@ function ffmpeg(args: string[], onTime?: (t: number) => void) {
   });
 }
 
-export function startMontaje(files: { path: string; name: string }[], opts: MontajeOpts) {
-  const id = randomUUID().slice(0, 8);
-  const dir = join(MONTAJE_DIR, id);
-  mkdirSync(dir, { recursive: true });
-  const job: MontajeJob = { id, status: "running", step: "Preparando", progress: 0, clips: [] };
-  jobs.set(id, job);
-  run(job, dir, files, opts).catch((e) => { job.status = "error"; job.error = (e as Error).message; });
-  return job;
+const norm = (w: string) => w.toLowerCase().normalize("NFD").replace(/[^a-z0-9ñ]/g, "");
+
+/** Tomas repetidas / arranques en falso: si una frase corta se vuelve a empezar enseguida, se queda la última. */
+function repeatedTakes(words: Word[]): { start: number; end: number; text: string }[] {
+  const phrases: Word[][] = [];
+  let cur: Word[] = [];
+  for (const w of words) {
+    const prev = cur[cur.length - 1];
+    if (prev && (w.t0 - prev.t1 > 0.45 || /[.!?…]$/.test(prev.w))) { phrases.push(cur); cur = []; }
+    cur.push(w);
+  }
+  if (cur.length) phrases.push(cur);
+  const out: { start: number; end: number; text: string }[] = [];
+  for (let i = 0; i < phrases.length - 1; i++) {
+    const a = phrases[i].map((w) => norm(w.w)).filter(Boolean);
+    if (a.length < 2 || a.length > 10) continue;
+    for (const j of [i + 1, i + 2]) {
+      const b = phrases[j]?.map((w) => norm(w.w)).filter(Boolean);
+      if (!b) continue;
+      const prefix = a[0] === b[0] && a[1] === b[1];
+      const inB = a.filter((x) => b.includes(x)).length / a.length;
+      if (prefix && inB >= 0.6) {
+        out.push({ start: phrases[i][0].t0 - 0.02, end: phrases[j][0].t0 - 0.03, text: phrases[i].map((w) => w.w).join(" ") });
+        break;
+      }
+    }
+  }
+  return out;
 }
 
-async function run(job: MontajeJob, dir: string, files: { path: string; name: string }[], opts: MontajeOpts) {
+const subtract = (keep: Range[], cut: Range): Range[] =>
+  keep.flatMap(([x, y]): Range[] => (cut[1] <= x || cut[0] >= y ? [[x, y]] : ([[x, cut[0]], [cut[1], y]] as Range[]).filter(([p, q]) => q - p > 0.08)));
+
+/** Lo que se quita = el complemento de lo que se conserva, con su motivo. */
+function cortesDe(keep: Range[], dur: number, marks: Corte[]): Corte[] {
+  const gaps: Range[] = [];
+  let t = 0;
+  for (const [a, b] of keep) { if (a - t > 0.05) gaps.push([t, a]); t = b; }
+  if (dur - t > 0.05) gaps.push([t, dur]);
+  return gaps.map(([a, b]) => {
+    const m = marks.find((x) => Math.min(b, x.end) - Math.max(a, x.start) > 0.5 * Math.min(b - a, x.end - x.start));
+    return { start: r3(a), end: r3(b), reason: m?.reason ?? "silencio", text: m?.text };
+  });
+}
+
+const peaksOf = (db: Float32Array, thr: number) => {
+  const n = 300, step = Math.max(1, Math.floor(db.length / n)), out: number[] = [];
+  for (let i = 0; i < db.length; i += step) { let m = -120; for (let k = i; k < Math.min(db.length, i + step); k++) m = Math.max(m, db[k]); out.push(Math.round(Math.max(0, Math.min(1, (m - (thr - 25)) / 45)) * 100) / 100); }
+  return out;
+};
+
+const wordsCache = new Map<string, Word[][]>(); // palabras por clip (para el .srt)
+
+/** Fase 1: analizar (no renderiza). Devuelve por clip qué se conserva y qué se quita y por qué. */
+async function analyze(job: MontajeJob, dir: string, files: { path: string; name: string }[], opts: MontajeOpts) {
+  const n = files.length;
+  const allWords: Word[][] = [];
+  const useWords = (opts.muletillas || opts.repetidas || opts.srt) && existsSync(PY);
+  for (const [i, f] of files.entries()) {
+    const info = probe(f.path);
+    job.step = `Buscando silencios · clip ${i + 1} de ${n}`;
+    job.progress = 0.05 + 0.9 * (i / n);
+    let keep: Range[] = [[0, info.duration]], threshold = 0, fillers = 0, repeated = 0, peaks: number[] = [];
+    const marks: Corte[] = [];
+    let words: Word[] = [];
+    if (info.audio) {
+      const db = levels(f.path);
+      const r = speechRanges(db, info.duration, opts.ritmo);
+      keep = r.keep.length ? r.keep : keep; threshold = r.threshold; peaks = peaksOf(db, threshold);
+      if (useWords) {
+        job.step = `Leyendo palabras con Whisper · clip ${i + 1} de ${n}`;
+        const wav = join(dir, `a${i}.wav`);
+        execFileSync("ffmpeg", ["-v", "error", "-y", "-i", f.path, "-vn", "-ac", "1", "-ar", "16000", wav]);
+        words = JSON.parse(execFileSync(PY, [join(ROOT, "tools/palabras.py"), wav, "small", opts.idioma ?? "es"], { maxBuffer: 1 << 26 }).toString());
+        const refined = refineWithWords(keep, words, !!opts.muletillas, db, threshold);
+        if (refined.keep.length) keep = refined.keep;
+        fillers = refined.fillers;
+        if (opts.muletillas) for (const w of words) if (FILLER.test(norm(w.w))) marks.push({ start: w.t0, end: w.t1, reason: "muletilla", text: w.w });
+        if (opts.repetidas) for (const rt of repeatedTakes(words)) { keep = subtract(keep, [rt.start, rt.end]); marks.push({ ...rt, reason: "toma repetida" }); repeated++; }
+      }
+    }
+    allWords.push(words);
+    const after = keep.reduce((t, [a, b]) => t + b - a, 0);
+    job.clips.push({ name: f.name, before: r3(info.duration), after: r3(after), cuts: Math.max(0, keep.length - 1), keep, threshold, fillers, repeated, cortes: cortesDe(keep, info.duration, marks), peaks });
+  }
+  wordsCache.set(job.id, allWords);
+}
+
+/** Fase 2: recortar con lo aprobado, unir, mejorar el audio, renderizar y comprimir. */
+async function render(job: MontajeJob, dir: string, files: { path: string; name: string }[], opts: MontajeOpts) {
   const infos = files.map((f) => ({ ...f, ...probe(f.path) }));
   const W = opts.formato === "vertical" ? 1080 : infos[0].width - (infos[0].width % 2);
   const H = opts.formato === "vertical" ? 1920 : infos[0].height - (infos[0].height % 2);
   const n = infos.length;
-
-  // 1) Análisis: dónde hay voz en cada clip
-  for (const [i, f] of infos.entries()) {
-    job.step = `Buscando silencios · clip ${i + 1} de ${n}`;
-    job.progress = 0.05 + 0.35 * (i / n);
-    let keep: Range[] = [[0, f.duration]], threshold = 0, fillers = 0;
-    if (f.audio) {
-      const db = levels(f.path);
-      const r = speechRanges(db, f.duration, opts.ritmo);
-      keep = r.keep.length ? r.keep : keep; threshold = r.threshold;
-      if (opts.muletillas && existsSync(PY)) {
-        job.step = `Leyendo palabras con Whisper · clip ${i + 1} de ${n}`;
-        const wav = join(dir, `a${i}.wav`);
-        execFileSync("ffmpeg", ["-v", "error", "-y", "-i", f.path, "-vn", "-ac", "1", "-ar", "16000", wav]);
-        const words = JSON.parse(execFileSync(PY, [join(ROOT, "tools/palabras.py"), wav, "small", opts.idioma ?? "es"], { maxBuffer: 1 << 26 }).toString());
-        ({ keep, fillers } = refineWithWords(keep, words, true, db, threshold));
-        if (!keep.length) keep = r.keep;
-      }
-    }
-    const after = keep.reduce((t, [a, b]) => t + b - a, 0);
-    job.clips.push({ name: f.name, before: r3(f.duration), after: r3(after), cuts: Math.max(0, keep.length - 1), keep, threshold, fillers });
-  }
-
-  // 2) Recorte de cada clip al mismo formato (tamaño, 30 fps, audio 48 kHz) con fundidos de 8 ms en cada corte
+  const sp = Math.max(1, Math.min(1.5, opts.velocidad ?? 1));
   const parts: string[] = [];
   for (const [i, f] of infos.entries()) {
     job.step = `Recortando y uniendo · clip ${i + 1} de ${n}`;
     const keep = job.clips[i].keep;
+    if (!keep.length) continue;
     const fit = opts.formato === "vertical"
       ? `scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H}`
       : `scale=${W}:${H}:force_original_aspect_ratio=decrease,pad=${W}:${H}:(ow-iw)/2:(oh-ih)/2`;
@@ -190,31 +259,112 @@ async function run(job: MontajeJob, dir: string, files: { path: string; name: st
         ? `[0:a]atrim=${a}:${b},asetpts=PTS-STARTPTS,aresample=48000,aformat=channel_layouts=stereo,afade=t=in:d=0.008,afade=t=out:st=${fo}:d=0.008[a${k}]`
         : `anullsrc=r=48000:cl=stereo,atrim=0:${d}[a${k}]`);
     });
-    fc.push(`${keep.map((_, k) => `[v${k}][a${k}]`).join("")}concat=n=${keep.length}:v=1:a=1[v][a]`);
-    const out = join(dir, `p${String(i).padStart(3, "0")}.mp4`);
-    const total = job.clips[i].after;
-    await ffmpeg(["-i", f.path, "-filter_complex", fc.join(";"), "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium", "-crf", "16", "-c:a", "pcm_s16le", "-f", "mov", out.replace(".mp4", ".mov")],
-      (t) => (job.progress = 0.4 + 0.4 * ((i + Math.min(1, t / Math.max(0.1, total))) / n)));
-    parts.push(out.replace(".mp4", ".mov"));
+    const speed = sp !== 1 ? `;[vc]setpts=PTS/${sp}[v];[ac]atempo=${sp}[a]` : "";
+    fc.push(`${keep.map((_, k) => `[v${k}][a${k}]`).join("")}concat=n=${keep.length}:v=1:a=1${sp !== 1 ? "[vc][ac]" : "[v][a]"}${speed}`);
+    const out = join(dir, `p${String(i).padStart(3, "0")}.mov`);
+    const total = job.clips[i].after / sp;
+    await ffmpeg(["-i", f.path, "-filter_complex", fc.join(";"), "-map", "[v]", "-map", "[a]", "-r", "30", "-c:v", "libx264", "-preset", "medium", "-crf", "16", "-c:a", "pcm_s16le", "-f", "mov", out],
+      (t) => (job.progress = 0.05 + 0.7 * ((i + Math.min(1, t / Math.max(0.1, total))) / n)));
+    parts.push(out);
   }
 
-  // 3) Render: unir todo y normalizar el volumen (−14 LUFS, pico −1 dB)
-  job.step = "Renderizando el video completo";
-  job.progress = 0.82;
+  // Render: unir todo, mejorar la voz (opcional) y normalizar el volumen (−14 LUFS, pico −1 dB)
+  job.step = opts.mejorarAudio ? "Renderizando y mejorando la voz" : "Renderizando el video completo";
+  job.progress = 0.78;
   const list = join(dir, "lista.txt");
   writeFileSync(list, parts.map((p) => `file '${p.replace(/'/g, "'\\''")}'`).join("\n"));
   const master = join(dir, "video-completo.mp4");
-  await ffmpeg(["-f", "concat", "-safe", "0", "-i", list, "-c:v", "copy", "-af", "loudnorm=I=-14:TP=-1:LRA=11", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", master]);
+  const voz = "highpass=f=75,afftdn=nf=-28:tn=1,equalizer=f=220:t=q:w=1.2:g=-2,equalizer=f=3200:t=q:w=1.4:g=2.5,acompressor=threshold=-21dB:ratio=3:attack=6:release=90:makeup=2,";
+  await ffmpeg(["-f", "concat", "-safe", "0", "-i", list, "-c:v", "copy", "-af", `${opts.mejorarAudio ? voz : ""}loudnorm=I=-14:TP=-1:LRA=11`, "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", master]);
 
-  // 4) Compresión para redes (misma imagen, archivo mucho más liviano)
+  // Compresión para redes (misma imagen, archivo mucho más liviano)
   job.step = "Comprimiendo para redes";
   job.progress = 0.9;
   const web = join(dir, "video-completo-redes.mp4");
-  const totalAfter = job.clips.reduce((t, c) => t + c.after, 0);
+  const totalAfter = job.clips.reduce((t, c) => t + c.after, 0) / sp;
   await ffmpeg(["-i", master, "-c:v", "libx264", "-preset", "slow", "-crf", "24", "-maxrate", "6M", "-bufsize", "12M", "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", web],
     (t) => (job.progress = 0.9 + 0.1 * Math.min(1, t / Math.max(0.1, totalAfter))));
 
+  // Subtítulos .srt del video final (palabras de Whisper llevadas al tiempo editado)
+  const words = wordsCache.get(job.id);
+  if (opts.srt && words?.some((w) => w.length)) {
+    const cues: { a: number; b: number; t: string }[] = [];
+    let offset = 0;
+    job.clips.forEach((c, i) => {
+      // una palabra cuenta si su centro quedó dentro de un tramo conservado; sus bordes se ajustan a ese tramo
+      const span = (t0: number, t1: number): [number, number] | null => {
+        let acc = 0; const mid = (t0 + t1) / 2;
+        for (const [a, b] of c.keep) { if (mid >= a && mid <= b) return [acc + Math.max(t0, a) - a, acc + Math.min(t1, b) - a]; acc += b - a; }
+        return null;
+      };
+      type Cue = { a: number; b: number; ws: string[] };
+      let cur = null as Cue | null;
+      for (const w of words[i] ?? []) {
+        const sp2 = span(w.t0, w.t1);
+        if (!sp2) continue;
+        const [a, b] = sp2;
+        const A = offset + a / sp, B = offset + b / sp;
+        if (cur && (cur.ws.length >= 5 || A - cur.b > 0.4 || B - cur.a > 2.8)) { cues.push({ a: cur.a, b: cur.b, t: cur.ws.join(" ") }); cur = null; }
+        cur = cur ? { a: cur.a, b: B, ws: [...cur.ws, w.w] } : { a: A, b: B, ws: [w.w] };
+      }
+      if (cur) cues.push({ a: cur.a, b: cur.b, t: cur.ws.join(" ") });
+      offset += c.after / sp;
+    });
+    const ts = (x: number) => new Date(Math.max(0, x) * 1000).toISOString().slice(11, 23).replace(".", ",");
+    const srt = join(dir, "video-completo.srt");
+    writeFileSync(srt, cues.map((c, k) => `${k + 1}\n${ts(c.a)} --> ${ts(c.b)}\n${c.t}\n`).join("\n"));
+    job.srt = srt;
+  }
+
   const mb = (p: string) => Math.round((statSync(p).size / 1048576) * 10) / 10;
   Object.assign(job, { status: "done", step: "Listo", progress: 1, master, web, masterMB: mb(master), webMB: mb(web) });
-  writeFileSync(join(dir, "informe.json"), JSON.stringify(job, null, 2));
+  writeFileSync(join(dir, "informe.json"), JSON.stringify({ ...job, clips: job.clips.map(({ peaks, ...c }) => c) }, null, 2));
+}
+
+const filesOf = new Map<string, { path: string; name: string }[]>();
+
+/** Todo en uno (terminal, MCP): analizar y renderizar sin pausa. */
+export function startMontaje(files: { path: string; name: string }[], opts: MontajeOpts) {
+  const id = randomUUID().slice(0, 8);
+  const dir = join(MONTAJE_DIR, id);
+  mkdirSync(dir, { recursive: true });
+  const job: MontajeJob = { id, status: "running", step: "Preparando", progress: 0, clips: [], opts };
+  jobs.set(id, job); filesOf.set(id, files);
+  (async () => { await analyze(job, dir, files, opts); job.status = "running"; await render(job, dir, files, opts); })()
+    .catch((e) => { job.status = "error"; job.error = (e as Error).message; });
+  return job;
+}
+
+/** Fase 1 sola: analiza y se detiene para que Santiago revise los cortes. */
+export function analizarMontaje(files: { path: string; name: string }[], opts: MontajeOpts) {
+  const id = randomUUID().slice(0, 8);
+  const dir = join(MONTAJE_DIR, id);
+  mkdirSync(dir, { recursive: true });
+  const job: MontajeJob = { id, status: "running", step: "Preparando", progress: 0, clips: [], opts };
+  jobs.set(id, job); filesOf.set(id, files);
+  analyze(job, dir, files, opts)
+    .then(() => { job.status = "analizado"; job.step = "Revisa los cortes"; job.progress = 1; })
+    .catch((e) => { job.status = "error"; job.error = (e as Error).message; });
+  return job;
+}
+
+/** Fase 2: renderizar con los cortes que Santiago dejó activos (puede restaurar tramos que no quiere quitar). */
+export function renderMontaje(id: string, restaurar: Record<number, number[]>, cambios: Partial<MontajeOpts> = {}) {
+  const job = jobs.get(id), files = filesOf.get(id);
+  if (!job || !files) throw new Error("No existe ese análisis");
+  if (job.status === "running") throw new Error("Todavía está trabajando");
+  job.opts = { ...job.opts!, ...cambios };
+  // restaurar = { clip: [índices de cortes que NO se quitan] } → esos tramos vuelven a "keep"
+  job.clips.forEach((c, i) => {
+    const back = (restaurar[i] ?? []).map((k) => c.cortes?.[k]).filter(Boolean) as Corte[];
+    if (!back.length) return;
+    const all = [...c.keep, ...back.map((x) => [x.start, x.end] as Range)].sort((a, b) => a[0] - b[0]);
+    const merged: Range[] = [];
+    for (const r of all) { const last = merged[merged.length - 1]; if (last && r[0] <= last[1] + 0.02) last[1] = Math.max(last[1], r[1]); else merged.push([...r] as Range); }
+    c.keep = merged; c.after = r3(merged.reduce((t, [a, b]) => t + b - a, 0)); c.cuts = Math.max(0, merged.length - 1);
+  });
+  job.status = "running"; job.progress = 0; job.error = undefined;
+  render(job, join(MONTAJE_DIR, id), files, job.opts)
+    .catch((e) => { job.status = "error"; job.error = (e as Error).message; });
+  return job;
 }

@@ -10,6 +10,7 @@ import { Timeline } from "./ui/Timeline";
 import { Icon } from "./ui/Icon";
 import { Lab } from "./ui/Lab";
 import { Montaje } from "./ui/Montaje";
+import { CrearVideo } from "./ui/CrearVideo";
 import { PIXEL_FX_META, fxDuration } from "../../shared/fxmeta";
 import type { Motion } from "./engine/types";
 
@@ -18,7 +19,8 @@ const fmt = (s: number) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).p
 
 export default function App() {
   const [tab, setTab] = useState<Tab>("media");
-  const [mode, setMode] = useState<"editor" | "montaje">("editor");
+  const [mode, setMode] = useState<"editor" | "montaje" | "crear">("editor");
+  const [desdeMontaje, setDesdeMontaje] = useState<string | null>(null);
   const [file, setFile] = useState<File | null>(null);
   const [url, setUrl] = useState<string>("");
   const [duration, setDuration] = useState(0);
@@ -244,12 +246,13 @@ export default function App() {
   const outLen = plan ? outDuration(plan.segments) : duration;
 
   return (
-    <div className={`app ${mode === "montaje" ? "is-montaje" : ""}`}>
+    <div className={`app ${mode !== "editor" ? "is-montaje" : ""}`}>
       <header className="topbar">
         <div className="brand"><span className="logo"><Icon name="crown" /></span><div><b>Emperador Santiago</b><em>Edición de Videos</em></div></div>
         <div className="modes">
           <button className={mode === "editor" ? "on" : ""} onClick={() => setMode("editor")}>Editor</button>
-          <button className={mode === "montaje" ? "on" : ""} onClick={() => setMode("montaje")}>Crear video</button>
+          <button className={mode === "montaje" ? "on" : ""} onClick={() => setMode("montaje")}>Unir clips</button>
+          <button className={mode === "crear" ? "on" : ""} onClick={() => setMode("crear")}>Crear video</button>
         </div>
         <div className="top-actions">
           <span className={`chip ${providers ? "on" : ""}`}>
@@ -271,7 +274,11 @@ export default function App() {
         </div>
       </header>
 
-      {mode === "montaje" && <Montaje online={!!providers} providers={providers} onOpenInEditor={(f, styleId) => { setMode("editor"); if (styleId) { setStyleId(styleId); autoStyle.current = styleId; } loadFile(f); setTab("ai"); }} />}
+      <div style={{ display: mode === "montaje" ? "contents" : "none" }}>
+        <Montaje online={!!providers} onOpenInEditor={(f) => { setMode("editor"); loadFile(f); setTab("ai"); }} onCrearVideo={(id) => { setDesdeMontaje(id); setMode("crear"); }} />
+      </div>
+      {mode === "crear" && <CrearVideo online={!!providers} providers={providers} desdeMontaje={desdeMontaje} onIrAUnir={() => setMode("montaje")}
+        onRapido={(f, styleId) => { setMode("editor"); setStyleId(styleId); autoStyle.current = styleId; loadFile(f); setTab("ai"); }} />}
 
       <div className="editor-view" style={{ display: mode === "editor" ? "contents" : "none" }}>
       <nav className="rail">
