@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # emperador — maneja Emperador Santiago desde cualquier carpeta.
-#   emperador               enciende y abre la app
+#   emperador               enciende y abre la app (deja la ventana abierta mientras trabajas)
 #   emperador apagar        apaga todo
 #   emperador reiniciar     apaga y vuelve a encender
 #   emperador actualizar    baja la última versión, instala lo nuevo y reinicia
@@ -30,10 +30,33 @@ encender() {
   done
   echo "✗ No encendió a tiempo."; "$0" diagnostico; return 1
 }
+# Desde la terminal: se queda encendido MIENTRAS esta ventana esté abierta (Windows apaga Ubuntu si la cierras).
+primer_plano() {
+  if motor && web; then echo "✓ Ya está encendido"; abrir_navegador; return 0; fi
+  mkdir -p data/logs
+  echo "Encendiendo Emperador Santiago… (la primera vez tarda hasta 1–2 minutos)"
+  bash scripts/iniciar.sh > data/logs/iniciar.log 2>&1 &
+  local P=$!
+  trap 'echo; echo "Apagando…"; kill $P 2>/dev/null; bash scripts/detener.sh >/dev/null; exit 0' INT TERM
+  for i in $(seq 1 360); do
+    if motor && web; then
+      echo "✓ Listo. Se abre la app ($URL)."
+      echo
+      echo "  ▶ Deja ESTA ventana abierta mientras trabajas (puedes minimizarla)."
+      echo "  ▶ Para apagar: Ctrl + C aquí, o el ícono «Apagar Emperador»."
+      abrir_navegador; wait $P; return 0
+    fi
+    kill -0 $P 2>/dev/null || { echo "✗ Se detuvo al encender:"; tail -25 data/logs/iniciar.log; "$0" diagnostico; return 1; }
+    [ $((i % 10)) -eq 0 ] && echo "  … $((i / 2)) s $(web && echo '· interfaz lista' || echo '· preparando la interfaz') $(motor && echo '· motor listo' || echo '· encendiendo el motor')"
+    sleep 0.5
+  done
+  echo "✗ No encendió a tiempo."; "$0" diagnostico
+}
 case "${1:-abrir}" in
-  abrir|"") encender && abrir_navegador ;;
+  abrir|"") primer_plano ;;
+  fondo) encender && abrir_navegador ;;
   apagar) bash scripts/detener.sh ;;
-  reiniciar) bash scripts/detener.sh; sleep 2; encender && abrir_navegador ;;
+  reiniciar) bash scripts/detener.sh; sleep 2; primer_plano ;;
   actualizar)
     echo "▸ Bajando la última versión…"
     if ! git pull --ff-only; then
@@ -43,7 +66,7 @@ case "${1:-abrir}" in
     echo "▸ Instalando lo nuevo…"; npm install --no-audit --no-fund || exit 1
     echo "▸ Preparando la interfaz…"; npm run build -w web >/dev/null 2>&1 && echo "  ✓ interfaz lista"
     bash scripts/detener.sh >/dev/null; sleep 2
-    encender && abrir_navegador ;;
+    primer_plano ;;
   estado) motor && echo "✓ Motor encendido" || echo "✗ Motor apagado"; web && echo "✓ Interfaz encendida ($URL)" || echo "✗ Interfaz apagada" ;;
   registros|logs) tail -40 data/logs/bridge.log 2>/dev/null || echo "Aún no hay registros" ;;
   diagnostico)
@@ -57,6 +80,11 @@ case "${1:-abrir}" in
     for c in claude codex gemini; do command -v $c >/dev/null && ok "IA: $c instalado" || echo "  · IA: $c no instalado (opcional)"; done
     motor && ok "Motor respondiendo en :8787" || mal "El motor no responde"
     web && ok "Interfaz respondiendo en $URL" || mal "La interfaz no responde"
-    if ! motor; then echo; echo "Últimos mensajes del motor:"; tail -20 data/logs/bridge.log 2>/dev/null; fi ;;
+    if ! motor || ! web; then
+      echo; echo "Últimos mensajes del motor:"; tail -15 data/logs/bridge.log 2>/dev/null
+      echo; echo "Últimos mensajes de la interfaz:"; tail -10 data/logs/web.log 2>/dev/null
+      echo; echo "Arranque:"; tail -10 data/logs/iniciar.log 2>/dev/null
+      echo; echo "Memoria:"; free -h | head -2
+    fi ;;
   *) sed -n '2,10p' "$0" ;;
 esac

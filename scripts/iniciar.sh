@@ -35,4 +35,6 @@ fi
 trap 'kill ${PIDS[*]} 2>/dev/null; pkill -P $$ 2>/dev/null' EXIT INT TERM
 for i in $(seq 1 180); do motor && web && { echo "✓ Emperador Santiago listo en http://localhost:4173"; break; }; sleep 0.5; done
 motor || { echo "⚠ El motor no respondió. Últimas líneas de $LOG/bridge.log:"; tail -15 "$LOG/bridge.log"; }
+web || { echo "⚠ La interfaz no respondió. Últimas líneas de $LOG/web.log:"; tail -15 "$LOG/web.log"; }
+echo "Emperador Santiago encendido. No cierres esta ventana (puedes minimizarla)."
 wait

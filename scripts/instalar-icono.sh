@@ -20,7 +20,8 @@ cat > "$DEST/Emperador.vbs" <<VBS
 ' Emperador Santiago · abre el sistema con un clic
 Set sh = CreateObject("WScript.Shell")
 If Not Arriba("http://localhost:4173/") Then
-  sh.Run "wsl.exe -d $DISTRO -- bash -lc ""'$PROY/scripts/iniciar.sh'""", 0, False
+  ' ventana minimizada en la barra de tareas: mantiene Ubuntu encendido y, si algo falla, ahí se ve el mensaje
+  sh.Run "wsl.exe -d $DISTRO -- bash -lc ""'$PROY/scripts/iniciar.sh' || { echo; echo 'Algo falló. Copia este mensaje y mándaselo a Claude.'; read -p 'Enter para cerrar' x; }""", 7, False
 End If
 pagina = "file:///" & Replace("$DEST_WIN\\cargando.html", "\\", "/")
 On Error Resume Next
