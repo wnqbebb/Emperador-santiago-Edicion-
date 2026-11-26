@@ -271,8 +271,12 @@ async function analyze(job: MontajeJob, dir: string, files: { path: string; name
 /** Fase 2: recortar con lo aprobado, unir, mejorar el audio, renderizar y comprimir. */
 async function render(job: MontajeJob, dir: string, files: { path: string; name: string }[], opts: MontajeOpts) {
   const infos = files.map((f) => ({ ...f, ...probe(f.path) }));
-  const W = opts.formato === "vertical" ? 1080 : infos[0].width - (infos[0].width % 2);
-  const H = opts.formato === "vertical" ? 1920 : infos[0].height - (infos[0].height % 2);
+  // Nunca se agranda: si tus clips son más pequeños que 1080×1920 se queda en su tamaño (agrandar no da
+  // calidad, solo tarda más y pesa más). Vertical = 9:16 con el ancho que de verdad tienen tus clips.
+  const par = (x: number) => Math.max(2, Math.round(x / 2) * 2);
+  const anchoReal = Math.max(...infos.map((f) => Math.min(f.width, Math.round(f.height * 9 / 16))));
+  const W = opts.formato === "vertical" ? par(Math.min(1080, anchoReal)) : infos[0].width - (infos[0].width % 2);
+  const H = opts.formato === "vertical" ? par(W * 16 / 9) : infos[0].height - (infos[0].height % 2);
   const n = infos.length;
   const sp = Math.max(1, Math.min(1.5, opts.velocidad ?? 1));
   const parts: (string | null)[] = new Array(n).fill(null);
