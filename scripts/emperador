@@ -23,8 +23,12 @@ encender() {
   echo "Encendiendo Emperador Santiago…"
   mkdir -p data/logs
   nohup bash scripts/iniciar.sh > data/logs/iniciar.log 2>&1 &
-  for i in $(seq 1 240); do motor && web && { echo "✓ Listo en $URL"; return 0; }; sleep 0.5; done
-  echo "✗ No encendió a tiempo. Ejecuta: emperador diagnostico"; return 1
+  for i in $(seq 1 240); do
+    motor && web && { echo "✓ Listo en $URL"; return 0; }
+    [ $((i % 10)) -eq 0 ] && echo "  … $((i / 2)) s $(web && echo '· interfaz lista' || echo '· preparando la interfaz') $(motor && echo '· motor listo' || echo '· encendiendo el motor')"
+    sleep 0.5
+  done
+  echo "✗ No encendió a tiempo."; "$0" diagnostico; return 1
 }
 case "${1:-abrir}" in
   abrir|"") encender && abrir_navegador ;;

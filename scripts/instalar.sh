@@ -25,7 +25,8 @@ paso "4/6 Comando «emperador» (funciona desde cualquier carpeta)"
 mkdir -p "$HOME/.local/bin"
 ln -sf "$PROY/scripts/emperador" "$HOME/.local/bin/emperador"
 chmod +x scripts/emperador scripts/iniciar.sh scripts/detener.sh scripts/instalar-icono.sh
-grep -q 'HOME/.local/bin' "$HOME/.bashrc" 2>/dev/null || echo 'export PATH="$HOME/.local/bin:$PATH"' >> "$HOME/.bashrc"
+for rc in "$HOME/.bashrc" "$HOME/.profile"; do grep -q 'HOME/.local/bin' "$rc" 2>/dev/null || echo 'export PATH="$HOME/.local/bin:$PATH"' >> "$rc"; done
+export PATH="$HOME/.local/bin:$PATH"
 echo "✓ Ya puedes escribir: emperador"
 
 paso "5/6 Música y efectos"
