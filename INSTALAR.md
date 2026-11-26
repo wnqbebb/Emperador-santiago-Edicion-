@@ -59,11 +59,32 @@ Para usar una clave de API, copia `.env.example` a `.env` y ponla ahí (el siste
 
 ## 3. Arrancar
 
+### Con un clic (recomendado): ícono en la barra de tareas
+
+Una sola vez, en Ubuntu:
+
+```bash
+bash scripts/instalar-icono.sh
+```
+
+Crea **«Emperador Santiago»** y **«Apagar Emperador»** en tu Escritorio y en el menú Inicio, con su corona. Para tenerlo en la barra de tareas: menú Inicio → clic derecho en «Emperador Santiago» → **Anclar a la barra de tareas**.
+
+Desde ahí, un clic enciende todo y abre la app en su propia ventana (unos segundos; la primera vez tras un `git pull` tarda un poco más porque prepara la interfaz). «Apagar Emperador» libera la memoria cuando termines.
+
+### Con comandos (para desarrollar)
+
 ```bash
 npm run dev
 ```
 
-Abre **http://localhost:5173**. Arriba tienes las tres herramientas: **Editor**, **Unir clips** y **Crear video**.
+Abre **http://localhost:5173**. Arriba tienes: **Editor**, **Unir clips**, **Crear video** y **Mis videos**.
+
+### Mis videos y tu sesión
+
+- **Mis videos** guarda todo lo que terminas (Crear video y Unir clips) en disco: no se pierde al cerrar ni al reiniciar. Desde ahí descargas, ves las versiones (con subtítulos, con efectos, master) y pulsas **Seguir editando** para volver al chat de cambios.
+- Si cierras o recargas, vuelves a la misma pestaña y al mismo video en el que ibas.
+- **Mis favoritos** (en Crear video): guarda tu combinación de estilo, energía, música y subtítulos y aplícala con un clic.
+- Puedes lanzar varios videos: se construyen **en cola**, uno tras otro, mientras sigues trabajando.
 
 ## 4. Conectar tu IA (para Crear video, beats y motion graphics)
 

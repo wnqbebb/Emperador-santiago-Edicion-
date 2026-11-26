@@ -4,21 +4,30 @@ import * as bridge from "../engine/bridge";
 import { Icon } from "./Icon";
 import { Plantillas, Catalogo, type Eleccion } from "./Plantillas";
 
-type Props = { online: boolean; providers: bridge.Provider[] | null; desdeMontaje: string | null; onRapido: (f: File, styleId: string) => void; onIrAUnir: () => void };
+type Props = { online: boolean; providers: bridge.Provider[] | null; desdeMontaje: string | null; reanudar?: string | null; onRapido: (f: File, styleId: string) => void; onIrAUnir: () => void };
 
-export function CrearVideo({ online, providers, desdeMontaje, onRapido, onIrAUnir }: Props) {
-  const [fuente, setFuente] = useState<bridge.Fuente | null>(desdeMontaje ? { montajeId: desdeMontaje } : null);
+// La sesión se guarda en el navegador: si cierras o recargas, vuelves al mismo video y al mismo paso.
+const leer = <T,>(k: string): T | null => { try { return JSON.parse(localStorage.getItem(k) ?? "null"); } catch { return null; } };
+const guardar = (k: string, v: unknown) => { try { v == null ? localStorage.removeItem(k) : localStorage.setItem(k, JSON.stringify(v)); } catch { /* sin almacenamiento */ } };
+
+export function CrearVideo({ online, providers, desdeMontaje, reanudar, onRapido, onIrAUnir }: Props) {
+  const [fuente, setFuenteRaw] = useState<bridge.Fuente | null>(desdeMontaje ? { montajeId: desdeMontaje } : leer<bridge.Fuente>("emp.fuente"));
+  const [flujoId, setFlujoId] = useState<string | null>(desdeMontaje ? null : leer<string>("emp.flujo"));
+  const setFuente = (f: bridge.Fuente | null) => { setFuenteRaw(f); guardar("emp.fuente", f); };
+  const alFlujo = (id: string | null) => { setFlujoId(id); guardar("emp.flujo", id); };
+  // «Seguir editando» desde Mis videos
+  useEffect(() => { if (reanudar) { bridge.getFlujo(reanudar).then(() => { setFuente({ flujoId: reanudar }); alFlujo(reanudar); setPreview(""); }).catch(() => null); } }, [reanudar]);
   const [file, setFile] = useState<File | null>(null);
   const [preview, setPreview] = useState<string>("");
   const [subiendo, setSubiendo] = useState(false);
   const [err, setErr] = useState("");
   const [eleccion, setEleccion] = useState<Eleccion>({});
 
-  useEffect(() => { if (desdeMontaje) { setFuente({ montajeId: desdeMontaje }); setPreview(bridge.abs(`/montaje/${desdeMontaje}/video-completo-redes.mp4`)); } }, [desdeMontaje]);
+  useEffect(() => { if (desdeMontaje) { setFuente({ montajeId: desdeMontaje }); alFlujo(null); setPreview(bridge.abs(`/montaje/${desdeMontaje}/video-completo-redes.mp4`)); } }, [desdeMontaje]);
 
   async function elegir(f: File) {
     setFile(f); setPreview(URL.createObjectURL(f)); setErr(""); setSubiendo(true); setFuente(null);
-    try { const { mediaId } = await bridge.uploadMedia(f); setFuente({ mediaId }); }
+    try { const { mediaId } = await bridge.uploadMedia(f); alFlujo(null); setFuente({ mediaId }); }
     catch (e) { setErr((e as Error).message); }
     setSubiendo(false);
   }
@@ -44,7 +53,7 @@ export function CrearVideo({ online, providers, desdeMontaje, onRapido, onIrAUni
           </div>
         </header>
         {fuente ? (
-          <Plantillas key={fuente.montajeId ?? fuente.mediaId} fuente={fuente} providers={providers} onRapido={rapido} inicial={eleccion} />
+          <Plantillas key={fuente.montajeId ?? fuente.mediaId ?? flujoId ?? ""} fuente={fuente} providers={providers} onRapido={rapido} inicial={eleccion} flujoId={flujoId} onFlujo={alFlujo} />
         ) : (
           <div className="c-source">
             <label className="m-drop">
@@ -63,7 +72,7 @@ export function CrearVideo({ online, providers, desdeMontaje, onRapido, onIrAUni
       <aside className="m-side">
         <h3>Tu clip</h3>
         {preview ? <video className="c-prev" src={preview} controls playsInline /> : <p className="hint">Aquí verás tu clip.</p>}
-        {fuente && <button className="btn ghost" onClick={() => { setFuente(null); setPreview(""); setFile(null); }}>Cambiar de clip</button>}
+        {fuente && <button className="btn ghost" onClick={() => { setFuente(null); alFlujo(null); setPreview(""); setFile(null); }}>Nuevo video</button>}
       </aside>
     </div>
   );

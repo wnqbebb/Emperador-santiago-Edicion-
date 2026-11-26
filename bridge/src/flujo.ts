@@ -4,7 +4,7 @@
 //   2. Plan: la IA propone beats A/B/C (inspirados en la biblioteca, con originales) → TABLERO DE PREEDICIÓN (STOP 1).
 //   3. Construir: aplica tus elecciones, genera los motion graphics originales, lista de assets,
 //      subtítulos, validación, storyboard y BORRADOR con sonido. El final solo con tu aprobación (STOP 3).
-import { readFileSync, writeFileSync, existsSync, mkdirSync, copyFileSync, readdirSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync, copyFileSync, readdirSync, statSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { randomUUID } from "node:crypto";
@@ -234,7 +234,21 @@ async function plan(job: FlujoJob) {
 }
 
 /** Santiago eligió en el tablero (o "usar recomendaciones"): construir hasta el borrador. */
+// Cola: con 4 núcleos, dos renders a la vez van más lentos que uno detrás de otro.
+// Puedes lanzar varios videos: se construyen en fila y mientras tanto sigues trabajando.
+let fila: Promise<void> = Promise.resolve();
+let enFila = 0;
 async function build(job: FlujoJob, picks: Record<string, string>) {
+  job.status = "running"; job.error = undefined;
+  if (enFila > 0) { job.step = `En cola: ${enFila} video(s) antes que este`; save(job); }
+  enFila++;
+  const antes = fila;
+  let soltar!: () => void;
+  fila = new Promise<void>((r) => (soltar = r));
+  await antes;
+  try { return await buildAhora(job, picks); } finally { enFila--; soltar(); }
+}
+async function buildAhora(job: FlujoJob, picks: Record<string, string>) {
   job.status = "running";
   const dir = dirOf(job);
   if (isKal(job)) return buildKal(job, picks);
@@ -719,4 +733,43 @@ export async function subtitulos(id: string, preset: string) {
     job.subtitulos = { status: "done", preset, video: salida.slice(dirOf(job).length + 1) }; save(job);
   })().catch((e) => { job.subtitulos = { ...job.subtitulos!, status: "error", error: (e as Error).message.slice(0, 300) }; save(job); });
   return job;
+}
+
+
+// ── Historial: todos los videos de Crear video, guardados en disco (sobreviven a reinicios) ─────────────────────
+export type ItemHistorial = { id: string; tipo: "crear"; titulo: string; estilo: string; status: string; step: string; fecha: number; video?: string; extras: { nombre: string; url: string }[] };
+export function historial(): ItemHistorial[] {
+  const out: ItemHistorial[] = [];
+  for (const root of [...skills().map((sk) => join(skillSystem(sk), "projects")), SKY_DATA, REELS_DATA]) {
+    for (const p of existsSync(root) ? readdirSync(root) : []) {
+      const f = join(root, p, "flujo.json");
+      if (!existsSync(f)) continue;
+      try {
+        const j = JSON.parse(readFileSync(f, "utf8")) as FlujoJob & { oculto?: boolean };
+        if (j.oculto) continue;
+        const dir = join(root, p);
+        const url = (abs: string) => {
+          const rel = abs.slice(dir.length + 1);
+          if (j.motor === "reels" || j.motor === "skylight") return `/${j.motor === "reels" ? "reels" : "skylight"}-files/${j.project}/${rel.split("/").map(encodeURIComponent).join("/")}`;
+          return `/ves-files/projects/${j.project}/${rel.split("/").map(encodeURIComponent).join("/")}${j.skill ? `?skill=${encodeURIComponent(j.skill)}` : ""}`;
+        };
+        const cands = j.motor === "reels" || j.motor === "skylight" ? [`out/${j.project}.mp4`] : ["out/BORRADOR_web.mp4", "out/master.mp4", "out/BORRADOR.mp4"];
+        const v = cands.map((x) => join(dir, x)).find((x) => existsSync(x));
+        const extras: { nombre: string; url: string }[] = [];
+        if (j.subtitulos?.status === "done" && j.subtitulos.video && existsSync(join(dir, j.subtitulos.video))) extras.push({ nombre: `Con subtítulos ${j.subtitulos.preset}`, url: url(join(dir, j.subtitulos.video)) });
+        if (j.efectos?.status === "done" && j.efectos.video && existsSync(join(dir, j.efectos.video))) extras.push({ nombre: "Con efectos", url: url(join(dir, j.efectos.video)) });
+        if (existsSync(join(dir, "out/master.mp4")) && v !== join(dir, "out/master.mp4")) extras.push({ nombre: "Final aprobado (master)", url: url(join(dir, "out/master.mp4")) });
+        out.push({ id: j.id, tipo: "crear", titulo: j.project, estilo: j.plantilla, status: jobs.get(j.id)?.status ?? j.status, step: jobs.get(j.id)?.step ?? j.step,
+          fecha: statSync(f).mtimeMs, video: v ? url(v) : undefined, extras });
+      } catch { /* flujo dañado: se ignora */ }
+    }
+  }
+  return out;
+}
+
+/** Quitar del historial (no borra archivos: el proyecto sigue en disco). */
+export function ocultarFlujo(id: string) {
+  const job = getFlujo(id);
+  if (!job) return;
+  (job as FlujoJob & { oculto?: boolean }).oculto = true; save(job);
 }

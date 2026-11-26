@@ -10,10 +10,11 @@ import { DATA } from "./store.js";
 import { startRender, getRender, type Engine } from "./render.js";
 import { FX_DIR } from "./fxbake.js";
 import { animos } from "./sonido.js";
+import { precargar as precargarWhisper } from "./whisper.js";
 import { AYUDA, probarCli } from "./providers/subscriptions.js";
 import { looks, previewLooks, cubePath } from "./luts.js";
-import { startMontaje, getMontaje, analizarMontaje, renderMontaje, MONTAJE_DIR } from "./montaje.js";
-import { plantillas, familias, startFlujo, getFlujo, elegir, replanificar, tablero, flujoFiles, paletaDeVideo, cuadro, pedirPrompts, efectos, subirAsset, dirigir, cambiar, listaPresets, muestraSubtitulos, subtitulos } from "./flujo.js";
+import { startMontaje, getMontaje, historialMontaje, ocultarMontaje, analizarMontaje, renderMontaje, MONTAJE_DIR } from "./montaje.js";
+import { plantillas, familias, startFlujo, getFlujo, elegir, replanificar, tablero, flujoFiles, paletaDeVideo, cuadro, pedirPrompts, efectos, subirAsset, dirigir, cambiar, listaPresets, muestraSubtitulos, subtitulos, historial, ocultarFlujo } from "./flujo.js";
 import { EFECTOS } from "./plugins.js";
 import { skyPath } from "./skylight.js";
 import { reelPath } from "./reels.js";
@@ -130,6 +131,8 @@ createServer(async (req, res) => {
     if (p === "/api/subtitulos/presets") return send(res, 200, listaPresets());
     if (p === "/api/providers/ayuda") return send(res, 200, AYUDA);
     if (p === "/api/providers/probar" && req.method === "POST") { const id = String((await body(req)).id ?? ""); if (!(id in AYUDA)) return send(res, 400, { error: "Ese proveedor no es una suscripción" }); return send(res, 200, await probarCli(id as keyof typeof AYUDA)); }
+    if (p === "/api/historial/ocultar" && req.method === "POST") { const b = await body(req); if (b.tipo === "unir") ocultarMontaje(String(b.id)); else ocultarFlujo(String(b.id)); return send(res, 200, { ok: true }); }
+    if (p === "/api/historial") return send(res, 200, [...historial(), ...historialMontaje()].sort((x, y) => y.fecha - x.fecha));
     if (p === "/api/sonidos/animos") return send(res, 200, animos());
     if (p === "/api/efectos") return send(res, 200, EFECTOS.map(({ id, nombre }) => ({ id, nombre })));
     if (p === "/api/familias") return send(res, 200, familias());
@@ -276,4 +279,4 @@ createServer(async (req, res) => {
   } catch (e) {
     send(res, 500, { error: (e as Error).message });
   }
-}).listen(PORT, process.env.SANTI_HOST ?? "localhost", () => console.log(`Santi bridge en http://${process.env.SANTI_HOST ?? "localhost"}:${PORT}`));   // en la nube: SANTI_HOST=127.0.0.1 detrás de Caddy
+}).listen(PORT, process.env.SANTI_HOST ?? "localhost", () => { console.log(`Santi bridge en http://${process.env.SANTI_HOST ?? "localhost"}:${PORT}`); setTimeout(() => precargarWhisper(), 1500); });   // en la nube: SANTI_HOST=127.0.0.1 detrás de Caddy

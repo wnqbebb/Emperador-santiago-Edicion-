@@ -5,11 +5,11 @@ import * as bridge from "../engine/bridge";
 import { Icon } from "./Icon";
 
 export type Eleccion = { fam?: string; vari?: string; sub?: string };
-type Props = { fuente: bridge.Fuente; providers: bridge.Provider[] | null; onRapido: (styleId: string) => void; inicial?: Eleccion };
+type Props = { fuente: bridge.Fuente; providers: bridge.Provider[] | null; onRapido: (styleId: string) => void; inicial?: Eleccion; flujoId?: string | null; onFlujo?: (id: string | null) => void };
 type Energia = "calma" | "media" | "viral";
 type BrollItem = { file: File; desc: string };
 
-export function Plantillas({ fuente, providers, onRapido, inicial }: Props) {
+export function Plantillas({ fuente, providers, onRapido, inicial, flujoId, onFlujo }: Props) {
   const [familias, setFamilias] = useState<bridge.Familia[]>([]);
   const [fam, setFam] = useState(inicial?.fam ?? "arthur");
   const [vari, setVari] = useState(inicial?.vari ?? "arthur-talking");
@@ -28,6 +28,10 @@ export function Plantillas({ fuente, providers, onRapido, inicial }: Props) {
   const [musica, setMusica] = useState("");
   const [sfxCortes, setSfxCortes] = useState(false);
   const [rapido, setRapido] = useState(false);
+  // Mis favoritos: tu combinación guardada (estilo, energía, texturas, música, subtítulos…) aplicada con un clic
+  type Fav = { nombre: string; fam: string; vari: string; energia: Energia; texturas: number; originales: boolean; subPreset: string; musica: string; sfxCortes: boolean; colorEstilo: boolean };
+  const [favs, setFavs] = useState<Fav[]>(() => { try { return JSON.parse(localStorage.getItem("emp.favoritos") ?? "[]"); } catch { return []; } });
+  const guardarFavs = (l: Fav[]) => { setFavs(l); try { localStorage.setItem("emp.favoritos", JSON.stringify(l)); } catch { /* */ } };
   const ready = (providers ?? []).filter((p) => p.ready);
   const [provider, setProvider] = useState("");
   const [flujo, setFlujo] = useState<bridge.FlujoJob | null>(null);
@@ -54,6 +58,9 @@ export function Plantillas({ fuente, providers, onRapido, inicial }: Props) {
   const links = fuentes.split(/\s+/).filter((u) => /^https?:\/\//.test(u));
   const working = flujo?.status === "running" || sending;
 
+  // retomar el video en el que ibas (recarga, reinicio o «Seguir editando»)
+  useEffect(() => { if (flujoId) poll(flujoId).catch(() => onFlujo?.(null)); }, []);
+
   async function poll(id: string) {
     let j = await bridge.getFlujo(id);
     setFlujo(j);
@@ -78,6 +85,7 @@ export function Plantillas({ fuente, providers, onRapido, inicial }: Props) {
       const j = await bridge.startFlujo({ ...fuente, plantilla: variante.id, provider, broll: up,
         respuestas: { energia, texturas: familia.texturas === false ? 0 : texturas, palette: color?.colors, originales, rapido, notas, fuentes: familia.preguntaFuentes ? links : undefined, subtitulos: subPreset || undefined, musica: musica || undefined, sfxCortes } });
       setSending(false);
+      onFlujo?.(j.id);
       poll(j.id);
     } catch (e) {
       setSending(false);
@@ -117,6 +125,22 @@ export function Plantillas({ fuente, providers, onRapido, inicial }: Props) {
   return (
     <div className="plantillas">
       <h2><span className="m-step">2</span> ¿Cómo quieres editarlo? <small className="h-sub">te pregunto antes de editar</small></h2>
+
+      {!started && (
+        <div className="favs">
+          <span>⭐ Mis favoritos</span>
+          {favs.map((f, i) => (
+            <span key={i} className="fav">
+              <button onClick={() => { setFam(f.fam); setVari(f.vari); setEnergia(f.energia); setTexturas(f.texturas); setOriginales(f.originales); setSubPreset(f.subPreset); setMusica(f.musica); setSfxCortes(f.sfxCortes); if (f.colorEstilo) setPal(paleta?.options.length ?? 0); }}>{f.nombre}</button>
+              <i title="Borrar favorito" onClick={() => guardarFavs(favs.filter((_, k) => k !== i))}>×</i>
+            </span>
+          ))}
+          <button className="link" onClick={() => {
+            const nombre = prompt("Nombre del favorito (ej. «Reel tienda viral»)", `${variante?.name ?? vari}${subPreset ? ` · ${subPreset}` : ""}`);
+            if (nombre) guardarFavs([...favs, { nombre, fam, vari, energia, texturas, originales, subPreset, musica, sfxCortes, colorEstilo: pal >= (paleta?.options.length ?? 99) }]);
+          }}>+ Guardar lo elegido como favorito</button>
+        </div>
+      )}
 
       {/* 1 · Estilo: galería visual (todas las variantes de todas las skills) */}
       <Galeria familias={familias} fam={fam} vari={variante?.id} disabled={started}

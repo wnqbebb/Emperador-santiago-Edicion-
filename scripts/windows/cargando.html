@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Emperador Santiago</title>
+<style>
+  html,body{margin:0;height:100%;background:#0b0b18;color:#fff;font:16px system-ui,Segoe UI,sans-serif;display:grid;place-items:center}
+  .c{text-align:center} .k{font-size:64px;animation:p 1.4s ease-in-out infinite} h1{font-weight:700;margin:12px 0 4px}
+  p{color:#a5a6d8;margin:0} .b{width:240px;height:4px;border-radius:4px;background:#25254a;margin:22px auto 0;overflow:hidden}
+  .b i{display:block;height:100%;width:40%;background:#6366f1;border-radius:4px;animation:m 1.2s ease-in-out infinite}
+  @keyframes p{50%{transform:scale(1.08)}} @keyframes m{0%{margin-left:-40%}100%{margin-left:100%}}
+</style></head>
+<body><div class="c"><div class="k">👑</div><h1>Emperador Santiago</h1><p id="m">Encendiendo el sistema…</p><div class="b"><i></i></div></div>
+<script>
+  const URL_APP = "http://localhost:4173/", t0 = Date.now();
+  const msg = document.getElementById("m");
+  (async function esperar() {
+    // se prueba con una imagen de la app: funciona desde un archivo local en cualquier navegador
+    const ok = await new Promise((r) => { const i = new Image(); i.onload = () => r(true); i.onerror = () => r(false); i.src = URL_APP + "estilos/imperial.jpg?" + Date.now(); });
+    if (ok) { location.replace(URL_APP); return; }
+    const s = Math.round((Date.now() - t0) / 1000);
+    if (s > 20) msg.textContent = "Preparando la interfaz (solo la primera vez o después de actualizar)…";
+    if (s > 180) msg.textContent = "Está tardando más de lo normal. Abre Ubuntu y ejecuta: bash scripts/iniciar.sh para ver qué pasa.";
+    setTimeout(esperar, 1000);
+  })();
+</script></body></html>

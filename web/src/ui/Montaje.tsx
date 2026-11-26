@@ -47,6 +47,12 @@ export function Montaje({ online, onOpenInEditor, onCrearVideo }: { online: bool
   const [over, setOver] = useState(false);
   const folderRef = useRef<HTMLInputElement>(null);
 
+  // al volver a abrir el programa: recuperar el último video unido (vive en disco)
+  useEffect(() => {
+    let id: string | null = null; try { id = localStorage.getItem("emp.montaje"); } catch { /* */ }
+    if (id) bridge.getMontaje(id).then((j) => { if (j.status === "done") { setJob(j); setPhase("done"); } }).catch(() => null);
+  }, []);
+  useEffect(() => { if (phase === "done" && job?.id) try { localStorage.setItem("emp.montaje", job.id); } catch { /* */ } }, [phase, job?.id]);
   // al terminar, mostrar el video completo sin tener que buscarlo
   useEffect(() => { if (phase === "done") setTimeout(() => document.querySelector(".m-result")?.scrollIntoView({ behavior: "smooth", block: "center" }), 150); }, [phase]);
 

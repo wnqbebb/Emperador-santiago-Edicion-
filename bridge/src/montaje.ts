@@ -6,8 +6,9 @@ import { cpus } from "node:os";
 //  3. Cada corte se ajusta al punto más silencioso cercano y lleva un fundido de 8 ms: sin clics ni "pop".
 //  4. Une todos los clips en orden, al mismo tamaño y 30 fps, normaliza a −14 LUFS y entrega master + versión comprimida.
 import { filtroLook } from "./luts.js";
+import { transcribir } from "./whisper.js";
 import { spawn, execFile, execFileSync } from "node:child_process";
-import { existsSync, mkdirSync, writeFileSync, statSync } from "node:fs";
+import { existsSync, mkdirSync, writeFileSync, statSync, readFileSync, readdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { randomUUID } from "node:crypto";
@@ -41,7 +42,28 @@ export type MontajeJob = {
   opts?: MontajeOpts;
 };
 const jobs = new Map<string, MontajeJob>();
-export const getMontaje = (id: string) => jobs.get(id);
+/** Si el bridge se reinició, el trabajo terminado se recupera de su informe en disco. */
+export const getMontaje = (id: string): MontajeJob | undefined => {
+  if (jobs.has(id)) return jobs.get(id);
+  const f = join(MONTAJE_DIR, id.replace(/[^\w-]/g, ""), "informe.json");
+  if (!existsSync(f)) return;
+  try { const j = JSON.parse(readFileSync(f, "utf8")) as MontajeJob; jobs.set(id, j); return j; } catch { return; }
+};
+/** Historial de Unir clips (los terminados, desde disco). */
+export function historialMontaje() {
+  return (existsSync(MONTAJE_DIR) ? readdirSync(MONTAJE_DIR) : []).flatMap((id) => {
+    const f = join(MONTAJE_DIR, id, "informe.json");
+    if (!existsSync(f)) return [];
+    try {
+      const j = JSON.parse(readFileSync(f, "utf8")) as MontajeJob & { oculto?: boolean };
+      if (j.oculto) return [];
+      const after = j.clips.reduce((t, c) => t + c.after, 0);
+      return [{ id, tipo: "unir" as const, titulo: `${j.clips[0]?.name ?? "Video"}${j.clips.length > 1 ? ` + ${j.clips.length - 1} clips` : ""} · ${Math.round(after)} s`, estilo: j.opts?.look ? `LUT ${j.opts.look}` : "Unir clips", status: "done", step: "Listo",
+        fecha: statSync(f).mtimeMs, video: `/montaje/${id}/video-completo-redes.mp4`,
+        extras: [{ nombre: `Master · ${j.masterMB ?? "?"} MB`, url: `/montaje/${id}/video-completo.mp4` }, ...(j.srt ? [{ nombre: "Subtítulos .srt", url: `/montaje/${id}/video-completo.srt` }] : [])] }];
+    } catch { return []; }
+  });
+}
 
 // Parámetros por ritmo: pausa mínima que se corta y aire que se deja antes/después de la voz
 const RITMOS: Record<Ritmo, { minGap: number; pre: number; post: number }> = {
@@ -216,8 +238,7 @@ async function analyze(job: MontajeJob, dir: string, files: { path: string; name
     const wavs = files.map((_, i) => join(dir, `a${i}.wav`));
     await Promise.all(files.map((f, i) => ffmpeg(["-i", f.path, "-vn", "-ac", "1", "-ar", "16000", wavs[i]]).catch(() => null)));
     const conAudio = wavs.filter((w) => existsSync(w));
-    const out = await new Promise<string>((ok, ko) => execFile(PY, [join(ROOT, "tools/palabras.py"), ...conAudio, "--modelo", "small", "--idioma", opts.idioma ?? "es"], { maxBuffer: 1 << 28 }, (e: Error | null, so: string) => (e ? ko(e) : ok(so))));
-    const lista = JSON.parse(out) as Word[][];
+    const lista = (await transcribir(conAudio, opts.idioma ?? "es")) as Word[][];
     transcritos = wavs.map((w) => (existsSync(w) ? lista[conAudio.indexOf(w)] ?? [] : []));
   }
   for (const [i, f] of files.entries()) {
@@ -394,4 +415,9 @@ export function renderMontaje(id: string, restaurar: Record<number, number[]>, c
   render(job, join(MONTAJE_DIR, id), files, job.opts)
     .catch((e) => { job.status = "error"; job.error = (e as Error).message; });
   return job;
+}
+
+export function ocultarMontaje(id: string) {
+  const f = join(MONTAJE_DIR, id.replace(/[^\w-]/g, ""), "informe.json");
+  if (existsSync(f)) writeFileSync(f, JSON.stringify({ ...JSON.parse(readFileSync(f, "utf8")), oculto: true }, null, 2));
 }

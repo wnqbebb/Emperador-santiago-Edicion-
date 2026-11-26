@@ -14,7 +14,7 @@ test("la edición imperial abre con la corona 3D (three.js) y pone efectos pixel
   await loadClipAndEdit(page);
   await expect(page.locator(".clip.motion.intro3d")).toHaveCount(1);
   await expect(page.locator(".clip.motion.pixelfx").first()).toBeVisible();
-  await page.evaluate(() => { const v = document.querySelector("video")!; v.style.display = "none"; });
+  await page.evaluate(() => { const v = document.querySelector("#editor-video") as HTMLVideoElement; v.style.display = "none"; });
   // la corona dorada aparece en la zona central del cuadro
   await seek(page, 1.4);
   expect(await goldPixels(page, 0.25, 0.6)).toBeGreaterThan(500);

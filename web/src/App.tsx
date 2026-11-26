@@ -12,6 +12,7 @@ import { Lab } from "./ui/Lab";
 import { Montaje } from "./ui/Montaje";
 import { CrearVideo } from "./ui/CrearVideo";
 import { ConectarIA } from "./ui/ConectarIA";
+import { Historial } from "./ui/Historial";
 import { PIXEL_FX_META, fxDuration } from "../../shared/fxmeta";
 import type { Motion } from "./engine/types";
 
@@ -20,7 +21,10 @@ const fmt = (s: number) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).p
 
 export default function App() {
   const [tab, setTab] = useState<Tab>("media");
-  const [mode, setMode] = useState<"editor" | "montaje" | "crear">("editor");
+  type Modo = "editor" | "montaje" | "crear" | "historial";
+  const [mode, setModeRaw] = useState<Modo>(() => { try { return (localStorage.getItem("emp.modo") as Modo) || "crear"; } catch { return "crear"; } });
+  const setMode = (m: Modo) => { setModeRaw(m); try { localStorage.setItem("emp.modo", m); } catch { /* sin almacenamiento */ } };
+  const [reanudar, setReanudar] = useState<string | null>(null);
   const [desdeMontaje, setDesdeMontaje] = useState<string | null>(null);
   const [file, setFile] = useState<File | null>(null);
   const [url, setUrl] = useState<string>("");
@@ -255,6 +259,7 @@ export default function App() {
           <button className={mode === "editor" ? "on" : ""} onClick={() => setMode("editor")}>Editor</button>
           <button className={mode === "montaje" ? "on" : ""} onClick={() => setMode("montaje")}>Unir clips</button>
           <button className={mode === "crear" ? "on" : ""} onClick={() => setMode("crear")}>Crear video</button>
+          <button className={mode === "historial" ? "on" : ""} onClick={() => setMode("historial")}>Mis videos</button>
         </div>
         <div className="top-actions">
           <button className={`chip ia-chip ${providers ? "on" : ""}`} onClick={() => setIaOpen(true)} title="Conectar Claude, ChatGPT o Gemini">
@@ -282,8 +287,12 @@ export default function App() {
       </div>
       {/* las pestañas siguen vivas al cambiar: lo que estaba trabajando sigue y no se pierde nada */}
       <div style={{ display: mode === "crear" ? "contents" : "none" }}>
-        <CrearVideo online={!!providers} providers={providers} desdeMontaje={desdeMontaje} onIrAUnir={() => setMode("montaje")}
+        <CrearVideo online={!!providers} providers={providers} desdeMontaje={desdeMontaje} reanudar={reanudar} onIrAUnir={() => setMode("montaje")}
           onRapido={(f, styleId) => { setMode("editor"); setStyleId(styleId); autoStyle.current = styleId; loadFile(f); setTab("ai"); }} />
+      </div>
+
+      <div style={{ display: mode === "historial" ? "contents" : "none" }}>
+        <Historial visible={mode === "historial"} onSeguir={(id) => { setReanudar(id); setMode("crear"); }} />
       </div>
 
       <div className="editor-view" style={{ display: mode === "editor" ? "contents" : "none" }}>
@@ -411,7 +420,7 @@ export default function App() {
           <canvas ref={canvasRef} width={540} height={960} />
           {!url && <div className="placeholder"><Icon name="film" /><p>Vista previa 9:16</p></div>}
         </div>
-        <video ref={videoRef} src={url} hidden playsInline onLoadedMetadata={(e) => setDuration(e.currentTarget.duration)} />
+        <video id="editor-video" ref={videoRef} src={url} hidden playsInline onLoadedMetadata={(e) => setDuration(e.currentTarget.duration)} />
         <div className="transport">
           <button className="round" onClick={togglePlay} disabled={!url}><Icon name={playing ? "pause" : "play"} /></button>
           <span className="time">{fmt(t)} <i>/ {fmt(outLen)}</i></span>

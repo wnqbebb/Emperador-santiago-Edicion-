@@ -90,7 +90,7 @@ export type FlujoJob = { id: string; project: string; plantilla: string; status:
   subtitulos?: { status: "running" | "done" | "error"; preset: string; video?: string; error?: string; paso?: string };
   efectos?: { status: "running" | "done" | "error"; texto: string; aplicados?: string[]; dudas?: string[]; video?: string; error?: string }; chat?: { de: "tu" | "ia"; texto: string; t: number; tipo?: string }[]; evidencia?: { id: string; url: string; title: string; path: string }[] };
 export const familias = () => j<Familia[]>("/api/familias");
-export type Fuente = { montajeId?: string; mediaId?: string };
+export type Fuente = { montajeId?: string; mediaId?: string; flujoId?: string };
 export const paleta = (src: Fuente) => j<Paleta>("/api/paleta", { method: "POST", body: JSON.stringify(src) });
 export const startFlujo = (b: Fuente & { plantilla: string; provider: string; broll: { mediaId: string; desc: string }[];
   respuestas: { energia: string; texturas: number; palette?: Record<string, string>; originales: boolean; rapido: boolean; notas?: string; fuentes?: string[]; subtitulos?: string; musica?: string; sfxCortes?: boolean } }) =>
@@ -122,3 +122,6 @@ export const cuadroUrl = (id: string, t: number) => `${BASE}/api/flujo/${id}/cua
 export type AyudaCli = Record<string, { plan: string; instalar: string; login: string; nota: string }>;
 export const ayudaProveedores = () => j<AyudaCli>("/api/providers/ayuda");
 export const probarProveedor = (id: string) => j<{ ok: boolean; respuesta?: string; error?: string; ayuda?: string }>("/api/providers/probar", { method: "POST", body: JSON.stringify({ id }) });
+export type ItemHistorial = { id: string; tipo: "crear" | "unir"; titulo: string; estilo: string; status: string; step: string; fecha: number; video?: string; extras: { nombre: string; url: string }[] };
+export const historial = () => j<ItemHistorial[]>("/api/historial");
+export const ocultarHistorial = (tipo: string, id: string) => j<{ ok: boolean }>("/api/historial/ocultar", { method: "POST", body: JSON.stringify({ tipo, id }) });

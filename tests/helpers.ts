@@ -15,7 +15,7 @@ export async function loadClipAndEdit(page: Page) {
   await page.goto("/");
   await expect(page.getByText("Emperador Santiago").first()).toBeVisible();
   await page.setInputFiles(".panel .drop input[type=file]", "tests/fixtures/clip.mp4");
-  await page.waitForFunction(() => (document.querySelector("video") as HTMLVideoElement)?.readyState >= 1);
+  await page.waitForFunction(() => (document.querySelector("#editor-video") as HTMLVideoElement)?.readyState >= 1);
   await page.evaluate((w) => { (window as any).__santi.setDuration(12); (window as any).__santi.setWords(w); }, sampleWords());
   await page.getByRole("button", { name: "Director IA" }).click();
   await page.getByRole("button", { name: /Edición automática/ }).click();
@@ -23,6 +23,6 @@ export async function loadClipAndEdit(page: Page) {
 }
 
 export async function seek(page: Page, t: number) {
-  await page.evaluate((t) => { (document.querySelector("video") as HTMLVideoElement).currentTime = t; }, t);
+  await page.evaluate((t) => { (document.querySelector("#editor-video") as HTMLVideoElement).currentTime = t; }, t);
   await page.waitForTimeout(400);
 }
