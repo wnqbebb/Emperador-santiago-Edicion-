@@ -20,6 +20,9 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
   const [broll, setBroll] = useState<BrollItem[]>([]);
   const [notas, setNotas] = useState("");
   const [fuentes, setFuentes] = useState("");
+  const [subPreset, setSubPreset] = useState("");
+  const [presetsSub, setPresetsSub] = useState<bridge.PresetSub[]>([]);
+  useEffect(() => { bridge.presetsSubtitulos().then(setPresetsSub).catch(() => null); }, []);
   const [rapido, setRapido] = useState(false);
   const ready = (providers ?? []).filter((p) => p.ready);
   const [provider, setProvider] = useState("");
@@ -69,7 +72,7 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
       const up = [];
       for (const b of broll) up.push({ mediaId: (await bridge.uploadMedia(b.file)).mediaId, desc: b.desc || b.file.name });
       const j = await bridge.startFlujo({ ...fuente, plantilla: variante.id, provider, broll: up,
-        respuestas: { energia, texturas: familia.texturas === false ? 0 : texturas, palette: color?.colors, originales, rapido, notas, fuentes: familia.preguntaFuentes ? links : undefined } });
+        respuestas: { energia, texturas: familia.texturas === false ? 0 : texturas, palette: color?.colors, originales, rapido, notas, fuentes: familia.preguntaFuentes ? links : undefined, subtitulos: subPreset || undefined } });
       setSending(false);
       poll(j.id);
     } catch (e) {
@@ -196,6 +199,20 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
             </div>
           </div>
 
+          {presetsSub.length > 0 && (
+            <div className="q">
+              <h4>Subtítulos <small>elige un preset y se aplica a TODO el video al terminar (puedes cambiarlo después)</small></h4>
+              <div className="subs-grid">
+                <button className={`sub-card ${subPreset === "" ? "on" : ""}`} disabled={started} onClick={() => setSubPreset("")}><div className="sub-img estilo">Aa<small>los del estilo</small></div><b>Los del estilo</b></button>
+                {presetsSub.map((p) => (
+                  <button key={p.id} className={`sub-card ${subPreset === p.id ? "on" : ""}`} disabled={started} onClick={() => setSubPreset(p.id)} title={p.desc}>
+                    <div className="sub-img"><img src={`/subtitulos/${p.id}.jpg`} alt="" loading="lazy" /></div><b>{p.nombre}</b>
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
           <div className="p-go">
             <label>Tu IA
               <select value={provider} onChange={(e) => setProvider(e.target.value)} disabled={started}>
@@ -285,6 +302,7 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
                   <a href={url(f("caption_sheet.jpg"))} target="_blank" rel="noreferrer">Hoja de subtítulos</a>
                   {f(`ASSETS_${flujo.project}.md`) && <a href={url(f(`ASSETS_${flujo.project}.md`))} target="_blank" rel="noreferrer">Assets que faltan ({flujo.assets})</a>}
                 </div>)}
+                <SubtitulosBox flujo={flujo} url={url} onDone={async () => setFlujo(await bridge.getFlujo(flujo.id))} />
                 {flujo.revision && <KatanaCard rev={flujo.revision} />}
                 <EfectosBox flujo={flujo} url={url} onDone={async () => setFlujo(await bridge.getFlujo(flujo.id))} />
                 <PromptBox flujo={flujo} onDone={async () => { setTab(await bridge.tablero(flujo.id)); setFlujo(await bridge.getFlujo(flujo.id)); }} />
@@ -373,6 +391,41 @@ const REEL_ICON: Record<string, string> = { cara: "◉", split: "◧", grande: "
 const REEL_NAME: Record<string, string> = { cara: "cara + gráfico", split: "dividido", grande: "palabra grande", negro: "corte a negro" };
 const SKY_ICON: Record<string, string> = { world: "☁", broll: "🎞", bars: "▮▮", line: "↗", orbs: "●●", days: "▦", duo: "◐", still: "▣" };
 const SKY_NAME: Record<string, string> = { aroll: "cara", world: "mundo", broll: "b-roll con trazos", bars: "barras", line: "línea", orbs: "orbes", days: "casillas", duo: "recorte + logos", still: "imagen" };
+
+/** Presets de subtitulado sobre el video terminado: vista previa en TU video y se aplica a todo. */
+function SubtitulosBox({ flujo, url, onDone }: { flujo: bridge.FlujoJob; url: (r?: string) => string; onDone: () => void }) {
+  const [lista, setLista] = useState<bridge.PresetSub[]>([]);
+  const [sel, setSel] = useState(flujo.subtitulos?.preset ?? "");
+  const [msg, setMsg] = useState("");
+  useEffect(() => { bridge.presetsSubtitulos().then(setLista).catch(() => null); }, []);
+  const st = flujo.subtitulos;
+  async function aplicar() {
+    setMsg("Aplicando el preset a todo el video…");
+    try {
+      let j = await bridge.aplicarSubtitulos(flujo.id, sel);
+      while (j.subtitulos?.status === "running") { setMsg(j.subtitulos.paso ?? "Aplicando…"); await new Promise((r) => setTimeout(r, 3000)); j = await bridge.getFlujo(flujo.id); }
+      setMsg(j.subtitulos?.status === "done" ? "✓ Listo: todo el video con el preset" : `Error: ${j.subtitulos?.error ?? ""}`);
+      onDone();
+    } catch (e) { setMsg((e as Error).message); }
+  }
+  return (
+    <div className="subs-box">
+      <h4>Aa Presets de subtítulos <small>vista previa en tu video · se aplica a TODO el video</small></h4>
+      <div className="subs-grid">
+        {lista.map((p) => (
+          <button key={p.id} className={`sub-card ${sel === p.id ? "on" : ""}`} onClick={() => setSel(p.id)} title={p.desc}>
+            <div className="sub-img"><img src={bridge.muestraUrl(flujo.id, p.id)} alt="" loading="lazy" /></div><b>{p.nombre}</b>
+          </button>
+        ))}
+      </div>
+      <div className="row">
+        <button className="btn primary" disabled={!sel || st?.status === "running"} onClick={aplicar}>Aplicar a todo el video</button>
+        {st?.status === "done" && st.video && <a className="btn" href={url(st.video)} target="_blank" rel="noreferrer">Ver con «{lista.find((p) => p.id === st.preset)?.nombre ?? st.preset}»</a>}
+      </div>
+      {(msg || st?.status === "running") && <small className="hint">{msg || st?.paso}</small>}
+    </div>
+  );
+}
 
 /** El brief: lo que se va a hacer, en pantalla ANTES de renderizar. */
 function BriefCard({ brief, title }: { brief?: bridge.Brief; title: string }) {

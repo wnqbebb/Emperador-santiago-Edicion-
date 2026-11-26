@@ -1,0 +1,15 @@
+{
+  "_doc": "Presets de subtitulado: combinación de 2 fuentes + estilo + animación. Se aplican a TODO el video sobre una versión sin subtítulos. Dibujo: subtitulos.html (cada id tiene su función). Fuentes libres (OFL) en fonts/; donde la referencia usa una fuente de pago va la equivalente libre más cercana.",
+  "presets": [
+    { "id": "neue-serif", "nombre": "Neue + Serif", "desc": "Sans bold blanca y la palabra clave en serif itálica superpuesta (Helvetica Neue Bold × Instrument Serif Italic).", "palabras": 3 },
+    { "id": "inter-garamond", "nombre": "Inter Black + Garamond", "desc": "Negra muy gruesa con la palabra clave en itálica fina y elegante.", "palabras": 3 },
+    { "id": "druk-wide", "nombre": "Druk Wide", "desc": "Mayúsculas anchísimas para la palabra clave y una sans pequeña debajo.", "palabras": 2 },
+    { "id": "minimal", "nombre": "Minimal", "desc": "Palabras pequeñas, separadas, que entran una a una con tu voz.", "palabras": 3 },
+    { "id": "sticker", "nombre": "Sticker cool girl", "desc": "Cada palabra en una caja negra inclinada; la clave sobre cinta rosa con estrellas.", "palabras": 3 },
+    { "id": "retro", "nombre": "Etiquetas retro", "desc": "Condensada en cajas blancas con borde negro grueso y etiqueta de papel.", "palabras": 2 },
+    { "id": "grunge", "nombre": "Grunge rotulador", "desc": "Display pesada blanca y la palabra clave rodeada con un óvalo rojo a mano.", "palabras": 3 },
+    { "id": "editorial", "nombre": "Editorial rojo", "desc": "Serif itálica roja para la clave y sans negra roja para el resto, con estrellas.", "palabras": 3 },
+    { "id": "detras", "nombre": "Detrás de tu cabeza", "desc": "La palabra clave gigante DETRÁS de ti (recorte de la persona) y el resto delante, pequeño.", "palabras": 3, "silueta": true },
+    { "id": "recorte", "nombre": "Video dentro del texto", "desc": "Letras gigantes que dejan ver el video y oscurecen el resto, palabra a palabra.", "palabras": 3 }
+  ]
+}

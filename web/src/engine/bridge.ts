@@ -85,14 +85,19 @@ export type FlujoJob = { id: string; project: string; plantilla: string; status:
   beats?: number; scenes?: number; assets?: number; originales?: number; project_status?: VesProject; skill?: string; motor?: "ves" | "skylight" | "reels";
   prompts?: { status: "running" | "done" | "error"; base: string; pedido?: string; nuevos?: string[]; error?: string };
   revision?: { video: string; duracion: number; checks: { id: string; ok: boolean; titulo: string; detalle: string }[] };
+  subtitulos?: { status: "running" | "done" | "error"; preset: string; video?: string; error?: string; paso?: string };
   efectos?: { status: "running" | "done" | "error"; texto: string; aplicados?: string[]; dudas?: string[]; video?: string; error?: string }; evidencia?: { id: string; url: string; title: string; path: string }[] };
 export const familias = () => j<Familia[]>("/api/familias");
 export type Fuente = { montajeId?: string; mediaId?: string };
 export const paleta = (src: Fuente) => j<Paleta>("/api/paleta", { method: "POST", body: JSON.stringify(src) });
 export const startFlujo = (b: Fuente & { plantilla: string; provider: string; broll: { mediaId: string; desc: string }[];
-  respuestas: { energia: string; texturas: number; palette?: Record<string, string>; originales: boolean; rapido: boolean; notas?: string; fuentes?: string[] } }) =>
+  respuestas: { energia: string; texturas: number; palette?: Record<string, string>; originales: boolean; rapido: boolean; notas?: string; fuentes?: string[]; subtitulos?: string } }) =>
   j<FlujoJob>("/api/flujo", { method: "POST", body: JSON.stringify(b) });
 export const getFlujo = (id: string) => j<FlujoJob>(`/api/flujo/${id}`);
+export type PresetSub = { id: string; nombre: string; desc: string };
+export const presetsSubtitulos = () => j<PresetSub[]>("/api/subtitulos/presets");
+export const aplicarSubtitulos = (id: string, preset: string) => j<FlujoJob>(`/api/flujo/${id}/subtitulos`, { method: "POST", body: JSON.stringify({ preset }) });
+export const muestraUrl = (id: string, preset: string) => `${BASE}/api/flujo/${id}/muestra?preset=${preset}`;
 export const dirigir = (id: string, texto: string) => j<FlujoJob>(`/api/flujo/${id}/dirigir`, { method: "POST", body: JSON.stringify({ texto }) });
 export async function subirAsset(id: string, aid: string, f: File) {
   const r = await fetch(`${BASE}/api/flujo/${id}/asset?aid=${encodeURIComponent(aid)}&name=${encodeURIComponent(f.name)}`, { method: "POST", body: f });

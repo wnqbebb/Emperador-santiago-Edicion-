@@ -1,0 +1,150 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: "Inter"; src: url("fonts/Inter.woff2") format("woff2"); font-weight: 100 900; }
+@font-face { font-family: "Serif"; src: url("fonts/InstrumentSerif-Italic.woff2") format("woff2"); font-style: italic; }
+@font-face { font-family: "Playfair"; src: url("fonts/Playfair-Italic.woff2") format("woff2"); font-style: italic; font-weight: 300 900; }
+@font-face { font-family: "Anton"; src: url("fonts/Anton.ttf") format("truetype"); }
+@font-face { font-family: "Bebas"; src: url("fonts/BebasNeue.ttf") format("truetype"); }
+@font-face { font-family: "Caveat"; src: url("fonts/Caveat.ttf") format("truetype"); }
+html, body { margin: 0; background: transparent; }
+</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script>
+// Presets de subtitulado de Emperador Santiago: cada uno dibuja la frase activa en el instante t.
+// window.TL = { preset, capa: "todo"|"delante"|"detras", frases: [{t0, t1, words: [{w, t, key}]}], fondo?: url }
+const c = document.getElementById("c"), main = c.getContext("2d");
+const L = document.createElement("canvas"); L.width = 1080; L.height = 1920; const lctx = L.getContext("2d");
+let ctx = main;                                            // los presets dibujan en una capa aparte (vista previa con fondo)
+const W = 1080, H = 1920, Y = 1150;                     // fuera del tercio inferior (ahí va el texto de Instagram)
+const ease = (k) => 1 - Math.pow(1 - Math.min(1, Math.max(0, k)), 3);
+const rnd = (n) => { const x = Math.sin(n * 91.7) * 43758.5453; return x - Math.floor(x); };   // pseudoaleatorio estable
+let fondo = null, persona = null;
+window.ready = Promise.all([
+  document.fonts.load('900 80px "Inter"'), document.fonts.load('italic 80px "Serif"'), document.fonts.load('italic 80px "Playfair"'),
+  document.fonts.load('80px "Anton"'), document.fonts.load('80px "Bebas"'), document.fonts.load('80px "Caveat"'),
+  new Promise((ok) => { if (!window.TL?.fondo) return ok(); fondo = new Image(); fondo.onload = ok; fondo.onerror = ok; fondo.src = window.TL.fondo; }),
+  new Promise((ok) => { if (!window.TL?.persona) return ok(); persona = new Image(); persona.onload = ok; persona.onerror = ok; persona.src = window.TL.persona; }),
+]);
+
+function fit(text, font, size, max) { let s = size; ctx.font = font.replace("{s}", s); while (ctx.measureText(text).width > max && s > 24) { s -= 4; ctx.font = font.replace("{s}", s); } return s; }
+function entra(t, t0, d = 0.14) { return ease((t - t0) / d); }   // aparece en la palabra (fade + blur, sin rebote)
+function sombra(blur = 22, a = 0.55) { ctx.shadowColor = `rgba(0,0,0,${a})`; ctx.shadowBlur = blur; ctx.shadowOffsetY = 3; }
+function limpio() { ctx.shadowColor = "transparent"; ctx.shadowBlur = 0; ctx.globalAlpha = 1; ctx.filter = "none"; ctx.globalCompositeOperation = "source-over"; }
+function palabra(txt, x, y, font, color, k) {
+  ctx.save(); ctx.font = font; ctx.fillStyle = color; ctx.globalAlpha = k; if (k < 1) ctx.filter = `blur(${(1 - k) * 8}px)`;
+  ctx.fillText(txt, x, y); ctx.restore();
+}
+function linea(items, y, gap) {   // centra una fila de palabras [{txt, font, color, k}]
+  const ws = items.map((i) => { ctx.font = i.font; return ctx.measureText(i.txt).width; });
+  let x = W / 2 - (ws.reduce((a, b) => a + b, 0) + gap * (items.length - 1)) / 2;
+  items.forEach((i, n) => { palabra(i.txt, x, y, i.font, i.color, i.k); x += ws[n] + gap; });
+}
+function estrella(x, y, r, color) {
+  ctx.save(); ctx.fillStyle = color; ctx.beginPath();
+  for (let i = 0; i < 10; i++) { const a = Math.PI / 5 * i - Math.PI / 2, rr = i % 2 ? r * 0.45 : r; ctx.lineTo(x + Math.cos(a) * rr, y + Math.sin(a) * rr); }
+  ctx.fill(); ctx.restore();
+}
+
+const P = {
+  "neue-serif"(f, t, capa) {
+    const vis = f.words.filter((w) => w.t <= t + 0.02);
+    const key = f.words.find((w) => w.key);
+    ctx.textBaseline = "alphabetic"; sombra();
+    linea(vis.filter((w) => !w.key).map((w) => ({ txt: w.w.toLowerCase(), font: '800 86px "Inter"', color: "#fff", k: entra(t, w.t) })), Y, 22);
+    if (key && key.t <= t + 0.02) { const s = fit(key.w, 'italic {s}px "Serif"', 170, 900); ctx.textAlign = "center"; palabra(key.w.toLowerCase(), W / 2 - 30, Y + s * 0.8, `italic ${s}px "Serif"`, "#fff", entra(t, key.t)); ctx.textAlign = "left"; }
+  },
+  "inter-garamond"(f, t) {
+    ctx.textBaseline = "alphabetic"; sombra(18, 0.5);
+    linea(f.words.filter((w) => w.t <= t + 0.02).map((w) => ({ txt: w.w, font: w.key ? 'italic 300 104px "Playfair"' : '900 96px "Inter"', color: "#fff", k: entra(t, w.t) })), Y, 20);
+  },
+  "druk-wide"(f, t) {
+    const key = f.words.find((w) => w.key) ?? f.words[0];
+    ctx.textAlign = "center"; ctx.textBaseline = "alphabetic"; sombra(26, 0.5);
+    if (key.t <= t + 0.02) {
+      const k = entra(t, key.t); const txt = key.w.toUpperCase();
+      ctx.save(); ctx.translate(W / 2, Y); ctx.scale(1.45, 1); const s = fit(txt, '{s}px "Anton"', 190, 650);
+      palabra(txt, 0, 0, `${s}px "Anton"`, "#fff", k); ctx.restore();
+    }
+    const resto = f.words.filter((w) => w !== key && w.t <= t + 0.02).map((w) => w.w).join("   ");
+    if (resto) palabra(resto, W / 2, Y + 70, '700 40px "Inter"', "#fff", 1);
+    ctx.textAlign = "left";
+  },
+  minimal(f, t) {
+    ctx.textAlign = "center"; ctx.textBaseline = "middle"; sombra(14, 0.45);
+    const n = f.words.length, xs = n === 1 ? [W / 2] : f.words.map((_, i) => 200 + (680 * i) / (n - 1));
+    f.words.forEach((w, i) => { if (w.t <= t + 0.02) palabra(w.w.toLowerCase(), xs[i], Y, '500 50px "Inter"', "#fff", entra(t, w.t, 0.2)); });
+    ctx.textAlign = "left";
+  },
+  sticker(f, t) {
+    ctx.textBaseline = "middle"; let y = Y - (f.words.length - 1) * 62;
+    f.words.forEach((w, i) => {
+      if (w.t > t + 0.02) { y += 124; return; }
+      const k = entra(t, w.t, 0.12), font = '900 92px "Inter"'; ctx.font = font; const tw = ctx.measureText(w.w).width;
+      ctx.save(); ctx.translate(W / 2, y); ctx.rotate(((i % 2 ? 1 : -1) * (2 + rnd(i) * 3) * Math.PI) / 180); ctx.globalAlpha = k;
+      ctx.fillStyle = w.key ? "#F6A8C9" : "#0b0b0b"; ctx.fillRect(-tw / 2 - 26, -62, tw + 52, 120);
+      ctx.fillStyle = w.key ? "#0b0b0b" : "#fff"; ctx.textAlign = "center"; ctx.font = font; ctx.fillText(w.w.toLowerCase(), 0, 4);
+      if (w.key) { estrella(tw / 2 + 30, -54, 26, "#E9C549"); estrella(-tw / 2 - 34, 46, 20, "#E9C549"); }
+      ctx.restore(); y += 124;
+    });
+  },
+  retro(f, t) {
+    ctx.textBaseline = "middle"; let y = Y - (f.words.length - 1) * 80;
+    f.words.forEach((w, i) => {
+      if (w.t > t + 0.02) { y += 160; return; }
+      const k = entra(t, w.t, 0.12), txt = w.w.toUpperCase(); const s = fit(txt, '{s}px "Bebas"', 150, 820); ctx.font = `${s}px "Bebas"`; const tw = ctx.measureText(txt).width;
+      ctx.save(); ctx.translate(W / 2, y); ctx.rotate(((i % 2 ? 1.5 : -1.5) * Math.PI) / 180); ctx.globalAlpha = k;
+      ctx.fillStyle = "#fff"; ctx.strokeStyle = "#0b0b0b"; ctx.lineWidth = 10; ctx.fillRect(-tw / 2 - 30, -s * 0.5, tw + 60, s * 0.95); ctx.strokeRect(-tw / 2 - 30, -s * 0.5, tw + 60, s * 0.95);
+      ctx.fillStyle = "#0b0b0b"; ctx.textAlign = "center"; ctx.fillText(txt, 0, s * 0.02);
+      if (w.key) { ctx.fillStyle = "#EFE3C2"; ctx.fillRect(tw / 2 - 90, s * 0.3, 150, 46); ctx.fillStyle = "#6b4f1d"; ctx.font = '700 34px "Caveat"'; ctx.fillText("clave", tw / 2 - 15, s * 0.3 + 25); }
+      ctx.restore(); y += 160;
+    });
+  },
+  grunge(f, t) {
+    ctx.textBaseline = "alphabetic"; sombra(20, 0.6);
+    const items = f.words.filter((w) => w.t <= t + 0.02).map((w) => ({ w, txt: w.w.toLowerCase(), font: '120px "Anton"', color: "#fff", k: entra(t, w.t) }));
+    ctx.font = '120px "Anton"'; const ws = items.map((i) => ctx.measureText(i.txt).width), gap = 26;
+    let x = W / 2 - (ws.reduce((a, b) => a + b, 0) + gap * (items.length - 1)) / 2;
+    items.forEach((it, n) => {
+      palabra(it.txt, x, Y, it.font, it.color, it.k);
+      if (it.w.key) { limpio(); ctx.save(); ctx.strokeStyle = "#E3242B"; ctx.lineWidth = 7; ctx.globalAlpha = it.k;
+        for (const d of [0, 1]) { ctx.beginPath(); ctx.ellipse(x + ws[n] / 2 + d * 6, Y - 42 + d * 4, ws[n] / 2 + 44 - d * 8, 90 - d * 6, (-4 + d * 3) * Math.PI / 180, 0, Math.PI * 2 * ease((t - it.w.t) / 0.35)); ctx.stroke(); }
+        ctx.restore(); sombra(20, 0.6); }
+      x += ws[n] + gap;
+    });
+  },
+  editorial(f, t) {
+    ctx.textBaseline = "alphabetic"; ctx.shadowColor = "rgba(255,255,255,.85)"; ctx.shadowBlur = 18;
+    linea(f.words.filter((w) => w.t <= t + 0.02).map((w) => ({ txt: w.w.toLowerCase(), font: w.key ? 'italic 600 112px "Playfair"' : '900 92px "Inter"', color: "#C1262D", k: entra(t, w.t) })), Y, 18);
+    const key = f.words.find((w) => w.key && w.t <= t); if (key) { limpio(); estrella(W / 2 + 330, Y - 110, 18, "#C1262D"); estrella(W / 2 - 360, Y + 30, 13, "#C1262D"); }
+  },
+  detras(f, t, capa) {
+    const key = f.words.find((w) => w.key);
+    if (capa !== "delante" && key && key.t <= t + 0.02) {      // la palabra gigante va DETRÁS de la persona
+      const k = entra(t, key.t, 0.22), txt = key.w.toUpperCase(); const s = fit(txt, '900 {s}px "Inter"', 300, 1040);
+      ctx.save(); ctx.textAlign = "center"; ctx.textBaseline = "alphabetic"; ctx.globalAlpha = 0.95 * k; ctx.filter = k < 1 ? `blur(${(1 - k) * 12}px)` : "none";
+      ctx.translate(W / 2, 640); ctx.scale(1.08 - 0.08 * k, 1.08 - 0.08 * k); ctx.fillStyle = "#fff"; ctx.font = `900 ${s}px "Inter"`; ctx.fillText(txt, 0, 0); ctx.restore();
+    }
+    if (capa !== "detras") { ctx.textBaseline = "alphabetic"; sombra(16, 0.55);
+      linea(f.words.filter((w) => !w.key && w.t <= t + 0.02).map((w) => ({ txt: w.w.toLowerCase(), font: '700 64px "Inter"', color: "#fff", k: entra(t, w.t) })), Y, 18); }
+  },
+  recorte(f, t) {
+    const vis = f.words.filter((w) => w.t <= t + 0.02); if (!vis.length) return;
+    const k = entra(t, f.t0, 0.18);
+    ctx.save(); ctx.fillStyle = `rgba(6,6,8,${0.86 * k})`; ctx.fillRect(0, 0, W, H);
+    ctx.globalCompositeOperation = "destination-out"; ctx.textAlign = "center"; ctx.textBaseline = "alphabetic";
+    let y = H / 2 - (vis.length - 1) * 130 + 90;
+    for (const w of vis) { const s = fit(w.w.toLowerCase(), '900 {s}px "Inter"', 290, 1000); ctx.font = `900 ${s}px "Inter"`; ctx.globalAlpha = entra(t, w.t, 0.12); ctx.fillText(w.w.toLowerCase(), W / 2, y); y += 260; }
+    ctx.restore();
+  },
+};
+
+window.renderAt = (t) => {
+  const TL = window.TL; const f = TL.frases.find((x) => t >= x.t0 && t < x.t1);
+  const dibuja = (capa) => { ctx = lctx; limpio(); ctx.clearRect(0, 0, W, H); if (f) { (P[TL.preset] ?? P["neue-serif"])(f, t, capa); limpio(); } ctx = main; main.drawImage(L, 0, 0); };
+  ctx = main; limpio(); main.clearRect(0, 0, W, H);
+  if (fondo) main.drawImage(fondo, 0, 0, W, H);
+  if (persona) { dibuja("detras"); main.drawImage(persona, 0, 0, W, H); dibuja("delante"); }   // vista previa «detrás de tu cabeza»
+  else dibuja(TL.capa ?? "todo");
+};
+</script></body></html>

@@ -240,7 +240,7 @@ function sonidos(tl: TL) {
 }
 
 /** Construir: gráficos → capa HTML cuadro a cuadro sobre la base de FFmpeg → sonido y mezcla. */
-export async function reelBuild(project: string, beats: RBeats, log: string[], step: (i: number) => void, provider: ProviderId, palette?: Record<string, string>) {
+export async function reelBuild(project: string, beats: RBeats, log: string[], step: (i: number) => void, provider: ProviderId, palette?: Record<string, string>, sinSubs = false) {
   const dir = reelDir(project);
   const words = JSON.parse(readFileSync(join(dir, "work/words.json"), "utf8")) as Word[];
   const face = JSON.parse(readFileSync(join(dir, "work/face.json"), "utf8"));
@@ -253,6 +253,7 @@ export async function reelBuild(project: string, beats: RBeats, log: string[], s
   const G = existsSync(gfile) ? JSON.parse(readFileSync(gfile, "utf8")) as Record<string, string> : await writeGraphics(provider, beats, words, pal, log);
   writeFileSync(gfile, JSON.stringify(G, null, 1));
   const tl = timeline(beats, words, face, pal, new Set(Object.keys(G)));
+  if (sinSubs) tl.captions = [];   // versión limpia para aplicar un preset de subtitulado encima
   writeFileSync(join(dir, "work/timeline.json"), JSON.stringify(tl, null, 1));
 
   step(5);
@@ -308,7 +309,8 @@ export async function reelBuild(project: string, beats: RBeats, log: string[], s
   const fx = ev.map((e, k) => `[${k + 1}:a]adelay=${Math.round(e.t * 1000)}|${Math.round(e.t * 1000)},volume=${e.db}dB[s${k}]`);
   const mix = `${fx.join(";")}${fx.length ? ";" : ""}[0:a]volume=1[vo];[vo]${ev.map((_, k) => `[s${k}]`).join("")}amix=inputs=${ev.length + 1}:normalize=0:duration=first,loudnorm=I=-14:TP=-1:LRA=11[a]`;
   await ff(["-i", join(dir, "work/base.mp4"), ...ins, "-filter_complex", mix, "-map", "[a]", "-ar", "48000", join(dir, "work/mix.wav")], log);
-  await ff(["-i", join(dir, "work/picture.mp4"), "-i", join(dir, "work/mix.wav"), "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "256k", "-movflags", "+faststart", "-shortest", join(dir, `out/${project}.mp4`)], log);
+  await ff(["-i", join(dir, "work/picture.mp4"), "-i", join(dir, "work/mix.wav"), "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "256k", "-movflags", "+faststart", "-shortest", join(dir, `out/${project}${sinSubs ? "_sinsubs" : ""}.mp4`)], log);
+  if (sinSubs) return { scenes: tl.layouts.length, graficos: Object.keys(G).length, sonidos: ev.length };
   // hoja de contacto para revisar
   await ff(["-i", join(dir, `out/${project}.mp4`), "-vf", "fps=1,scale=180:-2,tile=8x6", "-frames:v", "1", join(dir, "out/hoja.jpg")], log);
   return { scenes: tl.layouts.length, graficos: Object.keys(G).length, sonidos: ev.length };

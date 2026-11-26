@@ -15,6 +15,7 @@ import { REELS_DATA, REEL_STEPS, reelDir, reelPrepare, reelPlan, reelBuild, reel
 import { pc, SKY_DATA, skyDir, skyPrepare, injectPalette, skyPrompt, skySanitize, skyBuild, skyStatus, skyBroll, type SBeats } from "./skylight.js";
 import { isSceneSkill, sceneCfg, kalPrompt, sanitizeKal, type KBeats, type Fuente } from "./beats_kal.js";
 import { writeMotionHtml, renderMotionHtml } from "./motion.js";
+import { presets as presetsSubs, muestra, subtitular, type Palabra } from "./subtitulos.js";
 import { pluginsPrompt, revisar, leerEfectos, aplicarEfectos, type Revision } from "./plugins.js";
 import type { ProviderId } from "./providers/index.js";
 
@@ -44,6 +45,7 @@ export type Respuestas = {
   broll: { path: string; desc: string }[]; // ya copiado al proyecto
   rapido?: boolean;                // saltar el tablero y usar las recomendaciones
   notas?: string;
+  subtitulos?: string;             // preset de subtitulado que se aplica solo al terminar (opcional)
   fuentes?: string[];              // Kallaway: enlaces de la noticia/producto → capturas reales para la mitad superior
 };
 
@@ -53,6 +55,7 @@ export type FlujoJob = {
   provider: ProviderId; respuestas: Respuestas; vesStyle: string; skill?: string; evidencia?: Fuente[]; motor?: "ves" | "skylight" | "reels";
   prompts?: { status: "running" | "done" | "error"; base: "sugerencia" | "pedido"; pedido?: string; nuevos?: string[]; error?: string };
   revision?: Revision;   // Katana medido sobre el video terminado
+  subtitulos?: { status: "running" | "done" | "error"; preset: string; video?: string; error?: string; paso?: string };
   efectos?: { status: "running" | "done" | "error"; texto: string; aplicados?: string[]; dudas?: string[]; video?: string; error?: string };
 };
 const jobs = new Map<string, FlujoJob>();
@@ -238,7 +241,7 @@ async function build(job: FlujoJob, picks: Record<string, string>) {
     if (existsSync(gf) && Object.keys(picks).length) (await import("node:fs")).rmSync(gf);   // elecciones nuevas → gráficos nuevos
     const r = await reelBuild(job.project, beats, job.log, (i) => { job.current = i; job.step = job.steps[i]; save(job); }, job.provider, job.respuestas.palette);
     job.scenes = r.scenes; job.originales = r.graficos;
-    job.current = job.steps.length; job.step = "Video listo para revisar"; job.status = "review"; katana(job); save(job);
+    job.current = job.steps.length; job.step = "Video listo para revisar"; job.status = "review"; katana(job); save(job); if (job.respuestas.subtitulos) subtitulos(job.id, job.respuestas.subtitulos).catch?.(() => null);
     return;
   }
   if (isSky(job)) {
@@ -247,7 +250,7 @@ async function build(job: FlujoJob, picks: Record<string, string>) {
     writeFileSync(join(dir, "beats.json"), JSON.stringify(beats, null, 1));
     const r = await skyBuild(job.project, beats, job.log, (i) => { job.current = i; job.step = job.steps[i]; save(job); }, job.provider);
     job.scenes = r.scenes;
-    job.current = job.steps.length; job.step = "Video listo para revisar"; job.status = "review"; katana(job); save(job);
+    job.current = job.steps.length; job.step = "Video listo para revisar"; job.status = "review"; katana(job); save(job); if (job.respuestas.subtitulos) subtitulos(job.id, job.respuestas.subtitulos).catch?.(() => null);
     return;
   }
   const beats = JSON.parse(readFileSync(join(dir, "beats.json"), "utf8")) as Beats;
@@ -295,7 +298,7 @@ Que sea dinámico y viral: algo se mueve todo el tiempo, entrada fuerte en el pr
     { script: "ves", args: ["render", job.project, "--draft"] },
     { script: "ves", args: ["sound", job.project, "--draft"] },
   ]);
-  job.current = STEPS.length; job.step = "Borrador listo para revisar"; job.status = "review"; katana(job); save(job);
+  job.current = STEPS.length; job.step = "Borrador listo para revisar"; job.status = "review"; katana(job); save(job); if (job.respuestas.subtitulos) subtitulos(job.id, job.respuestas.subtitulos).catch?.(() => null);
 }
 
 /** Skills por escenas (Kallaway, Nick, Lobo…): originales arriba (1080×940), cara medida, revisión de reglas y borrador. */
@@ -353,7 +356,7 @@ Que se lea en el teléfono y algo cambie cada 0.6–1 s; entrada fuerte en el pr
     { script: "ves", args: ["render", job.project, "--draft", "--force"] },
     { script: "ves", args: ["sound", job.project, "--draft"] },
   ]);
-  job.current = STEPS.length; job.step = "Borrador listo para revisar"; job.status = "review"; katana(job); save(job);
+  job.current = STEPS.length; job.step = "Borrador listo para revisar"; job.status = "review"; katana(job); save(job); if (job.respuestas.subtitulos) subtitulos(job.id, job.respuestas.subtitulos).catch?.(() => null);
 }
 
 export function elegir(id: string, picks: Record<string, string>) {
@@ -571,5 +574,89 @@ Aplica la dirección exactamente y conserva todo lo demás (formato, ids, tiempo
     (job as FlujoJob & { direcciones?: string[] }).direcciones = [...((job as FlujoJob & { direcciones?: string[] }).direcciones ?? []), texto];
     job.status = "tablero"; job.step = "Tablero de preedición: elige A/B/C en cada beat"; save(job);
   })().catch((e) => { job.status = prev === "review" ? "review" : "tablero"; job.error = `Dirección: ${(e as Error).message.slice(0, 200)}`; save(job); });
+  return job;
+}
+
+// ── Presets de subtitulado: se aplican a TODO el video, sea cual sea el estilo ─────────────────────────────────
+/** Palabras con inicio y fin (para los subtítulos), sea cual sea el motor. */
+function palabrasConFin(job: FlujoJob): Palabra[] {
+  const dir = dirOf(job);
+  const f = [join(dir, "work/words.json"), join(dir, "transcript_cut.json")].find((x) => existsSync(x));
+  if (!f) return [];
+  const j = JSON.parse(readFileSync(f, "utf8"));
+  return ((Array.isArray(j) ? j : j.words) as Record<string, number & string>[]).map((w) => ({ w: String(w.w), t0: Number(w.t0 ?? w.s ?? w.start ?? 0), t1: Number(w.t1 ?? w.e ?? w.end ?? 0) }));
+}
+/** Las palabras clave que ya decidió el plan (resaltado), si las hay. */
+function clavesDe(job: FlujoJob): string[] {
+  try { const b = JSON.parse(readFileSync(join(dirOf(job), "beats.json"), "utf8")); return [...(b.keywords ?? []), ...(b.special_words ?? [])]; } catch { return []; }
+}
+
+/** La versión del video SIN subtítulos (se hace una vez y se guarda; después cambiar de preset es rápido). */
+async function baseSinSubs(job: FlujoJob): Promise<string> {
+  const dir = dirOf(job);
+  if (isReel(job)) {
+    const f = join(dir, `out/${job.project}_sinsubs.mp4`);
+    if (!existsSync(f)) await reelBuild(job.project, JSON.parse(readFileSync(join(dir, "beats.json"), "utf8")) as RBeats, job.log, () => null, job.provider, job.respuestas.palette, true);
+    return f;
+  }
+  if (isSky(job)) {
+    const f = join(dir, `out/${job.project}_sinsubs.mp4`);
+    if (!existsSync(f)) {
+      const pf = join(dir, "work/plan.json"), orig = readFileSync(pf, "utf8");
+      writeFileSync(pf, JSON.stringify({ ...JSON.parse(orig), captions: [] }));
+      try { await pc(["all", dir, `${job.project}_sinsubs`], job.log); } finally { writeFileSync(pf, orig); }
+    }
+    return f;
+  }
+  // VES (Arthur, Kallaway, Nick, Lobo): render del borrador con los subtítulos apagados, sin tocar el borrador que ya tienes
+  const f = join(dir, "out/BORRADOR_sinsubs.mp4");
+  if (!existsSync(f)) {
+    const pf = join(dir, "edit_plan.json"), orig = readFileSync(pf, "utf8");
+    const guarda = ["out/BORRADOR.mp4", "out/BORRADOR_web.mp4"].filter((x) => existsSync(join(dir, x)));
+    for (const g of guarda) copyFileSync(join(dir, g), join(dir, g.replace(".mp4", ".guardado.mp4")));
+    const plan = JSON.parse(orig); plan.captions = { ...(plan.captions ?? {}), enabled: false };
+    writeFileSync(pf, JSON.stringify(plan, null, 1));
+    try {
+      for (const args of [["render", job.project, "--draft", "--force"], ["sound", job.project, "--draft"]]) {
+        const j = await waitVes(runVes("ves", args, isKal(job) ? { VES_STYLE: sceneCfg(job.skill!).style } : {}, job.skill));
+        if (j.status === "error") throw new Error(`${j.cmd}: ${j.log.slice(-2).join(" ")}`);
+      }
+      copyFileSync(join(dir, "out/BORRADOR.mp4"), f);
+    } finally {
+      writeFileSync(pf, orig);
+      for (const g of guarda) copyFileSync(join(dir, g.replace(".mp4", ".guardado.mp4")), join(dir, g));
+    }
+  }
+  return f;
+}
+
+export const listaPresets = () => presetsSubs();
+
+/** Vista previa de un preset sobre un cuadro del propio video (PNG en caché). */
+export async function muestraSubtitulos(id: string, preset: string) {
+  const job = getFlujo(id);
+  if (!job) throw new Error("No existe ese flujo");
+  if (!/^[\w-]+$/.test(preset)) throw new Error("Preset inválido");
+  const out = join(dirOf(job), "_subs", `${preset}.png`);
+  if (existsSync(out)) return out;
+  mkdirSync(dirname(out), { recursive: true });
+  const video = isSky(job) ? join(dirOf(job), "work/aroll.mp4") : isReel(job) ? join(dirOf(job), "work/base.mp4") : join(dirOf(job), "media/raw_cut.mp4");
+  return muestra(video, palabrasConFin(job), preset, clavesDe(job), out);
+}
+
+/** Aplica el preset a todo el video terminado → versión nueva «…_subs_<preset>.mp4». */
+export async function subtitulos(id: string, preset: string) {
+  const job = getFlujo(id);
+  if (!job) throw new Error("No existe ese flujo");
+  if (!presetsSubs().some((p) => p.id === preset)) throw new Error("Ese preset no existe");
+  if (job.subtitulos?.status === "running") throw new Error("Ya estoy aplicando subtítulos");
+  job.subtitulos = { status: "running", preset, paso: "Preparando la versión sin subtítulos (solo la primera vez)" }; save(job);
+  (async () => {
+    const base = await baseSinSubs(job);
+    job.subtitulos = { ...job.subtitulos!, paso: "Dibujando los subtítulos en todo el video" }; save(job);
+    const salida = base.replace(/_sinsubs\.mp4$/, `_subs_${preset}.mp4`);
+    await subtitular(base, palabrasConFin(job), preset, clavesDe(job), salida, job.log);
+    job.subtitulos = { status: "done", preset, video: salida.slice(dirOf(job).length + 1) }; save(job);
+  })().catch((e) => { job.subtitulos = { ...job.subtitulos!, status: "error", error: (e as Error).message.slice(0, 300) }; save(job); });
   return job;
 }
