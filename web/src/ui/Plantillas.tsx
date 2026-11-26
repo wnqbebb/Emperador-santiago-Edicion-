@@ -335,6 +335,9 @@ export function Plantillas({ fuente, providers, onRapido, inicial }: Props) {
 }
 
 /** Galería de estilos tipo Captions: tarjetas 9:16 que se mueven al pasar el ratón, filtros por familia y vista previa grande. */
+/** Estilos cuyas vistas previas son fragmentos de los videos originales del creador. */
+const ORIGINALES: Record<string, string> = { arthur: "Arthur Brooks", kallaway: "Kallaway", nick: "Nick Saraev", lobo: "Jordan Belfort (el Lobo de Wall Street)" };
+
 export function Galeria({ familias, fam, vari, disabled, onPick }: { familias: bridge.Familia[]; fam: string; vari?: string; disabled: boolean; onPick: (fam: string, vari: string) => void }) {
   const [filtro, setFiltro] = useState("todos");
   const [q, setQ] = useState("");
@@ -359,6 +362,7 @@ export function Galeria({ familias, fam, vari, disabled, onPick }: { familias: b
             onMouseLeave={(e) => { const vd = e.currentTarget.querySelector("video"); if (vd && vari !== v.id) { vd.pause(); vd.currentTime = 0; } }}>
             <video src={`/estilos/${v.id}.mp4`} poster={`/estilos/${v.id}.jpg`} muted loop playsInline preload="none" autoPlay={vari === v.id} />
             {v.recomendada && <span className="gal-badge">Recomendada</span>}
+            {ORIGINALES[f.id] && <span className="gal-orig">Original</span>}
             {vari === v.id && <span className="gal-check">✓</span>}
             <div className="gal-label"><b>{v.name}</b><small>{f.name}</small></div>
           </button>
@@ -375,7 +379,7 @@ export function Galeria({ familias, fam, vari, disabled, onPick }: { familias: b
               <p>{ver.v.description}</p>
               {ver.v.ideal && <p className="gal-ideal"><b>Ideal para:</b> {ver.v.ideal}</p>}
               <p className="gal-desc">{ver.f.description}</p>
-              <p className="hint">La vista previa está hecha con tu propio clip: así se ve tu video en este estilo.</p>
+              <p className="hint">{ORIGINALES[ver.f.id] ? `Fragmento real de un video original de ${ORIGINALES[ver.f.id]}: así edita él en este formato.` : "Este estilo no trae videos originales: la vista previa es una edición de prueba hecha con el sistema."}</p>
               <div className="row">
                 <button className="btn primary big" onClick={() => { onPick(ver.f.id, ver.v.id); setVer(null); }}>Usar este estilo</button>
                 <button className="btn ghost" onClick={() => setVer(null)}>Seguir viendo</button>
