@@ -17,6 +17,7 @@ import { isSceneSkill, sceneCfg, kalPrompt, sanitizeKal, type KBeats, type Fuent
 import { writeMotionHtml, renderMotionHtml } from "./motion.js";
 import { presets as presetsSubs, muestra, subtitular, type Palabra } from "./subtitulos.js";
 import { pluginsPrompt, revisar, leerEfectos, aplicarEfectos, type Revision } from "./plugins.js";
+import { mezclar, ponerAudio, eventosAuto, animos, type Evento } from "./sonido.js";
 import type { ProviderId } from "./providers/index.js";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..", "..");
@@ -47,6 +48,8 @@ export type Respuestas = {
   notas?: string;
   subtitulos?: string;             // preset de subtitulado que se aplica solo al terminar (opcional)
   fuentes?: string[];              // Kallaway: enlaces de la noticia/producto → capturas reales para la mitad superior
+  musica?: string;                 // ánimo de la música de fondo (sonidos/musica/<Ánimo>) · "ninguna" · vacío = según la energía
+  sfxCortes?: boolean;             // efectos de sonido extra en cada corte de escena (kit sonidos/kit)
 };
 
 export type FlujoJob = {
@@ -57,7 +60,9 @@ export type FlujoJob = {
   revision?: Revision;   // Katana medido sobre el video terminado
   subtitulos?: { status: "running" | "done" | "error"; preset: string; video?: string; error?: string; paso?: string };
   efectos?: { status: "running" | "done" | "error"; texto: string; aplicados?: string[]; dudas?: string[]; video?: string; error?: string };
+  chat?: Mensaje[];      // chat de cambios sobre el video terminado
 };
+export type Mensaje = { de: "tu" | "ia"; texto: string; t: number; tipo?: "plan" | "efectos" | "subtitulos" };
 const jobs = new Map<string, FlujoJob>();
 // El flujo se guarda en el proyecto: si el bridge se reinicia, se retoma donde iba
 function save(job: FlujoJob) { try { writeFileSync(join(dirOf(job), "flujo.json"), JSON.stringify(job)); } catch { /* aún sin carpeta */ } }
@@ -241,7 +246,7 @@ async function build(job: FlujoJob, picks: Record<string, string>) {
     if (existsSync(gf) && Object.keys(picks).length) (await import("node:fs")).rmSync(gf);   // elecciones nuevas → gráficos nuevos
     const r = await reelBuild(job.project, beats, job.log, (i) => { job.current = i; job.step = job.steps[i]; save(job); }, job.provider, job.respuestas.palette);
     job.scenes = r.scenes; job.originales = r.graficos;
-    job.current = job.steps.length; job.step = "Video listo para revisar"; job.status = "review"; katana(job); save(job); if (job.respuestas.subtitulos) subtitulos(job.id, job.respuestas.subtitulos).catch?.(() => null);
+    job.current = job.steps.length; job.step = "Video listo para revisar"; job.status = "review"; await sonido(job); katana(job); save(job); if (job.respuestas.subtitulos) subtitulos(job.id, job.respuestas.subtitulos).catch?.(() => null);
     return;
   }
   if (isSky(job)) {
@@ -250,7 +255,7 @@ async function build(job: FlujoJob, picks: Record<string, string>) {
     writeFileSync(join(dir, "beats.json"), JSON.stringify(beats, null, 1));
     const r = await skyBuild(job.project, beats, job.log, (i) => { job.current = i; job.step = job.steps[i]; save(job); }, job.provider);
     job.scenes = r.scenes;
-    job.current = job.steps.length; job.step = "Video listo para revisar"; job.status = "review"; katana(job); save(job); if (job.respuestas.subtitulos) subtitulos(job.id, job.respuestas.subtitulos).catch?.(() => null);
+    job.current = job.steps.length; job.step = "Video listo para revisar"; job.status = "review"; await sonido(job); katana(job); save(job); if (job.respuestas.subtitulos) subtitulos(job.id, job.respuestas.subtitulos).catch?.(() => null);
     return;
   }
   const beats = JSON.parse(readFileSync(join(dir, "beats.json"), "utf8")) as Beats;
@@ -298,7 +303,7 @@ Que sea dinámico y viral: algo se mueve todo el tiempo, entrada fuerte en el pr
     { script: "ves", args: ["render", job.project, "--draft"] },
     { script: "ves", args: ["sound", job.project, "--draft"] },
   ]);
-  job.current = STEPS.length; job.step = "Borrador listo para revisar"; job.status = "review"; katana(job); save(job); if (job.respuestas.subtitulos) subtitulos(job.id, job.respuestas.subtitulos).catch?.(() => null);
+  job.current = STEPS.length; job.step = "Borrador listo para revisar"; job.status = "review"; await sonido(job); katana(job); save(job); if (job.respuestas.subtitulos) subtitulos(job.id, job.respuestas.subtitulos).catch?.(() => null);
 }
 
 /** Skills por escenas (Kallaway, Nick, Lobo…): originales arriba (1080×940), cara medida, revisión de reglas y borrador. */
@@ -356,7 +361,7 @@ Que se lea en el teléfono y algo cambie cada 0.6–1 s; entrada fuerte en el pr
     { script: "ves", args: ["render", job.project, "--draft", "--force"] },
     { script: "ves", args: ["sound", job.project, "--draft"] },
   ]);
-  job.current = STEPS.length; job.step = "Borrador listo para revisar"; job.status = "review"; katana(job); save(job); if (job.respuestas.subtitulos) subtitulos(job.id, job.respuestas.subtitulos).catch?.(() => null);
+  job.current = STEPS.length; job.step = "Borrador listo para revisar"; job.status = "review"; await sonido(job); katana(job); save(job); if (job.respuestas.subtitulos) subtitulos(job.id, job.respuestas.subtitulos).catch?.(() => null);
 }
 
 export function elegir(id: string, picks: Record<string, string>) {
@@ -459,6 +464,23 @@ function videoFinal(job: FlujoJob) {
 }
 
 /** Plugin Katana: revisión medida del video terminado (energía, tramos quietos, gancho, pausas, volumen). */
+/** Sonido profesional sobre el video terminado: música por ánimo bajo la voz + golpe en el gancho (+ transiciones en los cortes). */
+async function sonido(job: FlujoJob) {
+  try {
+    const r = job.respuestas;
+    const porEnergia = { viral: "Animada", media: "Esenciales", calma: "Soft" } as const;
+    const musica = r.musica === "ninguna" ? undefined : r.musica || (animos().some((a) => a.id === porEnergia[r.energia]) ? porEnergia[r.energia] : undefined);
+    const v = videoFinal(job);
+    const eventos: Evento[] = r.sfxCortes ? eventosAuto(v) : isReel(job) ? [] : [{ t: 0.02, m: "impacto" }];
+    job.step = "Diseño de sonido: música y efectos"; save(job);
+    const pista = join(dirOf(job), "work/mezcla.m4a");
+    if (await mezclar(v, { musica, eventos, semilla: job.id, salidaAudio: pista }, job.log)) {
+      const web = join(dirOf(job), "out/BORRADOR_web.mp4");   // VES: la versión que ves en la app lleva la misma mezcla
+      if (web !== v && existsSync(web)) await ponerAudio(web, pista);
+    }
+  } catch (e) { job.log.push(`⚠ sonido: ${(e as Error).message.slice(0, 200)}`); }
+}
+
 function katana(job: FlujoJob) {
   try {
     job.revision = revisar(videoFinal(job), job.respuestas.energia);
@@ -547,7 +569,7 @@ export async function subirAsset(id: string, aid: string, archivo: string) {
 }
 
 // ── Dirección: Santiago le dice al editor qué cambiar del plan antes de construir ───────────────────────────────
-export function dirigir(id: string, texto: string) {
+export function dirigir(id: string, texto: string, auto = false) {
   const job = getFlujo(id);
   if (!job) throw new Error("No existe ese flujo");
   if (job.status === "running") throw new Error("Este flujo todavía está trabajando");
@@ -572,9 +594,46 @@ Aplica la dirección exactamente y conserva todo lo demás (formato, ids, tiempo
     for (const v of viejos) if (v.subido) { const n = nuevo.assets?.find((x) => x.id === v.id); if (n) n.subido = v.subido; else (nuevo.assets ??= []).push(v as never); ponerMedia(nuevo.beats, v.id, v.subido); }
     writeFileSync(join(dir, "beats.json"), JSON.stringify(nuevo, null, 1));
     (job as FlujoJob & { direcciones?: string[] }).direcciones = [...((job as FlujoJob & { direcciones?: string[] }).direcciones ?? []), texto];
-    job.status = "tablero"; job.step = "Tablero de preedición: elige A/B/C en cada beat"; save(job);
-  })().catch((e) => { job.status = prev === "review" ? "review" : "tablero"; job.error = `Dirección: ${(e as Error).message.slice(0, 200)}`; save(job); });
+    if (!auto) { job.status = "tablero"; job.step = "Tablero de preedición: elige A/B/C en cada beat"; save(job); return; }
+    // chat de cambios: se vuelve a construir solo, con las mismas elecciones y los cambios aplicados
+    job.step = "Renderizando con tus cambios"; save(job);
+    if (isReel(job)) { const gf = join(dir, "work/graphics.json"); if (existsSync(gf)) (await import("node:fs")).rmSync(gf); }
+    await build(job, {});
+    responder(job, "Listo: apliqué tus cambios y el video nuevo ya está arriba. ¿Algo más?", "plan");
+  })().catch((e) => { if (auto) responder(job, `No pude aplicarlo: ${(e as Error).message.slice(0, 200)}. Pruébalo con otras palabras.`, "plan"); job.status = prev === "review" ? "review" : "tablero"; job.error = `Dirección: ${(e as Error).message.slice(0, 200)}`; save(job); });
   return job;
+}
+
+function responder(job: FlujoJob, texto: string, tipo?: Mensaje["tipo"]) { (job.chat ??= []).push({ de: "ia", texto, t: Date.now(), tipo }); save(job); }
+const sinTilde = (s: string) => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
+/** Chat de cambios sobre el video terminado: entiende qué pides y lo aplica.
+ *  · «pon los subtítulos estilo sticker» → preset de subtítulos   · «crash zoom en 0:07» → efecto puntual
+ *  · cualquier otra cosa («quita el gráfico del principio», «más b-roll», «cambia el título») → rehace el plan y renderiza */
+export function cambiar(id: string, texto: string) {
+  const job = getFlujo(id);
+  if (!job) throw new Error("No existe ese flujo");
+  if (job.status === "running") throw new Error("Todavía estoy trabajando en el cambio anterior");
+  if (!texto.trim()) throw new Error("Escribe qué quieres cambiar");
+  (job.chat ??= []).push({ de: "tu", texto, t: Date.now() });
+  const tx = sinTilde(texto);
+  const preset = /subtitul|letra|fuente|tipograf|caption/.test(tx) ? presetsSubs().find((p) => tx.includes(sinTilde(p.nombre)) || tx.includes(p.id)) : undefined;
+  if (preset) {
+    job.respuestas.subtitulos = preset.id;
+    subtitulos(id, preset.id);
+    responder(job, `Aplicando los subtítulos «${preset.nombre}» a todo el video…`, "subtitulos");
+    return job;
+  }
+  if (/\d+[:.,]\d+|\d+\s*s(eg)?\b|segundo/.test(tx)) {
+    const { efectos: lista } = leerEfectos(texto, palabras(job));
+    if (lista.length) {
+      efectos(id, texto);
+      responder(job, `Poniendo ${lista.map((e) => `${e.nombre} en ${e.at.toFixed(1)} s`).join(", ")}…`, "efectos");
+      return job;
+    }
+  }
+  responder(job, "Entendido. Rehago el plan con tu cambio y vuelvo a renderizar (tarda unos minutos; puedes ir a otra pestaña).", "plan");
+  return dirigir(id, texto, true);
 }
 
 // ── Presets de subtitulado: se aplican a TODO el video, sea cual sea el estilo ─────────────────────────────────
@@ -656,6 +715,7 @@ export async function subtitulos(id: string, preset: string) {
     job.subtitulos = { ...job.subtitulos!, paso: "Dibujando los subtítulos en todo el video" }; save(job);
     const salida = base.replace(/_sinsubs\.mp4$/, `_subs_${preset}.mp4`);
     await subtitular(base, palabrasConFin(job), preset, clavesDe(job), salida, job.log);
+    await ponerAudio(salida, join(dirOf(job), "work/mezcla.m4a"));   // misma música y efectos que el video terminado
     job.subtitulos = { status: "done", preset, video: salida.slice(dirOf(job).length + 1) }; save(job);
   })().catch((e) => { job.subtitulos = { ...job.subtitulos!, status: "error", error: (e as Error).message.slice(0, 300) }; save(job); });
   return job;

@@ -15,6 +15,7 @@ export const REELS = join(ROOT, ".claude/skills/instagram-editing");
 export const REELS_DATA = join(DATA, "reels");
 const PY = join(ROOT, "tools/.venv/bin/python");
 const SFX = join(ROOT, ".claude/skills/skylight/sfx");
+import { sfx as kitSfx, type Momento } from "./sonido.js";
 export type Estilo = "cara" | "split" | "cine";
 export const REEL_STEPS = ["Preparando el clip (1080×1920)", "Palabras y encuadre de la cara", "Tu IA propone los beats A/B/C", "Tablero de preedición (tú eliges)", "Gráficos en código", "Subtítulos, efectos y render", "Diseño sonoro y mezcla"];
 
@@ -218,6 +219,15 @@ function zoomExpr(beats: RBeats) {
 }
 
 /** Diseño sonoro con el kit hecho en código: transiciones, clics en palabras clave, pops en gráficos; sin repetir en 2 s. */
+// Cada momento con su sonido del kit profesional (sonidos/kit); si falta, el del kit de Skylight
+const KIT_DE: Record<string, Momento> = { shutter: "foto", bloom: "impacto", pop: "transicion", gui: "pop" };
+const kitFijo = new Map<string, string>();
+function sfxDe(f: string) {
+  const m = KIT_DE[f];
+  if (m) { if (!kitFijo.has(f)) { const k = kitSfx(m); if (k) kitFijo.set(f, k); } if (kitFijo.has(f)) return kitFijo.get(f)!; }
+  return join(SFX, `${f}.wav`);
+}
+
 function sonidos(tl: TL) {
   const ev: { t: number; f: string; db: number }[] = [];
   for (let k = 1; k < tl.layouts.length; k++) {
@@ -236,7 +246,7 @@ function sonidos(tl: TL) {
     if (out.some((x) => x.f === e.f && e.t - x.t < 2)) continue;              // sin repetir el mismo en 2 s
     out.push(e);
   }
-  return out.filter((e) => existsSync(join(SFX, `${e.f}.wav`)));
+  return out.filter((e) => existsSync(sfxDe(e.f)));
 }
 
 /** Construir: gráficos → capa HTML cuadro a cuadro sobre la base de FFmpeg → sonido y mezcla. */
@@ -305,7 +315,7 @@ export async function reelBuild(project: string, beats: RBeats, log: string[], s
   step(6);
   const ev = sonidos(tl);
   writeFileSync(join(dir, "work/sonidos.json"), JSON.stringify(ev, null, 1));
-  const ins = ev.flatMap((e) => ["-i", join(SFX, `${e.f}.wav`)]);
+  const ins = ev.flatMap((e) => ["-i", sfxDe(e.f)]);
   const fx = ev.map((e, k) => `[${k + 1}:a]adelay=${Math.round(e.t * 1000)}|${Math.round(e.t * 1000)},volume=${e.db}dB[s${k}]`);
   const mix = `${fx.join(";")}${fx.length ? ";" : ""}[0:a]volume=1[vo];[vo]${ev.map((_, k) => `[s${k}]`).join("")}amix=inputs=${ev.length + 1}:normalize=0:duration=first,loudnorm=I=-14:TP=-1:LRA=11[a]`;
   await ff(["-i", join(dir, "work/base.mp4"), ...ins, "-filter_complex", mix, "-map", "[a]", "-ar", "48000", join(dir, "work/mix.wav")], log);

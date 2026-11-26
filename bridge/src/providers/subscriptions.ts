@@ -9,7 +9,7 @@ export type CliId = "claude-cli" | "codex-cli" | "gemini-cli";
 const ORDER = "Sigue las instrucciones completas que recibes por la entrada estándar y responde solo lo que piden.";
 const COMMANDS: Record<CliId, [string, string[]]> = {
   "claude-cli": ["claude", ["-p", ORDER, "--output-format", "text"]],
-  "codex-cli": ["codex", ["exec", "--skip-git-repo-check", "-"]],
+  "codex-cli": ["codex", ["exec", "--skip-git-repo-check", "--sandbox", "read-only", "--color", "never", "-"]],
   "gemini-cli": ["gemini", ["-p", ORDER]],
 };
 
@@ -40,4 +40,23 @@ export function cliAvailable(id: CliId): Promise<boolean> {
     c.on("error", () => resolve(false));
     c.on("close", (code) => resolve(code === 0));
   });
+}
+
+/** Cómo instalar e iniciar sesión con cada suscripción (se muestra en la app). */
+export const AYUDA: Record<CliId, { plan: string; instalar: string; login: string; nota: string }> = {
+  "claude-cli": { plan: "Claude Pro / Max", instalar: "npm install -g @anthropic-ai/claude-code", login: "claude", nota: "Escribe /login dentro y entra con tu cuenta de Claude. Luego /exit." },
+  "codex-cli": { plan: "ChatGPT Plus / Pro", instalar: "npm install -g @openai/codex", login: "codex login", nota: "Se abre el navegador: entra con tu cuenta de ChatGPT («Sign in with ChatGPT»)." },
+  "gemini-cli": { plan: "Google (Gemini / Google AI Pro)", instalar: "npm install -g @google/gemini-cli", login: "gemini", nota: "Elige «Login with Google» y entra con tu cuenta de Google. Luego /quit." },
+};
+
+/** Prueba real: le pide «OK» al CLI. Si no hay sesión iniciada, lo dice. */
+export async function probarCli(id: CliId) {
+  try {
+    const r = await runCli(id, "Responde solo con la palabra OK.", 120_000);
+    return { ok: /ok/i.test(r), respuesta: r.trim().slice(-200) };
+  } catch (e) {
+    const m = (e as Error).message;
+    const login = /login|log in|auth|sign in|credential|api key|unauthor|401|403/i.test(m);
+    return { ok: false, error: m.slice(-400), ayuda: login ? `Falta iniciar sesión: ejecuta «${AYUDA[id].login}» en la terminal. ${AYUDA[id].nota}` : /no está instalado/.test(m) ? `Instálalo: ${AYUDA[id].instalar}` : undefined };
+  }
 }

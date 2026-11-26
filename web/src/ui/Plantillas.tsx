@@ -1,6 +1,6 @@
 // Paso 2 y 3 de "Crear video": el sistema te PREGUNTA cómo quieres la edición, te muestra el tablero de preedición
 // (beats A/B/C) para que dirijas, y luego construye el borrador. El final solo sale con tu aprobación.
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import * as bridge from "../engine/bridge";
 import { Icon } from "./Icon";
 
@@ -23,7 +23,10 @@ export function Plantillas({ fuente, providers, onRapido, inicial }: Props) {
   const [fuentes, setFuentes] = useState("");
   const [subPreset, setSubPreset] = useState(inicial?.sub ?? "");
   const [presetsSub, setPresetsSub] = useState<bridge.PresetSub[]>([]);
-  useEffect(() => { bridge.presetsSubtitulos().then(setPresetsSub).catch(() => null); }, []);
+  useEffect(() => { bridge.presetsSubtitulos().then(setPresetsSub).catch(() => null); bridge.animosMusica().then(setAnimos).catch(() => null); }, []);
+  const [animos, setAnimos] = useState<{ id: string; canciones: number }[]>([]);
+  const [musica, setMusica] = useState("");
+  const [sfxCortes, setSfxCortes] = useState(false);
   const [rapido, setRapido] = useState(false);
   const ready = (providers ?? []).filter((p) => p.ready);
   const [provider, setProvider] = useState("");
@@ -73,7 +76,7 @@ export function Plantillas({ fuente, providers, onRapido, inicial }: Props) {
       const up = [];
       for (const b of broll) up.push({ mediaId: (await bridge.uploadMedia(b.file)).mediaId, desc: b.desc || b.file.name });
       const j = await bridge.startFlujo({ ...fuente, plantilla: variante.id, provider, broll: up,
-        respuestas: { energia, texturas: familia.texturas === false ? 0 : texturas, palette: color?.colors, originales, rapido, notas, fuentes: familia.preguntaFuentes ? links : undefined, subtitulos: subPreset || undefined } });
+        respuestas: { energia, texturas: familia.texturas === false ? 0 : texturas, palette: color?.colors, originales, rapido, notas, fuentes: familia.preguntaFuentes ? links : undefined, subtitulos: subPreset || undefined, musica: musica || undefined, sfxCortes } });
       setSending(false);
       poll(j.id);
     } catch (e) {
@@ -200,6 +203,18 @@ export function Plantillas({ fuente, providers, onRapido, inicial }: Props) {
             </div>
           </div>
 
+          <div className="q">
+            <h4>Música y sonido <small>la música va por debajo de tu voz (baja sola cuando hablas) y los efectos suenan en su momento</small></h4>
+            <div className="chips musica">
+              {[["", "🎚️", "Según la energía"], ...animos.map((a) => [a.id, ({ Animada: "🔥", Soft: "🌙", Triste: "🌧️", "Clásica": "🎻", Esenciales: "✨" } as Record<string, string>)[a.id] ?? "🎵", `${a.id} · ${a.canciones}`]), ["ninguna", "🔇", "Sin música"]].map(([id, ico, label]) => (
+                <button key={id || "auto"} className={`chip ${musica === id ? "on" : ""}`} disabled={started} onClick={() => setMusica(id)}><span>{ico}</span> {label}</button>
+              ))}
+            </div>
+            {!animos.length && <p className="hint">Para tener música: <code>bash scripts/descargar-sonidos.sh</code> (baja tu librería de Drive).</p>}
+            <label className="toggle"><input type="checkbox" checked={sfxCortes} disabled={started} onChange={(e) => setSfxCortes(e.target.checked)} />
+              <span><b>Whoosh en cada cambio de escena</b><small>Además de los efectos del estilo (golpe en el gancho, pops, cámara…).</small></span></label>
+          </div>
+
           {presetsSub.length > 0 && (
             <div className="q">
               <h4>Subtítulos <small>elige un preset y se aplica a TODO el video al terminar (puedes cambiarlo después)</small></h4>
@@ -207,7 +222,7 @@ export function Plantillas({ fuente, providers, onRapido, inicial }: Props) {
                 <button className={`sub-card ${subPreset === "" ? "on" : ""}`} disabled={started} onClick={() => setSubPreset("")}><div className="sub-img estilo">Aa<small>los del estilo</small></div><b>Los del estilo</b></button>
                 {presetsSub.map((p) => (
                   <button key={p.id} className={`sub-card ${subPreset === p.id ? "on" : ""}`} disabled={started} onClick={() => setSubPreset(p.id)} title={p.desc}>
-                    <div className="sub-img"><img src={`/subtitulos/${p.id}.jpg`} alt="" loading="lazy" /></div><b>{p.nombre}</b>
+                    <div className="sub-img"><img src={`/subtitulos/${p.id}.jpg`} alt="" loading="lazy" /><img className="sub-ref" src={`/subtitulos/ref/${p.id}.jpg`} alt="" loading="lazy" /><em>ref.</em></div><b>{p.nombre}</b><small className="sub-desc">{p.desc}</small>
                   </button>
                 ))}
               </div>
@@ -236,6 +251,9 @@ export function Plantillas({ fuente, providers, onRapido, inicial }: Props) {
           <ol className="p-steps">
             {flujo.steps.map((s, i) => <li key={s} className={i < flujo.current ? "ok" : i === flujo.current && flujo.status !== "error" ? "now" : ""}>{s}</li>)}
           </ol>
+          {(flujo.status === "review" || (flujo.chat?.length ?? 0) > 0) && (
+            <CambiosChat flujo={flujo} url={url} onSet={setFlujo} onPlan={() => poll(flujo.id)} />
+          )}
           {flujo.status === "error" && (
             <div className="row">
               <p className="err">{flujo.error}</p>
@@ -412,7 +430,7 @@ export function Catalogo({ eleccion, onChange }: { eleccion: Eleccion; onChange:
           <div className="subs-grid">
             {subs.map((p) => (
               <button key={p.id} className={`sub-card ${eleccion.sub === p.id ? "on" : ""}`} onClick={() => onChange({ ...eleccion, sub: eleccion.sub === p.id ? "" : p.id })} title={p.desc}>
-                <div className="sub-img"><img src={`/subtitulos/${p.id}.jpg`} alt="" loading="lazy" /></div><b>{p.nombre}</b>
+                <div className="sub-img"><img src={`/subtitulos/${p.id}.jpg`} alt="" loading="lazy" /><img className="sub-ref" src={`/subtitulos/ref/${p.id}.jpg`} alt="" loading="lazy" /><em>ref.</em></div><b>{p.nombre}</b><small className="sub-desc">{p.desc}</small>
               </button>
             ))}
           </div>
@@ -476,6 +494,47 @@ function BriefCard({ brief, title }: { brief?: bridge.Brief; title: string }) {
 }
 
 /** Dirección: lo que Santiago le dice al editor; reescribe el plan antes de construir. */
+/** Chat de cambios: con el video terminado, Santiago escribe lo que quiere cambiar y el sistema lo aplica solo. */
+function CambiosChat({ flujo, url, onSet, onPlan }: { flujo: bridge.FlujoJob; url: (r?: string) => string; onSet: (j: bridge.FlujoJob) => void; onPlan: () => void }) {
+  const [texto, setTexto] = useState("");
+  const [err, setErr] = useState("");
+  const fin = useRef<HTMLDivElement>(null);
+  const ocupado = flujo.status === "running" || flujo.subtitulos?.status === "running" || flujo.efectos?.status === "running";
+  useEffect(() => { fin.current?.scrollIntoView({ block: "nearest", behavior: "smooth" }); }, [flujo.chat?.length]);
+  // mientras aplica subtítulos o efectos, se actualiza solo
+  useEffect(() => {
+    if (flujo.status === "running" || !(flujo.subtitulos?.status === "running" || flujo.efectos?.status === "running")) return;
+    const t = setTimeout(async () => onSet(await bridge.getFlujo(flujo.id)), 2000);
+    return () => clearTimeout(t);
+  }, [flujo]);
+  async function enviar(t = texto) {
+    if (!t.trim()) return;
+    setErr("");
+    try { const j = await bridge.cambiar(flujo.id, t); setTexto(""); onSet(j); if (j.status === "running") onPlan(); }
+    catch (e) { setErr((e as Error).message); }
+  }
+  const ultimo = flujo.efectos?.status === "done" ? flujo.efectos.video : flujo.subtitulos?.status === "done" ? flujo.subtitulos.video : undefined;
+  return (
+    <div className="chat-cambios">
+      <h4>💬 Cambios <small>revisa el video y escribe aquí lo que quieres cambiar: lo aplico y lo vuelvo a renderizar solo</small></h4>
+      <div className="chat-log">
+        {!(flujo.chat?.length) && <p className="chat-vacio">Ej.: «quita el gráfico del principio», «el gancho más agresivo», «crash zoom en 0:07», «pon los subtítulos estilo Sticker».</p>}
+        {flujo.chat?.map((m, i) => <div key={i} className={`msg ${m.de}`}><span>{m.texto}</span></div>)}
+        {ocupado && <div className="msg ia"><span className="pensando">{flujo.status === "running" ? flujo.step : flujo.subtitulos?.status === "running" ? flujo.subtitulos.paso ?? "Aplicando subtítulos…" : "Aplicando efectos…"}</span></div>}
+        {!ocupado && ultimo && <div className="msg ia"><span>Resultado: <a href={url(ultimo)} target="_blank" rel="noreferrer">ver video</a> · <a href={url(ultimo)} download>descargar</a></span></div>}
+        <div ref={fin} />
+      </div>
+      <div className="chat-sug">{["Más ritmo en el gancho", "Menos gráficos, más cara", "Cambia el título del inicio", "Pon subtítulos estilo Sticker"].map((s) => <button key={s} disabled={ocupado} onClick={() => enviar(s)}>{s}</button>)}</div>
+      <div className="chat-in">
+        <textarea value={texto} placeholder="Escribe un cambio… (Enter para enviar)" disabled={ocupado} onChange={(e) => setTexto(e.target.value)}
+          onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); enviar(); } }} />
+        <button className="btn primary" disabled={ocupado || !texto.trim()} onClick={() => enviar()}>Aplicar</button>
+      </div>
+      {err && <p className="err">{err}</p>}
+    </div>
+  );
+}
+
 function DireccionBox({ flujo, onDone }: { flujo: bridge.FlujoJob; onDone: () => void }) {
   const [texto, setTexto] = useState("");
   const [msg, setMsg] = useState("");

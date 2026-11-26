@@ -1,10 +1,12 @@
+import { cpus } from "node:os";
 // Unión de clips y recortes de silencio.
 // Evolución de la V4 de Santiago (que medía el volumen con un umbral fijo en el navegador), ahora con FFmpeg:
 //  1. Umbral ADAPTATIVO por clip: mide el ruido de fondo y el nivel de voz de cada clip (no un −42 dB fijo).
 //  2. Cortes que respetan las palabras: con Whisper nunca corta a mitad de palabra y puede quitar muletillas (eh, mmm…).
 //  3. Cada corte se ajusta al punto más silencioso cercano y lleva un fundido de 8 ms: sin clics ni "pop".
 //  4. Une todos los clips en orden, al mismo tamaño y 30 fps, normaliza a −14 LUFS y entrega master + versión comprimida.
-import { spawn, execFileSync } from "node:child_process";
+import { filtroLook } from "./luts.js";
+import { spawn, execFile, execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, writeFileSync, statSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -24,6 +26,7 @@ export type MontajeOpts = {
   mejorarAudio?: boolean;     // quitar ruido de fondo, EQ de voz y compresión
   velocidad?: number;         // 1 · 1.1 · 1.2 (ritmo de redes)
   srt?: boolean;              // subtítulos .srt del video final
+  look?: string;              // LUT de color (presets/luts)
 };
 type Range = [number, number];
 type Word = { w: string; t0: number; t1: number };
@@ -206,6 +209,17 @@ async function analyze(job: MontajeJob, dir: string, files: { path: string; name
   const n = files.length;
   const allWords: Word[][] = [];
   const useWords = (opts.muletillas || opts.repetidas || opts.srt) && existsSync(PY);
+  // Rápido: el audio de todos los clips se extrae a la vez y Whisper se carga UNA sola vez para todos
+  let transcritos: Word[][] = [];
+  if (useWords) {
+    job.step = `Leyendo palabras con Whisper · ${n} clip(s) a la vez`;
+    const wavs = files.map((_, i) => join(dir, `a${i}.wav`));
+    await Promise.all(files.map((f, i) => ffmpeg(["-i", f.path, "-vn", "-ac", "1", "-ar", "16000", wavs[i]]).catch(() => null)));
+    const conAudio = wavs.filter((w) => existsSync(w));
+    const out = await new Promise<string>((ok, ko) => execFile(PY, [join(ROOT, "tools/palabras.py"), ...conAudio, "--modelo", "small", "--idioma", opts.idioma ?? "es"], { maxBuffer: 1 << 28 }, (e: Error | null, so: string) => (e ? ko(e) : ok(so))));
+    const lista = JSON.parse(out) as Word[][];
+    transcritos = wavs.map((w) => (existsSync(w) ? lista[conAudio.indexOf(w)] ?? [] : []));
+  }
   for (const [i, f] of files.entries()) {
     const info = probe(f.path);
     job.step = `Buscando silencios · clip ${i + 1} de ${n}`;
@@ -218,10 +232,7 @@ async function analyze(job: MontajeJob, dir: string, files: { path: string; name
       const r = speechRanges(db, info.duration, opts.ritmo);
       keep = r.keep.length ? r.keep : keep; threshold = r.threshold; peaks = peaksOf(db, threshold);
       if (useWords) {
-        job.step = `Leyendo palabras con Whisper · clip ${i + 1} de ${n}`;
-        const wav = join(dir, `a${i}.wav`);
-        execFileSync("ffmpeg", ["-v", "error", "-y", "-i", f.path, "-vn", "-ac", "1", "-ar", "16000", wav]);
-        words = JSON.parse(execFileSync(PY, [join(ROOT, "tools/palabras.py"), wav, "small", opts.idioma ?? "es"], { maxBuffer: 1 << 26 }).toString());
+        words = transcritos[i] ?? [];
         const refined = refineWithWords(keep, words, !!opts.muletillas, db, threshold);
         if (refined.keep.length) keep = refined.keep;
         fillers = refined.fillers;
@@ -243,36 +254,52 @@ async function render(job: MontajeJob, dir: string, files: { path: string; name:
   const H = opts.formato === "vertical" ? 1920 : infos[0].height - (infos[0].height % 2);
   const n = infos.length;
   const sp = Math.max(1, Math.min(1.5, opts.velocidad ?? 1));
-  const parts: string[] = [];
-  for (const [i, f] of infos.entries()) {
-    job.step = `Recortando y uniendo · clip ${i + 1} de ${n}`;
+  const parts: (string | null)[] = new Array(n).fill(null);
+  const avance = new Array(n).fill(0);
+  let listos = 0;
+  // varios clips a la vez (cada FFmpeg ya usa varios núcleos; 2–3 en paralelo aprovechan el resto)
+  const enParalelo = Math.max(1, Math.min(3, Math.floor(cpus().length / 2)));
+  const uno = async (i: number) => {
+    const f = infos[i];
     const keep = job.clips[i].keep;
-    if (!keep.length) continue;
+    if (!keep.length) return;
     const fit = opts.formato === "vertical"
       ? `scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H}`
       : `scale=${W}:${H}:force_original_aspect_ratio=decrease,pad=${W}:${H}:(ow-iw)/2:(oh-ih)/2`;
+    const lut = filtroLook(opts.look);
     const fc: string[] = [];
-    keep.forEach(([a, b], k) => {
+    // Rápido: el video se decodifica, escala y colorea UNA sola vez; select se queda con los tramos (sin buffers enormes).
+    // Los cortes van alineados a cuadros de 30 fps para que imagen y voz nunca se desfasen.
+    const q = (x: number) => Math.round(x * 30) / 30;
+    const tramos = keep.map(([a, b]) => [q(a), q(b)] as Range).filter(([a, b]) => b - a >= 1 / 30);
+    const sel = tramos.map(([a, b]) => `gte(t\\,${(a - 0.001).toFixed(4)})*lt(t\\,${(b - 0.001).toFixed(4)})`).join("+");
+    const vel = sp !== 1 ? `,setpts=PTS/${sp}` : "";
+    // el LUT se aplica en la imagen más pequeña (antes o después de escalar): mismo color, hasta 3× más rápido
+    const lutAntes = lut && f.width * f.height <= W * H;
+    fc.push(`[0:v]fps=30,select='${sel}',setpts=N/30/TB${lutAntes ? `,${lut}` : ""},${fit}${lut && !lutAntes ? `,${lut}` : ""},setsar=1,format=yuv420p${vel}[v]`);
+    tramos.forEach(([a, b], k) => {
       const d = r3(b - a), fo = r3(Math.max(0, d - 0.008));
-      fc.push(`[0:v]trim=${a}:${b},setpts=PTS-STARTPTS,${fit},fps=30,setsar=1,format=yuv420p[v${k}]`);
       fc.push(f.audio
-        ? `[0:a]atrim=${a}:${b},asetpts=PTS-STARTPTS,aresample=48000,aformat=channel_layouts=stereo,afade=t=in:d=0.008,afade=t=out:st=${fo}:d=0.008[a${k}]`
+        ? `[0:a]atrim=${a.toFixed(4)}:${b.toFixed(4)},asetpts=PTS-STARTPTS,aresample=48000,aformat=channel_layouts=stereo,afade=t=in:d=0.008,afade=t=out:st=${fo}:d=0.008[a${k}]`
         : `anullsrc=r=48000:cl=stereo,atrim=0:${d}[a${k}]`);
     });
-    const speed = sp !== 1 ? `;[vc]setpts=PTS/${sp}[v];[ac]atempo=${sp}[a]` : "";
-    fc.push(`${keep.map((_, k) => `[v${k}][a${k}]`).join("")}concat=n=${keep.length}:v=1:a=1${sp !== 1 ? "[vc][ac]" : "[v][a]"}${speed}`);
+    fc.push(`${tramos.map((_, k) => `[a${k}]`).join("")}concat=n=${tramos.length}:v=0:a=1${sp !== 1 ? `[ac];[ac]atempo=${sp}` : ""}[a]`);
     const out = join(dir, `p${String(i).padStart(3, "0")}.mov`);
     const total = job.clips[i].after / sp;
-    await ffmpeg(["-i", f.path, "-filter_complex", fc.join(";"), "-map", "[v]", "-map", "[a]", "-r", "30", "-c:v", "libx264", "-preset", "medium", "-crf", "16", "-c:a", "pcm_s16le", "-f", "mov", out],
-      (t) => (job.progress = 0.05 + 0.7 * ((i + Math.min(1, t / Math.max(0.1, total))) / n)));
-    parts.push(out);
-  }
+    await ffmpeg(["-i", f.path, "-filter_complex", fc.join(";"), "-map", "[v]", "-map", "[a]", "-r", "30", "-c:v", "libx264", "-preset", "superfast", "-crf", "15", "-c:a", "pcm_s16le", "-f", "mov", out],
+      (t) => { avance[i] = Math.min(1, t / Math.max(0.1, total)); job.progress = 0.05 + 0.7 * (avance.reduce((a, b) => a + b, 0) / n); });
+    parts[i] = out;
+    job.step = `Recortando y uniendo · ${++listos} de ${n} clips listos`;
+  };
+  job.step = `Recortando y uniendo · ${n} clips (${enParalelo} a la vez)`;
+  let siguiente = 0;
+  await Promise.all(Array.from({ length: enParalelo }, async () => { while (siguiente < n) await uno(siguiente++); }));
 
   // Render: unir todo, mejorar la voz (opcional) y normalizar el volumen (−14 LUFS, pico −1 dB)
   job.step = opts.mejorarAudio ? "Renderizando y mejorando la voz" : "Renderizando el video completo";
   job.progress = 0.78;
   const list = join(dir, "lista.txt");
-  writeFileSync(list, parts.map((p) => `file '${p.replace(/'/g, "'\\''")}'`).join("\n"));
+  writeFileSync(list, (parts.filter(Boolean) as string[]).map((p) => `file '${p.replace(/'/g, "'\\''")}'`).join("\n"));
   const master = join(dir, "video-completo.mp4");
   const voz = "highpass=f=75,afftdn=nf=-28:tn=1,equalizer=f=220:t=q:w=1.2:g=-2,equalizer=f=3200:t=q:w=1.4:g=2.5,acompressor=threshold=-21dB:ratio=3:attack=6:release=90:makeup=2,";
   await ffmpeg(["-f", "concat", "-safe", "0", "-i", list, "-c:v", "copy", "-af", `${opts.mejorarAudio ? voz : ""}loudnorm=I=-14:TP=-1:LRA=11`, "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", master]);
@@ -282,7 +309,7 @@ async function render(job: MontajeJob, dir: string, files: { path: string; name:
   job.progress = 0.9;
   const web = join(dir, "video-completo-redes.mp4");
   const totalAfter = job.clips.reduce((t, c) => t + c.after, 0) / sp;
-  await ffmpeg(["-i", master, "-c:v", "libx264", "-preset", "slow", "-crf", "24", "-maxrate", "6M", "-bufsize", "12M", "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", web],
+  await ffmpeg(["-i", master, "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-maxrate", "6M", "-bufsize", "12M", "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", web],
     (t) => (job.progress = 0.9 + 0.1 * Math.min(1, t / Math.max(0.1, totalAfter))));
 
   // Subtítulos .srt del video final (palabras de Whisper llevadas al tiempo editado)

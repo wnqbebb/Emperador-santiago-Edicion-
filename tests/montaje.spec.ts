@@ -8,7 +8,7 @@ test("Unir clips: ordena por nombre, permite reordenar y no procesa al subir", a
   test.skip(!existsSync(files[0]), "Faltan los clips de prueba");
   await page.goto("/");
   await page.getByRole("button", { name: "Unir clips", exact: true }).click();
-  await page.locator(".m-drop input[type=file][accept]").setInputFiles(files);
+  await page.locator(".montaje:not(.crear) .m-drop input[type=file][accept]").setInputFiles(files);
   await expect(page.locator(".m-list li")).toHaveCount(3);
   await expect(page.locator(".m-info b")).toHaveText(["clip 1.mp4", "clip 2.mp4", "clip 10.mp4"]); // 1, 2, 10 (no 1, 10, 2)
   await expect(page.locator(".m-progress")).toHaveCount(0); // nada se procesó todavía
@@ -23,7 +23,7 @@ test("Unir clips: analiza, deja revisar los cortes y luego renderiza y comprime"
   test.setTimeout(300_000);
   await page.goto("/");
   await page.getByRole("button", { name: "Unir clips", exact: true }).click();
-  await page.locator(".m-drop input[type=file][accept]").setInputFiles(files);
+  await page.locator(".montaje:not(.crear) .m-drop input[type=file][accept]").setInputFiles(files);
   await page.getByRole("button", { name: /Analizar cortes/ }).click();
   await expect(page.locator(".wave").first()).toBeVisible({ timeout: 200_000 });   // revisión de cortes antes de renderizar
   await expect(page.locator(".wave .cut").first()).toBeVisible();

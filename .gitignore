@@ -31,3 +31,7 @@ __pycache__/
 !.claude/skills/nick-saraev-editing
 !.claude/skills/lobo-de-wall-street-editing
 *.bundle
+
+# librería de sonido grande: se baja con scripts/descargar-sonidos.sh
+sonidos/musica
+sonidos/generales

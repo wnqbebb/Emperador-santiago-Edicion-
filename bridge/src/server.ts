@@ -9,8 +9,11 @@ import { pipeline } from "node:stream/promises";
 import { DATA } from "./store.js";
 import { startRender, getRender, type Engine } from "./render.js";
 import { FX_DIR } from "./fxbake.js";
+import { animos } from "./sonido.js";
+import { AYUDA, probarCli } from "./providers/subscriptions.js";
+import { looks, previewLooks, cubePath } from "./luts.js";
 import { startMontaje, getMontaje, analizarMontaje, renderMontaje, MONTAJE_DIR } from "./montaje.js";
-import { plantillas, familias, startFlujo, getFlujo, elegir, replanificar, tablero, flujoFiles, paletaDeVideo, cuadro, pedirPrompts, efectos, subirAsset, dirigir, listaPresets, muestraSubtitulos, subtitulos } from "./flujo.js";
+import { plantillas, familias, startFlujo, getFlujo, elegir, replanificar, tablero, flujoFiles, paletaDeVideo, cuadro, pedirPrompts, efectos, subirAsset, dirigir, cambiar, listaPresets, muestraSubtitulos, subtitulos } from "./flujo.js";
 import { EFECTOS } from "./plugins.js";
 import { skyPath } from "./skylight.js";
 import { reelPath } from "./reels.js";
@@ -104,9 +107,13 @@ createServer(async (req, res) => {
       const files = (b.clips ?? []).map((c: { mediaId: string; name: string }) => ({ path: join(MEDIA, basename(c.mediaId)), name: String(c.name) }));
       if (!files.length || files.some((f: { path: string }) => !existsSync(f.path))) return send(res, 400, { error: "Faltan clips por subir" });
       const opts = { ritmo: b.ritmo ?? "dinamico", muletillas: !!b.muletillas, formato: b.formato ?? "vertical", idioma: b.idioma ?? "es",
-        repetidas: !!b.repetidas, mejorarAudio: !!b.mejorarAudio, velocidad: Number(b.velocidad ?? 1), srt: !!b.srt };
+        repetidas: !!b.repetidas, mejorarAudio: !!b.mejorarAudio, velocidad: Number(b.velocidad ?? 1), srt: !!b.srt, look: b.look ? String(b.look) : undefined };
       return send(res, 200, p.endsWith("analizar") ? analizarMontaje(files, opts) : startMontaje(files, opts));
     }
+    if (p === "/api/looks" && req.method === "POST") { const b = await body(req); return send(res, 200, await previewLooks(String(b.imagen ?? ""))); }
+    if (p === "/api/looks") return send(res, 200, looks().map(({ id, nombre, desc, cube }) => ({ id, nombre, desc, cube: `/luts/${basename(cube)}` })));
+    const lutf = p.match(/^\/luts\/([\w.-]+\.cube)$/);
+    if (lutf && cubePath(lutf[1])) return serveFile(req, res, cubePath(lutf[1])!, "text/plain");
     const mr = p.match(/^\/api\/montaje\/([\w-]+)\/render$/);
     if (mr && req.method === "POST") { const b = await body(req); return send(res, 200, renderMontaje(mr[1], b.restaurar ?? {}, b.cambios ?? {})); }
     const mt = p.match(/^\/api\/montaje\/([\w-]+)$/);
@@ -121,6 +128,9 @@ createServer(async (req, res) => {
     // ---------- Plantillas de estilo de edición → flujo automático
     if (p === "/api/plantillas") return send(res, 200, plantillas());
     if (p === "/api/subtitulos/presets") return send(res, 200, listaPresets());
+    if (p === "/api/providers/ayuda") return send(res, 200, AYUDA);
+    if (p === "/api/providers/probar" && req.method === "POST") { const id = String((await body(req)).id ?? ""); if (!(id in AYUDA)) return send(res, 400, { error: "Ese proveedor no es una suscripción" }); return send(res, 200, await probarCli(id as keyof typeof AYUDA)); }
+    if (p === "/api/sonidos/animos") return send(res, 200, animos());
     if (p === "/api/efectos") return send(res, 200, EFECTOS.map(({ id, nombre }) => ({ id, nombre })));
     if (p === "/api/familias") return send(res, 200, familias());
     if (p.startsWith("/plantilla-preview/")) {
@@ -151,13 +161,14 @@ createServer(async (req, res) => {
       const brollFiles = (b.broll ?? []).map((x: { mediaId: string; desc: string }) => ({ path: join(MEDIA, basename(x.mediaId)), desc: String(x.desc ?? "") })).filter((x: { path: string }) => existsSync(x.path));
       const r = b.respuestas ?? {};
       const respuestas = { energia: r.energia ?? "viral", texturas: Number(r.texturas ?? 0.4), palette: r.palette, originales: r.originales !== false, broll: [], rapido: false,   // el brief siempre se muestra antes de renderizar
-        subtitulos: typeof r.subtitulos === "string" && r.subtitulos ? r.subtitulos : undefined, notas: r.notas, fuentes: Array.isArray(r.fuentes) ? r.fuentes.map(String).slice(0, 8) : undefined };
+        subtitulos: typeof r.subtitulos === "string" && r.subtitulos ? r.subtitulos : undefined, notas: r.notas, musica: typeof r.musica === "string" ? r.musica : undefined, sfxCortes: !!r.sfxCortes, fuentes: Array.isArray(r.fuentes) ? r.fuentes.map(String).slice(0, 8) : undefined };
       return send(res, 200, startFlujo({ videoPath, plantilla: String(b.plantilla), provider: b.provider, name: b.name, respuestas, brollFiles }));
     }
-    const fl = p.match(/^\/api\/flujo\/([\w-]+)(?:\/(elegir|tablero|replan|cuadro|prompts|efectos|dirigir|asset|subtitulos|muestra))?$/);
+    const fl = p.match(/^\/api\/flujo\/([\w-]+)(?:\/(elegir|tablero|replan|cuadro|prompts|efectos|dirigir|asset|subtitulos|muestra|cambiar))?$/);
     if (fl) {
       if (fl[2] === "subtitulos" && req.method === "POST") return send(res, 200, await subtitulos(fl[1], String((await body(req)).preset ?? "")));
       if (fl[2] === "muestra") return serveFile(req, res, await muestraSubtitulos(fl[1], String(url.searchParams.get("preset") ?? "")), "image/png");
+      if (fl[2] === "cambiar" && req.method === "POST") return send(res, 200, cambiar(fl[1], String((await body(req)).texto ?? "")));
       if (fl[2] === "dirigir" && req.method === "POST") return send(res, 200, dirigir(fl[1], String((await body(req)).texto ?? "")));
       if (fl[2] === "asset" && req.method === "POST") {
         const name = url.searchParams.get("name") ?? "asset.png";

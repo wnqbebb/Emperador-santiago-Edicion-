@@ -1,0 +1,12 @@
+{ "looks": [
+  { "id": "cine",      "nombre": "Cine teal & orange", "desc": "Pieles cálidas, sombras azuladas. El look de película.", "filtro": "colorbalance=rs=-0.06:gs=-0.01:bs=0.09:rm=0.03:bm=-0.03:rh=0.08:gh=0.02:bh=-0.08,eq=contrast=1.08:saturation=1.08" },
+  { "id": "dorado",    "nombre": "Hora dorada", "desc": "Cálido y luminoso, como al atardecer.", "filtro": "colortemperature=temperature=4700:mix=0.7,eq=contrast=1.04:saturation=1.12:gamma=1.03" },
+  { "id": "frio",      "nombre": "Frío moderno", "desc": "Limpio, azulado, tecnológico.", "filtro": "colortemperature=temperature=8200:mix=0.6,eq=contrast=1.06:saturation=0.92" },
+  { "id": "portra",    "nombre": "Película Portra", "desc": "Suave, piel bonita, negros levantados.", "filtro": "curves=r='0/0.04 0.5/0.53 1/0.98':g='0/0.03 0.5/0.51 1/0.96':b='0/0.06 0.5/0.47 1/0.9',eq=saturation=0.95" },
+  { "id": "vintage",   "nombre": "Vintage", "desc": "Recuerdo de los 70, tonos desteñidos.", "filtro": "curves=preset=vintage,eq=saturation=0.85" },
+  { "id": "matte",     "nombre": "Matte pastel", "desc": "Plano y elegante, contraste bajo.", "filtro": "curves=all='0/0.08 0.5/0.5 1/0.93',eq=saturation=0.82:contrast=0.97" },
+  { "id": "moody",     "nombre": "Moody oscuro", "desc": "Dramático, sombras profundas, poco color.", "filtro": "eq=brightness=-0.03:contrast=1.18:saturation=0.72,colorbalance=bs=0.05:bm=0.02" },
+  { "id": "vibrante",  "nombre": "Vibrante redes", "desc": "Colores que saltan en el teléfono.", "filtro": "vibrance=intensity=0.35,eq=contrast=1.07:saturation=1.12" },
+  { "id": "bn",        "nombre": "Blanco y negro", "desc": "Contraste alto, atemporal.", "filtro": "hue=s=0,eq=contrast=1.25:brightness=0.01" },
+  { "id": "verde",     "nombre": "Verde Matrix", "desc": "Tinte verde frío, estilo thriller.", "filtro": "colorbalance=rs=-0.05:gs=0.05:bs=-0.02:rm=-0.04:gm=0.05:bm=-0.03,eq=contrast=1.1:saturation=0.9" }
+] }

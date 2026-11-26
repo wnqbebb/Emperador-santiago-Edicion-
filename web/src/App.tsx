@@ -11,6 +11,7 @@ import { Icon } from "./ui/Icon";
 import { Lab } from "./ui/Lab";
 import { Montaje } from "./ui/Montaje";
 import { CrearVideo } from "./ui/CrearVideo";
+import { ConectarIA } from "./ui/ConectarIA";
 import { PIXEL_FX_META, fxDuration } from "../../shared/fxmeta";
 import type { Motion } from "./engine/types";
 
@@ -33,6 +34,7 @@ export default function App() {
   const [playing, setPlaying] = useState(false);
   const [t, setT] = useState(0);
   const [providers, setProviders] = useState<bridge.Provider[] | null>(null);
+  const [iaOpen, setIaOpen] = useState(false);
   const [provider, setProvider] = useState("claude-api");
   const [prompt, setPrompt] = useState("");
   const [job, setJob] = useState<string | null>(null);
@@ -255,9 +257,10 @@ export default function App() {
           <button className={mode === "crear" ? "on" : ""} onClick={() => setMode("crear")}>Crear video</button>
         </div>
         <div className="top-actions">
-          <span className={`chip ${providers ? "on" : ""}`}>
-            <i />{providers ? "Bridge IA conectado" : "Modo offline"}
-          </span>
+          <button className={`chip ia-chip ${providers ? "on" : ""}`} onClick={() => setIaOpen(true)} title="Conectar Claude, ChatGPT o Gemini">
+            <i />{providers ? `IA: ${providers.filter((p) => p.ready).length} conectada(s) · Conectar` : "Modo offline"}
+          </button>
+          {iaOpen && <ConectarIA providers={providers} onClose={() => setIaOpen(false)} onRefresh={() => bridge.healthFull().then((h) => h && setProviders(h.providers))} />}
           <div className="export" style={{ visibility: mode === "editor" ? "visible" : "hidden" }}>
             <button className="btn primary" disabled={!plan || exporting} onClick={() => setExportOpen(!exportOpen)}>
               <Icon name="export" /> Exportar
@@ -277,8 +280,11 @@ export default function App() {
       <div style={{ display: mode === "montaje" ? "contents" : "none" }}>
         <Montaje online={!!providers} onOpenInEditor={(f) => { setMode("editor"); loadFile(f); setTab("ai"); }} onCrearVideo={(id) => { setDesdeMontaje(id); setMode("crear"); }} />
       </div>
-      {mode === "crear" && <CrearVideo online={!!providers} providers={providers} desdeMontaje={desdeMontaje} onIrAUnir={() => setMode("montaje")}
-        onRapido={(f, styleId) => { setMode("editor"); setStyleId(styleId); autoStyle.current = styleId; loadFile(f); setTab("ai"); }} />}
+      {/* las pestañas siguen vivas al cambiar: lo que estaba trabajando sigue y no se pierde nada */}
+      <div style={{ display: mode === "crear" ? "contents" : "none" }}>
+        <CrearVideo online={!!providers} providers={providers} desdeMontaje={desdeMontaje} onIrAUnir={() => setMode("montaje")}
+          onRapido={(f, styleId) => { setMode("editor"); setStyleId(styleId); autoStyle.current = styleId; loadFile(f); setTab("ai"); }} />
+      </div>
 
       <div className="editor-view" style={{ display: mode === "editor" ? "contents" : "none" }}>
       <nav className="rail">
@@ -348,7 +354,7 @@ export default function App() {
           </>
         )}
 
-        {tab === "lab" && <Lab mediaId={mediaId} fileName={file?.name} />}
+        <div style={{ display: tab === "lab" ? "contents" : "none" }}><Lab mediaId={mediaId} fileName={file?.name} /></div>
 
         {tab === "motion" && (
           <>

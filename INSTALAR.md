@@ -67,12 +67,54 @@ Abre **http://localhost:5173**. Arriba tienes las tres herramientas: **Editor**,
 
 ## 4. Conectar tu IA (para Crear video, beats y motion graphics)
 
-Elige una:
-- **Suscripción de Claude:** instala Claude Code e inicia sesión una vez con `claude`. En la app aparece "Suscripción Claude (Claude Code)".
-- **ChatGPT:** Codex CLI (`codex`). **Gemini:** Gemini CLI (`gemini`).
-- **Claves de API:** copia `.env.example` a `.env` y pon la clave. Por ejemplo `ANTHROPIC_API_KEY=…` usa Claude Fable 5.2.
+En la app pulsa el botón de arriba a la derecha **«IA: … · Conectar»**: ahí ves cada IA, los comandos para copiar y un botón **Probar**.
+
+Con tus suscripciones (sin pagar API). En la terminal de Ubuntu (WSL):
+
+- **Claude Pro/Max:**
+  ```bash
+  npm install -g @anthropic-ai/claude-code
+  ```
+  ```bash
+  claude
+  ```
+  Dentro escribe `/login`, entra con tu cuenta y luego `/exit`.
+- **ChatGPT Plus/Pro (Codex):**
+  ```bash
+  npm install -g @openai/codex
+  ```
+  ```bash
+  codex login
+  ```
+  Entra con «Sign in with ChatGPT». Si el navegador no se abre solo desde WSL, copia el enlace que muestra la terminal y ábrelo en tu navegador.
+- **Gemini (cuenta de Google):**
+  ```bash
+  npm install -g @google/gemini-cli
+  ```
+  ```bash
+  gemini
+  ```
+  Elige «Login with Google» y luego `/quit`.
+
+Después reinicia la app (`npm run dev`) y pulsa **Probar** en cada una. En Crear video eliges cuál piensa el plan.
+
+Con claves de API: copia `.env.example` a `.env` y pon la clave (`ANTHROPIC_API_KEY`, `OPENAI_API_KEY` o `GEMINI_API_KEY`).
 
 Sin IA funcionan: Unir clips, el editor rápido, los efectos, Remotion y HyperFrames.
+
+### Música y efectos de sonido
+
+El kit de efectos por momento (whoosh, golpes, boom, pop, cámara, campana, riser…) ya viene en `sonidos/kit`. La música de tu Drive se baja una vez:
+
+```bash
+bash scripts/descargar-sonidos.sh
+```
+
+Queda en `sonidos/musica/<Ánimo>` (Animada, Esenciales, Soft, Clásica, Triste). Puedes crear tus propias carpetas de ánimo y meter canciones: aparecen solas en Crear video → «Música y sonido».
+
+### LUTs
+
+Los 10 LUTs de Unir clips están en `presets/luts/*.cube` (también sirven en Premiere, CapCut y DaVinci). Si sueltas tus propios `.cube` ahí, aparecen en la cuadrícula.
 
 ## 5. Trabajar en local y sincronizar cambios
 

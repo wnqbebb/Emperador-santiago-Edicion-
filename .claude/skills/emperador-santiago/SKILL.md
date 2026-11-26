@@ -34,6 +34,13 @@ Lee y aplica `.claude/skills/crear-estilo-edicion/REGLAS_GENERALES.md` (32 regla
 - Método: `crear-estilo-edicion/metodo/` (Joseph, Katana, REA niveles de evidencia), `core/` (psicología, técnicas del editor).
 - Estilos propios de Santi: `styles/*.json` (firma: `imperial`).
 
+## Sonido, color y cambios (todas las herramientas)
+- **Sonido** (`bridge/src/sonido.ts`): al terminar cualquier estilo se mezcla música por ánimo (`sonidos/musica/<Ánimo>`, con ducking bajo la voz) + golpe en el gancho (+ whoosh en cada corte si se pide). Kit por momento en `sonidos/kit/<momento>`: transicion, impacto, boom, pop, notificacion, foto, snap, riser, glitch, rebobinar, fallo. Reels usa el kit en sus momentos (negro→foto, palabra grande→impacto, split→transicion, gráfico→pop). Música: `bash scripts/descargar-sonidos.sh`.
+- **LUTs** (`presets/luts`, `bridge/src/luts.ts`): 10 `.cube` reales + los que suelte Santiago. Vista previa `POST /api/looks {imagen}`; en Unir clips `look` en las opciones.
+- **Chat de cambios** (`POST /api/flujo/:id/cambiar {texto}`): con el video terminado; subtítulos por nombre de preset → preset; tiempo + efecto → Edit Studio; lo demás → rehace el plan (dirigir) y vuelve a construir solo. Historial en `job.chat`.
+- **Unir clips rápido**: Whisper se carga una vez para todos los clips (`tools/palabras.py a.wav b.wav --modelo small`), clips en paralelo, una sola decodificación por clip (select), LUT en la imagen más pequeña.
+- **Conectar IA**: `GET /api/providers/ayuda`, `POST /api/providers/probar {id}`; panel «Conectar» en la app.
+
 ## Comandos
 ```bash
 npm run dev                                         # editor (5173) + bridge (8787)

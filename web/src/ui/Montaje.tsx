@@ -36,6 +36,9 @@ export function Montaje({ online, onOpenInEditor, onCrearVideo }: { online: bool
   const [mejorarAudio, setMejorarAudio] = useState(true);
   const [velocidad, setVelocidad] = useState(1);
   const [srt, setSrt] = useState(true);
+  const [look, setLook] = useState("");
+  const [looks, setLooks] = useState<bridge.Look[]>([]);
+  const [lookGrande, setLookGrande] = useState<string | null>(null);
   const [restaurar, setRestaurar] = useState<Record<number, number[]>>({});
   const [phase, setPhase] = useState<"idle" | "uploading" | "working" | "review" | "done" | "error">("idle");
   const [upload, setUpload] = useState(0);
@@ -46,6 +49,26 @@ export function Montaje({ online, onOpenInEditor, onCrearVideo }: { online: bool
 
   // al terminar, mostrar el video completo sin tener que buscarlo
   useEffect(() => { if (phase === "done") setTimeout(() => document.querySelector(".m-result")?.scrollIntoView({ behavior: "smooth", block: "center" }), 150); }, [phase]);
+
+  // LUTs: el mismo cuadro del clip 1 con cada look, para comparar y escoger de un vistazo
+  const primero = items[0];
+  useEffect(() => {
+    if (!primero || !online) { setLooks([]); return; }
+    let vivo = true;
+    (async () => {
+      const v = document.createElement("video");
+      v.muted = true; v.preload = "auto"; v.src = primero.url;
+      await new Promise((r) => (v.onloadeddata = r));
+      v.currentTime = Math.min(primero.duration * 0.35, 4);
+      await new Promise((r) => (v.onseeked = r));
+      const c = document.createElement("canvas"); c.width = 360; c.height = 640;
+      const s = Math.max(360 / v.videoWidth, 640 / v.videoHeight);
+      c.getContext("2d")!.drawImage(v, (360 - v.videoWidth * s) / 2, (640 - v.videoHeight * s) / 2, v.videoWidth * s, v.videoHeight * s);
+      const ls = await bridge.previewLooks(c.toDataURL("image/jpeg", 0.85));
+      if (vivo) setLooks([{ id: "", nombre: "Sin LUT", desc: "Color original", cube: "", img: c.toDataURL("image/jpeg", 0.85) }, ...ls]);
+    })().catch(() => null);
+    return () => { vivo = false; };
+  }, [primero?.id, online]);
 
   const total = useMemo(() => items.reduce((t, i) => t + i.duration, 0), [items]);
 
@@ -81,7 +104,7 @@ export function Montaje({ online, onOpenInEditor, onCrearVideo }: { online: bool
         setUpload((i + 1) / items.length);
       }
       setPhase("working");
-      const opts = { clips, ritmo, muletillas, formato, repetidas, mejorarAudio, velocidad, srt };
+      const opts = { clips, ritmo, muletillas, formato, repetidas, mejorarAudio, velocidad, srt, look };
       const j = await waitJob(revisar ? await bridge.analizarMontaje(opts) : await bridge.startMontaje(opts));
       setPhase(j.status === "analizado" ? "review" : j.status === "done" ? "done" : "error");
     } catch (e) {
@@ -93,7 +116,7 @@ export function Montaje({ online, onOpenInEditor, onCrearVideo }: { online: bool
   async function renderizar() {
     if (!job) return;
     setPhase("working");
-    const j = await waitJob(await bridge.renderMontaje(job.id, restaurar, { mejorarAudio, velocidad, srt }));
+    const j = await waitJob(await bridge.renderMontaje(job.id, restaurar, { mejorarAudio, velocidad, srt, look }));
     setPhase(j.status === "done" ? "done" : "error");
   }
   const toggleCorte = (ci: number, k: number) => setRestaurar((r) => {
@@ -194,6 +217,22 @@ export function Montaje({ online, onOpenInEditor, onCrearVideo }: { online: bool
                 );
               })}
             </ol>
+
+            {looks.length > 0 && (
+              <div className="luts">
+                <div className="m-listhead"><span>Color · LUTs</span><small>Mismo cuadro con cada filtro. Clic para escoger; doble clic para verlo grande.</small></div>
+                <div className="lut-grid">
+                  {looks.map((l) => (
+                    <button key={l.id || "none"} className={`lut ${look === l.id ? "on" : ""}`} disabled={busy} onClick={() => setLook(l.id)} onDoubleClick={() => setLookGrande(l.img)}>
+                      <img src={l.img} alt={l.nombre} />
+                      <b>{l.nombre}</b><small>{l.desc}</small>
+                      {l.cube && <a className="lut-dl" href={bridge.abs(l.cube)} download onClick={(e) => e.stopPropagation()} title="Descargar el .cube (Premiere, CapCut, DaVinci)">.cube</a>}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+            {lookGrande && <div className="lut-modal" onClick={() => setLookGrande(null)}><img src={lookGrande} alt="" /></div>}
           </>
         )}
       </section>
@@ -225,6 +264,8 @@ export function Montaje({ online, onOpenInEditor, onCrearVideo }: { online: bool
           <input type="checkbox" checked={srt} disabled={busy} onChange={(e) => setSrt(e.target.checked)} />
           <span><b>Subtítulos .srt</b><small>Para subir a YouTube, CapCut o Premiere.</small></span>
         </label>
+        <h3>Color</h3>
+        <p className="hint">{look ? `LUT: ${looks.find((l) => l.id === look)?.nombre ?? look}` : "Sin LUT (color original)"} · escógelo en la cuadrícula de la izquierda.</p>
         <h3>Formato</h3>
         <div className="seg two">
           <button className={formato === "vertical" ? "on" : ""} disabled={busy} onClick={() => setFormato("vertical")}><b>Vertical 9:16</b><small>1080×1920, rellena</small></button>
