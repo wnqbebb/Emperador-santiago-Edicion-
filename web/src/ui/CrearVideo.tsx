@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import * as bridge from "../engine/bridge";
 import { Icon } from "./Icon";
-import { Plantillas } from "./Plantillas";
+import { Plantillas, Catalogo, type Eleccion } from "./Plantillas";
 
 type Props = { online: boolean; providers: bridge.Provider[] | null; desdeMontaje: string | null; onRapido: (f: File, styleId: string) => void; onIrAUnir: () => void };
 
@@ -12,6 +12,7 @@ export function CrearVideo({ online, providers, desdeMontaje, onRapido, onIrAUni
   const [preview, setPreview] = useState<string>("");
   const [subiendo, setSubiendo] = useState(false);
   const [err, setErr] = useState("");
+  const [eleccion, setEleccion] = useState<Eleccion>({});
 
   useEffect(() => { if (desdeMontaje) { setFuente({ montajeId: desdeMontaje }); setPreview(bridge.abs(`/montaje/${desdeMontaje}/video-completo-redes.mp4`)); } }, [desdeMontaje]);
 
@@ -43,7 +44,7 @@ export function CrearVideo({ online, providers, desdeMontaje, onRapido, onIrAUni
           </div>
         </header>
         {fuente ? (
-          <Plantillas key={fuente.montajeId ?? fuente.mediaId} fuente={fuente} providers={providers} onRapido={rapido} />
+          <Plantillas key={fuente.montajeId ?? fuente.mediaId} fuente={fuente} providers={providers} onRapido={rapido} inicial={eleccion} />
         ) : (
           <div className="c-source">
             <label className="m-drop">
@@ -54,6 +55,8 @@ export function CrearVideo({ online, providers, desdeMontaje, onRapido, onIrAUni
             </label>
             {!online && <p className="hint">Enciende el bridge (<code>npm run dev</code>).</p>}
             {err && <p className="err">{err}</p>}
+            {eleccion.vari && <p className="gal-sel">Elegido: <b>{eleccion.vari}</b>{eleccion.sub ? <> · subtítulos <b>{eleccion.sub}</b></> : null}. Sube tu clip para empezar con esto.</p>}
+            <Catalogo eleccion={eleccion} onChange={setEleccion} />
           </div>
         )}
       </section>

@@ -4,14 +4,15 @@ import { useEffect, useState } from "react";
 import * as bridge from "../engine/bridge";
 import { Icon } from "./Icon";
 
-type Props = { fuente: bridge.Fuente; providers: bridge.Provider[] | null; onRapido: (styleId: string) => void };
+export type Eleccion = { fam?: string; vari?: string; sub?: string };
+type Props = { fuente: bridge.Fuente; providers: bridge.Provider[] | null; onRapido: (styleId: string) => void; inicial?: Eleccion };
 type Energia = "calma" | "media" | "viral";
 type BrollItem = { file: File; desc: string };
 
-export function Plantillas({ fuente, providers, onRapido }: Props) {
+export function Plantillas({ fuente, providers, onRapido, inicial }: Props) {
   const [familias, setFamilias] = useState<bridge.Familia[]>([]);
-  const [fam, setFam] = useState("arthur");
-  const [vari, setVari] = useState("arthur-talking");
+  const [fam, setFam] = useState(inicial?.fam ?? "arthur");
+  const [vari, setVari] = useState(inicial?.vari ?? "arthur-talking");
   const [paleta, setPaleta] = useState<bridge.Paleta | null>(null);
   const [pal, setPal] = useState(0);
   const [energia, setEnergia] = useState<Energia>("viral");
@@ -20,7 +21,7 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
   const [broll, setBroll] = useState<BrollItem[]>([]);
   const [notas, setNotas] = useState("");
   const [fuentes, setFuentes] = useState("");
-  const [subPreset, setSubPreset] = useState("");
+  const [subPreset, setSubPreset] = useState(inicial?.sub ?? "");
   const [presetsSub, setPresetsSub] = useState<bridge.PresetSub[]>([]);
   useEffect(() => { bridge.presetsSubtitulos().then(setPresetsSub).catch(() => null); }, []);
   const [rapido, setRapido] = useState(false);
@@ -334,7 +335,7 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
 }
 
 /** Galería de estilos tipo Captions: tarjetas 9:16 que se mueven al pasar el ratón, filtros por familia y vista previa grande. */
-function Galeria({ familias, fam, vari, disabled, onPick }: { familias: bridge.Familia[]; fam: string; vari?: string; disabled: boolean; onPick: (fam: string, vari: string) => void }) {
+export function Galeria({ familias, fam, vari, disabled, onPick }: { familias: bridge.Familia[]; fam: string; vari?: string; disabled: boolean; onPick: (fam: string, vari: string) => void }) {
   const [filtro, setFiltro] = useState("todos");
   const [q, setQ] = useState("");
   const [ver, setVer] = useState<{ f: bridge.Familia; v: bridge.Variante } | null>(null);
@@ -391,6 +392,31 @@ const REEL_ICON: Record<string, string> = { cara: "◉", split: "◧", grande: "
 const REEL_NAME: Record<string, string> = { cara: "cara + gráfico", split: "dividido", grande: "palabra grande", negro: "corte a negro" };
 const SKY_ICON: Record<string, string> = { world: "☁", broll: "🎞", bars: "▮▮", line: "↗", orbs: "●●", days: "▦", duo: "◐", still: "▣" };
 const SKY_NAME: Record<string, string> = { aroll: "cara", world: "mundo", broll: "b-roll con trazos", bars: "barras", line: "línea", orbs: "orbes", days: "casillas", duo: "recorte + logos", still: "imagen" };
+
+/** Antes de subir el clip: ver todos los estilos y presets de subtítulos y dejar elegidos los que gusten. */
+export function Catalogo({ eleccion, onChange }: { eleccion: Eleccion; onChange: (e: Eleccion) => void }) {
+  const [familias, setFamilias] = useState<bridge.Familia[]>([]);
+  const [subs, setSubs] = useState<bridge.PresetSub[]>([]);
+  useEffect(() => { bridge.familias().then(setFamilias).catch(() => null); bridge.presetsSubtitulos().then(setSubs).catch(() => null); }, []);
+  if (!familias.length) return <p className="hint">Enciende el bridge (<code>npm run dev</code>) para ver los estilos.</p>;
+  return (
+    <div className="catalogo">
+      <Galeria familias={familias} fam={eleccion.fam ?? ""} vari={eleccion.vari} disabled={false} onPick={(fam, vari) => onChange({ ...eleccion, fam, vari })} />
+      {subs.length > 0 && (
+        <div className="q">
+          <h4>Presets de subtítulos <small>se aplican a TODO el video · elige uno ahora o después</small></h4>
+          <div className="subs-grid">
+            {subs.map((p) => (
+              <button key={p.id} className={`sub-card ${eleccion.sub === p.id ? "on" : ""}`} onClick={() => onChange({ ...eleccion, sub: eleccion.sub === p.id ? "" : p.id })} title={p.desc}>
+                <div className="sub-img"><img src={`/subtitulos/${p.id}.jpg`} alt="" loading="lazy" /></div><b>{p.nombre}</b>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
 
 /** Presets de subtitulado sobre el video terminado: vista previa en TU video y se aplica a todo. */
 function SubtitulosBox({ flujo, url, onDone }: { flujo: bridge.FlujoJob; url: (r?: string) => string; onDone: () => void }) {
