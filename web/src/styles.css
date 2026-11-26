@@ -556,3 +556,9 @@ h3.mt { margin-top: 22px; }
 .fav i { font-style: normal; padding: 0 10px 0 6px; cursor: pointer; color: #b45309; }
 .fav:hover { border-color: #f59e0b; }
 .h-acc a.btn, .h-acc .btn { text-decoration: none; }
+
+/* ---------- Aviso mientras el motor enciende */
+.aviso-motor { position: fixed; left: 50%; bottom: 22px; transform: translateX(-50%); z-index: 70; display: flex; align-items: center; gap: 10px; max-width: min(720px, calc(100% - 32px));
+  background: #15152a; color: #fff; padding: 12px 18px; border-radius: 14px; box-shadow: 0 14px 40px rgba(0,0,0,.3); font-size: 14px; }
+.aviso-motor code { background: #2a2a50; padding: 2px 6px; border-radius: 6px; }
+.aviso-motor .punto { width: 10px; height: 10px; flex: none; border-radius: 50%; background: #818cf8; animation: pensar 1s infinite; }

@@ -30,7 +30,7 @@ export function ConectarIA({ providers, onClose, onRefresh }: { providers: bridg
                     <ol>
                       <li>Instalar: <code onClick={() => copiar(a.instalar)} title="Copiar">{a.instalar}</code></li>
                       <li>Iniciar sesión: <code onClick={() => copiar(a.login)} title="Copiar">{a.login}</code> <small>{a.nota}</small></li>
-                      <li>Reinicia la app (<code>npm run dev</code>) si acabas de instalarla, y pulsa Probar.</li>
+                      <li>Si acabas de instalarla: <b>Apagar Emperador</b> y abre de nuevo la corona (o en Ubuntu: <code>emperador reiniciar</code>). Luego pulsa Probar.</li>
                     </ol>
                     <button className="btn" disabled={!p.ready || pr?.estado === "probando"} onClick={() => probar(p.id)}>{pr?.estado === "probando" ? "Probando…" : "Probar"}</button>
                     {pr?.msg && <p className={pr.estado === "ok" ? "ok-msg" : "err"}>{pr.msg}</p>}

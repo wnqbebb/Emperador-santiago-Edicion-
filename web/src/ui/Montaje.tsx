@@ -292,7 +292,7 @@ export function Montaje({ online, onOpenInEditor, onCrearVideo }: { online: bool
             {usaWhisper && <p className="hint">Usa Whisper para leer las palabras: el análisis tarda un poco más.</p>}
           </>
         )}
-        {!online && <p className="hint">Enciende el bridge (<code>npm run dev</code>) para procesar.</p>}
+        {!online && <p className="hint">Conectando con el motor… en cuanto responda podrás procesar.</p>}
 
         {phase !== "idle" && (
           <div className="m-progress">

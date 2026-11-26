@@ -62,7 +62,7 @@ export function CrearVideo({ online, providers, desdeMontaje, reanudar, onRapido
               <div><strong>{subiendo ? "Subiendo…" : "Sube tu clip"}</strong><small>Un video ya unido o una sola toma en bruto. ¿Tienes varias tomas? Únelas primero.</small></div>
               <button type="button" className="btn ghost" onClick={(e) => { e.preventDefault(); onIrAUnir(); }}>Ir a Unir clips</button>
             </label>
-            {!online && <p className="hint">Enciende el bridge (<code>npm run dev</code>).</p>}
+            {!online && <p className="hint">Conectando con el motor…</p>}
             {err && <p className="err">{err}</p>}
             {eleccion.vari && <p className="gal-sel">Elegido: <b>{eleccion.vari}</b>{eleccion.sub ? <> · subtítulos <b>{eleccion.sub}</b></> : null}. Sube tu clip para empezar con esto.</p>}
             <Catalogo eleccion={eleccion} onChange={setEleccion} />

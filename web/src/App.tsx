@@ -67,16 +67,30 @@ export default function App() {
     [words, plan, style],
   );
 
-  // Bridge (opcional)
+  // Motor (bridge): se busca hasta encontrarlo. Al abrir con el ícono la interfaz puede estar lista unos segundos
+  // antes que el motor; en cuanto responde, todo se conecta solo (sin recargar). Si se cae, se reconecta.
+  const [gen, setGen] = useState(0);          // sube al conectar por primera vez → las pestañas cargan sus datos
+  const [buscando, setBuscando] = useState(0);
   useEffect(() => {
-    bridge.healthFull().then((h) => {
-      if (!h) return;
-      setRea(h.rea);
-      setProviders(h.providers);
-      const first = h.providers.find((p) => p.ready);
-      if (first) setProvider(first.id);
-      bridge.fetchStyles().then((s) => s.length && setStyles(s));
-    });
+    let vivo = true, conectado = false, t: ReturnType<typeof setTimeout>;
+    const probar = async () => {
+      const h = await bridge.healthFull();
+      if (!vivo) return;
+      if (h) {
+        if (!conectado) {
+          conectado = true;
+          setRea(h.rea); setProviders(h.providers);
+          const first = h.providers.find((p) => p.ready);
+          if (first) setProvider(first.id);
+          bridge.fetchStyles().then((s) => s.length && setStyles(s));
+          setGen((g) => g + 1);
+        }
+        setBuscando(0);
+      } else { if (conectado) { conectado = false; setProviders(null); } setBuscando((n) => n + 1); }
+      t = setTimeout(probar, conectado ? 15000 : 2000);
+    };
+    probar();
+    return () => { vivo = false; clearTimeout(t); };
   }, []);
 
   // Bucle de render
@@ -282,17 +296,22 @@ export default function App() {
         </div>
       </header>
 
+      {!providers && buscando > 0 && (
+        <div className="aviso-motor">
+          <span className="punto" /> {buscando < 30 ? "Encendiendo el motor… un momento, se conecta solo." : <>El motor no responde. Usa <b>Apagar Emperador</b> y vuelve a abrir la corona. Si sigue, en Ubuntu escribe <code>emperador diagnostico</code>.</>}
+        </div>
+      )}
       <div style={{ display: mode === "montaje" ? "contents" : "none" }}>
-        <Montaje online={!!providers} onOpenInEditor={(f) => { setMode("editor"); loadFile(f); setTab("ai"); }} onCrearVideo={(id) => { setDesdeMontaje(id); setMode("crear"); }} />
+        <Montaje key={`m${gen}`} online={!!providers} onOpenInEditor={(f) => { setMode("editor"); loadFile(f); setTab("ai"); }} onCrearVideo={(id) => { setDesdeMontaje(id); setMode("crear"); }} />
       </div>
       {/* las pestañas siguen vivas al cambiar: lo que estaba trabajando sigue y no se pierde nada */}
       <div style={{ display: mode === "crear" ? "contents" : "none" }}>
-        <CrearVideo online={!!providers} providers={providers} desdeMontaje={desdeMontaje} reanudar={reanudar} onIrAUnir={() => setMode("montaje")}
+        <CrearVideo key={`c${gen}`} online={!!providers} providers={providers} desdeMontaje={desdeMontaje} reanudar={reanudar} onIrAUnir={() => setMode("montaje")}
           onRapido={(f, styleId) => { setMode("editor"); setStyleId(styleId); autoStyle.current = styleId; loadFile(f); setTab("ai"); }} />
       </div>
 
       <div style={{ display: mode === "historial" ? "contents" : "none" }}>
-        <Historial visible={mode === "historial"} onSeguir={(id) => { setReanudar(id); setMode("crear"); }} />
+        <Historial key={`h${gen}`} visible={mode === "historial"} onSeguir={(id) => { setReanudar(id); setMode("crear"); }} />
       </div>
 
       <div className="editor-view" style={{ display: mode === "editor" ? "contents" : "none" }}>
@@ -363,7 +382,7 @@ export default function App() {
           </>
         )}
 
-        <div style={{ display: tab === "lab" ? "contents" : "none" }}><Lab mediaId={mediaId} fileName={file?.name} /></div>
+        <div style={{ display: tab === "lab" ? "contents" : "none" }}><Lab key={`l${gen}`} mediaId={mediaId} fileName={file?.name} /></div>
 
         {tab === "motion" && (
           <>

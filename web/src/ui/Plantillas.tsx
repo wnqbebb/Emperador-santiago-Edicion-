@@ -444,7 +444,7 @@ export function Catalogo({ eleccion, onChange }: { eleccion: Eleccion; onChange:
   const [familias, setFamilias] = useState<bridge.Familia[]>([]);
   const [subs, setSubs] = useState<bridge.PresetSub[]>([]);
   useEffect(() => { bridge.familias().then(setFamilias).catch(() => null); bridge.presetsSubtitulos().then(setSubs).catch(() => null); }, []);
-  if (!familias.length) return <p className="hint">Enciende el bridge (<code>npm run dev</code>) para ver los estilos.</p>;
+  if (!familias.length) return <p className="hint">Cargando los estilos…</p>;
   return (
     <div className="catalogo">
       <Galeria familias={familias} fam={eleccion.fam ?? ""} vari={eleccion.vari} disabled={false} onPick={(fam, vari) => onChange({ ...eleccion, fam, vari })} />

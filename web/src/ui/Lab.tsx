@@ -62,7 +62,7 @@ export function Lab({ mediaId, fileName }: { mediaId: string | null; fileName?: 
   }
 
   const copy = (t: string) => navigator.clipboard?.writeText(t);
-  if (!ves) return <p className="hint">Enciende el bridge (<code>npm run dev</code>) para usar el Laboratorio.</p>;
+  if (!ves) return <p className="hint">Conectando con el motor… (se conecta solo)</p>;
   if (!ves.installed) return <p className="hint">Falta instalar VES: <code>npm run setup:ves</code></p>;
   const files = status?.files ?? [];
   const link = (f: string) => bridge.vesFileUrl(f);

@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+# emperador — maneja Emperador Santiago desde cualquier carpeta.
+#   emperador               enciende y abre la app
+#   emperador apagar        apaga todo
+#   emperador reiniciar     apaga y vuelve a encender
+#   emperador actualizar    baja la última versión, instala lo nuevo y reinicia
+#   emperador estado        dice si está encendido
+#   emperador diagnostico   revisa todo y dice qué falta
+#   emperador registros     muestra los últimos mensajes del motor
+PROY="$(cd "$(dirname "$(readlink -f "$0")")/.." && pwd)"
+cd "$PROY" || exit 1
+export PATH="$HOME/.local/bin:$PATH"
+[ -s "$HOME/.nvm/nvm.sh" ] && . "$HOME/.nvm/nvm.sh" >/dev/null 2>&1
+URL=http://localhost:4173
+motor() { curl -fs -o /dev/null --max-time 3 http://localhost:8787/api/health; }
+web() { curl -fs -o /dev/null --max-time 3 $URL/; }
+abrir_navegador() {
+  command -v powershell.exe >/dev/null || { echo "Abre $URL en tu navegador"; return; }
+  powershell.exe -NoProfile -Command "try { Start-Process msedge -ArgumentList '--app=$URL','--window-size=1440,920' } catch { Start-Process '$URL' }" >/dev/null 2>&1
+}
+encender() {
+  if motor && web; then echo "✓ Ya está encendido"; return 0; fi
+  echo "Encendiendo Emperador Santiago…"
+  mkdir -p data/logs
+  nohup bash scripts/iniciar.sh > data/logs/iniciar.log 2>&1 &
+  for i in $(seq 1 240); do motor && web && { echo "✓ Listo en $URL"; return 0; }; sleep 0.5; done
+  echo "✗ No encendió a tiempo. Ejecuta: emperador diagnostico"; return 1
+}
+case "${1:-abrir}" in
+  abrir|"") encender && abrir_navegador ;;
+  apagar) bash scripts/detener.sh ;;
+  reiniciar) bash scripts/detener.sh; sleep 2; encender && abrir_navegador ;;
+  actualizar)
+    echo "▸ Bajando la última versión…"
+    if ! git pull --ff-only; then
+      echo "  Tienes cambios locales: los guardo aparte (git stash) y vuelvo a intentar."
+      git stash push -u -m "antes de actualizar $(date '+%F %T')" && git pull --ff-only || { echo "✗ No pude actualizar. Mándale este mensaje a Claude."; exit 1; }
+    fi
+    echo "▸ Instalando lo nuevo…"; npm install --no-audit --no-fund || exit 1
+    echo "▸ Preparando la interfaz…"; npm run build -w web >/dev/null 2>&1 && echo "  ✓ interfaz lista"
+    bash scripts/detener.sh >/dev/null; sleep 2
+    encender && abrir_navegador ;;
+  estado) motor && echo "✓ Motor encendido" || echo "✗ Motor apagado"; web && echo "✓ Interfaz encendida ($URL)" || echo "✗ Interfaz apagada" ;;
+  registros|logs) tail -40 data/logs/bridge.log 2>/dev/null || echo "Aún no hay registros" ;;
+  diagnostico)
+    ok() { echo "  ✓ $1"; }; mal() { echo "  ✗ $1"; }
+    echo "Revisando Emperador Santiago en $PROY"
+    command -v node >/dev/null && ok "Node $(node -v)" || mal "Falta Node.js (ver INSTALAR.md)"
+    [ -d node_modules ] && ok "Dependencias instaladas" || mal "Faltan dependencias: emperador actualizar"
+    command -v ffmpeg >/dev/null && ok "FFmpeg" || mal "Falta FFmpeg: sudo apt install -y ffmpeg"
+    [ -x tools/.venv/bin/python ] && ok "Python (Whisper, cara, silueta)" || mal "Falta Python del sistema: npm run setup"
+    [ -d sonidos/musica ] && ok "Música descargada" || mal "Sin música: bash scripts/descargar-sonidos.sh"
+    for c in claude codex gemini; do command -v $c >/dev/null && ok "IA: $c instalado" || echo "  · IA: $c no instalado (opcional)"; done
+    motor && ok "Motor respondiendo en :8787" || mal "El motor no responde"
+    web && ok "Interfaz respondiendo en $URL" || mal "La interfaz no responde"
+    if ! motor; then echo; echo "Últimos mensajes del motor:"; tail -20 data/logs/bridge.log 2>/dev/null; fi ;;
+  *) sed -n '2,10p' "$0" ;;
+esac

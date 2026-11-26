@@ -3,7 +3,7 @@
 # sin escribir comandos. Ejecútalo UNA vez desde Ubuntu (WSL):   bash scripts/instalar-icono.sh
 # Luego: clic derecho en el ícono del Escritorio → «Anclar a la barra de tareas».
 set -e
-cd "$(dirname "$0")/.."
+cd "$(dirname "$(readlink -f "$0")")/.."
 PROY="$(pwd)"
 DISTRO="${WSL_DISTRO_NAME:-Ubuntu-24.04}"
 command -v powershell.exe >/dev/null || { echo "Esto se ejecuta dentro de Ubuntu en Windows (WSL)."; exit 1; }
@@ -48,6 +48,12 @@ sh.Run "wsl.exe -d $DISTRO -- bash -lc ""'$PROY/scripts/detener.sh'""", 0, True
 MsgBox "Emperador Santiago se apagó.", 64, "Emperador Santiago"
 VBS
 
+# Actualizar: abre una ventana que muestra el progreso
+cat > "$DEST/Actualizar.vbs" <<VBS
+Set sh = CreateObject("WScript.Shell")
+sh.Run "wsl.exe -d $DISTRO -- bash -lc ""'$PROY/scripts/emperador' actualizar; echo; read -p 'Listo. Pulsa Enter para cerrar…' x""", 1, False
+VBS
+
 # Accesos directos con ícono (Escritorio y menú Inicio)
 powershell.exe -NoProfile -Command "
 \$sh = New-Object -ComObject WScript.Shell
@@ -56,6 +62,9 @@ foreach (\$dir in @([Environment]::GetFolderPath('Desktop'), (Join-Path ([Enviro
   \$a = \$sh.CreateShortcut((Join-Path \$dir 'Emperador Santiago.lnk'))
   \$a.TargetPath = 'wscript.exe'; \$a.Arguments = '\"' + \$dest + '\\Emperador.vbs\"'
   \$a.IconLocation = \$dest + '\\emperador.ico'; \$a.Description = 'Emperador Santiago · Edición de Videos'; \$a.Save()
+  \$c = \$sh.CreateShortcut((Join-Path \$dir 'Actualizar Emperador.lnk'))
+  \$c.TargetPath = 'wscript.exe'; \$c.Arguments = '\"' + \$dest + '\\Actualizar.vbs\"'
+  \$c.IconLocation = \$dest + '\\emperador.ico'; \$c.Description = 'Actualizar Emperador Santiago'; \$c.Save()
   \$b = \$sh.CreateShortcut((Join-Path \$dir 'Apagar Emperador.lnk'))
   \$b.TargetPath = 'wscript.exe'; \$b.Arguments = '\"' + \$dest + '\\Apagar.vbs\"'
   \$b.IconLocation = \$dest + '\\emperador.ico'; \$b.Description = 'Apagar Emperador Santiago'; \$b.Save()
@@ -65,5 +74,5 @@ foreach (\$dir in @([Environment]::GetFolderPath('Desktop'), (Join-Path ([Enviro
 echo "Preparando la interfaz (un minuto, solo esta vez)…"
 npm run build -w web >/dev/null 2>&1 && echo "✓ Interfaz lista"
 echo
-echo "✓ Listo. En tu Escritorio y en el menú Inicio tienes «Emperador Santiago» y «Apagar Emperador»."
+echo "✓ Listo. En tu Escritorio y en el menú Inicio tienes «Emperador Santiago», «Apagar Emperador» y «Actualizar Emperador»."
 echo "  Para la barra de tareas: clic derecho en «Emperador Santiago» del menú Inicio → «Anclar a la barra de tareas»."

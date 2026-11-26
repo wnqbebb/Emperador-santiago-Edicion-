@@ -59,17 +59,31 @@ Para usar una clave de API, copia `.env.example` a `.env` y ponla ahí (el siste
 
 ## 3. Arrancar
 
-### Con un clic (recomendado): ícono en la barra de tareas
+### Instalar o actualizar TODO de una vez (recomendado)
 
-Una sola vez, en Ubuntu:
+En Ubuntu, desde cualquier carpeta:
 
 ```bash
-bash scripts/instalar-icono.sh
+bash ~/Emperador-santiago-Edicion-/scripts/instalar.sh
 ```
 
-Crea **«Emperador Santiago»** y **«Apagar Emperador»** en tu Escritorio y en el menú Inicio, con su corona. Para tenerlo en la barra de tareas: menú Inicio → clic derecho en «Emperador Santiago» → **Anclar a la barra de tareas**.
+Baja la última versión, instala lo que falte, crea el comando `emperador`, baja la música, crea los íconos de Windows (**Emperador Santiago**, **Apagar Emperador**, **Actualizar Emperador**) y deja el sistema encendido. Se puede repetir sin miedo.
 
-Desde ahí, un clic enciende todo y abre la app en su propia ventana (unos segundos; la primera vez tras un `git pull` tarda un poco más porque prepara la interfaz). «Apagar Emperador» libera la memoria cuando termines.
+Para la barra de tareas: menú Inicio → clic derecho en «Emperador Santiago» → **Anclar a la barra de tareas**.
+
+### El comando `emperador` (desde cualquier carpeta de Ubuntu)
+
+| Escribe | Qué hace |
+|---|---|
+| `emperador` | enciende y abre la app |
+| `emperador apagar` | apaga todo |
+| `emperador reiniciar` | apaga y vuelve a encender |
+| `emperador actualizar` | baja la última versión, instala y reinicia |
+| `emperador estado` | dice si está encendido |
+| `emperador diagnostico` | revisa todo y dice qué falta |
+| `emperador registros` | últimos mensajes del motor |
+
+Si la app abre y abajo dice «Encendiendo el motor…», espera unos segundos: se conecta sola.
 
 ### Con comandos (para desarrollar)
 

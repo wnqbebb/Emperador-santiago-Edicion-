@@ -14,7 +14,11 @@
   (async function esperar() {
     // se prueba con una imagen de la app: funciona desde un archivo local en cualquier navegador
     const ok = await new Promise((r) => { const i = new Image(); i.onload = () => r(true); i.onerror = () => r(false); i.src = URL_APP + "estilos/imperial.jpg?" + Date.now(); });
-    if (ok) { location.replace(URL_APP); return; }
+    // y que el motor también responda (si no, la app abriría sin poder procesar)
+    const motor = ok && await fetch("http://localhost:8787/api/health", { mode: "no-cors", cache: "no-store" }).then(() => true, () => false);
+    // si el navegador no deja comprobar el motor desde aquí, igual se abre: la app se conecta sola cuando esté
+    if (ok && (motor || Date.now() - t0 > 40000)) { location.replace(URL_APP); return; }
+    if (ok && !motor) msg.textContent = "Encendiendo el motor de edición…";
     const s = Math.round((Date.now() - t0) / 1000);
     if (s > 20) msg.textContent = "Preparando la interfaz (solo la primera vez o después de actualizar)…";
     if (s > 180) msg.textContent = "Está tardando más de lo normal. Abre Ubuntu y ejecuta: bash scripts/iniciar.sh para ver qué pasa.";
