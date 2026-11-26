@@ -9,6 +9,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const [propsFile, out, ...flags] = process.argv.slice(2);
 const draft = flags.includes("--draft");
 const still = flags.find((f) => f.startsWith("--still="));
+const frames = flags.find((f) => f.startsWith("--frames="))?.split("=")[1].split("-").map(Number);   // Emperador: solo un tramo (vistas previas)
 const inputProps = JSON.parse(fs.readFileSync(propsFile, "utf8"));
 
 const CANDIDATES = [
@@ -30,7 +31,7 @@ if (still) {
 } else {
   let last = -1;
   await renderMedia({
-    composition, serveUrl, codec: "h264", outputLocation: out, inputProps, browserExecutable,
+    composition, serveUrl, codec: "h264", outputLocation: out, inputProps, browserExecutable, ...(frames ? { frameRange: [frames[0], frames[1]] } : {}),
     crf: draft ? 28 : 16, scale: draft ? 0.5 : 1, concurrency: Math.max(1, (await import("node:os")).cpus().length - 1),
     onProgress: ({ progress }) => { const p = Math.floor(progress * 20); if (p !== last) { last = p; process.stdout.write(`\r[render] ${Math.round(progress * 100)}%`); } },
   });

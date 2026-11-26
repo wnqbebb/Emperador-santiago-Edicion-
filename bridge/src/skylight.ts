@@ -1,17 +1,14 @@
 // Motor Skylight (skill .claude/skills/skylight): clip premium 9:16 hecho en código con HyperFrames.
 // Cara arriba con subtítulo en dos niveles (lead-in fino + palabra clave en negrita), b-roll con flechas y recuadros,
 // animaciones en papel claro (barras, línea, orbes, casillas) y "mundos" (un objeto recortado flotando en un cielo,
-// atardecer, estudio o espacio). Imágenes libres de Wikimedia Commons con créditos. Local y gratis.
+// atardecer, estudio o espacio). Las imágenes y videos los genera Santiago con los prompts del paso de assets. Local y gratis.
 // Adaptado a Emperador: clips verticales en español, la paleta elegida en las preguntas y tablero A/B/C.
 import { spawn } from "node:child_process";
-import { existsSync, readFileSync, writeFileSync, mkdirSync, copyFileSync, readdirSync, statSync, rmSync } from "node:fs";
-import { join, dirname, resolve, relative, normalize, extname, basename } from "node:path";
+import { existsSync, readFileSync, writeFileSync, mkdirSync, copyFileSync, readdirSync, statSync } from "node:fs";
+import { join, dirname, resolve, relative, normalize, extname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { DATA } from "./store.js";
 import type { Asset, PlanOpts, Energia } from "./beats.js";
-import Anthropic from "@anthropic-ai/sdk";
-import { ANTHROPIC_MODEL } from "./providers/anthropic.js";
-import { runCli } from "./providers/subscriptions.js";
 import type { ProviderId } from "./providers/index.js";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..", "..");
@@ -91,7 +88,7 @@ export type SScene = { type: string; s: number; e: number; in?: string; img?: st
 export type SOpt = { title: string; cats?: string; desc?: string; ref?: string; type: null; scenes: SScene[] };
 export type SBeat = { id: string; start: number; end: number; script: string; seen: string; pick: "A" | "B" | "C"; opts: SOpt[] };
 export type Imagen = { slot: string; buscar: string; como: "white" | "glass" | "cover" | "person" | "logo"; para?: string };
-export type SBeats = { title: string; beats: SBeat[]; captions: { s: number; at: string; pos?: string; ink?: string }[]; imagenes: Imagen[]; people?: Record<string, { name: string; title: string }>; special_font?: string; assets?: Asset[] };
+export type SBeats = { brief?: unknown; title: string; beats: SBeat[]; captions: { s: number; at: string; pos?: string; ink?: string }[]; imagenes: Imagen[]; people?: Record<string, { name: string; title: string }>; special_font?: string; assets?: Asset[] };
 
 const read = (p: string, max = 1e9) => (existsSync(p) ? readFileSync(p, "utf8").slice(0, max) : "");
 
@@ -118,7 +115,7 @@ ${ex("hormozi-ideas-1123")}
 - El clip YA está elegido y cortado (es de Santiago hablando a cámara, vertical, en español): no hay que buscar el momento.
 - Los subtítulos van en ESPAÑOL, en minúscula, con UNA palabra o frase especial por página (marcas !, !!, !!g, !!w, !p, [ ], { }).
 - Coordenadas en píxeles de 1080×1920.
-- Imágenes: tú NO las ves; das palabras de búsqueda en INGLÉS para Wikimedia Commons (cortas). Para objetos de un "world" o un "duo" pide fotos de producto: añade "white background" o "isolated" a la búsqueda y como "white" (o "glass").
+- Material visual: TODO lo que se ve y no es la cara (el objeto de un "world", un b-roll, un recorte de "duo") lo genera Santiago. NO se busca en internet. Pídelo en "assets" con "id" = el nombre corto del hueco (p. ej. "percha"), "como": white (objeto suelto para recortar, fondo blanco liso) | glass | person | logo | cover (foto a pantalla completa 9:16) | video (b-roll en movimiento), y prompt profesional en 7 bloques. Si necesita a alguien concreto (Santiago, un cliente, su producto real), dilo en "referencia".
 - Las rutas de imagen son assets/img/<slot>.png (white/glass/person/logo) o assets/img/<slot>.jpg (cover).
 - Colores: la paleta ya está elegida (${JSON.stringify(po.palette ?? {})}).
 - CREATIVIDAD (manda Santiago): los ejemplos son inspiración, no plantilla. Esto es para redes: lo viral manda.${po.plugins ?? ""}`;
@@ -134,15 +131,14 @@ Devuelve SOLO un JSON (bloque \`\`\`json) con:
  "beats": [ {"id","start","end","script","seen" (qué regla de Skylight lo justifica),"pick":"A|B|C",
    "opts": [ {"title","cats","desc","type": null,"scenes": [ escenas de Skylight con "s","e" ABSOLUTOS dentro del beat, back to back, cubriendo el beat entero ]}, ×3 ] } ],
  "captions": [ {"s","at","pos"?,"ink"?} … ]   (UNA lista para todo el clip, una página por frase; ink "dark" y pos "top" cuando la escena es blanca: bars/line/orbs/days/duo),
- "imagenes": [ {"slot":"hanger","buscar":"clothes hanger white background","como":"white","para":"b03"} … ] (máx. 8, solo las que usan las opciones),
- "assets": [ … ] (máx. 6: material que Commons no tiene y que Santiago debería grabar o generar; formato {"id":"A01","name","kind":"image|video","modelo","ar":"9:16","resolucion":"1080x1920","duracion","en_pantalla","referencia","is_ref","bloques":{"referencias","contexto","mapa_espacial","accion","camara","luz_textura","bloqueos"},"prompt" (EN INGLÉS, los 7 bloques en un párrafo),"resumen","negative","archivo","for_beat"}) }
+ "assets": [ … ] (máx. 8: TODO el material que usan las opciones; formato {"id":"percha" (= el hueco: la escena usa assets/img/percha.png si es white/glass/person/logo, .jpg si es cover, .mp4 si es video),"como":"white|glass|person|logo|cover|video","name","kind":"image|video","modelo":"imagen: Nano Banana Pro / GPT Image · video: Seedance 2.5 / Kling / Veo","ar":"9:16|1:1","resolucion","duracion":"solo video: el doble de lo que sale, mín. 4 s","en_pantalla":"b03 · 7.2–8.4 s","referencia":"qué referencia usar (y si hace falta una persona o producto real, cuál)","is_ref","bloques":{"referencias","contexto","mapa_espacial","accion","camara","luz_textura":"con HEX de la paleta","bloqueos":"para white/glass: objeto solo, centrado, fondo blanco liso, sin sombras duras"},"prompt" (EN INGLÉS, los 7 bloques en un párrafo),"resumen","negative","archivo","for_beat"}) }
 Reglas: beats de 1.5–6 s sin huecos ni solapes de 0 a ${duration.toFixed(2)}; el primero abre en la cara (aroll con "in":"focus"); A = lo mejor del estilo para ESTE contenido, B = otra idea (otra animación, otro mundo), C = más sobria (cara, punch-in) u otra idea fuerte. Reparte ~40 % cara, ~25 % b-roll, ~35 % pantallas completas, con 2–4 mundos en las opciones recomendadas.`;
   return { system, user, duration };
 }
 
 /** Limpia: tipos válidos, tiempos dentro del beat, rutas de imagen conocidas, subtítulos ordenados. */
 export function skySanitize(b: SBeats, duration: number, broll: { path: string }[]): SBeats {
-  const slots = new Set((b.imagenes ?? []).slice(0, 8).map((i) => i.slot));
+  const slots = new Set([...(b.assets ?? []).map((a) => a.id), ...(b.imagenes ?? []).map((i) => i.slot)].filter(Boolean));
   const known = (p: string) => broll.some((x) => x.path === p) || slots.has(p.replace(/^assets\/img\//, "").replace(/\.\w+$/, ""));
   let beats = (b.beats ?? []).filter((x) => x && typeof x.start === "number" && typeof x.end === "number").sort((x, y) => x.start - y.start);
   const face = (s: number, e: number): SOpt => ({ title: "Quedarse en la cara", cats: "aroll", desc: "Respiro: cara con subtítulo en dos niveles.", type: null, scenes: [{ type: "aroll", s, e, in: "return" }] });
@@ -164,86 +160,29 @@ export function skySanitize(b: SBeats, duration: number, broll: { path: string }
     if (!"ABC".includes(x.pick)) x.pick = "A";
   });
   const captions = (b.captions ?? []).filter((c) => c && typeof c.s === "number" && typeof c.at === "string" && c.s < duration).sort((p, q) => p.s - q.s);
-  const assets = (b.assets ?? []).slice(0, 6).map((a, i) => {
+  const assets = (b.assets ?? []).slice(0, 8).map((a, i) => {
     const id = a.id || `A${String(i + 1).padStart(2, "0")}`;
     const bl = a.bloques;
     const prompt = a.prompt || (bl ? Object.values(bl).filter(Boolean).join(" ") : "");
     const ar = String(a.ar ?? "").match(/\d+\s*[:x/]\s*\d+/)?.[0]?.replace(/\s/g, "") ?? "9:16";
-    return { ...a, id, ar, prompt, archivo: a.archivo || `${id}_${(a.name || "asset").replace(/[^\w-]+/g, "-")}.${/video/.test(a.kind) ? "mp4" : "png"}` };
+    const como = (a as { como?: string }).como ?? (/video/.test(a.kind) ? "video" : "white");
+    return { ...a, id: String(id).replace(/[^\w-]/g, "") || `A${i + 1}`, como, ar, prompt, archivo: a.archivo || `${id}.${como === "video" ? "mp4" : como === "cover" ? "jpg" : "png"}` };
   });
-  return { title: b.title || "Plan Skylight", special_font: b.special_font === "serif" ? "serif" : "sans", people: b.people, beats, captions, imagenes: (b.imagenes ?? []).slice(0, 8), assets };
+  return { title: b.title || "Plan Skylight", special_font: b.special_font === "serif" ? "serif" : "sans", people: b.people, beats, captions, imagenes: [], assets, brief: (b as { brief?: unknown }).brief } as SBeats;
 }
 
-type Cand = { slot: string; title: string; file?: string };
-/** Tu IA MIRA las candidatas de Commons y elige la que de verdad muestra lo pedido (o ninguna + otra búsqueda).
- *  Sin un modelo con vista, se elige por el título del archivo. */
-async function elegirImagenes(provider: ProviderId, dir: string, want: Imagen[], log: string[]) {
-  const dl = join(dir, "work/dl");
-  const cr = (existsSync(join(dl, "credits.json")) ? JSON.parse(readFileSync(join(dl, "credits.json"), "utf8")) : []) as Cand[];
-  const cands = Object.fromEntries(want.map((i) => [i.slot, cr.filter((c) => c.slot === i.slot && c.file && existsSync(c.file)).map((c) => ({ k: Number(c.file!.match(/_(\d+)\.\w+$/)?.[1] ?? -1), title: c.title, file: c.file! })).filter((c) => c.k >= 0)]));
-  const ask = want.filter((i) => cands[i.slot]?.length).map((i) => `- ${i.slot}: debe mostrar «${i.buscar}» (${i.como === "white" || i.como === "glass" ? "un objeto suelto para recortarlo" : "una foto a pantalla completa"}) · candidatas: ${cands[i.slot].map((c) => `${basename(c.file)} («${c.title.replace(/^File:/, "").slice(0, 70)}»)`).join(", ")}`).join("\n");
-  const pedido = `Eres el editor de fotos de un video vertical. Para cada hueco, MIRA las imágenes candidatas y elige la que de verdad muestra lo pedido, bien encuadrado, nítido, sin texto ni marcas de agua, en color. Si ninguna sirve, pon null y propone otra búsqueda corta en inglés para Wikimedia Commons.
-${ask}
-Devuelve SOLO JSON: {"<hueco>": {"k": <número de la candidata o null>, "otra": "<búsqueda nueva si k es null>"}, …}`;
-  let raw = "";
-  try {
-    if (provider === "claude-cli") raw = await runCli("claude-cli", `${pedido}\nLas imágenes están en esta carpeta: ábrelas con la herramienta Read.`, 10 * 60_000, { mirar: dl });
-    else if (provider === "claude-api") {
-      const content: Anthropic.Messages.ContentBlockParam[] = [];
-      for (const i of want) for (const c of cands[i.slot] ?? []) {
-        content.push({ type: "text", text: `${basename(c.file)}:` });
-        content.push({ type: "image", source: { type: "base64", media_type: c.file.endsWith(".png") ? "image/png" : "image/jpeg", data: readFileSync(c.file).toString("base64") } });
-      }
-      content.push({ type: "text", text: pedido });
-      const msg = await new Anthropic().messages.create({ model: ANTHROPIC_MODEL, max_tokens: 4000, messages: [{ role: "user", content }] });
-      raw = msg.content.flatMap((c) => (c.type === "text" ? [c.text] : [])).join("");
-    }
-  } catch (e) { log.push(`⚠ no pude mirar las imágenes: ${(e as Error).message.slice(0, 160)}`); }
-  let picks: Record<string, { k: number | null; otra?: string }> = {};
-  try { const m = raw.match(/\{[\s\S]*\}/); if (m) picks = JSON.parse(m[0]); } catch { /* sin vista */ }
-  // sin vista: por el título (palabras de la búsqueda que aparecen en el nombre del archivo)
-  for (const i of want) if (!(i.slot in picks)) {
-    const words = i.buscar.toLowerCase().split(/\W+/).filter((w) => w.length > 3 && !["white", "background", "isolated"].includes(w));
-    const best = (cands[i.slot] ?? []).map((c) => ({ k: c.k, n: words.filter((w) => c.title.toLowerCase().includes(w)).length })).sort((a, b) => b.n - a.n)[0];
-    picks[i.slot] = best && best.n > 0 ? { k: best.k } : { k: null };
-  }
-  return picks;
-}
-
-/** Construir con las elecciones: imágenes de Commons para lo elegido, plan.json, build + render + mezcla. */
+/** Construir con las elecciones: los assets que subió Santiago, plan.json, build + render + mezcla. */
 export async function skyBuild(project: string, beats: SBeats, log: string[], step: (i: number) => void, provider: ProviderId = "claude-cli") {
   const dir = skyDir(project);
   const w = JSON.parse(readFileSync(join(dir, "work/words.json"), "utf8"));
   const duration = Number(w.duration);
   let scenes = beats.beats.flatMap((b) => b.opts["ABC".indexOf(b.pick)].scenes);
-  // imágenes que piden las escenas elegidas
-  const used = new Set(scenes.flatMap(NEED_IMG).map((p) => p.replace(/^assets\/img\//, "").replace(/\.\w+$/, "")));
-  const want = beats.imagenes.filter((i) => used.has(i.slot) && /^[\w-]+$/.test(i.slot));
+  // el material lo subió Santiago en el paso de assets (scenes/assets/img/<id>.png|jpg|mp4); lo que falte queda en la cara
   step(4);
-  const creditos = new Map<string, Record<string, string>>();   // archivo → crédito (se juntan las dos vueltas)
-  const elegidos: string[] = [];
-  for (const i of want) for (const ext of [".png", ".jpg"]) { const f = join(dir, "scenes/assets/img", i.slot + ext); if (existsSync(f)) rmSync(f); }
-  if (want.length) {
-    const fetch = async (list: Imagen[]) => {
-      try { await pc(["images", dir, ...list.map((i) => `${i.slot}=${i.buscar.replace(/["\n]/g, " ")}`)], log); } catch (e) { log.push(`⚠ Commons: ${(e as Error).message}`); }
-      const cf = join(dir, "work/dl/credits.json");
-      if (existsSync(cf)) for (const c of JSON.parse(readFileSync(cf, "utf8")) as Record<string, string>[]) if (c.file) creditos.set(basename(c.file), c);
-    };
-    await fetch(want);
-    let picks = await elegirImagenes(provider, dir, want, log);
-    // segunda vuelta: lo que no sirvió se busca con otras palabras
-    const again = want.filter((i) => picks[i.slot]?.k == null && picks[i.slot]?.otra).map((i) => ({ ...i, buscar: picks[i.slot].otra! }));
-    if (again.length) { log.push(`↻ otra búsqueda: ${again.map((i) => `${i.slot} → ${i.buscar}`).join(" · ")}`); await fetch(again); picks = { ...picks, ...(await elegirImagenes(provider, dir, again, log)) }; }
-    for (const i of want) {
-      const k = picks[i.slot]?.k;
-      if (k == null) { log.push(`⚠ ninguna foto sirve para ${i.slot}: esa escena queda en la cara (pide su prompt)`); continue; }
-      log.push(`✓ ${i.slot}: candidata ${k}`);
-      try { await pc(["prep", dir, `${i.slot}=${i.slot}_${k}:${i.como ?? "white"}`], log); elegidos.push(...[...creditos.keys()].filter((f) => f.startsWith(`${i.slot}_${k}.`))); } catch (e) { log.push(`⚠ prep ${i.slot}: ${(e as Error).message}`); }
-    }
-  }
   // lo que no llegó → esa escena vuelve a la cara; el b-roll de Santiago ya está en scenes/assets/img
-  const have = (p: string) => existsSync(join(dir, "scenes", p)) || existsSync(join(dir, "scenes", p.replace(/\.\w+$/, ".png"))) || existsSync(join(dir, "scenes", p.replace(/\.\w+$/, ".jpg")));
-  const fix = (p: string) => (existsSync(join(dir, "scenes", p)) ? p : existsSync(join(dir, "scenes", p.replace(/\.\w+$/, ".png"))) ? p.replace(/\.\w+$/, ".png") : p.replace(/\.\w+$/, ".jpg"));
+  const variantes = (p: string) => [p, ...[".png", ".jpg", ".mp4"].map((e) => p.replace(/\.\w+$/, e))];   // lo subido puede ser imagen o video
+  const have = (p: string) => variantes(p).some((x) => existsSync(join(dir, "scenes", x)));
+  const fix = (p: string) => variantes(p).find((x) => existsSync(join(dir, "scenes", x))) ?? p;
   scenes = scenes.map((s) => {
     if (!NEED_IMG(s).every(have)) return { type: "aroll", s: s.s, e: s.e, in: "return" };
     const t = { ...s };
@@ -259,8 +198,6 @@ export async function skyBuild(project: string, beats: SBeats, log: string[], st
   writeFileSync(join(dir, "work/plan.json"), JSON.stringify(plan, null, 1));
   step(5);
   try { await pc(["plandoc", dir], log); } catch { /* opcional */ }
-  // créditos de las imágenes (CC BY / BY-SA piden el crédito en la descripción)
-  if (elegidos.length) writeFileSync(join(dir, "IMAGE_CREDITS.md"), `# Créditos de imágenes (Wikimedia Commons)\n\nPonlos en la descripción del post (CC BY / BY-SA lo piden).\n\n${elegidos.map((f) => creditos.get(f)!).map((c) => `- ${c.slot}: ${c.title} — ${c.license} — ${String(c.artist ?? "").replace(/<[^>]+>/g, "")} — ${c.page}`).join("\n")}\n`);
   step(6);
   await pc(["all", dir, project], log);
   return { scenes: merged.length, out: `out/${project}.mp4` };

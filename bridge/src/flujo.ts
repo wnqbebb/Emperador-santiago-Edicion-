@@ -10,10 +10,10 @@ import { fileURLToPath } from "node:url";
 import { randomUUID } from "node:crypto";
 import { execFileSync } from "node:child_process";
 import { runVes, waitVes, projectStatus, skillSystem } from "./ves.js";
-import { planBeats, ask, extract, type Beats, type PlanOpts } from "./beats.js";
-import { REELS_DATA, REEL_STEPS, reelDir, reelPrepare, reelPlan, reelBuild, reelStatus, reelEstilo, type RBeats } from "./reels.js";
-import { SKY_DATA, skyDir, skyPrepare, injectPalette, skyPrompt, skySanitize, skyBuild, skyStatus, skyBroll, type SBeats } from "./skylight.js";
-import { KAL_SKILL, isSceneSkill, sceneCfg, type KBeats, type Fuente } from "./beats_kal.js";
+import { planBeats, ask, extract, beatsPrompt, sanitize, type Beats, type PlanOpts } from "./beats.js";
+import { REELS_DATA, REEL_STEPS, reelDir, reelPrepare, reelPlan, reelBuild, reelStatus, reelEstilo, reelPrompt, reelSanitize, type RBeats } from "./reels.js";
+import { pc, SKY_DATA, skyDir, skyPrepare, injectPalette, skyPrompt, skySanitize, skyBuild, skyStatus, skyBroll, type SBeats } from "./skylight.js";
+import { isSceneSkill, sceneCfg, kalPrompt, sanitizeKal, type KBeats, type Fuente } from "./beats_kal.js";
 import { writeMotionHtml, renderMotionHtml } from "./motion.js";
 import { pluginsPrompt, revisar, leerEfectos, aplicarEfectos, type Revision } from "./plugins.js";
 import type { ProviderId } from "./providers/index.js";
@@ -380,7 +380,7 @@ export function tablero(id: string) {
   const f = join(dirOf(job), "out/panel/panel_data.json");
   const beats = JSON.parse(readFileSync(join(dirOf(job), "beats.json"), "utf8"));
   const thumbs = existsSync(f) ? JSON.parse(readFileSync(f, "utf8")).thumbs : {};
-  return { beats, thumbs };
+  return { beats, thumbs, faltan: faltan(job, beats) };
 }
 
 export const flujoFiles = (job: FlujoJob) => (isReel(job) ? reelStatus(job.project) : isSky(job) ? skyStatus(job.project) : projectStatus(job.project, job.skill));
@@ -485,5 +485,91 @@ export function efectos(id: string, texto: string) {
     job.efectos = { ...job.efectos!, status: "done", video: out.slice(dirOf(job).length + 1) };
     save(job);
   })().catch((e) => { job.efectos = { ...job.efectos!, status: "error", error: (e as Error).message.slice(0, 300) }; save(job); });
+  return job;
+}
+
+// ── Paso de assets (obligatorio antes de construir) ─────────────────────────────────────────────────────────────
+type AnyBeats = { beats: { id: string; pick: string; opts: unknown[] }[]; assets?: { id: string; subido?: string; [k: string]: unknown }[] };
+
+/** Assets que piden las opciones elegidas y que Santiago todavía no subió. */
+function faltan(job: FlujoJob, beats: AnyBeats) {
+  const elegido = JSON.stringify(beats.beats.map((b) => b.opts["ABC".indexOf(b.pick)]));
+  return (beats.assets ?? []).filter((a) => !a.subido && new RegExp(`(^|[^\\w])${a.id}([^\\w]|$)`).test(elegido)).map((a) => a.id);
+}
+
+/** El archivo subido reemplaza su marcador en el plan: placeholder «A03 · …», media/assets/A03.*, assets/img/<id>.* */
+function ponerMedia(node: unknown, aid: string, rel: string): void {
+  if (Array.isArray(node)) { node.forEach((x) => ponerMedia(x, aid, rel)); return; }
+  if (!node || typeof node !== "object") return;
+  const o = node as Record<string, unknown>;
+  const marca = (v: unknown) => typeof v === "string" && new RegExp(`^${aid}\\b`).test(v.trim());
+  if (marca(o.placeholder)) o.media = Array.isArray(o.media) || "kind" in o ? [rel] : rel;
+  if (marca(o.label) && "t" in o && !o.media) o.media = rel;
+  for (const [k, v] of Object.entries(o)) {
+    if (typeof v === "string" && new RegExp(`^media/assets/${aid}\\.\\w+$`).test(v)) o[k] = rel;
+    else if (Array.isArray(v) && v.every((x) => typeof x === "string")) o[k] = v.map((x) => (new RegExp(`^media/assets/${aid}\\.\\w+$`).test(x as string) ? rel : x));
+    else ponerMedia(v, aid, rel);
+  }
+}
+
+export async function subirAsset(id: string, aid: string, archivo: string) {
+  const job = getFlujo(id);
+  if (!job) throw new Error("No existe ese flujo");
+  if (!/^[\w-]+$/.test(aid)) throw new Error("Asset inválido");
+  if (isReel(job)) throw new Error("Este estilo dibuja sus gráficos en código: no usa assets");
+  const dir = dirOf(job);
+  const bf = join(dir, "beats.json");
+  const beats = JSON.parse(readFileSync(bf, "utf8")) as AnyBeats;
+  const a = beats.assets?.find((x) => x.id === aid);
+  if (!a) throw new Error(`No hay un asset ${aid} en este plan`);
+  const ext = (archivo.match(/\.\w+$/)?.[0] ?? ".png").toLowerCase();
+  const video = /\.(mp4|mov|webm|m4v)$/.test(ext);
+  let rel: string;
+  if (isSky(job)) {
+    const img = join(dir, "scenes/assets/img");
+    mkdirSync(img, { recursive: true });
+    const como = String(a.como ?? (video ? "video" : "white"));
+    if (video) { rel = `assets/img/${aid}.mp4`; copyFileSync(archivo, join(dir, "scenes", rel)); }
+    else { await pc(["prep", dir, `${aid}=${archivo}:${como === "video" ? "cover" : como}`], job.log); rel = `assets/img/${aid}.${como === "cover" ? "jpg" : "png"}`; }
+  } else {
+    mkdirSync(join(dir, "media/assets"), { recursive: true });
+    rel = `media/assets/${aid}${ext}`;
+    copyFileSync(archivo, join(dir, rel));
+    ponerMedia(beats.beats, aid, rel);
+  }
+  a.subido = rel;
+  writeFileSync(bf, JSON.stringify(beats, null, 1));
+  job.log.push(`✓ asset ${aid} → ${rel}`); save(job);
+  return { aid, rel, faltan: faltan(job, beats) };
+}
+
+// ── Dirección: Santiago le dice al editor qué cambiar del plan antes de construir ───────────────────────────────
+export function dirigir(id: string, texto: string) {
+  const job = getFlujo(id);
+  if (!job) throw new Error("No existe ese flujo");
+  if (job.status === "running") throw new Error("Este flujo todavía está trabajando");
+  if (!texto.trim()) throw new Error("Escribe qué quieres cambiar");
+  const prev = job.status;
+  job.status = "running"; job.step = "Aplicando tu dirección al plan"; save(job);
+  (async () => {
+    const dir = dirOf(job);
+    const actual = readFileSync(join(dir, "beats.json"), "utf8");
+    const system = `Eres el editor de "Emperador Santiago · Edición de Videos". Recibes el plan del tablero (JSON) y la DIRECCIÓN de Santiago.
+Aplica la dirección exactamente y conserva todo lo demás (formato, ids, tiempos, escenas, assets ya subidos con "subido"). Si pide otra opción, cambia "pick"; si pide algo nuevo, edita la opción elegida o crea la escena que haga falta (con el mismo formato) y añade su asset con prompt en 7 bloques si necesita material. Actualiza "brief" si cambia la idea. Devuelve SOLO el JSON completo en un bloque \`\`\`json.`;
+    const out = extract(await ask(job.provider, system, `DIRECCIÓN DE SANTIAGO: ${texto}\n\nPLAN ACTUAL:\n${actual}`)) as unknown as Record<string, unknown>;
+    const r = job.respuestas;
+    let limpio: unknown;
+    if (isReel(job)) limpio = reelSanitize(out as unknown as RBeats, reelEstilo(job.plantilla), reelPrompt(job.project, reelEstilo(job.plantilla), { energia: r.energia, originales: false, broll: [] }).duration);
+    else if (isSky(job)) limpio = skySanitize(out as unknown as SBeats, skyPrompt(job.project, { energia: r.energia, originales: false, broll: r.broll }).duration, r.broll);
+    else if (isKal(job)) limpio = sanitizeKal(out as unknown as KBeats, kalPrompt(job.project, { energia: r.energia, originales: r.originales, broll: r.broll }, job.skill).duration, dir, r.originales, job.skill);
+    else { const bp = beatsPrompt(job.vesStyle, job.project, { energia: r.energia, originales: r.originales, broll: r.broll }); limpio = sanitize(out as unknown as Beats, bp.allowed, bp.duration, r.originales); }
+    // los assets ya subidos se conservan
+    const viejos = (JSON.parse(actual).assets ?? []) as { id: string; subido?: string }[];
+    const nuevo = limpio as AnyBeats;
+    for (const v of viejos) if (v.subido) { const n = nuevo.assets?.find((x) => x.id === v.id); if (n) n.subido = v.subido; else (nuevo.assets ??= []).push(v as never); ponerMedia(nuevo.beats, v.id, v.subido); }
+    writeFileSync(join(dir, "beats.json"), JSON.stringify(nuevo, null, 1));
+    (job as FlujoJob & { direcciones?: string[] }).direcciones = [...((job as FlujoJob & { direcciones?: string[] }).direcciones ?? []), texto];
+    job.status = "tablero"; job.step = "Tablero de preedición: elige A/B/C en cada beat"; save(job);
+  })().catch((e) => { job.status = prev === "review" ? "review" : "tablero"; job.error = `Dirección: ${(e as Error).message.slice(0, 200)}`; save(job); });
   return job;
 }

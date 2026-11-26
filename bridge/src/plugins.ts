@@ -53,6 +53,10 @@ Aplica aquí:
 - ROL DE TOMA: cada beat lleva "rol": gancho | contexto | héroe | acción | detalle | contraste | revelación | clímax | pausa | remate. Debe haber planteamiento y remate.
 - MAPA DE ENERGÍA objetivo (${o.energia}): ${e.cortesSeg[0]}–${e.cortesSeg[1]} cambios visuales por segundo; nunca más de ${e.maxQuieto} s sin que cambie algo.
 - 3 REVISIONES antes de entregar el JSON: (1) tiempo y ritmo; (2) continuidad y dirección entre cortes; (3) pulido (énfasis, texto, acentos de sonido). Corrige lo que falle.
+## BRIEF Y PASO DE ASSETS (obligatorio en cualquier estilo)
+- Añade al JSON "brief": {"idea": "la idea del video en una frase", "gancho": "qué pasa en los primeros 2 s", "estructura": ["gancho → …", "desarrollo → …", "remate/CTA → …"], "estilo": "cómo se verá (ritmo, color, tipografía)", "material": "qué tiene que generar o grabar Santiago y para qué", "personas": "si hace falta alguien o algo real (Santiago, un cliente, su producto o tienda): quién y cómo debe salir; si no, vacío"}. Santiago lo ve en pantalla ANTES de renderizar.
+- Material que no existe → va en "assets" con su prompt profesional (7 bloques). NUNCA se busca en internet ni en bancos de imágenes (salvo las capturas de los enlaces que pegó Santiago). Santiago genera cada asset y lo sube: ESOS archivos son los que se montan.
+- Cada asset dice si es imagen o video ("kind") y, si necesita una persona o producto real, cuál foto de referencia usar ("referencia").
 ## Edit Studio · género «${g}» (estructura, ritmo y movimientos; los prohibidos no se usan)
 ${fichaGenero(g)}`;
 }

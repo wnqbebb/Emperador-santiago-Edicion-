@@ -20,7 +20,7 @@ export type Asset = {
   id: string; name: string; kind: string; ar: string; prompt: string; negative?: string; for_beat?: string; is_ref?: boolean;
   modelo?: string; resolucion?: string; duracion?: string; referencia?: string; archivo?: string; en_pantalla?: string; bloques?: Bloques; resumen?: string;
 };
-export type Beats = { title: string; beats: Beat[]; assets?: Asset[] };
+export type Beats = { title: string; beats: Beat[]; assets?: Asset[]; brief?: unknown };
 export type Energia = "calma" | "media" | "viral";
 export type PlanOpts = { energia: Energia; originales: boolean; broll: { path: string; desc: string }[]; notas?: string; palette?: Record<string, string>; fuentes?: Fuente[]; plugins?: string };
 
@@ -171,7 +171,7 @@ export function sanitize(b: Beats, allowed: string[], duration: number, original
     const ar = String(a.ar ?? "").match(/\d+\s*[:x/]\s*\d+/)?.[0]?.replace(/\s/g, "") ?? "9:16";
     return { ...a, id, ar, prompt, archivo: a.archivo || `${id}_${(a.name || "asset").replace(/[^\w-]+/g, "-")}.${ext}` };
   });
-  return { title: b.title || "Plan por beats", beats, assets };
+  return { title: b.title || "Plan por beats", beats, assets, brief: (b as { brief?: unknown }).brief } as Beats;
 }
 
 /** Pide el JSON al proveedor elegido (API o suscripción). */

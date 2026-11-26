@@ -76,10 +76,11 @@ export type KScene = { type: string; start?: number; end?: number; s?: number; e
 export type Opt = { layout?: string; palabra?: string; grafico?: { brief: string; region: string } | null; title: string; cats?: string; desc?: string; ref?: string; type: string | null; props?: Record<string, unknown>; scenes?: KScene[] };
 export type Beats = { title: string; beats: { id: string; start: number; end: number; script: string; seen: string; pick: "A" | "B" | "C"; opts: Opt[] }[];
   assets?: Asset[] };
-export type Asset = { origen?: string; id: string; name: string; kind: string; ar: string; prompt: string; negative?: string; for_beat?: string; is_ref?: boolean;
+export type Asset = { subido?: string; como?: string; origen?: string; id: string; name: string; kind: string; ar: string; prompt: string; negative?: string; for_beat?: string; is_ref?: boolean;
   modelo?: string; resolucion?: string; duracion?: string; referencia?: string; archivo?: string; en_pantalla?: string; resumen?: string;
   bloques?: Record<"referencias" | "contexto" | "mapa_espacial" | "accion" | "camara" | "luz_textura" | "bloqueos", string> };
-export type Tablero = { beats: Beats; thumbs: Record<string, string> };
+export type Brief = { idea?: string; gancho?: string; estructura?: string[]; estilo?: string; material?: string; personas?: string };
+export type Tablero = { beats: Beats & { brief?: Brief }; thumbs: Record<string, string>; faltan?: string[] };
 export type FlujoJob = { id: string; project: string; plantilla: string; status: "running" | "tablero" | "review" | "error"; step: string; steps: string[]; current: number; log: string[]; error?: string;
   beats?: number; scenes?: number; assets?: number; originales?: number; project_status?: VesProject; skill?: string; motor?: "ves" | "skylight" | "reels";
   prompts?: { status: "running" | "done" | "error"; base: string; pedido?: string; nuevos?: string[]; error?: string };
@@ -92,6 +93,13 @@ export const startFlujo = (b: Fuente & { plantilla: string; provider: string; br
   respuestas: { energia: string; texturas: number; palette?: Record<string, string>; originales: boolean; rapido: boolean; notas?: string; fuentes?: string[] } }) =>
   j<FlujoJob>("/api/flujo", { method: "POST", body: JSON.stringify(b) });
 export const getFlujo = (id: string) => j<FlujoJob>(`/api/flujo/${id}`);
+export const dirigir = (id: string, texto: string) => j<FlujoJob>(`/api/flujo/${id}/dirigir`, { method: "POST", body: JSON.stringify({ texto }) });
+export async function subirAsset(id: string, aid: string, f: File) {
+  const r = await fetch(`${BASE}/api/flujo/${id}/asset?aid=${encodeURIComponent(aid)}&name=${encodeURIComponent(f.name)}`, { method: "POST", body: f });
+  const d = await r.json();
+  if (!r.ok) throw new Error(d.error ?? "No se pudo subir");
+  return d as { aid: string; rel: string; faltan: string[] };
+}
 export const tablero = (id: string) => j<Tablero>(`/api/flujo/${id}/tablero`);
 export const elegir = (id: string, picks: Record<string, string>) => j<FlujoJob>(`/api/flujo/${id}/elegir`, { method: "POST", body: JSON.stringify({ picks }) });
 export const replan = (id: string, cambios: Record<string, unknown>) => j<FlujoJob>(`/api/flujo/${id}/replan`, { method: "POST", body: JSON.stringify(cambios) });

@@ -62,7 +62,7 @@ export const NFrame: React.FC<P> = ({ props: p, project, video, start }) => {
       <Frame x={x} y={y0} w={w} h={h} k={k}><T p={top} project={project} start={start} w={w} h={h} /></Frame>
       {face ? (
         <div style={{ position: "absolute", left: W * 0.102, top: H * 0.705 + (1 - fk) * 200, width: W * 0.795, height: H * 0.4, borderRadius: 32, overflow: "hidden", boxShadow: `0 0 0 6px ${NICK.face}, 0 0 50px ${NICK.face}66` }}>
-          <FaceCrop video={video} start={start} w={W * 0.795} h={H * 0.4} face={p.face} zoom={p.zoom ?? 1.1} cy={0.3} />
+          <FaceCrop video={video} start={start} w={W * 0.795} h={H * 0.4} face={p.face} zoom={p.zoom ?? 1.1} cy={0.37} vis={H * 0.295} />   {/* solo se ve la parte de arriba de la caja */}
         </div>
       ) : null}
     </AbsoluteFill>

@@ -113,7 +113,7 @@ El código vive en GitHub. **Tú** y **yo** (Claude, en la web) trabajamos sobre
 2. **Crear video:**
    - Sube un clip hablando a cámara (o "Editarlo con una plantilla" desde Unir clips).
    - Responde las preguntas: Arthur Brooks → Talking head, el color recomendado de tu video, energía Viral, texturas Suaves.
-   - **Empezar edición** → revisa el **tablero** (A/B/C en mini 9:16) y los **assets** con sus prompts → **Construir el borrador**.
+   - **Empezar edición** → lee el **brief**, dale **dirección** si quieres cambiar algo, elige A/B/C en el tablero, genera cada **asset** con su prompt y súbelo → **Construir el borrador**.
    - Prueba también **Kallaway → Noticia con prueba**: pega 1–2 enlaces en *Fuentes y pruebas*; se capturan de verdad y salen arriba con tu cara abajo.
    - Prueba **Skylight → Premium**: sale directo el video final (cara arriba, subtítulo en dos niveles, mundos en el cielo). Pon los créditos de imágenes en la descripción.
    - Prueba **Nick Saraev** (pega el enlace de la herramienta en Fuentes) y **Lobo de Wall Street** (look estudio o casual); arrancan con los colores de cada estilo.

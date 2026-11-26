@@ -10,7 +10,7 @@ import { DATA } from "./store.js";
 import { startRender, getRender, type Engine } from "./render.js";
 import { FX_DIR } from "./fxbake.js";
 import { startMontaje, getMontaje, analizarMontaje, renderMontaje, MONTAJE_DIR } from "./montaje.js";
-import { plantillas, familias, startFlujo, getFlujo, elegir, replanificar, tablero, flujoFiles, paletaDeVideo, cuadro, pedirPrompts, efectos } from "./flujo.js";
+import { plantillas, familias, startFlujo, getFlujo, elegir, replanificar, tablero, flujoFiles, paletaDeVideo, cuadro, pedirPrompts, efectos, subirAsset, dirigir } from "./flujo.js";
 import { EFECTOS } from "./plugins.js";
 import { skyPath } from "./skylight.js";
 import { reelPath } from "./reels.js";
@@ -149,11 +149,19 @@ createServer(async (req, res) => {
       if (!existsSync(videoPath)) return send(res, 400, { error: "No encuentro el video" });
       const brollFiles = (b.broll ?? []).map((x: { mediaId: string; desc: string }) => ({ path: join(MEDIA, basename(x.mediaId)), desc: String(x.desc ?? "") })).filter((x: { path: string }) => existsSync(x.path));
       const r = b.respuestas ?? {};
-      const respuestas = { energia: r.energia ?? "viral", texturas: Number(r.texturas ?? 0.4), palette: r.palette, originales: r.originales !== false, broll: [], rapido: !!r.rapido, notas: r.notas, fuentes: Array.isArray(r.fuentes) ? r.fuentes.map(String).slice(0, 8) : undefined };
+      const respuestas = { energia: r.energia ?? "viral", texturas: Number(r.texturas ?? 0.4), palette: r.palette, originales: r.originales !== false, broll: [], rapido: false,   // el brief siempre se muestra antes de renderizar
+        notas: r.notas, fuentes: Array.isArray(r.fuentes) ? r.fuentes.map(String).slice(0, 8) : undefined };
       return send(res, 200, startFlujo({ videoPath, plantilla: String(b.plantilla), provider: b.provider, name: b.name, respuestas, brollFiles }));
     }
-    const fl = p.match(/^\/api\/flujo\/([\w-]+)(?:\/(elegir|tablero|replan|cuadro|prompts|efectos))?$/);
+    const fl = p.match(/^\/api\/flujo\/([\w-]+)(?:\/(elegir|tablero|replan|cuadro|prompts|efectos|dirigir|asset))?$/);
     if (fl) {
+      if (fl[2] === "dirigir" && req.method === "POST") return send(res, 200, dirigir(fl[1], String((await body(req)).texto ?? "")));
+      if (fl[2] === "asset" && req.method === "POST") {
+        const name = url.searchParams.get("name") ?? "asset.png";
+        const tmp = join(MEDIA, `${randomUUID().slice(0, 8)}${extname(name).toLowerCase() || ".png"}`);
+        await pipeline(req, createWriteStream(tmp));
+        return send(res, 200, await subirAsset(fl[1], String(url.searchParams.get("aid") ?? ""), tmp));
+      }
       if (fl[2] === "efectos" && req.method === "POST") return send(res, 200, efectos(fl[1], String((await body(req)).texto ?? "")));
       if (fl[2] === "prompts" && req.method === "POST") { const b = await body(req); return send(res, 200, pedirPrompts(fl[1], b.base === "pedido" ? "pedido" : "sugerencia", String(b.pedido ?? ""), b.beat ? String(b.beat) : undefined)); }
       if (fl[2] === "elegir" && req.method === "POST") return send(res, 200, elegir(fl[1], (await body(req)).picks ?? {}));

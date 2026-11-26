@@ -66,7 +66,7 @@ type Top = { kind?: string; media?: string[]; placeholder?: string; original?: s
 export type KScene = { id?: string; type: string; start: number; end: number; props?: { top?: Top; [k: string]: unknown } };
 export type KOpt = { title: string; cats?: string; desc?: string; ref?: string; type: null; scenes: KScene[] };
 export type KBeat = { id: string; start: number; end: number; script: string; seen: string; pick: "A" | "B" | "C"; opts: KOpt[] };
-export type KBeats = { title: string; beats: KBeat[]; assets?: Asset[]; special_words?: string[] };
+export type KBeats = { brief?: unknown; title: string; beats: KBeat[]; assets?: Asset[]; special_words?: string[] };
 export type Fuente = { id: string; url: string; title: string; path: string };
 
 const read = (p: string, max = 1e9) => (existsSync(p) ? readFileSync(p, "utf8").slice(0, max) : "");
@@ -208,5 +208,5 @@ export function sanitizeKal(b: KBeats, duration: number, projectDir: string, ori
     const ar = String(a.ar ?? "").match(/\d+\s*[:x/]\s*\d+/)?.[0]?.replace(/\s/g, "") ?? "9:16";
     return { ...a, id, ar, prompt, archivo: a.archivo || `${id}_${(a.name || "asset").replace(/[^\w-]+/g, "-")}.${ext}` };
   });
-  return { title: b.title || `Plan ${cfg.nombre}`, beats, assets, special_words: Array.isArray(b.special_words) ? b.special_words.slice(0, 12).map(String) : undefined };
+  return { brief: (b as { brief?: unknown }).brief, title: b.title || `Plan ${cfg.nombre}`, beats, assets, special_words: Array.isArray(b.special_words) ? b.special_words.slice(0, 12).map(String) : undefined };
 }

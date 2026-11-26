@@ -67,7 +67,7 @@ const ESTILO: Record<Estilo, string> = {
 
 export type ROpt = { title: string; cats?: string; desc?: string; type: null; layout: "cara" | "split" | "grande" | "negro"; punch?: boolean; palabra?: string; grafico?: { brief: string; region: "top" | "lower" | "full" } | null };
 export type RBeat = { id: string; start: number; end: number; script: string; seen: string; pick: "A" | "B" | "C"; opts: ROpt[] };
-export type RBeats = { title: string; estilo: Estilo; keywords: string[]; beats: RBeat[]; assets?: Asset[] };
+export type RBeats = { brief?: unknown; title: string; estilo: Estilo; keywords: string[]; beats: RBeat[]; assets?: Asset[] };
 
 export function reelPrompt(project: string, estilo: Estilo, po: PlanOpts) {
   const dir = reelDir(project);
@@ -123,7 +123,7 @@ export function reelSanitize(b: RBeats, estilo: Estilo, duration: number): RBeat
     }
     if (!"ABC".includes(x.pick)) x.pick = "A";
   });
-  return { title: b.title || "Reel", estilo, keywords: (b.keywords ?? []).slice(0, 20), beats, assets: (b.assets ?? []).slice(0, 6) };
+  return { brief: (b as { brief?: unknown }).brief, title: b.title || "Reel", estilo, keywords: (b.keywords ?? []).slice(0, 20), beats, assets: (b.assets ?? []).slice(0, 6) };
 }
 
 export async function reelPlan(project: string, estilo: Estilo, po: PlanOpts, provider: ProviderId) {

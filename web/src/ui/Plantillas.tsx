@@ -78,7 +78,12 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
     }
   }
 
-  async function construir() { if (!flujo) return; await bridge.elegir(flujo.id, picks); setTab(null); poll(flujo.id); }
+  async function construir() {
+    if (!flujo) return;
+    const faltan = (await bridge.tablero(flujo.id).catch(() => null))?.faltan ?? [];
+    if (faltan.length && !window.confirm(`Faltan ${faltan.length} assets (${faltan.join(", ")}).\n¿Construir igual? Saldrá un marcador en su lugar y podrás subirlos después.`)) return;
+    await bridge.elegir(flujo.id, picks); setTab(null); poll(flujo.id);
+  }
   async function otraPropuesta() { if (!flujo) return; await bridge.replan(flujo.id, { energia, texturas, originales, notas }); setTab(null); poll(flujo.id); }
 
   async function stop3(action: "approve" | "render" | "sound") {
@@ -197,10 +202,6 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
                 {ready.length ? ready.map((p) => <option key={p.id} value={p.id}>{p.label}</option>) : <option value="">Conecta una IA (Claude, ChatGPT o Gemini)</option>}
               </select>
             </label>
-            <label className="toggle mini">
-              <input type="checkbox" checked={rapido} disabled={started} onChange={(e) => setRapido(e.target.checked)} />
-              <span><b>Sin tablero</b><small>usar las recomendaciones directo</small></span>
-            </label>
             <button className="btn primary big" disabled={!variante || working || started || !provider} onClick={start}>
               <Icon name="spark" /> {sending ? "Subiendo b-roll…" : "Empezar edición"}
             </button>
@@ -226,6 +227,8 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
 
           {flujo.status === "tablero" && tab && (
             <div className="board">
+              <BriefCard brief={tab.beats.brief} title={tab.beats.title} />
+              <DireccionBox flujo={flujo} onDone={async () => { const j = await bridge.getFlujo(flujo.id); setFlujo(j); const t = await bridge.tablero(flujo.id); setTab(t); setPicks(Object.fromEntries(t.beats.beats.map((b) => [b.id, b.pick]))); }} />
               <p className="hint">Tu IA propuso {tab.beats.beats.length} beats. En cada uno elige A, B o C (marcada la recomendada). ✦ = motion graphic original · 📎 = necesita un asset.</p>
               {tab.beats.beats.map((b) => (
                 <div key={b.id} className="beat">
@@ -249,10 +252,11 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
               ))}
               <PromptBox flujo={flujo} onDone={async () => { setTab(await bridge.tablero(flujo.id)); setFlujo(await bridge.getFlujo(flujo.id)); }} />
               {tab.beats.assets?.length ? (
-                <details>
-                  <summary>📎 {tab.beats.assets.length} assets que piden las opciones B/C · prompts en 7 bloques</summary>
-                  <div className="assets">{tab.beats.assets.map((a) => <AssetCard key={a.id} a={a} />)}</div>
-                </details>
+                <div className="paso-assets">
+                  <h4>📎 Paso de assets <small>genera cada uno con su prompt y súbelo: ESOS archivos son los que se montan</small></h4>
+                  <p className="hint">{tab.faltan?.length ? `Faltan ${tab.faltan.length} que usan las opciones elegidas: ${tab.faltan.join(", ")}.` : "✓ Están todos los assets que usan las opciones elegidas."} Genera primero el que dice HERO.</p>
+                  <div className="assets">{tab.beats.assets.map((a) => <AssetCard key={a.id} a={a} subir={async (f) => { await bridge.subirAsset(flujo.id, a.id, f); setTab(await bridge.tablero(flujo.id)); }} />)}</div>
+                </div>
               ) : null}
               <div className="row">
                 <button className="btn ghost" onClick={otraPropuesta}>Pedir otra propuesta</button>
@@ -287,8 +291,8 @@ export function Plantillas({ fuente, providers, onRapido }: Props) {
                 {tab?.beats.assets?.length ? (
                   <details open>
                     <summary>📎 Assets para generar ({tab.beats.assets.length}) · prompts profesionales en 7 bloques</summary>
-                    <p className="hint">Genera primero el que dice HERO (los demás lo usan de referencia). Entrega todo en un zip con estos nombres de archivo.</p>
-                    <div className="assets">{tab.beats.assets.map((a) => <AssetCard key={a.id} a={a} />)}</div>
+                    <p className="hint">Genera primero el que dice HERO (los demás lo usan de referencia) y súbelo aquí. Luego «Volver al tablero» → «Construir» para montarlos.</p>
+                    <div className="assets">{tab.beats.assets.map((a) => <AssetCard key={a.id} a={a} subir={async (f) => { await bridge.subirAsset(flujo.id, a.id, f); setTab(await bridge.tablero(flujo.id)); }} />)}</div>
                   </details>
                 ) : null}
                 <button className="btn ghost" onClick={() => setFlujo({ ...flujo, status: "tablero" })}>Volver al tablero y cambiar escenas</button>
@@ -370,6 +374,45 @@ const REEL_NAME: Record<string, string> = { cara: "cara + gráfico", split: "div
 const SKY_ICON: Record<string, string> = { world: "☁", broll: "🎞", bars: "▮▮", line: "↗", orbs: "●●", days: "▦", duo: "◐", still: "▣" };
 const SKY_NAME: Record<string, string> = { aroll: "cara", world: "mundo", broll: "b-roll con trazos", bars: "barras", line: "línea", orbs: "orbes", days: "casillas", duo: "recorte + logos", still: "imagen" };
 
+/** El brief: lo que se va a hacer, en pantalla ANTES de renderizar. */
+function BriefCard({ brief, title }: { brief?: bridge.Brief; title: string }) {
+  if (!brief) return <div className="brief"><h4>📋 Brief · {title}</h4><p className="hint">Revisa el plan beat a beat abajo antes de construir.</p></div>;
+  return (
+    <div className="brief">
+      <h4>📋 Brief · {title}</h4>
+      <div className="brief-grid">
+        {brief.idea && <div><em>Idea</em><p>{brief.idea}</p></div>}
+        {brief.gancho && <div><em>Gancho</em><p>{brief.gancho}</p></div>}
+        {brief.estilo && <div><em>Estilo</em><p>{brief.estilo}</p></div>}
+        {brief.material && <div><em>Material que debes generar</em><p>{brief.material}</p></div>}
+        {brief.personas && <div className="warn"><em>Personas o cosas reales</em><p>{brief.personas}</p></div>}
+      </div>
+      {brief.estructura?.length ? <ol className="brief-est">{brief.estructura.map((x, i) => <li key={i}>{x}</li>)}</ol> : null}
+    </div>
+  );
+}
+
+/** Dirección: lo que Santiago le dice al editor; reescribe el plan antes de construir. */
+function DireccionBox({ flujo, onDone }: { flujo: bridge.FlujoJob; onDone: () => void }) {
+  const [texto, setTexto] = useState("");
+  const [msg, setMsg] = useState("");
+  async function aplicar() {
+    setMsg("Tu IA está aplicando la dirección al plan…");
+    try {
+      let j = await bridge.dirigir(flujo.id, texto);
+      while (j.status === "running") { await new Promise((r) => setTimeout(r, 2000)); j = await bridge.getFlujo(flujo.id); }
+      setMsg(j.error?.startsWith("Dirección") ? j.error : "✓ Plan actualizado con tu dirección"); setTexto(""); onDone();
+    } catch (e) { setMsg((e as Error).message); }
+  }
+  return (
+    <div className="direccion">
+      <h4>🎬 Dale dirección <small>dile qué cambiar y tu IA rehace el plan antes de construir</small></h4>
+      <textarea placeholder="Ej: en el beat 3 usa la opción B pero con la palabra FOTOS más grande; el gancho más agresivo; quita el mundo del atardecer y pon un b-roll de la tienda" value={texto} onChange={(e) => setTexto(e.target.value)} />
+      <div className="row"><button className="btn primary" disabled={!texto.trim()} onClick={aplicar}>Aplicar dirección</button>{msg && <small className="hint">{msg}</small>}</div>
+    </div>
+  );
+}
+
 /** Plugin Katana: la revisión medida del video terminado (vale para cualquier estilo). */
 function KatanaCard({ rev }: { rev: NonNullable<bridge.FlujoJob["revision"]> }) {
   const ok = rev.checks.filter((c) => c.ok).length;
@@ -443,12 +486,13 @@ const BLOQUES: [keyof NonNullable<bridge.Asset["bloques"]>, string][] = [
   ["referencias", "1 · Referencias"], ["contexto", "2 · Contexto"], ["mapa_espacial", "3 · Mapa espacial"], ["accion", "4 · Acción"],
   ["camara", "5 · Cámara"], ["luz_textura", "6 · Luz y textura"], ["bloqueos", "7 · Bloqueos"],
 ];
-function AssetCard({ a }: { a: bridge.Asset }) {
+function AssetCard({ a, subir }: { a: bridge.Asset; subir?: (f: File) => Promise<void> }) {
   const copy = (t?: string) => t && navigator.clipboard?.writeText(t);
+  const [estado, setEstado] = useState("");
   return (
     <div className="asset-card">
       <div className="asset-head">
-        <b>{a.id} · {a.name}</b>{a.is_ref && <span className="hero">HERO · primero</span>}{a.origen && <span className="hero">{a.origen === "pedido" ? "lo que pediste" : "sugerido"}</span>}
+        <b>{a.id} · {a.name}</b>{a.subido && <span className="hero ok">✓ subido</span>}{a.is_ref && <span className="hero">HERO · primero</span>}{a.origen && <span className="hero">{a.origen === "pedido" ? "lo que pediste" : "sugerido"}</span>}
         <small>{a.kind} · {a.ar} · {a.resolucion ?? ""}{a.duracion ? ` · ${a.duracion}` : ""}{a.en_pantalla ? ` · ${a.en_pantalla}` : ""}</small>
       </div>
       {a.resumen && <p className="asset-sum">{a.resumen}</p>}
@@ -466,7 +510,14 @@ function AssetCard({ a }: { a: bridge.Asset }) {
         <button className="btn" onClick={() => copy(a.prompt)}>Copiar prompt</button>
         {a.negative && <button className="btn ghost" onClick={() => copy(a.negative)}>Copiar negativo</button>}
         <button className="btn ghost" onClick={() => copy(`${a.prompt}\n\nNegative: ${a.negative ?? ""}\nAspect ratio: ${a.ar} · ${a.resolucion ?? ""}${a.duracion ? ` · ${a.duracion}` : ""}\nFile: ${a.archivo ?? ""}`)}>Copiar todo</button>
+        {subir && (
+          <label className="btn primary">
+            <input type="file" accept="image/*,video/*" hidden onChange={async (e) => { const f = e.target.files?.[0]; if (!f) return; setEstado("Subiendo…"); try { await subir(f); setEstado("✓ Listo: se usará en la edición"); } catch (er) { setEstado((er as Error).message); } }} />
+            {a.subido ? "Cambiar archivo" : "Subir el asset"}
+          </label>
+        )}
       </div>
+      {estado && <small className="hint">{estado}</small>}
     </div>
   );
 }

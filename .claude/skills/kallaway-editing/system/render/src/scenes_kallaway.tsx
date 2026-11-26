@@ -30,17 +30,25 @@ const useT = (start: number) => {
 /** aparece en su palabra: 0→1 en `n` frames */
 const pop = (f: number, f0: number, n = 5) => interpolate(f, [f0, f0 + n], [0, 1], { ...clamp, easing: out3 });
 
-/** A-roll recortado dentro de una caja: la cara (fracciones del video fuente) queda en (cx, cy) de la caja */
-export const FaceCrop: React.FC<{ video: string; start: number; w: number; h: number; face?: any; zoom?: number; cx?: number; cy?: number }> = ({ video, start, w, h, face, zoom = 1, cx = 0.5, cy = 0.42 }) => {
+/** A-roll recortado dentro de una caja: la cara (fracciones del video fuente) queda en (cx, cy) de la caja.
+ *  Emperador: si el clip es un primer plano, la escala baja hasta que la cabeza ENTERA quepa en la parte visible (vis)
+ *  y lo que sobre se rellena con el mismo video desenfocado (nunca se corta la frente ni la barbilla). */
+export const FaceCrop: React.FC<{ video: string; start: number; w: number; h: number; face?: any; zoom?: number; cx?: number; cy?: number; vis?: number }> = ({ video, start, w, h, face, zoom = 1, cx = 0.5, cy = 0.42, vis }) => {
   const { fps } = useVideoConfig();
   const fa = { x: 0.5, y: 0.36, ...(face ?? {}) };
-  const s = Math.max(w / W, h / H) * zoom;
+  const seen = vis ?? h;
+  const cover = Math.max(w / W, h / H);
+  const fw = (fa.w ?? 0) * W;                                   // ancho de la cara en el video fuente (px)
+  const fit = fw > 0 ? Math.min((0.72 * w) / fw, (0.92 * seen) / (1.3 * fw)) : Infinity;   // cabeza con pelo ≈ 1.3 × cara
+  const s = Math.min(cover * zoom, fit);
   const vw = W * s, vh = H * s;
-  const left = Math.min(0, Math.max(w - vw, w * cx - fa.x * vw));
-  const top = Math.min(0, Math.max(h - vh, h * cy - fa.y * vh));
+  const left = s >= cover ? Math.min(0, Math.max(w - vw, w * cx - fa.x * vw)) : w * cx - fa.x * vw;
+  const top = s >= cover ? Math.min(0, Math.max(h - vh, h * cy - fa.y * vh)) : Math.min(seen * 0.08, Math.max(h - vh, h * cy - fa.y * vh));
+  const src = staticFile(video), from = Math.round(start * fps);
   return (
     <div style={{ position: "absolute", inset: 0, overflow: "hidden", background: "#000" }}>
-      <OffthreadVideo muted src={staticFile(video)} startFrom={Math.round(start * fps)} style={{ position: "absolute", left, top, width: vw, height: vh, objectFit: "cover" }} />
+      {s < cover ? <OffthreadVideo muted src={src} startFrom={from} style={{ position: "absolute", inset: -40, width: w + 80, height: h + 80, objectFit: "cover", filter: "blur(28px) brightness(.55)" }} /> : null}
+      <OffthreadVideo muted src={src} startFrom={from} style={{ position: "absolute", left, top, width: vw, height: vh, objectFit: "cover" }} />
     </div>
   );
 };
